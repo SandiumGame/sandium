@@ -1,0 +1,5 @@
+[[actions]]
+name = "play"
+path = "Sandium.sh"
+scope = "profile:me"
+sandbox = true

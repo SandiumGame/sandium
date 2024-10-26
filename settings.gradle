@@ -1,0 +1,3 @@
+rootProject.name = 'SandiumGlobal'
+
+include 'sandium-client', 'sandium-common', 'sandium-server'

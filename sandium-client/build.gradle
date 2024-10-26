@@ -1,0 +1,108 @@
+plugins {
+    id 'java'
+    id 'com.gradleup.shadow' version '8.3.1'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(path: ':sandium-common')
+
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_22
+    targetCompatibility = JavaVersion.VERSION_22
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'sandium.Main'
+    }
+}
+
+group = 'sandium'
+version = sandiumVersion
+
+project.ext.javaModules = "java.base"   // Comma separated list
+
+project.ext.itchLinuxDist = "build/dists/itch-linux"
+project.ext.itchLinuxDistJre = "build/dists/itch-linux/jre"
+project.ext.itchWindowsDist = "build/dists/itch-windows"
+project.ext.itchWindowsDistJre = "build/dists/itch-windows/jre"
+
+shadowJar{
+    archiveFileName = "Sandium.jar"
+}
+
+task jdeps(dependsOn: shadowJar) {
+    group = "Help"
+    description = "Show required java modules"
+    doLast {
+
+        exec {
+            commandLine "jdeps", "--list-deps", "build/libs/Sandium.jar"
+        }
+    }
+}
+
+task packageDist(dependsOn: shadowJar) {
+    group = "Build"
+    description = "Create client distributable for all platforms "
+    doLast {
+        delete project.ext.itchLinuxDist
+        mkdir project.ext.itchLinuxDist
+        exec {
+            commandLine "jlink", "--add-modules", project.ext.javaModules, "--output", project.ext.itchLinuxDistJre,
+                    "--strip-debug", "--no-man-pages", "--no-header-files", "--compress=zip-9",
+                    "--module-path", "${project.ext.linuxJdk}/jmods" // Comes from environment variable ORG_GRADLE_PROJECT_linuxJdk
+        }
+        copy {
+            from("build/libs/Sandium.jar")
+            into "${project.ext.itchLinuxDist}/lib"
+        }
+        copy {
+            from("dist/itch/linux")
+            from("dist/common")
+            into project.ext.itchLinuxDist
+        }
+
+        delete project.ext.itchWindowsDist
+        mkdir project.ext.itchWindowsDist
+        exec {
+            commandLine "jlink", "--add-modules", project.ext.javaModules, "--output", project.ext.itchWindowsDistJre,
+                    "--strip-debug", "--no-man-pages", "--no-header-files", "--compress=zip-9",
+                    "--module-path", "${project.ext.windowsJdk}/jmods" // Comes from environment variable ORG_GRADLE_PROJECT_windowsJdk
+        }
+        copy {
+            from("build/libs/Sandium.jar")
+            into "${project.ext.itchWindowsDist}/lib"
+        }
+        copy {
+            from("dist/itch/windows")
+            from("dist/common")
+            into project.ext.itchWindowsDist
+        }
+    }
+}
+
+task itchDeploy(dependsOn: packageDist) {
+    group = "Deploy"
+    description = "Deploy distributable to itch.io"
+    doLast {
+        exec {
+            commandLine "butler", "push", project.ext.itchLinuxDist, "sandium/sandium:linux", "--userversion", sandiumVersion
+        }
+        exec {
+            commandLine "butler", "push", project.ext.itchWindowsDist, "sandium/sandium:windows", "--userversion", sandiumVersion
+        }
+    }
+}
