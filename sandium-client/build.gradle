@@ -43,6 +43,16 @@ shadowJar{
     archiveFileName = "Sandium.jar"
 }
 
+task jextract() {
+    group = "Build"
+    description = "Runs jextract and parses header files of native libraries "
+    doLast {
+        // TODO Need to get this working
+        // jextract --include-dir /usr/include/GLFW --output src/main/java --target-package sandium.libs.glfw --library glfw -D GLFW_INCLUDE_VULKAN=1 /usr/include/GLFW/glfw3.h
+        // -L /usr/lib/x86_64-linux-gnu  -l glfw --record-library-path -t glfw -o glfw.jar /usr/include/GLFW/glfw3.h /usr/include/GLFW/glfw3e.h'
+    }
+}
+
 task jdeps(dependsOn: shadowJar) {
     group = "Help"
     description = "Show required java modules"
@@ -71,6 +81,7 @@ task packageDist(dependsOn: shadowJar) {
         }
         copy {
             from("dist/itch/linux")
+            from("dist/linux")
             from("dist/common")
             into project.ext.itchLinuxDist
         }
@@ -88,6 +99,7 @@ task packageDist(dependsOn: shadowJar) {
         }
         copy {
             from("dist/itch/windows")
+            from("dist/windows")
             from("dist/common")
             into project.ext.itchWindowsDist
         }
