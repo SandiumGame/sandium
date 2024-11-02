@@ -1,4 +1,5 @@
 plugins {
+    id "application"
     id 'java'
     id 'com.gradleup.shadow' version '8.3.1'
 }
@@ -23,57 +24,90 @@ java {
     targetCompatibility = JavaVersion.VERSION_22
 }
 
-jar {
-    manifest {
-        attributes 'Main-Class': 'sandium.Main'
-    }
-}
-
 group = 'sandium'
 version = sandiumVersion
 
-project.ext.javaModules = "java.base"   // Comma separated list
+ext {
+    javaMainClass = "sandium.Main"
+    javaModules = "java.base"   // Comma separated list
+    itchLinuxDist = "build/dists/itch-linux"
+    itchWindowsDist = "build/dists/itch-windows"
+}
 
-project.ext.itchLinuxDist = "build/dists/itch-linux"
-project.ext.itchLinuxDistJre = "build/dists/itch-linux/jre"
-project.ext.itchWindowsDist = "build/dists/itch-windows"
-project.ext.itchWindowsDistJre = "build/dists/itch-windows/jre"
+jar {
+    manifest {
+        attributes 'Main-Class': javaMainClass
+    }
+}
+
+application {
+    applicationDefaultJvmArgs = ['--enable-native-access=ALL-UNNAMED']
+    mainClass = javaMainClass
+}
 
 shadowJar{
     archiveFileName = "Sandium.jar"
 }
 
-task jextract() {
+ext.getEnvVar = { String name, String message ->
+    def glfwIncludeDir = System.getenv(name)
+    if (glfwIncludeDir == null)
+        throw new GradleException(message)
+    return glfwIncludeDir
+} as Closure<String>
+
+tasks.register('jextract') {
     group = "Build"
     description = "Runs jextract and parses header files of native libraries "
     doLast {
-        // TODO Need to get this working
-        // jextract --include-dir /usr/include/GLFW --output src/main/java --target-package sandium.libs.glfw --library glfw -D GLFW_INCLUDE_VULKAN=1 /usr/include/GLFW/glfw3.h
-        // -L /usr/lib/x86_64-linux-gnu  -l glfw --record-library-path -t glfw -o glfw.jar /usr/include/GLFW/glfw3.h /usr/include/GLFW/glfw3e.h'
+        def glfwIncludeDir = getEnvVar("INCLUDE_GLFW", "INCLUDE_GLFW environment variable must be set to the directory containing glfw3.h")
+        def tmpDir = "build/glfwjextract"
+
+        delete tmpDir
+        exec {
+            commandLine "jextract", "--include-dir", glfwIncludeDir, "--output", tmpDir, "--target-package", "sandium.libs.glfw", "--library", "glfw", "-D", "GLFW_INCLUDE_VULKAN=1", "${glfwIncludeDir}/glfw3.h"
+        }
+
+        delete "src/main/java/sandium/libs/glfw"
+        copy {
+            from tmpDir
+            into "src/main/java"
+            filter {
+                String line -> line.replace('SymbolLookup.libraryLookup(System.mapLibraryName("glfw"), LIBRARY_ARENA)',
+                                'sandium.libs.LibraryResolver.libraryLookup(sandium.libs.NativeLibrary.GLFW, LIBRARY_ARENA);')
+                                .replace('.or(SymbolLookup.loaderLookup())', '')
+                                .replace('.or(Linker.nativeLinker().defaultLookup());', '')
+            }
+        }
+        delete tmpDir
     }
 }
 
-task jdeps(dependsOn: shadowJar) {
+tasks.register('jdeps') {
+    dependsOn shadowJar
     group = "Help"
     description = "Show required java modules"
     doLast {
-
         exec {
             commandLine "jdeps", "--list-deps", "build/libs/Sandium.jar"
         }
     }
 }
 
-task packageDist(dependsOn: shadowJar) {
+tasks.register('packageDists') {
+    dependsOn shadowJar
     group = "Build"
     description = "Create client distributable for all platforms "
     doLast {
-        delete project.ext.itchLinuxDist
-        mkdir project.ext.itchLinuxDist
+        def linuxJdk = getEnvVar("LINUX_JDK", "LINUX_JDK environment variable must be set")
+        def windowsJdk = getEnvVar("WINDOWS_JDK", "WINDOWS_JDK environment variable must be set")
+
+        delete (String)(project.ext.itchLinuxDist)
+        mkdir (String)(project.ext.itchLinuxDist)
         exec {
-            commandLine "jlink", "--add-modules", project.ext.javaModules, "--output", project.ext.itchLinuxDistJre,
+            commandLine "jlink", "--add-modules", project.ext.javaModules, "--output", "${project.ext.itchLinuxDist}/jre",
                     "--strip-debug", "--no-man-pages", "--no-header-files", "--compress=zip-9",
-                    "--module-path", "${project.ext.linuxJdk}/jmods" // Comes from environment variable ORG_GRADLE_PROJECT_linuxJdk
+                    "--module-path", "${linuxJdk}/jmods"
         }
         copy {
             from("build/libs/Sandium.jar")
@@ -86,12 +120,12 @@ task packageDist(dependsOn: shadowJar) {
             into project.ext.itchLinuxDist
         }
 
-        delete project.ext.itchWindowsDist
-        mkdir project.ext.itchWindowsDist
+        delete (String)(project.ext.itchWindowsDist)
+        mkdir (String)(project.ext.itchWindowsDist)
         exec {
-            commandLine "jlink", "--add-modules", project.ext.javaModules, "--output", project.ext.itchWindowsDistJre,
+            commandLine "jlink", "--add-modules", project.ext.javaModules, "--output", "${project.ext.itchWindowsDist}/jre",
                     "--strip-debug", "--no-man-pages", "--no-header-files", "--compress=zip-9",
-                    "--module-path", "${project.ext.windowsJdk}/jmods" // Comes from environment variable ORG_GRADLE_PROJECT_windowsJdk
+                    "--module-path", "${windowsJdk}/jmods"
         }
         copy {
             from("build/libs/Sandium.jar")
@@ -106,7 +140,8 @@ task packageDist(dependsOn: shadowJar) {
     }
 }
 
-task itchDeploy(dependsOn: packageDist) {
+tasks.register('itchDeploy') {
+    dependsOn packageDist
     group = "Deploy"
     description = "Deploy distributable to itch.io"
     doLast {
