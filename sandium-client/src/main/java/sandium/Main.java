@@ -1,28 +1,38 @@
 package sandium;
 
-import java.lang.foreign.Arena;
-import java.lang.foreign.MemorySegment;
+import sandium.vulkan.Vulkan;
 
 import static sandium.libs.glfw.glfw3_h.*;
 
 public class Main {
 
     public static void main(String[] args) {
-        try (Arena memorySession = Arena.ofConfined()) {
-            MemorySegment windowName = memorySession.allocateFrom("Hello World");
-            if (glfwInit() == 0) {
-                throw new RuntimeException("glfwInit() failed");
-            }
-            MemorySegment window = glfwCreateWindow(640, 480, windowName, MemorySegment.NULL, MemorySegment.NULL);
-            if (window.address() == 0) {
-                throw new RuntimeException("glfwCreateWindow() failed");
-            }
-            glfwMakeContextCurrent(window);
-            while (glfwWindowShouldClose(window) == 0)
-            {
-                glfwPollEvents();
-            }
-            glfwTerminate();
-        }
+        Main main = new Main();
+
+        main.init();
+        main.run();
+        main.terminate();
     }
+
+    private Vulkan vulkan;
+
+    private void init() {
+        if (glfwInit() == 0) {
+            throw new RuntimeException("glfwInit() failed");
+        }
+
+        vulkan = new Vulkan();
+        vulkan.init();
+    }
+
+    private void run() {
+        vulkan.run();
+    }
+
+    private void terminate() {
+        vulkan.terminate();
+
+        glfwTerminate();
+    }
+
 }
