@@ -37,3 +37,12 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# Jekyll Website
+sandium-website/_site
+sandium-website/.sass-cache
+sandium-website/.jekyll-cache
+sandium-website/.jekyll-metadata
+sandium-website/vendor
+sandium-website/Gemfile.lock
+
