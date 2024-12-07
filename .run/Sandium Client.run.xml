@@ -2,7 +2,7 @@
   <configuration default="false" name="Sandium Client" type="GradleRunConfiguration" factoryName="Gradle">
     <ExternalSystemSettings>
       <option name="executionName" />
-      <option name="externalProjectPath" value="$PROJECT_DIR$/sandium-client" />
+      <option name="externalProjectPath" value="$PROJECT_DIR$/client" />
       <option name="externalSystemIdString" value="GRADLE" />
       <option name="scriptParameters" value="" />
       <option name="taskDescriptions">

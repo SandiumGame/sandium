@@ -9,7 +9,7 @@ repositories {
 }
 
 dependencies {
-    implementation project(path: ':sandium-common')
+    implementation project(path: ':common')
 
     implementation group: 'org.ow2.asm', name: 'asm', version: '9.7.1'
 

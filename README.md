@@ -1,18 +1,16 @@
 # About Sandium
-Sandium is an Open Source sandbox game featuring user-generated content. This project is just getting started so there isn't much to see yet.
+Sandium is an Open Source sandbox game featuring user-generated content. For more information visit 
+the [project's website](https://sandium.org/).
 
-A different way of doing game development.
+# Repository Structure
 
-
-# Community
-Discord
-Reddit
-
-
-# Core features
-
-
-
+| Directory    | Description                                                   |
+|--------------|---------------------------------------------------------------|
+| **client**   | Desktop client game that runs on players computers            |
+| **server**   | Server that client connects to and hosts the maven repository |
+| **common**   | Common code used in both the client and server                |
+| **examples** | Example projects and tutorial source code                     |
+| **website**  | sandium.org website                                           |
 
 # Linux Development Setup 
 ### Required

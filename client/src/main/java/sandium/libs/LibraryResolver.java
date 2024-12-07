@@ -9,8 +9,8 @@ public class LibraryResolver {
 
     private static final String[] LIBRARY_SEARCH_PATH = new String[] {
         "lib",
-        "sandium-client/dist/linux/lib",
-        "sandium-client/dist/windows/lib",
+        "client/dist/linux/lib",
+        "client/dist/windows/lib",
         "dist/linux/lib",
         "dist/windows/lib"
     };

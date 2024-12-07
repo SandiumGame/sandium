@@ -39,10 +39,10 @@ bin/
 .DS_Store
 
 # Jekyll Website
-sandium-website/_site
-sandium-website/.sass-cache
-sandium-website/.jekyll-cache
-sandium-website/.jekyll-metadata
-sandium-website/vendor
-sandium-website/Gemfile.lock
+website/_site
+website/.sass-cache
+website/.jekyll-cache
+website/.jekyll-metadata
+website/vendor
+website/Gemfile.lock
 
