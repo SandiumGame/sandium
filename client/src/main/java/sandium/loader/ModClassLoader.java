@@ -1,30 +1,39 @@
-package sandium.sandbox;
+package sandium.loader;
 
 import java.io.IOException;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Enumeration;
+import java.util.List;
+import java.util.stream.Stream;
+import java.util.zip.ZipFile;
+import java.util.zip.ZipEntry;
 
-public class HypervisorClassLoader extends ClassLoader {
+public class ModClassLoader extends ClassLoader {
 
     private final boolean sandbox;
-    private Loader[] loaders;
+    private final List<Loader> loaders;
 
-    public HypervisorClassLoader(boolean sandbox, Path[] classpath) {
+    public ModClassLoader(boolean sandbox, Path[] classpath) {
         this.sandbox = sandbox;
 
-        loaders = new Loader[classpath.length];
-        for (int i=0; i < classpath.length; i++) {
-            Path path = classpath[i];
+        loaders = new ArrayList<>(classpath.length);
+        for (Path path : classpath) {
+            Loader loader;
             if (Files.isDirectory(path)) {
-                loaders[i] = new DirectoryLoader(path);
+                loader = new DirectoryLoader(path);
+            } else if (Files.isRegularFile(path)) {
+                loader = new JarLoader(path);
             } else {
-                loaders[i] = new JarLoader(path);
+                continue;
             }
-        }
 
+            loaders.add(loader);
+            loader.listFiles().forEach(System.out::println);
+        }
     }
 
     @Override
@@ -51,24 +60,29 @@ public class HypervisorClassLoader extends ClassLoader {
 
     private static abstract class Loader {
         public abstract byte[] load(String name);
-
-        // TODO Get list of class files
+        public abstract List<String> listFiles();
     }
 
     private static class DirectoryLoader extends Loader {
 
-        
         private final Path path;
 
         public DirectoryLoader(Path path) {
             this.path = path;
-
-
         }
 
         @Override
         public byte[] load(String name) {
             throw new RuntimeException("Can not load " + name);
+        }
+
+        @Override
+        public List<String> listFiles() {
+            try (Stream<Path> walk = Files.walk(path)) {
+                return walk.filter(Files::isRegularFile).map(p -> path.relativize(p).toString()).toList();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         }
     }
 
@@ -83,6 +97,15 @@ public class HypervisorClassLoader extends ClassLoader {
         @Override
         public byte[] load(String name) {
             throw new RuntimeException("Can not load "+name);
+        }
+
+        @Override
+        public List<String> listFiles() {
+            try (ZipFile zipFile = new ZipFile(path.toFile())) {
+                return zipFile.stream().filter(zipEntry -> !zipEntry.isDirectory()).map(ZipEntry::getName).toList();
+            } catch (IOException e) {
+                throw new RuntimeException("Unable to unzip file " + path.toString(), e);
+            }
         }
     }
 }
