@@ -23,15 +23,16 @@ public class Main {
         }
 
         ModManager mods = new ModManager();
+        vulkan = new Vulkan();
+        vulkan.init();
     }
 
     private void run() {
-//        vulkan.run();
+        vulkan.run();
     }
 
     private void terminate() {
-//        vulkan.terminate();
-
+        vulkan.terminate();
         glfwTerminate();
     }
 
