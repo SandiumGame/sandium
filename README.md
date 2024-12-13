@@ -19,8 +19,7 @@ the [project's website](https://sandium.org/).
   - Add `$JAVA_HOME/bin` directory to the default path
 - Download and install [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/). 
   You can also use any other Java IDE that supports Gradle
-- Install [GLFW](https://www.glfw.org/) library and headers
-  - On debian based systems `sudo apt-get install libglfw3 libglfw3-dev`
+- From IDEA open the root gradle project
 
 ### Optional - Install jextract and other native libraries
 This is only required when upgrading or adding a new native library.
