@@ -1,7 +1,6 @@
 package sandium;
 
 import sandium.loader.ModManager;
-import sandium.vulkan.Vulkan;
 
 import static sandium.libs.glfw.glfw3_h.*;
 
@@ -15,7 +14,7 @@ public class Main {
         main.terminate();
     }
 
-    private Vulkan vulkan;
+    private Object vulkan;
 
     private void init() {
         if (glfwInit() == 0) {
@@ -23,17 +22,25 @@ public class Main {
         }
 
         ModManager mods = new ModManager();
-        vulkan = new Vulkan();
-        vulkan.init();
+        vulkan = mods.newInstance("sandium.vulkan.Vulkan");
+        invokeMethod(vulkan, "init");
     }
 
     private void run() {
-        vulkan.run();
+        invokeMethod(vulkan, "run");
     }
 
     private void terminate() {
-        vulkan.terminate();
+        invokeMethod(vulkan, "terminate");
         glfwTerminate();
+    }
+
+    private void invokeMethod(Object object, String methodName) {
+        try {
+            object.getClass().getMethod(methodName).invoke(object);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 
 }
