@@ -30,7 +30,7 @@ group = 'sandium'
 version = sandiumVersion
 
 ext {
-    javaMainClass = "sandium.Main"
+    javaMainClass = "org.sandium.Main"
     javaModules = "java.base"   // Comma separated list
     itchLinuxDist = "build/dists/itch-linux"
     itchWindowsDist = "build/dists/itch-windows"
@@ -67,16 +67,16 @@ tasks.register('jextract') {
 
         delete tmpDir
         exec {
-            commandLine "jextract", "--include-dir", glfwIncludeDir, "--output", tmpDir, "--target-package", "sandium.libs.glfw", "--library", "glfw", "-D", "GLFW_INCLUDE_VULKAN=1", "${glfwIncludeDir}/glfw3.h"
+            commandLine "jextract", "--include-dir", glfwIncludeDir, "--output", tmpDir, "--target-package", "org.sandium.libs.glfw", "--library", "glfw", "-D", "GLFW_INCLUDE_VULKAN=1", "${glfwIncludeDir}/glfw3.h"
         }
 
-        delete "src/main/java/sandium/libs/glfw"
+        delete "src/main/java/org/sandium/libs/glfw"
         copy {
             from tmpDir
             into "src/main/java"
             filter {
                 String line -> line.replace('SymbolLookup.libraryLookup(System.mapLibraryName("glfw"), LIBRARY_ARENA)',
-                                'sandium.libs.LibraryResolver.libraryLookup(sandium.libs.NativeLibrary.GLFW, LIBRARY_ARENA);')
+                                'org.sandium.libs.LibraryResolver.libraryLookup(org.sandium.libs.NativeLibrary.GLFW, LIBRARY_ARENA);')
                                 .replace('.or(SymbolLookup.loaderLookup())', '')
                                 .replace('.or(Linker.nativeLinker().defaultLookup());', '')
             }
