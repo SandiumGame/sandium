@@ -1,7 +1,7 @@
 package org.sandium;
 
 import org.sandium.loader.ModManager;
-import org.sandium.sandium.libs.glfw.glfw3_h_1;
+import org.sandium.libs.glfw.glfw3_h_1;
 
 public class Main {
 
@@ -21,7 +21,7 @@ public class Main {
         }
 
         ModManager mods = new ModManager();
-        vulkan = mods.newInstance("sandium.vulkan.Vulkan");
+        vulkan = mods.newInstance("org.sandium.vulkan.Vulkan");
         invokeMethod(vulkan, "init");
     }
 

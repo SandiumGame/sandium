@@ -3,9 +3,9 @@ package org.sandium.vulkan;
 import java.lang.foreign.Arena;
 import java.lang.foreign.MemorySegment;
 
-import static sandium.libs.glfw.glfw3_h_1.*;
-import static sandium.libs.glfw.glfw3_h_4.GLFW_CLIENT_API;
-import static sandium.libs.glfw.glfw3_h_4.GLFW_NO_API;
+import static org.sandium.libs.glfw.glfw3_h_1.*;
+import static org.sandium.libs.glfw.glfw3_h_4.GLFW_CLIENT_API;
+import static org.sandium.libs.glfw.glfw3_h_4.GLFW_NO_API;
 
 public class Vulkan {
 
