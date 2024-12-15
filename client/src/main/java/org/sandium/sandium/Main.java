@@ -1,8 +1,6 @@
 package org.sandium.sandium;
 
-import sandium.loader.ModManager;
-
-import static sandium.libs.glfw.glfw3_h.*;
+import org.sandium.sandium.loader.ModManager;
 
 public class Main {
 
