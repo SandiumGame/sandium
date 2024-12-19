@@ -46,6 +46,10 @@ public class SandiumClassLoader extends ClassLoader {
 
             loaders.add(loader);
         }
+
+        // TODO Find package-info, Create mod?
+        // TODO Load classes
+        // TODO iterate classes / methods annotations
     }
 
     @Override

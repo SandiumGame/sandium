@@ -1,4 +1,6 @@
-package org.sandium.vulkan;
+package org.mods.vulkan;
+
+import org.sandium.annotation.System;
 
 import java.lang.foreign.Arena;
 import java.lang.foreign.MemorySegment;
@@ -7,6 +9,7 @@ import static org.sandium.libs.glfw.glfw3_h_1.*;
 import static org.sandium.libs.glfw.glfw3_h_4.GLFW_CLIENT_API;
 import static org.sandium.libs.glfw.glfw3_h_4.GLFW_NO_API;
 
+@System
 public class Vulkan {
 
     private MemorySegment window;
