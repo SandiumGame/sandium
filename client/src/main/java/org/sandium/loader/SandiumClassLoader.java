@@ -20,7 +20,7 @@ import java.util.stream.Stream;
 import java.util.zip.ZipFile;
 import java.util.zip.ZipEntry;
 
-public class SandiumClassLoader extends ClassLoader {
+public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
 
     private static final HashSet<String> SYSTEM_LOADER_CLASSES = new HashSet<>(Arrays.asList(
         Object.class.getCanonicalName()
@@ -47,9 +47,6 @@ public class SandiumClassLoader extends ClassLoader {
             loaders.add(loader);
         }
 
-        // TODO Find package-info, Create mod?
-        // TODO Load classes
-        // TODO iterate classes / methods annotations
     }
 
     @Override
@@ -122,9 +119,25 @@ public class SandiumClassLoader extends ClassLoader {
         }
     }
 
+    @Override
+    public void close() throws IOException {
+        List<IOException> exceptions = new ArrayList<>();
+        for (Loader loader : loaders) {
+            try {
+                loader.close();
+            } catch (IOException e) {
+                exceptions.add(e);
+            }
+        }
+        if (!exceptions.isEmpty()) {
+            throw exceptions.get(0);
+        }
+    }
+
     private static abstract class Loader {
         public abstract InputStream load(String name) throws IOException;
         public abstract List<String> listFiles() throws IOException;
+        public void close() throws IOException {} // Default empty implementation
     }
 
     private static class DirectoryLoader extends Loader {
@@ -165,7 +178,10 @@ public class SandiumClassLoader extends ClassLoader {
             jarFile = new ZipFile(jarPath.toFile());
         }
 
-        // TODO Need to close ZipFile
+        @Override
+        public void close() throws IOException {
+            jarFile.close();
+        }
 
         @Override
         public InputStream load(String name) throws IOException {

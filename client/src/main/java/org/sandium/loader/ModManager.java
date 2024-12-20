@@ -5,10 +5,8 @@ import java.io.IOException;
 import java.nio.file.Path;
 import java.util.Arrays;
 
-public class ModManager {
-
+public class ModManager implements AutoCloseable {
     // TODO List of mods
-
     private final SandiumClassLoader rootMod;
 
     public ModManager() {
@@ -26,5 +24,10 @@ public class ModManager {
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
+    }
+    
+    @Override
+    public void close() throws IOException {
+        rootMod.close();
     }
 }
