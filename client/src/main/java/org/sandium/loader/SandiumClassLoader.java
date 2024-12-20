@@ -29,12 +29,19 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
 
     private final boolean sandbox;
     private final List<Loader> loaders;
-    private final List<LoadedMod> mods = new LinkedList<>();
+    private final List<LoadedMod> mods;
 
     public SandiumClassLoader(boolean sandbox, Path[] classpath) throws IOException {
         super(null);
         this.sandbox = sandbox;
+        loaders = createLoaders(classpath);
+        mods = new LinkedList<>();
 
+        scanForMods();
+    }
+
+    private List<Loader> createLoaders(Path[] classpath) throws IOException {
+        final List<Loader> loaders;
         loaders = new ArrayList<>(classpath.length);
         for (Path path : classpath) {
             Loader loader;
@@ -48,11 +55,9 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
 
             loaders.add(loader);
         }
-        
-        // Scan for mods in package-info files
-        scanForMods();
+        return loaders;
     }
-    
+
     private void scanForMods() throws IOException {
         for (Loader loader : loaders) {
             List<String> files = loader.listFiles();
