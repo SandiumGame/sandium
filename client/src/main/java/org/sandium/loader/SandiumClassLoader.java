@@ -22,6 +22,20 @@ import java.util.zip.ZipFile;
 import java.util.zip.ZipEntry;
 import org.sandium.annotation.Mod;
 
+/**
+ * A specialized ClassLoader that handles loading of game mods and their associated classes.
+ * This class loader supports loading classes from both directories and JAR files while
+ * providing optional sandbox security restrictions.
+ *
+ * <p>The loader scans the provided classpath for mod definitions, identified by
+ * package-info.class files annotated with {@code @Mod}.
+ *
+ * <p>When sandbox mode is enabled, the loader restricts access to system classes
+ * to prevent potentially malicious code execution.
+ *
+ * @see org.sandium.annotation.Mod
+ * @see java.lang.ClassLoader
+ */
 public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
     private static final HashSet<String> SYSTEM_LOADER_CLASSES = new HashSet<>(Arrays.asList(
         Object.class.getCanonicalName()
@@ -31,6 +45,17 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
     private final List<Loader> loaders;
     private final List<LoadedMod> mods;
 
+    /**
+     * Creates a new SandiumClassLoader with the specified security and classpath settings.
+     *
+     * @param sandbox    If true, enables sandbox mode which restricts access to system classes
+     * @param classpath  Array of paths to search for mod files and classes. Can include both
+     *                  directories and JAR files
+     * @throws IOException If there is an error reading from any of the classpath locations
+     * @throws SecurityException If sandbox mode prevents loading of a required class
+     * @see #scanForMods()
+     * @see #createLoaders(Path[])
+     */
     public SandiumClassLoader(boolean sandbox, Path[] classpath) throws IOException {
         super(null);
         this.sandbox = sandbox;
@@ -40,6 +65,14 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
         scanForMods();
     }
 
+    /**
+     * Creates loader instances for each path in the classpath. Each loader is either
+     * a DirectoryLoader for directory paths or a JarLoader for JAR files.
+     *
+     * @param classpath Array of paths to create loaders for
+     * @return List of created loaders
+     * @throws IOException If there is an error accessing any of the paths
+     */
     private List<Loader> createLoaders(Path[] classpath) throws IOException {
         final List<Loader> loaders;
         loaders = new ArrayList<>(classpath.length);
@@ -58,6 +91,16 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
         return loaders;
     }
 
+    /**
+     * Scans the classpath for mod definitions by looking for package-info.class files
+     * annotated with {@code @Mod}. When a mod is found, all classes in its package
+     * are collected into a {@code LoadedMod}.
+     *
+     * @throws IOException If there is an error reading mod files
+     * @throws SecurityException If sandbox mode prevents loading of mod classes
+     * @see org.sandium.annotation.Mod
+     * @see org.sandium.loader.LoadedMod
+     */
     private void scanForMods() throws IOException {
         for (Loader loader : loaders) {
             List<String> files = loader.listFiles();
@@ -86,6 +129,19 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
         }
     }
 
+    /**
+     * Loads a class with the specified binary name. When sandbox mode is enabled,
+     * this method enforces security restrictions on which classes can be loaded.
+     *
+     * @param name The fully qualified name of the class
+     * @param resolve If true, resolve the class
+     * @return The resulting Class object
+     * @throws ClassNotFoundException If the class was not found
+     * @throws SecurityException If sandbox mode prevents loading of the class
+     *
+     * @see ClassLoader#loadClass(String, boolean)
+     * @see #sandbox
+     */
     @Override
     protected Class<?> loadClass(String name, boolean resolve) throws ClassNotFoundException {
         synchronized (getClassLoadingLock(name)) {
@@ -119,16 +175,28 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
         }
     }
 
-    @Override
     public URL getResource(String name) {
         return null;
     }
 
     @Override
     public Enumeration<URL> getResources(String name) throws IOException {
-        return Collections.emptyEnumeration();
+        URL resource = getResource(name);
+        if (resource != null) {
+            return Collections.enumeration(Collections.singletonList(resource));
+        } else {
+            return Collections.emptyEnumeration();
+        }
     }
 
+    /**
+     * Loads a file from the classpath.
+     *
+     * @param fileName Name of the file to load
+     * @return An InputStream for reading the file, or null if not found
+     * @throws IOException If there is an error reading the file
+     * @throws SecurityException If the file path contains parent directory references
+     */
     public InputStream load(String fileName) throws IOException {
         // Prevent relative paths like ../
         if (fileName.contains("../") || fileName.contains("..\\"))
@@ -146,16 +214,12 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
         return null;
     }
 
-    @Override
-    protected Enumeration<URL> findResources(String name) {
-        URL resource = findResource(name);
-        if (resource != null) {
-            return Collections.enumeration(Collections.singletonList(resource));
-        } else {
-            return Collections.emptyEnumeration();
-        }
-    }
-
+    /**
+     * Closes all loaders and releases their resources. If multiple loaders throw
+     * exceptions while closing, only the first exception is propagated.
+     *
+     * @throws IOException If an error occurs while closing any loader
+     */
     @Override
     public void close() throws IOException {
         List<IOException> exceptions = new ArrayList<>();
@@ -171,12 +235,18 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
         }
     }
 
+    /**
+     * Abstract base class for different types of class/resource loaders.
+     */
     private static abstract class Loader {
         public abstract InputStream load(String name) throws IOException;
         public abstract List<String> listFiles() throws IOException;
         public void close() throws IOException {} // Default empty implementation
     }
 
+    /**
+     * Loader implementation that loads classes and resources from a directory.
+     */
     private static class DirectoryLoader extends Loader {
 
         private final Path dir;
@@ -207,6 +277,9 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
         }
     }
 
+    /**
+     * Loader implementation that loads classes and resources from a JAR file.
+     */
     private static class JarLoader extends Loader {
 
         private final ZipFile jarFile;
