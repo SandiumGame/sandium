@@ -1,7 +1,8 @@
 package org.sandium;
 
 import org.sandium.loader.ModManager;
-import org.sandium.libs.glfw.glfw3_h_1;
+
+import java.io.IOException;
 
 public class Main {
 
@@ -13,25 +14,28 @@ public class Main {
         main.terminate();
     }
 
-    private Object vulkan;
+    private ModManager modManager;
+    private Object glfw;
 
     private void init() {
-        if (glfw3_h_1.glfwInit() == 0) {
-            throw new RuntimeException("glfwInit() failed");
-        }
-
-        ModManager mods = new ModManager();
-        vulkan = mods.newInstance("org.sandium.mods.vulkan.Vulkan");
-        invokeMethod(vulkan, "init");
+        modManager = new ModManager();
+        glfw = modManager.newInstance("org.sandium.mods.glfw.GLFW");
+        invokeMethod(glfw, "init");
     }
 
     private void run() {
-        invokeMethod(vulkan, "run");
+        invokeMethod(glfw, "run");
     }
 
     private void terminate() {
-        invokeMethod(vulkan, "terminate");
-        glfw3_h_1.glfwTerminate();
+        invokeMethod(glfw, "terminate");
+        try {
+            modManager.close();
+        } catch (IOException e) {
+            // Just dump the exception as we are shutting down anyway
+            //noinspection CallToPrintStackTrace
+            e.printStackTrace();
+        }
     }
 
     private void invokeMethod(Object object, String methodName) {

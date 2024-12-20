@@ -1,6 +1,7 @@
-package org.sandium.mods.vulkan;
+package org.sandium.mods.glfw;
 
 import org.sandium.annotation.System;
+import org.sandium.libs.glfw.glfw3_h_1;
 
 import java.lang.foreign.Arena;
 import java.lang.foreign.MemorySegment;
@@ -10,11 +11,15 @@ import static org.sandium.libs.glfw.glfw3_h_4.GLFW_CLIENT_API;
 import static org.sandium.libs.glfw.glfw3_h_4.GLFW_NO_API;
 
 @System
-public class Vulkan {
+public class GLFW {
 
     private MemorySegment window;
 
     public void init() {
+        if (glfw3_h_1.glfwInit() == 0) {
+            throw new RuntimeException("glfwInit() failed");
+        }
+
         try (Arena memorySession = Arena.ofConfined()) {
             MemorySegment windowName = memorySession.allocateFrom("Hello World");
             glfwWindowHint(GLFW_CLIENT_API(), GLFW_NO_API());
@@ -35,6 +40,7 @@ public class Vulkan {
 
     public void terminate() {
         glfwDestroyWindow(window);
+        glfw3_h_1.glfwTerminate();
     }
 
 }

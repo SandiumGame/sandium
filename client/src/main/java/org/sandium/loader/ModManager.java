@@ -6,8 +6,9 @@ import java.nio.file.Path;
 import java.util.Arrays;
 
 public class ModManager implements AutoCloseable {
-    // TODO List of mods
+
     private final SandiumClassLoader rootMod;
+    // TODO List of mods
 
     public ModManager() {
         String[] classpath = System.getProperty("java.class.path").split(File.pathSeparator);
