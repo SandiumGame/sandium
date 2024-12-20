@@ -1,8 +1,5 @@
 package org.sandium.loader;
 
-import org.objectweb.asm.ClassReader;
-import org.objectweb.asm.ClassWriter;
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -25,6 +22,8 @@ import java.util.stream.Stream;
 import java.util.zip.ZipFile;
 import java.util.zip.ZipEntry;
 
+import org.objectweb.asm.ClassReader;
+import org.objectweb.asm.ClassWriter;
 import org.sandium.annotation.Mod;
 
 /**
@@ -42,8 +41,11 @@ import org.sandium.annotation.Mod;
  * @see java.lang.ClassLoader
  */
 public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
-    private static final HashSet<String> SYSTEM_LOADER_CLASSES = new HashSet<>(Arrays.asList(
+    private static final HashSet<String> ALLOWED_SYSTEM_LOADER_CLASSES = new HashSet<>(Arrays.asList(
             Object.class.getCanonicalName()
+    ));
+    private static final HashSet<String> ALLOWED_PACKAGES = new HashSet<>(Arrays.asList(
+            "org.sandium.annotation."
     ));
 
     private final boolean sandbox;
@@ -134,6 +136,15 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
     }
 
     /**
+     * Get all the mods for this {@code @ClassLoader}
+     *
+     * @return A list of the mods.
+     */
+    public List<LoadedMod> getMods() {
+        return mods;
+    }
+
+    /**
      * Loads a class with the specified binary name. When sandbox mode is enabled,
      * this method enforces security restrictions on which classes can be loaded.
      *
@@ -151,24 +162,31 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
             Class<?> c = findLoadedClass(name);
             if (c == null) {
                 if (name.startsWith("java.")) {
-                    if (sandbox && !SYSTEM_LOADER_CLASSES.contains(name)) {
+                    if (sandbox && !ALLOWED_SYSTEM_LOADER_CLASSES.contains(name)) {
                         throw new SecurityException("Not allowed to load class " + name);
                     }
                     c = ClassLoader.getSystemClassLoader().loadClass(name);
                 } else {
-                    ClassReader cr;
-                    try {
-                        InputStream in = load(name.replace(".", "/") + ".class");
-                        cr = new ClassReader(in);
-                    } catch (IOException e) {
-                        throw new ClassNotFoundException("Error reading class file " + name, e);
+                    for (String allowedPackage : ALLOWED_PACKAGES) {
+                        if (name.startsWith(allowedPackage)) {
+                            c = ClassLoader.getSystemClassLoader().loadClass(name);
+                        }
                     }
+                    if (c == null) {
+                        ClassReader cr;
+                        try {
+                            InputStream in = load(name.replace(".", "/") + ".class");
+                            cr = new ClassReader(in);
+                        } catch (IOException e) {
+                            throw new ClassNotFoundException("Error reading class file " + name, e);
+                        }
 
-                    ClassWriter cw = new ClassWriter(ClassWriter.COMPUTE_FRAMES);
-                    cr.accept(cw, 0);
-                    byte[] byteArray = cw.toByteArray();
-                    // TODO Need to pass a ProtectionDomain
-                    c = defineClass(name, byteArray, 0, byteArray.length);
+                        ClassWriter cw = new ClassWriter(ClassWriter.COMPUTE_FRAMES);
+                        cr.accept(cw, 0);
+                        byte[] byteArray = cw.toByteArray();
+                        // TODO Need to pass a ProtectionDomain
+                        c = defineClass(name, byteArray, 0, byteArray.length);
+                    }
                 }
             }
             if (resolve) {
@@ -255,21 +273,11 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
     /**
      * Closes all loaders and releases their resources. If multiple loaders throw
      * exceptions while closing, only the first exception is propagated.
-     *
-     * @throws IOException If an error occurs while closing any loader
      */
     @Override
-    public void close() throws IOException {
-        List<IOException> exceptions = new ArrayList<>();
+    public void close() {
         for (Loader loader : loaders) {
-            try {
-                loader.close();
-            } catch (IOException e) {
-                exceptions.add(e);
-            }
-        }
-        if (!exceptions.isEmpty()) {
-            throw exceptions.getFirst();
+            loader.close();
         }
     }
 
@@ -281,7 +289,7 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
 
         public abstract List<String> listFiles() throws IOException;
 
-        public void close() throws IOException {
+        public void close() {
             // Default empty implementation
         }
     }
@@ -331,8 +339,12 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
         }
 
         @Override
-        public void close() throws IOException {
-            jarFile.close();
+        public void close() {
+            try {
+                jarFile.close();
+            } catch (IOException e) {
+                // Ignore exception
+            }
         }
 
         @Override
