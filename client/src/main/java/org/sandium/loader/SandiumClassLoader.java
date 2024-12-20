@@ -15,19 +15,21 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Enumeration;
 import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Stream;
 import java.util.zip.ZipFile;
 import java.util.zip.ZipEntry;
+import org.sandium.annotation.Mod;
 
 public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
-
     private static final HashSet<String> SYSTEM_LOADER_CLASSES = new HashSet<>(Arrays.asList(
         Object.class.getCanonicalName()
     ));
 
     private final boolean sandbox;
     private final List<Loader> loaders;
+    private final List<LoadedMod> mods = new LinkedList<>();
 
     public SandiumClassLoader(boolean sandbox, Path[] classpath) throws IOException {
         super(null);
@@ -46,7 +48,37 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
 
             loaders.add(loader);
         }
+        
+        // Scan for mods in package-info files
+        scanForMods();
+    }
+    
+    private void scanForMods() throws IOException {
+        for (Loader loader : loaders) {
+            List<String> files = loader.listFiles();
+            for (String file : files) {
+                if (file.endsWith("package-info.class")) {
+                    System.out.println(file);
+                    try {
+                        String className = file.substring(0, file.length() - 6).replace('/', '.');
+                        Class<?> packageInfo = loadClass(className);
+                        
+                        if (packageInfo.isAnnotationPresent(Mod.class)) {
+                            final String packagePath = file.contains("/") ? file.substring(0, file.lastIndexOf("/") + 1) : "";
 
+                            List<String> packageFiles = files.stream()
+                                .filter(f -> f.startsWith(packagePath))
+                                .toList();
+
+                            mods.add(new LoadedMod(this, packageFiles));
+                        }
+                    } catch (ClassNotFoundException e) {
+                        // TODO Handle error. But keep scanning
+                        e.printStackTrace();
+                    }
+                }
+            }
+        }
     }
 
     @Override
@@ -130,7 +162,7 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
             }
         }
         if (!exceptions.isEmpty()) {
-            throw exceptions.get(0);
+            throw exceptions.getFirst();
         }
     }
 

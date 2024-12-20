@@ -21,7 +21,7 @@ public class Main {
         }
 
         ModManager mods = new ModManager();
-        vulkan = mods.newInstance("org.sandium.vulkan.Vulkan");
+        vulkan = mods.newInstance("org.sandium.mods.vulkan.Vulkan");
         invokeMethod(vulkan, "init");
     }
 

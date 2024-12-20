@@ -1,4 +1,4 @@
 @Mod
-package org.mods.vulkan;
+package org.sandium.mods.glfw;
 
 import org.sandium.annotation.Mod;

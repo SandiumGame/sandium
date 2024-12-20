@@ -1,4 +1,4 @@
-package org.mods.vulkan;
+package org.sandium.mods.vulkan;
 
 import org.sandium.annotation.System;
 
