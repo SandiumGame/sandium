@@ -7,7 +7,11 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.net.URL;
+import java.net.URLConnection;
+import java.net.URLStreamHandler;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
@@ -106,7 +110,6 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
             List<String> files = loader.listFiles();
             for (String file : files) {
                 if (file.endsWith("package-info.class")) {
-                    System.out.println(file);
                     try {
                         String className = file.substring(0, file.length() - 6).replace('/', '.');
                         Class<?> packageInfo = loadClass(className);
@@ -175,10 +178,40 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
         }
     }
 
+    /**
+     * Returns a URL for the specified resource.
+     * 
+     * @param name The resource name
+     * @return A URL for reading the resource, or null if not found
+     */
+    @Override
     public URL getResource(String name) {
-        return null;
+        try {
+            // First check if resource exists by trying to load it
+            InputStream is = load(name);
+            if (is != null) {
+                is.close();
+                return URL.of(new URI("sandium", "", "/" + name, null), new SandiumURLStreamHandler());
+            }
+        } catch (IOException e) {
+            // Log error but continue - return null if resource can't be accessed
+            //noinspection CallToPrintStackTrace
+            e.printStackTrace();
+        } catch (URISyntaxException e) {
+            throw new RuntimeException(e);
+        }
+
+        return null; 
     }
 
+    /**
+     * Finds all the resources with the given name.
+     *
+     * @param name The resource name
+     * @return An enumeration of {@link java.net.URL URL} objects for the
+     *         resource. If no resources could be found, the enumeration will
+     *         be empty.
+     */
     @Override
     public Enumeration<URL> getResources(String name) throws IOException {
         URL resource = getResource(name);
@@ -199,8 +232,13 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
      */
     public InputStream load(String fileName) throws IOException {
         // Prevent relative paths like ../
-        if (fileName.contains("../") || fileName.contains("..\\"))
+        if (fileName.contains("../") || fileName.contains("..\\")) {
             throw new SecurityException("Invalid path " + fileName);
+        }
+        // Make sure path is relative and not absolute to the root dir
+        if (fileName.startsWith("/") || fileName.startsWith("\\")) {
+            fileName = fileName.substring(1);
+        }
 
         // TODO iterate parents
 
@@ -308,4 +346,32 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
             return jarFile.stream().filter(zipEntry -> !zipEntry.isDirectory()).map(ZipEntry::getName).toList();
         }
     }
+
+    /**
+     * Custom URL stream handler for sandium:// protocol URLs.
+     * This handler allows loading resources through the SandiumClassLoader.
+     */
+    private class SandiumURLStreamHandler extends URLStreamHandler {
+        @Override
+        protected URLConnection openConnection(URL url) throws IOException {
+            return new URLConnection(url) {
+                @Override
+                public void connect() {
+                    // No need to implement - connection is stateless
+                }
+
+                @Override
+                public InputStream getInputStream() throws IOException {
+                    // Strip leading "/" from path to get resource name
+                    String resourceName = url.getPath().substring(1);
+                    InputStream stream = load(resourceName);
+                    if (stream == null) {
+                        throw new IOException("Resource not found: " + resourceName);
+                    }
+                    return stream;
+                }
+            };
+        }
+    }
 }
+
