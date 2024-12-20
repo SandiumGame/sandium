@@ -17,16 +17,12 @@ public class Main {
 
     private void init() {
         modManager = new ModManager();
-//        glfw = modManager.newInstance("org.sandium.mods.glfw.GLFW");
-//        invokeMethod(glfw, "init");
     }
 
     private void run() {
-//        invokeMethod(glfw, "run");
     }
 
     private void terminate() {
-//        invokeMethod(glfw, "terminate");
         modManager.close();
     }
 

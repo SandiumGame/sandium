@@ -27,4 +27,15 @@ public class ModManager implements AutoCloseable {
     public void close() {
         classLoaders.forEach(SandiumClassLoader::close);
     }
+
+    public List<Object> getSystems() {
+        ArrayList<Object> systems = new ArrayList<>();
+        for (SandiumClassLoader classLoader : classLoaders) {
+            for (LoadedMod mod : classLoader.getMods()) {
+                systems.add(mod.getSystems());
+            }
+        }
+
+        return systems;
+    }
 }
