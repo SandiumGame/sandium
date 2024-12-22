@@ -49,6 +49,7 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
     ));
 
     private final boolean sandbox;
+    private final ModManager modManager;
     private final List<Loader> loaders;
     private final List<LoadedMod> mods;
 
@@ -63,9 +64,10 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
      * @see #scanForMods()
      * @see #createLoaders(Path[])
      */
-    public SandiumClassLoader(boolean sandbox, Path[] classpath) throws IOException {
+    public SandiumClassLoader(boolean sandbox, ModManager modManager, Path[] classpath) throws IOException {
         super(null);
         this.sandbox = sandbox;
+        this.modManager = modManager;
         loaders = createLoaders(classpath);
         mods = new LinkedList<>();
 
@@ -126,7 +128,7 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
 
                             mods.add(new LoadedMod(this, packageFiles));
                         }
-                    } catch (ClassNotFoundException e) {
+                    } catch (ClassNotFoundException | SystemException e) {
                         // TODO Handle error. But keep scanning
                         e.printStackTrace();
                     }
@@ -257,8 +259,6 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
         if (fileName.startsWith("/") || fileName.startsWith("\\")) {
             fileName = fileName.substring(1);
         }
-
-        // TODO iterate parents
 
         for (Loader loader : loaders) {
             InputStream in = loader.load(fileName);

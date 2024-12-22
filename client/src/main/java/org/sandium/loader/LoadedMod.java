@@ -1,14 +1,18 @@
 package org.sandium.loader;
 
-import org.sandium.annotation.System;
-import java.util.ArrayList;
+import org.sandium.annotation.GameLogic;
+
+import java.util.Collection;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class LoadedMod {
-    private final List<Object> systems;
 
-    public LoadedMod(ClassLoader classLoader, List<String> packageFiles) {
-        this.systems = new ArrayList<>();
+    private final Map<Class<?>, Object> systems;
+
+    public LoadedMod(ClassLoader classLoader, List<String> packageFiles) throws SystemException {
+        systems = new HashMap<>();
 
         for (String packageFile : packageFiles) {
             try {
@@ -18,20 +22,21 @@ public class LoadedMod {
                     .replace('/', '.');
                 
                 Class<?> loadedClass = classLoader.loadClass(className);
-
-                // Check for @System annotation and instantiate if present
-                if (loadedClass.isAnnotationPresent(System.class)) {
-                    Object instance = loadedClass.getDeclaredConstructor().newInstance();
-                    systems.add(instance);
+                if (loadedClass.isAnnotationPresent(GameLogic.class)) {
+                    systems.put(loadedClass, loadedClass.getDeclaredConstructor().newInstance());
                 }
-            } catch (ReflectiveOperationException e) {
-                throw new RuntimeException("Unable to construct system",e);
+            } catch (Exception e) {
+                throw new SystemException("Unable to construct system", e);
             }
         }
     }
 
-    public List<Object> getSystems() {
-        return systems;
+    public Object getSystem(Class<?> systemClass) {
+        return systems.get(systemClass);
+    }
+
+    public Collection<Object> getSystems() {
+        return systems.values();
     }
 
 }

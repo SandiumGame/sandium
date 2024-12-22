@@ -3,8 +3,9 @@ package org.sandium.mods.glfw;
 import org.sandium.annotation.FixedUpdate;
 import org.sandium.annotation.PostConstruct;
 import org.sandium.annotation.PreDestroy;
-import org.sandium.annotation.System;
+import org.sandium.annotation.GameLogic;
 import org.sandium.libs.glfw.glfw3_h_1;
+import org.sandium.mods.vulkan.Vulkan;
 
 import java.lang.foreign.Arena;
 import java.lang.foreign.MemorySegment;
@@ -13,7 +14,7 @@ import static org.sandium.libs.glfw.glfw3_h_1.*;
 import static org.sandium.libs.glfw.glfw3_h_4.GLFW_CLIENT_API;
 import static org.sandium.libs.glfw.glfw3_h_4.GLFW_NO_API;
 
-@System
+@GameLogic
 public class GLFW {
 
     private MemorySegment window;

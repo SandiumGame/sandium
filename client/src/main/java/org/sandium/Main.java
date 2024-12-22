@@ -1,10 +1,11 @@
 package org.sandium;
 
 import org.sandium.loader.ModManager;
+import org.sandium.loader.SystemException;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SystemException {
         Main main = new Main();
 
         main.init();
@@ -15,8 +16,9 @@ public class Main {
     private ModManager modManager;
     private Object glfw;
 
-    private void init() {
+    private void init() throws SystemException {
         modManager = new ModManager();
+        modManager.autowireAllSystems();
     }
 
     private void run() {
