@@ -9,4 +9,6 @@ public class Vulkan {
 
     @Inject
     private GLFW glfw;
+
+    // TODO Need to monitor for GLFW window
 }

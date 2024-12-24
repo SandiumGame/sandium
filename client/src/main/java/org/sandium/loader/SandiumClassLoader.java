@@ -45,7 +45,8 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
             Object.class.getCanonicalName()
     ));
     private static final HashSet<String> ALLOWED_PACKAGES = new HashSet<>(Arrays.asList(
-            "org.sandium.annotation."
+            "org.sandium.annotation.",
+            "org.sandium.event."
     ));
 
     private final boolean sandbox;

@@ -1,11 +1,9 @@
 package org.sandium.mods.glfw;
 
-import org.sandium.annotation.FixedUpdate;
-import org.sandium.annotation.PostConstruct;
-import org.sandium.annotation.PreDestroy;
 import org.sandium.annotation.GameLogic;
+import org.sandium.annotation.System;
+import org.sandium.event.PostConstruct;
 import org.sandium.libs.glfw.glfw3_h_1;
-import org.sandium.mods.vulkan.Vulkan;
 
 import java.lang.foreign.Arena;
 import java.lang.foreign.MemorySegment;
@@ -19,8 +17,8 @@ public class GLFW {
 
     private MemorySegment window;
 
-    @PostConstruct
-    public void init() {
+    @System
+    public void init(PostConstruct event) {
         if (glfw3_h_1.glfwInit() == 0) {
             throw new RuntimeException("glfwInit() failed");
         }
@@ -37,14 +35,12 @@ public class GLFW {
         }
     }
 
-    @FixedUpdate
     public void run() {
         while (glfwWindowShouldClose(window) == 0) {
             glfwPollEvents();
         }
     }
 
-    @PreDestroy
     public void terminate() {
         glfwDestroyWindow(window);
         glfw3_h_1.glfwTerminate();
