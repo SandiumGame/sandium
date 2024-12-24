@@ -14,7 +14,6 @@ public class Main {
     }
 
     private ModManager modManager;
-    private Object glfw;
 
     private void init() throws SystemException {
         modManager = new ModManager();

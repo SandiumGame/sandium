@@ -6,8 +6,8 @@ import java.lang.reflect.Method;
 
 public class SystemInfo {
 
-    private Object system;
-    private Method method;
+    private Object systemGroup;
+    private Method system;
     private Event event;
 
     public void invoke(Event event) {
