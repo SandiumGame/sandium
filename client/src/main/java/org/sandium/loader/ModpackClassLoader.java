@@ -40,7 +40,7 @@ import org.sandium.annotation.Mod;
  * @see org.sandium.annotation.Mod
  * @see java.lang.ClassLoader
  */
-public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
+public class ModpackClassLoader extends ClassLoader implements AutoCloseable {
     private static final HashSet<String> ALLOWED_SYSTEM_LOADER_CLASSES = new HashSet<>(Arrays.asList(
             Object.class.getCanonicalName()
     ));
@@ -50,12 +50,11 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
     ));
 
     private final boolean sandbox;
-    private final ModManager modManager;
     private final List<Loader> loaders;
     private final List<LoadedMod> mods;
 
     /**
-     * Creates a new SandiumClassLoader with the specified security and classpath settings.
+     * Creates a new ModpackClassLoader with the specified security and classpath settings.
      *
      * @param sandbox   If true, enables sandbox mode which restricts access to system classes
      * @param classpath Array of paths to search for mod files and classes. Can include both
@@ -65,10 +64,9 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
      * @see #scanForMods()
      * @see #createLoaders(Path[])
      */
-    public SandiumClassLoader(boolean sandbox, ModManager modManager, Path[] classpath) throws IOException {
+    public ModpackClassLoader(boolean sandbox, Path[] classpath) throws IOException {
         super(null);
         this.sandbox = sandbox;
-        this.modManager = modManager;
         loaders = createLoaders(classpath);
         mods = new LinkedList<>();
 
@@ -148,6 +146,21 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
     }
 
     /**
+     * Closes all loaders and releases their resources. If multiple loaders throw
+     * exceptions while closing, only the first exception is propagated.
+     */
+    @Override
+    public void close() {
+        // TODO Only destroy already initialized mods
+        for (LoadedMod mod : mods) {
+            mod.close();
+        }
+        for (Loader loader : loaders) {
+            loader.close();
+        }
+    }
+
+    /**
      * Loads a class with the specified binary name. When sandbox mode is enabled,
      * this method enforces security restrictions on which classes can be loaded.
      *
@@ -212,7 +225,7 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
             InputStream is = load(name);
             if (is != null) {
                 is.close();
-                return URL.of(new URI("sandium", "", "/" + name, null), new SandiumURLStreamHandler());
+                return URL.of(new URI("sandium", "", "/" + name, null), new ModpackURLStreamHandler());
             }
         } catch (IOException e) {
             // Log error but continue - return null if resource can't be accessed
@@ -269,17 +282,6 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
         }
 
         return null;
-    }
-
-    /**
-     * Closes all loaders and releases their resources. If multiple loaders throw
-     * exceptions while closing, only the first exception is propagated.
-     */
-    @Override
-    public void close() {
-        for (Loader loader : loaders) {
-            loader.close();
-        }
     }
 
     /**
@@ -366,9 +368,9 @@ public class SandiumClassLoader extends ClassLoader implements AutoCloseable {
 
     /**
      * Custom URL stream handler for sandium:// protocol URLs.
-     * This handler allows loading resources through the SandiumClassLoader.
+     * This handler allows loading resources through the ModpackClassLoader.
      */
-    private class SandiumURLStreamHandler extends URLStreamHandler {
+    private class ModpackURLStreamHandler extends URLStreamHandler {
         @Override
         protected URLConnection openConnection(URL url) throws IOException {
             return new URLConnection(url) {

@@ -1,6 +1,6 @@
 package org.sandium.mods.glfw;
 
-import org.sandium.annotation.GameLogic;
+import org.sandium.annotation.SystemGroup;
 import org.sandium.annotation.System;
 import org.sandium.event.PostConstruct;
 import org.sandium.libs.glfw.glfw3_h_1;
@@ -12,7 +12,7 @@ import static org.sandium.libs.glfw.glfw3_h_1.*;
 import static org.sandium.libs.glfw.glfw3_h_4.GLFW_CLIENT_API;
 import static org.sandium.libs.glfw.glfw3_h_4.GLFW_NO_API;
 
-@GameLogic
+@SystemGroup
 public class GLFW {
 
     private MemorySegment window;
