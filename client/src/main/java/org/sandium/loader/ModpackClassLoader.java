@@ -127,7 +127,7 @@ public class ModpackClassLoader extends ClassLoader implements AutoCloseable {
 
                             mods.add(new LoadedMod(this, packageFiles));
                         }
-                    } catch (ClassNotFoundException | SystemException e) {
+                    } catch (ClassNotFoundException e) {
                         // TODO Handle error. But keep scanning
                         e.printStackTrace();
                     }

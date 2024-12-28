@@ -2,6 +2,8 @@ package org.sandium.loader;
 
 public interface SystemGroupResolver {
 
-    Object getSystemGroup(Class<?> systemGroupClass) throws SystemException;
+    ResolvedSystemGroup getSystemGroup(Class<?> systemGroupClass) throws SystemException;
 
+    record ResolvedSystemGroup(LoadedMod mod, Object systemGroup) {
+    }
 }
