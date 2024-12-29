@@ -41,6 +41,7 @@ import org.sandium.annotation.Mod;
  * @see java.lang.ClassLoader
  */
 public class ModpackClassLoader extends ClassLoader implements AutoCloseable {
+    @SuppressWarnings("ArraysAsListWithZeroOrOneArgument")
     private static final HashSet<String> ALLOWED_SYSTEM_LOADER_CLASSES = new HashSet<>(Arrays.asList(
             Object.class.getCanonicalName()
     ));
@@ -125,10 +126,10 @@ public class ModpackClassLoader extends ClassLoader implements AutoCloseable {
                                     .filter(f -> f.startsWith(packagePath))
                                     .toList();
 
-                            mods.add(new LoadedMod(this, packageFiles));
+                            mods.add(new LoadedMod(packageInfo.getPackage(), this, packageFiles));
                         }
                     } catch (ClassNotFoundException e) {
-                        // TODO Handle error. But keep scanning
+                        //noinspection CallToPrintStackTrace
                         e.printStackTrace();
                     }
                 }

@@ -6,146 +6,149 @@ import org.sandium.annotation.SystemGroup;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class LoadedMod implements SystemGroupResolver, AutoCloseable {
+public class LoadedMod implements AutoCloseable {
 
+    private final Package modPackage;
+    private final ClassLoader classLoader;
+    private final List<String> packageFiles;
     private ModState modState;
     private Exception exception;
     private final Map<Class<?>, Object> systemGroups;
     private final List<LoadedMod> parents;
     private final List<LoadedMod> children;
 
-    public LoadedMod(ClassLoader classLoader, List<String> packageFiles) {
+    public LoadedMod(Package modPackage, ClassLoader classLoader, List<String> packageFiles) {
+        this.modPackage = modPackage;
+        this.classLoader = classLoader;
+        this.packageFiles = packageFiles;
         modState = ModState.CREATED;
         systemGroups = new HashMap<>();
         parents = new ArrayList<>();
         children = new ArrayList<>();
+    }
 
+    public Package getModPackage() {
+        return modPackage;
+    }
+
+    public static boolean isPathInPackage(Package modPackage, String path) {
+        String modPackageName = modPackage.getName();
+        if (path.length() < modPackageName.length()) {
+            return false;
+        }
+        if(!path.startsWith(modPackageName)) {
+            return false;
+        }
+        if (path.length() == modPackageName.length()) {
+            return true;
+        }
+        return path.charAt(modPackageName.length()) == '.';
+    }
+
+    public void init(ModResolver resolver) {
+        if (modState != ModState.CREATED) {
+            throw new RuntimeException(modPackage.getName() + " mod has already been initialized");
+        }
+
+        try {
+            loadClasses();
+            autowireSystemGroups(resolver);
+            postConstruct();
+
+            modState = ModState.RUNNING;
+        } catch (Exception e) {
+            exception = e;
+            modState = ModState.ERROR;
+        }
+    }
+
+    private void loadClasses() throws SystemException {
         for (String packageFile : packageFiles) {
-            try {
-                // Convert file path to class name (remove .class and replace / with .)
-                String className = packageFile
+            // Convert file path to class name (remove .class and replace / with .)
+            String className = packageFile
                     .substring(0, packageFile.length() - 6)
                     .replace('/', '.');
 
-                Class<?> loadedClass = classLoader.loadClass(className);
-                if (loadedClass.isAnnotationPresent(SystemGroup.class)) {
-                    systemGroups.put(loadedClass, null);
+            try {
+                Class<?> systemGroupClass = classLoader.loadClass(className);
+                if (systemGroupClass.isAnnotationPresent(SystemGroup.class)) {
+                    Constructor<?> constructor = systemGroupClass.getDeclaredConstructor();
+                    constructor.setAccessible(true);
+                    systemGroups.put(systemGroupClass, constructor.newInstance());
                 }
-            } catch (ClassNotFoundException e) {
-                throw new RuntimeException(e);
-            }
-        }
-    }
-
-    public ResolvedSystemGroup getSystemGroup(Class<?> systemGroupClass) throws SystemException {
-        if (modState == ModState.CREATED) {
-            constructSystemGroups();
-        }
-
-        if (modState == ModState.ERROR) {
-            // TODO Need to include mod name
-            throw new SystemException("Mod startup failed for mod", exception);
-        } else {
-            return new ResolvedSystemGroup(this, systemGroups.get(systemGroupClass));
-        }
-    }
-
-    public void constructSystemGroups() {
-        if (modState != ModState.CREATED) {
-            throw new RuntimeException("Can't construct SystemGroups as current state is " + modState);
-        }
-
-        systemGroups.replaceAll((systemGroupClass, systemGroup) -> {
-            try {
-                Constructor<?> constructor = systemGroupClass.getDeclaredConstructor();
-                constructor.setAccessible(true);
-                systemGroup = constructor.newInstance();
             } catch (Exception e) {
-                exception = e;
-                modState = ModState.ERROR;
-                return null;
+                throw new SystemException("Could not construct SystemGroup " + className, e);
             }
-            return systemGroup;
-        });
-
-        if (modState == ModState.ERROR) {
-            systemGroups.clear();
-        } else {
-            modState = ModState.SYSTEM_GROUPS_CONSTRUCTED;
         }
     }
 
-    public void autowireSystemGroups(SystemGroupResolver resolver) {
-        if (modState != ModState.SYSTEM_GROUPS_CONSTRUCTED) {
-            throw new RuntimeException("Can't autowire SystemGroups as current state is " + modState);
-        }
-
-        // TODO Autowire / construct in parent mods if needed
-
+    public void autowireSystemGroups(ModResolver resolver) throws SystemException {
         for (Object systemGroup : systemGroups.values()) {
-            try {
-                autowireSystemGroup(systemGroup.getClass(), systemGroup, resolver);
-            } catch (Exception e) {
-                exception = e;
-                modState = ModState.ERROR;
-                systemGroups.clear();
-                return;
-            }
+            autowireSystemGroup(systemGroup.getClass(), systemGroup, resolver);
         }
-
-        modState = ModState.SYSTEM_GROUPS_AUTOWIRED;
     }
 
-    private void autowireSystemGroup(Class<?> systemClass, Object system, SystemGroupResolver resolver) throws SystemException {
-        Field[] declaredFields = systemClass.getDeclaredFields();
+    private void autowireSystemGroup(Class<?> systemGroupClass, Object systemGroup, ModResolver resolver) throws SystemException {
+        Field[] declaredFields = systemGroupClass.getDeclaredFields();
         for (Field field : declaredFields) {
             if(field.getAnnotation(Inject.class) != null) {
                 field.setAccessible(true);
                 try {
-                    // TODO Need to setup dependencies between mods
-                    // TODO Watch for circular dependencies
-
-                    // TODO Verify dependent systems are public if in different package
-                    // TODO Don't allow sandboxed classes to inject non sandboxed classes unless they have @PublicSystemGroup annotation.
-                    field.set(system, getSystemGroup(field.getType()));
+                    field.set(systemGroup, findSystemGroup(field.getType(), resolver));
 
                     // TODO Need to inject ECS queries
-
                 } catch (IllegalAccessException e) {
                     throw new SystemException("Could not set field " + field.getName() + " in class " + field.getClass().getName(), e);
                 }
             }
         }
 
-        Class<?> superclass = systemClass.getSuperclass();
+        Class<?> superclass = systemGroupClass.getSuperclass();
         if (superclass != null) {
-            autowireSystemGroup(superclass, system, resolver);
+            autowireSystemGroup(superclass, systemGroup, resolver);
+        }
+    }
+
+    private Object findSystemGroup(Class<?> systemGroupClass, ModResolver resolver) throws SystemException {
+        if (isPathInPackage(modPackage, systemGroupClass.getName())) {
+            Object systemGroup = systemGroups.get(systemGroupClass);
+            if (systemGroup == null) {
+                throw new SystemException(systemGroupClass.getName() + " does not exist in mod " + modPackage.getName() + ". Does it have the @SystemGroup annotation?");
+            }
+            return systemGroup;
+        } else {
+            @SuppressWarnings("resource") LoadedMod mod = resolver.findMod(systemGroupClass.getName());
+            if (mod == null) {
+                throw new SystemException("Could not find mod for class " + systemGroupClass.getName());
+            }
+
+            if (mod.modState == ModState.ERROR) {
+                throw new SystemException("Can not initialize mod as dependent mod " + mod.modPackage.getName() + " has an error.");
+            } else if (mod.modState == ModState.CREATED) {
+                mod.init(resolver);
+            }
+
+            // TODO Watch for circular dependencies
+
+            // TODO Don't allow sandboxed classes to inject non sandboxed classes unless they have @PublicSystemGroup annotation.
+            return mod.findSystemGroup(systemGroupClass, resolver);
         }
     }
 
     public void postConstruct() {
-        if (modState != ModState.SYSTEM_GROUPS_AUTOWIRED) {
-            throw new RuntimeException("Can't do postConstruct as current state is " + modState);
+        for (Object value : systemGroups.values()) {
+
         }
-
-        // TODO do in parent mods if needed
-
-        // Make sure dependent mods are RUNNING
-
         // TODO Queue PostConstruct event.
-
-        modState = ModState.RUNNING;
-
     }
 
     public void preDestroy() {
         if (modState != ModState.RUNNING) {
-            throw new RuntimeException("Can't do postConstruct as current state is " + modState);
+            throw new RuntimeException("Can't do preDestroy as current state is " + modState);
         }
 
         // TODO Throw exception if dependent mods are still running

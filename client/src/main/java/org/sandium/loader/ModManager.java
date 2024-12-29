@@ -1,51 +1,59 @@
 package org.sandium.loader;
 
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-public class ModManager implements SystemGroupResolver, AutoCloseable {
+public class ModManager implements ModResolver, AutoCloseable {
 
-    private final List<ModpackClassLoader> classLoaders;
-    // TODO List of mods
+    private final List<ModpackClassLoader> modpacks;
 
     public ModManager() {
-        classLoaders = new ArrayList<>();
-
-        String[] classpath = System.getProperty("java.class.path").split(File.pathSeparator);
-        try {
-            classLoaders.add( new ModpackClassLoader(false, Arrays.stream(classpath).map(Path::of).toArray(Path[]::new)));
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+        modpacks = new ArrayList<>();
     }
 
-    @Override
-    public void close() {
-        classLoaders.forEach(ModpackClassLoader::close);
+    public void addModpack(boolean sandbox, Path[] classpath) throws IOException {
+        // TODO Need to pass list of parents to search
+        // TODO Check for overlapping package names
+        modpacks.add( new ModpackClassLoader(sandbox, classpath));
     }
 
-    public void autowireAllSystems() {
-        for (ModpackClassLoader classLoader : classLoaders) {
-            for (LoadedMod mod : classLoader.getMods()) {
-            }
-        }
-    }
-
-    public Object getSystemGroup(Class<?> systemGroupClass) throws SystemException {
-        for (ModpackClassLoader classLoader : classLoaders) {
-            for (LoadedMod mod : classLoader.getMods()) {
-                Object systemGroup = mod.getSystemGroup(systemGroupClass);
-                if (systemGroup != null) {
-                    return systemGroup;
+    public LoadedMod findMod(String packageName) {
+        for (ModpackClassLoader modpack : modpacks) {
+            for (LoadedMod mod : modpack.getMods()) {
+                if (LoadedMod.isPathInPackage(mod.getModPackage(), packageName)) {
+                    return mod;
                 }
             }
         }
 
-       throw new SystemException("Could not find System " + systemGroupClass.getName() + " Does the class have the @SystemGroup annotation");
+        return null;
     }
+
+    @Override
+    public void close() {
+        modpacks.forEach(ModpackClassLoader::close);
+    }
+
+//    public void autowireAllSystems() {
+//        for (ModpackClassLoader classLoader : modpacks) {
+//            for (LoadedMod mod : classLoader.getMods()) {
+//            }
+//        }
+//    }
+
+//    public ResolvedSystemGroup getSystemGroup(Class<?> systemGroupClass) throws SystemException {
+//        for (ModpackClassLoader modpack : modpacks) {
+//            for (LoadedMod mod : modpack.getMods()) {
+//                Object systemGroup = mod.getSystemGroup(systemGroupClass);
+//                if (systemGroup != null) {
+//                    return systemGroup;
+//                }
+//            }
+//        }
+//
+//       throw new SystemException("Could not find System " + systemGroupClass.getName() + " Does the class have the @SystemGroup annotation");
+//    }
 
 }
