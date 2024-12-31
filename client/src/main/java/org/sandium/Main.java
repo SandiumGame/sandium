@@ -1,5 +1,6 @@
 package org.sandium;
 
+import org.sandium.ecs.ECS;
 import org.sandium.loader.LoadedMod;
 import org.sandium.loader.ModManager;
 
@@ -19,14 +20,17 @@ public class Main {
     }
 
     private ModManager modManager;
+    private ECS ecs;
 
     private void init() throws IOException {
         modManager = new ModManager();
         String[] classpath = System.getProperty("java.class.path").split(File.pathSeparator);
         modManager.addModpack(false, Arrays.stream(classpath).map(Path::of).toArray(Path[]::new));
 
+        ecs = new ECS();
+
         LoadedMod vulkan = modManager.findMod("org.sandium.mods.vulkan");
-        vulkan.init(modManager);
+        vulkan.init(modManager, ecs);
     }
 
     private void run() {
