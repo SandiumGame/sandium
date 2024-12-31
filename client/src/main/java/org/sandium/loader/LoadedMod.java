@@ -4,8 +4,8 @@ import org.sandium.annotation.Inject;
 import org.sandium.annotation.SystemGroup;
 import org.sandium.annotation.PostConstruct;
 import org.sandium.annotation.PreDestroy;
-import org.sandium.ecs.ECS;
-import org.sandium.ecs.MethodCaller;
+import org.sandium.ecs.SystemCaller;
+import org.sandium.ecs.World;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -54,15 +54,15 @@ public class LoadedMod implements AutoCloseable {
         return path.charAt(modPackageName.length()) == '.';
     }
 
-    public void init(ModResolver resolver, ECS ecs) {
+    public void init(ModResolver resolver, World world) {
         if (modState != ModState.CREATED) {
             throw new RuntimeException(modPackage.getName() + " mod has already been initialized");
         }
 
         try {
             loadClasses();
-            autowireSystemGroups(resolver, ecs);
-            scanMethods(ecs);
+            autowireSystemGroups(resolver, world);
+            scanMethods(world);
 
             modState = ModState.RUNNING;
         } catch (Exception e) {
@@ -91,19 +91,19 @@ public class LoadedMod implements AutoCloseable {
         }
     }
 
-    public void autowireSystemGroups(ModResolver resolver, ECS ecs) throws SystemException {
+    public void autowireSystemGroups(ModResolver resolver, World world) throws SystemException {
         for (Object systemGroup : systemGroups.values()) {
-            autowireSystemGroup(systemGroup.getClass(), systemGroup, resolver, ecs);
+            autowireSystemGroup(systemGroup.getClass(), systemGroup, resolver, world);
         }
     }
 
-    private void autowireSystemGroup(Class<?> systemGroupClass, Object systemGroup, ModResolver resolver, ECS ecs) throws SystemException {
+    private void autowireSystemGroup(Class<?> systemGroupClass, Object systemGroup, ModResolver resolver, World world) throws SystemException {
         Field[] declaredFields = systemGroupClass.getDeclaredFields();
         for (Field field : declaredFields) {
             if(field.getAnnotation(Inject.class) != null) {
                 field.setAccessible(true);
                 try {
-                    field.set(systemGroup, findSystemGroup(field.getType(), resolver, ecs));
+                    field.set(systemGroup, findSystemGroup(field.getType(), resolver, world));
 
                     // TODO Need to inject ECS queries
                 } catch (IllegalAccessException e) {
@@ -114,11 +114,11 @@ public class LoadedMod implements AutoCloseable {
 
         Class<?> superclass = systemGroupClass.getSuperclass();
         if (superclass != null) {
-            autowireSystemGroup(superclass, systemGroup, resolver, ecs);
+            autowireSystemGroup(superclass, systemGroup, resolver, world);
         }
     }
 
-    private Object findSystemGroup(Class<?> systemGroupClass, ModResolver resolver, ECS ecs) throws SystemException {
+    private Object findSystemGroup(Class<?> systemGroupClass, ModResolver resolver, World world) throws SystemException {
         if (isPathInPackage(modPackage, systemGroupClass.getName())) {
             Object systemGroup = systemGroups.get(systemGroupClass);
             if (systemGroup == null) {
@@ -134,35 +134,35 @@ public class LoadedMod implements AutoCloseable {
             if (mod.modState == ModState.ERROR) {
                 throw new SystemException("Can not initialize mod as dependent mod " + mod.modPackage.getName() + " has an error.");
             } else if (mod.modState == ModState.CREATED) {
-                mod.init(resolver, ecs);
+                mod.init(resolver, world);
             }
 
             // TODO Watch for circular dependencies
 
             // TODO Don't allow sandboxed classes to inject non sandboxed classes unless they have @PublicSystemGroup annotation.
-            return mod.findSystemGroup(systemGroupClass, resolver, ecs);
+            return mod.findSystemGroup(systemGroupClass, resolver, world);
         }
     }
 
-    public void scanMethods(ECS ecs) {
+    public void scanMethods(World world) {
         for (Object systemGroup : systemGroups.values()) {
             Class<?> systemGroupClass = systemGroup.getClass();
             Method[] methods = systemGroupClass.getDeclaredMethods();
 
             for (Method method : methods) {
                 if (method.isAnnotationPresent(org.sandium.annotation.System.class)) {
-                    MethodCaller caller = new MethodCaller(systemGroup, method);
-                    ecs.addSystemMethod(caller);
+                    SystemCaller caller = new SystemCaller(systemGroup, method);
+                    world.addSystem(caller);
                 }
 
                 if (method.isAnnotationPresent(PostConstruct.class)) {
-                    MethodCaller caller = new MethodCaller(systemGroup, method);
-                    ecs.addPostConstructMethod(caller);
+                    SystemCaller caller = new SystemCaller(systemGroup, method);
+                    world.addSystem(caller);
                 }
 
                 if (method.isAnnotationPresent(PreDestroy.class)) {
-                    MethodCaller caller = new MethodCaller(systemGroup, method);
-                    ecs.addPreDestroyMethod(caller);
+                    SystemCaller caller = new SystemCaller(systemGroup, method);
+                    world.addSystem(caller);
                 }
             }
         }

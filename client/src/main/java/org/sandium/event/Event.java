@@ -1,4 +1,4 @@
 package org.sandium.event;
 
-public class Event {
+public abstract class Event {
 }
