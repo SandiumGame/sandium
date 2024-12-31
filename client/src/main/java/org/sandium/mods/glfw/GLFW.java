@@ -1,8 +1,9 @@
 package org.sandium.mods.glfw;
 
+import org.sandium.annotation.PostConstruct;
+import org.sandium.annotation.PreDestroy;
 import org.sandium.annotation.SystemGroup;
 import org.sandium.annotation.System;
-import org.sandium.event.PostConstruct;
 import org.sandium.libs.glfw.glfw3_h_1;
 
 import java.lang.foreign.Arena;
@@ -17,8 +18,8 @@ public class GLFW {
 
     private MemorySegment window;
 
-    @System
-    public void init(PostConstruct event) {
+    @PostConstruct
+    public void init() {
         if (glfw3_h_1.glfwInit() == 0) {
             throw new RuntimeException("glfwInit() failed");
         }
@@ -41,6 +42,7 @@ public class GLFW {
         }
     }
 
+    @PreDestroy
     public void terminate() {
         glfwDestroyWindow(window);
         glfw3_h_1.glfwTerminate();

@@ -143,7 +143,7 @@ public class LoadedMod implements AutoCloseable {
         for (Object value : systemGroups.values()) {
 
         }
-        // TODO Queue PostConstruct event.
+        // TODO Queue @PostConstruct event.
     }
 
     public void preDestroy() {
