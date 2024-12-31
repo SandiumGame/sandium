@@ -5,6 +5,7 @@ import java.util.*;
 public class World {
     private final Map<Class<?>, ComponentStorage<?>> componentStorages = new HashMap<>();
     private final Set<Entity> entities = new HashSet<>();
+    private final ResourceManager resourceManager = new ResourceManager();
     private long nextEntityId = 0;
     
     public Entity createEntity() {
@@ -38,5 +39,17 @@ public class World {
             componentClass, 
             k -> new ComponentStorage<>()
         );
+    }
+    
+    public ResourceManager getResourceManager() {
+        return resourceManager;
+    }
+
+    public <T extends Resource> void addResource(T resource) {
+        resourceManager.addResource(resource);
+    }
+
+    public <T extends Resource> T getResource(Class<T> resourceClass) {
+        return resourceManager.getResource(resourceClass);
     }
 }

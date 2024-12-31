@@ -1,6 +1,5 @@
 package org.sandium.ecs;
 
-import org.sandium.annotation.SystemGroup;
 import java.util.*;
 
 public class SystemScheduler {
@@ -12,10 +11,6 @@ public class SystemScheduler {
         if (!executionOrder.contains(groupName)) {
             executionOrder.add(groupName);
         }
-    }
-    
-    public void registerSystem(SystemCaller system, SystemGroup group) {
-        registerSystem(system, group.value());
     }
     
     public void setExecutionOrder(String... groups) {
