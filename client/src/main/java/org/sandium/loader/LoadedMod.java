@@ -2,10 +2,14 @@ package org.sandium.loader;
 
 import org.sandium.annotation.Inject;
 import org.sandium.annotation.SystemGroup;
+import org.sandium.annotation.PostConstruct;
+import org.sandium.annotation.PreDestroy;
 import org.sandium.ecs.ECS;
+import org.sandium.ecs.MethodCaller;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -141,7 +145,27 @@ public class LoadedMod implements AutoCloseable {
     }
 
     public void scanMethods(ECS ecs) {
+        for (Object systemGroup : systemGroups.values()) {
+            Class<?> systemGroupClass = systemGroup.getClass();
+            Method[] methods = systemGroupClass.getDeclaredMethods();
 
+            for (Method method : methods) {
+                if (method.isAnnotationPresent(org.sandium.annotation.System.class)) {
+                    MethodCaller caller = new MethodCaller(systemGroup, method);
+                    ecs.addSystemMethod(caller);
+                }
+
+                if (method.isAnnotationPresent(PostConstruct.class)) {
+                    MethodCaller caller = new MethodCaller(systemGroup, method);
+                    ecs.addPostConstructMethod(caller);
+                }
+
+                if (method.isAnnotationPresent(PreDestroy.class)) {
+                    MethodCaller caller = new MethodCaller(systemGroup, method);
+                    ecs.addPreDestroyMethod(caller);
+                }
+            }
+        }
     }
 
     public void preDestroy() {
@@ -162,7 +186,4 @@ public class LoadedMod implements AutoCloseable {
         modState = ModState.DESTROYED;
         // Erase all refs to SystemGroups/mods/etc just to be safe
     }
-
-
-
 }
