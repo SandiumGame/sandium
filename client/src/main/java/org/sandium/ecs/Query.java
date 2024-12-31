@@ -8,8 +8,9 @@ public class Query<T extends Component> {
     private final Set<Class<? extends Component>> withoutComponents = new HashSet<>();
     private final World world;
 
-    public Query(Class<T> componentType) {
+    public Query(Class<T> componentType, World world) {
         this.componentType = componentType;
+        this.world = world;
     }
 
     public Query<T> with(Class<? extends Component> componentClass) {
@@ -30,13 +31,13 @@ public class Query<T extends Component> {
             return results.iterator();
         }
 
-        for (Map.Entry<Entity, T> entry : storage.getAll().entrySet()) {
-            Entity entity = entry.getKey();
+        for (Map.Entry<Integer, T> entry : storage.getAll().entrySet()) {
+            Integer entityId = entry.getKey();
             boolean matches = true;
 
             // Check required components
             for (Class<? extends Component> withClass : withComponents) {
-                if (!world.hasComponent(entity, withClass)) {
+                if (!world.hasComponent(entityId, withClass)) {
                     matches = false;
                     break;
                 }
@@ -44,14 +45,14 @@ public class Query<T extends Component> {
 
             // Check excluded components
             for (Class<? extends Component> withoutClass : withoutComponents) {
-                if (world.hasComponent(entity, withoutClass)) {
+                if (world.hasComponent(entityId, withoutClass)) {
                     matches = false;
                     break;
                 }
             }
 
             if (matches) {
-                results.add(new QueryResult<>(entity, entry.getValue()));
+                results.add(new QueryResult<>(entityId, entry.getValue()));
             }
         }
 

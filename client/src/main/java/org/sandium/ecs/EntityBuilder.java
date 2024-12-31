@@ -16,11 +16,11 @@ public class EntityBuilder {
         return this;
     }
 
-    public Entity build() {
-        Entity entity = world.createEntity();
+    public Integer build() {
+        Integer entityId = world.createEntity();
         for (Component component : components) {
-            world.addComponent(entity, component);
+            world.addComponent(entityId, component);
         }
-        return entity;
+        return entityId;
     }
 }

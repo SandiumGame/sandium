@@ -144,25 +144,25 @@ public class LoadedMod implements AutoCloseable {
         }
     }
 
-    public void scanMethods(World world) {
+    public void scanMethods(World world) throws SystemException {
         for (Object systemGroup : systemGroups.values()) {
             Class<?> systemGroupClass = systemGroup.getClass();
             Method[] methods = systemGroupClass.getDeclaredMethods();
 
             for (Method method : methods) {
                 if (method.isAnnotationPresent(org.sandium.annotation.System.class)) {
-                    SystemCaller caller = new SystemCaller(systemGroup, method);
-                    world.addSystem(caller);
+                    SystemCaller caller = new SystemCaller(systemGroup, method, world);
+                    world.getSystemScheduler().registerSystem(caller);
                 }
 
                 if (method.isAnnotationPresent(PostConstruct.class)) {
-                    SystemCaller caller = new SystemCaller(systemGroup, method);
-                    world.addSystem(caller);
+                    SystemCaller caller = new SystemCaller(systemGroup, method, world);
+                    world.getSystemScheduler().registerSystem(caller);
                 }
 
                 if (method.isAnnotationPresent(PreDestroy.class)) {
-                    SystemCaller caller = new SystemCaller(systemGroup, method);
-                    world.addSystem(caller);
+                    SystemCaller caller = new SystemCaller(systemGroup, method, world);
+                    world.getSystemScheduler().registerSystem(caller);
                 }
             }
         }

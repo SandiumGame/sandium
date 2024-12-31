@@ -4,25 +4,25 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ComponentStorage<T extends Component> {
-    private final Map<Entity, T> components = new HashMap<>();
+    private final Map<Integer, T> components = new HashMap<>();
     
-    public void add(Entity entity, T component) {
-        components.put(entity, component);
+    public void add(Integer entityId, T component) {
+        components.put(entityId, component);
     }
     
-    public T get(Entity entity) {
-        return components.get(entity);
+    public T get(Integer entityId) {
+        return components.get(entityId);
     }
     
-    public void remove(Entity entity) {
-        components.remove(entity);
+    public void remove(Integer entityId) {
+        components.remove(entityId);
     }
     
-    public boolean has(Entity entity) {
-        return components.containsKey(entity);
+    public boolean has(Integer entityId) {
+        return components.containsKey(entityId);
     }
     
-    public Map<Entity, T> getAll() {
+    public Map<Integer, T> getAll() {
         return components;
     }
 }

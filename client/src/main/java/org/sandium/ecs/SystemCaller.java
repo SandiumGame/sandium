@@ -3,18 +3,17 @@ package org.sandium.ecs;
 import java.lang.reflect.Method;
 import java.lang.reflect.Parameter;
 import org.sandium.event.Event;
-import java.util.ArrayList;
-import java.util.List;
+import org.sandium.loader.SystemException;
 
 public class SystemCaller {
     private final Object target;
     private final Method method;
-    private final Class<? extends Event> eventType;
-    private final Query<?>[] queries;
-    private final Class<? extends Resource>[] resources;
+    private Class<? extends Event> eventType;
+    private int eventArgIndex;
+    private final Object[] args;
     private final World world;
 
-    public SystemCaller(Object target, Method method, World world) {
+    public SystemCaller(Object target, Method method, World world) throws SystemException {
         this.target = target;
         this.method = method;
         this.world = world;
@@ -22,24 +21,23 @@ public class SystemCaller {
         
         // Analyze parameters
         Parameter[] parameters = method.getParameters();
-        Class<? extends Event> foundEventType = null;
-        List<Query<?>> foundQueries = new ArrayList<>();
-        List<Class<? extends Resource>> foundResources = new ArrayList<>();
 
-        for (Parameter param : parameters) {
-            Class<?> type = param.getType();
+        args = new Object[parameters.length];
+        for (int i=0; i < parameters.length; i++) {
+            Class<?> type = parameters[i].getType();
             if (Event.class.isAssignableFrom(type)) {
-                foundEventType = (Class<? extends Event>) type;
+                if (eventType != null) {
+                    throw new SystemException(method.getDeclaringClass().getName() + "." + method.getName()
+                            + "() can not have 2 parameters of type Event.");
+                }
+                //noinspection unchecked
+                eventType = (Class<? extends Event>) type;
+                eventArgIndex = i;
             } else if (Query.class.isAssignableFrom(type)) {
-                foundQueries.add(new Query<>(type));
-            } else if (Resource.class.isAssignableFrom(type)) {
-                foundResources.add((Class<? extends Resource>) type);
+                @SuppressWarnings("unchecked") Class<Component> componentType = (Class<Component>) type;
+                args[i] = new Query<>(componentType, world);
             }
         }
-        
-        this.eventType = foundEventType;
-        this.queries = foundQueries.toArray(new Query[0]);
-        this.resources = foundResources.toArray(new Class[0]);
     }
 
     public void call(Event event) throws Exception {
@@ -47,19 +45,7 @@ public class SystemCaller {
             return;
         }
         
-        Object[] args = new Object[method.getParameterCount()];
-        int index = 0;
-        for (Parameter param : method.getParameters()) {
-            if (Event.class.isAssignableFrom(param.getType())) {
-                args[index] = event;
-            } else if (Query.class.isAssignableFrom(param.getType())) {
-                args[index] = queries[index];
-            } else if (Resource.class.isAssignableFrom(param.getType())) {
-                args[index] = world.getResource((Class<? extends Resource>) param.getType());
-            }
-            index++;
-        }
-        
+        args[eventArgIndex] = event;
         method.invoke(target, args);
     }
 }

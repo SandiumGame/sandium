@@ -1,16 +1,16 @@
 package org.sandium.ecs;
 
 public class QueryResult<T extends Component> {
-    private final Entity entity;
+    private final Integer entityId;
     private final T component;
 
-    public QueryResult(Entity entity, T component) {
-        this.entity = entity;
+    public QueryResult(Integer entityId, T component) {
+        this.entityId = entityId;
         this.component = component;
     }
 
-    public Entity getEntity() {
-        return entity;
+    public Integer getEntityId() {
+        return entityId;
     }
 
     public T getComponent() {
