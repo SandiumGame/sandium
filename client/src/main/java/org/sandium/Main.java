@@ -1,8 +1,8 @@
 package org.sandium;
 
-import org.sandium.ecs.World;
-import org.sandium.loader.LoadedMod;
-import org.sandium.loader.ModManager;
+import org.sandium.core.ecs.World;
+import org.sandium.core.loader.LoadedMod;
+import org.sandium.core.loader.ModManager;
 
 import java.io.File;
 import java.io.IOException;

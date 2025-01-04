@@ -1,4 +1,4 @@
 @Mod
 package org.sandium.mods.vulkan;
 
-import org.sandium.annotation.Mod;
+import org.sandium.api.annotation.Mod;

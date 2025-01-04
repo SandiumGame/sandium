@@ -1,9 +1,8 @@
 package org.sandium.mods.glfw;
 
-import org.sandium.annotation.PostConstruct;
-import org.sandium.annotation.PreDestroy;
-import org.sandium.annotation.SystemGroup;
-import org.sandium.annotation.System;
+import org.sandium.api.annotation.PostConstruct;
+import org.sandium.api.annotation.PreDestroy;
+import org.sandium.api.annotation.SystemGroup;
 import org.sandium.libs.glfw.glfw3_h_1;
 
 import java.lang.foreign.Arena;
