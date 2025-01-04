@@ -3,14 +3,14 @@ package org.sandium.mods.glfw;
 import org.sandium.api.annotation.PostConstruct;
 import org.sandium.api.annotation.PreDestroy;
 import org.sandium.api.annotation.SystemGroup;
-import org.sandium.libs.glfw.glfw3_h_1;
+import org.sandium.core.libs.glfw.glfw3_h_1;
 
 import java.lang.foreign.Arena;
 import java.lang.foreign.MemorySegment;
 
-import static org.sandium.libs.glfw.glfw3_h_1.*;
-import static org.sandium.libs.glfw.glfw3_h_4.GLFW_CLIENT_API;
-import static org.sandium.libs.glfw.glfw3_h_4.GLFW_NO_API;
+import static org.sandium.core.libs.glfw.glfw3_h_1.*;
+import static org.sandium.core.libs.glfw.glfw3_h_4.GLFW_CLIENT_API;
+import static org.sandium.core.libs.glfw.glfw3_h_4.GLFW_NO_API;
 
 @SystemGroup
 public class GLFW {
