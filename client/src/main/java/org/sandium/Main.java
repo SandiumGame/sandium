@@ -1,5 +1,6 @@
 package org.sandium;
 
+import org.sandium.api.event.RenderFrame;
 import org.sandium.core.ecs.World;
 import org.sandium.core.loader.LoadedMod;
 import org.sandium.core.loader.ModManager;
@@ -31,14 +32,31 @@ public class Main {
 
         LoadedMod vulkan = modManager.findMod("org.sandium.mods.vulkan");
         vulkan.init(modManager, world);
+
+        // TODO Scan all mods looking for errors
+
+        world.getSystemScheduler().dispatchEvents();
     }
 
     private void run() {
-        // TODO run systems
+        RenderFrame renderFrame = new RenderFrame();
+        while (true) {
+            world.getSystemScheduler().queueEvent(renderFrame);
+            world.getSystemScheduler().dispatchEvents();
+            try {
+                Thread.sleep(15);
+            } catch (InterruptedException e) {
+                // TODO
+                throw new RuntimeException(e);
+            }
+        }
     }
 
     private void terminate() {
         // TODO Fire predestroy()
+
+        world.getSystemScheduler().dispatchEvents();
+
         modManager.close();
     }
 

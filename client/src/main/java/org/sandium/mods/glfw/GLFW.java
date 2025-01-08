@@ -2,7 +2,11 @@ package org.sandium.mods.glfw;
 
 import org.sandium.api.annotation.PostConstruct;
 import org.sandium.api.annotation.PreDestroy;
+import org.sandium.api.annotation.System;
 import org.sandium.api.annotation.SystemGroup;
+import org.sandium.api.event.EventPublisher;
+import org.sandium.api.event.Exit;
+import org.sandium.api.event.RenderFrame;
 import org.sandium.core.libs.glfw.glfw3_h_1;
 
 import java.lang.foreign.Arena;
@@ -35,9 +39,11 @@ public class GLFW {
         }
     }
 
-    public void run() {
-        while (glfwWindowShouldClose(window) == 0) {
-            glfwPollEvents();
+    @System
+    public void run(RenderFrame event, EventPublisher eventPublisher) {
+        glfwPollEvents();
+        if (glfwWindowShouldClose(window) != 0) {
+            eventPublisher.publish(new Exit());
         }
     }
 

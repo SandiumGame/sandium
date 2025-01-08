@@ -45,9 +45,9 @@ public class ModpackClassLoader extends ClassLoader implements AutoCloseable {
     private static final HashSet<String> ALLOWED_SYSTEM_LOADER_CLASSES = new HashSet<>(Arrays.asList(
             Object.class.getCanonicalName()
     ));
+    @SuppressWarnings("ArraysAsListWithZeroOrOneArgument")
     private static final HashSet<String> ALLOWED_PACKAGES = new HashSet<>(Arrays.asList(
-            "org.sandium.annotation.",
-            "org.sandium.event."
+            "org.sandium.api."
     ));
 
     private final boolean sandbox;

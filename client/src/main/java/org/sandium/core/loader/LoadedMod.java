@@ -5,7 +5,9 @@ import org.sandium.api.annotation.SystemGroup;
 import org.sandium.api.annotation.PostConstruct;
 import org.sandium.api.annotation.PreDestroy;
 import org.sandium.api.annotation.System;
+import org.sandium.core.ecs.PostConstructEvent;
 import org.sandium.core.ecs.SystemCaller;
+import org.sandium.core.ecs.SystemScheduler;
 import org.sandium.core.ecs.World;
 
 import java.lang.reflect.Constructor;
@@ -146,24 +148,21 @@ public class LoadedMod implements AutoCloseable {
     }
 
     public void scanMethods(World world) throws SystemException {
+        SystemScheduler systemScheduler = world.getSystemScheduler();
+
         for (Object systemGroup : systemGroups.values()) {
             Class<?> systemGroupClass = systemGroup.getClass();
             Method[] methods = systemGroupClass.getDeclaredMethods();
 
             for (Method method : methods) {
-                if (method.isAnnotationPresent(System.class)) {
+                if (method.isAnnotationPresent(System.class) || method.isAnnotationPresent(PostConstruct.class) ||
+                        method.isAnnotationPresent(PreDestroy.class)) {
                     SystemCaller caller = new SystemCaller(systemGroup, method, world);
-                    world.getSystemScheduler().registerSystem(caller);
-                }
+                    systemScheduler.registerSystem(caller);
 
-                if (method.isAnnotationPresent(PostConstruct.class)) {
-                    SystemCaller caller = new SystemCaller(systemGroup, method, world);
-                    world.getSystemScheduler().registerSystem(caller);
-                }
-
-                if (method.isAnnotationPresent(PreDestroy.class)) {
-                    SystemCaller caller = new SystemCaller(systemGroup, method, world);
-                    world.getSystemScheduler().registerSystem(caller);
+                    if (method.isAnnotationPresent(PostConstruct.class)) {
+                        systemScheduler.queueEvent(new PostConstructEvent(), systemGroup);
+                    }
                 }
             }
         }
