@@ -31,8 +31,13 @@ public class ModManager implements ModResolver, AutoCloseable {
         return null;
     }
 
+    public List<ModpackClassLoader> getModpacks() {
+        return modpacks;
+    }
+
     @Override
     public void close() {
+        // TODO is this needed? Should it be called?
         modpacks.forEach(ModpackClassLoader::close);
     }
 

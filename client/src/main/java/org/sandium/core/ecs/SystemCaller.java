@@ -6,6 +6,7 @@ import java.lang.reflect.Parameter;
 import org.sandium.api.annotation.PostConstruct;
 import org.sandium.api.annotation.PreDestroy;
 import org.sandium.api.event.Event;
+import org.sandium.api.event.EventPublisher;
 import org.sandium.core.loader.SystemException;
 
 public class SystemCaller {
@@ -14,16 +15,16 @@ public class SystemCaller {
     private final Method method;
     private Class<? extends Event> eventType;
     private int eventArgIndex;
+    private int eventPublisherIndex;
     private final Object[] args;
-    private final World world;
 
     public SystemCaller(Object systemGroup, Method method, World world) throws SystemException {
         this.systemGroup = systemGroup;
         this.method = method;
-        this.world = world;
         this.method.setAccessible(true);
 
         eventArgIndex = -1;
+        eventPublisherIndex = -1;
         if (method.isAnnotationPresent(PostConstruct.class)) {
             eventType = PostConstructEvent.class;
         } else if (method.isAnnotationPresent(PreDestroy.class)) {
@@ -52,6 +53,12 @@ public class SystemCaller {
             } else if (Query.class.isAssignableFrom(type)) {
                 @SuppressWarnings("unchecked") Class<Component> componentType = (Class<Component>) type;
                 args[i] = new Query<>(componentType, world);
+            } else if (EventPublisher.class.isAssignableFrom(type)) {
+                if (eventPublisherIndex != -1) {
+                    throw new SystemException(method.getDeclaringClass().getName() + "." + method.getName()
+                            + "() can not have 2 parameters of type EventPublisher.");
+                }
+                eventPublisherIndex = i;
             } else {
                 throw new SystemException(method.getDeclaringClass().getName() + "." + method.getName()
                         + "() has an invalid parameter with type " + type.getName());
@@ -72,13 +79,16 @@ public class SystemCaller {
         return eventType;
     }
 
-    public void call(Event event) {
+    public void call(Event event, EventPublisher eventPublisher) {
         if (eventType != null && !eventType.isInstance(event)) {
             return;
         }
 
         if (eventArgIndex >= 0) {
             args[eventArgIndex] = event;
+        }
+        if (eventPublisherIndex >= 0) {
+            args[eventPublisherIndex] = eventPublisher;
         }
         try {
             method.invoke(systemGroup, args);

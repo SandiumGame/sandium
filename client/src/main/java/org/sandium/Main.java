@@ -1,9 +1,11 @@
 package org.sandium;
 
 import org.sandium.api.event.RenderFrame;
+import org.sandium.core.ecs.SystemScheduler;
 import org.sandium.core.ecs.World;
 import org.sandium.core.loader.LoadedMod;
 import org.sandium.core.loader.ModManager;
+import org.sandium.core.loader.ModpackClassLoader;
 
 import java.io.File;
 import java.io.IOException;
@@ -39,10 +41,14 @@ public class Main {
     }
 
     private void run() {
+        SystemScheduler systemScheduler = world.getSystemScheduler();
         RenderFrame renderFrame = new RenderFrame();
         while (true) {
-            world.getSystemScheduler().queueEvent(renderFrame);
-            world.getSystemScheduler().dispatchEvents();
+            systemScheduler.queueEvent(renderFrame);
+            systemScheduler.dispatchEvents();
+            if (systemScheduler.isShouldExit()) {
+                return;
+            }
             try {
                 Thread.sleep(15);
             } catch (InterruptedException e) {
@@ -54,6 +60,11 @@ public class Main {
 
     private void terminate() {
         // TODO Fire predestroy()
+        for (ModpackClassLoader modpack : modManager.getModpacks()) {
+            for (LoadedMod mod : modpack.getMods()) {
+                mod.preDestroy(world);
+            }
+        }
 
         world.getSystemScheduler().dispatchEvents();
 

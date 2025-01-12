@@ -6,10 +6,12 @@ import org.sandium.api.annotation.PostConstruct;
 import org.sandium.api.annotation.PreDestroy;
 import org.sandium.api.annotation.System;
 import org.sandium.core.ecs.PostConstructEvent;
+import org.sandium.core.ecs.PreDestroyEvent;
 import org.sandium.core.ecs.SystemCaller;
 import org.sandium.core.ecs.SystemScheduler;
 import org.sandium.core.ecs.World;
 
+import java.lang.annotation.Annotation;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -94,7 +96,7 @@ public class LoadedMod implements AutoCloseable {
         }
     }
 
-    public void autowireSystemGroups(ModResolver resolver, World world) throws SystemException {
+    private void autowireSystemGroups(ModResolver resolver, World world) throws SystemException {
         for (Object systemGroup : systemGroups.values()) {
             autowireSystemGroup(systemGroup.getClass(), systemGroup, resolver, world);
         }
@@ -147,7 +149,7 @@ public class LoadedMod implements AutoCloseable {
         }
     }
 
-    public void scanMethods(World world) throws SystemException {
+    private void scanMethods(World world) throws SystemException {
         SystemScheduler systemScheduler = world.getSystemScheduler();
 
         for (Object systemGroup : systemGroups.values()) {
@@ -168,7 +170,7 @@ public class LoadedMod implements AutoCloseable {
         }
     }
 
-    public void preDestroy() {
+    public void preDestroy(World world) {
         if (modState != ModState.RUNNING) {
             throw new RuntimeException("Can't do preDestroy as current state is " + modState);
         }
@@ -177,6 +179,19 @@ public class LoadedMod implements AutoCloseable {
         // TODO Queue PreDestroy event.
 
         // TODO do in parent mods if needed
+
+        SystemScheduler systemScheduler = world.getSystemScheduler();
+
+        for (Object systemGroup : systemGroups.values()) {
+            Class<?> systemGroupClass = systemGroup.getClass();
+            Method[] methods = systemGroupClass.getDeclaredMethods();
+
+            for (Method method : methods) {
+                if (method.isAnnotationPresent(PreDestroy.class)) {
+                    systemScheduler.queueEvent(new PreDestroyEvent(), systemGroup);
+                }
+            }
+        }
 
         modState = ModState.DESTROYING;
     }
