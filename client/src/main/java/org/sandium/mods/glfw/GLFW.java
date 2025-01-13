@@ -7,7 +7,6 @@ import org.sandium.api.annotation.SystemGroup;
 import org.sandium.api.event.EventPublisher;
 import org.sandium.api.event.Exit;
 import org.sandium.api.event.RenderFrame;
-import org.sandium.core.libs.glfw.glfw3_h_1;
 
 import java.lang.foreign.Arena;
 import java.lang.foreign.MemorySegment;
@@ -23,12 +22,12 @@ public class GLFW {
 
     @PostConstruct
     public void init() {
-        if (glfw3_h_1.glfwInit() == 0) {
+        if (glfwInit() == 0) {
             throw new RuntimeException("glfwInit() failed");
         }
 
-        try (Arena memorySession = Arena.ofConfined()) {
-            MemorySegment windowName = memorySession.allocateFrom("Hello World");
+        try (Arena arena = Arena.ofConfined()) {
+            MemorySegment windowName = arena.allocateFrom("Sandium");
             glfwWindowHint(GLFW_CLIENT_API(), GLFW_NO_API());
             window = glfwCreateWindow(1024, 768, windowName, MemorySegment.NULL, MemorySegment.NULL);
             if (window == MemorySegment.NULL) {
@@ -50,7 +49,7 @@ public class GLFW {
     @PreDestroy
     public void terminate() {
         glfwDestroyWindow(window);
-        glfw3_h_1.glfwTerminate();
+        glfwTerminate();
     }
 
 }
