@@ -35,6 +35,6 @@ public class LibraryResolver {
             }
         }
 
-        throw new RuntimeException("Could not find library " + libFileName);
+        return SymbolLookup.libraryLookup(libFileName, libraryArena);
     }
 }

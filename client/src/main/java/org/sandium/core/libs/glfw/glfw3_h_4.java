@@ -17,8642 +17,9005 @@ public class glfw3_h_4 extends glfw3_h_5 {
     glfw3_h_4() {
         // Should not be called directly
     }
-    private static final int GL_MESA_packed_depth_stencil = (int)1L;
+    private static final int GL_ARB_copy_buffer = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_MESA_packed_depth_stencil 1
+     * #define GL_ARB_copy_buffer 1
      * }
      */
-    public static int GL_MESA_packed_depth_stencil() {
-        return GL_MESA_packed_depth_stencil;
+    public static int GL_ARB_copy_buffer() {
+        return GL_ARB_copy_buffer;
     }
-    private static final int GL_DEPTH_STENCIL_MESA = (int)34640L;
+    private static final int GL_ARB_copy_image = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_DEPTH_STENCIL_MESA 34640
+     * #define GL_ARB_copy_image 1
      * }
      */
-    public static int GL_DEPTH_STENCIL_MESA() {
-        return GL_DEPTH_STENCIL_MESA;
+    public static int GL_ARB_copy_image() {
+        return GL_ARB_copy_image;
     }
-    private static final int GL_UNSIGNED_INT_24_8_MESA = (int)34641L;
+    private static final int GL_ARB_cull_distance = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_UNSIGNED_INT_24_8_MESA 34641
+     * #define GL_ARB_cull_distance 1
      * }
      */
-    public static int GL_UNSIGNED_INT_24_8_MESA() {
-        return GL_UNSIGNED_INT_24_8_MESA;
+    public static int GL_ARB_cull_distance() {
+        return GL_ARB_cull_distance;
     }
-    private static final int GL_UNSIGNED_INT_8_24_REV_MESA = (int)34642L;
+    private static final int GL_ARB_debug_output = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_UNSIGNED_INT_8_24_REV_MESA 34642
+     * #define GL_ARB_debug_output 1
      * }
      */
-    public static int GL_UNSIGNED_INT_8_24_REV_MESA() {
-        return GL_UNSIGNED_INT_8_24_REV_MESA;
+    public static int GL_ARB_debug_output() {
+        return GL_ARB_debug_output;
     }
-    private static final int GL_UNSIGNED_SHORT_15_1_MESA = (int)34643L;
+    private static final int GL_DEBUG_OUTPUT_SYNCHRONOUS_ARB = (int)33346L;
     /**
      * {@snippet lang=c :
-     * #define GL_UNSIGNED_SHORT_15_1_MESA 34643
+     * #define GL_DEBUG_OUTPUT_SYNCHRONOUS_ARB 33346
      * }
      */
-    public static int GL_UNSIGNED_SHORT_15_1_MESA() {
-        return GL_UNSIGNED_SHORT_15_1_MESA;
+    public static int GL_DEBUG_OUTPUT_SYNCHRONOUS_ARB() {
+        return GL_DEBUG_OUTPUT_SYNCHRONOUS_ARB;
     }
-    private static final int GL_UNSIGNED_SHORT_1_15_REV_MESA = (int)34644L;
+    private static final int GL_DEBUG_NEXT_LOGGED_MESSAGE_LENGTH_ARB = (int)33347L;
     /**
      * {@snippet lang=c :
-     * #define GL_UNSIGNED_SHORT_1_15_REV_MESA 34644
+     * #define GL_DEBUG_NEXT_LOGGED_MESSAGE_LENGTH_ARB 33347
      * }
      */
-    public static int GL_UNSIGNED_SHORT_1_15_REV_MESA() {
-        return GL_UNSIGNED_SHORT_1_15_REV_MESA;
+    public static int GL_DEBUG_NEXT_LOGGED_MESSAGE_LENGTH_ARB() {
+        return GL_DEBUG_NEXT_LOGGED_MESSAGE_LENGTH_ARB;
     }
-    private static final int GL_ATI_blend_equation_separate = (int)1L;
+    private static final int GL_DEBUG_CALLBACK_FUNCTION_ARB = (int)33348L;
     /**
      * {@snippet lang=c :
-     * #define GL_ATI_blend_equation_separate 1
+     * #define GL_DEBUG_CALLBACK_FUNCTION_ARB 33348
      * }
      */
-    public static int GL_ATI_blend_equation_separate() {
-        return GL_ATI_blend_equation_separate;
+    public static int GL_DEBUG_CALLBACK_FUNCTION_ARB() {
+        return GL_DEBUG_CALLBACK_FUNCTION_ARB;
     }
-    private static final int GL_ALPHA_BLEND_EQUATION_ATI = (int)34877L;
+    private static final int GL_DEBUG_CALLBACK_USER_PARAM_ARB = (int)33349L;
     /**
      * {@snippet lang=c :
-     * #define GL_ALPHA_BLEND_EQUATION_ATI 34877
+     * #define GL_DEBUG_CALLBACK_USER_PARAM_ARB 33349
      * }
      */
-    public static int GL_ALPHA_BLEND_EQUATION_ATI() {
-        return GL_ALPHA_BLEND_EQUATION_ATI;
+    public static int GL_DEBUG_CALLBACK_USER_PARAM_ARB() {
+        return GL_DEBUG_CALLBACK_USER_PARAM_ARB;
     }
-    private static final int GL_OES_EGL_image = (int)1L;
+    private static final int GL_DEBUG_SOURCE_API_ARB = (int)33350L;
     /**
      * {@snippet lang=c :
-     * #define GL_OES_EGL_image 1
+     * #define GL_DEBUG_SOURCE_API_ARB 33350
      * }
      */
-    public static int GL_OES_EGL_image() {
-        return GL_OES_EGL_image;
+    public static int GL_DEBUG_SOURCE_API_ARB() {
+        return GL_DEBUG_SOURCE_API_ARB;
     }
-    private static final int GLFW_VERSION_MAJOR = (int)3L;
+    private static final int GL_DEBUG_SOURCE_WINDOW_SYSTEM_ARB = (int)33351L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_VERSION_MAJOR 3
+     * #define GL_DEBUG_SOURCE_WINDOW_SYSTEM_ARB 33351
      * }
      */
-    public static int GLFW_VERSION_MAJOR() {
-        return GLFW_VERSION_MAJOR;
+    public static int GL_DEBUG_SOURCE_WINDOW_SYSTEM_ARB() {
+        return GL_DEBUG_SOURCE_WINDOW_SYSTEM_ARB;
     }
-    private static final int GLFW_VERSION_MINOR = (int)4L;
+    private static final int GL_DEBUG_SOURCE_SHADER_COMPILER_ARB = (int)33352L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_VERSION_MINOR 4
+     * #define GL_DEBUG_SOURCE_SHADER_COMPILER_ARB 33352
      * }
      */
-    public static int GLFW_VERSION_MINOR() {
-        return GLFW_VERSION_MINOR;
+    public static int GL_DEBUG_SOURCE_SHADER_COMPILER_ARB() {
+        return GL_DEBUG_SOURCE_SHADER_COMPILER_ARB;
     }
-    private static final int GLFW_VERSION_REVISION = (int)0L;
+    private static final int GL_DEBUG_SOURCE_THIRD_PARTY_ARB = (int)33353L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_VERSION_REVISION 0
+     * #define GL_DEBUG_SOURCE_THIRD_PARTY_ARB 33353
      * }
      */
-    public static int GLFW_VERSION_REVISION() {
-        return GLFW_VERSION_REVISION;
+    public static int GL_DEBUG_SOURCE_THIRD_PARTY_ARB() {
+        return GL_DEBUG_SOURCE_THIRD_PARTY_ARB;
     }
-    private static final int GLFW_TRUE = (int)1L;
+    private static final int GL_DEBUG_SOURCE_APPLICATION_ARB = (int)33354L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_TRUE 1
+     * #define GL_DEBUG_SOURCE_APPLICATION_ARB 33354
      * }
      */
-    public static int GLFW_TRUE() {
-        return GLFW_TRUE;
+    public static int GL_DEBUG_SOURCE_APPLICATION_ARB() {
+        return GL_DEBUG_SOURCE_APPLICATION_ARB;
     }
-    private static final int GLFW_FALSE = (int)0L;
+    private static final int GL_DEBUG_SOURCE_OTHER_ARB = (int)33355L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_FALSE 0
+     * #define GL_DEBUG_SOURCE_OTHER_ARB 33355
      * }
      */
-    public static int GLFW_FALSE() {
-        return GLFW_FALSE;
+    public static int GL_DEBUG_SOURCE_OTHER_ARB() {
+        return GL_DEBUG_SOURCE_OTHER_ARB;
     }
-    private static final int GLFW_RELEASE = (int)0L;
+    private static final int GL_DEBUG_TYPE_ERROR_ARB = (int)33356L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_RELEASE 0
+     * #define GL_DEBUG_TYPE_ERROR_ARB 33356
      * }
      */
-    public static int GLFW_RELEASE() {
-        return GLFW_RELEASE;
+    public static int GL_DEBUG_TYPE_ERROR_ARB() {
+        return GL_DEBUG_TYPE_ERROR_ARB;
     }
-    private static final int GLFW_PRESS = (int)1L;
+    private static final int GL_DEBUG_TYPE_DEPRECATED_BEHAVIOR_ARB = (int)33357L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_PRESS 1
+     * #define GL_DEBUG_TYPE_DEPRECATED_BEHAVIOR_ARB 33357
      * }
      */
-    public static int GLFW_PRESS() {
-        return GLFW_PRESS;
+    public static int GL_DEBUG_TYPE_DEPRECATED_BEHAVIOR_ARB() {
+        return GL_DEBUG_TYPE_DEPRECATED_BEHAVIOR_ARB;
     }
-    private static final int GLFW_REPEAT = (int)2L;
+    private static final int GL_DEBUG_TYPE_UNDEFINED_BEHAVIOR_ARB = (int)33358L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_REPEAT 2
+     * #define GL_DEBUG_TYPE_UNDEFINED_BEHAVIOR_ARB 33358
      * }
      */
-    public static int GLFW_REPEAT() {
-        return GLFW_REPEAT;
+    public static int GL_DEBUG_TYPE_UNDEFINED_BEHAVIOR_ARB() {
+        return GL_DEBUG_TYPE_UNDEFINED_BEHAVIOR_ARB;
     }
-    private static final int GLFW_HAT_CENTERED = (int)0L;
+    private static final int GL_DEBUG_TYPE_PORTABILITY_ARB = (int)33359L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_HAT_CENTERED 0
+     * #define GL_DEBUG_TYPE_PORTABILITY_ARB 33359
      * }
      */
-    public static int GLFW_HAT_CENTERED() {
-        return GLFW_HAT_CENTERED;
+    public static int GL_DEBUG_TYPE_PORTABILITY_ARB() {
+        return GL_DEBUG_TYPE_PORTABILITY_ARB;
     }
-    private static final int GLFW_HAT_UP = (int)1L;
+    private static final int GL_DEBUG_TYPE_PERFORMANCE_ARB = (int)33360L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_HAT_UP 1
+     * #define GL_DEBUG_TYPE_PERFORMANCE_ARB 33360
      * }
      */
-    public static int GLFW_HAT_UP() {
-        return GLFW_HAT_UP;
+    public static int GL_DEBUG_TYPE_PERFORMANCE_ARB() {
+        return GL_DEBUG_TYPE_PERFORMANCE_ARB;
     }
-    private static final int GLFW_HAT_RIGHT = (int)2L;
+    private static final int GL_DEBUG_TYPE_OTHER_ARB = (int)33361L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_HAT_RIGHT 2
+     * #define GL_DEBUG_TYPE_OTHER_ARB 33361
      * }
      */
-    public static int GLFW_HAT_RIGHT() {
-        return GLFW_HAT_RIGHT;
+    public static int GL_DEBUG_TYPE_OTHER_ARB() {
+        return GL_DEBUG_TYPE_OTHER_ARB;
     }
-    private static final int GLFW_HAT_DOWN = (int)4L;
+    private static final int GL_MAX_DEBUG_MESSAGE_LENGTH_ARB = (int)37187L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_HAT_DOWN 4
+     * #define GL_MAX_DEBUG_MESSAGE_LENGTH_ARB 37187
      * }
      */
-    public static int GLFW_HAT_DOWN() {
-        return GLFW_HAT_DOWN;
+    public static int GL_MAX_DEBUG_MESSAGE_LENGTH_ARB() {
+        return GL_MAX_DEBUG_MESSAGE_LENGTH_ARB;
     }
-    private static final int GLFW_HAT_LEFT = (int)8L;
+    private static final int GL_MAX_DEBUG_LOGGED_MESSAGES_ARB = (int)37188L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_HAT_LEFT 8
+     * #define GL_MAX_DEBUG_LOGGED_MESSAGES_ARB 37188
      * }
      */
-    public static int GLFW_HAT_LEFT() {
-        return GLFW_HAT_LEFT;
+    public static int GL_MAX_DEBUG_LOGGED_MESSAGES_ARB() {
+        return GL_MAX_DEBUG_LOGGED_MESSAGES_ARB;
     }
-    private static final int GLFW_KEY_SPACE = (int)32L;
+    private static final int GL_DEBUG_LOGGED_MESSAGES_ARB = (int)37189L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_SPACE 32
+     * #define GL_DEBUG_LOGGED_MESSAGES_ARB 37189
      * }
      */
-    public static int GLFW_KEY_SPACE() {
-        return GLFW_KEY_SPACE;
+    public static int GL_DEBUG_LOGGED_MESSAGES_ARB() {
+        return GL_DEBUG_LOGGED_MESSAGES_ARB;
     }
-    private static final int GLFW_KEY_APOSTROPHE = (int)39L;
+    private static final int GL_DEBUG_SEVERITY_HIGH_ARB = (int)37190L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_APOSTROPHE 39
+     * #define GL_DEBUG_SEVERITY_HIGH_ARB 37190
      * }
      */
-    public static int GLFW_KEY_APOSTROPHE() {
-        return GLFW_KEY_APOSTROPHE;
+    public static int GL_DEBUG_SEVERITY_HIGH_ARB() {
+        return GL_DEBUG_SEVERITY_HIGH_ARB;
     }
-    private static final int GLFW_KEY_COMMA = (int)44L;
+    private static final int GL_DEBUG_SEVERITY_MEDIUM_ARB = (int)37191L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_COMMA 44
+     * #define GL_DEBUG_SEVERITY_MEDIUM_ARB 37191
      * }
      */
-    public static int GLFW_KEY_COMMA() {
-        return GLFW_KEY_COMMA;
+    public static int GL_DEBUG_SEVERITY_MEDIUM_ARB() {
+        return GL_DEBUG_SEVERITY_MEDIUM_ARB;
     }
-    private static final int GLFW_KEY_MINUS = (int)45L;
+    private static final int GL_DEBUG_SEVERITY_LOW_ARB = (int)37192L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_MINUS 45
+     * #define GL_DEBUG_SEVERITY_LOW_ARB 37192
      * }
      */
-    public static int GLFW_KEY_MINUS() {
-        return GLFW_KEY_MINUS;
+    public static int GL_DEBUG_SEVERITY_LOW_ARB() {
+        return GL_DEBUG_SEVERITY_LOW_ARB;
     }
-    private static final int GLFW_KEY_PERIOD = (int)46L;
+    private static final int GL_ARB_depth_buffer_float = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_PERIOD 46
+     * #define GL_ARB_depth_buffer_float 1
      * }
      */
-    public static int GLFW_KEY_PERIOD() {
-        return GLFW_KEY_PERIOD;
+    public static int GL_ARB_depth_buffer_float() {
+        return GL_ARB_depth_buffer_float;
     }
-    private static final int GLFW_KEY_SLASH = (int)47L;
+    private static final int GL_ARB_depth_clamp = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_SLASH 47
+     * #define GL_ARB_depth_clamp 1
      * }
      */
-    public static int GLFW_KEY_SLASH() {
-        return GLFW_KEY_SLASH;
+    public static int GL_ARB_depth_clamp() {
+        return GL_ARB_depth_clamp;
     }
-    private static final int GLFW_KEY_0 = (int)48L;
+    private static final int GL_ARB_depth_texture = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_0 48
+     * #define GL_ARB_depth_texture 1
      * }
      */
-    public static int GLFW_KEY_0() {
-        return GLFW_KEY_0;
+    public static int GL_ARB_depth_texture() {
+        return GL_ARB_depth_texture;
     }
-    private static final int GLFW_KEY_1 = (int)49L;
+    private static final int GL_DEPTH_COMPONENT16_ARB = (int)33189L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_1 49
+     * #define GL_DEPTH_COMPONENT16_ARB 33189
      * }
      */
-    public static int GLFW_KEY_1() {
-        return GLFW_KEY_1;
+    public static int GL_DEPTH_COMPONENT16_ARB() {
+        return GL_DEPTH_COMPONENT16_ARB;
     }
-    private static final int GLFW_KEY_2 = (int)50L;
+    private static final int GL_DEPTH_COMPONENT24_ARB = (int)33190L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_2 50
+     * #define GL_DEPTH_COMPONENT24_ARB 33190
      * }
      */
-    public static int GLFW_KEY_2() {
-        return GLFW_KEY_2;
+    public static int GL_DEPTH_COMPONENT24_ARB() {
+        return GL_DEPTH_COMPONENT24_ARB;
     }
-    private static final int GLFW_KEY_3 = (int)51L;
+    private static final int GL_DEPTH_COMPONENT32_ARB = (int)33191L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_3 51
+     * #define GL_DEPTH_COMPONENT32_ARB 33191
      * }
      */
-    public static int GLFW_KEY_3() {
-        return GLFW_KEY_3;
+    public static int GL_DEPTH_COMPONENT32_ARB() {
+        return GL_DEPTH_COMPONENT32_ARB;
     }
-    private static final int GLFW_KEY_4 = (int)52L;
+    private static final int GL_TEXTURE_DEPTH_SIZE_ARB = (int)34890L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_4 52
+     * #define GL_TEXTURE_DEPTH_SIZE_ARB 34890
      * }
      */
-    public static int GLFW_KEY_4() {
-        return GLFW_KEY_4;
+    public static int GL_TEXTURE_DEPTH_SIZE_ARB() {
+        return GL_TEXTURE_DEPTH_SIZE_ARB;
     }
-    private static final int GLFW_KEY_5 = (int)53L;
+    private static final int GL_DEPTH_TEXTURE_MODE_ARB = (int)34891L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_5 53
+     * #define GL_DEPTH_TEXTURE_MODE_ARB 34891
      * }
      */
-    public static int GLFW_KEY_5() {
-        return GLFW_KEY_5;
+    public static int GL_DEPTH_TEXTURE_MODE_ARB() {
+        return GL_DEPTH_TEXTURE_MODE_ARB;
     }
-    private static final int GLFW_KEY_6 = (int)54L;
+    private static final int GL_ARB_derivative_control = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_6 54
+     * #define GL_ARB_derivative_control 1
      * }
      */
-    public static int GLFW_KEY_6() {
-        return GLFW_KEY_6;
+    public static int GL_ARB_derivative_control() {
+        return GL_ARB_derivative_control;
     }
-    private static final int GLFW_KEY_7 = (int)55L;
+    private static final int GL_ARB_direct_state_access = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_7 55
+     * #define GL_ARB_direct_state_access 1
      * }
      */
-    public static int GLFW_KEY_7() {
-        return GLFW_KEY_7;
+    public static int GL_ARB_direct_state_access() {
+        return GL_ARB_direct_state_access;
     }
-    private static final int GLFW_KEY_8 = (int)56L;
+    private static final int GL_ARB_draw_buffers = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_8 56
+     * #define GL_ARB_draw_buffers 1
      * }
      */
-    public static int GLFW_KEY_8() {
-        return GLFW_KEY_8;
+    public static int GL_ARB_draw_buffers() {
+        return GL_ARB_draw_buffers;
     }
-    private static final int GLFW_KEY_9 = (int)57L;
+    private static final int GL_MAX_DRAW_BUFFERS_ARB = (int)34852L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_9 57
+     * #define GL_MAX_DRAW_BUFFERS_ARB 34852
      * }
      */
-    public static int GLFW_KEY_9() {
-        return GLFW_KEY_9;
+    public static int GL_MAX_DRAW_BUFFERS_ARB() {
+        return GL_MAX_DRAW_BUFFERS_ARB;
     }
-    private static final int GLFW_KEY_SEMICOLON = (int)59L;
+    private static final int GL_DRAW_BUFFER0_ARB = (int)34853L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_SEMICOLON 59
+     * #define GL_DRAW_BUFFER0_ARB 34853
      * }
      */
-    public static int GLFW_KEY_SEMICOLON() {
-        return GLFW_KEY_SEMICOLON;
+    public static int GL_DRAW_BUFFER0_ARB() {
+        return GL_DRAW_BUFFER0_ARB;
     }
-    private static final int GLFW_KEY_EQUAL = (int)61L;
+    private static final int GL_DRAW_BUFFER1_ARB = (int)34854L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_EQUAL 61
+     * #define GL_DRAW_BUFFER1_ARB 34854
      * }
      */
-    public static int GLFW_KEY_EQUAL() {
-        return GLFW_KEY_EQUAL;
+    public static int GL_DRAW_BUFFER1_ARB() {
+        return GL_DRAW_BUFFER1_ARB;
     }
-    private static final int GLFW_KEY_A = (int)65L;
+    private static final int GL_DRAW_BUFFER2_ARB = (int)34855L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_A 65
+     * #define GL_DRAW_BUFFER2_ARB 34855
      * }
      */
-    public static int GLFW_KEY_A() {
-        return GLFW_KEY_A;
+    public static int GL_DRAW_BUFFER2_ARB() {
+        return GL_DRAW_BUFFER2_ARB;
     }
-    private static final int GLFW_KEY_B = (int)66L;
+    private static final int GL_DRAW_BUFFER3_ARB = (int)34856L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_B 66
+     * #define GL_DRAW_BUFFER3_ARB 34856
      * }
      */
-    public static int GLFW_KEY_B() {
-        return GLFW_KEY_B;
+    public static int GL_DRAW_BUFFER3_ARB() {
+        return GL_DRAW_BUFFER3_ARB;
     }
-    private static final int GLFW_KEY_C = (int)67L;
+    private static final int GL_DRAW_BUFFER4_ARB = (int)34857L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_C 67
+     * #define GL_DRAW_BUFFER4_ARB 34857
      * }
      */
-    public static int GLFW_KEY_C() {
-        return GLFW_KEY_C;
+    public static int GL_DRAW_BUFFER4_ARB() {
+        return GL_DRAW_BUFFER4_ARB;
     }
-    private static final int GLFW_KEY_D = (int)68L;
+    private static final int GL_DRAW_BUFFER5_ARB = (int)34858L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_D 68
+     * #define GL_DRAW_BUFFER5_ARB 34858
      * }
      */
-    public static int GLFW_KEY_D() {
-        return GLFW_KEY_D;
+    public static int GL_DRAW_BUFFER5_ARB() {
+        return GL_DRAW_BUFFER5_ARB;
     }
-    private static final int GLFW_KEY_E = (int)69L;
+    private static final int GL_DRAW_BUFFER6_ARB = (int)34859L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_E 69
+     * #define GL_DRAW_BUFFER6_ARB 34859
      * }
      */
-    public static int GLFW_KEY_E() {
-        return GLFW_KEY_E;
+    public static int GL_DRAW_BUFFER6_ARB() {
+        return GL_DRAW_BUFFER6_ARB;
     }
-    private static final int GLFW_KEY_F = (int)70L;
+    private static final int GL_DRAW_BUFFER7_ARB = (int)34860L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_F 70
+     * #define GL_DRAW_BUFFER7_ARB 34860
      * }
      */
-    public static int GLFW_KEY_F() {
-        return GLFW_KEY_F;
+    public static int GL_DRAW_BUFFER7_ARB() {
+        return GL_DRAW_BUFFER7_ARB;
     }
-    private static final int GLFW_KEY_G = (int)71L;
+    private static final int GL_DRAW_BUFFER8_ARB = (int)34861L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_G 71
+     * #define GL_DRAW_BUFFER8_ARB 34861
      * }
      */
-    public static int GLFW_KEY_G() {
-        return GLFW_KEY_G;
+    public static int GL_DRAW_BUFFER8_ARB() {
+        return GL_DRAW_BUFFER8_ARB;
     }
-    private static final int GLFW_KEY_H = (int)72L;
+    private static final int GL_DRAW_BUFFER9_ARB = (int)34862L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_H 72
+     * #define GL_DRAW_BUFFER9_ARB 34862
      * }
      */
-    public static int GLFW_KEY_H() {
-        return GLFW_KEY_H;
+    public static int GL_DRAW_BUFFER9_ARB() {
+        return GL_DRAW_BUFFER9_ARB;
     }
-    private static final int GLFW_KEY_I = (int)73L;
+    private static final int GL_DRAW_BUFFER10_ARB = (int)34863L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_I 73
+     * #define GL_DRAW_BUFFER10_ARB 34863
      * }
      */
-    public static int GLFW_KEY_I() {
-        return GLFW_KEY_I;
+    public static int GL_DRAW_BUFFER10_ARB() {
+        return GL_DRAW_BUFFER10_ARB;
     }
-    private static final int GLFW_KEY_J = (int)74L;
+    private static final int GL_DRAW_BUFFER11_ARB = (int)34864L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_J 74
+     * #define GL_DRAW_BUFFER11_ARB 34864
      * }
      */
-    public static int GLFW_KEY_J() {
-        return GLFW_KEY_J;
+    public static int GL_DRAW_BUFFER11_ARB() {
+        return GL_DRAW_BUFFER11_ARB;
     }
-    private static final int GLFW_KEY_K = (int)75L;
+    private static final int GL_DRAW_BUFFER12_ARB = (int)34865L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_K 75
+     * #define GL_DRAW_BUFFER12_ARB 34865
      * }
      */
-    public static int GLFW_KEY_K() {
-        return GLFW_KEY_K;
+    public static int GL_DRAW_BUFFER12_ARB() {
+        return GL_DRAW_BUFFER12_ARB;
     }
-    private static final int GLFW_KEY_L = (int)76L;
+    private static final int GL_DRAW_BUFFER13_ARB = (int)34866L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_L 76
+     * #define GL_DRAW_BUFFER13_ARB 34866
      * }
      */
-    public static int GLFW_KEY_L() {
-        return GLFW_KEY_L;
+    public static int GL_DRAW_BUFFER13_ARB() {
+        return GL_DRAW_BUFFER13_ARB;
     }
-    private static final int GLFW_KEY_M = (int)77L;
+    private static final int GL_DRAW_BUFFER14_ARB = (int)34867L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_M 77
+     * #define GL_DRAW_BUFFER14_ARB 34867
      * }
      */
-    public static int GLFW_KEY_M() {
-        return GLFW_KEY_M;
+    public static int GL_DRAW_BUFFER14_ARB() {
+        return GL_DRAW_BUFFER14_ARB;
     }
-    private static final int GLFW_KEY_N = (int)78L;
+    private static final int GL_DRAW_BUFFER15_ARB = (int)34868L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_N 78
+     * #define GL_DRAW_BUFFER15_ARB 34868
      * }
      */
-    public static int GLFW_KEY_N() {
-        return GLFW_KEY_N;
+    public static int GL_DRAW_BUFFER15_ARB() {
+        return GL_DRAW_BUFFER15_ARB;
     }
-    private static final int GLFW_KEY_O = (int)79L;
+    private static final int GL_ARB_draw_buffers_blend = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_O 79
+     * #define GL_ARB_draw_buffers_blend 1
      * }
      */
-    public static int GLFW_KEY_O() {
-        return GLFW_KEY_O;
+    public static int GL_ARB_draw_buffers_blend() {
+        return GL_ARB_draw_buffers_blend;
     }
-    private static final int GLFW_KEY_P = (int)80L;
+    private static final int GL_ARB_draw_elements_base_vertex = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_P 80
+     * #define GL_ARB_draw_elements_base_vertex 1
      * }
      */
-    public static int GLFW_KEY_P() {
-        return GLFW_KEY_P;
+    public static int GL_ARB_draw_elements_base_vertex() {
+        return GL_ARB_draw_elements_base_vertex;
     }
-    private static final int GLFW_KEY_Q = (int)81L;
+    private static final int GL_ARB_draw_indirect = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_Q 81
+     * #define GL_ARB_draw_indirect 1
      * }
      */
-    public static int GLFW_KEY_Q() {
-        return GLFW_KEY_Q;
+    public static int GL_ARB_draw_indirect() {
+        return GL_ARB_draw_indirect;
     }
-    private static final int GLFW_KEY_R = (int)82L;
+    private static final int GL_ARB_draw_instanced = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_R 82
+     * #define GL_ARB_draw_instanced 1
      * }
      */
-    public static int GLFW_KEY_R() {
-        return GLFW_KEY_R;
+    public static int GL_ARB_draw_instanced() {
+        return GL_ARB_draw_instanced;
     }
-    private static final int GLFW_KEY_S = (int)83L;
+    private static final int GL_ARB_enhanced_layouts = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_S 83
+     * #define GL_ARB_enhanced_layouts 1
      * }
      */
-    public static int GLFW_KEY_S() {
-        return GLFW_KEY_S;
+    public static int GL_ARB_enhanced_layouts() {
+        return GL_ARB_enhanced_layouts;
     }
-    private static final int GLFW_KEY_T = (int)84L;
+    private static final int GL_ARB_explicit_attrib_location = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_T 84
+     * #define GL_ARB_explicit_attrib_location 1
      * }
      */
-    public static int GLFW_KEY_T() {
-        return GLFW_KEY_T;
+    public static int GL_ARB_explicit_attrib_location() {
+        return GL_ARB_explicit_attrib_location;
     }
-    private static final int GLFW_KEY_U = (int)85L;
+    private static final int GL_ARB_explicit_uniform_location = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_U 85
+     * #define GL_ARB_explicit_uniform_location 1
      * }
      */
-    public static int GLFW_KEY_U() {
-        return GLFW_KEY_U;
+    public static int GL_ARB_explicit_uniform_location() {
+        return GL_ARB_explicit_uniform_location;
     }
-    private static final int GLFW_KEY_V = (int)86L;
+    private static final int GL_ARB_fragment_coord_conventions = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_V 86
+     * #define GL_ARB_fragment_coord_conventions 1
      * }
      */
-    public static int GLFW_KEY_V() {
-        return GLFW_KEY_V;
+    public static int GL_ARB_fragment_coord_conventions() {
+        return GL_ARB_fragment_coord_conventions;
     }
-    private static final int GLFW_KEY_W = (int)87L;
+    private static final int GL_ARB_fragment_layer_viewport = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_W 87
+     * #define GL_ARB_fragment_layer_viewport 1
      * }
      */
-    public static int GLFW_KEY_W() {
-        return GLFW_KEY_W;
+    public static int GL_ARB_fragment_layer_viewport() {
+        return GL_ARB_fragment_layer_viewport;
     }
-    private static final int GLFW_KEY_X = (int)88L;
+    private static final int GL_ARB_fragment_program = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_X 88
+     * #define GL_ARB_fragment_program 1
      * }
      */
-    public static int GLFW_KEY_X() {
-        return GLFW_KEY_X;
+    public static int GL_ARB_fragment_program() {
+        return GL_ARB_fragment_program;
     }
-    private static final int GLFW_KEY_Y = (int)89L;
+    private static final int GL_FRAGMENT_PROGRAM_ARB = (int)34820L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_Y 89
+     * #define GL_FRAGMENT_PROGRAM_ARB 34820
      * }
      */
-    public static int GLFW_KEY_Y() {
-        return GLFW_KEY_Y;
+    public static int GL_FRAGMENT_PROGRAM_ARB() {
+        return GL_FRAGMENT_PROGRAM_ARB;
     }
-    private static final int GLFW_KEY_Z = (int)90L;
+    private static final int GL_PROGRAM_FORMAT_ASCII_ARB = (int)34933L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_Z 90
+     * #define GL_PROGRAM_FORMAT_ASCII_ARB 34933
      * }
      */
-    public static int GLFW_KEY_Z() {
-        return GLFW_KEY_Z;
+    public static int GL_PROGRAM_FORMAT_ASCII_ARB() {
+        return GL_PROGRAM_FORMAT_ASCII_ARB;
     }
-    private static final int GLFW_KEY_LEFT_BRACKET = (int)91L;
+    private static final int GL_PROGRAM_LENGTH_ARB = (int)34343L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_LEFT_BRACKET 91
+     * #define GL_PROGRAM_LENGTH_ARB 34343
      * }
      */
-    public static int GLFW_KEY_LEFT_BRACKET() {
-        return GLFW_KEY_LEFT_BRACKET;
+    public static int GL_PROGRAM_LENGTH_ARB() {
+        return GL_PROGRAM_LENGTH_ARB;
     }
-    private static final int GLFW_KEY_BACKSLASH = (int)92L;
+    private static final int GL_PROGRAM_FORMAT_ARB = (int)34934L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_BACKSLASH 92
+     * #define GL_PROGRAM_FORMAT_ARB 34934
      * }
      */
-    public static int GLFW_KEY_BACKSLASH() {
-        return GLFW_KEY_BACKSLASH;
+    public static int GL_PROGRAM_FORMAT_ARB() {
+        return GL_PROGRAM_FORMAT_ARB;
     }
-    private static final int GLFW_KEY_RIGHT_BRACKET = (int)93L;
+    private static final int GL_PROGRAM_BINDING_ARB = (int)34423L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_RIGHT_BRACKET 93
+     * #define GL_PROGRAM_BINDING_ARB 34423
      * }
      */
-    public static int GLFW_KEY_RIGHT_BRACKET() {
-        return GLFW_KEY_RIGHT_BRACKET;
+    public static int GL_PROGRAM_BINDING_ARB() {
+        return GL_PROGRAM_BINDING_ARB;
     }
-    private static final int GLFW_KEY_GRAVE_ACCENT = (int)96L;
+    private static final int GL_PROGRAM_INSTRUCTIONS_ARB = (int)34976L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_GRAVE_ACCENT 96
+     * #define GL_PROGRAM_INSTRUCTIONS_ARB 34976
      * }
      */
-    public static int GLFW_KEY_GRAVE_ACCENT() {
-        return GLFW_KEY_GRAVE_ACCENT;
+    public static int GL_PROGRAM_INSTRUCTIONS_ARB() {
+        return GL_PROGRAM_INSTRUCTIONS_ARB;
     }
-    private static final int GLFW_KEY_WORLD_1 = (int)161L;
+    private static final int GL_MAX_PROGRAM_INSTRUCTIONS_ARB = (int)34977L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_WORLD_1 161
+     * #define GL_MAX_PROGRAM_INSTRUCTIONS_ARB 34977
      * }
      */
-    public static int GLFW_KEY_WORLD_1() {
-        return GLFW_KEY_WORLD_1;
+    public static int GL_MAX_PROGRAM_INSTRUCTIONS_ARB() {
+        return GL_MAX_PROGRAM_INSTRUCTIONS_ARB;
     }
-    private static final int GLFW_KEY_WORLD_2 = (int)162L;
+    private static final int GL_PROGRAM_NATIVE_INSTRUCTIONS_ARB = (int)34978L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_WORLD_2 162
+     * #define GL_PROGRAM_NATIVE_INSTRUCTIONS_ARB 34978
      * }
      */
-    public static int GLFW_KEY_WORLD_2() {
-        return GLFW_KEY_WORLD_2;
+    public static int GL_PROGRAM_NATIVE_INSTRUCTIONS_ARB() {
+        return GL_PROGRAM_NATIVE_INSTRUCTIONS_ARB;
     }
-    private static final int GLFW_KEY_ESCAPE = (int)256L;
+    private static final int GL_MAX_PROGRAM_NATIVE_INSTRUCTIONS_ARB = (int)34979L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_ESCAPE 256
+     * #define GL_MAX_PROGRAM_NATIVE_INSTRUCTIONS_ARB 34979
      * }
      */
-    public static int GLFW_KEY_ESCAPE() {
-        return GLFW_KEY_ESCAPE;
+    public static int GL_MAX_PROGRAM_NATIVE_INSTRUCTIONS_ARB() {
+        return GL_MAX_PROGRAM_NATIVE_INSTRUCTIONS_ARB;
     }
-    private static final int GLFW_KEY_ENTER = (int)257L;
+    private static final int GL_PROGRAM_TEMPORARIES_ARB = (int)34980L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_ENTER 257
+     * #define GL_PROGRAM_TEMPORARIES_ARB 34980
      * }
      */
-    public static int GLFW_KEY_ENTER() {
-        return GLFW_KEY_ENTER;
+    public static int GL_PROGRAM_TEMPORARIES_ARB() {
+        return GL_PROGRAM_TEMPORARIES_ARB;
     }
-    private static final int GLFW_KEY_TAB = (int)258L;
+    private static final int GL_MAX_PROGRAM_TEMPORARIES_ARB = (int)34981L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_TAB 258
+     * #define GL_MAX_PROGRAM_TEMPORARIES_ARB 34981
      * }
      */
-    public static int GLFW_KEY_TAB() {
-        return GLFW_KEY_TAB;
+    public static int GL_MAX_PROGRAM_TEMPORARIES_ARB() {
+        return GL_MAX_PROGRAM_TEMPORARIES_ARB;
     }
-    private static final int GLFW_KEY_BACKSPACE = (int)259L;
+    private static final int GL_PROGRAM_NATIVE_TEMPORARIES_ARB = (int)34982L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_BACKSPACE 259
+     * #define GL_PROGRAM_NATIVE_TEMPORARIES_ARB 34982
      * }
      */
-    public static int GLFW_KEY_BACKSPACE() {
-        return GLFW_KEY_BACKSPACE;
+    public static int GL_PROGRAM_NATIVE_TEMPORARIES_ARB() {
+        return GL_PROGRAM_NATIVE_TEMPORARIES_ARB;
     }
-    private static final int GLFW_KEY_INSERT = (int)260L;
+    private static final int GL_MAX_PROGRAM_NATIVE_TEMPORARIES_ARB = (int)34983L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_INSERT 260
+     * #define GL_MAX_PROGRAM_NATIVE_TEMPORARIES_ARB 34983
      * }
      */
-    public static int GLFW_KEY_INSERT() {
-        return GLFW_KEY_INSERT;
+    public static int GL_MAX_PROGRAM_NATIVE_TEMPORARIES_ARB() {
+        return GL_MAX_PROGRAM_NATIVE_TEMPORARIES_ARB;
     }
-    private static final int GLFW_KEY_DELETE = (int)261L;
+    private static final int GL_PROGRAM_PARAMETERS_ARB = (int)34984L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_DELETE 261
+     * #define GL_PROGRAM_PARAMETERS_ARB 34984
      * }
      */
-    public static int GLFW_KEY_DELETE() {
-        return GLFW_KEY_DELETE;
+    public static int GL_PROGRAM_PARAMETERS_ARB() {
+        return GL_PROGRAM_PARAMETERS_ARB;
     }
-    private static final int GLFW_KEY_RIGHT = (int)262L;
+    private static final int GL_MAX_PROGRAM_PARAMETERS_ARB = (int)34985L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_RIGHT 262
+     * #define GL_MAX_PROGRAM_PARAMETERS_ARB 34985
      * }
      */
-    public static int GLFW_KEY_RIGHT() {
-        return GLFW_KEY_RIGHT;
+    public static int GL_MAX_PROGRAM_PARAMETERS_ARB() {
+        return GL_MAX_PROGRAM_PARAMETERS_ARB;
     }
-    private static final int GLFW_KEY_LEFT = (int)263L;
+    private static final int GL_PROGRAM_NATIVE_PARAMETERS_ARB = (int)34986L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_LEFT 263
+     * #define GL_PROGRAM_NATIVE_PARAMETERS_ARB 34986
      * }
      */
-    public static int GLFW_KEY_LEFT() {
-        return GLFW_KEY_LEFT;
+    public static int GL_PROGRAM_NATIVE_PARAMETERS_ARB() {
+        return GL_PROGRAM_NATIVE_PARAMETERS_ARB;
     }
-    private static final int GLFW_KEY_DOWN = (int)264L;
+    private static final int GL_MAX_PROGRAM_NATIVE_PARAMETERS_ARB = (int)34987L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_DOWN 264
+     * #define GL_MAX_PROGRAM_NATIVE_PARAMETERS_ARB 34987
      * }
      */
-    public static int GLFW_KEY_DOWN() {
-        return GLFW_KEY_DOWN;
+    public static int GL_MAX_PROGRAM_NATIVE_PARAMETERS_ARB() {
+        return GL_MAX_PROGRAM_NATIVE_PARAMETERS_ARB;
     }
-    private static final int GLFW_KEY_UP = (int)265L;
+    private static final int GL_PROGRAM_ATTRIBS_ARB = (int)34988L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_UP 265
+     * #define GL_PROGRAM_ATTRIBS_ARB 34988
      * }
      */
-    public static int GLFW_KEY_UP() {
-        return GLFW_KEY_UP;
+    public static int GL_PROGRAM_ATTRIBS_ARB() {
+        return GL_PROGRAM_ATTRIBS_ARB;
     }
-    private static final int GLFW_KEY_PAGE_UP = (int)266L;
+    private static final int GL_MAX_PROGRAM_ATTRIBS_ARB = (int)34989L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_PAGE_UP 266
+     * #define GL_MAX_PROGRAM_ATTRIBS_ARB 34989
      * }
      */
-    public static int GLFW_KEY_PAGE_UP() {
-        return GLFW_KEY_PAGE_UP;
+    public static int GL_MAX_PROGRAM_ATTRIBS_ARB() {
+        return GL_MAX_PROGRAM_ATTRIBS_ARB;
     }
-    private static final int GLFW_KEY_PAGE_DOWN = (int)267L;
+    private static final int GL_PROGRAM_NATIVE_ATTRIBS_ARB = (int)34990L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_PAGE_DOWN 267
+     * #define GL_PROGRAM_NATIVE_ATTRIBS_ARB 34990
      * }
      */
-    public static int GLFW_KEY_PAGE_DOWN() {
-        return GLFW_KEY_PAGE_DOWN;
+    public static int GL_PROGRAM_NATIVE_ATTRIBS_ARB() {
+        return GL_PROGRAM_NATIVE_ATTRIBS_ARB;
     }
-    private static final int GLFW_KEY_HOME = (int)268L;
+    private static final int GL_MAX_PROGRAM_NATIVE_ATTRIBS_ARB = (int)34991L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_HOME 268
+     * #define GL_MAX_PROGRAM_NATIVE_ATTRIBS_ARB 34991
      * }
      */
-    public static int GLFW_KEY_HOME() {
-        return GLFW_KEY_HOME;
+    public static int GL_MAX_PROGRAM_NATIVE_ATTRIBS_ARB() {
+        return GL_MAX_PROGRAM_NATIVE_ATTRIBS_ARB;
     }
-    private static final int GLFW_KEY_END = (int)269L;
+    private static final int GL_MAX_PROGRAM_LOCAL_PARAMETERS_ARB = (int)34996L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_END 269
+     * #define GL_MAX_PROGRAM_LOCAL_PARAMETERS_ARB 34996
      * }
      */
-    public static int GLFW_KEY_END() {
-        return GLFW_KEY_END;
+    public static int GL_MAX_PROGRAM_LOCAL_PARAMETERS_ARB() {
+        return GL_MAX_PROGRAM_LOCAL_PARAMETERS_ARB;
     }
-    private static final int GLFW_KEY_CAPS_LOCK = (int)280L;
+    private static final int GL_MAX_PROGRAM_ENV_PARAMETERS_ARB = (int)34997L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_CAPS_LOCK 280
+     * #define GL_MAX_PROGRAM_ENV_PARAMETERS_ARB 34997
      * }
      */
-    public static int GLFW_KEY_CAPS_LOCK() {
-        return GLFW_KEY_CAPS_LOCK;
+    public static int GL_MAX_PROGRAM_ENV_PARAMETERS_ARB() {
+        return GL_MAX_PROGRAM_ENV_PARAMETERS_ARB;
     }
-    private static final int GLFW_KEY_SCROLL_LOCK = (int)281L;
+    private static final int GL_PROGRAM_UNDER_NATIVE_LIMITS_ARB = (int)34998L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_SCROLL_LOCK 281
+     * #define GL_PROGRAM_UNDER_NATIVE_LIMITS_ARB 34998
      * }
      */
-    public static int GLFW_KEY_SCROLL_LOCK() {
-        return GLFW_KEY_SCROLL_LOCK;
+    public static int GL_PROGRAM_UNDER_NATIVE_LIMITS_ARB() {
+        return GL_PROGRAM_UNDER_NATIVE_LIMITS_ARB;
     }
-    private static final int GLFW_KEY_NUM_LOCK = (int)282L;
+    private static final int GL_PROGRAM_ALU_INSTRUCTIONS_ARB = (int)34821L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_NUM_LOCK 282
+     * #define GL_PROGRAM_ALU_INSTRUCTIONS_ARB 34821
      * }
      */
-    public static int GLFW_KEY_NUM_LOCK() {
-        return GLFW_KEY_NUM_LOCK;
+    public static int GL_PROGRAM_ALU_INSTRUCTIONS_ARB() {
+        return GL_PROGRAM_ALU_INSTRUCTIONS_ARB;
     }
-    private static final int GLFW_KEY_PRINT_SCREEN = (int)283L;
+    private static final int GL_PROGRAM_TEX_INSTRUCTIONS_ARB = (int)34822L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_PRINT_SCREEN 283
+     * #define GL_PROGRAM_TEX_INSTRUCTIONS_ARB 34822
      * }
      */
-    public static int GLFW_KEY_PRINT_SCREEN() {
-        return GLFW_KEY_PRINT_SCREEN;
+    public static int GL_PROGRAM_TEX_INSTRUCTIONS_ARB() {
+        return GL_PROGRAM_TEX_INSTRUCTIONS_ARB;
     }
-    private static final int GLFW_KEY_PAUSE = (int)284L;
+    private static final int GL_PROGRAM_TEX_INDIRECTIONS_ARB = (int)34823L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_PAUSE 284
+     * #define GL_PROGRAM_TEX_INDIRECTIONS_ARB 34823
      * }
      */
-    public static int GLFW_KEY_PAUSE() {
-        return GLFW_KEY_PAUSE;
+    public static int GL_PROGRAM_TEX_INDIRECTIONS_ARB() {
+        return GL_PROGRAM_TEX_INDIRECTIONS_ARB;
     }
-    private static final int GLFW_KEY_F1 = (int)290L;
+    private static final int GL_PROGRAM_NATIVE_ALU_INSTRUCTIONS_ARB = (int)34824L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_F1 290
+     * #define GL_PROGRAM_NATIVE_ALU_INSTRUCTIONS_ARB 34824
      * }
      */
-    public static int GLFW_KEY_F1() {
-        return GLFW_KEY_F1;
+    public static int GL_PROGRAM_NATIVE_ALU_INSTRUCTIONS_ARB() {
+        return GL_PROGRAM_NATIVE_ALU_INSTRUCTIONS_ARB;
     }
-    private static final int GLFW_KEY_F2 = (int)291L;
+    private static final int GL_PROGRAM_NATIVE_TEX_INSTRUCTIONS_ARB = (int)34825L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_F2 291
+     * #define GL_PROGRAM_NATIVE_TEX_INSTRUCTIONS_ARB 34825
      * }
      */
-    public static int GLFW_KEY_F2() {
-        return GLFW_KEY_F2;
+    public static int GL_PROGRAM_NATIVE_TEX_INSTRUCTIONS_ARB() {
+        return GL_PROGRAM_NATIVE_TEX_INSTRUCTIONS_ARB;
     }
-    private static final int GLFW_KEY_F3 = (int)292L;
+    private static final int GL_PROGRAM_NATIVE_TEX_INDIRECTIONS_ARB = (int)34826L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_F3 292
+     * #define GL_PROGRAM_NATIVE_TEX_INDIRECTIONS_ARB 34826
      * }
      */
-    public static int GLFW_KEY_F3() {
-        return GLFW_KEY_F3;
+    public static int GL_PROGRAM_NATIVE_TEX_INDIRECTIONS_ARB() {
+        return GL_PROGRAM_NATIVE_TEX_INDIRECTIONS_ARB;
     }
-    private static final int GLFW_KEY_F4 = (int)293L;
+    private static final int GL_MAX_PROGRAM_ALU_INSTRUCTIONS_ARB = (int)34827L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_F4 293
+     * #define GL_MAX_PROGRAM_ALU_INSTRUCTIONS_ARB 34827
      * }
      */
-    public static int GLFW_KEY_F4() {
-        return GLFW_KEY_F4;
+    public static int GL_MAX_PROGRAM_ALU_INSTRUCTIONS_ARB() {
+        return GL_MAX_PROGRAM_ALU_INSTRUCTIONS_ARB;
     }
-    private static final int GLFW_KEY_F5 = (int)294L;
+    private static final int GL_MAX_PROGRAM_TEX_INSTRUCTIONS_ARB = (int)34828L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_F5 294
+     * #define GL_MAX_PROGRAM_TEX_INSTRUCTIONS_ARB 34828
      * }
      */
-    public static int GLFW_KEY_F5() {
-        return GLFW_KEY_F5;
+    public static int GL_MAX_PROGRAM_TEX_INSTRUCTIONS_ARB() {
+        return GL_MAX_PROGRAM_TEX_INSTRUCTIONS_ARB;
     }
-    private static final int GLFW_KEY_F6 = (int)295L;
+    private static final int GL_MAX_PROGRAM_TEX_INDIRECTIONS_ARB = (int)34829L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_F6 295
+     * #define GL_MAX_PROGRAM_TEX_INDIRECTIONS_ARB 34829
      * }
      */
-    public static int GLFW_KEY_F6() {
-        return GLFW_KEY_F6;
+    public static int GL_MAX_PROGRAM_TEX_INDIRECTIONS_ARB() {
+        return GL_MAX_PROGRAM_TEX_INDIRECTIONS_ARB;
     }
-    private static final int GLFW_KEY_F7 = (int)296L;
+    private static final int GL_MAX_PROGRAM_NATIVE_ALU_INSTRUCTIONS_ARB = (int)34830L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_F7 296
+     * #define GL_MAX_PROGRAM_NATIVE_ALU_INSTRUCTIONS_ARB 34830
      * }
      */
-    public static int GLFW_KEY_F7() {
-        return GLFW_KEY_F7;
+    public static int GL_MAX_PROGRAM_NATIVE_ALU_INSTRUCTIONS_ARB() {
+        return GL_MAX_PROGRAM_NATIVE_ALU_INSTRUCTIONS_ARB;
     }
-    private static final int GLFW_KEY_F8 = (int)297L;
+    private static final int GL_MAX_PROGRAM_NATIVE_TEX_INSTRUCTIONS_ARB = (int)34831L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_F8 297
+     * #define GL_MAX_PROGRAM_NATIVE_TEX_INSTRUCTIONS_ARB 34831
      * }
      */
-    public static int GLFW_KEY_F8() {
-        return GLFW_KEY_F8;
+    public static int GL_MAX_PROGRAM_NATIVE_TEX_INSTRUCTIONS_ARB() {
+        return GL_MAX_PROGRAM_NATIVE_TEX_INSTRUCTIONS_ARB;
     }
-    private static final int GLFW_KEY_F9 = (int)298L;
+    private static final int GL_MAX_PROGRAM_NATIVE_TEX_INDIRECTIONS_ARB = (int)34832L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_F9 298
+     * #define GL_MAX_PROGRAM_NATIVE_TEX_INDIRECTIONS_ARB 34832
      * }
      */
-    public static int GLFW_KEY_F9() {
-        return GLFW_KEY_F9;
+    public static int GL_MAX_PROGRAM_NATIVE_TEX_INDIRECTIONS_ARB() {
+        return GL_MAX_PROGRAM_NATIVE_TEX_INDIRECTIONS_ARB;
     }
-    private static final int GLFW_KEY_F10 = (int)299L;
+    private static final int GL_PROGRAM_STRING_ARB = (int)34344L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_F10 299
+     * #define GL_PROGRAM_STRING_ARB 34344
      * }
      */
-    public static int GLFW_KEY_F10() {
-        return GLFW_KEY_F10;
+    public static int GL_PROGRAM_STRING_ARB() {
+        return GL_PROGRAM_STRING_ARB;
     }
-    private static final int GLFW_KEY_F11 = (int)300L;
+    private static final int GL_PROGRAM_ERROR_POSITION_ARB = (int)34379L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_F11 300
+     * #define GL_PROGRAM_ERROR_POSITION_ARB 34379
      * }
      */
-    public static int GLFW_KEY_F11() {
-        return GLFW_KEY_F11;
+    public static int GL_PROGRAM_ERROR_POSITION_ARB() {
+        return GL_PROGRAM_ERROR_POSITION_ARB;
     }
-    private static final int GLFW_KEY_F12 = (int)301L;
+    private static final int GL_CURRENT_MATRIX_ARB = (int)34369L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_F12 301
+     * #define GL_CURRENT_MATRIX_ARB 34369
      * }
      */
-    public static int GLFW_KEY_F12() {
-        return GLFW_KEY_F12;
+    public static int GL_CURRENT_MATRIX_ARB() {
+        return GL_CURRENT_MATRIX_ARB;
     }
-    private static final int GLFW_KEY_F13 = (int)302L;
+    private static final int GL_TRANSPOSE_CURRENT_MATRIX_ARB = (int)34999L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_F13 302
+     * #define GL_TRANSPOSE_CURRENT_MATRIX_ARB 34999
      * }
      */
-    public static int GLFW_KEY_F13() {
-        return GLFW_KEY_F13;
+    public static int GL_TRANSPOSE_CURRENT_MATRIX_ARB() {
+        return GL_TRANSPOSE_CURRENT_MATRIX_ARB;
     }
-    private static final int GLFW_KEY_F14 = (int)303L;
+    private static final int GL_CURRENT_MATRIX_STACK_DEPTH_ARB = (int)34368L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_F14 303
+     * #define GL_CURRENT_MATRIX_STACK_DEPTH_ARB 34368
      * }
      */
-    public static int GLFW_KEY_F14() {
-        return GLFW_KEY_F14;
+    public static int GL_CURRENT_MATRIX_STACK_DEPTH_ARB() {
+        return GL_CURRENT_MATRIX_STACK_DEPTH_ARB;
     }
-    private static final int GLFW_KEY_F15 = (int)304L;
+    private static final int GL_MAX_PROGRAM_MATRICES_ARB = (int)34351L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_F15 304
+     * #define GL_MAX_PROGRAM_MATRICES_ARB 34351
      * }
      */
-    public static int GLFW_KEY_F15() {
-        return GLFW_KEY_F15;
+    public static int GL_MAX_PROGRAM_MATRICES_ARB() {
+        return GL_MAX_PROGRAM_MATRICES_ARB;
     }
-    private static final int GLFW_KEY_F16 = (int)305L;
+    private static final int GL_MAX_PROGRAM_MATRIX_STACK_DEPTH_ARB = (int)34350L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_F16 305
+     * #define GL_MAX_PROGRAM_MATRIX_STACK_DEPTH_ARB 34350
      * }
      */
-    public static int GLFW_KEY_F16() {
-        return GLFW_KEY_F16;
+    public static int GL_MAX_PROGRAM_MATRIX_STACK_DEPTH_ARB() {
+        return GL_MAX_PROGRAM_MATRIX_STACK_DEPTH_ARB;
     }
-    private static final int GLFW_KEY_F17 = (int)306L;
+    private static final int GL_MAX_TEXTURE_COORDS_ARB = (int)34929L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_F17 306
+     * #define GL_MAX_TEXTURE_COORDS_ARB 34929
      * }
      */
-    public static int GLFW_KEY_F17() {
-        return GLFW_KEY_F17;
+    public static int GL_MAX_TEXTURE_COORDS_ARB() {
+        return GL_MAX_TEXTURE_COORDS_ARB;
     }
-    private static final int GLFW_KEY_F18 = (int)307L;
+    private static final int GL_MAX_TEXTURE_IMAGE_UNITS_ARB = (int)34930L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_F18 307
+     * #define GL_MAX_TEXTURE_IMAGE_UNITS_ARB 34930
      * }
      */
-    public static int GLFW_KEY_F18() {
-        return GLFW_KEY_F18;
+    public static int GL_MAX_TEXTURE_IMAGE_UNITS_ARB() {
+        return GL_MAX_TEXTURE_IMAGE_UNITS_ARB;
     }
-    private static final int GLFW_KEY_F19 = (int)308L;
+    private static final int GL_PROGRAM_ERROR_STRING_ARB = (int)34932L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_F19 308
+     * #define GL_PROGRAM_ERROR_STRING_ARB 34932
      * }
      */
-    public static int GLFW_KEY_F19() {
-        return GLFW_KEY_F19;
+    public static int GL_PROGRAM_ERROR_STRING_ARB() {
+        return GL_PROGRAM_ERROR_STRING_ARB;
     }
-    private static final int GLFW_KEY_F20 = (int)309L;
+    private static final int GL_MATRIX0_ARB = (int)35008L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_F20 309
+     * #define GL_MATRIX0_ARB 35008
      * }
      */
-    public static int GLFW_KEY_F20() {
-        return GLFW_KEY_F20;
+    public static int GL_MATRIX0_ARB() {
+        return GL_MATRIX0_ARB;
     }
-    private static final int GLFW_KEY_F21 = (int)310L;
+    private static final int GL_MATRIX1_ARB = (int)35009L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_F21 310
+     * #define GL_MATRIX1_ARB 35009
      * }
      */
-    public static int GLFW_KEY_F21() {
-        return GLFW_KEY_F21;
+    public static int GL_MATRIX1_ARB() {
+        return GL_MATRIX1_ARB;
     }
-    private static final int GLFW_KEY_F22 = (int)311L;
+    private static final int GL_MATRIX2_ARB = (int)35010L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_F22 311
+     * #define GL_MATRIX2_ARB 35010
      * }
      */
-    public static int GLFW_KEY_F22() {
-        return GLFW_KEY_F22;
+    public static int GL_MATRIX2_ARB() {
+        return GL_MATRIX2_ARB;
     }
-    private static final int GLFW_KEY_F23 = (int)312L;
+    private static final int GL_MATRIX3_ARB = (int)35011L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_F23 312
+     * #define GL_MATRIX3_ARB 35011
      * }
      */
-    public static int GLFW_KEY_F23() {
-        return GLFW_KEY_F23;
+    public static int GL_MATRIX3_ARB() {
+        return GL_MATRIX3_ARB;
     }
-    private static final int GLFW_KEY_F24 = (int)313L;
+    private static final int GL_MATRIX4_ARB = (int)35012L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_F24 313
+     * #define GL_MATRIX4_ARB 35012
      * }
      */
-    public static int GLFW_KEY_F24() {
-        return GLFW_KEY_F24;
+    public static int GL_MATRIX4_ARB() {
+        return GL_MATRIX4_ARB;
     }
-    private static final int GLFW_KEY_F25 = (int)314L;
+    private static final int GL_MATRIX5_ARB = (int)35013L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_F25 314
+     * #define GL_MATRIX5_ARB 35013
      * }
      */
-    public static int GLFW_KEY_F25() {
-        return GLFW_KEY_F25;
+    public static int GL_MATRIX5_ARB() {
+        return GL_MATRIX5_ARB;
     }
-    private static final int GLFW_KEY_KP_0 = (int)320L;
+    private static final int GL_MATRIX6_ARB = (int)35014L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_KP_0 320
+     * #define GL_MATRIX6_ARB 35014
      * }
      */
-    public static int GLFW_KEY_KP_0() {
-        return GLFW_KEY_KP_0;
+    public static int GL_MATRIX6_ARB() {
+        return GL_MATRIX6_ARB;
     }
-    private static final int GLFW_KEY_KP_1 = (int)321L;
+    private static final int GL_MATRIX7_ARB = (int)35015L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_KP_1 321
+     * #define GL_MATRIX7_ARB 35015
      * }
      */
-    public static int GLFW_KEY_KP_1() {
-        return GLFW_KEY_KP_1;
+    public static int GL_MATRIX7_ARB() {
+        return GL_MATRIX7_ARB;
     }
-    private static final int GLFW_KEY_KP_2 = (int)322L;
+    private static final int GL_MATRIX8_ARB = (int)35016L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_KP_2 322
+     * #define GL_MATRIX8_ARB 35016
      * }
      */
-    public static int GLFW_KEY_KP_2() {
-        return GLFW_KEY_KP_2;
+    public static int GL_MATRIX8_ARB() {
+        return GL_MATRIX8_ARB;
     }
-    private static final int GLFW_KEY_KP_3 = (int)323L;
+    private static final int GL_MATRIX9_ARB = (int)35017L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_KP_3 323
+     * #define GL_MATRIX9_ARB 35017
      * }
      */
-    public static int GLFW_KEY_KP_3() {
-        return GLFW_KEY_KP_3;
+    public static int GL_MATRIX9_ARB() {
+        return GL_MATRIX9_ARB;
     }
-    private static final int GLFW_KEY_KP_4 = (int)324L;
+    private static final int GL_MATRIX10_ARB = (int)35018L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_KP_4 324
+     * #define GL_MATRIX10_ARB 35018
      * }
      */
-    public static int GLFW_KEY_KP_4() {
-        return GLFW_KEY_KP_4;
+    public static int GL_MATRIX10_ARB() {
+        return GL_MATRIX10_ARB;
     }
-    private static final int GLFW_KEY_KP_5 = (int)325L;
+    private static final int GL_MATRIX11_ARB = (int)35019L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_KP_5 325
+     * #define GL_MATRIX11_ARB 35019
      * }
      */
-    public static int GLFW_KEY_KP_5() {
-        return GLFW_KEY_KP_5;
+    public static int GL_MATRIX11_ARB() {
+        return GL_MATRIX11_ARB;
     }
-    private static final int GLFW_KEY_KP_6 = (int)326L;
+    private static final int GL_MATRIX12_ARB = (int)35020L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_KP_6 326
+     * #define GL_MATRIX12_ARB 35020
      * }
      */
-    public static int GLFW_KEY_KP_6() {
-        return GLFW_KEY_KP_6;
+    public static int GL_MATRIX12_ARB() {
+        return GL_MATRIX12_ARB;
     }
-    private static final int GLFW_KEY_KP_7 = (int)327L;
+    private static final int GL_MATRIX13_ARB = (int)35021L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_KP_7 327
+     * #define GL_MATRIX13_ARB 35021
      * }
      */
-    public static int GLFW_KEY_KP_7() {
-        return GLFW_KEY_KP_7;
+    public static int GL_MATRIX13_ARB() {
+        return GL_MATRIX13_ARB;
     }
-    private static final int GLFW_KEY_KP_8 = (int)328L;
+    private static final int GL_MATRIX14_ARB = (int)35022L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_KP_8 328
+     * #define GL_MATRIX14_ARB 35022
      * }
      */
-    public static int GLFW_KEY_KP_8() {
-        return GLFW_KEY_KP_8;
+    public static int GL_MATRIX14_ARB() {
+        return GL_MATRIX14_ARB;
     }
-    private static final int GLFW_KEY_KP_9 = (int)329L;
+    private static final int GL_MATRIX15_ARB = (int)35023L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_KP_9 329
+     * #define GL_MATRIX15_ARB 35023
      * }
      */
-    public static int GLFW_KEY_KP_9() {
-        return GLFW_KEY_KP_9;
+    public static int GL_MATRIX15_ARB() {
+        return GL_MATRIX15_ARB;
     }
-    private static final int GLFW_KEY_KP_DECIMAL = (int)330L;
+    private static final int GL_MATRIX16_ARB = (int)35024L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_KP_DECIMAL 330
+     * #define GL_MATRIX16_ARB 35024
      * }
      */
-    public static int GLFW_KEY_KP_DECIMAL() {
-        return GLFW_KEY_KP_DECIMAL;
+    public static int GL_MATRIX16_ARB() {
+        return GL_MATRIX16_ARB;
     }
-    private static final int GLFW_KEY_KP_DIVIDE = (int)331L;
+    private static final int GL_MATRIX17_ARB = (int)35025L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_KP_DIVIDE 331
+     * #define GL_MATRIX17_ARB 35025
      * }
      */
-    public static int GLFW_KEY_KP_DIVIDE() {
-        return GLFW_KEY_KP_DIVIDE;
+    public static int GL_MATRIX17_ARB() {
+        return GL_MATRIX17_ARB;
     }
-    private static final int GLFW_KEY_KP_MULTIPLY = (int)332L;
+    private static final int GL_MATRIX18_ARB = (int)35026L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_KP_MULTIPLY 332
+     * #define GL_MATRIX18_ARB 35026
      * }
      */
-    public static int GLFW_KEY_KP_MULTIPLY() {
-        return GLFW_KEY_KP_MULTIPLY;
+    public static int GL_MATRIX18_ARB() {
+        return GL_MATRIX18_ARB;
     }
-    private static final int GLFW_KEY_KP_SUBTRACT = (int)333L;
+    private static final int GL_MATRIX19_ARB = (int)35027L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_KP_SUBTRACT 333
+     * #define GL_MATRIX19_ARB 35027
      * }
      */
-    public static int GLFW_KEY_KP_SUBTRACT() {
-        return GLFW_KEY_KP_SUBTRACT;
+    public static int GL_MATRIX19_ARB() {
+        return GL_MATRIX19_ARB;
     }
-    private static final int GLFW_KEY_KP_ADD = (int)334L;
+    private static final int GL_MATRIX20_ARB = (int)35028L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_KP_ADD 334
+     * #define GL_MATRIX20_ARB 35028
      * }
      */
-    public static int GLFW_KEY_KP_ADD() {
-        return GLFW_KEY_KP_ADD;
+    public static int GL_MATRIX20_ARB() {
+        return GL_MATRIX20_ARB;
     }
-    private static final int GLFW_KEY_KP_ENTER = (int)335L;
+    private static final int GL_MATRIX21_ARB = (int)35029L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_KP_ENTER 335
+     * #define GL_MATRIX21_ARB 35029
      * }
      */
-    public static int GLFW_KEY_KP_ENTER() {
-        return GLFW_KEY_KP_ENTER;
+    public static int GL_MATRIX21_ARB() {
+        return GL_MATRIX21_ARB;
     }
-    private static final int GLFW_KEY_KP_EQUAL = (int)336L;
+    private static final int GL_MATRIX22_ARB = (int)35030L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_KP_EQUAL 336
+     * #define GL_MATRIX22_ARB 35030
      * }
      */
-    public static int GLFW_KEY_KP_EQUAL() {
-        return GLFW_KEY_KP_EQUAL;
+    public static int GL_MATRIX22_ARB() {
+        return GL_MATRIX22_ARB;
     }
-    private static final int GLFW_KEY_LEFT_SHIFT = (int)340L;
+    private static final int GL_MATRIX23_ARB = (int)35031L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_LEFT_SHIFT 340
+     * #define GL_MATRIX23_ARB 35031
      * }
      */
-    public static int GLFW_KEY_LEFT_SHIFT() {
-        return GLFW_KEY_LEFT_SHIFT;
+    public static int GL_MATRIX23_ARB() {
+        return GL_MATRIX23_ARB;
     }
-    private static final int GLFW_KEY_LEFT_CONTROL = (int)341L;
+    private static final int GL_MATRIX24_ARB = (int)35032L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_LEFT_CONTROL 341
+     * #define GL_MATRIX24_ARB 35032
      * }
      */
-    public static int GLFW_KEY_LEFT_CONTROL() {
-        return GLFW_KEY_LEFT_CONTROL;
+    public static int GL_MATRIX24_ARB() {
+        return GL_MATRIX24_ARB;
     }
-    private static final int GLFW_KEY_LEFT_ALT = (int)342L;
+    private static final int GL_MATRIX25_ARB = (int)35033L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_LEFT_ALT 342
+     * #define GL_MATRIX25_ARB 35033
      * }
      */
-    public static int GLFW_KEY_LEFT_ALT() {
-        return GLFW_KEY_LEFT_ALT;
+    public static int GL_MATRIX25_ARB() {
+        return GL_MATRIX25_ARB;
     }
-    private static final int GLFW_KEY_LEFT_SUPER = (int)343L;
+    private static final int GL_MATRIX26_ARB = (int)35034L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_LEFT_SUPER 343
+     * #define GL_MATRIX26_ARB 35034
      * }
      */
-    public static int GLFW_KEY_LEFT_SUPER() {
-        return GLFW_KEY_LEFT_SUPER;
+    public static int GL_MATRIX26_ARB() {
+        return GL_MATRIX26_ARB;
     }
-    private static final int GLFW_KEY_RIGHT_SHIFT = (int)344L;
+    private static final int GL_MATRIX27_ARB = (int)35035L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_RIGHT_SHIFT 344
+     * #define GL_MATRIX27_ARB 35035
      * }
      */
-    public static int GLFW_KEY_RIGHT_SHIFT() {
-        return GLFW_KEY_RIGHT_SHIFT;
+    public static int GL_MATRIX27_ARB() {
+        return GL_MATRIX27_ARB;
     }
-    private static final int GLFW_KEY_RIGHT_CONTROL = (int)345L;
+    private static final int GL_MATRIX28_ARB = (int)35036L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_RIGHT_CONTROL 345
+     * #define GL_MATRIX28_ARB 35036
      * }
      */
-    public static int GLFW_KEY_RIGHT_CONTROL() {
-        return GLFW_KEY_RIGHT_CONTROL;
+    public static int GL_MATRIX28_ARB() {
+        return GL_MATRIX28_ARB;
     }
-    private static final int GLFW_KEY_RIGHT_ALT = (int)346L;
+    private static final int GL_MATRIX29_ARB = (int)35037L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_RIGHT_ALT 346
+     * #define GL_MATRIX29_ARB 35037
      * }
      */
-    public static int GLFW_KEY_RIGHT_ALT() {
-        return GLFW_KEY_RIGHT_ALT;
+    public static int GL_MATRIX29_ARB() {
+        return GL_MATRIX29_ARB;
     }
-    private static final int GLFW_KEY_RIGHT_SUPER = (int)347L;
+    private static final int GL_MATRIX30_ARB = (int)35038L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_RIGHT_SUPER 347
+     * #define GL_MATRIX30_ARB 35038
      * }
      */
-    public static int GLFW_KEY_RIGHT_SUPER() {
-        return GLFW_KEY_RIGHT_SUPER;
+    public static int GL_MATRIX30_ARB() {
+        return GL_MATRIX30_ARB;
     }
-    private static final int GLFW_KEY_MENU = (int)348L;
+    private static final int GL_MATRIX31_ARB = (int)35039L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_KEY_MENU 348
+     * #define GL_MATRIX31_ARB 35039
      * }
      */
-    public static int GLFW_KEY_MENU() {
-        return GLFW_KEY_MENU;
+    public static int GL_MATRIX31_ARB() {
+        return GL_MATRIX31_ARB;
     }
-    private static final int GLFW_MOD_SHIFT = (int)1L;
+    private static final int GL_ARB_fragment_program_shadow = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_MOD_SHIFT 1
+     * #define GL_ARB_fragment_program_shadow 1
      * }
      */
-    public static int GLFW_MOD_SHIFT() {
-        return GLFW_MOD_SHIFT;
+    public static int GL_ARB_fragment_program_shadow() {
+        return GL_ARB_fragment_program_shadow;
     }
-    private static final int GLFW_MOD_CONTROL = (int)2L;
+    private static final int GL_ARB_fragment_shader = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_MOD_CONTROL 2
+     * #define GL_ARB_fragment_shader 1
      * }
      */
-    public static int GLFW_MOD_CONTROL() {
-        return GLFW_MOD_CONTROL;
+    public static int GL_ARB_fragment_shader() {
+        return GL_ARB_fragment_shader;
     }
-    private static final int GLFW_MOD_ALT = (int)4L;
+    private static final int GL_FRAGMENT_SHADER_ARB = (int)35632L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_MOD_ALT 4
+     * #define GL_FRAGMENT_SHADER_ARB 35632
      * }
      */
-    public static int GLFW_MOD_ALT() {
-        return GLFW_MOD_ALT;
+    public static int GL_FRAGMENT_SHADER_ARB() {
+        return GL_FRAGMENT_SHADER_ARB;
     }
-    private static final int GLFW_MOD_SUPER = (int)8L;
+    private static final int GL_MAX_FRAGMENT_UNIFORM_COMPONENTS_ARB = (int)35657L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_MOD_SUPER 8
+     * #define GL_MAX_FRAGMENT_UNIFORM_COMPONENTS_ARB 35657
      * }
      */
-    public static int GLFW_MOD_SUPER() {
-        return GLFW_MOD_SUPER;
+    public static int GL_MAX_FRAGMENT_UNIFORM_COMPONENTS_ARB() {
+        return GL_MAX_FRAGMENT_UNIFORM_COMPONENTS_ARB;
     }
-    private static final int GLFW_MOD_CAPS_LOCK = (int)16L;
+    private static final int GL_FRAGMENT_SHADER_DERIVATIVE_HINT_ARB = (int)35723L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_MOD_CAPS_LOCK 16
+     * #define GL_FRAGMENT_SHADER_DERIVATIVE_HINT_ARB 35723
      * }
      */
-    public static int GLFW_MOD_CAPS_LOCK() {
-        return GLFW_MOD_CAPS_LOCK;
+    public static int GL_FRAGMENT_SHADER_DERIVATIVE_HINT_ARB() {
+        return GL_FRAGMENT_SHADER_DERIVATIVE_HINT_ARB;
     }
-    private static final int GLFW_MOD_NUM_LOCK = (int)32L;
+    private static final int GL_ARB_fragment_shader_interlock = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_MOD_NUM_LOCK 32
+     * #define GL_ARB_fragment_shader_interlock 1
      * }
      */
-    public static int GLFW_MOD_NUM_LOCK() {
-        return GLFW_MOD_NUM_LOCK;
+    public static int GL_ARB_fragment_shader_interlock() {
+        return GL_ARB_fragment_shader_interlock;
     }
-    private static final int GLFW_MOUSE_BUTTON_1 = (int)0L;
+    private static final int GL_ARB_framebuffer_no_attachments = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_MOUSE_BUTTON_1 0
+     * #define GL_ARB_framebuffer_no_attachments 1
      * }
      */
-    public static int GLFW_MOUSE_BUTTON_1() {
-        return GLFW_MOUSE_BUTTON_1;
+    public static int GL_ARB_framebuffer_no_attachments() {
+        return GL_ARB_framebuffer_no_attachments;
     }
-    private static final int GLFW_MOUSE_BUTTON_2 = (int)1L;
+    private static final int GL_ARB_framebuffer_object = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_MOUSE_BUTTON_2 1
+     * #define GL_ARB_framebuffer_object 1
      * }
      */
-    public static int GLFW_MOUSE_BUTTON_2() {
-        return GLFW_MOUSE_BUTTON_2;
+    public static int GL_ARB_framebuffer_object() {
+        return GL_ARB_framebuffer_object;
     }
-    private static final int GLFW_MOUSE_BUTTON_3 = (int)2L;
+    private static final int GL_ARB_framebuffer_sRGB = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_MOUSE_BUTTON_3 2
+     * #define GL_ARB_framebuffer_sRGB 1
      * }
      */
-    public static int GLFW_MOUSE_BUTTON_3() {
-        return GLFW_MOUSE_BUTTON_3;
+    public static int GL_ARB_framebuffer_sRGB() {
+        return GL_ARB_framebuffer_sRGB;
     }
-    private static final int GLFW_MOUSE_BUTTON_4 = (int)3L;
+    private static final int GL_ARB_geometry_shader4 = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_MOUSE_BUTTON_4 3
+     * #define GL_ARB_geometry_shader4 1
      * }
      */
-    public static int GLFW_MOUSE_BUTTON_4() {
-        return GLFW_MOUSE_BUTTON_4;
+    public static int GL_ARB_geometry_shader4() {
+        return GL_ARB_geometry_shader4;
     }
-    private static final int GLFW_MOUSE_BUTTON_5 = (int)4L;
+    private static final int GL_LINES_ADJACENCY_ARB = (int)10L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_MOUSE_BUTTON_5 4
+     * #define GL_LINES_ADJACENCY_ARB 10
      * }
      */
-    public static int GLFW_MOUSE_BUTTON_5() {
-        return GLFW_MOUSE_BUTTON_5;
+    public static int GL_LINES_ADJACENCY_ARB() {
+        return GL_LINES_ADJACENCY_ARB;
     }
-    private static final int GLFW_MOUSE_BUTTON_6 = (int)5L;
+    private static final int GL_LINE_STRIP_ADJACENCY_ARB = (int)11L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_MOUSE_BUTTON_6 5
+     * #define GL_LINE_STRIP_ADJACENCY_ARB 11
      * }
      */
-    public static int GLFW_MOUSE_BUTTON_6() {
-        return GLFW_MOUSE_BUTTON_6;
+    public static int GL_LINE_STRIP_ADJACENCY_ARB() {
+        return GL_LINE_STRIP_ADJACENCY_ARB;
     }
-    private static final int GLFW_MOUSE_BUTTON_7 = (int)6L;
+    private static final int GL_TRIANGLES_ADJACENCY_ARB = (int)12L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_MOUSE_BUTTON_7 6
+     * #define GL_TRIANGLES_ADJACENCY_ARB 12
      * }
      */
-    public static int GLFW_MOUSE_BUTTON_7() {
-        return GLFW_MOUSE_BUTTON_7;
+    public static int GL_TRIANGLES_ADJACENCY_ARB() {
+        return GL_TRIANGLES_ADJACENCY_ARB;
     }
-    private static final int GLFW_MOUSE_BUTTON_8 = (int)7L;
+    private static final int GL_TRIANGLE_STRIP_ADJACENCY_ARB = (int)13L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_MOUSE_BUTTON_8 7
+     * #define GL_TRIANGLE_STRIP_ADJACENCY_ARB 13
      * }
      */
-    public static int GLFW_MOUSE_BUTTON_8() {
-        return GLFW_MOUSE_BUTTON_8;
+    public static int GL_TRIANGLE_STRIP_ADJACENCY_ARB() {
+        return GL_TRIANGLE_STRIP_ADJACENCY_ARB;
     }
-    private static final int GLFW_JOYSTICK_1 = (int)0L;
+    private static final int GL_PROGRAM_POINT_SIZE_ARB = (int)34370L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_JOYSTICK_1 0
+     * #define GL_PROGRAM_POINT_SIZE_ARB 34370
      * }
      */
-    public static int GLFW_JOYSTICK_1() {
-        return GLFW_JOYSTICK_1;
+    public static int GL_PROGRAM_POINT_SIZE_ARB() {
+        return GL_PROGRAM_POINT_SIZE_ARB;
     }
-    private static final int GLFW_JOYSTICK_2 = (int)1L;
+    private static final int GL_MAX_GEOMETRY_TEXTURE_IMAGE_UNITS_ARB = (int)35881L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_JOYSTICK_2 1
+     * #define GL_MAX_GEOMETRY_TEXTURE_IMAGE_UNITS_ARB 35881
      * }
      */
-    public static int GLFW_JOYSTICK_2() {
-        return GLFW_JOYSTICK_2;
+    public static int GL_MAX_GEOMETRY_TEXTURE_IMAGE_UNITS_ARB() {
+        return GL_MAX_GEOMETRY_TEXTURE_IMAGE_UNITS_ARB;
     }
-    private static final int GLFW_JOYSTICK_3 = (int)2L;
+    private static final int GL_FRAMEBUFFER_ATTACHMENT_LAYERED_ARB = (int)36263L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_JOYSTICK_3 2
+     * #define GL_FRAMEBUFFER_ATTACHMENT_LAYERED_ARB 36263
      * }
      */
-    public static int GLFW_JOYSTICK_3() {
-        return GLFW_JOYSTICK_3;
+    public static int GL_FRAMEBUFFER_ATTACHMENT_LAYERED_ARB() {
+        return GL_FRAMEBUFFER_ATTACHMENT_LAYERED_ARB;
     }
-    private static final int GLFW_JOYSTICK_4 = (int)3L;
+    private static final int GL_FRAMEBUFFER_INCOMPLETE_LAYER_TARGETS_ARB = (int)36264L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_JOYSTICK_4 3
+     * #define GL_FRAMEBUFFER_INCOMPLETE_LAYER_TARGETS_ARB 36264
      * }
      */
-    public static int GLFW_JOYSTICK_4() {
-        return GLFW_JOYSTICK_4;
+    public static int GL_FRAMEBUFFER_INCOMPLETE_LAYER_TARGETS_ARB() {
+        return GL_FRAMEBUFFER_INCOMPLETE_LAYER_TARGETS_ARB;
     }
-    private static final int GLFW_JOYSTICK_5 = (int)4L;
+    private static final int GL_FRAMEBUFFER_INCOMPLETE_LAYER_COUNT_ARB = (int)36265L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_JOYSTICK_5 4
+     * #define GL_FRAMEBUFFER_INCOMPLETE_LAYER_COUNT_ARB 36265
      * }
      */
-    public static int GLFW_JOYSTICK_5() {
-        return GLFW_JOYSTICK_5;
+    public static int GL_FRAMEBUFFER_INCOMPLETE_LAYER_COUNT_ARB() {
+        return GL_FRAMEBUFFER_INCOMPLETE_LAYER_COUNT_ARB;
     }
-    private static final int GLFW_JOYSTICK_6 = (int)5L;
+    private static final int GL_GEOMETRY_SHADER_ARB = (int)36313L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_JOYSTICK_6 5
+     * #define GL_GEOMETRY_SHADER_ARB 36313
      * }
      */
-    public static int GLFW_JOYSTICK_6() {
-        return GLFW_JOYSTICK_6;
+    public static int GL_GEOMETRY_SHADER_ARB() {
+        return GL_GEOMETRY_SHADER_ARB;
     }
-    private static final int GLFW_JOYSTICK_7 = (int)6L;
+    private static final int GL_GEOMETRY_VERTICES_OUT_ARB = (int)36314L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_JOYSTICK_7 6
+     * #define GL_GEOMETRY_VERTICES_OUT_ARB 36314
      * }
      */
-    public static int GLFW_JOYSTICK_7() {
-        return GLFW_JOYSTICK_7;
+    public static int GL_GEOMETRY_VERTICES_OUT_ARB() {
+        return GL_GEOMETRY_VERTICES_OUT_ARB;
     }
-    private static final int GLFW_JOYSTICK_8 = (int)7L;
+    private static final int GL_GEOMETRY_INPUT_TYPE_ARB = (int)36315L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_JOYSTICK_8 7
+     * #define GL_GEOMETRY_INPUT_TYPE_ARB 36315
      * }
      */
-    public static int GLFW_JOYSTICK_8() {
-        return GLFW_JOYSTICK_8;
+    public static int GL_GEOMETRY_INPUT_TYPE_ARB() {
+        return GL_GEOMETRY_INPUT_TYPE_ARB;
     }
-    private static final int GLFW_JOYSTICK_9 = (int)8L;
+    private static final int GL_GEOMETRY_OUTPUT_TYPE_ARB = (int)36316L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_JOYSTICK_9 8
+     * #define GL_GEOMETRY_OUTPUT_TYPE_ARB 36316
      * }
      */
-    public static int GLFW_JOYSTICK_9() {
-        return GLFW_JOYSTICK_9;
+    public static int GL_GEOMETRY_OUTPUT_TYPE_ARB() {
+        return GL_GEOMETRY_OUTPUT_TYPE_ARB;
     }
-    private static final int GLFW_JOYSTICK_10 = (int)9L;
+    private static final int GL_MAX_GEOMETRY_VARYING_COMPONENTS_ARB = (int)36317L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_JOYSTICK_10 9
+     * #define GL_MAX_GEOMETRY_VARYING_COMPONENTS_ARB 36317
      * }
      */
-    public static int GLFW_JOYSTICK_10() {
-        return GLFW_JOYSTICK_10;
+    public static int GL_MAX_GEOMETRY_VARYING_COMPONENTS_ARB() {
+        return GL_MAX_GEOMETRY_VARYING_COMPONENTS_ARB;
     }
-    private static final int GLFW_JOYSTICK_11 = (int)10L;
+    private static final int GL_MAX_VERTEX_VARYING_COMPONENTS_ARB = (int)36318L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_JOYSTICK_11 10
+     * #define GL_MAX_VERTEX_VARYING_COMPONENTS_ARB 36318
      * }
      */
-    public static int GLFW_JOYSTICK_11() {
-        return GLFW_JOYSTICK_11;
+    public static int GL_MAX_VERTEX_VARYING_COMPONENTS_ARB() {
+        return GL_MAX_VERTEX_VARYING_COMPONENTS_ARB;
     }
-    private static final int GLFW_JOYSTICK_12 = (int)11L;
+    private static final int GL_MAX_GEOMETRY_UNIFORM_COMPONENTS_ARB = (int)36319L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_JOYSTICK_12 11
+     * #define GL_MAX_GEOMETRY_UNIFORM_COMPONENTS_ARB 36319
      * }
      */
-    public static int GLFW_JOYSTICK_12() {
-        return GLFW_JOYSTICK_12;
+    public static int GL_MAX_GEOMETRY_UNIFORM_COMPONENTS_ARB() {
+        return GL_MAX_GEOMETRY_UNIFORM_COMPONENTS_ARB;
     }
-    private static final int GLFW_JOYSTICK_13 = (int)12L;
+    private static final int GL_MAX_GEOMETRY_OUTPUT_VERTICES_ARB = (int)36320L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_JOYSTICK_13 12
+     * #define GL_MAX_GEOMETRY_OUTPUT_VERTICES_ARB 36320
      * }
      */
-    public static int GLFW_JOYSTICK_13() {
-        return GLFW_JOYSTICK_13;
+    public static int GL_MAX_GEOMETRY_OUTPUT_VERTICES_ARB() {
+        return GL_MAX_GEOMETRY_OUTPUT_VERTICES_ARB;
     }
-    private static final int GLFW_JOYSTICK_14 = (int)13L;
+    private static final int GL_MAX_GEOMETRY_TOTAL_OUTPUT_COMPONENTS_ARB = (int)36321L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_JOYSTICK_14 13
+     * #define GL_MAX_GEOMETRY_TOTAL_OUTPUT_COMPONENTS_ARB 36321
      * }
      */
-    public static int GLFW_JOYSTICK_14() {
-        return GLFW_JOYSTICK_14;
+    public static int GL_MAX_GEOMETRY_TOTAL_OUTPUT_COMPONENTS_ARB() {
+        return GL_MAX_GEOMETRY_TOTAL_OUTPUT_COMPONENTS_ARB;
     }
-    private static final int GLFW_JOYSTICK_15 = (int)14L;
+    private static final int GL_ARB_get_program_binary = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_JOYSTICK_15 14
+     * #define GL_ARB_get_program_binary 1
      * }
      */
-    public static int GLFW_JOYSTICK_15() {
-        return GLFW_JOYSTICK_15;
+    public static int GL_ARB_get_program_binary() {
+        return GL_ARB_get_program_binary;
     }
-    private static final int GLFW_JOYSTICK_16 = (int)15L;
+    private static final int GL_ARB_get_texture_sub_image = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_JOYSTICK_16 15
+     * #define GL_ARB_get_texture_sub_image 1
      * }
      */
-    public static int GLFW_JOYSTICK_16() {
-        return GLFW_JOYSTICK_16;
+    public static int GL_ARB_get_texture_sub_image() {
+        return GL_ARB_get_texture_sub_image;
     }
-    private static final int GLFW_GAMEPAD_BUTTON_A = (int)0L;
+    private static final int GL_ARB_gl_spirv = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_GAMEPAD_BUTTON_A 0
+     * #define GL_ARB_gl_spirv 1
      * }
      */
-    public static int GLFW_GAMEPAD_BUTTON_A() {
-        return GLFW_GAMEPAD_BUTTON_A;
+    public static int GL_ARB_gl_spirv() {
+        return GL_ARB_gl_spirv;
     }
-    private static final int GLFW_GAMEPAD_BUTTON_B = (int)1L;
+    private static final int GL_SHADER_BINARY_FORMAT_SPIR_V_ARB = (int)38225L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_GAMEPAD_BUTTON_B 1
+     * #define GL_SHADER_BINARY_FORMAT_SPIR_V_ARB 38225
      * }
      */
-    public static int GLFW_GAMEPAD_BUTTON_B() {
-        return GLFW_GAMEPAD_BUTTON_B;
+    public static int GL_SHADER_BINARY_FORMAT_SPIR_V_ARB() {
+        return GL_SHADER_BINARY_FORMAT_SPIR_V_ARB;
     }
-    private static final int GLFW_GAMEPAD_BUTTON_X = (int)2L;
+    private static final int GL_SPIR_V_BINARY_ARB = (int)38226L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_GAMEPAD_BUTTON_X 2
+     * #define GL_SPIR_V_BINARY_ARB 38226
      * }
      */
-    public static int GLFW_GAMEPAD_BUTTON_X() {
-        return GLFW_GAMEPAD_BUTTON_X;
+    public static int GL_SPIR_V_BINARY_ARB() {
+        return GL_SPIR_V_BINARY_ARB;
     }
-    private static final int GLFW_GAMEPAD_BUTTON_Y = (int)3L;
+    private static final int GL_ARB_gpu_shader5 = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_GAMEPAD_BUTTON_Y 3
+     * #define GL_ARB_gpu_shader5 1
      * }
      */
-    public static int GLFW_GAMEPAD_BUTTON_Y() {
-        return GLFW_GAMEPAD_BUTTON_Y;
+    public static int GL_ARB_gpu_shader5() {
+        return GL_ARB_gpu_shader5;
     }
-    private static final int GLFW_GAMEPAD_BUTTON_LEFT_BUMPER = (int)4L;
+    private static final int GL_ARB_gpu_shader_fp64 = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_GAMEPAD_BUTTON_LEFT_BUMPER 4
+     * #define GL_ARB_gpu_shader_fp64 1
      * }
      */
-    public static int GLFW_GAMEPAD_BUTTON_LEFT_BUMPER() {
-        return GLFW_GAMEPAD_BUTTON_LEFT_BUMPER;
+    public static int GL_ARB_gpu_shader_fp64() {
+        return GL_ARB_gpu_shader_fp64;
     }
-    private static final int GLFW_GAMEPAD_BUTTON_RIGHT_BUMPER = (int)5L;
+    private static final int GL_ARB_gpu_shader_int64 = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_GAMEPAD_BUTTON_RIGHT_BUMPER 5
+     * #define GL_ARB_gpu_shader_int64 1
      * }
      */
-    public static int GLFW_GAMEPAD_BUTTON_RIGHT_BUMPER() {
-        return GLFW_GAMEPAD_BUTTON_RIGHT_BUMPER;
+    public static int GL_ARB_gpu_shader_int64() {
+        return GL_ARB_gpu_shader_int64;
     }
-    private static final int GLFW_GAMEPAD_BUTTON_BACK = (int)6L;
+    private static final int GL_INT64_ARB = (int)5134L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_GAMEPAD_BUTTON_BACK 6
+     * #define GL_INT64_ARB 5134
      * }
      */
-    public static int GLFW_GAMEPAD_BUTTON_BACK() {
-        return GLFW_GAMEPAD_BUTTON_BACK;
+    public static int GL_INT64_ARB() {
+        return GL_INT64_ARB;
     }
-    private static final int GLFW_GAMEPAD_BUTTON_START = (int)7L;
+    private static final int GL_INT64_VEC2_ARB = (int)36841L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_GAMEPAD_BUTTON_START 7
+     * #define GL_INT64_VEC2_ARB 36841
      * }
      */
-    public static int GLFW_GAMEPAD_BUTTON_START() {
-        return GLFW_GAMEPAD_BUTTON_START;
+    public static int GL_INT64_VEC2_ARB() {
+        return GL_INT64_VEC2_ARB;
     }
-    private static final int GLFW_GAMEPAD_BUTTON_GUIDE = (int)8L;
+    private static final int GL_INT64_VEC3_ARB = (int)36842L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_GAMEPAD_BUTTON_GUIDE 8
+     * #define GL_INT64_VEC3_ARB 36842
      * }
      */
-    public static int GLFW_GAMEPAD_BUTTON_GUIDE() {
-        return GLFW_GAMEPAD_BUTTON_GUIDE;
+    public static int GL_INT64_VEC3_ARB() {
+        return GL_INT64_VEC3_ARB;
     }
-    private static final int GLFW_GAMEPAD_BUTTON_LEFT_THUMB = (int)9L;
+    private static final int GL_INT64_VEC4_ARB = (int)36843L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_GAMEPAD_BUTTON_LEFT_THUMB 9
+     * #define GL_INT64_VEC4_ARB 36843
      * }
      */
-    public static int GLFW_GAMEPAD_BUTTON_LEFT_THUMB() {
-        return GLFW_GAMEPAD_BUTTON_LEFT_THUMB;
+    public static int GL_INT64_VEC4_ARB() {
+        return GL_INT64_VEC4_ARB;
     }
-    private static final int GLFW_GAMEPAD_BUTTON_RIGHT_THUMB = (int)10L;
+    private static final int GL_UNSIGNED_INT64_VEC2_ARB = (int)36853L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_GAMEPAD_BUTTON_RIGHT_THUMB 10
+     * #define GL_UNSIGNED_INT64_VEC2_ARB 36853
      * }
      */
-    public static int GLFW_GAMEPAD_BUTTON_RIGHT_THUMB() {
-        return GLFW_GAMEPAD_BUTTON_RIGHT_THUMB;
+    public static int GL_UNSIGNED_INT64_VEC2_ARB() {
+        return GL_UNSIGNED_INT64_VEC2_ARB;
     }
-    private static final int GLFW_GAMEPAD_BUTTON_DPAD_UP = (int)11L;
+    private static final int GL_UNSIGNED_INT64_VEC3_ARB = (int)36854L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_GAMEPAD_BUTTON_DPAD_UP 11
+     * #define GL_UNSIGNED_INT64_VEC3_ARB 36854
      * }
      */
-    public static int GLFW_GAMEPAD_BUTTON_DPAD_UP() {
-        return GLFW_GAMEPAD_BUTTON_DPAD_UP;
+    public static int GL_UNSIGNED_INT64_VEC3_ARB() {
+        return GL_UNSIGNED_INT64_VEC3_ARB;
     }
-    private static final int GLFW_GAMEPAD_BUTTON_DPAD_RIGHT = (int)12L;
+    private static final int GL_UNSIGNED_INT64_VEC4_ARB = (int)36855L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_GAMEPAD_BUTTON_DPAD_RIGHT 12
+     * #define GL_UNSIGNED_INT64_VEC4_ARB 36855
      * }
      */
-    public static int GLFW_GAMEPAD_BUTTON_DPAD_RIGHT() {
-        return GLFW_GAMEPAD_BUTTON_DPAD_RIGHT;
+    public static int GL_UNSIGNED_INT64_VEC4_ARB() {
+        return GL_UNSIGNED_INT64_VEC4_ARB;
     }
-    private static final int GLFW_GAMEPAD_BUTTON_DPAD_DOWN = (int)13L;
+    private static final int GL_ARB_half_float_pixel = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_GAMEPAD_BUTTON_DPAD_DOWN 13
+     * #define GL_ARB_half_float_pixel 1
      * }
      */
-    public static int GLFW_GAMEPAD_BUTTON_DPAD_DOWN() {
-        return GLFW_GAMEPAD_BUTTON_DPAD_DOWN;
+    public static int GL_ARB_half_float_pixel() {
+        return GL_ARB_half_float_pixel;
     }
-    private static final int GLFW_GAMEPAD_BUTTON_DPAD_LEFT = (int)14L;
+    private static final int GL_HALF_FLOAT_ARB = (int)5131L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_GAMEPAD_BUTTON_DPAD_LEFT 14
+     * #define GL_HALF_FLOAT_ARB 5131
      * }
      */
-    public static int GLFW_GAMEPAD_BUTTON_DPAD_LEFT() {
-        return GLFW_GAMEPAD_BUTTON_DPAD_LEFT;
+    public static int GL_HALF_FLOAT_ARB() {
+        return GL_HALF_FLOAT_ARB;
     }
-    private static final int GLFW_GAMEPAD_AXIS_LEFT_X = (int)0L;
+    private static final int GL_ARB_half_float_vertex = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_GAMEPAD_AXIS_LEFT_X 0
+     * #define GL_ARB_half_float_vertex 1
      * }
      */
-    public static int GLFW_GAMEPAD_AXIS_LEFT_X() {
-        return GLFW_GAMEPAD_AXIS_LEFT_X;
+    public static int GL_ARB_half_float_vertex() {
+        return GL_ARB_half_float_vertex;
     }
-    private static final int GLFW_GAMEPAD_AXIS_LEFT_Y = (int)1L;
+    private static final int GL_ARB_indirect_parameters = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_GAMEPAD_AXIS_LEFT_Y 1
+     * #define GL_ARB_indirect_parameters 1
      * }
      */
-    public static int GLFW_GAMEPAD_AXIS_LEFT_Y() {
-        return GLFW_GAMEPAD_AXIS_LEFT_Y;
+    public static int GL_ARB_indirect_parameters() {
+        return GL_ARB_indirect_parameters;
     }
-    private static final int GLFW_GAMEPAD_AXIS_RIGHT_X = (int)2L;
+    private static final int GL_PARAMETER_BUFFER_ARB = (int)33006L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_GAMEPAD_AXIS_RIGHT_X 2
+     * #define GL_PARAMETER_BUFFER_ARB 33006
      * }
      */
-    public static int GLFW_GAMEPAD_AXIS_RIGHT_X() {
-        return GLFW_GAMEPAD_AXIS_RIGHT_X;
+    public static int GL_PARAMETER_BUFFER_ARB() {
+        return GL_PARAMETER_BUFFER_ARB;
     }
-    private static final int GLFW_GAMEPAD_AXIS_RIGHT_Y = (int)3L;
+    private static final int GL_PARAMETER_BUFFER_BINDING_ARB = (int)33007L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_GAMEPAD_AXIS_RIGHT_Y 3
+     * #define GL_PARAMETER_BUFFER_BINDING_ARB 33007
      * }
      */
-    public static int GLFW_GAMEPAD_AXIS_RIGHT_Y() {
-        return GLFW_GAMEPAD_AXIS_RIGHT_Y;
+    public static int GL_PARAMETER_BUFFER_BINDING_ARB() {
+        return GL_PARAMETER_BUFFER_BINDING_ARB;
     }
-    private static final int GLFW_GAMEPAD_AXIS_LEFT_TRIGGER = (int)4L;
+    private static final int GL_ARB_instanced_arrays = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_GAMEPAD_AXIS_LEFT_TRIGGER 4
+     * #define GL_ARB_instanced_arrays 1
      * }
      */
-    public static int GLFW_GAMEPAD_AXIS_LEFT_TRIGGER() {
-        return GLFW_GAMEPAD_AXIS_LEFT_TRIGGER;
+    public static int GL_ARB_instanced_arrays() {
+        return GL_ARB_instanced_arrays;
     }
-    private static final int GLFW_GAMEPAD_AXIS_RIGHT_TRIGGER = (int)5L;
+    private static final int GL_VERTEX_ATTRIB_ARRAY_DIVISOR_ARB = (int)35070L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_GAMEPAD_AXIS_RIGHT_TRIGGER 5
+     * #define GL_VERTEX_ATTRIB_ARRAY_DIVISOR_ARB 35070
      * }
      */
-    public static int GLFW_GAMEPAD_AXIS_RIGHT_TRIGGER() {
-        return GLFW_GAMEPAD_AXIS_RIGHT_TRIGGER;
+    public static int GL_VERTEX_ATTRIB_ARRAY_DIVISOR_ARB() {
+        return GL_VERTEX_ATTRIB_ARRAY_DIVISOR_ARB;
     }
-    private static final int GLFW_NO_ERROR = (int)0L;
+    private static final int GL_ARB_internalformat_query = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_NO_ERROR 0
+     * #define GL_ARB_internalformat_query 1
      * }
      */
-    public static int GLFW_NO_ERROR() {
-        return GLFW_NO_ERROR;
+    public static int GL_ARB_internalformat_query() {
+        return GL_ARB_internalformat_query;
     }
-    private static final int GLFW_NOT_INITIALIZED = (int)65537L;
+    private static final int GL_ARB_internalformat_query2 = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_NOT_INITIALIZED 65537
+     * #define GL_ARB_internalformat_query2 1
      * }
      */
-    public static int GLFW_NOT_INITIALIZED() {
-        return GLFW_NOT_INITIALIZED;
+    public static int GL_ARB_internalformat_query2() {
+        return GL_ARB_internalformat_query2;
     }
-    private static final int GLFW_NO_CURRENT_CONTEXT = (int)65538L;
+    private static final int GL_SRGB_DECODE_ARB = (int)33433L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_NO_CURRENT_CONTEXT 65538
+     * #define GL_SRGB_DECODE_ARB 33433
      * }
      */
-    public static int GLFW_NO_CURRENT_CONTEXT() {
-        return GLFW_NO_CURRENT_CONTEXT;
+    public static int GL_SRGB_DECODE_ARB() {
+        return GL_SRGB_DECODE_ARB;
     }
-    private static final int GLFW_INVALID_ENUM = (int)65539L;
+    private static final int GL_VIEW_CLASS_EAC_R11 = (int)37763L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_INVALID_ENUM 65539
+     * #define GL_VIEW_CLASS_EAC_R11 37763
      * }
      */
-    public static int GLFW_INVALID_ENUM() {
-        return GLFW_INVALID_ENUM;
+    public static int GL_VIEW_CLASS_EAC_R11() {
+        return GL_VIEW_CLASS_EAC_R11;
     }
-    private static final int GLFW_INVALID_VALUE = (int)65540L;
+    private static final int GL_VIEW_CLASS_EAC_RG11 = (int)37764L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_INVALID_VALUE 65540
+     * #define GL_VIEW_CLASS_EAC_RG11 37764
      * }
      */
-    public static int GLFW_INVALID_VALUE() {
-        return GLFW_INVALID_VALUE;
+    public static int GL_VIEW_CLASS_EAC_RG11() {
+        return GL_VIEW_CLASS_EAC_RG11;
     }
-    private static final int GLFW_OUT_OF_MEMORY = (int)65541L;
+    private static final int GL_VIEW_CLASS_ETC2_RGB = (int)37765L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_OUT_OF_MEMORY 65541
+     * #define GL_VIEW_CLASS_ETC2_RGB 37765
      * }
      */
-    public static int GLFW_OUT_OF_MEMORY() {
-        return GLFW_OUT_OF_MEMORY;
+    public static int GL_VIEW_CLASS_ETC2_RGB() {
+        return GL_VIEW_CLASS_ETC2_RGB;
     }
-    private static final int GLFW_API_UNAVAILABLE = (int)65542L;
+    private static final int GL_VIEW_CLASS_ETC2_RGBA = (int)37766L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_API_UNAVAILABLE 65542
+     * #define GL_VIEW_CLASS_ETC2_RGBA 37766
      * }
      */
-    public static int GLFW_API_UNAVAILABLE() {
-        return GLFW_API_UNAVAILABLE;
+    public static int GL_VIEW_CLASS_ETC2_RGBA() {
+        return GL_VIEW_CLASS_ETC2_RGBA;
     }
-    private static final int GLFW_VERSION_UNAVAILABLE = (int)65543L;
+    private static final int GL_VIEW_CLASS_ETC2_EAC_RGBA = (int)37767L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_VERSION_UNAVAILABLE 65543
+     * #define GL_VIEW_CLASS_ETC2_EAC_RGBA 37767
      * }
      */
-    public static int GLFW_VERSION_UNAVAILABLE() {
-        return GLFW_VERSION_UNAVAILABLE;
+    public static int GL_VIEW_CLASS_ETC2_EAC_RGBA() {
+        return GL_VIEW_CLASS_ETC2_EAC_RGBA;
     }
-    private static final int GLFW_PLATFORM_ERROR = (int)65544L;
+    private static final int GL_VIEW_CLASS_ASTC_4x4_RGBA = (int)37768L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_PLATFORM_ERROR 65544
+     * #define GL_VIEW_CLASS_ASTC_4x4_RGBA 37768
      * }
      */
-    public static int GLFW_PLATFORM_ERROR() {
-        return GLFW_PLATFORM_ERROR;
+    public static int GL_VIEW_CLASS_ASTC_4x4_RGBA() {
+        return GL_VIEW_CLASS_ASTC_4x4_RGBA;
     }
-    private static final int GLFW_FORMAT_UNAVAILABLE = (int)65545L;
+    private static final int GL_VIEW_CLASS_ASTC_5x4_RGBA = (int)37769L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_FORMAT_UNAVAILABLE 65545
+     * #define GL_VIEW_CLASS_ASTC_5x4_RGBA 37769
      * }
      */
-    public static int GLFW_FORMAT_UNAVAILABLE() {
-        return GLFW_FORMAT_UNAVAILABLE;
+    public static int GL_VIEW_CLASS_ASTC_5x4_RGBA() {
+        return GL_VIEW_CLASS_ASTC_5x4_RGBA;
     }
-    private static final int GLFW_NO_WINDOW_CONTEXT = (int)65546L;
+    private static final int GL_VIEW_CLASS_ASTC_5x5_RGBA = (int)37770L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_NO_WINDOW_CONTEXT 65546
+     * #define GL_VIEW_CLASS_ASTC_5x5_RGBA 37770
      * }
      */
-    public static int GLFW_NO_WINDOW_CONTEXT() {
-        return GLFW_NO_WINDOW_CONTEXT;
+    public static int GL_VIEW_CLASS_ASTC_5x5_RGBA() {
+        return GL_VIEW_CLASS_ASTC_5x5_RGBA;
     }
-    private static final int GLFW_CURSOR_UNAVAILABLE = (int)65547L;
+    private static final int GL_VIEW_CLASS_ASTC_6x5_RGBA = (int)37771L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_CURSOR_UNAVAILABLE 65547
+     * #define GL_VIEW_CLASS_ASTC_6x5_RGBA 37771
      * }
      */
-    public static int GLFW_CURSOR_UNAVAILABLE() {
-        return GLFW_CURSOR_UNAVAILABLE;
+    public static int GL_VIEW_CLASS_ASTC_6x5_RGBA() {
+        return GL_VIEW_CLASS_ASTC_6x5_RGBA;
     }
-    private static final int GLFW_FEATURE_UNAVAILABLE = (int)65548L;
+    private static final int GL_VIEW_CLASS_ASTC_6x6_RGBA = (int)37772L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_FEATURE_UNAVAILABLE 65548
+     * #define GL_VIEW_CLASS_ASTC_6x6_RGBA 37772
      * }
      */
-    public static int GLFW_FEATURE_UNAVAILABLE() {
-        return GLFW_FEATURE_UNAVAILABLE;
+    public static int GL_VIEW_CLASS_ASTC_6x6_RGBA() {
+        return GL_VIEW_CLASS_ASTC_6x6_RGBA;
     }
-    private static final int GLFW_FEATURE_UNIMPLEMENTED = (int)65549L;
+    private static final int GL_VIEW_CLASS_ASTC_8x5_RGBA = (int)37773L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_FEATURE_UNIMPLEMENTED 65549
+     * #define GL_VIEW_CLASS_ASTC_8x5_RGBA 37773
      * }
      */
-    public static int GLFW_FEATURE_UNIMPLEMENTED() {
-        return GLFW_FEATURE_UNIMPLEMENTED;
+    public static int GL_VIEW_CLASS_ASTC_8x5_RGBA() {
+        return GL_VIEW_CLASS_ASTC_8x5_RGBA;
     }
-    private static final int GLFW_PLATFORM_UNAVAILABLE = (int)65550L;
+    private static final int GL_VIEW_CLASS_ASTC_8x6_RGBA = (int)37774L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_PLATFORM_UNAVAILABLE 65550
+     * #define GL_VIEW_CLASS_ASTC_8x6_RGBA 37774
      * }
      */
-    public static int GLFW_PLATFORM_UNAVAILABLE() {
-        return GLFW_PLATFORM_UNAVAILABLE;
+    public static int GL_VIEW_CLASS_ASTC_8x6_RGBA() {
+        return GL_VIEW_CLASS_ASTC_8x6_RGBA;
     }
-    private static final int GLFW_FOCUSED = (int)131073L;
+    private static final int GL_VIEW_CLASS_ASTC_8x8_RGBA = (int)37775L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_FOCUSED 131073
+     * #define GL_VIEW_CLASS_ASTC_8x8_RGBA 37775
      * }
      */
-    public static int GLFW_FOCUSED() {
-        return GLFW_FOCUSED;
+    public static int GL_VIEW_CLASS_ASTC_8x8_RGBA() {
+        return GL_VIEW_CLASS_ASTC_8x8_RGBA;
     }
-    private static final int GLFW_ICONIFIED = (int)131074L;
+    private static final int GL_VIEW_CLASS_ASTC_10x5_RGBA = (int)37776L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_ICONIFIED 131074
+     * #define GL_VIEW_CLASS_ASTC_10x5_RGBA 37776
      * }
      */
-    public static int GLFW_ICONIFIED() {
-        return GLFW_ICONIFIED;
+    public static int GL_VIEW_CLASS_ASTC_10x5_RGBA() {
+        return GL_VIEW_CLASS_ASTC_10x5_RGBA;
     }
-    private static final int GLFW_RESIZABLE = (int)131075L;
+    private static final int GL_VIEW_CLASS_ASTC_10x6_RGBA = (int)37777L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_RESIZABLE 131075
+     * #define GL_VIEW_CLASS_ASTC_10x6_RGBA 37777
      * }
      */
-    public static int GLFW_RESIZABLE() {
-        return GLFW_RESIZABLE;
+    public static int GL_VIEW_CLASS_ASTC_10x6_RGBA() {
+        return GL_VIEW_CLASS_ASTC_10x6_RGBA;
     }
-    private static final int GLFW_VISIBLE = (int)131076L;
+    private static final int GL_VIEW_CLASS_ASTC_10x8_RGBA = (int)37778L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_VISIBLE 131076
+     * #define GL_VIEW_CLASS_ASTC_10x8_RGBA 37778
      * }
      */
-    public static int GLFW_VISIBLE() {
-        return GLFW_VISIBLE;
+    public static int GL_VIEW_CLASS_ASTC_10x8_RGBA() {
+        return GL_VIEW_CLASS_ASTC_10x8_RGBA;
     }
-    private static final int GLFW_DECORATED = (int)131077L;
+    private static final int GL_VIEW_CLASS_ASTC_10x10_RGBA = (int)37779L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_DECORATED 131077
+     * #define GL_VIEW_CLASS_ASTC_10x10_RGBA 37779
      * }
      */
-    public static int GLFW_DECORATED() {
-        return GLFW_DECORATED;
+    public static int GL_VIEW_CLASS_ASTC_10x10_RGBA() {
+        return GL_VIEW_CLASS_ASTC_10x10_RGBA;
     }
-    private static final int GLFW_AUTO_ICONIFY = (int)131078L;
+    private static final int GL_VIEW_CLASS_ASTC_12x10_RGBA = (int)37780L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_AUTO_ICONIFY 131078
+     * #define GL_VIEW_CLASS_ASTC_12x10_RGBA 37780
      * }
      */
-    public static int GLFW_AUTO_ICONIFY() {
-        return GLFW_AUTO_ICONIFY;
+    public static int GL_VIEW_CLASS_ASTC_12x10_RGBA() {
+        return GL_VIEW_CLASS_ASTC_12x10_RGBA;
     }
-    private static final int GLFW_FLOATING = (int)131079L;
+    private static final int GL_VIEW_CLASS_ASTC_12x12_RGBA = (int)37781L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_FLOATING 131079
+     * #define GL_VIEW_CLASS_ASTC_12x12_RGBA 37781
      * }
      */
-    public static int GLFW_FLOATING() {
-        return GLFW_FLOATING;
+    public static int GL_VIEW_CLASS_ASTC_12x12_RGBA() {
+        return GL_VIEW_CLASS_ASTC_12x12_RGBA;
     }
-    private static final int GLFW_MAXIMIZED = (int)131080L;
+    private static final int GL_ARB_invalidate_subdata = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_MAXIMIZED 131080
+     * #define GL_ARB_invalidate_subdata 1
      * }
      */
-    public static int GLFW_MAXIMIZED() {
-        return GLFW_MAXIMIZED;
+    public static int GL_ARB_invalidate_subdata() {
+        return GL_ARB_invalidate_subdata;
     }
-    private static final int GLFW_CENTER_CURSOR = (int)131081L;
+    private static final int GL_ARB_map_buffer_alignment = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_CENTER_CURSOR 131081
+     * #define GL_ARB_map_buffer_alignment 1
      * }
      */
-    public static int GLFW_CENTER_CURSOR() {
-        return GLFW_CENTER_CURSOR;
+    public static int GL_ARB_map_buffer_alignment() {
+        return GL_ARB_map_buffer_alignment;
     }
-    private static final int GLFW_TRANSPARENT_FRAMEBUFFER = (int)131082L;
+    private static final int GL_ARB_map_buffer_range = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_TRANSPARENT_FRAMEBUFFER 131082
+     * #define GL_ARB_map_buffer_range 1
      * }
      */
-    public static int GLFW_TRANSPARENT_FRAMEBUFFER() {
-        return GLFW_TRANSPARENT_FRAMEBUFFER;
+    public static int GL_ARB_map_buffer_range() {
+        return GL_ARB_map_buffer_range;
     }
-    private static final int GLFW_HOVERED = (int)131083L;
+    private static final int GL_ARB_matrix_palette = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_HOVERED 131083
+     * #define GL_ARB_matrix_palette 1
      * }
      */
-    public static int GLFW_HOVERED() {
-        return GLFW_HOVERED;
+    public static int GL_ARB_matrix_palette() {
+        return GL_ARB_matrix_palette;
     }
-    private static final int GLFW_FOCUS_ON_SHOW = (int)131084L;
+    private static final int GL_MATRIX_PALETTE_ARB = (int)34880L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_FOCUS_ON_SHOW 131084
+     * #define GL_MATRIX_PALETTE_ARB 34880
      * }
      */
-    public static int GLFW_FOCUS_ON_SHOW() {
-        return GLFW_FOCUS_ON_SHOW;
+    public static int GL_MATRIX_PALETTE_ARB() {
+        return GL_MATRIX_PALETTE_ARB;
     }
-    private static final int GLFW_MOUSE_PASSTHROUGH = (int)131085L;
+    private static final int GL_MAX_MATRIX_PALETTE_STACK_DEPTH_ARB = (int)34881L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_MOUSE_PASSTHROUGH 131085
+     * #define GL_MAX_MATRIX_PALETTE_STACK_DEPTH_ARB 34881
      * }
      */
-    public static int GLFW_MOUSE_PASSTHROUGH() {
-        return GLFW_MOUSE_PASSTHROUGH;
+    public static int GL_MAX_MATRIX_PALETTE_STACK_DEPTH_ARB() {
+        return GL_MAX_MATRIX_PALETTE_STACK_DEPTH_ARB;
     }
-    private static final int GLFW_POSITION_X = (int)131086L;
+    private static final int GL_MAX_PALETTE_MATRICES_ARB = (int)34882L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_POSITION_X 131086
+     * #define GL_MAX_PALETTE_MATRICES_ARB 34882
      * }
      */
-    public static int GLFW_POSITION_X() {
-        return GLFW_POSITION_X;
+    public static int GL_MAX_PALETTE_MATRICES_ARB() {
+        return GL_MAX_PALETTE_MATRICES_ARB;
     }
-    private static final int GLFW_POSITION_Y = (int)131087L;
+    private static final int GL_CURRENT_PALETTE_MATRIX_ARB = (int)34883L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_POSITION_Y 131087
+     * #define GL_CURRENT_PALETTE_MATRIX_ARB 34883
      * }
      */
-    public static int GLFW_POSITION_Y() {
-        return GLFW_POSITION_Y;
+    public static int GL_CURRENT_PALETTE_MATRIX_ARB() {
+        return GL_CURRENT_PALETTE_MATRIX_ARB;
     }
-    private static final int GLFW_RED_BITS = (int)135169L;
+    private static final int GL_MATRIX_INDEX_ARRAY_ARB = (int)34884L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_RED_BITS 135169
+     * #define GL_MATRIX_INDEX_ARRAY_ARB 34884
      * }
      */
-    public static int GLFW_RED_BITS() {
-        return GLFW_RED_BITS;
+    public static int GL_MATRIX_INDEX_ARRAY_ARB() {
+        return GL_MATRIX_INDEX_ARRAY_ARB;
     }
-    private static final int GLFW_GREEN_BITS = (int)135170L;
+    private static final int GL_CURRENT_MATRIX_INDEX_ARB = (int)34885L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_GREEN_BITS 135170
+     * #define GL_CURRENT_MATRIX_INDEX_ARB 34885
      * }
      */
-    public static int GLFW_GREEN_BITS() {
-        return GLFW_GREEN_BITS;
+    public static int GL_CURRENT_MATRIX_INDEX_ARB() {
+        return GL_CURRENT_MATRIX_INDEX_ARB;
     }
-    private static final int GLFW_BLUE_BITS = (int)135171L;
+    private static final int GL_MATRIX_INDEX_ARRAY_SIZE_ARB = (int)34886L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_BLUE_BITS 135171
+     * #define GL_MATRIX_INDEX_ARRAY_SIZE_ARB 34886
      * }
      */
-    public static int GLFW_BLUE_BITS() {
-        return GLFW_BLUE_BITS;
+    public static int GL_MATRIX_INDEX_ARRAY_SIZE_ARB() {
+        return GL_MATRIX_INDEX_ARRAY_SIZE_ARB;
     }
-    private static final int GLFW_ALPHA_BITS = (int)135172L;
+    private static final int GL_MATRIX_INDEX_ARRAY_TYPE_ARB = (int)34887L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_ALPHA_BITS 135172
+     * #define GL_MATRIX_INDEX_ARRAY_TYPE_ARB 34887
      * }
      */
-    public static int GLFW_ALPHA_BITS() {
-        return GLFW_ALPHA_BITS;
+    public static int GL_MATRIX_INDEX_ARRAY_TYPE_ARB() {
+        return GL_MATRIX_INDEX_ARRAY_TYPE_ARB;
     }
-    private static final int GLFW_DEPTH_BITS = (int)135173L;
+    private static final int GL_MATRIX_INDEX_ARRAY_STRIDE_ARB = (int)34888L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_DEPTH_BITS 135173
+     * #define GL_MATRIX_INDEX_ARRAY_STRIDE_ARB 34888
      * }
      */
-    public static int GLFW_DEPTH_BITS() {
-        return GLFW_DEPTH_BITS;
+    public static int GL_MATRIX_INDEX_ARRAY_STRIDE_ARB() {
+        return GL_MATRIX_INDEX_ARRAY_STRIDE_ARB;
     }
-    private static final int GLFW_STENCIL_BITS = (int)135174L;
+    private static final int GL_MATRIX_INDEX_ARRAY_POINTER_ARB = (int)34889L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_STENCIL_BITS 135174
+     * #define GL_MATRIX_INDEX_ARRAY_POINTER_ARB 34889
      * }
      */
-    public static int GLFW_STENCIL_BITS() {
-        return GLFW_STENCIL_BITS;
+    public static int GL_MATRIX_INDEX_ARRAY_POINTER_ARB() {
+        return GL_MATRIX_INDEX_ARRAY_POINTER_ARB;
     }
-    private static final int GLFW_ACCUM_RED_BITS = (int)135175L;
+    private static final int GL_ARB_multi_bind = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_ACCUM_RED_BITS 135175
+     * #define GL_ARB_multi_bind 1
      * }
      */
-    public static int GLFW_ACCUM_RED_BITS() {
-        return GLFW_ACCUM_RED_BITS;
+    public static int GL_ARB_multi_bind() {
+        return GL_ARB_multi_bind;
     }
-    private static final int GLFW_ACCUM_GREEN_BITS = (int)135176L;
+    private static final int GL_ARB_multi_draw_indirect = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_ACCUM_GREEN_BITS 135176
+     * #define GL_ARB_multi_draw_indirect 1
      * }
      */
-    public static int GLFW_ACCUM_GREEN_BITS() {
-        return GLFW_ACCUM_GREEN_BITS;
+    public static int GL_ARB_multi_draw_indirect() {
+        return GL_ARB_multi_draw_indirect;
     }
-    private static final int GLFW_ACCUM_BLUE_BITS = (int)135177L;
+    private static final int GL_ARB_multisample = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_ACCUM_BLUE_BITS 135177
+     * #define GL_ARB_multisample 1
      * }
      */
-    public static int GLFW_ACCUM_BLUE_BITS() {
-        return GLFW_ACCUM_BLUE_BITS;
+    public static int GL_ARB_multisample() {
+        return GL_ARB_multisample;
     }
-    private static final int GLFW_ACCUM_ALPHA_BITS = (int)135178L;
+    private static final int GL_MULTISAMPLE_ARB = (int)32925L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_ACCUM_ALPHA_BITS 135178
+     * #define GL_MULTISAMPLE_ARB 32925
      * }
      */
-    public static int GLFW_ACCUM_ALPHA_BITS() {
-        return GLFW_ACCUM_ALPHA_BITS;
+    public static int GL_MULTISAMPLE_ARB() {
+        return GL_MULTISAMPLE_ARB;
     }
-    private static final int GLFW_AUX_BUFFERS = (int)135179L;
+    private static final int GL_SAMPLE_ALPHA_TO_COVERAGE_ARB = (int)32926L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_AUX_BUFFERS 135179
+     * #define GL_SAMPLE_ALPHA_TO_COVERAGE_ARB 32926
      * }
      */
-    public static int GLFW_AUX_BUFFERS() {
-        return GLFW_AUX_BUFFERS;
+    public static int GL_SAMPLE_ALPHA_TO_COVERAGE_ARB() {
+        return GL_SAMPLE_ALPHA_TO_COVERAGE_ARB;
     }
-    private static final int GLFW_STEREO = (int)135180L;
+    private static final int GL_SAMPLE_ALPHA_TO_ONE_ARB = (int)32927L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_STEREO 135180
+     * #define GL_SAMPLE_ALPHA_TO_ONE_ARB 32927
      * }
      */
-    public static int GLFW_STEREO() {
-        return GLFW_STEREO;
+    public static int GL_SAMPLE_ALPHA_TO_ONE_ARB() {
+        return GL_SAMPLE_ALPHA_TO_ONE_ARB;
     }
-    private static final int GLFW_SAMPLES = (int)135181L;
+    private static final int GL_SAMPLE_COVERAGE_ARB = (int)32928L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_SAMPLES 135181
+     * #define GL_SAMPLE_COVERAGE_ARB 32928
      * }
      */
-    public static int GLFW_SAMPLES() {
-        return GLFW_SAMPLES;
+    public static int GL_SAMPLE_COVERAGE_ARB() {
+        return GL_SAMPLE_COVERAGE_ARB;
     }
-    private static final int GLFW_SRGB_CAPABLE = (int)135182L;
+    private static final int GL_SAMPLE_BUFFERS_ARB = (int)32936L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_SRGB_CAPABLE 135182
+     * #define GL_SAMPLE_BUFFERS_ARB 32936
      * }
      */
-    public static int GLFW_SRGB_CAPABLE() {
-        return GLFW_SRGB_CAPABLE;
+    public static int GL_SAMPLE_BUFFERS_ARB() {
+        return GL_SAMPLE_BUFFERS_ARB;
     }
-    private static final int GLFW_REFRESH_RATE = (int)135183L;
+    private static final int GL_SAMPLES_ARB = (int)32937L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_REFRESH_RATE 135183
+     * #define GL_SAMPLES_ARB 32937
      * }
      */
-    public static int GLFW_REFRESH_RATE() {
-        return GLFW_REFRESH_RATE;
+    public static int GL_SAMPLES_ARB() {
+        return GL_SAMPLES_ARB;
     }
-    private static final int GLFW_DOUBLEBUFFER = (int)135184L;
+    private static final int GL_SAMPLE_COVERAGE_VALUE_ARB = (int)32938L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_DOUBLEBUFFER 135184
+     * #define GL_SAMPLE_COVERAGE_VALUE_ARB 32938
      * }
      */
-    public static int GLFW_DOUBLEBUFFER() {
-        return GLFW_DOUBLEBUFFER;
+    public static int GL_SAMPLE_COVERAGE_VALUE_ARB() {
+        return GL_SAMPLE_COVERAGE_VALUE_ARB;
     }
-    private static final int GLFW_CLIENT_API = (int)139265L;
+    private static final int GL_SAMPLE_COVERAGE_INVERT_ARB = (int)32939L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_CLIENT_API 139265
+     * #define GL_SAMPLE_COVERAGE_INVERT_ARB 32939
      * }
      */
-    public static int GLFW_CLIENT_API() {
-        return GLFW_CLIENT_API;
+    public static int GL_SAMPLE_COVERAGE_INVERT_ARB() {
+        return GL_SAMPLE_COVERAGE_INVERT_ARB;
     }
-    private static final int GLFW_CONTEXT_VERSION_MAJOR = (int)139266L;
+    private static final int GL_MULTISAMPLE_BIT_ARB = (int)536870912L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_CONTEXT_VERSION_MAJOR 139266
+     * #define GL_MULTISAMPLE_BIT_ARB 536870912
      * }
      */
-    public static int GLFW_CONTEXT_VERSION_MAJOR() {
-        return GLFW_CONTEXT_VERSION_MAJOR;
+    public static int GL_MULTISAMPLE_BIT_ARB() {
+        return GL_MULTISAMPLE_BIT_ARB;
     }
-    private static final int GLFW_CONTEXT_VERSION_MINOR = (int)139267L;
+    private static final int GL_ARB_occlusion_query = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_CONTEXT_VERSION_MINOR 139267
+     * #define GL_ARB_occlusion_query 1
      * }
      */
-    public static int GLFW_CONTEXT_VERSION_MINOR() {
-        return GLFW_CONTEXT_VERSION_MINOR;
+    public static int GL_ARB_occlusion_query() {
+        return GL_ARB_occlusion_query;
     }
-    private static final int GLFW_CONTEXT_REVISION = (int)139268L;
+    private static final int GL_QUERY_COUNTER_BITS_ARB = (int)34916L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_CONTEXT_REVISION 139268
+     * #define GL_QUERY_COUNTER_BITS_ARB 34916
      * }
      */
-    public static int GLFW_CONTEXT_REVISION() {
-        return GLFW_CONTEXT_REVISION;
+    public static int GL_QUERY_COUNTER_BITS_ARB() {
+        return GL_QUERY_COUNTER_BITS_ARB;
     }
-    private static final int GLFW_CONTEXT_ROBUSTNESS = (int)139269L;
+    private static final int GL_CURRENT_QUERY_ARB = (int)34917L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_CONTEXT_ROBUSTNESS 139269
+     * #define GL_CURRENT_QUERY_ARB 34917
      * }
      */
-    public static int GLFW_CONTEXT_ROBUSTNESS() {
-        return GLFW_CONTEXT_ROBUSTNESS;
+    public static int GL_CURRENT_QUERY_ARB() {
+        return GL_CURRENT_QUERY_ARB;
     }
-    private static final int GLFW_OPENGL_FORWARD_COMPAT = (int)139270L;
+    private static final int GL_QUERY_RESULT_ARB = (int)34918L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_OPENGL_FORWARD_COMPAT 139270
+     * #define GL_QUERY_RESULT_ARB 34918
      * }
      */
-    public static int GLFW_OPENGL_FORWARD_COMPAT() {
-        return GLFW_OPENGL_FORWARD_COMPAT;
+    public static int GL_QUERY_RESULT_ARB() {
+        return GL_QUERY_RESULT_ARB;
     }
-    private static final int GLFW_CONTEXT_DEBUG = (int)139271L;
+    private static final int GL_QUERY_RESULT_AVAILABLE_ARB = (int)34919L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_CONTEXT_DEBUG 139271
+     * #define GL_QUERY_RESULT_AVAILABLE_ARB 34919
      * }
      */
-    public static int GLFW_CONTEXT_DEBUG() {
-        return GLFW_CONTEXT_DEBUG;
+    public static int GL_QUERY_RESULT_AVAILABLE_ARB() {
+        return GL_QUERY_RESULT_AVAILABLE_ARB;
     }
-    private static final int GLFW_OPENGL_PROFILE = (int)139272L;
+    private static final int GL_SAMPLES_PASSED_ARB = (int)35092L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_OPENGL_PROFILE 139272
+     * #define GL_SAMPLES_PASSED_ARB 35092
      * }
      */
-    public static int GLFW_OPENGL_PROFILE() {
-        return GLFW_OPENGL_PROFILE;
+    public static int GL_SAMPLES_PASSED_ARB() {
+        return GL_SAMPLES_PASSED_ARB;
     }
-    private static final int GLFW_CONTEXT_RELEASE_BEHAVIOR = (int)139273L;
+    private static final int GL_ARB_occlusion_query2 = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_CONTEXT_RELEASE_BEHAVIOR 139273
+     * #define GL_ARB_occlusion_query2 1
      * }
      */
-    public static int GLFW_CONTEXT_RELEASE_BEHAVIOR() {
-        return GLFW_CONTEXT_RELEASE_BEHAVIOR;
+    public static int GL_ARB_occlusion_query2() {
+        return GL_ARB_occlusion_query2;
     }
-    private static final int GLFW_CONTEXT_NO_ERROR = (int)139274L;
+    private static final int GL_ARB_parallel_shader_compile = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_CONTEXT_NO_ERROR 139274
+     * #define GL_ARB_parallel_shader_compile 1
      * }
      */
-    public static int GLFW_CONTEXT_NO_ERROR() {
-        return GLFW_CONTEXT_NO_ERROR;
+    public static int GL_ARB_parallel_shader_compile() {
+        return GL_ARB_parallel_shader_compile;
     }
-    private static final int GLFW_CONTEXT_CREATION_API = (int)139275L;
+    private static final int GL_MAX_SHADER_COMPILER_THREADS_ARB = (int)37296L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_CONTEXT_CREATION_API 139275
+     * #define GL_MAX_SHADER_COMPILER_THREADS_ARB 37296
      * }
      */
-    public static int GLFW_CONTEXT_CREATION_API() {
-        return GLFW_CONTEXT_CREATION_API;
+    public static int GL_MAX_SHADER_COMPILER_THREADS_ARB() {
+        return GL_MAX_SHADER_COMPILER_THREADS_ARB;
     }
-    private static final int GLFW_SCALE_TO_MONITOR = (int)139276L;
+    private static final int GL_COMPLETION_STATUS_ARB = (int)37297L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_SCALE_TO_MONITOR 139276
+     * #define GL_COMPLETION_STATUS_ARB 37297
      * }
      */
-    public static int GLFW_SCALE_TO_MONITOR() {
-        return GLFW_SCALE_TO_MONITOR;
+    public static int GL_COMPLETION_STATUS_ARB() {
+        return GL_COMPLETION_STATUS_ARB;
     }
-    private static final int GLFW_SCALE_FRAMEBUFFER = (int)139277L;
+    private static final int GL_ARB_pipeline_statistics_query = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_SCALE_FRAMEBUFFER 139277
+     * #define GL_ARB_pipeline_statistics_query 1
      * }
      */
-    public static int GLFW_SCALE_FRAMEBUFFER() {
-        return GLFW_SCALE_FRAMEBUFFER;
+    public static int GL_ARB_pipeline_statistics_query() {
+        return GL_ARB_pipeline_statistics_query;
     }
-    private static final int GLFW_COCOA_RETINA_FRAMEBUFFER = (int)143361L;
+    private static final int GL_VERTICES_SUBMITTED_ARB = (int)33518L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_COCOA_RETINA_FRAMEBUFFER 143361
+     * #define GL_VERTICES_SUBMITTED_ARB 33518
      * }
      */
-    public static int GLFW_COCOA_RETINA_FRAMEBUFFER() {
-        return GLFW_COCOA_RETINA_FRAMEBUFFER;
+    public static int GL_VERTICES_SUBMITTED_ARB() {
+        return GL_VERTICES_SUBMITTED_ARB;
     }
-    private static final int GLFW_COCOA_FRAME_NAME = (int)143362L;
+    private static final int GL_PRIMITIVES_SUBMITTED_ARB = (int)33519L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_COCOA_FRAME_NAME 143362
+     * #define GL_PRIMITIVES_SUBMITTED_ARB 33519
      * }
      */
-    public static int GLFW_COCOA_FRAME_NAME() {
-        return GLFW_COCOA_FRAME_NAME;
+    public static int GL_PRIMITIVES_SUBMITTED_ARB() {
+        return GL_PRIMITIVES_SUBMITTED_ARB;
     }
-    private static final int GLFW_COCOA_GRAPHICS_SWITCHING = (int)143363L;
+    private static final int GL_VERTEX_SHADER_INVOCATIONS_ARB = (int)33520L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_COCOA_GRAPHICS_SWITCHING 143363
+     * #define GL_VERTEX_SHADER_INVOCATIONS_ARB 33520
      * }
      */
-    public static int GLFW_COCOA_GRAPHICS_SWITCHING() {
-        return GLFW_COCOA_GRAPHICS_SWITCHING;
+    public static int GL_VERTEX_SHADER_INVOCATIONS_ARB() {
+        return GL_VERTEX_SHADER_INVOCATIONS_ARB;
     }
-    private static final int GLFW_X11_CLASS_NAME = (int)147457L;
+    private static final int GL_TESS_CONTROL_SHADER_PATCHES_ARB = (int)33521L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_X11_CLASS_NAME 147457
+     * #define GL_TESS_CONTROL_SHADER_PATCHES_ARB 33521
      * }
      */
-    public static int GLFW_X11_CLASS_NAME() {
-        return GLFW_X11_CLASS_NAME;
+    public static int GL_TESS_CONTROL_SHADER_PATCHES_ARB() {
+        return GL_TESS_CONTROL_SHADER_PATCHES_ARB;
     }
-    private static final int GLFW_X11_INSTANCE_NAME = (int)147458L;
+    private static final int GL_TESS_EVALUATION_SHADER_INVOCATIONS_ARB = (int)33522L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_X11_INSTANCE_NAME 147458
+     * #define GL_TESS_EVALUATION_SHADER_INVOCATIONS_ARB 33522
      * }
      */
-    public static int GLFW_X11_INSTANCE_NAME() {
-        return GLFW_X11_INSTANCE_NAME;
+    public static int GL_TESS_EVALUATION_SHADER_INVOCATIONS_ARB() {
+        return GL_TESS_EVALUATION_SHADER_INVOCATIONS_ARB;
     }
-    private static final int GLFW_WIN32_KEYBOARD_MENU = (int)151553L;
+    private static final int GL_GEOMETRY_SHADER_PRIMITIVES_EMITTED_ARB = (int)33523L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_WIN32_KEYBOARD_MENU 151553
+     * #define GL_GEOMETRY_SHADER_PRIMITIVES_EMITTED_ARB 33523
      * }
      */
-    public static int GLFW_WIN32_KEYBOARD_MENU() {
-        return GLFW_WIN32_KEYBOARD_MENU;
+    public static int GL_GEOMETRY_SHADER_PRIMITIVES_EMITTED_ARB() {
+        return GL_GEOMETRY_SHADER_PRIMITIVES_EMITTED_ARB;
     }
-    private static final int GLFW_WIN32_SHOWDEFAULT = (int)151554L;
+    private static final int GL_FRAGMENT_SHADER_INVOCATIONS_ARB = (int)33524L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_WIN32_SHOWDEFAULT 151554
+     * #define GL_FRAGMENT_SHADER_INVOCATIONS_ARB 33524
      * }
      */
-    public static int GLFW_WIN32_SHOWDEFAULT() {
-        return GLFW_WIN32_SHOWDEFAULT;
+    public static int GL_FRAGMENT_SHADER_INVOCATIONS_ARB() {
+        return GL_FRAGMENT_SHADER_INVOCATIONS_ARB;
     }
-    private static final int GLFW_WAYLAND_APP_ID = (int)155649L;
+    private static final int GL_COMPUTE_SHADER_INVOCATIONS_ARB = (int)33525L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_WAYLAND_APP_ID 155649
+     * #define GL_COMPUTE_SHADER_INVOCATIONS_ARB 33525
      * }
      */
-    public static int GLFW_WAYLAND_APP_ID() {
-        return GLFW_WAYLAND_APP_ID;
+    public static int GL_COMPUTE_SHADER_INVOCATIONS_ARB() {
+        return GL_COMPUTE_SHADER_INVOCATIONS_ARB;
     }
-    private static final int GLFW_NO_API = (int)0L;
+    private static final int GL_CLIPPING_INPUT_PRIMITIVES_ARB = (int)33526L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_NO_API 0
+     * #define GL_CLIPPING_INPUT_PRIMITIVES_ARB 33526
      * }
      */
-    public static int GLFW_NO_API() {
-        return GLFW_NO_API;
+    public static int GL_CLIPPING_INPUT_PRIMITIVES_ARB() {
+        return GL_CLIPPING_INPUT_PRIMITIVES_ARB;
     }
-    private static final int GLFW_OPENGL_API = (int)196609L;
+    private static final int GL_CLIPPING_OUTPUT_PRIMITIVES_ARB = (int)33527L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_OPENGL_API 196609
+     * #define GL_CLIPPING_OUTPUT_PRIMITIVES_ARB 33527
      * }
      */
-    public static int GLFW_OPENGL_API() {
-        return GLFW_OPENGL_API;
+    public static int GL_CLIPPING_OUTPUT_PRIMITIVES_ARB() {
+        return GL_CLIPPING_OUTPUT_PRIMITIVES_ARB;
     }
-    private static final int GLFW_OPENGL_ES_API = (int)196610L;
+    private static final int GL_ARB_pixel_buffer_object = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_OPENGL_ES_API 196610
+     * #define GL_ARB_pixel_buffer_object 1
      * }
      */
-    public static int GLFW_OPENGL_ES_API() {
-        return GLFW_OPENGL_ES_API;
+    public static int GL_ARB_pixel_buffer_object() {
+        return GL_ARB_pixel_buffer_object;
     }
-    private static final int GLFW_NO_ROBUSTNESS = (int)0L;
+    private static final int GL_PIXEL_PACK_BUFFER_ARB = (int)35051L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_NO_ROBUSTNESS 0
+     * #define GL_PIXEL_PACK_BUFFER_ARB 35051
      * }
      */
-    public static int GLFW_NO_ROBUSTNESS() {
-        return GLFW_NO_ROBUSTNESS;
+    public static int GL_PIXEL_PACK_BUFFER_ARB() {
+        return GL_PIXEL_PACK_BUFFER_ARB;
     }
-    private static final int GLFW_NO_RESET_NOTIFICATION = (int)200705L;
+    private static final int GL_PIXEL_UNPACK_BUFFER_ARB = (int)35052L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_NO_RESET_NOTIFICATION 200705
+     * #define GL_PIXEL_UNPACK_BUFFER_ARB 35052
      * }
      */
-    public static int GLFW_NO_RESET_NOTIFICATION() {
-        return GLFW_NO_RESET_NOTIFICATION;
+    public static int GL_PIXEL_UNPACK_BUFFER_ARB() {
+        return GL_PIXEL_UNPACK_BUFFER_ARB;
     }
-    private static final int GLFW_LOSE_CONTEXT_ON_RESET = (int)200706L;
+    private static final int GL_PIXEL_PACK_BUFFER_BINDING_ARB = (int)35053L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_LOSE_CONTEXT_ON_RESET 200706
+     * #define GL_PIXEL_PACK_BUFFER_BINDING_ARB 35053
      * }
      */
-    public static int GLFW_LOSE_CONTEXT_ON_RESET() {
-        return GLFW_LOSE_CONTEXT_ON_RESET;
+    public static int GL_PIXEL_PACK_BUFFER_BINDING_ARB() {
+        return GL_PIXEL_PACK_BUFFER_BINDING_ARB;
     }
-    private static final int GLFW_OPENGL_ANY_PROFILE = (int)0L;
+    private static final int GL_PIXEL_UNPACK_BUFFER_BINDING_ARB = (int)35055L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_OPENGL_ANY_PROFILE 0
+     * #define GL_PIXEL_UNPACK_BUFFER_BINDING_ARB 35055
      * }
      */
-    public static int GLFW_OPENGL_ANY_PROFILE() {
-        return GLFW_OPENGL_ANY_PROFILE;
+    public static int GL_PIXEL_UNPACK_BUFFER_BINDING_ARB() {
+        return GL_PIXEL_UNPACK_BUFFER_BINDING_ARB;
     }
-    private static final int GLFW_OPENGL_CORE_PROFILE = (int)204801L;
+    private static final int GL_ARB_point_parameters = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_OPENGL_CORE_PROFILE 204801
+     * #define GL_ARB_point_parameters 1
      * }
      */
-    public static int GLFW_OPENGL_CORE_PROFILE() {
-        return GLFW_OPENGL_CORE_PROFILE;
+    public static int GL_ARB_point_parameters() {
+        return GL_ARB_point_parameters;
     }
-    private static final int GLFW_OPENGL_COMPAT_PROFILE = (int)204802L;
+    private static final int GL_POINT_SIZE_MIN_ARB = (int)33062L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_OPENGL_COMPAT_PROFILE 204802
+     * #define GL_POINT_SIZE_MIN_ARB 33062
      * }
      */
-    public static int GLFW_OPENGL_COMPAT_PROFILE() {
-        return GLFW_OPENGL_COMPAT_PROFILE;
+    public static int GL_POINT_SIZE_MIN_ARB() {
+        return GL_POINT_SIZE_MIN_ARB;
     }
-    private static final int GLFW_CURSOR = (int)208897L;
+    private static final int GL_POINT_SIZE_MAX_ARB = (int)33063L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_CURSOR 208897
+     * #define GL_POINT_SIZE_MAX_ARB 33063
      * }
      */
-    public static int GLFW_CURSOR() {
-        return GLFW_CURSOR;
+    public static int GL_POINT_SIZE_MAX_ARB() {
+        return GL_POINT_SIZE_MAX_ARB;
     }
-    private static final int GLFW_STICKY_KEYS = (int)208898L;
+    private static final int GL_POINT_FADE_THRESHOLD_SIZE_ARB = (int)33064L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_STICKY_KEYS 208898
+     * #define GL_POINT_FADE_THRESHOLD_SIZE_ARB 33064
      * }
      */
-    public static int GLFW_STICKY_KEYS() {
-        return GLFW_STICKY_KEYS;
+    public static int GL_POINT_FADE_THRESHOLD_SIZE_ARB() {
+        return GL_POINT_FADE_THRESHOLD_SIZE_ARB;
     }
-    private static final int GLFW_STICKY_MOUSE_BUTTONS = (int)208899L;
+    private static final int GL_POINT_DISTANCE_ATTENUATION_ARB = (int)33065L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_STICKY_MOUSE_BUTTONS 208899
+     * #define GL_POINT_DISTANCE_ATTENUATION_ARB 33065
      * }
      */
-    public static int GLFW_STICKY_MOUSE_BUTTONS() {
-        return GLFW_STICKY_MOUSE_BUTTONS;
+    public static int GL_POINT_DISTANCE_ATTENUATION_ARB() {
+        return GL_POINT_DISTANCE_ATTENUATION_ARB;
     }
-    private static final int GLFW_LOCK_KEY_MODS = (int)208900L;
+    private static final int GL_ARB_point_sprite = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_LOCK_KEY_MODS 208900
+     * #define GL_ARB_point_sprite 1
      * }
      */
-    public static int GLFW_LOCK_KEY_MODS() {
-        return GLFW_LOCK_KEY_MODS;
+    public static int GL_ARB_point_sprite() {
+        return GL_ARB_point_sprite;
     }
-    private static final int GLFW_RAW_MOUSE_MOTION = (int)208901L;
+    private static final int GL_POINT_SPRITE_ARB = (int)34913L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_RAW_MOUSE_MOTION 208901
+     * #define GL_POINT_SPRITE_ARB 34913
      * }
      */
-    public static int GLFW_RAW_MOUSE_MOTION() {
-        return GLFW_RAW_MOUSE_MOTION;
+    public static int GL_POINT_SPRITE_ARB() {
+        return GL_POINT_SPRITE_ARB;
     }
-    private static final int GLFW_CURSOR_NORMAL = (int)212993L;
+    private static final int GL_COORD_REPLACE_ARB = (int)34914L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_CURSOR_NORMAL 212993
+     * #define GL_COORD_REPLACE_ARB 34914
      * }
      */
-    public static int GLFW_CURSOR_NORMAL() {
-        return GLFW_CURSOR_NORMAL;
+    public static int GL_COORD_REPLACE_ARB() {
+        return GL_COORD_REPLACE_ARB;
     }
-    private static final int GLFW_CURSOR_HIDDEN = (int)212994L;
+    private static final int GL_ARB_polygon_offset_clamp = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_CURSOR_HIDDEN 212994
+     * #define GL_ARB_polygon_offset_clamp 1
      * }
      */
-    public static int GLFW_CURSOR_HIDDEN() {
-        return GLFW_CURSOR_HIDDEN;
+    public static int GL_ARB_polygon_offset_clamp() {
+        return GL_ARB_polygon_offset_clamp;
     }
-    private static final int GLFW_CURSOR_DISABLED = (int)212995L;
+    private static final int GL_ARB_post_depth_coverage = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_CURSOR_DISABLED 212995
+     * #define GL_ARB_post_depth_coverage 1
      * }
      */
-    public static int GLFW_CURSOR_DISABLED() {
-        return GLFW_CURSOR_DISABLED;
+    public static int GL_ARB_post_depth_coverage() {
+        return GL_ARB_post_depth_coverage;
     }
-    private static final int GLFW_CURSOR_CAPTURED = (int)212996L;
+    private static final int GL_ARB_program_interface_query = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_CURSOR_CAPTURED 212996
+     * #define GL_ARB_program_interface_query 1
      * }
      */
-    public static int GLFW_CURSOR_CAPTURED() {
-        return GLFW_CURSOR_CAPTURED;
+    public static int GL_ARB_program_interface_query() {
+        return GL_ARB_program_interface_query;
     }
-    private static final int GLFW_ANY_RELEASE_BEHAVIOR = (int)0L;
+    private static final int GL_ARB_provoking_vertex = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_ANY_RELEASE_BEHAVIOR 0
+     * #define GL_ARB_provoking_vertex 1
      * }
      */
-    public static int GLFW_ANY_RELEASE_BEHAVIOR() {
-        return GLFW_ANY_RELEASE_BEHAVIOR;
+    public static int GL_ARB_provoking_vertex() {
+        return GL_ARB_provoking_vertex;
     }
-    private static final int GLFW_RELEASE_BEHAVIOR_FLUSH = (int)217089L;
+    private static final int GL_ARB_query_buffer_object = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_RELEASE_BEHAVIOR_FLUSH 217089
+     * #define GL_ARB_query_buffer_object 1
      * }
      */
-    public static int GLFW_RELEASE_BEHAVIOR_FLUSH() {
-        return GLFW_RELEASE_BEHAVIOR_FLUSH;
+    public static int GL_ARB_query_buffer_object() {
+        return GL_ARB_query_buffer_object;
     }
-    private static final int GLFW_RELEASE_BEHAVIOR_NONE = (int)217090L;
+    private static final int GL_ARB_robust_buffer_access_behavior = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_RELEASE_BEHAVIOR_NONE 217090
+     * #define GL_ARB_robust_buffer_access_behavior 1
      * }
      */
-    public static int GLFW_RELEASE_BEHAVIOR_NONE() {
-        return GLFW_RELEASE_BEHAVIOR_NONE;
+    public static int GL_ARB_robust_buffer_access_behavior() {
+        return GL_ARB_robust_buffer_access_behavior;
     }
-    private static final int GLFW_NATIVE_CONTEXT_API = (int)221185L;
+    private static final int GL_ARB_robustness = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_NATIVE_CONTEXT_API 221185
+     * #define GL_ARB_robustness 1
      * }
      */
-    public static int GLFW_NATIVE_CONTEXT_API() {
-        return GLFW_NATIVE_CONTEXT_API;
+    public static int GL_ARB_robustness() {
+        return GL_ARB_robustness;
     }
-    private static final int GLFW_EGL_CONTEXT_API = (int)221186L;
+    private static final int GL_CONTEXT_FLAG_ROBUST_ACCESS_BIT_ARB = (int)4L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_EGL_CONTEXT_API 221186
+     * #define GL_CONTEXT_FLAG_ROBUST_ACCESS_BIT_ARB 4
      * }
      */
-    public static int GLFW_EGL_CONTEXT_API() {
-        return GLFW_EGL_CONTEXT_API;
+    public static int GL_CONTEXT_FLAG_ROBUST_ACCESS_BIT_ARB() {
+        return GL_CONTEXT_FLAG_ROBUST_ACCESS_BIT_ARB;
     }
-    private static final int GLFW_OSMESA_CONTEXT_API = (int)221187L;
+    private static final int GL_LOSE_CONTEXT_ON_RESET_ARB = (int)33362L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_OSMESA_CONTEXT_API 221187
+     * #define GL_LOSE_CONTEXT_ON_RESET_ARB 33362
      * }
      */
-    public static int GLFW_OSMESA_CONTEXT_API() {
-        return GLFW_OSMESA_CONTEXT_API;
+    public static int GL_LOSE_CONTEXT_ON_RESET_ARB() {
+        return GL_LOSE_CONTEXT_ON_RESET_ARB;
     }
-    private static final int GLFW_ANGLE_PLATFORM_TYPE_NONE = (int)225281L;
+    private static final int GL_GUILTY_CONTEXT_RESET_ARB = (int)33363L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_ANGLE_PLATFORM_TYPE_NONE 225281
+     * #define GL_GUILTY_CONTEXT_RESET_ARB 33363
      * }
      */
-    public static int GLFW_ANGLE_PLATFORM_TYPE_NONE() {
-        return GLFW_ANGLE_PLATFORM_TYPE_NONE;
+    public static int GL_GUILTY_CONTEXT_RESET_ARB() {
+        return GL_GUILTY_CONTEXT_RESET_ARB;
     }
-    private static final int GLFW_ANGLE_PLATFORM_TYPE_OPENGL = (int)225282L;
+    private static final int GL_INNOCENT_CONTEXT_RESET_ARB = (int)33364L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_ANGLE_PLATFORM_TYPE_OPENGL 225282
+     * #define GL_INNOCENT_CONTEXT_RESET_ARB 33364
      * }
      */
-    public static int GLFW_ANGLE_PLATFORM_TYPE_OPENGL() {
-        return GLFW_ANGLE_PLATFORM_TYPE_OPENGL;
+    public static int GL_INNOCENT_CONTEXT_RESET_ARB() {
+        return GL_INNOCENT_CONTEXT_RESET_ARB;
     }
-    private static final int GLFW_ANGLE_PLATFORM_TYPE_OPENGLES = (int)225283L;
+    private static final int GL_UNKNOWN_CONTEXT_RESET_ARB = (int)33365L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_ANGLE_PLATFORM_TYPE_OPENGLES 225283
+     * #define GL_UNKNOWN_CONTEXT_RESET_ARB 33365
      * }
      */
-    public static int GLFW_ANGLE_PLATFORM_TYPE_OPENGLES() {
-        return GLFW_ANGLE_PLATFORM_TYPE_OPENGLES;
+    public static int GL_UNKNOWN_CONTEXT_RESET_ARB() {
+        return GL_UNKNOWN_CONTEXT_RESET_ARB;
     }
-    private static final int GLFW_ANGLE_PLATFORM_TYPE_D3D9 = (int)225284L;
+    private static final int GL_RESET_NOTIFICATION_STRATEGY_ARB = (int)33366L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_ANGLE_PLATFORM_TYPE_D3D9 225284
+     * #define GL_RESET_NOTIFICATION_STRATEGY_ARB 33366
      * }
      */
-    public static int GLFW_ANGLE_PLATFORM_TYPE_D3D9() {
-        return GLFW_ANGLE_PLATFORM_TYPE_D3D9;
+    public static int GL_RESET_NOTIFICATION_STRATEGY_ARB() {
+        return GL_RESET_NOTIFICATION_STRATEGY_ARB;
     }
-    private static final int GLFW_ANGLE_PLATFORM_TYPE_D3D11 = (int)225285L;
+    private static final int GL_NO_RESET_NOTIFICATION_ARB = (int)33377L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_ANGLE_PLATFORM_TYPE_D3D11 225285
+     * #define GL_NO_RESET_NOTIFICATION_ARB 33377
      * }
      */
-    public static int GLFW_ANGLE_PLATFORM_TYPE_D3D11() {
-        return GLFW_ANGLE_PLATFORM_TYPE_D3D11;
+    public static int GL_NO_RESET_NOTIFICATION_ARB() {
+        return GL_NO_RESET_NOTIFICATION_ARB;
     }
-    private static final int GLFW_ANGLE_PLATFORM_TYPE_VULKAN = (int)225287L;
+    private static final int GL_ARB_robustness_isolation = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_ANGLE_PLATFORM_TYPE_VULKAN 225287
+     * #define GL_ARB_robustness_isolation 1
      * }
      */
-    public static int GLFW_ANGLE_PLATFORM_TYPE_VULKAN() {
-        return GLFW_ANGLE_PLATFORM_TYPE_VULKAN;
+    public static int GL_ARB_robustness_isolation() {
+        return GL_ARB_robustness_isolation;
     }
-    private static final int GLFW_ANGLE_PLATFORM_TYPE_METAL = (int)225288L;
+    private static final int GL_ARB_sample_locations = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_ANGLE_PLATFORM_TYPE_METAL 225288
+     * #define GL_ARB_sample_locations 1
      * }
      */
-    public static int GLFW_ANGLE_PLATFORM_TYPE_METAL() {
-        return GLFW_ANGLE_PLATFORM_TYPE_METAL;
+    public static int GL_ARB_sample_locations() {
+        return GL_ARB_sample_locations;
     }
-    private static final int GLFW_WAYLAND_PREFER_LIBDECOR = (int)229377L;
+    private static final int GL_SAMPLE_LOCATION_SUBPIXEL_BITS_ARB = (int)37693L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_WAYLAND_PREFER_LIBDECOR 229377
+     * #define GL_SAMPLE_LOCATION_SUBPIXEL_BITS_ARB 37693
      * }
      */
-    public static int GLFW_WAYLAND_PREFER_LIBDECOR() {
-        return GLFW_WAYLAND_PREFER_LIBDECOR;
+    public static int GL_SAMPLE_LOCATION_SUBPIXEL_BITS_ARB() {
+        return GL_SAMPLE_LOCATION_SUBPIXEL_BITS_ARB;
     }
-    private static final int GLFW_WAYLAND_DISABLE_LIBDECOR = (int)229378L;
+    private static final int GL_SAMPLE_LOCATION_PIXEL_GRID_WIDTH_ARB = (int)37694L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_WAYLAND_DISABLE_LIBDECOR 229378
+     * #define GL_SAMPLE_LOCATION_PIXEL_GRID_WIDTH_ARB 37694
      * }
      */
-    public static int GLFW_WAYLAND_DISABLE_LIBDECOR() {
-        return GLFW_WAYLAND_DISABLE_LIBDECOR;
+    public static int GL_SAMPLE_LOCATION_PIXEL_GRID_WIDTH_ARB() {
+        return GL_SAMPLE_LOCATION_PIXEL_GRID_WIDTH_ARB;
     }
-    private static final int GLFW_ARROW_CURSOR = (int)221185L;
+    private static final int GL_SAMPLE_LOCATION_PIXEL_GRID_HEIGHT_ARB = (int)37695L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_ARROW_CURSOR 221185
+     * #define GL_SAMPLE_LOCATION_PIXEL_GRID_HEIGHT_ARB 37695
      * }
      */
-    public static int GLFW_ARROW_CURSOR() {
-        return GLFW_ARROW_CURSOR;
+    public static int GL_SAMPLE_LOCATION_PIXEL_GRID_HEIGHT_ARB() {
+        return GL_SAMPLE_LOCATION_PIXEL_GRID_HEIGHT_ARB;
     }
-    private static final int GLFW_IBEAM_CURSOR = (int)221186L;
+    private static final int GL_PROGRAMMABLE_SAMPLE_LOCATION_TABLE_SIZE_ARB = (int)37696L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_IBEAM_CURSOR 221186
+     * #define GL_PROGRAMMABLE_SAMPLE_LOCATION_TABLE_SIZE_ARB 37696
      * }
      */
-    public static int GLFW_IBEAM_CURSOR() {
-        return GLFW_IBEAM_CURSOR;
+    public static int GL_PROGRAMMABLE_SAMPLE_LOCATION_TABLE_SIZE_ARB() {
+        return GL_PROGRAMMABLE_SAMPLE_LOCATION_TABLE_SIZE_ARB;
     }
-    private static final int GLFW_CROSSHAIR_CURSOR = (int)221187L;
+    private static final int GL_SAMPLE_LOCATION_ARB = (int)36432L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_CROSSHAIR_CURSOR 221187
+     * #define GL_SAMPLE_LOCATION_ARB 36432
      * }
      */
-    public static int GLFW_CROSSHAIR_CURSOR() {
-        return GLFW_CROSSHAIR_CURSOR;
+    public static int GL_SAMPLE_LOCATION_ARB() {
+        return GL_SAMPLE_LOCATION_ARB;
     }
-    private static final int GLFW_POINTING_HAND_CURSOR = (int)221188L;
+    private static final int GL_PROGRAMMABLE_SAMPLE_LOCATION_ARB = (int)37697L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_POINTING_HAND_CURSOR 221188
+     * #define GL_PROGRAMMABLE_SAMPLE_LOCATION_ARB 37697
      * }
      */
-    public static int GLFW_POINTING_HAND_CURSOR() {
-        return GLFW_POINTING_HAND_CURSOR;
+    public static int GL_PROGRAMMABLE_SAMPLE_LOCATION_ARB() {
+        return GL_PROGRAMMABLE_SAMPLE_LOCATION_ARB;
     }
-    private static final int GLFW_RESIZE_EW_CURSOR = (int)221189L;
+    private static final int GL_FRAMEBUFFER_PROGRAMMABLE_SAMPLE_LOCATIONS_ARB = (int)37698L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_RESIZE_EW_CURSOR 221189
+     * #define GL_FRAMEBUFFER_PROGRAMMABLE_SAMPLE_LOCATIONS_ARB 37698
      * }
      */
-    public static int GLFW_RESIZE_EW_CURSOR() {
-        return GLFW_RESIZE_EW_CURSOR;
+    public static int GL_FRAMEBUFFER_PROGRAMMABLE_SAMPLE_LOCATIONS_ARB() {
+        return GL_FRAMEBUFFER_PROGRAMMABLE_SAMPLE_LOCATIONS_ARB;
     }
-    private static final int GLFW_RESIZE_NS_CURSOR = (int)221190L;
+    private static final int GL_FRAMEBUFFER_SAMPLE_LOCATION_PIXEL_GRID_ARB = (int)37699L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_RESIZE_NS_CURSOR 221190
+     * #define GL_FRAMEBUFFER_SAMPLE_LOCATION_PIXEL_GRID_ARB 37699
      * }
      */
-    public static int GLFW_RESIZE_NS_CURSOR() {
-        return GLFW_RESIZE_NS_CURSOR;
+    public static int GL_FRAMEBUFFER_SAMPLE_LOCATION_PIXEL_GRID_ARB() {
+        return GL_FRAMEBUFFER_SAMPLE_LOCATION_PIXEL_GRID_ARB;
     }
-    private static final int GLFW_RESIZE_NWSE_CURSOR = (int)221191L;
+    private static final int GL_ARB_sample_shading = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_RESIZE_NWSE_CURSOR 221191
+     * #define GL_ARB_sample_shading 1
      * }
      */
-    public static int GLFW_RESIZE_NWSE_CURSOR() {
-        return GLFW_RESIZE_NWSE_CURSOR;
+    public static int GL_ARB_sample_shading() {
+        return GL_ARB_sample_shading;
     }
-    private static final int GLFW_RESIZE_NESW_CURSOR = (int)221192L;
+    private static final int GL_SAMPLE_SHADING_ARB = (int)35894L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_RESIZE_NESW_CURSOR 221192
+     * #define GL_SAMPLE_SHADING_ARB 35894
      * }
      */
-    public static int GLFW_RESIZE_NESW_CURSOR() {
-        return GLFW_RESIZE_NESW_CURSOR;
+    public static int GL_SAMPLE_SHADING_ARB() {
+        return GL_SAMPLE_SHADING_ARB;
     }
-    private static final int GLFW_RESIZE_ALL_CURSOR = (int)221193L;
+    private static final int GL_MIN_SAMPLE_SHADING_VALUE_ARB = (int)35895L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_RESIZE_ALL_CURSOR 221193
+     * #define GL_MIN_SAMPLE_SHADING_VALUE_ARB 35895
      * }
      */
-    public static int GLFW_RESIZE_ALL_CURSOR() {
-        return GLFW_RESIZE_ALL_CURSOR;
+    public static int GL_MIN_SAMPLE_SHADING_VALUE_ARB() {
+        return GL_MIN_SAMPLE_SHADING_VALUE_ARB;
     }
-    private static final int GLFW_NOT_ALLOWED_CURSOR = (int)221194L;
+    private static final int GL_ARB_sampler_objects = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_NOT_ALLOWED_CURSOR 221194
+     * #define GL_ARB_sampler_objects 1
      * }
      */
-    public static int GLFW_NOT_ALLOWED_CURSOR() {
-        return GLFW_NOT_ALLOWED_CURSOR;
+    public static int GL_ARB_sampler_objects() {
+        return GL_ARB_sampler_objects;
     }
-    private static final int GLFW_CONNECTED = (int)262145L;
+    private static final int GL_ARB_seamless_cube_map = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_CONNECTED 262145
+     * #define GL_ARB_seamless_cube_map 1
      * }
      */
-    public static int GLFW_CONNECTED() {
-        return GLFW_CONNECTED;
+    public static int GL_ARB_seamless_cube_map() {
+        return GL_ARB_seamless_cube_map;
     }
-    private static final int GLFW_DISCONNECTED = (int)262146L;
+    private static final int GL_ARB_seamless_cubemap_per_texture = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_DISCONNECTED 262146
+     * #define GL_ARB_seamless_cubemap_per_texture 1
      * }
      */
-    public static int GLFW_DISCONNECTED() {
-        return GLFW_DISCONNECTED;
+    public static int GL_ARB_seamless_cubemap_per_texture() {
+        return GL_ARB_seamless_cubemap_per_texture;
     }
-    private static final int GLFW_JOYSTICK_HAT_BUTTONS = (int)327681L;
+    private static final int GL_ARB_separate_shader_objects = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_JOYSTICK_HAT_BUTTONS 327681
+     * #define GL_ARB_separate_shader_objects 1
      * }
      */
-    public static int GLFW_JOYSTICK_HAT_BUTTONS() {
-        return GLFW_JOYSTICK_HAT_BUTTONS;
+    public static int GL_ARB_separate_shader_objects() {
+        return GL_ARB_separate_shader_objects;
     }
-    private static final int GLFW_ANGLE_PLATFORM_TYPE = (int)327682L;
+    private static final int GL_ARB_shader_atomic_counter_ops = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_ANGLE_PLATFORM_TYPE 327682
+     * #define GL_ARB_shader_atomic_counter_ops 1
      * }
      */
-    public static int GLFW_ANGLE_PLATFORM_TYPE() {
-        return GLFW_ANGLE_PLATFORM_TYPE;
+    public static int GL_ARB_shader_atomic_counter_ops() {
+        return GL_ARB_shader_atomic_counter_ops;
     }
-    private static final int GLFW_PLATFORM = (int)327683L;
+    private static final int GL_ARB_shader_atomic_counters = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_PLATFORM 327683
+     * #define GL_ARB_shader_atomic_counters 1
      * }
      */
-    public static int GLFW_PLATFORM() {
-        return GLFW_PLATFORM;
+    public static int GL_ARB_shader_atomic_counters() {
+        return GL_ARB_shader_atomic_counters;
     }
-    private static final int GLFW_COCOA_CHDIR_RESOURCES = (int)331777L;
+    private static final int GL_ARB_shader_ballot = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_COCOA_CHDIR_RESOURCES 331777
+     * #define GL_ARB_shader_ballot 1
      * }
      */
-    public static int GLFW_COCOA_CHDIR_RESOURCES() {
-        return GLFW_COCOA_CHDIR_RESOURCES;
+    public static int GL_ARB_shader_ballot() {
+        return GL_ARB_shader_ballot;
     }
-    private static final int GLFW_COCOA_MENUBAR = (int)331778L;
+    private static final int GL_ARB_shader_bit_encoding = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_COCOA_MENUBAR 331778
+     * #define GL_ARB_shader_bit_encoding 1
      * }
      */
-    public static int GLFW_COCOA_MENUBAR() {
-        return GLFW_COCOA_MENUBAR;
+    public static int GL_ARB_shader_bit_encoding() {
+        return GL_ARB_shader_bit_encoding;
     }
-    private static final int GLFW_X11_XCB_VULKAN_SURFACE = (int)335873L;
+    private static final int GL_ARB_shader_clock = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_X11_XCB_VULKAN_SURFACE 335873
+     * #define GL_ARB_shader_clock 1
      * }
      */
-    public static int GLFW_X11_XCB_VULKAN_SURFACE() {
-        return GLFW_X11_XCB_VULKAN_SURFACE;
+    public static int GL_ARB_shader_clock() {
+        return GL_ARB_shader_clock;
     }
-    private static final int GLFW_WAYLAND_LIBDECOR = (int)339969L;
+    private static final int GL_ARB_shader_draw_parameters = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_WAYLAND_LIBDECOR 339969
+     * #define GL_ARB_shader_draw_parameters 1
      * }
      */
-    public static int GLFW_WAYLAND_LIBDECOR() {
-        return GLFW_WAYLAND_LIBDECOR;
+    public static int GL_ARB_shader_draw_parameters() {
+        return GL_ARB_shader_draw_parameters;
     }
-    private static final int GLFW_ANY_PLATFORM = (int)393216L;
+    private static final int GL_ARB_shader_group_vote = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_ANY_PLATFORM 393216
+     * #define GL_ARB_shader_group_vote 1
      * }
      */
-    public static int GLFW_ANY_PLATFORM() {
-        return GLFW_ANY_PLATFORM;
+    public static int GL_ARB_shader_group_vote() {
+        return GL_ARB_shader_group_vote;
     }
-    private static final int GLFW_PLATFORM_WIN32 = (int)393217L;
+    private static final int GL_ARB_shader_image_load_store = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_PLATFORM_WIN32 393217
+     * #define GL_ARB_shader_image_load_store 1
      * }
      */
-    public static int GLFW_PLATFORM_WIN32() {
-        return GLFW_PLATFORM_WIN32;
+    public static int GL_ARB_shader_image_load_store() {
+        return GL_ARB_shader_image_load_store;
     }
-    private static final int GLFW_PLATFORM_COCOA = (int)393218L;
+    private static final int GL_ARB_shader_image_size = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_PLATFORM_COCOA 393218
+     * #define GL_ARB_shader_image_size 1
      * }
      */
-    public static int GLFW_PLATFORM_COCOA() {
-        return GLFW_PLATFORM_COCOA;
+    public static int GL_ARB_shader_image_size() {
+        return GL_ARB_shader_image_size;
     }
-    private static final int GLFW_PLATFORM_WAYLAND = (int)393219L;
+    private static final int GL_ARB_shader_objects = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_PLATFORM_WAYLAND 393219
+     * #define GL_ARB_shader_objects 1
      * }
      */
-    public static int GLFW_PLATFORM_WAYLAND() {
-        return GLFW_PLATFORM_WAYLAND;
+    public static int GL_ARB_shader_objects() {
+        return GL_ARB_shader_objects;
     }
-    private static final int GLFW_PLATFORM_X11 = (int)393220L;
+    private static final int GL_PROGRAM_OBJECT_ARB = (int)35648L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_PLATFORM_X11 393220
+     * #define GL_PROGRAM_OBJECT_ARB 35648
      * }
      */
-    public static int GLFW_PLATFORM_X11() {
-        return GLFW_PLATFORM_X11;
+    public static int GL_PROGRAM_OBJECT_ARB() {
+        return GL_PROGRAM_OBJECT_ARB;
     }
-    private static final int GLFW_PLATFORM_NULL = (int)393221L;
+    private static final int GL_SHADER_OBJECT_ARB = (int)35656L;
     /**
      * {@snippet lang=c :
-     * #define GLFW_PLATFORM_NULL 393221
+     * #define GL_SHADER_OBJECT_ARB 35656
      * }
      */
-    public static int GLFW_PLATFORM_NULL() {
-        return GLFW_PLATFORM_NULL;
+    public static int GL_SHADER_OBJECT_ARB() {
+        return GL_SHADER_OBJECT_ARB;
     }
+    private static final int GL_OBJECT_TYPE_ARB = (int)35662L;
     /**
      * {@snippet lang=c :
-     * typedef long ptrdiff_t
+     * #define GL_OBJECT_TYPE_ARB 35662
      * }
      */
-    public static final OfLong ptrdiff_t = glfw3_h.C_LONG;
+    public static int GL_OBJECT_TYPE_ARB() {
+        return GL_OBJECT_TYPE_ARB;
+    }
+    private static final int GL_OBJECT_SUBTYPE_ARB = (int)35663L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned long size_t
+     * #define GL_OBJECT_SUBTYPE_ARB 35663
      * }
      */
-    public static final OfLong size_t = glfw3_h.C_LONG;
+    public static int GL_OBJECT_SUBTYPE_ARB() {
+        return GL_OBJECT_SUBTYPE_ARB;
+    }
+    private static final int GL_FLOAT_VEC2_ARB = (int)35664L;
     /**
      * {@snippet lang=c :
-     * typedef int wchar_t
+     * #define GL_FLOAT_VEC2_ARB 35664
      * }
      */
-    public static final OfInt wchar_t = glfw3_h.C_INT;
+    public static int GL_FLOAT_VEC2_ARB() {
+        return GL_FLOAT_VEC2_ARB;
+    }
+    private static final int GL_FLOAT_VEC3_ARB = (int)35665L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned char __u_char
+     * #define GL_FLOAT_VEC3_ARB 35665
      * }
      */
-    public static final OfByte __u_char = glfw3_h.C_CHAR;
+    public static int GL_FLOAT_VEC3_ARB() {
+        return GL_FLOAT_VEC3_ARB;
+    }
+    private static final int GL_FLOAT_VEC4_ARB = (int)35666L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned short __u_short
+     * #define GL_FLOAT_VEC4_ARB 35666
      * }
      */
-    public static final OfShort __u_short = glfw3_h.C_SHORT;
+    public static int GL_FLOAT_VEC4_ARB() {
+        return GL_FLOAT_VEC4_ARB;
+    }
+    private static final int GL_INT_VEC2_ARB = (int)35667L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned int __u_int
+     * #define GL_INT_VEC2_ARB 35667
      * }
      */
-    public static final OfInt __u_int = glfw3_h.C_INT;
+    public static int GL_INT_VEC2_ARB() {
+        return GL_INT_VEC2_ARB;
+    }
+    private static final int GL_INT_VEC3_ARB = (int)35668L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned long __u_long
+     * #define GL_INT_VEC3_ARB 35668
      * }
      */
-    public static final OfLong __u_long = glfw3_h.C_LONG;
+    public static int GL_INT_VEC3_ARB() {
+        return GL_INT_VEC3_ARB;
+    }
+    private static final int GL_INT_VEC4_ARB = (int)35669L;
     /**
      * {@snippet lang=c :
-     * typedef signed char __int8_t
+     * #define GL_INT_VEC4_ARB 35669
      * }
      */
-    public static final OfByte __int8_t = glfw3_h.C_CHAR;
+    public static int GL_INT_VEC4_ARB() {
+        return GL_INT_VEC4_ARB;
+    }
+    private static final int GL_BOOL_ARB = (int)35670L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned char __uint8_t
+     * #define GL_BOOL_ARB 35670
      * }
      */
-    public static final OfByte __uint8_t = glfw3_h.C_CHAR;
+    public static int GL_BOOL_ARB() {
+        return GL_BOOL_ARB;
+    }
+    private static final int GL_BOOL_VEC2_ARB = (int)35671L;
     /**
      * {@snippet lang=c :
-     * typedef short __int16_t
+     * #define GL_BOOL_VEC2_ARB 35671
      * }
      */
-    public static final OfShort __int16_t = glfw3_h.C_SHORT;
+    public static int GL_BOOL_VEC2_ARB() {
+        return GL_BOOL_VEC2_ARB;
+    }
+    private static final int GL_BOOL_VEC3_ARB = (int)35672L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned short __uint16_t
+     * #define GL_BOOL_VEC3_ARB 35672
      * }
      */
-    public static final OfShort __uint16_t = glfw3_h.C_SHORT;
+    public static int GL_BOOL_VEC3_ARB() {
+        return GL_BOOL_VEC3_ARB;
+    }
+    private static final int GL_BOOL_VEC4_ARB = (int)35673L;
     /**
      * {@snippet lang=c :
-     * typedef int __int32_t
+     * #define GL_BOOL_VEC4_ARB 35673
      * }
      */
-    public static final OfInt __int32_t = glfw3_h.C_INT;
+    public static int GL_BOOL_VEC4_ARB() {
+        return GL_BOOL_VEC4_ARB;
+    }
+    private static final int GL_FLOAT_MAT2_ARB = (int)35674L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned int __uint32_t
+     * #define GL_FLOAT_MAT2_ARB 35674
      * }
      */
-    public static final OfInt __uint32_t = glfw3_h.C_INT;
+    public static int GL_FLOAT_MAT2_ARB() {
+        return GL_FLOAT_MAT2_ARB;
+    }
+    private static final int GL_FLOAT_MAT3_ARB = (int)35675L;
     /**
      * {@snippet lang=c :
-     * typedef long __int64_t
+     * #define GL_FLOAT_MAT3_ARB 35675
      * }
      */
-    public static final OfLong __int64_t = glfw3_h.C_LONG;
+    public static int GL_FLOAT_MAT3_ARB() {
+        return GL_FLOAT_MAT3_ARB;
+    }
+    private static final int GL_FLOAT_MAT4_ARB = (int)35676L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned long __uint64_t
+     * #define GL_FLOAT_MAT4_ARB 35676
      * }
      */
-    public static final OfLong __uint64_t = glfw3_h.C_LONG;
+    public static int GL_FLOAT_MAT4_ARB() {
+        return GL_FLOAT_MAT4_ARB;
+    }
+    private static final int GL_SAMPLER_1D_ARB = (int)35677L;
     /**
      * {@snippet lang=c :
-     * typedef __int8_t __int_least8_t
+     * #define GL_SAMPLER_1D_ARB 35677
      * }
      */
-    public static final OfByte __int_least8_t = glfw3_h.C_CHAR;
+    public static int GL_SAMPLER_1D_ARB() {
+        return GL_SAMPLER_1D_ARB;
+    }
+    private static final int GL_SAMPLER_2D_ARB = (int)35678L;
     /**
      * {@snippet lang=c :
-     * typedef __uint8_t __uint_least8_t
+     * #define GL_SAMPLER_2D_ARB 35678
      * }
      */
-    public static final OfByte __uint_least8_t = glfw3_h.C_CHAR;
+    public static int GL_SAMPLER_2D_ARB() {
+        return GL_SAMPLER_2D_ARB;
+    }
+    private static final int GL_SAMPLER_3D_ARB = (int)35679L;
     /**
      * {@snippet lang=c :
-     * typedef __int16_t __int_least16_t
+     * #define GL_SAMPLER_3D_ARB 35679
      * }
      */
-    public static final OfShort __int_least16_t = glfw3_h.C_SHORT;
+    public static int GL_SAMPLER_3D_ARB() {
+        return GL_SAMPLER_3D_ARB;
+    }
+    private static final int GL_SAMPLER_CUBE_ARB = (int)35680L;
     /**
      * {@snippet lang=c :
-     * typedef __uint16_t __uint_least16_t
+     * #define GL_SAMPLER_CUBE_ARB 35680
      * }
      */
-    public static final OfShort __uint_least16_t = glfw3_h.C_SHORT;
+    public static int GL_SAMPLER_CUBE_ARB() {
+        return GL_SAMPLER_CUBE_ARB;
+    }
+    private static final int GL_SAMPLER_1D_SHADOW_ARB = (int)35681L;
     /**
      * {@snippet lang=c :
-     * typedef __int32_t __int_least32_t
+     * #define GL_SAMPLER_1D_SHADOW_ARB 35681
      * }
      */
-    public static final OfInt __int_least32_t = glfw3_h.C_INT;
+    public static int GL_SAMPLER_1D_SHADOW_ARB() {
+        return GL_SAMPLER_1D_SHADOW_ARB;
+    }
+    private static final int GL_SAMPLER_2D_SHADOW_ARB = (int)35682L;
     /**
      * {@snippet lang=c :
-     * typedef __uint32_t __uint_least32_t
+     * #define GL_SAMPLER_2D_SHADOW_ARB 35682
      * }
      */
-    public static final OfInt __uint_least32_t = glfw3_h.C_INT;
+    public static int GL_SAMPLER_2D_SHADOW_ARB() {
+        return GL_SAMPLER_2D_SHADOW_ARB;
+    }
+    private static final int GL_SAMPLER_2D_RECT_ARB = (int)35683L;
     /**
      * {@snippet lang=c :
-     * typedef __int64_t __int_least64_t
+     * #define GL_SAMPLER_2D_RECT_ARB 35683
      * }
      */
-    public static final OfLong __int_least64_t = glfw3_h.C_LONG;
+    public static int GL_SAMPLER_2D_RECT_ARB() {
+        return GL_SAMPLER_2D_RECT_ARB;
+    }
+    private static final int GL_SAMPLER_2D_RECT_SHADOW_ARB = (int)35684L;
     /**
      * {@snippet lang=c :
-     * typedef __uint64_t __uint_least64_t
+     * #define GL_SAMPLER_2D_RECT_SHADOW_ARB 35684
      * }
      */
-    public static final OfLong __uint_least64_t = glfw3_h.C_LONG;
+    public static int GL_SAMPLER_2D_RECT_SHADOW_ARB() {
+        return GL_SAMPLER_2D_RECT_SHADOW_ARB;
+    }
+    private static final int GL_OBJECT_DELETE_STATUS_ARB = (int)35712L;
     /**
      * {@snippet lang=c :
-     * typedef long __quad_t
+     * #define GL_OBJECT_DELETE_STATUS_ARB 35712
      * }
      */
-    public static final OfLong __quad_t = glfw3_h.C_LONG;
+    public static int GL_OBJECT_DELETE_STATUS_ARB() {
+        return GL_OBJECT_DELETE_STATUS_ARB;
+    }
+    private static final int GL_OBJECT_COMPILE_STATUS_ARB = (int)35713L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned long __u_quad_t
+     * #define GL_OBJECT_COMPILE_STATUS_ARB 35713
      * }
      */
-    public static final OfLong __u_quad_t = glfw3_h.C_LONG;
+    public static int GL_OBJECT_COMPILE_STATUS_ARB() {
+        return GL_OBJECT_COMPILE_STATUS_ARB;
+    }
+    private static final int GL_OBJECT_LINK_STATUS_ARB = (int)35714L;
     /**
      * {@snippet lang=c :
-     * typedef long __intmax_t
+     * #define GL_OBJECT_LINK_STATUS_ARB 35714
      * }
      */
-    public static final OfLong __intmax_t = glfw3_h.C_LONG;
+    public static int GL_OBJECT_LINK_STATUS_ARB() {
+        return GL_OBJECT_LINK_STATUS_ARB;
+    }
+    private static final int GL_OBJECT_VALIDATE_STATUS_ARB = (int)35715L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned long __uintmax_t
+     * #define GL_OBJECT_VALIDATE_STATUS_ARB 35715
      * }
      */
-    public static final OfLong __uintmax_t = glfw3_h.C_LONG;
+    public static int GL_OBJECT_VALIDATE_STATUS_ARB() {
+        return GL_OBJECT_VALIDATE_STATUS_ARB;
+    }
+    private static final int GL_OBJECT_INFO_LOG_LENGTH_ARB = (int)35716L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned long __dev_t
+     * #define GL_OBJECT_INFO_LOG_LENGTH_ARB 35716
      * }
      */
-    public static final OfLong __dev_t = glfw3_h.C_LONG;
+    public static int GL_OBJECT_INFO_LOG_LENGTH_ARB() {
+        return GL_OBJECT_INFO_LOG_LENGTH_ARB;
+    }
+    private static final int GL_OBJECT_ATTACHED_OBJECTS_ARB = (int)35717L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned int __uid_t
+     * #define GL_OBJECT_ATTACHED_OBJECTS_ARB 35717
      * }
      */
-    public static final OfInt __uid_t = glfw3_h.C_INT;
+    public static int GL_OBJECT_ATTACHED_OBJECTS_ARB() {
+        return GL_OBJECT_ATTACHED_OBJECTS_ARB;
+    }
+    private static final int GL_OBJECT_ACTIVE_UNIFORMS_ARB = (int)35718L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned int __gid_t
+     * #define GL_OBJECT_ACTIVE_UNIFORMS_ARB 35718
      * }
      */
-    public static final OfInt __gid_t = glfw3_h.C_INT;
+    public static int GL_OBJECT_ACTIVE_UNIFORMS_ARB() {
+        return GL_OBJECT_ACTIVE_UNIFORMS_ARB;
+    }
+    private static final int GL_OBJECT_ACTIVE_UNIFORM_MAX_LENGTH_ARB = (int)35719L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned long __ino_t
+     * #define GL_OBJECT_ACTIVE_UNIFORM_MAX_LENGTH_ARB 35719
      * }
      */
-    public static final OfLong __ino_t = glfw3_h.C_LONG;
+    public static int GL_OBJECT_ACTIVE_UNIFORM_MAX_LENGTH_ARB() {
+        return GL_OBJECT_ACTIVE_UNIFORM_MAX_LENGTH_ARB;
+    }
+    private static final int GL_OBJECT_SHADER_SOURCE_LENGTH_ARB = (int)35720L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned long __ino64_t
+     * #define GL_OBJECT_SHADER_SOURCE_LENGTH_ARB 35720
      * }
      */
-    public static final OfLong __ino64_t = glfw3_h.C_LONG;
+    public static int GL_OBJECT_SHADER_SOURCE_LENGTH_ARB() {
+        return GL_OBJECT_SHADER_SOURCE_LENGTH_ARB;
+    }
+    private static final int GL_ARB_shader_precision = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned int __mode_t
+     * #define GL_ARB_shader_precision 1
      * }
      */
-    public static final OfInt __mode_t = glfw3_h.C_INT;
+    public static int GL_ARB_shader_precision() {
+        return GL_ARB_shader_precision;
+    }
+    private static final int GL_ARB_shader_stencil_export = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned long __nlink_t
+     * #define GL_ARB_shader_stencil_export 1
      * }
      */
-    public static final OfLong __nlink_t = glfw3_h.C_LONG;
+    public static int GL_ARB_shader_stencil_export() {
+        return GL_ARB_shader_stencil_export;
+    }
+    private static final int GL_ARB_shader_storage_buffer_object = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef long __off_t
+     * #define GL_ARB_shader_storage_buffer_object 1
      * }
      */
-    public static final OfLong __off_t = glfw3_h.C_LONG;
+    public static int GL_ARB_shader_storage_buffer_object() {
+        return GL_ARB_shader_storage_buffer_object;
+    }
+    private static final int GL_ARB_shader_subroutine = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef long __off64_t
+     * #define GL_ARB_shader_subroutine 1
      * }
      */
-    public static final OfLong __off64_t = glfw3_h.C_LONG;
+    public static int GL_ARB_shader_subroutine() {
+        return GL_ARB_shader_subroutine;
+    }
+    private static final int GL_ARB_shader_texture_image_samples = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef int __pid_t
+     * #define GL_ARB_shader_texture_image_samples 1
      * }
      */
-    public static final OfInt __pid_t = glfw3_h.C_INT;
+    public static int GL_ARB_shader_texture_image_samples() {
+        return GL_ARB_shader_texture_image_samples;
+    }
+    private static final int GL_ARB_shader_texture_lod = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef long __clock_t
+     * #define GL_ARB_shader_texture_lod 1
      * }
      */
-    public static final OfLong __clock_t = glfw3_h.C_LONG;
+    public static int GL_ARB_shader_texture_lod() {
+        return GL_ARB_shader_texture_lod;
+    }
+    private static final int GL_ARB_shader_viewport_layer_array = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned long __rlim_t
+     * #define GL_ARB_shader_viewport_layer_array 1
      * }
      */
-    public static final OfLong __rlim_t = glfw3_h.C_LONG;
+    public static int GL_ARB_shader_viewport_layer_array() {
+        return GL_ARB_shader_viewport_layer_array;
+    }
+    private static final int GL_ARB_shading_language_100 = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned long __rlim64_t
+     * #define GL_ARB_shading_language_100 1
      * }
      */
-    public static final OfLong __rlim64_t = glfw3_h.C_LONG;
+    public static int GL_ARB_shading_language_100() {
+        return GL_ARB_shading_language_100;
+    }
+    private static final int GL_SHADING_LANGUAGE_VERSION_ARB = (int)35724L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned int __id_t
+     * #define GL_SHADING_LANGUAGE_VERSION_ARB 35724
      * }
      */
-    public static final OfInt __id_t = glfw3_h.C_INT;
+    public static int GL_SHADING_LANGUAGE_VERSION_ARB() {
+        return GL_SHADING_LANGUAGE_VERSION_ARB;
+    }
+    private static final int GL_ARB_shading_language_420pack = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef long __time_t
+     * #define GL_ARB_shading_language_420pack 1
      * }
      */
-    public static final OfLong __time_t = glfw3_h.C_LONG;
+    public static int GL_ARB_shading_language_420pack() {
+        return GL_ARB_shading_language_420pack;
+    }
+    private static final int GL_ARB_shading_language_include = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned int __useconds_t
+     * #define GL_ARB_shading_language_include 1
      * }
      */
-    public static final OfInt __useconds_t = glfw3_h.C_INT;
+    public static int GL_ARB_shading_language_include() {
+        return GL_ARB_shading_language_include;
+    }
+    private static final int GL_SHADER_INCLUDE_ARB = (int)36270L;
     /**
      * {@snippet lang=c :
-     * typedef long __suseconds_t
+     * #define GL_SHADER_INCLUDE_ARB 36270
      * }
      */
-    public static final OfLong __suseconds_t = glfw3_h.C_LONG;
+    public static int GL_SHADER_INCLUDE_ARB() {
+        return GL_SHADER_INCLUDE_ARB;
+    }
+    private static final int GL_NAMED_STRING_LENGTH_ARB = (int)36329L;
     /**
      * {@snippet lang=c :
-     * typedef int __daddr_t
+     * #define GL_NAMED_STRING_LENGTH_ARB 36329
      * }
      */
-    public static final OfInt __daddr_t = glfw3_h.C_INT;
+    public static int GL_NAMED_STRING_LENGTH_ARB() {
+        return GL_NAMED_STRING_LENGTH_ARB;
+    }
+    private static final int GL_NAMED_STRING_TYPE_ARB = (int)36330L;
     /**
      * {@snippet lang=c :
-     * typedef int __key_t
+     * #define GL_NAMED_STRING_TYPE_ARB 36330
      * }
      */
-    public static final OfInt __key_t = glfw3_h.C_INT;
+    public static int GL_NAMED_STRING_TYPE_ARB() {
+        return GL_NAMED_STRING_TYPE_ARB;
+    }
+    private static final int GL_ARB_shading_language_packing = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef int __clockid_t
+     * #define GL_ARB_shading_language_packing 1
      * }
      */
-    public static final OfInt __clockid_t = glfw3_h.C_INT;
+    public static int GL_ARB_shading_language_packing() {
+        return GL_ARB_shading_language_packing;
+    }
+    private static final int GL_ARB_shadow = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef void *__timer_t
+     * #define GL_ARB_shadow 1
      * }
      */
-    public static final AddressLayout __timer_t = glfw3_h.C_POINTER;
+    public static int GL_ARB_shadow() {
+        return GL_ARB_shadow;
+    }
+    private static final int GL_TEXTURE_COMPARE_MODE_ARB = (int)34892L;
     /**
      * {@snippet lang=c :
-     * typedef long __blksize_t
+     * #define GL_TEXTURE_COMPARE_MODE_ARB 34892
      * }
      */
-    public static final OfLong __blksize_t = glfw3_h.C_LONG;
+    public static int GL_TEXTURE_COMPARE_MODE_ARB() {
+        return GL_TEXTURE_COMPARE_MODE_ARB;
+    }
+    private static final int GL_TEXTURE_COMPARE_FUNC_ARB = (int)34893L;
     /**
      * {@snippet lang=c :
-     * typedef long __blkcnt_t
+     * #define GL_TEXTURE_COMPARE_FUNC_ARB 34893
      * }
      */
-    public static final OfLong __blkcnt_t = glfw3_h.C_LONG;
+    public static int GL_TEXTURE_COMPARE_FUNC_ARB() {
+        return GL_TEXTURE_COMPARE_FUNC_ARB;
+    }
+    private static final int GL_COMPARE_R_TO_TEXTURE_ARB = (int)34894L;
     /**
      * {@snippet lang=c :
-     * typedef long __blkcnt64_t
+     * #define GL_COMPARE_R_TO_TEXTURE_ARB 34894
      * }
      */
-    public static final OfLong __blkcnt64_t = glfw3_h.C_LONG;
+    public static int GL_COMPARE_R_TO_TEXTURE_ARB() {
+        return GL_COMPARE_R_TO_TEXTURE_ARB;
+    }
+    private static final int GL_ARB_shadow_ambient = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned long __fsblkcnt_t
+     * #define GL_ARB_shadow_ambient 1
      * }
      */
-    public static final OfLong __fsblkcnt_t = glfw3_h.C_LONG;
+    public static int GL_ARB_shadow_ambient() {
+        return GL_ARB_shadow_ambient;
+    }
+    private static final int GL_TEXTURE_COMPARE_FAIL_VALUE_ARB = (int)32959L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned long __fsblkcnt64_t
+     * #define GL_TEXTURE_COMPARE_FAIL_VALUE_ARB 32959
      * }
      */
-    public static final OfLong __fsblkcnt64_t = glfw3_h.C_LONG;
+    public static int GL_TEXTURE_COMPARE_FAIL_VALUE_ARB() {
+        return GL_TEXTURE_COMPARE_FAIL_VALUE_ARB;
+    }
+    private static final int GL_ARB_sparse_buffer = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned long __fsfilcnt_t
+     * #define GL_ARB_sparse_buffer 1
      * }
      */
-    public static final OfLong __fsfilcnt_t = glfw3_h.C_LONG;
+    public static int GL_ARB_sparse_buffer() {
+        return GL_ARB_sparse_buffer;
+    }
+    private static final int GL_SPARSE_STORAGE_BIT_ARB = (int)1024L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned long __fsfilcnt64_t
+     * #define GL_SPARSE_STORAGE_BIT_ARB 1024
      * }
      */
-    public static final OfLong __fsfilcnt64_t = glfw3_h.C_LONG;
+    public static int GL_SPARSE_STORAGE_BIT_ARB() {
+        return GL_SPARSE_STORAGE_BIT_ARB;
+    }
+    private static final int GL_SPARSE_BUFFER_PAGE_SIZE_ARB = (int)33528L;
     /**
      * {@snippet lang=c :
-     * typedef long __fsword_t
+     * #define GL_SPARSE_BUFFER_PAGE_SIZE_ARB 33528
      * }
      */
-    public static final OfLong __fsword_t = glfw3_h.C_LONG;
+    public static int GL_SPARSE_BUFFER_PAGE_SIZE_ARB() {
+        return GL_SPARSE_BUFFER_PAGE_SIZE_ARB;
+    }
+    private static final int GL_ARB_sparse_texture = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef long __ssize_t
+     * #define GL_ARB_sparse_texture 1
      * }
      */
-    public static final OfLong __ssize_t = glfw3_h.C_LONG;
+    public static int GL_ARB_sparse_texture() {
+        return GL_ARB_sparse_texture;
+    }
+    private static final int GL_TEXTURE_SPARSE_ARB = (int)37286L;
     /**
      * {@snippet lang=c :
-     * typedef long __syscall_slong_t
+     * #define GL_TEXTURE_SPARSE_ARB 37286
      * }
      */
-    public static final OfLong __syscall_slong_t = glfw3_h.C_LONG;
+    public static int GL_TEXTURE_SPARSE_ARB() {
+        return GL_TEXTURE_SPARSE_ARB;
+    }
+    private static final int GL_VIRTUAL_PAGE_SIZE_INDEX_ARB = (int)37287L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned long __syscall_ulong_t
+     * #define GL_VIRTUAL_PAGE_SIZE_INDEX_ARB 37287
      * }
      */
-    public static final OfLong __syscall_ulong_t = glfw3_h.C_LONG;
+    public static int GL_VIRTUAL_PAGE_SIZE_INDEX_ARB() {
+        return GL_VIRTUAL_PAGE_SIZE_INDEX_ARB;
+    }
+    private static final int GL_NUM_SPARSE_LEVELS_ARB = (int)37290L;
     /**
      * {@snippet lang=c :
-     * typedef __off64_t __loff_t
+     * #define GL_NUM_SPARSE_LEVELS_ARB 37290
      * }
      */
-    public static final OfLong __loff_t = glfw3_h.C_LONG;
+    public static int GL_NUM_SPARSE_LEVELS_ARB() {
+        return GL_NUM_SPARSE_LEVELS_ARB;
+    }
+    private static final int GL_NUM_VIRTUAL_PAGE_SIZES_ARB = (int)37288L;
     /**
      * {@snippet lang=c :
-     * typedef char *__caddr_t
+     * #define GL_NUM_VIRTUAL_PAGE_SIZES_ARB 37288
      * }
      */
-    public static final AddressLayout __caddr_t = glfw3_h.C_POINTER;
+    public static int GL_NUM_VIRTUAL_PAGE_SIZES_ARB() {
+        return GL_NUM_VIRTUAL_PAGE_SIZES_ARB;
+    }
+    private static final int GL_VIRTUAL_PAGE_SIZE_X_ARB = (int)37269L;
     /**
      * {@snippet lang=c :
-     * typedef long __intptr_t
+     * #define GL_VIRTUAL_PAGE_SIZE_X_ARB 37269
      * }
      */
-    public static final OfLong __intptr_t = glfw3_h.C_LONG;
+    public static int GL_VIRTUAL_PAGE_SIZE_X_ARB() {
+        return GL_VIRTUAL_PAGE_SIZE_X_ARB;
+    }
+    private static final int GL_VIRTUAL_PAGE_SIZE_Y_ARB = (int)37270L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned int __socklen_t
+     * #define GL_VIRTUAL_PAGE_SIZE_Y_ARB 37270
      * }
      */
-    public static final OfInt __socklen_t = glfw3_h.C_INT;
+    public static int GL_VIRTUAL_PAGE_SIZE_Y_ARB() {
+        return GL_VIRTUAL_PAGE_SIZE_Y_ARB;
+    }
+    private static final int GL_VIRTUAL_PAGE_SIZE_Z_ARB = (int)37271L;
     /**
      * {@snippet lang=c :
-     * typedef int __sig_atomic_t
+     * #define GL_VIRTUAL_PAGE_SIZE_Z_ARB 37271
      * }
      */
-    public static final OfInt __sig_atomic_t = glfw3_h.C_INT;
+    public static int GL_VIRTUAL_PAGE_SIZE_Z_ARB() {
+        return GL_VIRTUAL_PAGE_SIZE_Z_ARB;
+    }
+    private static final int GL_MAX_SPARSE_TEXTURE_SIZE_ARB = (int)37272L;
     /**
      * {@snippet lang=c :
-     * typedef __int8_t int8_t
+     * #define GL_MAX_SPARSE_TEXTURE_SIZE_ARB 37272
      * }
      */
-    public static final OfByte int8_t = glfw3_h.C_CHAR;
+    public static int GL_MAX_SPARSE_TEXTURE_SIZE_ARB() {
+        return GL_MAX_SPARSE_TEXTURE_SIZE_ARB;
+    }
+    private static final int GL_MAX_SPARSE_3D_TEXTURE_SIZE_ARB = (int)37273L;
     /**
      * {@snippet lang=c :
-     * typedef __int16_t int16_t
+     * #define GL_MAX_SPARSE_3D_TEXTURE_SIZE_ARB 37273
      * }
      */
-    public static final OfShort int16_t = glfw3_h.C_SHORT;
+    public static int GL_MAX_SPARSE_3D_TEXTURE_SIZE_ARB() {
+        return GL_MAX_SPARSE_3D_TEXTURE_SIZE_ARB;
+    }
+    private static final int GL_MAX_SPARSE_ARRAY_TEXTURE_LAYERS_ARB = (int)37274L;
     /**
      * {@snippet lang=c :
-     * typedef __int32_t int32_t
+     * #define GL_MAX_SPARSE_ARRAY_TEXTURE_LAYERS_ARB 37274
      * }
      */
-    public static final OfInt int32_t = glfw3_h.C_INT;
+    public static int GL_MAX_SPARSE_ARRAY_TEXTURE_LAYERS_ARB() {
+        return GL_MAX_SPARSE_ARRAY_TEXTURE_LAYERS_ARB;
+    }
+    private static final int GL_SPARSE_TEXTURE_FULL_ARRAY_CUBE_MIPMAPS_ARB = (int)37289L;
     /**
      * {@snippet lang=c :
-     * typedef __int64_t int64_t
+     * #define GL_SPARSE_TEXTURE_FULL_ARRAY_CUBE_MIPMAPS_ARB 37289
      * }
      */
-    public static final OfLong int64_t = glfw3_h.C_LONG;
+    public static int GL_SPARSE_TEXTURE_FULL_ARRAY_CUBE_MIPMAPS_ARB() {
+        return GL_SPARSE_TEXTURE_FULL_ARRAY_CUBE_MIPMAPS_ARB;
+    }
+    private static final int GL_ARB_sparse_texture2 = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef __uint8_t uint8_t
+     * #define GL_ARB_sparse_texture2 1
      * }
      */
-    public static final OfByte uint8_t = glfw3_h.C_CHAR;
+    public static int GL_ARB_sparse_texture2() {
+        return GL_ARB_sparse_texture2;
+    }
+    private static final int GL_ARB_sparse_texture_clamp = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef __uint16_t uint16_t
+     * #define GL_ARB_sparse_texture_clamp 1
      * }
      */
-    public static final OfShort uint16_t = glfw3_h.C_SHORT;
+    public static int GL_ARB_sparse_texture_clamp() {
+        return GL_ARB_sparse_texture_clamp;
+    }
+    private static final int GL_ARB_spirv_extensions = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef __uint32_t uint32_t
+     * #define GL_ARB_spirv_extensions 1
      * }
      */
-    public static final OfInt uint32_t = glfw3_h.C_INT;
+    public static int GL_ARB_spirv_extensions() {
+        return GL_ARB_spirv_extensions;
+    }
+    private static final int GL_ARB_stencil_texturing = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef __uint64_t uint64_t
+     * #define GL_ARB_stencil_texturing 1
      * }
      */
-    public static final OfLong uint64_t = glfw3_h.C_LONG;
+    public static int GL_ARB_stencil_texturing() {
+        return GL_ARB_stencil_texturing;
+    }
+    private static final int GL_ARB_sync = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef __int_least8_t int_least8_t
+     * #define GL_ARB_sync 1
      * }
      */
-    public static final OfByte int_least8_t = glfw3_h.C_CHAR;
+    public static int GL_ARB_sync() {
+        return GL_ARB_sync;
+    }
+    private static final int GL_ARB_tessellation_shader = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef __int_least16_t int_least16_t
+     * #define GL_ARB_tessellation_shader 1
      * }
      */
-    public static final OfShort int_least16_t = glfw3_h.C_SHORT;
+    public static int GL_ARB_tessellation_shader() {
+        return GL_ARB_tessellation_shader;
+    }
+    private static final int GL_ARB_texture_barrier = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef __int_least32_t int_least32_t
+     * #define GL_ARB_texture_barrier 1
      * }
      */
-    public static final OfInt int_least32_t = glfw3_h.C_INT;
+    public static int GL_ARB_texture_barrier() {
+        return GL_ARB_texture_barrier;
+    }
+    private static final int GL_ARB_texture_border_clamp = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef __int_least64_t int_least64_t
+     * #define GL_ARB_texture_border_clamp 1
      * }
      */
-    public static final OfLong int_least64_t = glfw3_h.C_LONG;
+    public static int GL_ARB_texture_border_clamp() {
+        return GL_ARB_texture_border_clamp;
+    }
+    private static final int GL_CLAMP_TO_BORDER_ARB = (int)33069L;
     /**
      * {@snippet lang=c :
-     * typedef __uint_least8_t uint_least8_t
+     * #define GL_CLAMP_TO_BORDER_ARB 33069
      * }
      */
-    public static final OfByte uint_least8_t = glfw3_h.C_CHAR;
+    public static int GL_CLAMP_TO_BORDER_ARB() {
+        return GL_CLAMP_TO_BORDER_ARB;
+    }
+    private static final int GL_ARB_texture_buffer_object = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef __uint_least16_t uint_least16_t
+     * #define GL_ARB_texture_buffer_object 1
      * }
      */
-    public static final OfShort uint_least16_t = glfw3_h.C_SHORT;
+    public static int GL_ARB_texture_buffer_object() {
+        return GL_ARB_texture_buffer_object;
+    }
+    private static final int GL_TEXTURE_BUFFER_ARB = (int)35882L;
     /**
      * {@snippet lang=c :
-     * typedef __uint_least32_t uint_least32_t
+     * #define GL_TEXTURE_BUFFER_ARB 35882
      * }
      */
-    public static final OfInt uint_least32_t = glfw3_h.C_INT;
+    public static int GL_TEXTURE_BUFFER_ARB() {
+        return GL_TEXTURE_BUFFER_ARB;
+    }
+    private static final int GL_MAX_TEXTURE_BUFFER_SIZE_ARB = (int)35883L;
     /**
      * {@snippet lang=c :
-     * typedef __uint_least64_t uint_least64_t
+     * #define GL_MAX_TEXTURE_BUFFER_SIZE_ARB 35883
      * }
      */
-    public static final OfLong uint_least64_t = glfw3_h.C_LONG;
+    public static int GL_MAX_TEXTURE_BUFFER_SIZE_ARB() {
+        return GL_MAX_TEXTURE_BUFFER_SIZE_ARB;
+    }
+    private static final int GL_TEXTURE_BINDING_BUFFER_ARB = (int)35884L;
     /**
      * {@snippet lang=c :
-     * typedef signed char int_fast8_t
+     * #define GL_TEXTURE_BINDING_BUFFER_ARB 35884
      * }
      */
-    public static final OfByte int_fast8_t = glfw3_h.C_CHAR;
+    public static int GL_TEXTURE_BINDING_BUFFER_ARB() {
+        return GL_TEXTURE_BINDING_BUFFER_ARB;
+    }
+    private static final int GL_TEXTURE_BUFFER_DATA_STORE_BINDING_ARB = (int)35885L;
     /**
      * {@snippet lang=c :
-     * typedef long int_fast16_t
+     * #define GL_TEXTURE_BUFFER_DATA_STORE_BINDING_ARB 35885
      * }
      */
-    public static final OfLong int_fast16_t = glfw3_h.C_LONG;
+    public static int GL_TEXTURE_BUFFER_DATA_STORE_BINDING_ARB() {
+        return GL_TEXTURE_BUFFER_DATA_STORE_BINDING_ARB;
+    }
+    private static final int GL_TEXTURE_BUFFER_FORMAT_ARB = (int)35886L;
     /**
      * {@snippet lang=c :
-     * typedef long int_fast32_t
+     * #define GL_TEXTURE_BUFFER_FORMAT_ARB 35886
      * }
      */
-    public static final OfLong int_fast32_t = glfw3_h.C_LONG;
+    public static int GL_TEXTURE_BUFFER_FORMAT_ARB() {
+        return GL_TEXTURE_BUFFER_FORMAT_ARB;
+    }
+    private static final int GL_ARB_texture_buffer_object_rgb32 = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef long int_fast64_t
+     * #define GL_ARB_texture_buffer_object_rgb32 1
      * }
      */
-    public static final OfLong int_fast64_t = glfw3_h.C_LONG;
+    public static int GL_ARB_texture_buffer_object_rgb32() {
+        return GL_ARB_texture_buffer_object_rgb32;
+    }
+    private static final int GL_ARB_texture_buffer_range = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned char uint_fast8_t
+     * #define GL_ARB_texture_buffer_range 1
      * }
      */
-    public static final OfByte uint_fast8_t = glfw3_h.C_CHAR;
+    public static int GL_ARB_texture_buffer_range() {
+        return GL_ARB_texture_buffer_range;
+    }
+    private static final int GL_ARB_texture_compression = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned long uint_fast16_t
+     * #define GL_ARB_texture_compression 1
      * }
      */
-    public static final OfLong uint_fast16_t = glfw3_h.C_LONG;
+    public static int GL_ARB_texture_compression() {
+        return GL_ARB_texture_compression;
+    }
+    private static final int GL_COMPRESSED_ALPHA_ARB = (int)34025L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned long uint_fast32_t
+     * #define GL_COMPRESSED_ALPHA_ARB 34025
      * }
      */
-    public static final OfLong uint_fast32_t = glfw3_h.C_LONG;
+    public static int GL_COMPRESSED_ALPHA_ARB() {
+        return GL_COMPRESSED_ALPHA_ARB;
+    }
+    private static final int GL_COMPRESSED_LUMINANCE_ARB = (int)34026L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned long uint_fast64_t
+     * #define GL_COMPRESSED_LUMINANCE_ARB 34026
      * }
      */
-    public static final OfLong uint_fast64_t = glfw3_h.C_LONG;
+    public static int GL_COMPRESSED_LUMINANCE_ARB() {
+        return GL_COMPRESSED_LUMINANCE_ARB;
+    }
+    private static final int GL_COMPRESSED_LUMINANCE_ALPHA_ARB = (int)34027L;
     /**
      * {@snippet lang=c :
-     * typedef long intptr_t
+     * #define GL_COMPRESSED_LUMINANCE_ALPHA_ARB 34027
      * }
      */
-    public static final OfLong intptr_t = glfw3_h.C_LONG;
+    public static int GL_COMPRESSED_LUMINANCE_ALPHA_ARB() {
+        return GL_COMPRESSED_LUMINANCE_ALPHA_ARB;
+    }
+    private static final int GL_COMPRESSED_INTENSITY_ARB = (int)34028L;
     /**
      * {@snippet lang=c :
-     * typedef unsigned long uintptr_t
+     * #define GL_COMPRESSED_INTENSITY_ARB 34028
      * }
      */
-    public static final OfLong uintptr_t = glfw3_h.C_LONG;
+    public static int GL_COMPRESSED_INTENSITY_ARB() {
+        return GL_COMPRESSED_INTENSITY_ARB;
+    }
+    private static final int GL_COMPRESSED_RGB_ARB = (int)34029L;
     /**
      * {@snippet lang=c :
-     * typedef __intmax_t intmax_t
+     * #define GL_COMPRESSED_RGB_ARB 34029
      * }
      */
-    public static final OfLong intmax_t = glfw3_h.C_LONG;
+    public static int GL_COMPRESSED_RGB_ARB() {
+        return GL_COMPRESSED_RGB_ARB;
+    }
+    private static final int GL_COMPRESSED_RGBA_ARB = (int)34030L;
     /**
      * {@snippet lang=c :
-     * typedef __uintmax_t uintmax_t
+     * #define GL_COMPRESSED_RGBA_ARB 34030
      * }
      */
-    public static final OfLong uintmax_t = glfw3_h.C_LONG;
+    public static int GL_COMPRESSED_RGBA_ARB() {
+        return GL_COMPRESSED_RGBA_ARB;
+    }
+    private static final int GL_TEXTURE_COMPRESSION_HINT_ARB = (int)34031L;
     /**
      * {@snippet lang=c :
-     * typedef uint32_t VkFlags
+     * #define GL_TEXTURE_COMPRESSION_HINT_ARB 34031
      * }
      */
-    public static final OfInt VkFlags = glfw3_h.C_INT;
+    public static int GL_TEXTURE_COMPRESSION_HINT_ARB() {
+        return GL_TEXTURE_COMPRESSION_HINT_ARB;
+    }
+    private static final int GL_TEXTURE_COMPRESSED_IMAGE_SIZE_ARB = (int)34464L;
     /**
      * {@snippet lang=c :
-     * typedef uint32_t VkBool32
+     * #define GL_TEXTURE_COMPRESSED_IMAGE_SIZE_ARB 34464
      * }
      */
-    public static final OfInt VkBool32 = glfw3_h.C_INT;
+    public static int GL_TEXTURE_COMPRESSED_IMAGE_SIZE_ARB() {
+        return GL_TEXTURE_COMPRESSED_IMAGE_SIZE_ARB;
+    }
+    private static final int GL_TEXTURE_COMPRESSED_ARB = (int)34465L;
     /**
      * {@snippet lang=c :
-     * typedef uint64_t VkDeviceSize
+     * #define GL_TEXTURE_COMPRESSED_ARB 34465
      * }
      */
-    public static final OfLong VkDeviceSize = glfw3_h.C_LONG;
+    public static int GL_TEXTURE_COMPRESSED_ARB() {
+        return GL_TEXTURE_COMPRESSED_ARB;
+    }
+    private static final int GL_NUM_COMPRESSED_TEXTURE_FORMATS_ARB = (int)34466L;
     /**
      * {@snippet lang=c :
-     * typedef uint32_t VkSampleMask
+     * #define GL_NUM_COMPRESSED_TEXTURE_FORMATS_ARB 34466
      * }
      */
-    public static final OfInt VkSampleMask = glfw3_h.C_INT;
+    public static int GL_NUM_COMPRESSED_TEXTURE_FORMATS_ARB() {
+        return GL_NUM_COMPRESSED_TEXTURE_FORMATS_ARB;
+    }
+    private static final int GL_COMPRESSED_TEXTURE_FORMATS_ARB = (int)34467L;
     /**
      * {@snippet lang=c :
-     * typedef struct VkInstance_T *VkInstance
+     * #define GL_COMPRESSED_TEXTURE_FORMATS_ARB 34467
      * }
      */
-    public static final AddressLayout VkInstance = glfw3_h.C_POINTER;
+    public static int GL_COMPRESSED_TEXTURE_FORMATS_ARB() {
+        return GL_COMPRESSED_TEXTURE_FORMATS_ARB;
+    }
+    private static final int GL_ARB_texture_compression_bptc = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef struct VkPhysicalDevice_T *VkPhysicalDevice
+     * #define GL_ARB_texture_compression_bptc 1
      * }
      */
-    public static final AddressLayout VkPhysicalDevice = glfw3_h.C_POINTER;
+    public static int GL_ARB_texture_compression_bptc() {
+        return GL_ARB_texture_compression_bptc;
+    }
+    private static final int GL_COMPRESSED_RGBA_BPTC_UNORM_ARB = (int)36492L;
     /**
      * {@snippet lang=c :
-     * typedef struct VkDevice_T *VkDevice
+     * #define GL_COMPRESSED_RGBA_BPTC_UNORM_ARB 36492
      * }
      */
-    public static final AddressLayout VkDevice = glfw3_h.C_POINTER;
+    public static int GL_COMPRESSED_RGBA_BPTC_UNORM_ARB() {
+        return GL_COMPRESSED_RGBA_BPTC_UNORM_ARB;
+    }
+    private static final int GL_COMPRESSED_SRGB_ALPHA_BPTC_UNORM_ARB = (int)36493L;
     /**
      * {@snippet lang=c :
-     * typedef struct VkQueue_T *VkQueue
+     * #define GL_COMPRESSED_SRGB_ALPHA_BPTC_UNORM_ARB 36493
      * }
      */
-    public static final AddressLayout VkQueue = glfw3_h.C_POINTER;
+    public static int GL_COMPRESSED_SRGB_ALPHA_BPTC_UNORM_ARB() {
+        return GL_COMPRESSED_SRGB_ALPHA_BPTC_UNORM_ARB;
+    }
+    private static final int GL_COMPRESSED_RGB_BPTC_SIGNED_FLOAT_ARB = (int)36494L;
     /**
      * {@snippet lang=c :
-     * typedef struct VkSemaphore_T *VkSemaphore
+     * #define GL_COMPRESSED_RGB_BPTC_SIGNED_FLOAT_ARB 36494
      * }
      */
-    public static final AddressLayout VkSemaphore = glfw3_h.C_POINTER;
+    public static int GL_COMPRESSED_RGB_BPTC_SIGNED_FLOAT_ARB() {
+        return GL_COMPRESSED_RGB_BPTC_SIGNED_FLOAT_ARB;
+    }
+    private static final int GL_COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT_ARB = (int)36495L;
     /**
      * {@snippet lang=c :
-     * typedef struct VkCommandBuffer_T *VkCommandBuffer
+     * #define GL_COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT_ARB 36495
      * }
      */
-    public static final AddressLayout VkCommandBuffer = glfw3_h.C_POINTER;
+    public static int GL_COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT_ARB() {
+        return GL_COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT_ARB;
+    }
+    private static final int GL_ARB_texture_compression_rgtc = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef struct VkFence_T *VkFence
+     * #define GL_ARB_texture_compression_rgtc 1
      * }
      */
-    public static final AddressLayout VkFence = glfw3_h.C_POINTER;
+    public static int GL_ARB_texture_compression_rgtc() {
+        return GL_ARB_texture_compression_rgtc;
+    }
+    private static final int GL_ARB_texture_cube_map = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef struct VkDeviceMemory_T *VkDeviceMemory
+     * #define GL_ARB_texture_cube_map 1
      * }
      */
-    public static final AddressLayout VkDeviceMemory = glfw3_h.C_POINTER;
+    public static int GL_ARB_texture_cube_map() {
+        return GL_ARB_texture_cube_map;
+    }
+    private static final int GL_NORMAL_MAP_ARB = (int)34065L;
     /**
      * {@snippet lang=c :
-     * typedef struct VkBuffer_T *VkBuffer
+     * #define GL_NORMAL_MAP_ARB 34065
      * }
      */
-    public static final AddressLayout VkBuffer = glfw3_h.C_POINTER;
+    public static int GL_NORMAL_MAP_ARB() {
+        return GL_NORMAL_MAP_ARB;
+    }
+    private static final int GL_REFLECTION_MAP_ARB = (int)34066L;
     /**
      * {@snippet lang=c :
-     * typedef struct VkImage_T *VkImage
+     * #define GL_REFLECTION_MAP_ARB 34066
      * }
      */
-    public static final AddressLayout VkImage = glfw3_h.C_POINTER;
+    public static int GL_REFLECTION_MAP_ARB() {
+        return GL_REFLECTION_MAP_ARB;
+    }
+    private static final int GL_TEXTURE_CUBE_MAP_ARB = (int)34067L;
     /**
      * {@snippet lang=c :
-     * typedef struct VkEvent_T *VkEvent
+     * #define GL_TEXTURE_CUBE_MAP_ARB 34067
      * }
      */
-    public static final AddressLayout VkEvent = glfw3_h.C_POINTER;
+    public static int GL_TEXTURE_CUBE_MAP_ARB() {
+        return GL_TEXTURE_CUBE_MAP_ARB;
+    }
+    private static final int GL_TEXTURE_BINDING_CUBE_MAP_ARB = (int)34068L;
     /**
      * {@snippet lang=c :
-     * typedef struct VkQueryPool_T *VkQueryPool
+     * #define GL_TEXTURE_BINDING_CUBE_MAP_ARB 34068
      * }
      */
-    public static final AddressLayout VkQueryPool = glfw3_h.C_POINTER;
+    public static int GL_TEXTURE_BINDING_CUBE_MAP_ARB() {
+        return GL_TEXTURE_BINDING_CUBE_MAP_ARB;
+    }
+    private static final int GL_TEXTURE_CUBE_MAP_POSITIVE_X_ARB = (int)34069L;
     /**
      * {@snippet lang=c :
-     * typedef struct VkBufferView_T *VkBufferView
+     * #define GL_TEXTURE_CUBE_MAP_POSITIVE_X_ARB 34069
      * }
      */
-    public static final AddressLayout VkBufferView = glfw3_h.C_POINTER;
+    public static int GL_TEXTURE_CUBE_MAP_POSITIVE_X_ARB() {
+        return GL_TEXTURE_CUBE_MAP_POSITIVE_X_ARB;
+    }
+    private static final int GL_TEXTURE_CUBE_MAP_NEGATIVE_X_ARB = (int)34070L;
     /**
      * {@snippet lang=c :
-     * typedef struct VkImageView_T *VkImageView
+     * #define GL_TEXTURE_CUBE_MAP_NEGATIVE_X_ARB 34070
      * }
      */
-    public static final AddressLayout VkImageView = glfw3_h.C_POINTER;
+    public static int GL_TEXTURE_CUBE_MAP_NEGATIVE_X_ARB() {
+        return GL_TEXTURE_CUBE_MAP_NEGATIVE_X_ARB;
+    }
+    private static final int GL_TEXTURE_CUBE_MAP_POSITIVE_Y_ARB = (int)34071L;
     /**
      * {@snippet lang=c :
-     * typedef struct VkShaderModule_T *VkShaderModule
+     * #define GL_TEXTURE_CUBE_MAP_POSITIVE_Y_ARB 34071
      * }
      */
-    public static final AddressLayout VkShaderModule = glfw3_h.C_POINTER;
+    public static int GL_TEXTURE_CUBE_MAP_POSITIVE_Y_ARB() {
+        return GL_TEXTURE_CUBE_MAP_POSITIVE_Y_ARB;
+    }
+    private static final int GL_TEXTURE_CUBE_MAP_NEGATIVE_Y_ARB = (int)34072L;
     /**
      * {@snippet lang=c :
-     * typedef struct VkPipelineCache_T *VkPipelineCache
+     * #define GL_TEXTURE_CUBE_MAP_NEGATIVE_Y_ARB 34072
      * }
      */
-    public static final AddressLayout VkPipelineCache = glfw3_h.C_POINTER;
+    public static int GL_TEXTURE_CUBE_MAP_NEGATIVE_Y_ARB() {
+        return GL_TEXTURE_CUBE_MAP_NEGATIVE_Y_ARB;
+    }
+    private static final int GL_TEXTURE_CUBE_MAP_POSITIVE_Z_ARB = (int)34073L;
     /**
      * {@snippet lang=c :
-     * typedef struct VkPipelineLayout_T *VkPipelineLayout
+     * #define GL_TEXTURE_CUBE_MAP_POSITIVE_Z_ARB 34073
      * }
      */
-    public static final AddressLayout VkPipelineLayout = glfw3_h.C_POINTER;
+    public static int GL_TEXTURE_CUBE_MAP_POSITIVE_Z_ARB() {
+        return GL_TEXTURE_CUBE_MAP_POSITIVE_Z_ARB;
+    }
+    private static final int GL_TEXTURE_CUBE_MAP_NEGATIVE_Z_ARB = (int)34074L;
     /**
      * {@snippet lang=c :
-     * typedef struct VkRenderPass_T *VkRenderPass
+     * #define GL_TEXTURE_CUBE_MAP_NEGATIVE_Z_ARB 34074
      * }
      */
-    public static final AddressLayout VkRenderPass = glfw3_h.C_POINTER;
+    public static int GL_TEXTURE_CUBE_MAP_NEGATIVE_Z_ARB() {
+        return GL_TEXTURE_CUBE_MAP_NEGATIVE_Z_ARB;
+    }
+    private static final int GL_PROXY_TEXTURE_CUBE_MAP_ARB = (int)34075L;
     /**
      * {@snippet lang=c :
-     * typedef struct VkPipeline_T *VkPipeline
+     * #define GL_PROXY_TEXTURE_CUBE_MAP_ARB 34075
      * }
      */
-    public static final AddressLayout VkPipeline = glfw3_h.C_POINTER;
+    public static int GL_PROXY_TEXTURE_CUBE_MAP_ARB() {
+        return GL_PROXY_TEXTURE_CUBE_MAP_ARB;
+    }
+    private static final int GL_MAX_CUBE_MAP_TEXTURE_SIZE_ARB = (int)34076L;
     /**
      * {@snippet lang=c :
-     * typedef struct VkDescriptorSetLayout_T *VkDescriptorSetLayout
+     * #define GL_MAX_CUBE_MAP_TEXTURE_SIZE_ARB 34076
      * }
      */
-    public static final AddressLayout VkDescriptorSetLayout = glfw3_h.C_POINTER;
+    public static int GL_MAX_CUBE_MAP_TEXTURE_SIZE_ARB() {
+        return GL_MAX_CUBE_MAP_TEXTURE_SIZE_ARB;
+    }
+    private static final int GL_ARB_texture_cube_map_array = (int)1L;
     /**
      * {@snippet lang=c :
-     * typedef struct VkSampler_T *VkSampler
+     * #define GL_ARB_texture_cube_map_array 1
      * }
      */
-    public static final AddressLayout VkSampler = glfw3_h.C_POINTER;
+    public static int GL_ARB_texture_cube_map_array() {
+        return GL_ARB_texture_cube_map_array;
+    }
+    private static final int GL_TEXTURE_CUBE_MAP_ARRAY_ARB = (int)36873L;
     /**
      * {@snippet lang=c :
-     * typedef struct VkDescriptorPool_T *VkDescriptorPool
+     * #define GL_TEXTURE_CUBE_MAP_ARRAY_ARB 36873
      * }
      */
-    public static final AddressLayout VkDescriptorPool = glfw3_h.C_POINTER;
+    public static int GL_TEXTURE_CUBE_MAP_ARRAY_ARB() {
+        return GL_TEXTURE_CUBE_MAP_ARRAY_ARB;
+    }
+    private static final int GL_TEXTURE_BINDING_CUBE_MAP_ARRAY_ARB = (int)36874L;
     /**
      * {@snippet lang=c :
-     * typedef struct VkDescriptorSet_T *VkDescriptorSet
+     * #define GL_TEXTURE_BINDING_CUBE_MAP_ARRAY_ARB 36874
      * }
      */
-    public static final AddressLayout VkDescriptorSet = glfw3_h.C_POINTER;
+    public static int GL_TEXTURE_BINDING_CUBE_MAP_ARRAY_ARB() {
+        return GL_TEXTURE_BINDING_CUBE_MAP_ARRAY_ARB;
+    }
+    private static final int GL_PROXY_TEXTURE_CUBE_MAP_ARRAY_ARB = (int)36875L;
     /**
      * {@snippet lang=c :
-     * typedef struct VkFramebuffer_T *VkFramebuffer
+     * #define GL_PROXY_TEXTURE_CUBE_MAP_ARRAY_ARB 36875
      * }
      */
-    public static final AddressLayout VkFramebuffer = glfw3_h.C_POINTER;
+    public static int GL_PROXY_TEXTURE_CUBE_MAP_ARRAY_ARB() {
+        return GL_PROXY_TEXTURE_CUBE_MAP_ARRAY_ARB;
+    }
+    private static final int GL_SAMPLER_CUBE_MAP_ARRAY_ARB = (int)36876L;
     /**
      * {@snippet lang=c :
-     * typedef struct VkCommandPool_T *VkCommandPool
+     * #define GL_SAMPLER_CUBE_MAP_ARRAY_ARB 36876
      * }
      */
-    public static final AddressLayout VkCommandPool = glfw3_h.C_POINTER;
-    private static final int VK_PIPELINE_CACHE_HEADER_VERSION_ONE = (int)1L;
+    public static int GL_SAMPLER_CUBE_MAP_ARRAY_ARB() {
+        return GL_SAMPLER_CUBE_MAP_ARRAY_ARB;
+    }
+    private static final int GL_SAMPLER_CUBE_MAP_ARRAY_SHADOW_ARB = (int)36877L;
     /**
      * {@snippet lang=c :
-     * enum VkPipelineCacheHeaderVersion.VK_PIPELINE_CACHE_HEADER_VERSION_ONE = 1
+     * #define GL_SAMPLER_CUBE_MAP_ARRAY_SHADOW_ARB 36877
      * }
      */
-    public static int VK_PIPELINE_CACHE_HEADER_VERSION_ONE() {
-        return VK_PIPELINE_CACHE_HEADER_VERSION_ONE;
+    public static int GL_SAMPLER_CUBE_MAP_ARRAY_SHADOW_ARB() {
+        return GL_SAMPLER_CUBE_MAP_ARRAY_SHADOW_ARB;
     }
-    private static final int VK_PIPELINE_CACHE_HEADER_VERSION_BEGIN_RANGE = (int)1L;
+    private static final int GL_INT_SAMPLER_CUBE_MAP_ARRAY_ARB = (int)36878L;
     /**
      * {@snippet lang=c :
-     * enum VkPipelineCacheHeaderVersion.VK_PIPELINE_CACHE_HEADER_VERSION_BEGIN_RANGE = 1
+     * #define GL_INT_SAMPLER_CUBE_MAP_ARRAY_ARB 36878
      * }
      */
-    public static int VK_PIPELINE_CACHE_HEADER_VERSION_BEGIN_RANGE() {
-        return VK_PIPELINE_CACHE_HEADER_VERSION_BEGIN_RANGE;
+    public static int GL_INT_SAMPLER_CUBE_MAP_ARRAY_ARB() {
+        return GL_INT_SAMPLER_CUBE_MAP_ARRAY_ARB;
     }
-    private static final int VK_PIPELINE_CACHE_HEADER_VERSION_END_RANGE = (int)1L;
+    private static final int GL_UNSIGNED_INT_SAMPLER_CUBE_MAP_ARRAY_ARB = (int)36879L;
     /**
      * {@snippet lang=c :
-     * enum VkPipelineCacheHeaderVersion.VK_PIPELINE_CACHE_HEADER_VERSION_END_RANGE = 1
+     * #define GL_UNSIGNED_INT_SAMPLER_CUBE_MAP_ARRAY_ARB 36879
      * }
      */
-    public static int VK_PIPELINE_CACHE_HEADER_VERSION_END_RANGE() {
-        return VK_PIPELINE_CACHE_HEADER_VERSION_END_RANGE;
+    public static int GL_UNSIGNED_INT_SAMPLER_CUBE_MAP_ARRAY_ARB() {
+        return GL_UNSIGNED_INT_SAMPLER_CUBE_MAP_ARRAY_ARB;
     }
-    private static final int VK_PIPELINE_CACHE_HEADER_VERSION_RANGE_SIZE = (int)1L;
+    private static final int GL_ARB_texture_env_add = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkPipelineCacheHeaderVersion.VK_PIPELINE_CACHE_HEADER_VERSION_RANGE_SIZE = 1
+     * #define GL_ARB_texture_env_add 1
      * }
      */
-    public static int VK_PIPELINE_CACHE_HEADER_VERSION_RANGE_SIZE() {
-        return VK_PIPELINE_CACHE_HEADER_VERSION_RANGE_SIZE;
+    public static int GL_ARB_texture_env_add() {
+        return GL_ARB_texture_env_add;
     }
-    private static final int VK_PIPELINE_CACHE_HEADER_VERSION_MAX_ENUM = (int)2147483647L;
+    private static final int GL_ARB_texture_env_combine = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkPipelineCacheHeaderVersion.VK_PIPELINE_CACHE_HEADER_VERSION_MAX_ENUM = 2147483647
+     * #define GL_ARB_texture_env_combine 1
      * }
      */
-    public static int VK_PIPELINE_CACHE_HEADER_VERSION_MAX_ENUM() {
-        return VK_PIPELINE_CACHE_HEADER_VERSION_MAX_ENUM;
+    public static int GL_ARB_texture_env_combine() {
+        return GL_ARB_texture_env_combine;
     }
-    private static final int VK_SUCCESS = (int)0L;
+    private static final int GL_COMBINE_ARB = (int)34160L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_SUCCESS = 0
+     * #define GL_COMBINE_ARB 34160
      * }
      */
-    public static int VK_SUCCESS() {
-        return VK_SUCCESS;
+    public static int GL_COMBINE_ARB() {
+        return GL_COMBINE_ARB;
     }
-    private static final int VK_NOT_READY = (int)1L;
+    private static final int GL_COMBINE_RGB_ARB = (int)34161L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_NOT_READY = 1
+     * #define GL_COMBINE_RGB_ARB 34161
      * }
      */
-    public static int VK_NOT_READY() {
-        return VK_NOT_READY;
+    public static int GL_COMBINE_RGB_ARB() {
+        return GL_COMBINE_RGB_ARB;
     }
-    private static final int VK_TIMEOUT = (int)2L;
+    private static final int GL_COMBINE_ALPHA_ARB = (int)34162L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_TIMEOUT = 2
+     * #define GL_COMBINE_ALPHA_ARB 34162
      * }
      */
-    public static int VK_TIMEOUT() {
-        return VK_TIMEOUT;
+    public static int GL_COMBINE_ALPHA_ARB() {
+        return GL_COMBINE_ALPHA_ARB;
     }
-    private static final int VK_EVENT_SET = (int)3L;
+    private static final int GL_SOURCE0_RGB_ARB = (int)34176L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_EVENT_SET = 3
+     * #define GL_SOURCE0_RGB_ARB 34176
      * }
      */
-    public static int VK_EVENT_SET() {
-        return VK_EVENT_SET;
+    public static int GL_SOURCE0_RGB_ARB() {
+        return GL_SOURCE0_RGB_ARB;
     }
-    private static final int VK_EVENT_RESET = (int)4L;
+    private static final int GL_SOURCE1_RGB_ARB = (int)34177L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_EVENT_RESET = 4
+     * #define GL_SOURCE1_RGB_ARB 34177
      * }
      */
-    public static int VK_EVENT_RESET() {
-        return VK_EVENT_RESET;
+    public static int GL_SOURCE1_RGB_ARB() {
+        return GL_SOURCE1_RGB_ARB;
     }
-    private static final int VK_INCOMPLETE = (int)5L;
+    private static final int GL_SOURCE2_RGB_ARB = (int)34178L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_INCOMPLETE = 5
+     * #define GL_SOURCE2_RGB_ARB 34178
      * }
      */
-    public static int VK_INCOMPLETE() {
-        return VK_INCOMPLETE;
+    public static int GL_SOURCE2_RGB_ARB() {
+        return GL_SOURCE2_RGB_ARB;
     }
-    private static final int VK_ERROR_OUT_OF_HOST_MEMORY = (int)-1L;
+    private static final int GL_SOURCE0_ALPHA_ARB = (int)34184L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_OUT_OF_HOST_MEMORY = -1
+     * #define GL_SOURCE0_ALPHA_ARB 34184
      * }
      */
-    public static int VK_ERROR_OUT_OF_HOST_MEMORY() {
-        return VK_ERROR_OUT_OF_HOST_MEMORY;
+    public static int GL_SOURCE0_ALPHA_ARB() {
+        return GL_SOURCE0_ALPHA_ARB;
     }
-    private static final int VK_ERROR_OUT_OF_DEVICE_MEMORY = (int)-2L;
+    private static final int GL_SOURCE1_ALPHA_ARB = (int)34185L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_OUT_OF_DEVICE_MEMORY = -2
+     * #define GL_SOURCE1_ALPHA_ARB 34185
      * }
      */
-    public static int VK_ERROR_OUT_OF_DEVICE_MEMORY() {
-        return VK_ERROR_OUT_OF_DEVICE_MEMORY;
+    public static int GL_SOURCE1_ALPHA_ARB() {
+        return GL_SOURCE1_ALPHA_ARB;
     }
-    private static final int VK_ERROR_INITIALIZATION_FAILED = (int)-3L;
+    private static final int GL_SOURCE2_ALPHA_ARB = (int)34186L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_INITIALIZATION_FAILED = -3
+     * #define GL_SOURCE2_ALPHA_ARB 34186
      * }
      */
-    public static int VK_ERROR_INITIALIZATION_FAILED() {
-        return VK_ERROR_INITIALIZATION_FAILED;
+    public static int GL_SOURCE2_ALPHA_ARB() {
+        return GL_SOURCE2_ALPHA_ARB;
     }
-    private static final int VK_ERROR_DEVICE_LOST = (int)-4L;
+    private static final int GL_OPERAND0_RGB_ARB = (int)34192L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_DEVICE_LOST = -4
+     * #define GL_OPERAND0_RGB_ARB 34192
      * }
      */
-    public static int VK_ERROR_DEVICE_LOST() {
-        return VK_ERROR_DEVICE_LOST;
+    public static int GL_OPERAND0_RGB_ARB() {
+        return GL_OPERAND0_RGB_ARB;
     }
-    private static final int VK_ERROR_MEMORY_MAP_FAILED = (int)-5L;
+    private static final int GL_OPERAND1_RGB_ARB = (int)34193L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_MEMORY_MAP_FAILED = -5
+     * #define GL_OPERAND1_RGB_ARB 34193
      * }
      */
-    public static int VK_ERROR_MEMORY_MAP_FAILED() {
-        return VK_ERROR_MEMORY_MAP_FAILED;
+    public static int GL_OPERAND1_RGB_ARB() {
+        return GL_OPERAND1_RGB_ARB;
     }
-    private static final int VK_ERROR_LAYER_NOT_PRESENT = (int)-6L;
+    private static final int GL_OPERAND2_RGB_ARB = (int)34194L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_LAYER_NOT_PRESENT = -6
+     * #define GL_OPERAND2_RGB_ARB 34194
      * }
      */
-    public static int VK_ERROR_LAYER_NOT_PRESENT() {
-        return VK_ERROR_LAYER_NOT_PRESENT;
+    public static int GL_OPERAND2_RGB_ARB() {
+        return GL_OPERAND2_RGB_ARB;
     }
-    private static final int VK_ERROR_EXTENSION_NOT_PRESENT = (int)-7L;
+    private static final int GL_OPERAND0_ALPHA_ARB = (int)34200L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_EXTENSION_NOT_PRESENT = -7
+     * #define GL_OPERAND0_ALPHA_ARB 34200
      * }
      */
-    public static int VK_ERROR_EXTENSION_NOT_PRESENT() {
-        return VK_ERROR_EXTENSION_NOT_PRESENT;
+    public static int GL_OPERAND0_ALPHA_ARB() {
+        return GL_OPERAND0_ALPHA_ARB;
     }
-    private static final int VK_ERROR_FEATURE_NOT_PRESENT = (int)-8L;
+    private static final int GL_OPERAND1_ALPHA_ARB = (int)34201L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_FEATURE_NOT_PRESENT = -8
+     * #define GL_OPERAND1_ALPHA_ARB 34201
      * }
      */
-    public static int VK_ERROR_FEATURE_NOT_PRESENT() {
-        return VK_ERROR_FEATURE_NOT_PRESENT;
+    public static int GL_OPERAND1_ALPHA_ARB() {
+        return GL_OPERAND1_ALPHA_ARB;
     }
-    private static final int VK_ERROR_INCOMPATIBLE_DRIVER = (int)-9L;
+    private static final int GL_OPERAND2_ALPHA_ARB = (int)34202L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_INCOMPATIBLE_DRIVER = -9
+     * #define GL_OPERAND2_ALPHA_ARB 34202
      * }
      */
-    public static int VK_ERROR_INCOMPATIBLE_DRIVER() {
-        return VK_ERROR_INCOMPATIBLE_DRIVER;
+    public static int GL_OPERAND2_ALPHA_ARB() {
+        return GL_OPERAND2_ALPHA_ARB;
     }
-    private static final int VK_ERROR_TOO_MANY_OBJECTS = (int)-10L;
+    private static final int GL_RGB_SCALE_ARB = (int)34163L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_TOO_MANY_OBJECTS = -10
+     * #define GL_RGB_SCALE_ARB 34163
      * }
      */
-    public static int VK_ERROR_TOO_MANY_OBJECTS() {
-        return VK_ERROR_TOO_MANY_OBJECTS;
+    public static int GL_RGB_SCALE_ARB() {
+        return GL_RGB_SCALE_ARB;
     }
-    private static final int VK_ERROR_FORMAT_NOT_SUPPORTED = (int)-11L;
+    private static final int GL_ADD_SIGNED_ARB = (int)34164L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_FORMAT_NOT_SUPPORTED = -11
+     * #define GL_ADD_SIGNED_ARB 34164
      * }
      */
-    public static int VK_ERROR_FORMAT_NOT_SUPPORTED() {
-        return VK_ERROR_FORMAT_NOT_SUPPORTED;
+    public static int GL_ADD_SIGNED_ARB() {
+        return GL_ADD_SIGNED_ARB;
     }
-    private static final int VK_ERROR_FRAGMENTED_POOL = (int)-12L;
+    private static final int GL_INTERPOLATE_ARB = (int)34165L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_FRAGMENTED_POOL = -12
+     * #define GL_INTERPOLATE_ARB 34165
      * }
      */
-    public static int VK_ERROR_FRAGMENTED_POOL() {
-        return VK_ERROR_FRAGMENTED_POOL;
+    public static int GL_INTERPOLATE_ARB() {
+        return GL_INTERPOLATE_ARB;
     }
-    private static final int VK_ERROR_UNKNOWN = (int)-13L;
+    private static final int GL_SUBTRACT_ARB = (int)34023L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_UNKNOWN = -13
+     * #define GL_SUBTRACT_ARB 34023
      * }
      */
-    public static int VK_ERROR_UNKNOWN() {
-        return VK_ERROR_UNKNOWN;
+    public static int GL_SUBTRACT_ARB() {
+        return GL_SUBTRACT_ARB;
     }
-    private static final int VK_ERROR_OUT_OF_POOL_MEMORY = (int)-1000069000L;
+    private static final int GL_CONSTANT_ARB = (int)34166L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_OUT_OF_POOL_MEMORY = -1000069000
+     * #define GL_CONSTANT_ARB 34166
      * }
      */
-    public static int VK_ERROR_OUT_OF_POOL_MEMORY() {
-        return VK_ERROR_OUT_OF_POOL_MEMORY;
+    public static int GL_CONSTANT_ARB() {
+        return GL_CONSTANT_ARB;
     }
-    private static final int VK_ERROR_INVALID_EXTERNAL_HANDLE = (int)-1000072003L;
+    private static final int GL_PRIMARY_COLOR_ARB = (int)34167L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_INVALID_EXTERNAL_HANDLE = -1000072003
+     * #define GL_PRIMARY_COLOR_ARB 34167
      * }
      */
-    public static int VK_ERROR_INVALID_EXTERNAL_HANDLE() {
-        return VK_ERROR_INVALID_EXTERNAL_HANDLE;
+    public static int GL_PRIMARY_COLOR_ARB() {
+        return GL_PRIMARY_COLOR_ARB;
     }
-    private static final int VK_ERROR_FRAGMENTATION = (int)-1000161000L;
+    private static final int GL_PREVIOUS_ARB = (int)34168L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_FRAGMENTATION = -1000161000
+     * #define GL_PREVIOUS_ARB 34168
      * }
      */
-    public static int VK_ERROR_FRAGMENTATION() {
-        return VK_ERROR_FRAGMENTATION;
+    public static int GL_PREVIOUS_ARB() {
+        return GL_PREVIOUS_ARB;
     }
-    private static final int VK_ERROR_INVALID_OPAQUE_CAPTURE_ADDRESS = (int)-1000257000L;
+    private static final int GL_ARB_texture_env_crossbar = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_INVALID_OPAQUE_CAPTURE_ADDRESS = -1000257000
+     * #define GL_ARB_texture_env_crossbar 1
      * }
      */
-    public static int VK_ERROR_INVALID_OPAQUE_CAPTURE_ADDRESS() {
-        return VK_ERROR_INVALID_OPAQUE_CAPTURE_ADDRESS;
+    public static int GL_ARB_texture_env_crossbar() {
+        return GL_ARB_texture_env_crossbar;
     }
-    private static final int VK_ERROR_SURFACE_LOST_KHR = (int)-1000000000L;
+    private static final int GL_ARB_texture_env_dot3 = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_SURFACE_LOST_KHR = -1000000000
+     * #define GL_ARB_texture_env_dot3 1
      * }
      */
-    public static int VK_ERROR_SURFACE_LOST_KHR() {
-        return VK_ERROR_SURFACE_LOST_KHR;
+    public static int GL_ARB_texture_env_dot3() {
+        return GL_ARB_texture_env_dot3;
     }
-    private static final int VK_ERROR_NATIVE_WINDOW_IN_USE_KHR = (int)-1000000001L;
+    private static final int GL_DOT3_RGB_ARB = (int)34478L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_NATIVE_WINDOW_IN_USE_KHR = -1000000001
+     * #define GL_DOT3_RGB_ARB 34478
      * }
      */
-    public static int VK_ERROR_NATIVE_WINDOW_IN_USE_KHR() {
-        return VK_ERROR_NATIVE_WINDOW_IN_USE_KHR;
+    public static int GL_DOT3_RGB_ARB() {
+        return GL_DOT3_RGB_ARB;
     }
-    private static final int VK_SUBOPTIMAL_KHR = (int)1000001003L;
+    private static final int GL_DOT3_RGBA_ARB = (int)34479L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_SUBOPTIMAL_KHR = 1000001003
+     * #define GL_DOT3_RGBA_ARB 34479
      * }
      */
-    public static int VK_SUBOPTIMAL_KHR() {
-        return VK_SUBOPTIMAL_KHR;
+    public static int GL_DOT3_RGBA_ARB() {
+        return GL_DOT3_RGBA_ARB;
     }
-    private static final int VK_ERROR_OUT_OF_DATE_KHR = (int)-1000001004L;
+    private static final int GL_ARB_texture_filter_anisotropic = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_OUT_OF_DATE_KHR = -1000001004
+     * #define GL_ARB_texture_filter_anisotropic 1
      * }
      */
-    public static int VK_ERROR_OUT_OF_DATE_KHR() {
-        return VK_ERROR_OUT_OF_DATE_KHR;
+    public static int GL_ARB_texture_filter_anisotropic() {
+        return GL_ARB_texture_filter_anisotropic;
     }
-    private static final int VK_ERROR_INCOMPATIBLE_DISPLAY_KHR = (int)-1000003001L;
+    private static final int GL_ARB_texture_filter_minmax = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_INCOMPATIBLE_DISPLAY_KHR = -1000003001
+     * #define GL_ARB_texture_filter_minmax 1
      * }
      */
-    public static int VK_ERROR_INCOMPATIBLE_DISPLAY_KHR() {
-        return VK_ERROR_INCOMPATIBLE_DISPLAY_KHR;
+    public static int GL_ARB_texture_filter_minmax() {
+        return GL_ARB_texture_filter_minmax;
     }
-    private static final int VK_ERROR_VALIDATION_FAILED_EXT = (int)-1000011001L;
+    private static final int GL_TEXTURE_REDUCTION_MODE_ARB = (int)37734L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_VALIDATION_FAILED_EXT = -1000011001
+     * #define GL_TEXTURE_REDUCTION_MODE_ARB 37734
      * }
      */
-    public static int VK_ERROR_VALIDATION_FAILED_EXT() {
-        return VK_ERROR_VALIDATION_FAILED_EXT;
+    public static int GL_TEXTURE_REDUCTION_MODE_ARB() {
+        return GL_TEXTURE_REDUCTION_MODE_ARB;
     }
-    private static final int VK_ERROR_INVALID_SHADER_NV = (int)-1000012000L;
+    private static final int GL_WEIGHTED_AVERAGE_ARB = (int)37735L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_INVALID_SHADER_NV = -1000012000
+     * #define GL_WEIGHTED_AVERAGE_ARB 37735
      * }
      */
-    public static int VK_ERROR_INVALID_SHADER_NV() {
-        return VK_ERROR_INVALID_SHADER_NV;
+    public static int GL_WEIGHTED_AVERAGE_ARB() {
+        return GL_WEIGHTED_AVERAGE_ARB;
     }
-    private static final int VK_ERROR_INVALID_DRM_FORMAT_MODIFIER_PLANE_LAYOUT_EXT = (int)-1000158000L;
+    private static final int GL_ARB_texture_float = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_INVALID_DRM_FORMAT_MODIFIER_PLANE_LAYOUT_EXT = -1000158000
+     * #define GL_ARB_texture_float 1
      * }
      */
-    public static int VK_ERROR_INVALID_DRM_FORMAT_MODIFIER_PLANE_LAYOUT_EXT() {
-        return VK_ERROR_INVALID_DRM_FORMAT_MODIFIER_PLANE_LAYOUT_EXT;
+    public static int GL_ARB_texture_float() {
+        return GL_ARB_texture_float;
     }
-    private static final int VK_ERROR_NOT_PERMITTED_EXT = (int)-1000174001L;
+    private static final int GL_TEXTURE_RED_TYPE_ARB = (int)35856L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_NOT_PERMITTED_EXT = -1000174001
+     * #define GL_TEXTURE_RED_TYPE_ARB 35856
      * }
      */
-    public static int VK_ERROR_NOT_PERMITTED_EXT() {
-        return VK_ERROR_NOT_PERMITTED_EXT;
+    public static int GL_TEXTURE_RED_TYPE_ARB() {
+        return GL_TEXTURE_RED_TYPE_ARB;
     }
-    private static final int VK_ERROR_FULL_SCREEN_EXCLUSIVE_MODE_LOST_EXT = (int)-1000255000L;
+    private static final int GL_TEXTURE_GREEN_TYPE_ARB = (int)35857L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_FULL_SCREEN_EXCLUSIVE_MODE_LOST_EXT = -1000255000
+     * #define GL_TEXTURE_GREEN_TYPE_ARB 35857
      * }
      */
-    public static int VK_ERROR_FULL_SCREEN_EXCLUSIVE_MODE_LOST_EXT() {
-        return VK_ERROR_FULL_SCREEN_EXCLUSIVE_MODE_LOST_EXT;
+    public static int GL_TEXTURE_GREEN_TYPE_ARB() {
+        return GL_TEXTURE_GREEN_TYPE_ARB;
     }
-    private static final int VK_ERROR_OUT_OF_POOL_MEMORY_KHR = (int)-1000069000L;
+    private static final int GL_TEXTURE_BLUE_TYPE_ARB = (int)35858L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_OUT_OF_POOL_MEMORY_KHR = -1000069000
+     * #define GL_TEXTURE_BLUE_TYPE_ARB 35858
      * }
      */
-    public static int VK_ERROR_OUT_OF_POOL_MEMORY_KHR() {
-        return VK_ERROR_OUT_OF_POOL_MEMORY_KHR;
+    public static int GL_TEXTURE_BLUE_TYPE_ARB() {
+        return GL_TEXTURE_BLUE_TYPE_ARB;
     }
-    private static final int VK_ERROR_INVALID_EXTERNAL_HANDLE_KHR = (int)-1000072003L;
+    private static final int GL_TEXTURE_ALPHA_TYPE_ARB = (int)35859L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_INVALID_EXTERNAL_HANDLE_KHR = -1000072003
+     * #define GL_TEXTURE_ALPHA_TYPE_ARB 35859
      * }
      */
-    public static int VK_ERROR_INVALID_EXTERNAL_HANDLE_KHR() {
-        return VK_ERROR_INVALID_EXTERNAL_HANDLE_KHR;
+    public static int GL_TEXTURE_ALPHA_TYPE_ARB() {
+        return GL_TEXTURE_ALPHA_TYPE_ARB;
     }
-    private static final int VK_ERROR_FRAGMENTATION_EXT = (int)-1000161000L;
+    private static final int GL_TEXTURE_LUMINANCE_TYPE_ARB = (int)35860L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_FRAGMENTATION_EXT = -1000161000
+     * #define GL_TEXTURE_LUMINANCE_TYPE_ARB 35860
      * }
      */
-    public static int VK_ERROR_FRAGMENTATION_EXT() {
-        return VK_ERROR_FRAGMENTATION_EXT;
+    public static int GL_TEXTURE_LUMINANCE_TYPE_ARB() {
+        return GL_TEXTURE_LUMINANCE_TYPE_ARB;
     }
-    private static final int VK_ERROR_INVALID_DEVICE_ADDRESS_EXT = (int)-1000257000L;
+    private static final int GL_TEXTURE_INTENSITY_TYPE_ARB = (int)35861L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_INVALID_DEVICE_ADDRESS_EXT = -1000257000
+     * #define GL_TEXTURE_INTENSITY_TYPE_ARB 35861
      * }
      */
-    public static int VK_ERROR_INVALID_DEVICE_ADDRESS_EXT() {
-        return VK_ERROR_INVALID_DEVICE_ADDRESS_EXT;
+    public static int GL_TEXTURE_INTENSITY_TYPE_ARB() {
+        return GL_TEXTURE_INTENSITY_TYPE_ARB;
     }
-    private static final int VK_ERROR_INVALID_OPAQUE_CAPTURE_ADDRESS_KHR = (int)-1000257000L;
+    private static final int GL_TEXTURE_DEPTH_TYPE_ARB = (int)35862L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_ERROR_INVALID_OPAQUE_CAPTURE_ADDRESS_KHR = -1000257000
+     * #define GL_TEXTURE_DEPTH_TYPE_ARB 35862
      * }
      */
-    public static int VK_ERROR_INVALID_OPAQUE_CAPTURE_ADDRESS_KHR() {
-        return VK_ERROR_INVALID_OPAQUE_CAPTURE_ADDRESS_KHR;
+    public static int GL_TEXTURE_DEPTH_TYPE_ARB() {
+        return GL_TEXTURE_DEPTH_TYPE_ARB;
     }
-    private static final int VK_RESULT_BEGIN_RANGE = (int)-13L;
+    private static final int GL_UNSIGNED_NORMALIZED_ARB = (int)35863L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_RESULT_BEGIN_RANGE = -13
+     * #define GL_UNSIGNED_NORMALIZED_ARB 35863
      * }
      */
-    public static int VK_RESULT_BEGIN_RANGE() {
-        return VK_RESULT_BEGIN_RANGE;
+    public static int GL_UNSIGNED_NORMALIZED_ARB() {
+        return GL_UNSIGNED_NORMALIZED_ARB;
     }
-    private static final int VK_RESULT_END_RANGE = (int)5L;
+    private static final int GL_RGBA32F_ARB = (int)34836L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_RESULT_END_RANGE = 5
+     * #define GL_RGBA32F_ARB 34836
      * }
      */
-    public static int VK_RESULT_END_RANGE() {
-        return VK_RESULT_END_RANGE;
+    public static int GL_RGBA32F_ARB() {
+        return GL_RGBA32F_ARB;
     }
-    private static final int VK_RESULT_RANGE_SIZE = (int)19L;
+    private static final int GL_RGB32F_ARB = (int)34837L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_RESULT_RANGE_SIZE = 19
+     * #define GL_RGB32F_ARB 34837
      * }
      */
-    public static int VK_RESULT_RANGE_SIZE() {
-        return VK_RESULT_RANGE_SIZE;
+    public static int GL_RGB32F_ARB() {
+        return GL_RGB32F_ARB;
     }
-    private static final int VK_RESULT_MAX_ENUM = (int)2147483647L;
+    private static final int GL_ALPHA32F_ARB = (int)34838L;
     /**
      * {@snippet lang=c :
-     * enum VkResult.VK_RESULT_MAX_ENUM = 2147483647
+     * #define GL_ALPHA32F_ARB 34838
      * }
      */
-    public static int VK_RESULT_MAX_ENUM() {
-        return VK_RESULT_MAX_ENUM;
+    public static int GL_ALPHA32F_ARB() {
+        return GL_ALPHA32F_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_APPLICATION_INFO = (int)0L;
+    private static final int GL_INTENSITY32F_ARB = (int)34839L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_APPLICATION_INFO = 0
+     * #define GL_INTENSITY32F_ARB 34839
      * }
      */
-    public static int VK_STRUCTURE_TYPE_APPLICATION_INFO() {
-        return VK_STRUCTURE_TYPE_APPLICATION_INFO;
+    public static int GL_INTENSITY32F_ARB() {
+        return GL_INTENSITY32F_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO = (int)1L;
+    private static final int GL_LUMINANCE32F_ARB = (int)34840L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO = 1
+     * #define GL_LUMINANCE32F_ARB 34840
      * }
      */
-    public static int VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO;
+    public static int GL_LUMINANCE32F_ARB() {
+        return GL_LUMINANCE32F_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_DEVICE_QUEUE_CREATE_INFO = (int)2L;
+    private static final int GL_LUMINANCE_ALPHA32F_ARB = (int)34841L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEVICE_QUEUE_CREATE_INFO = 2
+     * #define GL_LUMINANCE_ALPHA32F_ARB 34841
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEVICE_QUEUE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_DEVICE_QUEUE_CREATE_INFO;
+    public static int GL_LUMINANCE_ALPHA32F_ARB() {
+        return GL_LUMINANCE_ALPHA32F_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_DEVICE_CREATE_INFO = (int)3L;
+    private static final int GL_RGBA16F_ARB = (int)34842L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEVICE_CREATE_INFO = 3
+     * #define GL_RGBA16F_ARB 34842
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEVICE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_DEVICE_CREATE_INFO;
+    public static int GL_RGBA16F_ARB() {
+        return GL_RGBA16F_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_SUBMIT_INFO = (int)4L;
+    private static final int GL_RGB16F_ARB = (int)34843L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SUBMIT_INFO = 4
+     * #define GL_RGB16F_ARB 34843
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SUBMIT_INFO() {
-        return VK_STRUCTURE_TYPE_SUBMIT_INFO;
+    public static int GL_RGB16F_ARB() {
+        return GL_RGB16F_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_MEMORY_ALLOCATE_INFO = (int)5L;
+    private static final int GL_ALPHA16F_ARB = (int)34844L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_MEMORY_ALLOCATE_INFO = 5
+     * #define GL_ALPHA16F_ARB 34844
      * }
      */
-    public static int VK_STRUCTURE_TYPE_MEMORY_ALLOCATE_INFO() {
-        return VK_STRUCTURE_TYPE_MEMORY_ALLOCATE_INFO;
+    public static int GL_ALPHA16F_ARB() {
+        return GL_ALPHA16F_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_MAPPED_MEMORY_RANGE = (int)6L;
+    private static final int GL_INTENSITY16F_ARB = (int)34845L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_MAPPED_MEMORY_RANGE = 6
+     * #define GL_INTENSITY16F_ARB 34845
      * }
      */
-    public static int VK_STRUCTURE_TYPE_MAPPED_MEMORY_RANGE() {
-        return VK_STRUCTURE_TYPE_MAPPED_MEMORY_RANGE;
+    public static int GL_INTENSITY16F_ARB() {
+        return GL_INTENSITY16F_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_BIND_SPARSE_INFO = (int)7L;
+    private static final int GL_LUMINANCE16F_ARB = (int)34846L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_BIND_SPARSE_INFO = 7
+     * #define GL_LUMINANCE16F_ARB 34846
      * }
      */
-    public static int VK_STRUCTURE_TYPE_BIND_SPARSE_INFO() {
-        return VK_STRUCTURE_TYPE_BIND_SPARSE_INFO;
+    public static int GL_LUMINANCE16F_ARB() {
+        return GL_LUMINANCE16F_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_FENCE_CREATE_INFO = (int)8L;
+    private static final int GL_LUMINANCE_ALPHA16F_ARB = (int)34847L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_FENCE_CREATE_INFO = 8
+     * #define GL_LUMINANCE_ALPHA16F_ARB 34847
      * }
      */
-    public static int VK_STRUCTURE_TYPE_FENCE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_FENCE_CREATE_INFO;
+    public static int GL_LUMINANCE_ALPHA16F_ARB() {
+        return GL_LUMINANCE_ALPHA16F_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_SEMAPHORE_CREATE_INFO = (int)9L;
+    private static final int GL_ARB_texture_gather = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SEMAPHORE_CREATE_INFO = 9
+     * #define GL_ARB_texture_gather 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SEMAPHORE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_SEMAPHORE_CREATE_INFO;
+    public static int GL_ARB_texture_gather() {
+        return GL_ARB_texture_gather;
     }
-    private static final int VK_STRUCTURE_TYPE_EVENT_CREATE_INFO = (int)10L;
+    private static final int GL_MIN_PROGRAM_TEXTURE_GATHER_OFFSET_ARB = (int)36446L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_EVENT_CREATE_INFO = 10
+     * #define GL_MIN_PROGRAM_TEXTURE_GATHER_OFFSET_ARB 36446
      * }
      */
-    public static int VK_STRUCTURE_TYPE_EVENT_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_EVENT_CREATE_INFO;
+    public static int GL_MIN_PROGRAM_TEXTURE_GATHER_OFFSET_ARB() {
+        return GL_MIN_PROGRAM_TEXTURE_GATHER_OFFSET_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_QUERY_POOL_CREATE_INFO = (int)11L;
+    private static final int GL_MAX_PROGRAM_TEXTURE_GATHER_OFFSET_ARB = (int)36447L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_QUERY_POOL_CREATE_INFO = 11
+     * #define GL_MAX_PROGRAM_TEXTURE_GATHER_OFFSET_ARB 36447
      * }
      */
-    public static int VK_STRUCTURE_TYPE_QUERY_POOL_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_QUERY_POOL_CREATE_INFO;
+    public static int GL_MAX_PROGRAM_TEXTURE_GATHER_OFFSET_ARB() {
+        return GL_MAX_PROGRAM_TEXTURE_GATHER_OFFSET_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_BUFFER_CREATE_INFO = (int)12L;
+    private static final int GL_MAX_PROGRAM_TEXTURE_GATHER_COMPONENTS_ARB = (int)36767L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_BUFFER_CREATE_INFO = 12
+     * #define GL_MAX_PROGRAM_TEXTURE_GATHER_COMPONENTS_ARB 36767
      * }
      */
-    public static int VK_STRUCTURE_TYPE_BUFFER_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_BUFFER_CREATE_INFO;
+    public static int GL_MAX_PROGRAM_TEXTURE_GATHER_COMPONENTS_ARB() {
+        return GL_MAX_PROGRAM_TEXTURE_GATHER_COMPONENTS_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_BUFFER_VIEW_CREATE_INFO = (int)13L;
+    private static final int GL_ARB_texture_mirror_clamp_to_edge = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_BUFFER_VIEW_CREATE_INFO = 13
+     * #define GL_ARB_texture_mirror_clamp_to_edge 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_BUFFER_VIEW_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_BUFFER_VIEW_CREATE_INFO;
+    public static int GL_ARB_texture_mirror_clamp_to_edge() {
+        return GL_ARB_texture_mirror_clamp_to_edge;
     }
-    private static final int VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO = (int)14L;
+    private static final int GL_ARB_texture_mirrored_repeat = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO = 14
+     * #define GL_ARB_texture_mirrored_repeat 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO;
+    public static int GL_ARB_texture_mirrored_repeat() {
+        return GL_ARB_texture_mirrored_repeat;
     }
-    private static final int VK_STRUCTURE_TYPE_IMAGE_VIEW_CREATE_INFO = (int)15L;
+    private static final int GL_MIRRORED_REPEAT_ARB = (int)33648L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMAGE_VIEW_CREATE_INFO = 15
+     * #define GL_MIRRORED_REPEAT_ARB 33648
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMAGE_VIEW_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_IMAGE_VIEW_CREATE_INFO;
+    public static int GL_MIRRORED_REPEAT_ARB() {
+        return GL_MIRRORED_REPEAT_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_SHADER_MODULE_CREATE_INFO = (int)16L;
+    private static final int GL_ARB_texture_multisample = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SHADER_MODULE_CREATE_INFO = 16
+     * #define GL_ARB_texture_multisample 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SHADER_MODULE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_SHADER_MODULE_CREATE_INFO;
+    public static int GL_ARB_texture_multisample() {
+        return GL_ARB_texture_multisample;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_CACHE_CREATE_INFO = (int)17L;
+    private static final int GL_ARB_texture_non_power_of_two = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_CACHE_CREATE_INFO = 17
+     * #define GL_ARB_texture_non_power_of_two 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_CACHE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_PIPELINE_CACHE_CREATE_INFO;
+    public static int GL_ARB_texture_non_power_of_two() {
+        return GL_ARB_texture_non_power_of_two;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_CREATE_INFO = (int)18L;
+    private static final int GL_ARB_texture_query_levels = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_CREATE_INFO = 18
+     * #define GL_ARB_texture_query_levels 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_CREATE_INFO;
+    public static int GL_ARB_texture_query_levels() {
+        return GL_ARB_texture_query_levels;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_STATE_CREATE_INFO = (int)19L;
+    private static final int GL_ARB_texture_query_lod = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_STATE_CREATE_INFO = 19
+     * #define GL_ARB_texture_query_lod 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_STATE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_STATE_CREATE_INFO;
+    public static int GL_ARB_texture_query_lod() {
+        return GL_ARB_texture_query_lod;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_INPUT_ASSEMBLY_STATE_CREATE_INFO = (int)20L;
+    private static final int GL_ARB_texture_rectangle = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_INPUT_ASSEMBLY_STATE_CREATE_INFO = 20
+     * #define GL_ARB_texture_rectangle 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_INPUT_ASSEMBLY_STATE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_PIPELINE_INPUT_ASSEMBLY_STATE_CREATE_INFO;
+    public static int GL_ARB_texture_rectangle() {
+        return GL_ARB_texture_rectangle;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_TESSELLATION_STATE_CREATE_INFO = (int)21L;
+    private static final int GL_TEXTURE_RECTANGLE_ARB = (int)34037L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_TESSELLATION_STATE_CREATE_INFO = 21
+     * #define GL_TEXTURE_RECTANGLE_ARB 34037
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_TESSELLATION_STATE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_PIPELINE_TESSELLATION_STATE_CREATE_INFO;
+    public static int GL_TEXTURE_RECTANGLE_ARB() {
+        return GL_TEXTURE_RECTANGLE_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_STATE_CREATE_INFO = (int)22L;
+    private static final int GL_TEXTURE_BINDING_RECTANGLE_ARB = (int)34038L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_STATE_CREATE_INFO = 22
+     * #define GL_TEXTURE_BINDING_RECTANGLE_ARB 34038
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_STATE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_STATE_CREATE_INFO;
+    public static int GL_TEXTURE_BINDING_RECTANGLE_ARB() {
+        return GL_TEXTURE_BINDING_RECTANGLE_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_CREATE_INFO = (int)23L;
+    private static final int GL_PROXY_TEXTURE_RECTANGLE_ARB = (int)34039L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_CREATE_INFO = 23
+     * #define GL_PROXY_TEXTURE_RECTANGLE_ARB 34039
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_CREATE_INFO;
+    public static int GL_PROXY_TEXTURE_RECTANGLE_ARB() {
+        return GL_PROXY_TEXTURE_RECTANGLE_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_MULTISAMPLE_STATE_CREATE_INFO = (int)24L;
+    private static final int GL_MAX_RECTANGLE_TEXTURE_SIZE_ARB = (int)34040L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_MULTISAMPLE_STATE_CREATE_INFO = 24
+     * #define GL_MAX_RECTANGLE_TEXTURE_SIZE_ARB 34040
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_MULTISAMPLE_STATE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_PIPELINE_MULTISAMPLE_STATE_CREATE_INFO;
+    public static int GL_MAX_RECTANGLE_TEXTURE_SIZE_ARB() {
+        return GL_MAX_RECTANGLE_TEXTURE_SIZE_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_DEPTH_STENCIL_STATE_CREATE_INFO = (int)25L;
+    private static final int GL_ARB_texture_rg = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_DEPTH_STENCIL_STATE_CREATE_INFO = 25
+     * #define GL_ARB_texture_rg 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_DEPTH_STENCIL_STATE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_PIPELINE_DEPTH_STENCIL_STATE_CREATE_INFO;
+    public static int GL_ARB_texture_rg() {
+        return GL_ARB_texture_rg;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_COLOR_BLEND_STATE_CREATE_INFO = (int)26L;
+    private static final int GL_ARB_texture_rgb10_a2ui = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_COLOR_BLEND_STATE_CREATE_INFO = 26
+     * #define GL_ARB_texture_rgb10_a2ui 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_COLOR_BLEND_STATE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_PIPELINE_COLOR_BLEND_STATE_CREATE_INFO;
+    public static int GL_ARB_texture_rgb10_a2ui() {
+        return GL_ARB_texture_rgb10_a2ui;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_DYNAMIC_STATE_CREATE_INFO = (int)27L;
+    private static final int GL_ARB_texture_stencil8 = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_DYNAMIC_STATE_CREATE_INFO = 27
+     * #define GL_ARB_texture_stencil8 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_DYNAMIC_STATE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_PIPELINE_DYNAMIC_STATE_CREATE_INFO;
+    public static int GL_ARB_texture_stencil8() {
+        return GL_ARB_texture_stencil8;
     }
-    private static final int VK_STRUCTURE_TYPE_GRAPHICS_PIPELINE_CREATE_INFO = (int)28L;
+    private static final int GL_ARB_texture_storage = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_GRAPHICS_PIPELINE_CREATE_INFO = 28
+     * #define GL_ARB_texture_storage 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_GRAPHICS_PIPELINE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_GRAPHICS_PIPELINE_CREATE_INFO;
+    public static int GL_ARB_texture_storage() {
+        return GL_ARB_texture_storage;
     }
-    private static final int VK_STRUCTURE_TYPE_COMPUTE_PIPELINE_CREATE_INFO = (int)29L;
+    private static final int GL_ARB_texture_storage_multisample = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_COMPUTE_PIPELINE_CREATE_INFO = 29
+     * #define GL_ARB_texture_storage_multisample 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_COMPUTE_PIPELINE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_COMPUTE_PIPELINE_CREATE_INFO;
+    public static int GL_ARB_texture_storage_multisample() {
+        return GL_ARB_texture_storage_multisample;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_LAYOUT_CREATE_INFO = (int)30L;
+    private static final int GL_ARB_texture_swizzle = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_LAYOUT_CREATE_INFO = 30
+     * #define GL_ARB_texture_swizzle 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_LAYOUT_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_PIPELINE_LAYOUT_CREATE_INFO;
+    public static int GL_ARB_texture_swizzle() {
+        return GL_ARB_texture_swizzle;
     }
-    private static final int VK_STRUCTURE_TYPE_SAMPLER_CREATE_INFO = (int)31L;
+    private static final int GL_ARB_texture_view = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SAMPLER_CREATE_INFO = 31
+     * #define GL_ARB_texture_view 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SAMPLER_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_SAMPLER_CREATE_INFO;
+    public static int GL_ARB_texture_view() {
+        return GL_ARB_texture_view;
     }
-    private static final int VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_CREATE_INFO = (int)32L;
+    private static final int GL_ARB_timer_query = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_CREATE_INFO = 32
+     * #define GL_ARB_timer_query 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_CREATE_INFO;
+    public static int GL_ARB_timer_query() {
+        return GL_ARB_timer_query;
     }
-    private static final int VK_STRUCTURE_TYPE_DESCRIPTOR_POOL_CREATE_INFO = (int)33L;
+    private static final int GL_ARB_transform_feedback2 = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DESCRIPTOR_POOL_CREATE_INFO = 33
+     * #define GL_ARB_transform_feedback2 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DESCRIPTOR_POOL_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_DESCRIPTOR_POOL_CREATE_INFO;
+    public static int GL_ARB_transform_feedback2() {
+        return GL_ARB_transform_feedback2;
     }
-    private static final int VK_STRUCTURE_TYPE_DESCRIPTOR_SET_ALLOCATE_INFO = (int)34L;
+    private static final int GL_ARB_transform_feedback3 = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DESCRIPTOR_SET_ALLOCATE_INFO = 34
+     * #define GL_ARB_transform_feedback3 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DESCRIPTOR_SET_ALLOCATE_INFO() {
-        return VK_STRUCTURE_TYPE_DESCRIPTOR_SET_ALLOCATE_INFO;
+    public static int GL_ARB_transform_feedback3() {
+        return GL_ARB_transform_feedback3;
     }
-    private static final int VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET = (int)35L;
+    private static final int GL_ARB_transform_feedback_instanced = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET = 35
+     * #define GL_ARB_transform_feedback_instanced 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET() {
-        return VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET;
+    public static int GL_ARB_transform_feedback_instanced() {
+        return GL_ARB_transform_feedback_instanced;
     }
-    private static final int VK_STRUCTURE_TYPE_COPY_DESCRIPTOR_SET = (int)36L;
+    private static final int GL_ARB_transform_feedback_overflow_query = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_COPY_DESCRIPTOR_SET = 36
+     * #define GL_ARB_transform_feedback_overflow_query 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_COPY_DESCRIPTOR_SET() {
-        return VK_STRUCTURE_TYPE_COPY_DESCRIPTOR_SET;
+    public static int GL_ARB_transform_feedback_overflow_query() {
+        return GL_ARB_transform_feedback_overflow_query;
     }
-    private static final int VK_STRUCTURE_TYPE_FRAMEBUFFER_CREATE_INFO = (int)37L;
+    private static final int GL_TRANSFORM_FEEDBACK_OVERFLOW_ARB = (int)33516L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_FRAMEBUFFER_CREATE_INFO = 37
+     * #define GL_TRANSFORM_FEEDBACK_OVERFLOW_ARB 33516
      * }
      */
-    public static int VK_STRUCTURE_TYPE_FRAMEBUFFER_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_FRAMEBUFFER_CREATE_INFO;
+    public static int GL_TRANSFORM_FEEDBACK_OVERFLOW_ARB() {
+        return GL_TRANSFORM_FEEDBACK_OVERFLOW_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_RENDER_PASS_CREATE_INFO = (int)38L;
+    private static final int GL_TRANSFORM_FEEDBACK_STREAM_OVERFLOW_ARB = (int)33517L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_RENDER_PASS_CREATE_INFO = 38
+     * #define GL_TRANSFORM_FEEDBACK_STREAM_OVERFLOW_ARB 33517
      * }
      */
-    public static int VK_STRUCTURE_TYPE_RENDER_PASS_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_RENDER_PASS_CREATE_INFO;
+    public static int GL_TRANSFORM_FEEDBACK_STREAM_OVERFLOW_ARB() {
+        return GL_TRANSFORM_FEEDBACK_STREAM_OVERFLOW_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_COMMAND_POOL_CREATE_INFO = (int)39L;
+    private static final int GL_ARB_transpose_matrix = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_COMMAND_POOL_CREATE_INFO = 39
+     * #define GL_ARB_transpose_matrix 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_COMMAND_POOL_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_COMMAND_POOL_CREATE_INFO;
+    public static int GL_ARB_transpose_matrix() {
+        return GL_ARB_transpose_matrix;
     }
-    private static final int VK_STRUCTURE_TYPE_COMMAND_BUFFER_ALLOCATE_INFO = (int)40L;
+    private static final int GL_TRANSPOSE_MODELVIEW_MATRIX_ARB = (int)34019L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_COMMAND_BUFFER_ALLOCATE_INFO = 40
+     * #define GL_TRANSPOSE_MODELVIEW_MATRIX_ARB 34019
      * }
      */
-    public static int VK_STRUCTURE_TYPE_COMMAND_BUFFER_ALLOCATE_INFO() {
-        return VK_STRUCTURE_TYPE_COMMAND_BUFFER_ALLOCATE_INFO;
+    public static int GL_TRANSPOSE_MODELVIEW_MATRIX_ARB() {
+        return GL_TRANSPOSE_MODELVIEW_MATRIX_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_INFO = (int)41L;
+    private static final int GL_TRANSPOSE_PROJECTION_MATRIX_ARB = (int)34020L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_INFO = 41
+     * #define GL_TRANSPOSE_PROJECTION_MATRIX_ARB 34020
      * }
      */
-    public static int VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_INFO() {
-        return VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_INFO;
+    public static int GL_TRANSPOSE_PROJECTION_MATRIX_ARB() {
+        return GL_TRANSPOSE_PROJECTION_MATRIX_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_COMMAND_BUFFER_BEGIN_INFO = (int)42L;
+    private static final int GL_TRANSPOSE_TEXTURE_MATRIX_ARB = (int)34021L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_COMMAND_BUFFER_BEGIN_INFO = 42
+     * #define GL_TRANSPOSE_TEXTURE_MATRIX_ARB 34021
      * }
      */
-    public static int VK_STRUCTURE_TYPE_COMMAND_BUFFER_BEGIN_INFO() {
-        return VK_STRUCTURE_TYPE_COMMAND_BUFFER_BEGIN_INFO;
+    public static int GL_TRANSPOSE_TEXTURE_MATRIX_ARB() {
+        return GL_TRANSPOSE_TEXTURE_MATRIX_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_RENDER_PASS_BEGIN_INFO = (int)43L;
+    private static final int GL_TRANSPOSE_COLOR_MATRIX_ARB = (int)34022L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_RENDER_PASS_BEGIN_INFO = 43
+     * #define GL_TRANSPOSE_COLOR_MATRIX_ARB 34022
      * }
      */
-    public static int VK_STRUCTURE_TYPE_RENDER_PASS_BEGIN_INFO() {
-        return VK_STRUCTURE_TYPE_RENDER_PASS_BEGIN_INFO;
+    public static int GL_TRANSPOSE_COLOR_MATRIX_ARB() {
+        return GL_TRANSPOSE_COLOR_MATRIX_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_BUFFER_MEMORY_BARRIER = (int)44L;
+    private static final int GL_ARB_uniform_buffer_object = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_BUFFER_MEMORY_BARRIER = 44
+     * #define GL_ARB_uniform_buffer_object 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_BUFFER_MEMORY_BARRIER() {
-        return VK_STRUCTURE_TYPE_BUFFER_MEMORY_BARRIER;
+    public static int GL_ARB_uniform_buffer_object() {
+        return GL_ARB_uniform_buffer_object;
     }
-    private static final int VK_STRUCTURE_TYPE_IMAGE_MEMORY_BARRIER = (int)45L;
+    private static final int GL_ARB_vertex_array_bgra = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMAGE_MEMORY_BARRIER = 45
+     * #define GL_ARB_vertex_array_bgra 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMAGE_MEMORY_BARRIER() {
-        return VK_STRUCTURE_TYPE_IMAGE_MEMORY_BARRIER;
+    public static int GL_ARB_vertex_array_bgra() {
+        return GL_ARB_vertex_array_bgra;
     }
-    private static final int VK_STRUCTURE_TYPE_MEMORY_BARRIER = (int)46L;
+    private static final int GL_ARB_vertex_array_object = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_MEMORY_BARRIER = 46
+     * #define GL_ARB_vertex_array_object 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_MEMORY_BARRIER() {
-        return VK_STRUCTURE_TYPE_MEMORY_BARRIER;
+    public static int GL_ARB_vertex_array_object() {
+        return GL_ARB_vertex_array_object;
     }
-    private static final int VK_STRUCTURE_TYPE_LOADER_INSTANCE_CREATE_INFO = (int)47L;
+    private static final int GL_ARB_vertex_attrib_64bit = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_LOADER_INSTANCE_CREATE_INFO = 47
+     * #define GL_ARB_vertex_attrib_64bit 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_LOADER_INSTANCE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_LOADER_INSTANCE_CREATE_INFO;
+    public static int GL_ARB_vertex_attrib_64bit() {
+        return GL_ARB_vertex_attrib_64bit;
     }
-    private static final int VK_STRUCTURE_TYPE_LOADER_DEVICE_CREATE_INFO = (int)48L;
+    private static final int GL_ARB_vertex_attrib_binding = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_LOADER_DEVICE_CREATE_INFO = 48
+     * #define GL_ARB_vertex_attrib_binding 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_LOADER_DEVICE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_LOADER_DEVICE_CREATE_INFO;
+    public static int GL_ARB_vertex_attrib_binding() {
+        return GL_ARB_vertex_attrib_binding;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_PROPERTIES = (int)1000094000L;
+    private static final int GL_ARB_vertex_blend = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_PROPERTIES = 1000094000
+     * #define GL_ARB_vertex_blend 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_PROPERTIES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_PROPERTIES;
+    public static int GL_ARB_vertex_blend() {
+        return GL_ARB_vertex_blend;
     }
-    private static final int VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_INFO = (int)1000157000L;
+    private static final int GL_MAX_VERTEX_UNITS_ARB = (int)34468L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_INFO = 1000157000
+     * #define GL_MAX_VERTEX_UNITS_ARB 34468
      * }
      */
-    public static int VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_INFO() {
-        return VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_INFO;
+    public static int GL_MAX_VERTEX_UNITS_ARB() {
+        return GL_MAX_VERTEX_UNITS_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_INFO = (int)1000157001L;
+    private static final int GL_ACTIVE_VERTEX_UNITS_ARB = (int)34469L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_INFO = 1000157001
+     * #define GL_ACTIVE_VERTEX_UNITS_ARB 34469
      * }
      */
-    public static int VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_INFO() {
-        return VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_INFO;
+    public static int GL_ACTIVE_VERTEX_UNITS_ARB() {
+        return GL_ACTIVE_VERTEX_UNITS_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_16BIT_STORAGE_FEATURES = (int)1000083000L;
+    private static final int GL_WEIGHT_SUM_UNITY_ARB = (int)34470L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_16BIT_STORAGE_FEATURES = 1000083000
+     * #define GL_WEIGHT_SUM_UNITY_ARB 34470
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_16BIT_STORAGE_FEATURES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_16BIT_STORAGE_FEATURES;
+    public static int GL_WEIGHT_SUM_UNITY_ARB() {
+        return GL_WEIGHT_SUM_UNITY_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_MEMORY_DEDICATED_REQUIREMENTS = (int)1000127000L;
+    private static final int GL_VERTEX_BLEND_ARB = (int)34471L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_MEMORY_DEDICATED_REQUIREMENTS = 1000127000
+     * #define GL_VERTEX_BLEND_ARB 34471
      * }
      */
-    public static int VK_STRUCTURE_TYPE_MEMORY_DEDICATED_REQUIREMENTS() {
-        return VK_STRUCTURE_TYPE_MEMORY_DEDICATED_REQUIREMENTS;
+    public static int GL_VERTEX_BLEND_ARB() {
+        return GL_VERTEX_BLEND_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_MEMORY_DEDICATED_ALLOCATE_INFO = (int)1000127001L;
+    private static final int GL_CURRENT_WEIGHT_ARB = (int)34472L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_MEMORY_DEDICATED_ALLOCATE_INFO = 1000127001
+     * #define GL_CURRENT_WEIGHT_ARB 34472
      * }
      */
-    public static int VK_STRUCTURE_TYPE_MEMORY_DEDICATED_ALLOCATE_INFO() {
-        return VK_STRUCTURE_TYPE_MEMORY_DEDICATED_ALLOCATE_INFO;
+    public static int GL_CURRENT_WEIGHT_ARB() {
+        return GL_CURRENT_WEIGHT_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_MEMORY_ALLOCATE_FLAGS_INFO = (int)1000060000L;
+    private static final int GL_WEIGHT_ARRAY_TYPE_ARB = (int)34473L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_MEMORY_ALLOCATE_FLAGS_INFO = 1000060000
+     * #define GL_WEIGHT_ARRAY_TYPE_ARB 34473
      * }
      */
-    public static int VK_STRUCTURE_TYPE_MEMORY_ALLOCATE_FLAGS_INFO() {
-        return VK_STRUCTURE_TYPE_MEMORY_ALLOCATE_FLAGS_INFO;
+    public static int GL_WEIGHT_ARRAY_TYPE_ARB() {
+        return GL_WEIGHT_ARRAY_TYPE_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_DEVICE_GROUP_RENDER_PASS_BEGIN_INFO = (int)1000060003L;
+    private static final int GL_WEIGHT_ARRAY_STRIDE_ARB = (int)34474L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEVICE_GROUP_RENDER_PASS_BEGIN_INFO = 1000060003
+     * #define GL_WEIGHT_ARRAY_STRIDE_ARB 34474
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEVICE_GROUP_RENDER_PASS_BEGIN_INFO() {
-        return VK_STRUCTURE_TYPE_DEVICE_GROUP_RENDER_PASS_BEGIN_INFO;
+    public static int GL_WEIGHT_ARRAY_STRIDE_ARB() {
+        return GL_WEIGHT_ARRAY_STRIDE_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_DEVICE_GROUP_COMMAND_BUFFER_BEGIN_INFO = (int)1000060004L;
+    private static final int GL_WEIGHT_ARRAY_SIZE_ARB = (int)34475L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEVICE_GROUP_COMMAND_BUFFER_BEGIN_INFO = 1000060004
+     * #define GL_WEIGHT_ARRAY_SIZE_ARB 34475
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEVICE_GROUP_COMMAND_BUFFER_BEGIN_INFO() {
-        return VK_STRUCTURE_TYPE_DEVICE_GROUP_COMMAND_BUFFER_BEGIN_INFO;
+    public static int GL_WEIGHT_ARRAY_SIZE_ARB() {
+        return GL_WEIGHT_ARRAY_SIZE_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_DEVICE_GROUP_SUBMIT_INFO = (int)1000060005L;
+    private static final int GL_WEIGHT_ARRAY_POINTER_ARB = (int)34476L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEVICE_GROUP_SUBMIT_INFO = 1000060005
+     * #define GL_WEIGHT_ARRAY_POINTER_ARB 34476
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEVICE_GROUP_SUBMIT_INFO() {
-        return VK_STRUCTURE_TYPE_DEVICE_GROUP_SUBMIT_INFO;
+    public static int GL_WEIGHT_ARRAY_POINTER_ARB() {
+        return GL_WEIGHT_ARRAY_POINTER_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_DEVICE_GROUP_BIND_SPARSE_INFO = (int)1000060006L;
+    private static final int GL_WEIGHT_ARRAY_ARB = (int)34477L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEVICE_GROUP_BIND_SPARSE_INFO = 1000060006
+     * #define GL_WEIGHT_ARRAY_ARB 34477
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEVICE_GROUP_BIND_SPARSE_INFO() {
-        return VK_STRUCTURE_TYPE_DEVICE_GROUP_BIND_SPARSE_INFO;
+    public static int GL_WEIGHT_ARRAY_ARB() {
+        return GL_WEIGHT_ARRAY_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_DEVICE_GROUP_INFO = (int)1000060013L;
+    private static final int GL_MODELVIEW0_ARB = (int)5888L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_DEVICE_GROUP_INFO = 1000060013
+     * #define GL_MODELVIEW0_ARB 5888
      * }
      */
-    public static int VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_DEVICE_GROUP_INFO() {
-        return VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_DEVICE_GROUP_INFO;
+    public static int GL_MODELVIEW0_ARB() {
+        return GL_MODELVIEW0_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_DEVICE_GROUP_INFO = (int)1000060014L;
+    private static final int GL_MODELVIEW1_ARB = (int)34058L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_DEVICE_GROUP_INFO = 1000060014
+     * #define GL_MODELVIEW1_ARB 34058
      * }
      */
-    public static int VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_DEVICE_GROUP_INFO() {
-        return VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_DEVICE_GROUP_INFO;
+    public static int GL_MODELVIEW1_ARB() {
+        return GL_MODELVIEW1_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GROUP_PROPERTIES = (int)1000070000L;
+    private static final int GL_MODELVIEW2_ARB = (int)34594L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GROUP_PROPERTIES = 1000070000
+     * #define GL_MODELVIEW2_ARB 34594
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GROUP_PROPERTIES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GROUP_PROPERTIES;
+    public static int GL_MODELVIEW2_ARB() {
+        return GL_MODELVIEW2_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_DEVICE_GROUP_DEVICE_CREATE_INFO = (int)1000070001L;
+    private static final int GL_MODELVIEW3_ARB = (int)34595L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEVICE_GROUP_DEVICE_CREATE_INFO = 1000070001
+     * #define GL_MODELVIEW3_ARB 34595
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEVICE_GROUP_DEVICE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_DEVICE_GROUP_DEVICE_CREATE_INFO;
+    public static int GL_MODELVIEW3_ARB() {
+        return GL_MODELVIEW3_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_BUFFER_MEMORY_REQUIREMENTS_INFO_2 = (int)1000146000L;
+    private static final int GL_MODELVIEW4_ARB = (int)34596L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_BUFFER_MEMORY_REQUIREMENTS_INFO_2 = 1000146000
+     * #define GL_MODELVIEW4_ARB 34596
      * }
      */
-    public static int VK_STRUCTURE_TYPE_BUFFER_MEMORY_REQUIREMENTS_INFO_2() {
-        return VK_STRUCTURE_TYPE_BUFFER_MEMORY_REQUIREMENTS_INFO_2;
+    public static int GL_MODELVIEW4_ARB() {
+        return GL_MODELVIEW4_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_IMAGE_MEMORY_REQUIREMENTS_INFO_2 = (int)1000146001L;
+    private static final int GL_MODELVIEW5_ARB = (int)34597L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMAGE_MEMORY_REQUIREMENTS_INFO_2 = 1000146001
+     * #define GL_MODELVIEW5_ARB 34597
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMAGE_MEMORY_REQUIREMENTS_INFO_2() {
-        return VK_STRUCTURE_TYPE_IMAGE_MEMORY_REQUIREMENTS_INFO_2;
+    public static int GL_MODELVIEW5_ARB() {
+        return GL_MODELVIEW5_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_IMAGE_SPARSE_MEMORY_REQUIREMENTS_INFO_2 = (int)1000146002L;
+    private static final int GL_MODELVIEW6_ARB = (int)34598L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMAGE_SPARSE_MEMORY_REQUIREMENTS_INFO_2 = 1000146002
+     * #define GL_MODELVIEW6_ARB 34598
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMAGE_SPARSE_MEMORY_REQUIREMENTS_INFO_2() {
-        return VK_STRUCTURE_TYPE_IMAGE_SPARSE_MEMORY_REQUIREMENTS_INFO_2;
+    public static int GL_MODELVIEW6_ARB() {
+        return GL_MODELVIEW6_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_MEMORY_REQUIREMENTS_2 = (int)1000146003L;
+    private static final int GL_MODELVIEW7_ARB = (int)34599L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_MEMORY_REQUIREMENTS_2 = 1000146003
+     * #define GL_MODELVIEW7_ARB 34599
      * }
      */
-    public static int VK_STRUCTURE_TYPE_MEMORY_REQUIREMENTS_2() {
-        return VK_STRUCTURE_TYPE_MEMORY_REQUIREMENTS_2;
+    public static int GL_MODELVIEW7_ARB() {
+        return GL_MODELVIEW7_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_SPARSE_IMAGE_MEMORY_REQUIREMENTS_2 = (int)1000146004L;
+    private static final int GL_MODELVIEW8_ARB = (int)34600L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SPARSE_IMAGE_MEMORY_REQUIREMENTS_2 = 1000146004
+     * #define GL_MODELVIEW8_ARB 34600
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SPARSE_IMAGE_MEMORY_REQUIREMENTS_2() {
-        return VK_STRUCTURE_TYPE_SPARSE_IMAGE_MEMORY_REQUIREMENTS_2;
+    public static int GL_MODELVIEW8_ARB() {
+        return GL_MODELVIEW8_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FEATURES_2 = (int)1000059000L;
+    private static final int GL_MODELVIEW9_ARB = (int)34601L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FEATURES_2 = 1000059000
+     * #define GL_MODELVIEW9_ARB 34601
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FEATURES_2() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FEATURES_2;
+    public static int GL_MODELVIEW9_ARB() {
+        return GL_MODELVIEW9_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROPERTIES_2 = (int)1000059001L;
+    private static final int GL_MODELVIEW10_ARB = (int)34602L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROPERTIES_2 = 1000059001
+     * #define GL_MODELVIEW10_ARB 34602
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROPERTIES_2() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROPERTIES_2;
+    public static int GL_MODELVIEW10_ARB() {
+        return GL_MODELVIEW10_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_FORMAT_PROPERTIES_2 = (int)1000059002L;
+    private static final int GL_MODELVIEW11_ARB = (int)34603L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_FORMAT_PROPERTIES_2 = 1000059002
+     * #define GL_MODELVIEW11_ARB 34603
      * }
      */
-    public static int VK_STRUCTURE_TYPE_FORMAT_PROPERTIES_2() {
-        return VK_STRUCTURE_TYPE_FORMAT_PROPERTIES_2;
+    public static int GL_MODELVIEW11_ARB() {
+        return GL_MODELVIEW11_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_IMAGE_FORMAT_PROPERTIES_2 = (int)1000059003L;
+    private static final int GL_MODELVIEW12_ARB = (int)34604L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMAGE_FORMAT_PROPERTIES_2 = 1000059003
+     * #define GL_MODELVIEW12_ARB 34604
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMAGE_FORMAT_PROPERTIES_2() {
-        return VK_STRUCTURE_TYPE_IMAGE_FORMAT_PROPERTIES_2;
+    public static int GL_MODELVIEW12_ARB() {
+        return GL_MODELVIEW12_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_FORMAT_INFO_2 = (int)1000059004L;
+    private static final int GL_MODELVIEW13_ARB = (int)34605L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_FORMAT_INFO_2 = 1000059004
+     * #define GL_MODELVIEW13_ARB 34605
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_FORMAT_INFO_2() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_FORMAT_INFO_2;
+    public static int GL_MODELVIEW13_ARB() {
+        return GL_MODELVIEW13_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_QUEUE_FAMILY_PROPERTIES_2 = (int)1000059005L;
+    private static final int GL_MODELVIEW14_ARB = (int)34606L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_QUEUE_FAMILY_PROPERTIES_2 = 1000059005
+     * #define GL_MODELVIEW14_ARB 34606
      * }
      */
-    public static int VK_STRUCTURE_TYPE_QUEUE_FAMILY_PROPERTIES_2() {
-        return VK_STRUCTURE_TYPE_QUEUE_FAMILY_PROPERTIES_2;
+    public static int GL_MODELVIEW14_ARB() {
+        return GL_MODELVIEW14_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_PROPERTIES_2 = (int)1000059006L;
+    private static final int GL_MODELVIEW15_ARB = (int)34607L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_PROPERTIES_2 = 1000059006
+     * #define GL_MODELVIEW15_ARB 34607
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_PROPERTIES_2() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_PROPERTIES_2;
+    public static int GL_MODELVIEW15_ARB() {
+        return GL_MODELVIEW15_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_SPARSE_IMAGE_FORMAT_PROPERTIES_2 = (int)1000059007L;
+    private static final int GL_MODELVIEW16_ARB = (int)34608L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SPARSE_IMAGE_FORMAT_PROPERTIES_2 = 1000059007
+     * #define GL_MODELVIEW16_ARB 34608
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SPARSE_IMAGE_FORMAT_PROPERTIES_2() {
-        return VK_STRUCTURE_TYPE_SPARSE_IMAGE_FORMAT_PROPERTIES_2;
+    public static int GL_MODELVIEW16_ARB() {
+        return GL_MODELVIEW16_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SPARSE_IMAGE_FORMAT_INFO_2 = (int)1000059008L;
+    private static final int GL_MODELVIEW17_ARB = (int)34609L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SPARSE_IMAGE_FORMAT_INFO_2 = 1000059008
+     * #define GL_MODELVIEW17_ARB 34609
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SPARSE_IMAGE_FORMAT_INFO_2() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SPARSE_IMAGE_FORMAT_INFO_2;
+    public static int GL_MODELVIEW17_ARB() {
+        return GL_MODELVIEW17_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_POINT_CLIPPING_PROPERTIES = (int)1000117000L;
+    private static final int GL_MODELVIEW18_ARB = (int)34610L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_POINT_CLIPPING_PROPERTIES = 1000117000
+     * #define GL_MODELVIEW18_ARB 34610
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_POINT_CLIPPING_PROPERTIES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_POINT_CLIPPING_PROPERTIES;
+    public static int GL_MODELVIEW18_ARB() {
+        return GL_MODELVIEW18_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_RENDER_PASS_INPUT_ATTACHMENT_ASPECT_CREATE_INFO = (int)1000117001L;
+    private static final int GL_MODELVIEW19_ARB = (int)34611L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_RENDER_PASS_INPUT_ATTACHMENT_ASPECT_CREATE_INFO = 1000117001
+     * #define GL_MODELVIEW19_ARB 34611
      * }
      */
-    public static int VK_STRUCTURE_TYPE_RENDER_PASS_INPUT_ATTACHMENT_ASPECT_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_RENDER_PASS_INPUT_ATTACHMENT_ASPECT_CREATE_INFO;
+    public static int GL_MODELVIEW19_ARB() {
+        return GL_MODELVIEW19_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_IMAGE_VIEW_USAGE_CREATE_INFO = (int)1000117002L;
+    private static final int GL_MODELVIEW20_ARB = (int)34612L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMAGE_VIEW_USAGE_CREATE_INFO = 1000117002
+     * #define GL_MODELVIEW20_ARB 34612
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMAGE_VIEW_USAGE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_IMAGE_VIEW_USAGE_CREATE_INFO;
+    public static int GL_MODELVIEW20_ARB() {
+        return GL_MODELVIEW20_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_TESSELLATION_DOMAIN_ORIGIN_STATE_CREATE_INFO = (int)1000117003L;
+    private static final int GL_MODELVIEW21_ARB = (int)34613L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_TESSELLATION_DOMAIN_ORIGIN_STATE_CREATE_INFO = 1000117003
+     * #define GL_MODELVIEW21_ARB 34613
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_TESSELLATION_DOMAIN_ORIGIN_STATE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_PIPELINE_TESSELLATION_DOMAIN_ORIGIN_STATE_CREATE_INFO;
+    public static int GL_MODELVIEW21_ARB() {
+        return GL_MODELVIEW21_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_RENDER_PASS_MULTIVIEW_CREATE_INFO = (int)1000053000L;
+    private static final int GL_MODELVIEW22_ARB = (int)34614L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_RENDER_PASS_MULTIVIEW_CREATE_INFO = 1000053000
+     * #define GL_MODELVIEW22_ARB 34614
      * }
      */
-    public static int VK_STRUCTURE_TYPE_RENDER_PASS_MULTIVIEW_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_RENDER_PASS_MULTIVIEW_CREATE_INFO;
+    public static int GL_MODELVIEW22_ARB() {
+        return GL_MODELVIEW22_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_FEATURES = (int)1000053001L;
+    private static final int GL_MODELVIEW23_ARB = (int)34615L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_FEATURES = 1000053001
+     * #define GL_MODELVIEW23_ARB 34615
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_FEATURES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_FEATURES;
+    public static int GL_MODELVIEW23_ARB() {
+        return GL_MODELVIEW23_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PROPERTIES = (int)1000053002L;
+    private static final int GL_MODELVIEW24_ARB = (int)34616L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PROPERTIES = 1000053002
+     * #define GL_MODELVIEW24_ARB 34616
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PROPERTIES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PROPERTIES;
+    public static int GL_MODELVIEW24_ARB() {
+        return GL_MODELVIEW24_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTERS_FEATURES = (int)1000120000L;
+    private static final int GL_MODELVIEW25_ARB = (int)34617L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTERS_FEATURES = 1000120000
+     * #define GL_MODELVIEW25_ARB 34617
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTERS_FEATURES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTERS_FEATURES;
+    public static int GL_MODELVIEW25_ARB() {
+        return GL_MODELVIEW25_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PROTECTED_SUBMIT_INFO = (int)1000145000L;
+    private static final int GL_MODELVIEW26_ARB = (int)34618L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PROTECTED_SUBMIT_INFO = 1000145000
+     * #define GL_MODELVIEW26_ARB 34618
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PROTECTED_SUBMIT_INFO() {
-        return VK_STRUCTURE_TYPE_PROTECTED_SUBMIT_INFO;
+    public static int GL_MODELVIEW26_ARB() {
+        return GL_MODELVIEW26_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROTECTED_MEMORY_FEATURES = (int)1000145001L;
+    private static final int GL_MODELVIEW27_ARB = (int)34619L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROTECTED_MEMORY_FEATURES = 1000145001
+     * #define GL_MODELVIEW27_ARB 34619
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROTECTED_MEMORY_FEATURES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROTECTED_MEMORY_FEATURES;
+    public static int GL_MODELVIEW27_ARB() {
+        return GL_MODELVIEW27_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROTECTED_MEMORY_PROPERTIES = (int)1000145002L;
+    private static final int GL_MODELVIEW28_ARB = (int)34620L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROTECTED_MEMORY_PROPERTIES = 1000145002
+     * #define GL_MODELVIEW28_ARB 34620
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROTECTED_MEMORY_PROPERTIES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROTECTED_MEMORY_PROPERTIES;
+    public static int GL_MODELVIEW28_ARB() {
+        return GL_MODELVIEW28_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_DEVICE_QUEUE_INFO_2 = (int)1000145003L;
+    private static final int GL_MODELVIEW29_ARB = (int)34621L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEVICE_QUEUE_INFO_2 = 1000145003
+     * #define GL_MODELVIEW29_ARB 34621
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEVICE_QUEUE_INFO_2() {
-        return VK_STRUCTURE_TYPE_DEVICE_QUEUE_INFO_2;
+    public static int GL_MODELVIEW29_ARB() {
+        return GL_MODELVIEW29_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_CREATE_INFO = (int)1000156000L;
+    private static final int GL_MODELVIEW30_ARB = (int)34622L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_CREATE_INFO = 1000156000
+     * #define GL_MODELVIEW30_ARB 34622
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_CREATE_INFO;
+    public static int GL_MODELVIEW30_ARB() {
+        return GL_MODELVIEW30_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_INFO = (int)1000156001L;
+    private static final int GL_MODELVIEW31_ARB = (int)34623L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_INFO = 1000156001
+     * #define GL_MODELVIEW31_ARB 34623
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_INFO() {
-        return VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_INFO;
+    public static int GL_MODELVIEW31_ARB() {
+        return GL_MODELVIEW31_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_BIND_IMAGE_PLANE_MEMORY_INFO = (int)1000156002L;
+    private static final int GL_ARB_vertex_buffer_object = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_BIND_IMAGE_PLANE_MEMORY_INFO = 1000156002
+     * #define GL_ARB_vertex_buffer_object 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_BIND_IMAGE_PLANE_MEMORY_INFO() {
-        return VK_STRUCTURE_TYPE_BIND_IMAGE_PLANE_MEMORY_INFO;
+    public static int GL_ARB_vertex_buffer_object() {
+        return GL_ARB_vertex_buffer_object;
     }
-    private static final int VK_STRUCTURE_TYPE_IMAGE_PLANE_MEMORY_REQUIREMENTS_INFO = (int)1000156003L;
+    private static final int GL_BUFFER_SIZE_ARB = (int)34660L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMAGE_PLANE_MEMORY_REQUIREMENTS_INFO = 1000156003
+     * #define GL_BUFFER_SIZE_ARB 34660
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMAGE_PLANE_MEMORY_REQUIREMENTS_INFO() {
-        return VK_STRUCTURE_TYPE_IMAGE_PLANE_MEMORY_REQUIREMENTS_INFO;
+    public static int GL_BUFFER_SIZE_ARB() {
+        return GL_BUFFER_SIZE_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_YCBCR_CONVERSION_FEATURES = (int)1000156004L;
+    private static final int GL_BUFFER_USAGE_ARB = (int)34661L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_YCBCR_CONVERSION_FEATURES = 1000156004
+     * #define GL_BUFFER_USAGE_ARB 34661
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_YCBCR_CONVERSION_FEATURES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_YCBCR_CONVERSION_FEATURES;
+    public static int GL_BUFFER_USAGE_ARB() {
+        return GL_BUFFER_USAGE_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_IMAGE_FORMAT_PROPERTIES = (int)1000156005L;
+    private static final int GL_ARRAY_BUFFER_ARB = (int)34962L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_IMAGE_FORMAT_PROPERTIES = 1000156005
+     * #define GL_ARRAY_BUFFER_ARB 34962
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_IMAGE_FORMAT_PROPERTIES() {
-        return VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_IMAGE_FORMAT_PROPERTIES;
+    public static int GL_ARRAY_BUFFER_ARB() {
+        return GL_ARRAY_BUFFER_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_CREATE_INFO = (int)1000085000L;
+    private static final int GL_ELEMENT_ARRAY_BUFFER_ARB = (int)34963L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_CREATE_INFO = 1000085000
+     * #define GL_ELEMENT_ARRAY_BUFFER_ARB 34963
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_CREATE_INFO;
+    public static int GL_ELEMENT_ARRAY_BUFFER_ARB() {
+        return GL_ELEMENT_ARRAY_BUFFER_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_IMAGE_FORMAT_INFO = (int)1000071000L;
+    private static final int GL_ARRAY_BUFFER_BINDING_ARB = (int)34964L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_IMAGE_FORMAT_INFO = 1000071000
+     * #define GL_ARRAY_BUFFER_BINDING_ARB 34964
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_IMAGE_FORMAT_INFO() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_IMAGE_FORMAT_INFO;
+    public static int GL_ARRAY_BUFFER_BINDING_ARB() {
+        return GL_ARRAY_BUFFER_BINDING_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_EXTERNAL_IMAGE_FORMAT_PROPERTIES = (int)1000071001L;
+    private static final int GL_ELEMENT_ARRAY_BUFFER_BINDING_ARB = (int)34965L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_EXTERNAL_IMAGE_FORMAT_PROPERTIES = 1000071001
+     * #define GL_ELEMENT_ARRAY_BUFFER_BINDING_ARB 34965
      * }
      */
-    public static int VK_STRUCTURE_TYPE_EXTERNAL_IMAGE_FORMAT_PROPERTIES() {
-        return VK_STRUCTURE_TYPE_EXTERNAL_IMAGE_FORMAT_PROPERTIES;
+    public static int GL_ELEMENT_ARRAY_BUFFER_BINDING_ARB() {
+        return GL_ELEMENT_ARRAY_BUFFER_BINDING_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_BUFFER_INFO = (int)1000071002L;
+    private static final int GL_VERTEX_ARRAY_BUFFER_BINDING_ARB = (int)34966L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_BUFFER_INFO = 1000071002
+     * #define GL_VERTEX_ARRAY_BUFFER_BINDING_ARB 34966
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_BUFFER_INFO() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_BUFFER_INFO;
+    public static int GL_VERTEX_ARRAY_BUFFER_BINDING_ARB() {
+        return GL_VERTEX_ARRAY_BUFFER_BINDING_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_EXTERNAL_BUFFER_PROPERTIES = (int)1000071003L;
+    private static final int GL_NORMAL_ARRAY_BUFFER_BINDING_ARB = (int)34967L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_EXTERNAL_BUFFER_PROPERTIES = 1000071003
+     * #define GL_NORMAL_ARRAY_BUFFER_BINDING_ARB 34967
      * }
      */
-    public static int VK_STRUCTURE_TYPE_EXTERNAL_BUFFER_PROPERTIES() {
-        return VK_STRUCTURE_TYPE_EXTERNAL_BUFFER_PROPERTIES;
+    public static int GL_NORMAL_ARRAY_BUFFER_BINDING_ARB() {
+        return GL_NORMAL_ARRAY_BUFFER_BINDING_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ID_PROPERTIES = (int)1000071004L;
+    private static final int GL_COLOR_ARRAY_BUFFER_BINDING_ARB = (int)34968L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ID_PROPERTIES = 1000071004
+     * #define GL_COLOR_ARRAY_BUFFER_BINDING_ARB 34968
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ID_PROPERTIES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ID_PROPERTIES;
+    public static int GL_COLOR_ARRAY_BUFFER_BINDING_ARB() {
+        return GL_COLOR_ARRAY_BUFFER_BINDING_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_BUFFER_CREATE_INFO = (int)1000072000L;
+    private static final int GL_INDEX_ARRAY_BUFFER_BINDING_ARB = (int)34969L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_BUFFER_CREATE_INFO = 1000072000
+     * #define GL_INDEX_ARRAY_BUFFER_BINDING_ARB 34969
      * }
      */
-    public static int VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_BUFFER_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_BUFFER_CREATE_INFO;
+    public static int GL_INDEX_ARRAY_BUFFER_BINDING_ARB() {
+        return GL_INDEX_ARRAY_BUFFER_BINDING_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_IMAGE_CREATE_INFO = (int)1000072001L;
+    private static final int GL_TEXTURE_COORD_ARRAY_BUFFER_BINDING_ARB = (int)34970L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_IMAGE_CREATE_INFO = 1000072001
+     * #define GL_TEXTURE_COORD_ARRAY_BUFFER_BINDING_ARB 34970
      * }
      */
-    public static int VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_IMAGE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_IMAGE_CREATE_INFO;
+    public static int GL_TEXTURE_COORD_ARRAY_BUFFER_BINDING_ARB() {
+        return GL_TEXTURE_COORD_ARRAY_BUFFER_BINDING_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_EXPORT_MEMORY_ALLOCATE_INFO = (int)1000072002L;
+    private static final int GL_EDGE_FLAG_ARRAY_BUFFER_BINDING_ARB = (int)34971L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_EXPORT_MEMORY_ALLOCATE_INFO = 1000072002
+     * #define GL_EDGE_FLAG_ARRAY_BUFFER_BINDING_ARB 34971
      * }
      */
-    public static int VK_STRUCTURE_TYPE_EXPORT_MEMORY_ALLOCATE_INFO() {
-        return VK_STRUCTURE_TYPE_EXPORT_MEMORY_ALLOCATE_INFO;
+    public static int GL_EDGE_FLAG_ARRAY_BUFFER_BINDING_ARB() {
+        return GL_EDGE_FLAG_ARRAY_BUFFER_BINDING_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_FENCE_INFO = (int)1000112000L;
+    private static final int GL_SECONDARY_COLOR_ARRAY_BUFFER_BINDING_ARB = (int)34972L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_FENCE_INFO = 1000112000
+     * #define GL_SECONDARY_COLOR_ARRAY_BUFFER_BINDING_ARB 34972
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_FENCE_INFO() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_FENCE_INFO;
+    public static int GL_SECONDARY_COLOR_ARRAY_BUFFER_BINDING_ARB() {
+        return GL_SECONDARY_COLOR_ARRAY_BUFFER_BINDING_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_EXTERNAL_FENCE_PROPERTIES = (int)1000112001L;
+    private static final int GL_FOG_COORDINATE_ARRAY_BUFFER_BINDING_ARB = (int)34973L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_EXTERNAL_FENCE_PROPERTIES = 1000112001
+     * #define GL_FOG_COORDINATE_ARRAY_BUFFER_BINDING_ARB 34973
      * }
      */
-    public static int VK_STRUCTURE_TYPE_EXTERNAL_FENCE_PROPERTIES() {
-        return VK_STRUCTURE_TYPE_EXTERNAL_FENCE_PROPERTIES;
+    public static int GL_FOG_COORDINATE_ARRAY_BUFFER_BINDING_ARB() {
+        return GL_FOG_COORDINATE_ARRAY_BUFFER_BINDING_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_EXPORT_FENCE_CREATE_INFO = (int)1000113000L;
+    private static final int GL_WEIGHT_ARRAY_BUFFER_BINDING_ARB = (int)34974L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_EXPORT_FENCE_CREATE_INFO = 1000113000
+     * #define GL_WEIGHT_ARRAY_BUFFER_BINDING_ARB 34974
      * }
      */
-    public static int VK_STRUCTURE_TYPE_EXPORT_FENCE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_EXPORT_FENCE_CREATE_INFO;
+    public static int GL_WEIGHT_ARRAY_BUFFER_BINDING_ARB() {
+        return GL_WEIGHT_ARRAY_BUFFER_BINDING_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_EXPORT_SEMAPHORE_CREATE_INFO = (int)1000077000L;
+    private static final int GL_VERTEX_ATTRIB_ARRAY_BUFFER_BINDING_ARB = (int)34975L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_EXPORT_SEMAPHORE_CREATE_INFO = 1000077000
+     * #define GL_VERTEX_ATTRIB_ARRAY_BUFFER_BINDING_ARB 34975
      * }
      */
-    public static int VK_STRUCTURE_TYPE_EXPORT_SEMAPHORE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_EXPORT_SEMAPHORE_CREATE_INFO;
+    public static int GL_VERTEX_ATTRIB_ARRAY_BUFFER_BINDING_ARB() {
+        return GL_VERTEX_ATTRIB_ARRAY_BUFFER_BINDING_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_SEMAPHORE_INFO = (int)1000076000L;
+    private static final int GL_READ_ONLY_ARB = (int)35000L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_SEMAPHORE_INFO = 1000076000
+     * #define GL_READ_ONLY_ARB 35000
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_SEMAPHORE_INFO() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_SEMAPHORE_INFO;
+    public static int GL_READ_ONLY_ARB() {
+        return GL_READ_ONLY_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_EXTERNAL_SEMAPHORE_PROPERTIES = (int)1000076001L;
+    private static final int GL_WRITE_ONLY_ARB = (int)35001L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_EXTERNAL_SEMAPHORE_PROPERTIES = 1000076001
+     * #define GL_WRITE_ONLY_ARB 35001
      * }
      */
-    public static int VK_STRUCTURE_TYPE_EXTERNAL_SEMAPHORE_PROPERTIES() {
-        return VK_STRUCTURE_TYPE_EXTERNAL_SEMAPHORE_PROPERTIES;
+    public static int GL_WRITE_ONLY_ARB() {
+        return GL_WRITE_ONLY_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_3_PROPERTIES = (int)1000168000L;
+    private static final int GL_READ_WRITE_ARB = (int)35002L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_3_PROPERTIES = 1000168000
+     * #define GL_READ_WRITE_ARB 35002
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_3_PROPERTIES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_3_PROPERTIES;
+    public static int GL_READ_WRITE_ARB() {
+        return GL_READ_WRITE_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_SUPPORT = (int)1000168001L;
+    private static final int GL_BUFFER_ACCESS_ARB = (int)35003L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_SUPPORT = 1000168001
+     * #define GL_BUFFER_ACCESS_ARB 35003
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_SUPPORT() {
-        return VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_SUPPORT;
+    public static int GL_BUFFER_ACCESS_ARB() {
+        return GL_BUFFER_ACCESS_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DRAW_PARAMETERS_FEATURES = (int)1000063000L;
+    private static final int GL_BUFFER_MAPPED_ARB = (int)35004L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DRAW_PARAMETERS_FEATURES = 1000063000
+     * #define GL_BUFFER_MAPPED_ARB 35004
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DRAW_PARAMETERS_FEATURES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DRAW_PARAMETERS_FEATURES;
+    public static int GL_BUFFER_MAPPED_ARB() {
+        return GL_BUFFER_MAPPED_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_1_FEATURES = (int)49L;
+    private static final int GL_BUFFER_MAP_POINTER_ARB = (int)35005L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_1_FEATURES = 49
+     * #define GL_BUFFER_MAP_POINTER_ARB 35005
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_1_FEATURES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_1_FEATURES;
+    public static int GL_BUFFER_MAP_POINTER_ARB() {
+        return GL_BUFFER_MAP_POINTER_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_1_PROPERTIES = (int)50L;
+    private static final int GL_STREAM_DRAW_ARB = (int)35040L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_1_PROPERTIES = 50
+     * #define GL_STREAM_DRAW_ARB 35040
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_1_PROPERTIES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_1_PROPERTIES;
+    public static int GL_STREAM_DRAW_ARB() {
+        return GL_STREAM_DRAW_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_2_FEATURES = (int)51L;
+    private static final int GL_STREAM_READ_ARB = (int)35041L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_2_FEATURES = 51
+     * #define GL_STREAM_READ_ARB 35041
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_2_FEATURES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_2_FEATURES;
+    public static int GL_STREAM_READ_ARB() {
+        return GL_STREAM_READ_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_2_PROPERTIES = (int)52L;
+    private static final int GL_STREAM_COPY_ARB = (int)35042L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_2_PROPERTIES = 52
+     * #define GL_STREAM_COPY_ARB 35042
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_2_PROPERTIES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_2_PROPERTIES;
+    public static int GL_STREAM_COPY_ARB() {
+        return GL_STREAM_COPY_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_IMAGE_FORMAT_LIST_CREATE_INFO = (int)1000147000L;
+    private static final int GL_STATIC_DRAW_ARB = (int)35044L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMAGE_FORMAT_LIST_CREATE_INFO = 1000147000
+     * #define GL_STATIC_DRAW_ARB 35044
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMAGE_FORMAT_LIST_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_IMAGE_FORMAT_LIST_CREATE_INFO;
+    public static int GL_STATIC_DRAW_ARB() {
+        return GL_STATIC_DRAW_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_2 = (int)1000109000L;
+    private static final int GL_STATIC_READ_ARB = (int)35045L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_2 = 1000109000
+     * #define GL_STATIC_READ_ARB 35045
      * }
      */
-    public static int VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_2() {
-        return VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_2;
+    public static int GL_STATIC_READ_ARB() {
+        return GL_STATIC_READ_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_2 = (int)1000109001L;
+    private static final int GL_STATIC_COPY_ARB = (int)35046L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_2 = 1000109001
+     * #define GL_STATIC_COPY_ARB 35046
      * }
      */
-    public static int VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_2() {
-        return VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_2;
+    public static int GL_STATIC_COPY_ARB() {
+        return GL_STATIC_COPY_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_2 = (int)1000109002L;
+    private static final int GL_DYNAMIC_DRAW_ARB = (int)35048L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_2 = 1000109002
+     * #define GL_DYNAMIC_DRAW_ARB 35048
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_2() {
-        return VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_2;
+    public static int GL_DYNAMIC_DRAW_ARB() {
+        return GL_DYNAMIC_DRAW_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_SUBPASS_DEPENDENCY_2 = (int)1000109003L;
+    private static final int GL_DYNAMIC_READ_ARB = (int)35049L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SUBPASS_DEPENDENCY_2 = 1000109003
+     * #define GL_DYNAMIC_READ_ARB 35049
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SUBPASS_DEPENDENCY_2() {
-        return VK_STRUCTURE_TYPE_SUBPASS_DEPENDENCY_2;
+    public static int GL_DYNAMIC_READ_ARB() {
+        return GL_DYNAMIC_READ_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_RENDER_PASS_CREATE_INFO_2 = (int)1000109004L;
+    private static final int GL_DYNAMIC_COPY_ARB = (int)35050L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_RENDER_PASS_CREATE_INFO_2 = 1000109004
+     * #define GL_DYNAMIC_COPY_ARB 35050
      * }
      */
-    public static int VK_STRUCTURE_TYPE_RENDER_PASS_CREATE_INFO_2() {
-        return VK_STRUCTURE_TYPE_RENDER_PASS_CREATE_INFO_2;
+    public static int GL_DYNAMIC_COPY_ARB() {
+        return GL_DYNAMIC_COPY_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_SUBPASS_BEGIN_INFO = (int)1000109005L;
+    private static final int GL_ARB_vertex_program = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SUBPASS_BEGIN_INFO = 1000109005
+     * #define GL_ARB_vertex_program 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SUBPASS_BEGIN_INFO() {
-        return VK_STRUCTURE_TYPE_SUBPASS_BEGIN_INFO;
+    public static int GL_ARB_vertex_program() {
+        return GL_ARB_vertex_program;
     }
-    private static final int VK_STRUCTURE_TYPE_SUBPASS_END_INFO = (int)1000109006L;
+    private static final int GL_COLOR_SUM_ARB = (int)33880L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SUBPASS_END_INFO = 1000109006
+     * #define GL_COLOR_SUM_ARB 33880
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SUBPASS_END_INFO() {
-        return VK_STRUCTURE_TYPE_SUBPASS_END_INFO;
+    public static int GL_COLOR_SUM_ARB() {
+        return GL_COLOR_SUM_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_8BIT_STORAGE_FEATURES = (int)1000177000L;
+    private static final int GL_VERTEX_PROGRAM_ARB = (int)34336L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_8BIT_STORAGE_FEATURES = 1000177000
+     * #define GL_VERTEX_PROGRAM_ARB 34336
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_8BIT_STORAGE_FEATURES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_8BIT_STORAGE_FEATURES;
+    public static int GL_VERTEX_PROGRAM_ARB() {
+        return GL_VERTEX_PROGRAM_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DRIVER_PROPERTIES = (int)1000196000L;
+    private static final int GL_VERTEX_ATTRIB_ARRAY_ENABLED_ARB = (int)34338L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DRIVER_PROPERTIES = 1000196000
+     * #define GL_VERTEX_ATTRIB_ARRAY_ENABLED_ARB 34338
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DRIVER_PROPERTIES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DRIVER_PROPERTIES;
+    public static int GL_VERTEX_ATTRIB_ARRAY_ENABLED_ARB() {
+        return GL_VERTEX_ATTRIB_ARRAY_ENABLED_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_INT64_FEATURES = (int)1000180000L;
+    private static final int GL_VERTEX_ATTRIB_ARRAY_SIZE_ARB = (int)34339L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_INT64_FEATURES = 1000180000
+     * #define GL_VERTEX_ATTRIB_ARRAY_SIZE_ARB 34339
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_INT64_FEATURES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_INT64_FEATURES;
+    public static int GL_VERTEX_ATTRIB_ARRAY_SIZE_ARB() {
+        return GL_VERTEX_ATTRIB_ARRAY_SIZE_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_FLOAT16_INT8_FEATURES = (int)1000082000L;
+    private static final int GL_VERTEX_ATTRIB_ARRAY_STRIDE_ARB = (int)34340L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_FLOAT16_INT8_FEATURES = 1000082000
+     * #define GL_VERTEX_ATTRIB_ARRAY_STRIDE_ARB 34340
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_FLOAT16_INT8_FEATURES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_FLOAT16_INT8_FEATURES;
+    public static int GL_VERTEX_ATTRIB_ARRAY_STRIDE_ARB() {
+        return GL_VERTEX_ATTRIB_ARRAY_STRIDE_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FLOAT_CONTROLS_PROPERTIES = (int)1000197000L;
+    private static final int GL_VERTEX_ATTRIB_ARRAY_TYPE_ARB = (int)34341L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FLOAT_CONTROLS_PROPERTIES = 1000197000
+     * #define GL_VERTEX_ATTRIB_ARRAY_TYPE_ARB 34341
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FLOAT_CONTROLS_PROPERTIES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FLOAT_CONTROLS_PROPERTIES;
+    public static int GL_VERTEX_ATTRIB_ARRAY_TYPE_ARB() {
+        return GL_VERTEX_ATTRIB_ARRAY_TYPE_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_BINDING_FLAGS_CREATE_INFO = (int)1000161000L;
+    private static final int GL_CURRENT_VERTEX_ATTRIB_ARB = (int)34342L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_BINDING_FLAGS_CREATE_INFO = 1000161000
+     * #define GL_CURRENT_VERTEX_ATTRIB_ARB 34342
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_BINDING_FLAGS_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_BINDING_FLAGS_CREATE_INFO;
+    public static int GL_CURRENT_VERTEX_ATTRIB_ARB() {
+        return GL_CURRENT_VERTEX_ATTRIB_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_FEATURES = (int)1000161001L;
+    private static final int GL_VERTEX_PROGRAM_POINT_SIZE_ARB = (int)34370L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_FEATURES = 1000161001
+     * #define GL_VERTEX_PROGRAM_POINT_SIZE_ARB 34370
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_FEATURES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_FEATURES;
+    public static int GL_VERTEX_PROGRAM_POINT_SIZE_ARB() {
+        return GL_VERTEX_PROGRAM_POINT_SIZE_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_PROPERTIES = (int)1000161002L;
+    private static final int GL_VERTEX_PROGRAM_TWO_SIDE_ARB = (int)34371L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_PROPERTIES = 1000161002
+     * #define GL_VERTEX_PROGRAM_TWO_SIDE_ARB 34371
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_PROPERTIES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_PROPERTIES;
+    public static int GL_VERTEX_PROGRAM_TWO_SIDE_ARB() {
+        return GL_VERTEX_PROGRAM_TWO_SIDE_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_ALLOCATE_INFO = (int)1000161003L;
+    private static final int GL_VERTEX_ATTRIB_ARRAY_POINTER_ARB = (int)34373L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_ALLOCATE_INFO = 1000161003
+     * #define GL_VERTEX_ATTRIB_ARRAY_POINTER_ARB 34373
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_ALLOCATE_INFO() {
-        return VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_ALLOCATE_INFO;
+    public static int GL_VERTEX_ATTRIB_ARRAY_POINTER_ARB() {
+        return GL_VERTEX_ATTRIB_ARRAY_POINTER_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_LAYOUT_SUPPORT = (int)1000161004L;
+    private static final int GL_MAX_VERTEX_ATTRIBS_ARB = (int)34921L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_LAYOUT_SUPPORT = 1000161004
+     * #define GL_MAX_VERTEX_ATTRIBS_ARB 34921
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_LAYOUT_SUPPORT() {
-        return VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_LAYOUT_SUPPORT;
+    public static int GL_MAX_VERTEX_ATTRIBS_ARB() {
+        return GL_MAX_VERTEX_ATTRIBS_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_STENCIL_RESOLVE_PROPERTIES = (int)1000199000L;
+    private static final int GL_VERTEX_ATTRIB_ARRAY_NORMALIZED_ARB = (int)34922L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_STENCIL_RESOLVE_PROPERTIES = 1000199000
+     * #define GL_VERTEX_ATTRIB_ARRAY_NORMALIZED_ARB 34922
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_STENCIL_RESOLVE_PROPERTIES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_STENCIL_RESOLVE_PROPERTIES;
+    public static int GL_VERTEX_ATTRIB_ARRAY_NORMALIZED_ARB() {
+        return GL_VERTEX_ATTRIB_ARRAY_NORMALIZED_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_DEPTH_STENCIL_RESOLVE = (int)1000199001L;
+    private static final int GL_PROGRAM_ADDRESS_REGISTERS_ARB = (int)34992L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_DEPTH_STENCIL_RESOLVE = 1000199001
+     * #define GL_PROGRAM_ADDRESS_REGISTERS_ARB 34992
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_DEPTH_STENCIL_RESOLVE() {
-        return VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_DEPTH_STENCIL_RESOLVE;
+    public static int GL_PROGRAM_ADDRESS_REGISTERS_ARB() {
+        return GL_PROGRAM_ADDRESS_REGISTERS_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SCALAR_BLOCK_LAYOUT_FEATURES = (int)1000221000L;
+    private static final int GL_MAX_PROGRAM_ADDRESS_REGISTERS_ARB = (int)34993L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SCALAR_BLOCK_LAYOUT_FEATURES = 1000221000
+     * #define GL_MAX_PROGRAM_ADDRESS_REGISTERS_ARB 34993
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SCALAR_BLOCK_LAYOUT_FEATURES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SCALAR_BLOCK_LAYOUT_FEATURES;
+    public static int GL_MAX_PROGRAM_ADDRESS_REGISTERS_ARB() {
+        return GL_MAX_PROGRAM_ADDRESS_REGISTERS_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_IMAGE_STENCIL_USAGE_CREATE_INFO = (int)1000246000L;
+    private static final int GL_PROGRAM_NATIVE_ADDRESS_REGISTERS_ARB = (int)34994L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMAGE_STENCIL_USAGE_CREATE_INFO = 1000246000
+     * #define GL_PROGRAM_NATIVE_ADDRESS_REGISTERS_ARB 34994
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMAGE_STENCIL_USAGE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_IMAGE_STENCIL_USAGE_CREATE_INFO;
+    public static int GL_PROGRAM_NATIVE_ADDRESS_REGISTERS_ARB() {
+        return GL_PROGRAM_NATIVE_ADDRESS_REGISTERS_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_FILTER_MINMAX_PROPERTIES = (int)1000130000L;
+    private static final int GL_MAX_PROGRAM_NATIVE_ADDRESS_REGISTERS_ARB = (int)34995L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_FILTER_MINMAX_PROPERTIES = 1000130000
+     * #define GL_MAX_PROGRAM_NATIVE_ADDRESS_REGISTERS_ARB 34995
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_FILTER_MINMAX_PROPERTIES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_FILTER_MINMAX_PROPERTIES;
+    public static int GL_MAX_PROGRAM_NATIVE_ADDRESS_REGISTERS_ARB() {
+        return GL_MAX_PROGRAM_NATIVE_ADDRESS_REGISTERS_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_SAMPLER_REDUCTION_MODE_CREATE_INFO = (int)1000130001L;
+    private static final int GL_ARB_vertex_shader = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SAMPLER_REDUCTION_MODE_CREATE_INFO = 1000130001
+     * #define GL_ARB_vertex_shader 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SAMPLER_REDUCTION_MODE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_SAMPLER_REDUCTION_MODE_CREATE_INFO;
+    public static int GL_ARB_vertex_shader() {
+        return GL_ARB_vertex_shader;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_MEMORY_MODEL_FEATURES = (int)1000211000L;
+    private static final int GL_VERTEX_SHADER_ARB = (int)35633L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_MEMORY_MODEL_FEATURES = 1000211000
+     * #define GL_VERTEX_SHADER_ARB 35633
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_MEMORY_MODEL_FEATURES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_MEMORY_MODEL_FEATURES;
+    public static int GL_VERTEX_SHADER_ARB() {
+        return GL_VERTEX_SHADER_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGELESS_FRAMEBUFFER_FEATURES = (int)1000108000L;
+    private static final int GL_MAX_VERTEX_UNIFORM_COMPONENTS_ARB = (int)35658L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGELESS_FRAMEBUFFER_FEATURES = 1000108000
+     * #define GL_MAX_VERTEX_UNIFORM_COMPONENTS_ARB 35658
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGELESS_FRAMEBUFFER_FEATURES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGELESS_FRAMEBUFFER_FEATURES;
+    public static int GL_MAX_VERTEX_UNIFORM_COMPONENTS_ARB() {
+        return GL_MAX_VERTEX_UNIFORM_COMPONENTS_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENTS_CREATE_INFO = (int)1000108001L;
+    private static final int GL_MAX_VARYING_FLOATS_ARB = (int)35659L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENTS_CREATE_INFO = 1000108001
+     * #define GL_MAX_VARYING_FLOATS_ARB 35659
      * }
      */
-    public static int VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENTS_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENTS_CREATE_INFO;
+    public static int GL_MAX_VARYING_FLOATS_ARB() {
+        return GL_MAX_VARYING_FLOATS_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENT_IMAGE_INFO = (int)1000108002L;
+    private static final int GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS_ARB = (int)35660L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENT_IMAGE_INFO = 1000108002
+     * #define GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS_ARB 35660
      * }
      */
-    public static int VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENT_IMAGE_INFO() {
-        return VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENT_IMAGE_INFO;
+    public static int GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS_ARB() {
+        return GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_RENDER_PASS_ATTACHMENT_BEGIN_INFO = (int)1000108003L;
+    private static final int GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS_ARB = (int)35661L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_RENDER_PASS_ATTACHMENT_BEGIN_INFO = 1000108003
+     * #define GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS_ARB 35661
      * }
      */
-    public static int VK_STRUCTURE_TYPE_RENDER_PASS_ATTACHMENT_BEGIN_INFO() {
-        return VK_STRUCTURE_TYPE_RENDER_PASS_ATTACHMENT_BEGIN_INFO;
+    public static int GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS_ARB() {
+        return GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_UNIFORM_BUFFER_STANDARD_LAYOUT_FEATURES = (int)1000253000L;
+    private static final int GL_OBJECT_ACTIVE_ATTRIBUTES_ARB = (int)35721L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_UNIFORM_BUFFER_STANDARD_LAYOUT_FEATURES = 1000253000
+     * #define GL_OBJECT_ACTIVE_ATTRIBUTES_ARB 35721
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_UNIFORM_BUFFER_STANDARD_LAYOUT_FEATURES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_UNIFORM_BUFFER_STANDARD_LAYOUT_FEATURES;
+    public static int GL_OBJECT_ACTIVE_ATTRIBUTES_ARB() {
+        return GL_OBJECT_ACTIVE_ATTRIBUTES_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SUBGROUP_EXTENDED_TYPES_FEATURES = (int)1000175000L;
+    private static final int GL_OBJECT_ACTIVE_ATTRIBUTE_MAX_LENGTH_ARB = (int)35722L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SUBGROUP_EXTENDED_TYPES_FEATURES = 1000175000
+     * #define GL_OBJECT_ACTIVE_ATTRIBUTE_MAX_LENGTH_ARB 35722
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SUBGROUP_EXTENDED_TYPES_FEATURES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SUBGROUP_EXTENDED_TYPES_FEATURES;
+    public static int GL_OBJECT_ACTIVE_ATTRIBUTE_MAX_LENGTH_ARB() {
+        return GL_OBJECT_ACTIVE_ATTRIBUTE_MAX_LENGTH_ARB;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SEPARATE_DEPTH_STENCIL_LAYOUTS_FEATURES = (int)1000241000L;
+    private static final int GL_ARB_vertex_type_10f_11f_11f_rev = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SEPARATE_DEPTH_STENCIL_LAYOUTS_FEATURES = 1000241000
+     * #define GL_ARB_vertex_type_10f_11f_11f_rev 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SEPARATE_DEPTH_STENCIL_LAYOUTS_FEATURES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SEPARATE_DEPTH_STENCIL_LAYOUTS_FEATURES;
+    public static int GL_ARB_vertex_type_10f_11f_11f_rev() {
+        return GL_ARB_vertex_type_10f_11f_11f_rev;
     }
-    private static final int VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_STENCIL_LAYOUT = (int)1000241001L;
+    private static final int GL_ARB_vertex_type_2_10_10_10_rev = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_STENCIL_LAYOUT = 1000241001
+     * #define GL_ARB_vertex_type_2_10_10_10_rev 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_STENCIL_LAYOUT() {
-        return VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_STENCIL_LAYOUT;
+    public static int GL_ARB_vertex_type_2_10_10_10_rev() {
+        return GL_ARB_vertex_type_2_10_10_10_rev;
     }
-    private static final int VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_STENCIL_LAYOUT = (int)1000241002L;
+    private static final int GL_ARB_viewport_array = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_STENCIL_LAYOUT = 1000241002
+     * #define GL_ARB_viewport_array 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_STENCIL_LAYOUT() {
-        return VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_STENCIL_LAYOUT;
+    public static int GL_ARB_viewport_array() {
+        return GL_ARB_viewport_array;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HOST_QUERY_RESET_FEATURES = (int)1000261000L;
+    private static final int GL_ARB_window_pos = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HOST_QUERY_RESET_FEATURES = 1000261000
+     * #define GL_ARB_window_pos 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HOST_QUERY_RESET_FEATURES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HOST_QUERY_RESET_FEATURES;
+    public static int GL_ARB_window_pos() {
+        return GL_ARB_window_pos;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_FEATURES = (int)1000207000L;
+    private static final int GL_KHR_blend_equation_advanced = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_FEATURES = 1000207000
+     * #define GL_KHR_blend_equation_advanced 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_FEATURES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_FEATURES;
+    public static int GL_KHR_blend_equation_advanced() {
+        return GL_KHR_blend_equation_advanced;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_PROPERTIES = (int)1000207001L;
+    private static final int GL_MULTIPLY_KHR = (int)37524L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_PROPERTIES = 1000207001
+     * #define GL_MULTIPLY_KHR 37524
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_PROPERTIES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_PROPERTIES;
+    public static int GL_MULTIPLY_KHR() {
+        return GL_MULTIPLY_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_SEMAPHORE_TYPE_CREATE_INFO = (int)1000207002L;
+    private static final int GL_SCREEN_KHR = (int)37525L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SEMAPHORE_TYPE_CREATE_INFO = 1000207002
+     * #define GL_SCREEN_KHR 37525
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SEMAPHORE_TYPE_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_SEMAPHORE_TYPE_CREATE_INFO;
+    public static int GL_SCREEN_KHR() {
+        return GL_SCREEN_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_TIMELINE_SEMAPHORE_SUBMIT_INFO = (int)1000207003L;
+    private static final int GL_OVERLAY_KHR = (int)37526L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_TIMELINE_SEMAPHORE_SUBMIT_INFO = 1000207003
+     * #define GL_OVERLAY_KHR 37526
      * }
      */
-    public static int VK_STRUCTURE_TYPE_TIMELINE_SEMAPHORE_SUBMIT_INFO() {
-        return VK_STRUCTURE_TYPE_TIMELINE_SEMAPHORE_SUBMIT_INFO;
+    public static int GL_OVERLAY_KHR() {
+        return GL_OVERLAY_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_SEMAPHORE_WAIT_INFO = (int)1000207004L;
+    private static final int GL_DARKEN_KHR = (int)37527L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SEMAPHORE_WAIT_INFO = 1000207004
+     * #define GL_DARKEN_KHR 37527
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SEMAPHORE_WAIT_INFO() {
-        return VK_STRUCTURE_TYPE_SEMAPHORE_WAIT_INFO;
+    public static int GL_DARKEN_KHR() {
+        return GL_DARKEN_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_SEMAPHORE_SIGNAL_INFO = (int)1000207005L;
+    private static final int GL_LIGHTEN_KHR = (int)37528L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SEMAPHORE_SIGNAL_INFO = 1000207005
+     * #define GL_LIGHTEN_KHR 37528
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SEMAPHORE_SIGNAL_INFO() {
-        return VK_STRUCTURE_TYPE_SEMAPHORE_SIGNAL_INFO;
+    public static int GL_LIGHTEN_KHR() {
+        return GL_LIGHTEN_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_DEVICE_ADDRESS_FEATURES = (int)1000257000L;
+    private static final int GL_COLORDODGE_KHR = (int)37529L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_DEVICE_ADDRESS_FEATURES = 1000257000
+     * #define GL_COLORDODGE_KHR 37529
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_DEVICE_ADDRESS_FEATURES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_DEVICE_ADDRESS_FEATURES;
+    public static int GL_COLORDODGE_KHR() {
+        return GL_COLORDODGE_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_INFO = (int)1000244001L;
+    private static final int GL_COLORBURN_KHR = (int)37530L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_INFO = 1000244001
+     * #define GL_COLORBURN_KHR 37530
      * }
      */
-    public static int VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_INFO() {
-        return VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_INFO;
+    public static int GL_COLORBURN_KHR() {
+        return GL_COLORBURN_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_BUFFER_OPAQUE_CAPTURE_ADDRESS_CREATE_INFO = (int)1000257002L;
+    private static final int GL_HARDLIGHT_KHR = (int)37531L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_BUFFER_OPAQUE_CAPTURE_ADDRESS_CREATE_INFO = 1000257002
+     * #define GL_HARDLIGHT_KHR 37531
      * }
      */
-    public static int VK_STRUCTURE_TYPE_BUFFER_OPAQUE_CAPTURE_ADDRESS_CREATE_INFO() {
-        return VK_STRUCTURE_TYPE_BUFFER_OPAQUE_CAPTURE_ADDRESS_CREATE_INFO;
+    public static int GL_HARDLIGHT_KHR() {
+        return GL_HARDLIGHT_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_MEMORY_OPAQUE_CAPTURE_ADDRESS_ALLOCATE_INFO = (int)1000257003L;
+    private static final int GL_SOFTLIGHT_KHR = (int)37532L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_MEMORY_OPAQUE_CAPTURE_ADDRESS_ALLOCATE_INFO = 1000257003
+     * #define GL_SOFTLIGHT_KHR 37532
      * }
      */
-    public static int VK_STRUCTURE_TYPE_MEMORY_OPAQUE_CAPTURE_ADDRESS_ALLOCATE_INFO() {
-        return VK_STRUCTURE_TYPE_MEMORY_OPAQUE_CAPTURE_ADDRESS_ALLOCATE_INFO;
+    public static int GL_SOFTLIGHT_KHR() {
+        return GL_SOFTLIGHT_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_DEVICE_MEMORY_OPAQUE_CAPTURE_ADDRESS_INFO = (int)1000257004L;
+    private static final int GL_DIFFERENCE_KHR = (int)37534L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEVICE_MEMORY_OPAQUE_CAPTURE_ADDRESS_INFO = 1000257004
+     * #define GL_DIFFERENCE_KHR 37534
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEVICE_MEMORY_OPAQUE_CAPTURE_ADDRESS_INFO() {
-        return VK_STRUCTURE_TYPE_DEVICE_MEMORY_OPAQUE_CAPTURE_ADDRESS_INFO;
+    public static int GL_DIFFERENCE_KHR() {
+        return GL_DIFFERENCE_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_SWAPCHAIN_CREATE_INFO_KHR = (int)1000001000L;
+    private static final int GL_EXCLUSION_KHR = (int)37536L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SWAPCHAIN_CREATE_INFO_KHR = 1000001000
+     * #define GL_EXCLUSION_KHR 37536
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SWAPCHAIN_CREATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_SWAPCHAIN_CREATE_INFO_KHR;
+    public static int GL_EXCLUSION_KHR() {
+        return GL_EXCLUSION_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_PRESENT_INFO_KHR = (int)1000001001L;
+    private static final int GL_HSL_HUE_KHR = (int)37549L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PRESENT_INFO_KHR = 1000001001
+     * #define GL_HSL_HUE_KHR 37549
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PRESENT_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_PRESENT_INFO_KHR;
+    public static int GL_HSL_HUE_KHR() {
+        return GL_HSL_HUE_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_DEVICE_GROUP_PRESENT_CAPABILITIES_KHR = (int)1000060007L;
+    private static final int GL_HSL_SATURATION_KHR = (int)37550L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEVICE_GROUP_PRESENT_CAPABILITIES_KHR = 1000060007
+     * #define GL_HSL_SATURATION_KHR 37550
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEVICE_GROUP_PRESENT_CAPABILITIES_KHR() {
-        return VK_STRUCTURE_TYPE_DEVICE_GROUP_PRESENT_CAPABILITIES_KHR;
+    public static int GL_HSL_SATURATION_KHR() {
+        return GL_HSL_SATURATION_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_IMAGE_SWAPCHAIN_CREATE_INFO_KHR = (int)1000060008L;
+    private static final int GL_HSL_COLOR_KHR = (int)37551L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMAGE_SWAPCHAIN_CREATE_INFO_KHR = 1000060008
+     * #define GL_HSL_COLOR_KHR 37551
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMAGE_SWAPCHAIN_CREATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_IMAGE_SWAPCHAIN_CREATE_INFO_KHR;
+    public static int GL_HSL_COLOR_KHR() {
+        return GL_HSL_COLOR_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_SWAPCHAIN_INFO_KHR = (int)1000060009L;
+    private static final int GL_HSL_LUMINOSITY_KHR = (int)37552L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_SWAPCHAIN_INFO_KHR = 1000060009
+     * #define GL_HSL_LUMINOSITY_KHR 37552
      * }
      */
-    public static int VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_SWAPCHAIN_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_SWAPCHAIN_INFO_KHR;
+    public static int GL_HSL_LUMINOSITY_KHR() {
+        return GL_HSL_LUMINOSITY_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_ACQUIRE_NEXT_IMAGE_INFO_KHR = (int)1000060010L;
+    private static final int GL_KHR_blend_equation_advanced_coherent = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_ACQUIRE_NEXT_IMAGE_INFO_KHR = 1000060010
+     * #define GL_KHR_blend_equation_advanced_coherent 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_ACQUIRE_NEXT_IMAGE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_ACQUIRE_NEXT_IMAGE_INFO_KHR;
+    public static int GL_KHR_blend_equation_advanced_coherent() {
+        return GL_KHR_blend_equation_advanced_coherent;
     }
-    private static final int VK_STRUCTURE_TYPE_DEVICE_GROUP_PRESENT_INFO_KHR = (int)1000060011L;
+    private static final int GL_BLEND_ADVANCED_COHERENT_KHR = (int)37509L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEVICE_GROUP_PRESENT_INFO_KHR = 1000060011
+     * #define GL_BLEND_ADVANCED_COHERENT_KHR 37509
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEVICE_GROUP_PRESENT_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_DEVICE_GROUP_PRESENT_INFO_KHR;
+    public static int GL_BLEND_ADVANCED_COHERENT_KHR() {
+        return GL_BLEND_ADVANCED_COHERENT_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_DEVICE_GROUP_SWAPCHAIN_CREATE_INFO_KHR = (int)1000060012L;
+    private static final int GL_KHR_context_flush_control = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEVICE_GROUP_SWAPCHAIN_CREATE_INFO_KHR = 1000060012
+     * #define GL_KHR_context_flush_control 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEVICE_GROUP_SWAPCHAIN_CREATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_DEVICE_GROUP_SWAPCHAIN_CREATE_INFO_KHR;
+    public static int GL_KHR_context_flush_control() {
+        return GL_KHR_context_flush_control;
     }
-    private static final int VK_STRUCTURE_TYPE_DISPLAY_MODE_CREATE_INFO_KHR = (int)1000002000L;
+    private static final int GL_KHR_debug = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DISPLAY_MODE_CREATE_INFO_KHR = 1000002000
+     * #define GL_KHR_debug 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DISPLAY_MODE_CREATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_DISPLAY_MODE_CREATE_INFO_KHR;
+    public static int GL_KHR_debug() {
+        return GL_KHR_debug;
     }
-    private static final int VK_STRUCTURE_TYPE_DISPLAY_SURFACE_CREATE_INFO_KHR = (int)1000002001L;
+    private static final int GL_KHR_no_error = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DISPLAY_SURFACE_CREATE_INFO_KHR = 1000002001
+     * #define GL_KHR_no_error 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DISPLAY_SURFACE_CREATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_DISPLAY_SURFACE_CREATE_INFO_KHR;
+    public static int GL_KHR_no_error() {
+        return GL_KHR_no_error;
     }
-    private static final int VK_STRUCTURE_TYPE_DISPLAY_PRESENT_INFO_KHR = (int)1000003000L;
+    private static final int GL_CONTEXT_FLAG_NO_ERROR_BIT_KHR = (int)8L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DISPLAY_PRESENT_INFO_KHR = 1000003000
+     * #define GL_CONTEXT_FLAG_NO_ERROR_BIT_KHR 8
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DISPLAY_PRESENT_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_DISPLAY_PRESENT_INFO_KHR;
+    public static int GL_CONTEXT_FLAG_NO_ERROR_BIT_KHR() {
+        return GL_CONTEXT_FLAG_NO_ERROR_BIT_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_XLIB_SURFACE_CREATE_INFO_KHR = (int)1000004000L;
+    private static final int GL_KHR_parallel_shader_compile = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_XLIB_SURFACE_CREATE_INFO_KHR = 1000004000
+     * #define GL_KHR_parallel_shader_compile 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_XLIB_SURFACE_CREATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_XLIB_SURFACE_CREATE_INFO_KHR;
+    public static int GL_KHR_parallel_shader_compile() {
+        return GL_KHR_parallel_shader_compile;
     }
-    private static final int VK_STRUCTURE_TYPE_XCB_SURFACE_CREATE_INFO_KHR = (int)1000005000L;
+    private static final int GL_MAX_SHADER_COMPILER_THREADS_KHR = (int)37296L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_XCB_SURFACE_CREATE_INFO_KHR = 1000005000
+     * #define GL_MAX_SHADER_COMPILER_THREADS_KHR 37296
      * }
      */
-    public static int VK_STRUCTURE_TYPE_XCB_SURFACE_CREATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_XCB_SURFACE_CREATE_INFO_KHR;
+    public static int GL_MAX_SHADER_COMPILER_THREADS_KHR() {
+        return GL_MAX_SHADER_COMPILER_THREADS_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_WAYLAND_SURFACE_CREATE_INFO_KHR = (int)1000006000L;
+    private static final int GL_COMPLETION_STATUS_KHR = (int)37297L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_WAYLAND_SURFACE_CREATE_INFO_KHR = 1000006000
+     * #define GL_COMPLETION_STATUS_KHR 37297
      * }
      */
-    public static int VK_STRUCTURE_TYPE_WAYLAND_SURFACE_CREATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_WAYLAND_SURFACE_CREATE_INFO_KHR;
+    public static int GL_COMPLETION_STATUS_KHR() {
+        return GL_COMPLETION_STATUS_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_ANDROID_SURFACE_CREATE_INFO_KHR = (int)1000008000L;
+    private static final int GL_KHR_robust_buffer_access_behavior = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_ANDROID_SURFACE_CREATE_INFO_KHR = 1000008000
+     * #define GL_KHR_robust_buffer_access_behavior 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_ANDROID_SURFACE_CREATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_ANDROID_SURFACE_CREATE_INFO_KHR;
+    public static int GL_KHR_robust_buffer_access_behavior() {
+        return GL_KHR_robust_buffer_access_behavior;
     }
-    private static final int VK_STRUCTURE_TYPE_WIN32_SURFACE_CREATE_INFO_KHR = (int)1000009000L;
+    private static final int GL_KHR_robustness = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_WIN32_SURFACE_CREATE_INFO_KHR = 1000009000
+     * #define GL_KHR_robustness 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_WIN32_SURFACE_CREATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_WIN32_SURFACE_CREATE_INFO_KHR;
+    public static int GL_KHR_robustness() {
+        return GL_KHR_robustness;
     }
-    private static final int VK_STRUCTURE_TYPE_DEBUG_REPORT_CALLBACK_CREATE_INFO_EXT = (int)1000011000L;
+    private static final int GL_CONTEXT_ROBUST_ACCESS = (int)37107L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEBUG_REPORT_CALLBACK_CREATE_INFO_EXT = 1000011000
+     * #define GL_CONTEXT_ROBUST_ACCESS 37107
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEBUG_REPORT_CALLBACK_CREATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_DEBUG_REPORT_CALLBACK_CREATE_INFO_EXT;
+    public static int GL_CONTEXT_ROBUST_ACCESS() {
+        return GL_CONTEXT_ROBUST_ACCESS;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_RASTERIZATION_ORDER_AMD = (int)1000018000L;
+    private static final int GL_KHR_shader_subgroup = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_RASTERIZATION_ORDER_AMD = 1000018000
+     * #define GL_KHR_shader_subgroup 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_RASTERIZATION_ORDER_AMD() {
-        return VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_RASTERIZATION_ORDER_AMD;
+    public static int GL_KHR_shader_subgroup() {
+        return GL_KHR_shader_subgroup;
     }
-    private static final int VK_STRUCTURE_TYPE_DEBUG_MARKER_OBJECT_NAME_INFO_EXT = (int)1000022000L;
+    private static final int GL_SUBGROUP_SIZE_KHR = (int)38194L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEBUG_MARKER_OBJECT_NAME_INFO_EXT = 1000022000
+     * #define GL_SUBGROUP_SIZE_KHR 38194
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEBUG_MARKER_OBJECT_NAME_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_DEBUG_MARKER_OBJECT_NAME_INFO_EXT;
+    public static int GL_SUBGROUP_SIZE_KHR() {
+        return GL_SUBGROUP_SIZE_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_DEBUG_MARKER_OBJECT_TAG_INFO_EXT = (int)1000022001L;
+    private static final int GL_SUBGROUP_SUPPORTED_STAGES_KHR = (int)38195L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEBUG_MARKER_OBJECT_TAG_INFO_EXT = 1000022001
+     * #define GL_SUBGROUP_SUPPORTED_STAGES_KHR 38195
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEBUG_MARKER_OBJECT_TAG_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_DEBUG_MARKER_OBJECT_TAG_INFO_EXT;
+    public static int GL_SUBGROUP_SUPPORTED_STAGES_KHR() {
+        return GL_SUBGROUP_SUPPORTED_STAGES_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_DEBUG_MARKER_MARKER_INFO_EXT = (int)1000022002L;
+    private static final int GL_SUBGROUP_SUPPORTED_FEATURES_KHR = (int)38196L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEBUG_MARKER_MARKER_INFO_EXT = 1000022002
+     * #define GL_SUBGROUP_SUPPORTED_FEATURES_KHR 38196
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEBUG_MARKER_MARKER_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_DEBUG_MARKER_MARKER_INFO_EXT;
+    public static int GL_SUBGROUP_SUPPORTED_FEATURES_KHR() {
+        return GL_SUBGROUP_SUPPORTED_FEATURES_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_DEDICATED_ALLOCATION_IMAGE_CREATE_INFO_NV = (int)1000026000L;
+    private static final int GL_SUBGROUP_QUAD_ALL_STAGES_KHR = (int)38197L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEDICATED_ALLOCATION_IMAGE_CREATE_INFO_NV = 1000026000
+     * #define GL_SUBGROUP_QUAD_ALL_STAGES_KHR 38197
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEDICATED_ALLOCATION_IMAGE_CREATE_INFO_NV() {
-        return VK_STRUCTURE_TYPE_DEDICATED_ALLOCATION_IMAGE_CREATE_INFO_NV;
+    public static int GL_SUBGROUP_QUAD_ALL_STAGES_KHR() {
+        return GL_SUBGROUP_QUAD_ALL_STAGES_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_DEDICATED_ALLOCATION_BUFFER_CREATE_INFO_NV = (int)1000026001L;
+    private static final int GL_SUBGROUP_FEATURE_BASIC_BIT_KHR = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEDICATED_ALLOCATION_BUFFER_CREATE_INFO_NV = 1000026001
+     * #define GL_SUBGROUP_FEATURE_BASIC_BIT_KHR 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEDICATED_ALLOCATION_BUFFER_CREATE_INFO_NV() {
-        return VK_STRUCTURE_TYPE_DEDICATED_ALLOCATION_BUFFER_CREATE_INFO_NV;
+    public static int GL_SUBGROUP_FEATURE_BASIC_BIT_KHR() {
+        return GL_SUBGROUP_FEATURE_BASIC_BIT_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_DEDICATED_ALLOCATION_MEMORY_ALLOCATE_INFO_NV = (int)1000026002L;
+    private static final int GL_SUBGROUP_FEATURE_VOTE_BIT_KHR = (int)2L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEDICATED_ALLOCATION_MEMORY_ALLOCATE_INFO_NV = 1000026002
+     * #define GL_SUBGROUP_FEATURE_VOTE_BIT_KHR 2
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEDICATED_ALLOCATION_MEMORY_ALLOCATE_INFO_NV() {
-        return VK_STRUCTURE_TYPE_DEDICATED_ALLOCATION_MEMORY_ALLOCATE_INFO_NV;
+    public static int GL_SUBGROUP_FEATURE_VOTE_BIT_KHR() {
+        return GL_SUBGROUP_FEATURE_VOTE_BIT_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TRANSFORM_FEEDBACK_FEATURES_EXT = (int)1000028000L;
+    private static final int GL_SUBGROUP_FEATURE_ARITHMETIC_BIT_KHR = (int)4L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TRANSFORM_FEEDBACK_FEATURES_EXT = 1000028000
+     * #define GL_SUBGROUP_FEATURE_ARITHMETIC_BIT_KHR 4
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TRANSFORM_FEEDBACK_FEATURES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TRANSFORM_FEEDBACK_FEATURES_EXT;
+    public static int GL_SUBGROUP_FEATURE_ARITHMETIC_BIT_KHR() {
+        return GL_SUBGROUP_FEATURE_ARITHMETIC_BIT_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TRANSFORM_FEEDBACK_PROPERTIES_EXT = (int)1000028001L;
+    private static final int GL_SUBGROUP_FEATURE_BALLOT_BIT_KHR = (int)8L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TRANSFORM_FEEDBACK_PROPERTIES_EXT = 1000028001
+     * #define GL_SUBGROUP_FEATURE_BALLOT_BIT_KHR 8
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TRANSFORM_FEEDBACK_PROPERTIES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TRANSFORM_FEEDBACK_PROPERTIES_EXT;
+    public static int GL_SUBGROUP_FEATURE_BALLOT_BIT_KHR() {
+        return GL_SUBGROUP_FEATURE_BALLOT_BIT_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_STREAM_CREATE_INFO_EXT = (int)1000028002L;
+    private static final int GL_SUBGROUP_FEATURE_SHUFFLE_BIT_KHR = (int)16L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_STREAM_CREATE_INFO_EXT = 1000028002
+     * #define GL_SUBGROUP_FEATURE_SHUFFLE_BIT_KHR 16
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_STREAM_CREATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_STREAM_CREATE_INFO_EXT;
+    public static int GL_SUBGROUP_FEATURE_SHUFFLE_BIT_KHR() {
+        return GL_SUBGROUP_FEATURE_SHUFFLE_BIT_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_IMAGE_VIEW_HANDLE_INFO_NVX = (int)1000030000L;
+    private static final int GL_SUBGROUP_FEATURE_SHUFFLE_RELATIVE_BIT_KHR = (int)32L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMAGE_VIEW_HANDLE_INFO_NVX = 1000030000
+     * #define GL_SUBGROUP_FEATURE_SHUFFLE_RELATIVE_BIT_KHR 32
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMAGE_VIEW_HANDLE_INFO_NVX() {
-        return VK_STRUCTURE_TYPE_IMAGE_VIEW_HANDLE_INFO_NVX;
+    public static int GL_SUBGROUP_FEATURE_SHUFFLE_RELATIVE_BIT_KHR() {
+        return GL_SUBGROUP_FEATURE_SHUFFLE_RELATIVE_BIT_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_TEXTURE_LOD_GATHER_FORMAT_PROPERTIES_AMD = (int)1000041000L;
+    private static final int GL_SUBGROUP_FEATURE_CLUSTERED_BIT_KHR = (int)64L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_TEXTURE_LOD_GATHER_FORMAT_PROPERTIES_AMD = 1000041000
+     * #define GL_SUBGROUP_FEATURE_CLUSTERED_BIT_KHR 64
      * }
      */
-    public static int VK_STRUCTURE_TYPE_TEXTURE_LOD_GATHER_FORMAT_PROPERTIES_AMD() {
-        return VK_STRUCTURE_TYPE_TEXTURE_LOD_GATHER_FORMAT_PROPERTIES_AMD;
+    public static int GL_SUBGROUP_FEATURE_CLUSTERED_BIT_KHR() {
+        return GL_SUBGROUP_FEATURE_CLUSTERED_BIT_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_STREAM_DESCRIPTOR_SURFACE_CREATE_INFO_GGP = (int)1000049000L;
+    private static final int GL_SUBGROUP_FEATURE_QUAD_BIT_KHR = (int)128L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_STREAM_DESCRIPTOR_SURFACE_CREATE_INFO_GGP = 1000049000
+     * #define GL_SUBGROUP_FEATURE_QUAD_BIT_KHR 128
      * }
      */
-    public static int VK_STRUCTURE_TYPE_STREAM_DESCRIPTOR_SURFACE_CREATE_INFO_GGP() {
-        return VK_STRUCTURE_TYPE_STREAM_DESCRIPTOR_SURFACE_CREATE_INFO_GGP;
+    public static int GL_SUBGROUP_FEATURE_QUAD_BIT_KHR() {
+        return GL_SUBGROUP_FEATURE_QUAD_BIT_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CORNER_SAMPLED_IMAGE_FEATURES_NV = (int)1000050000L;
+    private static final int GL_KHR_texture_compression_astc_hdr = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CORNER_SAMPLED_IMAGE_FEATURES_NV = 1000050000
+     * #define GL_KHR_texture_compression_astc_hdr 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CORNER_SAMPLED_IMAGE_FEATURES_NV() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CORNER_SAMPLED_IMAGE_FEATURES_NV;
+    public static int GL_KHR_texture_compression_astc_hdr() {
+        return GL_KHR_texture_compression_astc_hdr;
     }
-    private static final int VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_IMAGE_CREATE_INFO_NV = (int)1000056000L;
+    private static final int GL_COMPRESSED_RGBA_ASTC_4x4_KHR = (int)37808L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_IMAGE_CREATE_INFO_NV = 1000056000
+     * #define GL_COMPRESSED_RGBA_ASTC_4x4_KHR 37808
      * }
      */
-    public static int VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_IMAGE_CREATE_INFO_NV() {
-        return VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_IMAGE_CREATE_INFO_NV;
+    public static int GL_COMPRESSED_RGBA_ASTC_4x4_KHR() {
+        return GL_COMPRESSED_RGBA_ASTC_4x4_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_EXPORT_MEMORY_ALLOCATE_INFO_NV = (int)1000056001L;
+    private static final int GL_COMPRESSED_RGBA_ASTC_5x4_KHR = (int)37809L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_EXPORT_MEMORY_ALLOCATE_INFO_NV = 1000056001
+     * #define GL_COMPRESSED_RGBA_ASTC_5x4_KHR 37809
      * }
      */
-    public static int VK_STRUCTURE_TYPE_EXPORT_MEMORY_ALLOCATE_INFO_NV() {
-        return VK_STRUCTURE_TYPE_EXPORT_MEMORY_ALLOCATE_INFO_NV;
+    public static int GL_COMPRESSED_RGBA_ASTC_5x4_KHR() {
+        return GL_COMPRESSED_RGBA_ASTC_5x4_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_IMPORT_MEMORY_WIN32_HANDLE_INFO_NV = (int)1000057000L;
+    private static final int GL_COMPRESSED_RGBA_ASTC_5x5_KHR = (int)37810L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMPORT_MEMORY_WIN32_HANDLE_INFO_NV = 1000057000
+     * #define GL_COMPRESSED_RGBA_ASTC_5x5_KHR 37810
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMPORT_MEMORY_WIN32_HANDLE_INFO_NV() {
-        return VK_STRUCTURE_TYPE_IMPORT_MEMORY_WIN32_HANDLE_INFO_NV;
+    public static int GL_COMPRESSED_RGBA_ASTC_5x5_KHR() {
+        return GL_COMPRESSED_RGBA_ASTC_5x5_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_EXPORT_MEMORY_WIN32_HANDLE_INFO_NV = (int)1000057001L;
+    private static final int GL_COMPRESSED_RGBA_ASTC_6x5_KHR = (int)37811L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_EXPORT_MEMORY_WIN32_HANDLE_INFO_NV = 1000057001
+     * #define GL_COMPRESSED_RGBA_ASTC_6x5_KHR 37811
      * }
      */
-    public static int VK_STRUCTURE_TYPE_EXPORT_MEMORY_WIN32_HANDLE_INFO_NV() {
-        return VK_STRUCTURE_TYPE_EXPORT_MEMORY_WIN32_HANDLE_INFO_NV;
+    public static int GL_COMPRESSED_RGBA_ASTC_6x5_KHR() {
+        return GL_COMPRESSED_RGBA_ASTC_6x5_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_WIN32_KEYED_MUTEX_ACQUIRE_RELEASE_INFO_NV = (int)1000058000L;
+    private static final int GL_COMPRESSED_RGBA_ASTC_6x6_KHR = (int)37812L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_WIN32_KEYED_MUTEX_ACQUIRE_RELEASE_INFO_NV = 1000058000
+     * #define GL_COMPRESSED_RGBA_ASTC_6x6_KHR 37812
      * }
      */
-    public static int VK_STRUCTURE_TYPE_WIN32_KEYED_MUTEX_ACQUIRE_RELEASE_INFO_NV() {
-        return VK_STRUCTURE_TYPE_WIN32_KEYED_MUTEX_ACQUIRE_RELEASE_INFO_NV;
+    public static int GL_COMPRESSED_RGBA_ASTC_6x6_KHR() {
+        return GL_COMPRESSED_RGBA_ASTC_6x6_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_VALIDATION_FLAGS_EXT = (int)1000061000L;
+    private static final int GL_COMPRESSED_RGBA_ASTC_8x5_KHR = (int)37813L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_VALIDATION_FLAGS_EXT = 1000061000
+     * #define GL_COMPRESSED_RGBA_ASTC_8x5_KHR 37813
      * }
      */
-    public static int VK_STRUCTURE_TYPE_VALIDATION_FLAGS_EXT() {
-        return VK_STRUCTURE_TYPE_VALIDATION_FLAGS_EXT;
+    public static int GL_COMPRESSED_RGBA_ASTC_8x5_KHR() {
+        return GL_COMPRESSED_RGBA_ASTC_8x5_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_VI_SURFACE_CREATE_INFO_NN = (int)1000062000L;
+    private static final int GL_COMPRESSED_RGBA_ASTC_8x6_KHR = (int)37814L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_VI_SURFACE_CREATE_INFO_NN = 1000062000
+     * #define GL_COMPRESSED_RGBA_ASTC_8x6_KHR 37814
      * }
      */
-    public static int VK_STRUCTURE_TYPE_VI_SURFACE_CREATE_INFO_NN() {
-        return VK_STRUCTURE_TYPE_VI_SURFACE_CREATE_INFO_NN;
+    public static int GL_COMPRESSED_RGBA_ASTC_8x6_KHR() {
+        return GL_COMPRESSED_RGBA_ASTC_8x6_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXTURE_COMPRESSION_ASTC_HDR_FEATURES_EXT = (int)1000066000L;
+    private static final int GL_COMPRESSED_RGBA_ASTC_8x8_KHR = (int)37815L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXTURE_COMPRESSION_ASTC_HDR_FEATURES_EXT = 1000066000
+     * #define GL_COMPRESSED_RGBA_ASTC_8x8_KHR 37815
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXTURE_COMPRESSION_ASTC_HDR_FEATURES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXTURE_COMPRESSION_ASTC_HDR_FEATURES_EXT;
+    public static int GL_COMPRESSED_RGBA_ASTC_8x8_KHR() {
+        return GL_COMPRESSED_RGBA_ASTC_8x8_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_IMAGE_VIEW_ASTC_DECODE_MODE_EXT = (int)1000067000L;
+    private static final int GL_COMPRESSED_RGBA_ASTC_10x5_KHR = (int)37816L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMAGE_VIEW_ASTC_DECODE_MODE_EXT = 1000067000
+     * #define GL_COMPRESSED_RGBA_ASTC_10x5_KHR 37816
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMAGE_VIEW_ASTC_DECODE_MODE_EXT() {
-        return VK_STRUCTURE_TYPE_IMAGE_VIEW_ASTC_DECODE_MODE_EXT;
+    public static int GL_COMPRESSED_RGBA_ASTC_10x5_KHR() {
+        return GL_COMPRESSED_RGBA_ASTC_10x5_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ASTC_DECODE_FEATURES_EXT = (int)1000067001L;
+    private static final int GL_COMPRESSED_RGBA_ASTC_10x6_KHR = (int)37817L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ASTC_DECODE_FEATURES_EXT = 1000067001
+     * #define GL_COMPRESSED_RGBA_ASTC_10x6_KHR 37817
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ASTC_DECODE_FEATURES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ASTC_DECODE_FEATURES_EXT;
+    public static int GL_COMPRESSED_RGBA_ASTC_10x6_KHR() {
+        return GL_COMPRESSED_RGBA_ASTC_10x6_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_IMPORT_MEMORY_WIN32_HANDLE_INFO_KHR = (int)1000073000L;
+    private static final int GL_COMPRESSED_RGBA_ASTC_10x8_KHR = (int)37818L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMPORT_MEMORY_WIN32_HANDLE_INFO_KHR = 1000073000
+     * #define GL_COMPRESSED_RGBA_ASTC_10x8_KHR 37818
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMPORT_MEMORY_WIN32_HANDLE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_IMPORT_MEMORY_WIN32_HANDLE_INFO_KHR;
+    public static int GL_COMPRESSED_RGBA_ASTC_10x8_KHR() {
+        return GL_COMPRESSED_RGBA_ASTC_10x8_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_EXPORT_MEMORY_WIN32_HANDLE_INFO_KHR = (int)1000073001L;
+    private static final int GL_COMPRESSED_RGBA_ASTC_10x10_KHR = (int)37819L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_EXPORT_MEMORY_WIN32_HANDLE_INFO_KHR = 1000073001
+     * #define GL_COMPRESSED_RGBA_ASTC_10x10_KHR 37819
      * }
      */
-    public static int VK_STRUCTURE_TYPE_EXPORT_MEMORY_WIN32_HANDLE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_EXPORT_MEMORY_WIN32_HANDLE_INFO_KHR;
+    public static int GL_COMPRESSED_RGBA_ASTC_10x10_KHR() {
+        return GL_COMPRESSED_RGBA_ASTC_10x10_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_MEMORY_WIN32_HANDLE_PROPERTIES_KHR = (int)1000073002L;
+    private static final int GL_COMPRESSED_RGBA_ASTC_12x10_KHR = (int)37820L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_MEMORY_WIN32_HANDLE_PROPERTIES_KHR = 1000073002
+     * #define GL_COMPRESSED_RGBA_ASTC_12x10_KHR 37820
      * }
      */
-    public static int VK_STRUCTURE_TYPE_MEMORY_WIN32_HANDLE_PROPERTIES_KHR() {
-        return VK_STRUCTURE_TYPE_MEMORY_WIN32_HANDLE_PROPERTIES_KHR;
+    public static int GL_COMPRESSED_RGBA_ASTC_12x10_KHR() {
+        return GL_COMPRESSED_RGBA_ASTC_12x10_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_MEMORY_GET_WIN32_HANDLE_INFO_KHR = (int)1000073003L;
+    private static final int GL_COMPRESSED_RGBA_ASTC_12x12_KHR = (int)37821L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_MEMORY_GET_WIN32_HANDLE_INFO_KHR = 1000073003
+     * #define GL_COMPRESSED_RGBA_ASTC_12x12_KHR 37821
      * }
      */
-    public static int VK_STRUCTURE_TYPE_MEMORY_GET_WIN32_HANDLE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_MEMORY_GET_WIN32_HANDLE_INFO_KHR;
+    public static int GL_COMPRESSED_RGBA_ASTC_12x12_KHR() {
+        return GL_COMPRESSED_RGBA_ASTC_12x12_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_IMPORT_MEMORY_FD_INFO_KHR = (int)1000074000L;
+    private static final int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_4x4_KHR = (int)37840L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMPORT_MEMORY_FD_INFO_KHR = 1000074000
+     * #define GL_COMPRESSED_SRGB8_ALPHA8_ASTC_4x4_KHR 37840
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMPORT_MEMORY_FD_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_IMPORT_MEMORY_FD_INFO_KHR;
+    public static int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_4x4_KHR() {
+        return GL_COMPRESSED_SRGB8_ALPHA8_ASTC_4x4_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_MEMORY_FD_PROPERTIES_KHR = (int)1000074001L;
+    private static final int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_5x4_KHR = (int)37841L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_MEMORY_FD_PROPERTIES_KHR = 1000074001
+     * #define GL_COMPRESSED_SRGB8_ALPHA8_ASTC_5x4_KHR 37841
      * }
      */
-    public static int VK_STRUCTURE_TYPE_MEMORY_FD_PROPERTIES_KHR() {
-        return VK_STRUCTURE_TYPE_MEMORY_FD_PROPERTIES_KHR;
+    public static int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_5x4_KHR() {
+        return GL_COMPRESSED_SRGB8_ALPHA8_ASTC_5x4_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_MEMORY_GET_FD_INFO_KHR = (int)1000074002L;
+    private static final int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_5x5_KHR = (int)37842L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_MEMORY_GET_FD_INFO_KHR = 1000074002
+     * #define GL_COMPRESSED_SRGB8_ALPHA8_ASTC_5x5_KHR 37842
      * }
      */
-    public static int VK_STRUCTURE_TYPE_MEMORY_GET_FD_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_MEMORY_GET_FD_INFO_KHR;
+    public static int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_5x5_KHR() {
+        return GL_COMPRESSED_SRGB8_ALPHA8_ASTC_5x5_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_WIN32_KEYED_MUTEX_ACQUIRE_RELEASE_INFO_KHR = (int)1000075000L;
+    private static final int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_6x5_KHR = (int)37843L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_WIN32_KEYED_MUTEX_ACQUIRE_RELEASE_INFO_KHR = 1000075000
+     * #define GL_COMPRESSED_SRGB8_ALPHA8_ASTC_6x5_KHR 37843
      * }
      */
-    public static int VK_STRUCTURE_TYPE_WIN32_KEYED_MUTEX_ACQUIRE_RELEASE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_WIN32_KEYED_MUTEX_ACQUIRE_RELEASE_INFO_KHR;
+    public static int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_6x5_KHR() {
+        return GL_COMPRESSED_SRGB8_ALPHA8_ASTC_6x5_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_IMPORT_SEMAPHORE_WIN32_HANDLE_INFO_KHR = (int)1000078000L;
+    private static final int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_6x6_KHR = (int)37844L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMPORT_SEMAPHORE_WIN32_HANDLE_INFO_KHR = 1000078000
+     * #define GL_COMPRESSED_SRGB8_ALPHA8_ASTC_6x6_KHR 37844
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMPORT_SEMAPHORE_WIN32_HANDLE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_IMPORT_SEMAPHORE_WIN32_HANDLE_INFO_KHR;
+    public static int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_6x6_KHR() {
+        return GL_COMPRESSED_SRGB8_ALPHA8_ASTC_6x6_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_EXPORT_SEMAPHORE_WIN32_HANDLE_INFO_KHR = (int)1000078001L;
+    private static final int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_8x5_KHR = (int)37845L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_EXPORT_SEMAPHORE_WIN32_HANDLE_INFO_KHR = 1000078001
+     * #define GL_COMPRESSED_SRGB8_ALPHA8_ASTC_8x5_KHR 37845
      * }
      */
-    public static int VK_STRUCTURE_TYPE_EXPORT_SEMAPHORE_WIN32_HANDLE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_EXPORT_SEMAPHORE_WIN32_HANDLE_INFO_KHR;
+    public static int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_8x5_KHR() {
+        return GL_COMPRESSED_SRGB8_ALPHA8_ASTC_8x5_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_D3D12_FENCE_SUBMIT_INFO_KHR = (int)1000078002L;
+    private static final int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_8x6_KHR = (int)37846L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_D3D12_FENCE_SUBMIT_INFO_KHR = 1000078002
+     * #define GL_COMPRESSED_SRGB8_ALPHA8_ASTC_8x6_KHR 37846
      * }
      */
-    public static int VK_STRUCTURE_TYPE_D3D12_FENCE_SUBMIT_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_D3D12_FENCE_SUBMIT_INFO_KHR;
+    public static int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_8x6_KHR() {
+        return GL_COMPRESSED_SRGB8_ALPHA8_ASTC_8x6_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_SEMAPHORE_GET_WIN32_HANDLE_INFO_KHR = (int)1000078003L;
+    private static final int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_8x8_KHR = (int)37847L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SEMAPHORE_GET_WIN32_HANDLE_INFO_KHR = 1000078003
+     * #define GL_COMPRESSED_SRGB8_ALPHA8_ASTC_8x8_KHR 37847
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SEMAPHORE_GET_WIN32_HANDLE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_SEMAPHORE_GET_WIN32_HANDLE_INFO_KHR;
+    public static int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_8x8_KHR() {
+        return GL_COMPRESSED_SRGB8_ALPHA8_ASTC_8x8_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_IMPORT_SEMAPHORE_FD_INFO_KHR = (int)1000079000L;
+    private static final int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_10x5_KHR = (int)37848L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMPORT_SEMAPHORE_FD_INFO_KHR = 1000079000
+     * #define GL_COMPRESSED_SRGB8_ALPHA8_ASTC_10x5_KHR 37848
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMPORT_SEMAPHORE_FD_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_IMPORT_SEMAPHORE_FD_INFO_KHR;
+    public static int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_10x5_KHR() {
+        return GL_COMPRESSED_SRGB8_ALPHA8_ASTC_10x5_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_SEMAPHORE_GET_FD_INFO_KHR = (int)1000079001L;
+    private static final int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_10x6_KHR = (int)37849L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SEMAPHORE_GET_FD_INFO_KHR = 1000079001
+     * #define GL_COMPRESSED_SRGB8_ALPHA8_ASTC_10x6_KHR 37849
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SEMAPHORE_GET_FD_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_SEMAPHORE_GET_FD_INFO_KHR;
+    public static int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_10x6_KHR() {
+        return GL_COMPRESSED_SRGB8_ALPHA8_ASTC_10x6_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PUSH_DESCRIPTOR_PROPERTIES_KHR = (int)1000080000L;
+    private static final int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_10x8_KHR = (int)37850L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PUSH_DESCRIPTOR_PROPERTIES_KHR = 1000080000
+     * #define GL_COMPRESSED_SRGB8_ALPHA8_ASTC_10x8_KHR 37850
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PUSH_DESCRIPTOR_PROPERTIES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PUSH_DESCRIPTOR_PROPERTIES_KHR;
+    public static int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_10x8_KHR() {
+        return GL_COMPRESSED_SRGB8_ALPHA8_ASTC_10x8_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_CONDITIONAL_RENDERING_INFO_EXT = (int)1000081000L;
+    private static final int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_10x10_KHR = (int)37851L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_CONDITIONAL_RENDERING_INFO_EXT = 1000081000
+     * #define GL_COMPRESSED_SRGB8_ALPHA8_ASTC_10x10_KHR 37851
      * }
      */
-    public static int VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_CONDITIONAL_RENDERING_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_CONDITIONAL_RENDERING_INFO_EXT;
+    public static int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_10x10_KHR() {
+        return GL_COMPRESSED_SRGB8_ALPHA8_ASTC_10x10_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CONDITIONAL_RENDERING_FEATURES_EXT = (int)1000081001L;
+    private static final int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_12x10_KHR = (int)37852L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CONDITIONAL_RENDERING_FEATURES_EXT = 1000081001
+     * #define GL_COMPRESSED_SRGB8_ALPHA8_ASTC_12x10_KHR 37852
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CONDITIONAL_RENDERING_FEATURES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CONDITIONAL_RENDERING_FEATURES_EXT;
+    public static int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_12x10_KHR() {
+        return GL_COMPRESSED_SRGB8_ALPHA8_ASTC_12x10_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_CONDITIONAL_RENDERING_BEGIN_INFO_EXT = (int)1000081002L;
+    private static final int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_12x12_KHR = (int)37853L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_CONDITIONAL_RENDERING_BEGIN_INFO_EXT = 1000081002
+     * #define GL_COMPRESSED_SRGB8_ALPHA8_ASTC_12x12_KHR 37853
      * }
      */
-    public static int VK_STRUCTURE_TYPE_CONDITIONAL_RENDERING_BEGIN_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_CONDITIONAL_RENDERING_BEGIN_INFO_EXT;
+    public static int GL_COMPRESSED_SRGB8_ALPHA8_ASTC_12x12_KHR() {
+        return GL_COMPRESSED_SRGB8_ALPHA8_ASTC_12x12_KHR;
     }
-    private static final int VK_STRUCTURE_TYPE_PRESENT_REGIONS_KHR = (int)1000084000L;
+    private static final int GL_KHR_texture_compression_astc_ldr = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PRESENT_REGIONS_KHR = 1000084000
+     * #define GL_KHR_texture_compression_astc_ldr 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PRESENT_REGIONS_KHR() {
-        return VK_STRUCTURE_TYPE_PRESENT_REGIONS_KHR;
+    public static int GL_KHR_texture_compression_astc_ldr() {
+        return GL_KHR_texture_compression_astc_ldr;
     }
-    private static final int VK_STRUCTURE_TYPE_OBJECT_TABLE_CREATE_INFO_NVX = (int)1000086000L;
+    private static final int GL_KHR_texture_compression_astc_sliced_3d = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_OBJECT_TABLE_CREATE_INFO_NVX = 1000086000
+     * #define GL_KHR_texture_compression_astc_sliced_3d 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_OBJECT_TABLE_CREATE_INFO_NVX() {
-        return VK_STRUCTURE_TYPE_OBJECT_TABLE_CREATE_INFO_NVX;
+    public static int GL_KHR_texture_compression_astc_sliced_3d() {
+        return GL_KHR_texture_compression_astc_sliced_3d;
     }
-    private static final int VK_STRUCTURE_TYPE_INDIRECT_COMMANDS_LAYOUT_CREATE_INFO_NVX = (int)1000086001L;
+    private static final int GL_OES_byte_coordinates = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_INDIRECT_COMMANDS_LAYOUT_CREATE_INFO_NVX = 1000086001
+     * #define GL_OES_byte_coordinates 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_INDIRECT_COMMANDS_LAYOUT_CREATE_INFO_NVX() {
-        return VK_STRUCTURE_TYPE_INDIRECT_COMMANDS_LAYOUT_CREATE_INFO_NVX;
+    public static int GL_OES_byte_coordinates() {
+        return GL_OES_byte_coordinates;
     }
-    private static final int VK_STRUCTURE_TYPE_CMD_PROCESS_COMMANDS_INFO_NVX = (int)1000086002L;
+    private static final int GL_OES_compressed_paletted_texture = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_CMD_PROCESS_COMMANDS_INFO_NVX = 1000086002
+     * #define GL_OES_compressed_paletted_texture 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_CMD_PROCESS_COMMANDS_INFO_NVX() {
-        return VK_STRUCTURE_TYPE_CMD_PROCESS_COMMANDS_INFO_NVX;
+    public static int GL_OES_compressed_paletted_texture() {
+        return GL_OES_compressed_paletted_texture;
     }
-    private static final int VK_STRUCTURE_TYPE_CMD_RESERVE_SPACE_FOR_COMMANDS_INFO_NVX = (int)1000086003L;
+    private static final int GL_PALETTE4_RGB8_OES = (int)35728L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_CMD_RESERVE_SPACE_FOR_COMMANDS_INFO_NVX = 1000086003
+     * #define GL_PALETTE4_RGB8_OES 35728
      * }
      */
-    public static int VK_STRUCTURE_TYPE_CMD_RESERVE_SPACE_FOR_COMMANDS_INFO_NVX() {
-        return VK_STRUCTURE_TYPE_CMD_RESERVE_SPACE_FOR_COMMANDS_INFO_NVX;
+    public static int GL_PALETTE4_RGB8_OES() {
+        return GL_PALETTE4_RGB8_OES;
     }
-    private static final int VK_STRUCTURE_TYPE_DEVICE_GENERATED_COMMANDS_LIMITS_NVX = (int)1000086004L;
+    private static final int GL_PALETTE4_RGBA8_OES = (int)35729L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEVICE_GENERATED_COMMANDS_LIMITS_NVX = 1000086004
+     * #define GL_PALETTE4_RGBA8_OES 35729
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEVICE_GENERATED_COMMANDS_LIMITS_NVX() {
-        return VK_STRUCTURE_TYPE_DEVICE_GENERATED_COMMANDS_LIMITS_NVX;
+    public static int GL_PALETTE4_RGBA8_OES() {
+        return GL_PALETTE4_RGBA8_OES;
     }
-    private static final int VK_STRUCTURE_TYPE_DEVICE_GENERATED_COMMANDS_FEATURES_NVX = (int)1000086005L;
+    private static final int GL_PALETTE4_R5_G6_B5_OES = (int)35730L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEVICE_GENERATED_COMMANDS_FEATURES_NVX = 1000086005
+     * #define GL_PALETTE4_R5_G6_B5_OES 35730
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEVICE_GENERATED_COMMANDS_FEATURES_NVX() {
-        return VK_STRUCTURE_TYPE_DEVICE_GENERATED_COMMANDS_FEATURES_NVX;
+    public static int GL_PALETTE4_R5_G6_B5_OES() {
+        return GL_PALETTE4_R5_G6_B5_OES;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_W_SCALING_STATE_CREATE_INFO_NV = (int)1000087000L;
+    private static final int GL_PALETTE4_RGBA4_OES = (int)35731L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_W_SCALING_STATE_CREATE_INFO_NV = 1000087000
+     * #define GL_PALETTE4_RGBA4_OES 35731
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_W_SCALING_STATE_CREATE_INFO_NV() {
-        return VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_W_SCALING_STATE_CREATE_INFO_NV;
+    public static int GL_PALETTE4_RGBA4_OES() {
+        return GL_PALETTE4_RGBA4_OES;
     }
-    private static final int VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES_2_EXT = (int)1000090000L;
+    private static final int GL_PALETTE4_RGB5_A1_OES = (int)35732L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES_2_EXT = 1000090000
+     * #define GL_PALETTE4_RGB5_A1_OES 35732
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES_2_EXT() {
-        return VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES_2_EXT;
+    public static int GL_PALETTE4_RGB5_A1_OES() {
+        return GL_PALETTE4_RGB5_A1_OES;
     }
-    private static final int VK_STRUCTURE_TYPE_DISPLAY_POWER_INFO_EXT = (int)1000091000L;
+    private static final int GL_PALETTE8_RGB8_OES = (int)35733L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DISPLAY_POWER_INFO_EXT = 1000091000
+     * #define GL_PALETTE8_RGB8_OES 35733
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DISPLAY_POWER_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_DISPLAY_POWER_INFO_EXT;
+    public static int GL_PALETTE8_RGB8_OES() {
+        return GL_PALETTE8_RGB8_OES;
     }
-    private static final int VK_STRUCTURE_TYPE_DEVICE_EVENT_INFO_EXT = (int)1000091001L;
+    private static final int GL_PALETTE8_RGBA8_OES = (int)35734L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEVICE_EVENT_INFO_EXT = 1000091001
+     * #define GL_PALETTE8_RGBA8_OES 35734
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEVICE_EVENT_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_DEVICE_EVENT_INFO_EXT;
+    public static int GL_PALETTE8_RGBA8_OES() {
+        return GL_PALETTE8_RGBA8_OES;
     }
-    private static final int VK_STRUCTURE_TYPE_DISPLAY_EVENT_INFO_EXT = (int)1000091002L;
+    private static final int GL_PALETTE8_R5_G6_B5_OES = (int)35735L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DISPLAY_EVENT_INFO_EXT = 1000091002
+     * #define GL_PALETTE8_R5_G6_B5_OES 35735
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DISPLAY_EVENT_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_DISPLAY_EVENT_INFO_EXT;
+    public static int GL_PALETTE8_R5_G6_B5_OES() {
+        return GL_PALETTE8_R5_G6_B5_OES;
     }
-    private static final int VK_STRUCTURE_TYPE_SWAPCHAIN_COUNTER_CREATE_INFO_EXT = (int)1000091003L;
+    private static final int GL_PALETTE8_RGBA4_OES = (int)35736L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SWAPCHAIN_COUNTER_CREATE_INFO_EXT = 1000091003
+     * #define GL_PALETTE8_RGBA4_OES 35736
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SWAPCHAIN_COUNTER_CREATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_SWAPCHAIN_COUNTER_CREATE_INFO_EXT;
+    public static int GL_PALETTE8_RGBA4_OES() {
+        return GL_PALETTE8_RGBA4_OES;
     }
-    private static final int VK_STRUCTURE_TYPE_PRESENT_TIMES_INFO_GOOGLE = (int)1000092000L;
+    private static final int GL_PALETTE8_RGB5_A1_OES = (int)35737L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PRESENT_TIMES_INFO_GOOGLE = 1000092000
+     * #define GL_PALETTE8_RGB5_A1_OES 35737
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PRESENT_TIMES_INFO_GOOGLE() {
-        return VK_STRUCTURE_TYPE_PRESENT_TIMES_INFO_GOOGLE;
+    public static int GL_PALETTE8_RGB5_A1_OES() {
+        return GL_PALETTE8_RGB5_A1_OES;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PER_VIEW_ATTRIBUTES_PROPERTIES_NVX = (int)1000097000L;
+    private static final int GL_OES_fixed_point = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PER_VIEW_ATTRIBUTES_PROPERTIES_NVX = 1000097000
+     * #define GL_OES_fixed_point 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PER_VIEW_ATTRIBUTES_PROPERTIES_NVX() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PER_VIEW_ATTRIBUTES_PROPERTIES_NVX;
+    public static int GL_OES_fixed_point() {
+        return GL_OES_fixed_point;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_SWIZZLE_STATE_CREATE_INFO_NV = (int)1000098000L;
+    private static final int GL_FIXED_OES = (int)5132L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_SWIZZLE_STATE_CREATE_INFO_NV = 1000098000
+     * #define GL_FIXED_OES 5132
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_SWIZZLE_STATE_CREATE_INFO_NV() {
-        return VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_SWIZZLE_STATE_CREATE_INFO_NV;
+    public static int GL_FIXED_OES() {
+        return GL_FIXED_OES;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DISCARD_RECTANGLE_PROPERTIES_EXT = (int)1000099000L;
+    private static final int GL_OES_query_matrix = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DISCARD_RECTANGLE_PROPERTIES_EXT = 1000099000
+     * #define GL_OES_query_matrix 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DISCARD_RECTANGLE_PROPERTIES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DISCARD_RECTANGLE_PROPERTIES_EXT;
+    public static int GL_OES_query_matrix() {
+        return GL_OES_query_matrix;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_DISCARD_RECTANGLE_STATE_CREATE_INFO_EXT = (int)1000099001L;
+    private static final int GL_OES_read_format = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_DISCARD_RECTANGLE_STATE_CREATE_INFO_EXT = 1000099001
+     * #define GL_OES_read_format 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_DISCARD_RECTANGLE_STATE_CREATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_PIPELINE_DISCARD_RECTANGLE_STATE_CREATE_INFO_EXT;
+    public static int GL_OES_read_format() {
+        return GL_OES_read_format;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CONSERVATIVE_RASTERIZATION_PROPERTIES_EXT = (int)1000101000L;
+    private static final int GL_IMPLEMENTATION_COLOR_READ_TYPE_OES = (int)35738L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CONSERVATIVE_RASTERIZATION_PROPERTIES_EXT = 1000101000
+     * #define GL_IMPLEMENTATION_COLOR_READ_TYPE_OES 35738
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CONSERVATIVE_RASTERIZATION_PROPERTIES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CONSERVATIVE_RASTERIZATION_PROPERTIES_EXT;
+    public static int GL_IMPLEMENTATION_COLOR_READ_TYPE_OES() {
+        return GL_IMPLEMENTATION_COLOR_READ_TYPE_OES;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_CONSERVATIVE_STATE_CREATE_INFO_EXT = (int)1000101001L;
+    private static final int GL_IMPLEMENTATION_COLOR_READ_FORMAT_OES = (int)35739L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_CONSERVATIVE_STATE_CREATE_INFO_EXT = 1000101001
+     * #define GL_IMPLEMENTATION_COLOR_READ_FORMAT_OES 35739
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_CONSERVATIVE_STATE_CREATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_CONSERVATIVE_STATE_CREATE_INFO_EXT;
+    public static int GL_IMPLEMENTATION_COLOR_READ_FORMAT_OES() {
+        return GL_IMPLEMENTATION_COLOR_READ_FORMAT_OES;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_CLIP_ENABLE_FEATURES_EXT = (int)1000102000L;
+    private static final int GL_OES_single_precision = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_CLIP_ENABLE_FEATURES_EXT = 1000102000
+     * #define GL_OES_single_precision 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_CLIP_ENABLE_FEATURES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_CLIP_ENABLE_FEATURES_EXT;
+    public static int GL_OES_single_precision() {
+        return GL_OES_single_precision;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_DEPTH_CLIP_STATE_CREATE_INFO_EXT = (int)1000102001L;
+    private static final int GL_3DFX_multisample = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_DEPTH_CLIP_STATE_CREATE_INFO_EXT = 1000102001
+     * #define GL_3DFX_multisample 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_DEPTH_CLIP_STATE_CREATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_DEPTH_CLIP_STATE_CREATE_INFO_EXT;
+    public static int GL_3DFX_multisample() {
+        return GL_3DFX_multisample;
     }
-    private static final int VK_STRUCTURE_TYPE_HDR_METADATA_EXT = (int)1000105000L;
+    private static final int GL_MULTISAMPLE_3DFX = (int)34482L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_HDR_METADATA_EXT = 1000105000
+     * #define GL_MULTISAMPLE_3DFX 34482
      * }
      */
-    public static int VK_STRUCTURE_TYPE_HDR_METADATA_EXT() {
-        return VK_STRUCTURE_TYPE_HDR_METADATA_EXT;
+    public static int GL_MULTISAMPLE_3DFX() {
+        return GL_MULTISAMPLE_3DFX;
     }
-    private static final int VK_STRUCTURE_TYPE_SHARED_PRESENT_SURFACE_CAPABILITIES_KHR = (int)1000111000L;
+    private static final int GL_SAMPLE_BUFFERS_3DFX = (int)34483L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SHARED_PRESENT_SURFACE_CAPABILITIES_KHR = 1000111000
+     * #define GL_SAMPLE_BUFFERS_3DFX 34483
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SHARED_PRESENT_SURFACE_CAPABILITIES_KHR() {
-        return VK_STRUCTURE_TYPE_SHARED_PRESENT_SURFACE_CAPABILITIES_KHR;
+    public static int GL_SAMPLE_BUFFERS_3DFX() {
+        return GL_SAMPLE_BUFFERS_3DFX;
     }
-    private static final int VK_STRUCTURE_TYPE_IMPORT_FENCE_WIN32_HANDLE_INFO_KHR = (int)1000114000L;
+    private static final int GL_SAMPLES_3DFX = (int)34484L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMPORT_FENCE_WIN32_HANDLE_INFO_KHR = 1000114000
+     * #define GL_SAMPLES_3DFX 34484
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMPORT_FENCE_WIN32_HANDLE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_IMPORT_FENCE_WIN32_HANDLE_INFO_KHR;
+    public static int GL_SAMPLES_3DFX() {
+        return GL_SAMPLES_3DFX;
     }
-    private static final int VK_STRUCTURE_TYPE_EXPORT_FENCE_WIN32_HANDLE_INFO_KHR = (int)1000114001L;
+    private static final int GL_MULTISAMPLE_BIT_3DFX = (int)536870912L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_EXPORT_FENCE_WIN32_HANDLE_INFO_KHR = 1000114001
+     * #define GL_MULTISAMPLE_BIT_3DFX 536870912
      * }
      */
-    public static int VK_STRUCTURE_TYPE_EXPORT_FENCE_WIN32_HANDLE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_EXPORT_FENCE_WIN32_HANDLE_INFO_KHR;
+    public static int GL_MULTISAMPLE_BIT_3DFX() {
+        return GL_MULTISAMPLE_BIT_3DFX;
     }
-    private static final int VK_STRUCTURE_TYPE_FENCE_GET_WIN32_HANDLE_INFO_KHR = (int)1000114002L;
+    private static final int GL_3DFX_tbuffer = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_FENCE_GET_WIN32_HANDLE_INFO_KHR = 1000114002
+     * #define GL_3DFX_tbuffer 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_FENCE_GET_WIN32_HANDLE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_FENCE_GET_WIN32_HANDLE_INFO_KHR;
+    public static int GL_3DFX_tbuffer() {
+        return GL_3DFX_tbuffer;
     }
-    private static final int VK_STRUCTURE_TYPE_IMPORT_FENCE_FD_INFO_KHR = (int)1000115000L;
+    private static final int GL_3DFX_texture_compression_FXT1 = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMPORT_FENCE_FD_INFO_KHR = 1000115000
+     * #define GL_3DFX_texture_compression_FXT1 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMPORT_FENCE_FD_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_IMPORT_FENCE_FD_INFO_KHR;
+    public static int GL_3DFX_texture_compression_FXT1() {
+        return GL_3DFX_texture_compression_FXT1;
     }
-    private static final int VK_STRUCTURE_TYPE_FENCE_GET_FD_INFO_KHR = (int)1000115001L;
+    private static final int GL_COMPRESSED_RGB_FXT1_3DFX = (int)34480L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_FENCE_GET_FD_INFO_KHR = 1000115001
+     * #define GL_COMPRESSED_RGB_FXT1_3DFX 34480
      * }
      */
-    public static int VK_STRUCTURE_TYPE_FENCE_GET_FD_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_FENCE_GET_FD_INFO_KHR;
+    public static int GL_COMPRESSED_RGB_FXT1_3DFX() {
+        return GL_COMPRESSED_RGB_FXT1_3DFX;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PERFORMANCE_QUERY_FEATURES_KHR = (int)1000116000L;
+    private static final int GL_COMPRESSED_RGBA_FXT1_3DFX = (int)34481L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PERFORMANCE_QUERY_FEATURES_KHR = 1000116000
+     * #define GL_COMPRESSED_RGBA_FXT1_3DFX 34481
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PERFORMANCE_QUERY_FEATURES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PERFORMANCE_QUERY_FEATURES_KHR;
+    public static int GL_COMPRESSED_RGBA_FXT1_3DFX() {
+        return GL_COMPRESSED_RGBA_FXT1_3DFX;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PERFORMANCE_QUERY_PROPERTIES_KHR = (int)1000116001L;
+    private static final int GL_AMD_blend_minmax_factor = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PERFORMANCE_QUERY_PROPERTIES_KHR = 1000116001
+     * #define GL_AMD_blend_minmax_factor 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PERFORMANCE_QUERY_PROPERTIES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PERFORMANCE_QUERY_PROPERTIES_KHR;
+    public static int GL_AMD_blend_minmax_factor() {
+        return GL_AMD_blend_minmax_factor;
     }
-    private static final int VK_STRUCTURE_TYPE_QUERY_POOL_PERFORMANCE_CREATE_INFO_KHR = (int)1000116002L;
+    private static final int GL_FACTOR_MIN_AMD = (int)36892L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_QUERY_POOL_PERFORMANCE_CREATE_INFO_KHR = 1000116002
+     * #define GL_FACTOR_MIN_AMD 36892
      * }
      */
-    public static int VK_STRUCTURE_TYPE_QUERY_POOL_PERFORMANCE_CREATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_QUERY_POOL_PERFORMANCE_CREATE_INFO_KHR;
+    public static int GL_FACTOR_MIN_AMD() {
+        return GL_FACTOR_MIN_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PERFORMANCE_QUERY_SUBMIT_INFO_KHR = (int)1000116003L;
+    private static final int GL_FACTOR_MAX_AMD = (int)36893L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PERFORMANCE_QUERY_SUBMIT_INFO_KHR = 1000116003
+     * #define GL_FACTOR_MAX_AMD 36893
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PERFORMANCE_QUERY_SUBMIT_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_PERFORMANCE_QUERY_SUBMIT_INFO_KHR;
+    public static int GL_FACTOR_MAX_AMD() {
+        return GL_FACTOR_MAX_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_ACQUIRE_PROFILING_LOCK_INFO_KHR = (int)1000116004L;
+    private static final int GL_AMD_conservative_depth = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_ACQUIRE_PROFILING_LOCK_INFO_KHR = 1000116004
+     * #define GL_AMD_conservative_depth 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_ACQUIRE_PROFILING_LOCK_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_ACQUIRE_PROFILING_LOCK_INFO_KHR;
+    public static int GL_AMD_conservative_depth() {
+        return GL_AMD_conservative_depth;
     }
-    private static final int VK_STRUCTURE_TYPE_PERFORMANCE_COUNTER_KHR = (int)1000116005L;
+    private static final int GL_AMD_debug_output = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PERFORMANCE_COUNTER_KHR = 1000116005
+     * #define GL_AMD_debug_output 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PERFORMANCE_COUNTER_KHR() {
-        return VK_STRUCTURE_TYPE_PERFORMANCE_COUNTER_KHR;
+    public static int GL_AMD_debug_output() {
+        return GL_AMD_debug_output;
     }
-    private static final int VK_STRUCTURE_TYPE_PERFORMANCE_COUNTER_DESCRIPTION_KHR = (int)1000116006L;
+    private static final int GL_MAX_DEBUG_MESSAGE_LENGTH_AMD = (int)37187L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PERFORMANCE_COUNTER_DESCRIPTION_KHR = 1000116006
+     * #define GL_MAX_DEBUG_MESSAGE_LENGTH_AMD 37187
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PERFORMANCE_COUNTER_DESCRIPTION_KHR() {
-        return VK_STRUCTURE_TYPE_PERFORMANCE_COUNTER_DESCRIPTION_KHR;
+    public static int GL_MAX_DEBUG_MESSAGE_LENGTH_AMD() {
+        return GL_MAX_DEBUG_MESSAGE_LENGTH_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SURFACE_INFO_2_KHR = (int)1000119000L;
+    private static final int GL_MAX_DEBUG_LOGGED_MESSAGES_AMD = (int)37188L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SURFACE_INFO_2_KHR = 1000119000
+     * #define GL_MAX_DEBUG_LOGGED_MESSAGES_AMD 37188
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SURFACE_INFO_2_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SURFACE_INFO_2_KHR;
+    public static int GL_MAX_DEBUG_LOGGED_MESSAGES_AMD() {
+        return GL_MAX_DEBUG_LOGGED_MESSAGES_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES_2_KHR = (int)1000119001L;
+    private static final int GL_DEBUG_LOGGED_MESSAGES_AMD = (int)37189L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES_2_KHR = 1000119001
+     * #define GL_DEBUG_LOGGED_MESSAGES_AMD 37189
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES_2_KHR() {
-        return VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES_2_KHR;
+    public static int GL_DEBUG_LOGGED_MESSAGES_AMD() {
+        return GL_DEBUG_LOGGED_MESSAGES_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_SURFACE_FORMAT_2_KHR = (int)1000119002L;
+    private static final int GL_DEBUG_SEVERITY_HIGH_AMD = (int)37190L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SURFACE_FORMAT_2_KHR = 1000119002
+     * #define GL_DEBUG_SEVERITY_HIGH_AMD 37190
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SURFACE_FORMAT_2_KHR() {
-        return VK_STRUCTURE_TYPE_SURFACE_FORMAT_2_KHR;
+    public static int GL_DEBUG_SEVERITY_HIGH_AMD() {
+        return GL_DEBUG_SEVERITY_HIGH_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_DISPLAY_PROPERTIES_2_KHR = (int)1000121000L;
+    private static final int GL_DEBUG_SEVERITY_MEDIUM_AMD = (int)37191L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DISPLAY_PROPERTIES_2_KHR = 1000121000
+     * #define GL_DEBUG_SEVERITY_MEDIUM_AMD 37191
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DISPLAY_PROPERTIES_2_KHR() {
-        return VK_STRUCTURE_TYPE_DISPLAY_PROPERTIES_2_KHR;
+    public static int GL_DEBUG_SEVERITY_MEDIUM_AMD() {
+        return GL_DEBUG_SEVERITY_MEDIUM_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_DISPLAY_PLANE_PROPERTIES_2_KHR = (int)1000121001L;
+    private static final int GL_DEBUG_SEVERITY_LOW_AMD = (int)37192L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DISPLAY_PLANE_PROPERTIES_2_KHR = 1000121001
+     * #define GL_DEBUG_SEVERITY_LOW_AMD 37192
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DISPLAY_PLANE_PROPERTIES_2_KHR() {
-        return VK_STRUCTURE_TYPE_DISPLAY_PLANE_PROPERTIES_2_KHR;
+    public static int GL_DEBUG_SEVERITY_LOW_AMD() {
+        return GL_DEBUG_SEVERITY_LOW_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_DISPLAY_MODE_PROPERTIES_2_KHR = (int)1000121002L;
+    private static final int GL_DEBUG_CATEGORY_API_ERROR_AMD = (int)37193L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DISPLAY_MODE_PROPERTIES_2_KHR = 1000121002
+     * #define GL_DEBUG_CATEGORY_API_ERROR_AMD 37193
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DISPLAY_MODE_PROPERTIES_2_KHR() {
-        return VK_STRUCTURE_TYPE_DISPLAY_MODE_PROPERTIES_2_KHR;
+    public static int GL_DEBUG_CATEGORY_API_ERROR_AMD() {
+        return GL_DEBUG_CATEGORY_API_ERROR_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_DISPLAY_PLANE_INFO_2_KHR = (int)1000121003L;
+    private static final int GL_DEBUG_CATEGORY_WINDOW_SYSTEM_AMD = (int)37194L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DISPLAY_PLANE_INFO_2_KHR = 1000121003
+     * #define GL_DEBUG_CATEGORY_WINDOW_SYSTEM_AMD 37194
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DISPLAY_PLANE_INFO_2_KHR() {
-        return VK_STRUCTURE_TYPE_DISPLAY_PLANE_INFO_2_KHR;
+    public static int GL_DEBUG_CATEGORY_WINDOW_SYSTEM_AMD() {
+        return GL_DEBUG_CATEGORY_WINDOW_SYSTEM_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_DISPLAY_PLANE_CAPABILITIES_2_KHR = (int)1000121004L;
+    private static final int GL_DEBUG_CATEGORY_DEPRECATION_AMD = (int)37195L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DISPLAY_PLANE_CAPABILITIES_2_KHR = 1000121004
+     * #define GL_DEBUG_CATEGORY_DEPRECATION_AMD 37195
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DISPLAY_PLANE_CAPABILITIES_2_KHR() {
-        return VK_STRUCTURE_TYPE_DISPLAY_PLANE_CAPABILITIES_2_KHR;
+    public static int GL_DEBUG_CATEGORY_DEPRECATION_AMD() {
+        return GL_DEBUG_CATEGORY_DEPRECATION_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_IOS_SURFACE_CREATE_INFO_MVK = (int)1000122000L;
+    private static final int GL_DEBUG_CATEGORY_UNDEFINED_BEHAVIOR_AMD = (int)37196L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IOS_SURFACE_CREATE_INFO_MVK = 1000122000
+     * #define GL_DEBUG_CATEGORY_UNDEFINED_BEHAVIOR_AMD 37196
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IOS_SURFACE_CREATE_INFO_MVK() {
-        return VK_STRUCTURE_TYPE_IOS_SURFACE_CREATE_INFO_MVK;
+    public static int GL_DEBUG_CATEGORY_UNDEFINED_BEHAVIOR_AMD() {
+        return GL_DEBUG_CATEGORY_UNDEFINED_BEHAVIOR_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_MACOS_SURFACE_CREATE_INFO_MVK = (int)1000123000L;
+    private static final int GL_DEBUG_CATEGORY_PERFORMANCE_AMD = (int)37197L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_MACOS_SURFACE_CREATE_INFO_MVK = 1000123000
+     * #define GL_DEBUG_CATEGORY_PERFORMANCE_AMD 37197
      * }
      */
-    public static int VK_STRUCTURE_TYPE_MACOS_SURFACE_CREATE_INFO_MVK() {
-        return VK_STRUCTURE_TYPE_MACOS_SURFACE_CREATE_INFO_MVK;
+    public static int GL_DEBUG_CATEGORY_PERFORMANCE_AMD() {
+        return GL_DEBUG_CATEGORY_PERFORMANCE_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_DEBUG_UTILS_OBJECT_NAME_INFO_EXT = (int)1000128000L;
+    private static final int GL_DEBUG_CATEGORY_SHADER_COMPILER_AMD = (int)37198L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEBUG_UTILS_OBJECT_NAME_INFO_EXT = 1000128000
+     * #define GL_DEBUG_CATEGORY_SHADER_COMPILER_AMD 37198
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEBUG_UTILS_OBJECT_NAME_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_DEBUG_UTILS_OBJECT_NAME_INFO_EXT;
+    public static int GL_DEBUG_CATEGORY_SHADER_COMPILER_AMD() {
+        return GL_DEBUG_CATEGORY_SHADER_COMPILER_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_DEBUG_UTILS_OBJECT_TAG_INFO_EXT = (int)1000128001L;
+    private static final int GL_DEBUG_CATEGORY_APPLICATION_AMD = (int)37199L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEBUG_UTILS_OBJECT_TAG_INFO_EXT = 1000128001
+     * #define GL_DEBUG_CATEGORY_APPLICATION_AMD 37199
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEBUG_UTILS_OBJECT_TAG_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_DEBUG_UTILS_OBJECT_TAG_INFO_EXT;
+    public static int GL_DEBUG_CATEGORY_APPLICATION_AMD() {
+        return GL_DEBUG_CATEGORY_APPLICATION_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_DEBUG_UTILS_LABEL_EXT = (int)1000128002L;
+    private static final int GL_DEBUG_CATEGORY_OTHER_AMD = (int)37200L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEBUG_UTILS_LABEL_EXT = 1000128002
+     * #define GL_DEBUG_CATEGORY_OTHER_AMD 37200
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEBUG_UTILS_LABEL_EXT() {
-        return VK_STRUCTURE_TYPE_DEBUG_UTILS_LABEL_EXT;
+    public static int GL_DEBUG_CATEGORY_OTHER_AMD() {
+        return GL_DEBUG_CATEGORY_OTHER_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_DEBUG_UTILS_MESSENGER_CALLBACK_DATA_EXT = (int)1000128003L;
+    private static final int GL_AMD_depth_clamp_separate = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEBUG_UTILS_MESSENGER_CALLBACK_DATA_EXT = 1000128003
+     * #define GL_AMD_depth_clamp_separate 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEBUG_UTILS_MESSENGER_CALLBACK_DATA_EXT() {
-        return VK_STRUCTURE_TYPE_DEBUG_UTILS_MESSENGER_CALLBACK_DATA_EXT;
+    public static int GL_AMD_depth_clamp_separate() {
+        return GL_AMD_depth_clamp_separate;
     }
-    private static final int VK_STRUCTURE_TYPE_DEBUG_UTILS_MESSENGER_CREATE_INFO_EXT = (int)1000128004L;
+    private static final int GL_DEPTH_CLAMP_NEAR_AMD = (int)36894L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEBUG_UTILS_MESSENGER_CREATE_INFO_EXT = 1000128004
+     * #define GL_DEPTH_CLAMP_NEAR_AMD 36894
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEBUG_UTILS_MESSENGER_CREATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_DEBUG_UTILS_MESSENGER_CREATE_INFO_EXT;
+    public static int GL_DEPTH_CLAMP_NEAR_AMD() {
+        return GL_DEPTH_CLAMP_NEAR_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_USAGE_ANDROID = (int)1000129000L;
+    private static final int GL_DEPTH_CLAMP_FAR_AMD = (int)36895L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_USAGE_ANDROID = 1000129000
+     * #define GL_DEPTH_CLAMP_FAR_AMD 36895
      * }
      */
-    public static int VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_USAGE_ANDROID() {
-        return VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_USAGE_ANDROID;
+    public static int GL_DEPTH_CLAMP_FAR_AMD() {
+        return GL_DEPTH_CLAMP_FAR_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_PROPERTIES_ANDROID = (int)1000129001L;
+    private static final int GL_AMD_draw_buffers_blend = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_PROPERTIES_ANDROID = 1000129001
+     * #define GL_AMD_draw_buffers_blend 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_PROPERTIES_ANDROID() {
-        return VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_PROPERTIES_ANDROID;
+    public static int GL_AMD_draw_buffers_blend() {
+        return GL_AMD_draw_buffers_blend;
     }
-    private static final int VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_FORMAT_PROPERTIES_ANDROID = (int)1000129002L;
+    private static final int GL_AMD_framebuffer_multisample_advanced = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_FORMAT_PROPERTIES_ANDROID = 1000129002
+     * #define GL_AMD_framebuffer_multisample_advanced 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_FORMAT_PROPERTIES_ANDROID() {
-        return VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_FORMAT_PROPERTIES_ANDROID;
+    public static int GL_AMD_framebuffer_multisample_advanced() {
+        return GL_AMD_framebuffer_multisample_advanced;
     }
-    private static final int VK_STRUCTURE_TYPE_IMPORT_ANDROID_HARDWARE_BUFFER_INFO_ANDROID = (int)1000129003L;
+    private static final int GL_RENDERBUFFER_STORAGE_SAMPLES_AMD = (int)37298L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMPORT_ANDROID_HARDWARE_BUFFER_INFO_ANDROID = 1000129003
+     * #define GL_RENDERBUFFER_STORAGE_SAMPLES_AMD 37298
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMPORT_ANDROID_HARDWARE_BUFFER_INFO_ANDROID() {
-        return VK_STRUCTURE_TYPE_IMPORT_ANDROID_HARDWARE_BUFFER_INFO_ANDROID;
+    public static int GL_RENDERBUFFER_STORAGE_SAMPLES_AMD() {
+        return GL_RENDERBUFFER_STORAGE_SAMPLES_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_MEMORY_GET_ANDROID_HARDWARE_BUFFER_INFO_ANDROID = (int)1000129004L;
+    private static final int GL_MAX_COLOR_FRAMEBUFFER_SAMPLES_AMD = (int)37299L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_MEMORY_GET_ANDROID_HARDWARE_BUFFER_INFO_ANDROID = 1000129004
+     * #define GL_MAX_COLOR_FRAMEBUFFER_SAMPLES_AMD 37299
      * }
      */
-    public static int VK_STRUCTURE_TYPE_MEMORY_GET_ANDROID_HARDWARE_BUFFER_INFO_ANDROID() {
-        return VK_STRUCTURE_TYPE_MEMORY_GET_ANDROID_HARDWARE_BUFFER_INFO_ANDROID;
+    public static int GL_MAX_COLOR_FRAMEBUFFER_SAMPLES_AMD() {
+        return GL_MAX_COLOR_FRAMEBUFFER_SAMPLES_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_EXTERNAL_FORMAT_ANDROID = (int)1000129005L;
+    private static final int GL_MAX_COLOR_FRAMEBUFFER_STORAGE_SAMPLES_AMD = (int)37300L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_EXTERNAL_FORMAT_ANDROID = 1000129005
+     * #define GL_MAX_COLOR_FRAMEBUFFER_STORAGE_SAMPLES_AMD 37300
      * }
      */
-    public static int VK_STRUCTURE_TYPE_EXTERNAL_FORMAT_ANDROID() {
-        return VK_STRUCTURE_TYPE_EXTERNAL_FORMAT_ANDROID;
+    public static int GL_MAX_COLOR_FRAMEBUFFER_STORAGE_SAMPLES_AMD() {
+        return GL_MAX_COLOR_FRAMEBUFFER_STORAGE_SAMPLES_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INLINE_UNIFORM_BLOCK_FEATURES_EXT = (int)1000138000L;
+    private static final int GL_MAX_DEPTH_STENCIL_FRAMEBUFFER_SAMPLES_AMD = (int)37301L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INLINE_UNIFORM_BLOCK_FEATURES_EXT = 1000138000
+     * #define GL_MAX_DEPTH_STENCIL_FRAMEBUFFER_SAMPLES_AMD 37301
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INLINE_UNIFORM_BLOCK_FEATURES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INLINE_UNIFORM_BLOCK_FEATURES_EXT;
+    public static int GL_MAX_DEPTH_STENCIL_FRAMEBUFFER_SAMPLES_AMD() {
+        return GL_MAX_DEPTH_STENCIL_FRAMEBUFFER_SAMPLES_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INLINE_UNIFORM_BLOCK_PROPERTIES_EXT = (int)1000138001L;
+    private static final int GL_NUM_SUPPORTED_MULTISAMPLE_MODES_AMD = (int)37302L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INLINE_UNIFORM_BLOCK_PROPERTIES_EXT = 1000138001
+     * #define GL_NUM_SUPPORTED_MULTISAMPLE_MODES_AMD 37302
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INLINE_UNIFORM_BLOCK_PROPERTIES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INLINE_UNIFORM_BLOCK_PROPERTIES_EXT;
+    public static int GL_NUM_SUPPORTED_MULTISAMPLE_MODES_AMD() {
+        return GL_NUM_SUPPORTED_MULTISAMPLE_MODES_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET_INLINE_UNIFORM_BLOCK_EXT = (int)1000138002L;
+    private static final int GL_SUPPORTED_MULTISAMPLE_MODES_AMD = (int)37303L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET_INLINE_UNIFORM_BLOCK_EXT = 1000138002
+     * #define GL_SUPPORTED_MULTISAMPLE_MODES_AMD 37303
      * }
      */
-    public static int VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET_INLINE_UNIFORM_BLOCK_EXT() {
-        return VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET_INLINE_UNIFORM_BLOCK_EXT;
+    public static int GL_SUPPORTED_MULTISAMPLE_MODES_AMD() {
+        return GL_SUPPORTED_MULTISAMPLE_MODES_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_DESCRIPTOR_POOL_INLINE_UNIFORM_BLOCK_CREATE_INFO_EXT = (int)1000138003L;
+    private static final int GL_AMD_framebuffer_sample_positions = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DESCRIPTOR_POOL_INLINE_UNIFORM_BLOCK_CREATE_INFO_EXT = 1000138003
+     * #define GL_AMD_framebuffer_sample_positions 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DESCRIPTOR_POOL_INLINE_UNIFORM_BLOCK_CREATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_DESCRIPTOR_POOL_INLINE_UNIFORM_BLOCK_CREATE_INFO_EXT;
+    public static int GL_AMD_framebuffer_sample_positions() {
+        return GL_AMD_framebuffer_sample_positions;
     }
-    private static final int VK_STRUCTURE_TYPE_SAMPLE_LOCATIONS_INFO_EXT = (int)1000143000L;
+    private static final int GL_SUBSAMPLE_DISTANCE_AMD = (int)34879L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SAMPLE_LOCATIONS_INFO_EXT = 1000143000
+     * #define GL_SUBSAMPLE_DISTANCE_AMD 34879
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SAMPLE_LOCATIONS_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_SAMPLE_LOCATIONS_INFO_EXT;
+    public static int GL_SUBSAMPLE_DISTANCE_AMD() {
+        return GL_SUBSAMPLE_DISTANCE_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_RENDER_PASS_SAMPLE_LOCATIONS_BEGIN_INFO_EXT = (int)1000143001L;
+    private static final int GL_PIXELS_PER_SAMPLE_PATTERN_X_AMD = (int)37294L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_RENDER_PASS_SAMPLE_LOCATIONS_BEGIN_INFO_EXT = 1000143001
+     * #define GL_PIXELS_PER_SAMPLE_PATTERN_X_AMD 37294
      * }
      */
-    public static int VK_STRUCTURE_TYPE_RENDER_PASS_SAMPLE_LOCATIONS_BEGIN_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_RENDER_PASS_SAMPLE_LOCATIONS_BEGIN_INFO_EXT;
+    public static int GL_PIXELS_PER_SAMPLE_PATTERN_X_AMD() {
+        return GL_PIXELS_PER_SAMPLE_PATTERN_X_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_SAMPLE_LOCATIONS_STATE_CREATE_INFO_EXT = (int)1000143002L;
+    private static final int GL_PIXELS_PER_SAMPLE_PATTERN_Y_AMD = (int)37295L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_SAMPLE_LOCATIONS_STATE_CREATE_INFO_EXT = 1000143002
+     * #define GL_PIXELS_PER_SAMPLE_PATTERN_Y_AMD 37295
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_SAMPLE_LOCATIONS_STATE_CREATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_PIPELINE_SAMPLE_LOCATIONS_STATE_CREATE_INFO_EXT;
+    public static int GL_PIXELS_PER_SAMPLE_PATTERN_Y_AMD() {
+        return GL_PIXELS_PER_SAMPLE_PATTERN_Y_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLE_LOCATIONS_PROPERTIES_EXT = (int)1000143003L;
+    private static final int GL_AMD_gcn_shader = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLE_LOCATIONS_PROPERTIES_EXT = 1000143003
+     * #define GL_AMD_gcn_shader 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLE_LOCATIONS_PROPERTIES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLE_LOCATIONS_PROPERTIES_EXT;
+    public static int GL_AMD_gcn_shader() {
+        return GL_AMD_gcn_shader;
     }
-    private static final int VK_STRUCTURE_TYPE_MULTISAMPLE_PROPERTIES_EXT = (int)1000143004L;
+    private static final int GL_AMD_gpu_shader_half_float = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_MULTISAMPLE_PROPERTIES_EXT = 1000143004
+     * #define GL_AMD_gpu_shader_half_float 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_MULTISAMPLE_PROPERTIES_EXT() {
-        return VK_STRUCTURE_TYPE_MULTISAMPLE_PROPERTIES_EXT;
+    public static int GL_AMD_gpu_shader_half_float() {
+        return GL_AMD_gpu_shader_half_float;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BLEND_OPERATION_ADVANCED_FEATURES_EXT = (int)1000148000L;
+    private static final int GL_FLOAT16_NV = (int)36856L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BLEND_OPERATION_ADVANCED_FEATURES_EXT = 1000148000
+     * #define GL_FLOAT16_NV 36856
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BLEND_OPERATION_ADVANCED_FEATURES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BLEND_OPERATION_ADVANCED_FEATURES_EXT;
+    public static int GL_FLOAT16_NV() {
+        return GL_FLOAT16_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BLEND_OPERATION_ADVANCED_PROPERTIES_EXT = (int)1000148001L;
+    private static final int GL_FLOAT16_VEC2_NV = (int)36857L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BLEND_OPERATION_ADVANCED_PROPERTIES_EXT = 1000148001
+     * #define GL_FLOAT16_VEC2_NV 36857
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BLEND_OPERATION_ADVANCED_PROPERTIES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BLEND_OPERATION_ADVANCED_PROPERTIES_EXT;
+    public static int GL_FLOAT16_VEC2_NV() {
+        return GL_FLOAT16_VEC2_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_COLOR_BLEND_ADVANCED_STATE_CREATE_INFO_EXT = (int)1000148002L;
+    private static final int GL_FLOAT16_VEC3_NV = (int)36858L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_COLOR_BLEND_ADVANCED_STATE_CREATE_INFO_EXT = 1000148002
+     * #define GL_FLOAT16_VEC3_NV 36858
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_COLOR_BLEND_ADVANCED_STATE_CREATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_PIPELINE_COLOR_BLEND_ADVANCED_STATE_CREATE_INFO_EXT;
+    public static int GL_FLOAT16_VEC3_NV() {
+        return GL_FLOAT16_VEC3_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_COVERAGE_TO_COLOR_STATE_CREATE_INFO_NV = (int)1000149000L;
+    private static final int GL_FLOAT16_VEC4_NV = (int)36859L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_COVERAGE_TO_COLOR_STATE_CREATE_INFO_NV = 1000149000
+     * #define GL_FLOAT16_VEC4_NV 36859
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_COVERAGE_TO_COLOR_STATE_CREATE_INFO_NV() {
-        return VK_STRUCTURE_TYPE_PIPELINE_COVERAGE_TO_COLOR_STATE_CREATE_INFO_NV;
+    public static int GL_FLOAT16_VEC4_NV() {
+        return GL_FLOAT16_VEC4_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_COVERAGE_MODULATION_STATE_CREATE_INFO_NV = (int)1000152000L;
+    private static final int GL_FLOAT16_MAT2_AMD = (int)37317L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_COVERAGE_MODULATION_STATE_CREATE_INFO_NV = 1000152000
+     * #define GL_FLOAT16_MAT2_AMD 37317
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_COVERAGE_MODULATION_STATE_CREATE_INFO_NV() {
-        return VK_STRUCTURE_TYPE_PIPELINE_COVERAGE_MODULATION_STATE_CREATE_INFO_NV;
+    public static int GL_FLOAT16_MAT2_AMD() {
+        return GL_FLOAT16_MAT2_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SM_BUILTINS_FEATURES_NV = (int)1000154000L;
+    private static final int GL_FLOAT16_MAT3_AMD = (int)37318L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SM_BUILTINS_FEATURES_NV = 1000154000
+     * #define GL_FLOAT16_MAT3_AMD 37318
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SM_BUILTINS_FEATURES_NV() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SM_BUILTINS_FEATURES_NV;
+    public static int GL_FLOAT16_MAT3_AMD() {
+        return GL_FLOAT16_MAT3_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SM_BUILTINS_PROPERTIES_NV = (int)1000154001L;
+    private static final int GL_FLOAT16_MAT4_AMD = (int)37319L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SM_BUILTINS_PROPERTIES_NV = 1000154001
+     * #define GL_FLOAT16_MAT4_AMD 37319
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SM_BUILTINS_PROPERTIES_NV() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SM_BUILTINS_PROPERTIES_NV;
+    public static int GL_FLOAT16_MAT4_AMD() {
+        return GL_FLOAT16_MAT4_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_DRM_FORMAT_MODIFIER_PROPERTIES_LIST_EXT = (int)1000158000L;
+    private static final int GL_FLOAT16_MAT2x3_AMD = (int)37320L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DRM_FORMAT_MODIFIER_PROPERTIES_LIST_EXT = 1000158000
+     * #define GL_FLOAT16_MAT2x3_AMD 37320
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DRM_FORMAT_MODIFIER_PROPERTIES_LIST_EXT() {
-        return VK_STRUCTURE_TYPE_DRM_FORMAT_MODIFIER_PROPERTIES_LIST_EXT;
+    public static int GL_FLOAT16_MAT2x3_AMD() {
+        return GL_FLOAT16_MAT2x3_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_DRM_FORMAT_MODIFIER_PROPERTIES_EXT = (int)1000158001L;
+    private static final int GL_FLOAT16_MAT2x4_AMD = (int)37321L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DRM_FORMAT_MODIFIER_PROPERTIES_EXT = 1000158001
+     * #define GL_FLOAT16_MAT2x4_AMD 37321
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DRM_FORMAT_MODIFIER_PROPERTIES_EXT() {
-        return VK_STRUCTURE_TYPE_DRM_FORMAT_MODIFIER_PROPERTIES_EXT;
+    public static int GL_FLOAT16_MAT2x4_AMD() {
+        return GL_FLOAT16_MAT2x4_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_DRM_FORMAT_MODIFIER_INFO_EXT = (int)1000158002L;
+    private static final int GL_FLOAT16_MAT3x2_AMD = (int)37322L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_DRM_FORMAT_MODIFIER_INFO_EXT = 1000158002
+     * #define GL_FLOAT16_MAT3x2_AMD 37322
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_DRM_FORMAT_MODIFIER_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_DRM_FORMAT_MODIFIER_INFO_EXT;
+    public static int GL_FLOAT16_MAT3x2_AMD() {
+        return GL_FLOAT16_MAT3x2_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_IMAGE_DRM_FORMAT_MODIFIER_LIST_CREATE_INFO_EXT = (int)1000158003L;
+    private static final int GL_FLOAT16_MAT3x4_AMD = (int)37323L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMAGE_DRM_FORMAT_MODIFIER_LIST_CREATE_INFO_EXT = 1000158003
+     * #define GL_FLOAT16_MAT3x4_AMD 37323
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMAGE_DRM_FORMAT_MODIFIER_LIST_CREATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_IMAGE_DRM_FORMAT_MODIFIER_LIST_CREATE_INFO_EXT;
+    public static int GL_FLOAT16_MAT3x4_AMD() {
+        return GL_FLOAT16_MAT3x4_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_IMAGE_DRM_FORMAT_MODIFIER_EXPLICIT_CREATE_INFO_EXT = (int)1000158004L;
+    private static final int GL_FLOAT16_MAT4x2_AMD = (int)37324L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMAGE_DRM_FORMAT_MODIFIER_EXPLICIT_CREATE_INFO_EXT = 1000158004
+     * #define GL_FLOAT16_MAT4x2_AMD 37324
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMAGE_DRM_FORMAT_MODIFIER_EXPLICIT_CREATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_IMAGE_DRM_FORMAT_MODIFIER_EXPLICIT_CREATE_INFO_EXT;
+    public static int GL_FLOAT16_MAT4x2_AMD() {
+        return GL_FLOAT16_MAT4x2_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_IMAGE_DRM_FORMAT_MODIFIER_PROPERTIES_EXT = (int)1000158005L;
+    private static final int GL_FLOAT16_MAT4x3_AMD = (int)37325L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMAGE_DRM_FORMAT_MODIFIER_PROPERTIES_EXT = 1000158005
+     * #define GL_FLOAT16_MAT4x3_AMD 37325
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMAGE_DRM_FORMAT_MODIFIER_PROPERTIES_EXT() {
-        return VK_STRUCTURE_TYPE_IMAGE_DRM_FORMAT_MODIFIER_PROPERTIES_EXT;
+    public static int GL_FLOAT16_MAT4x3_AMD() {
+        return GL_FLOAT16_MAT4x3_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_VALIDATION_CACHE_CREATE_INFO_EXT = (int)1000160000L;
+    private static final int GL_AMD_gpu_shader_int16 = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_VALIDATION_CACHE_CREATE_INFO_EXT = 1000160000
+     * #define GL_AMD_gpu_shader_int16 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_VALIDATION_CACHE_CREATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_VALIDATION_CACHE_CREATE_INFO_EXT;
+    public static int GL_AMD_gpu_shader_int16() {
+        return GL_AMD_gpu_shader_int16;
     }
-    private static final int VK_STRUCTURE_TYPE_SHADER_MODULE_VALIDATION_CACHE_CREATE_INFO_EXT = (int)1000160001L;
+    private static final int GL_AMD_gpu_shader_int64 = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SHADER_MODULE_VALIDATION_CACHE_CREATE_INFO_EXT = 1000160001
+     * #define GL_AMD_gpu_shader_int64 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SHADER_MODULE_VALIDATION_CACHE_CREATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_SHADER_MODULE_VALIDATION_CACHE_CREATE_INFO_EXT;
+    public static int GL_AMD_gpu_shader_int64() {
+        return GL_AMD_gpu_shader_int64;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_SHADING_RATE_IMAGE_STATE_CREATE_INFO_NV = (int)1000164000L;
+    private static final int GL_INT64_NV = (int)5134L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_SHADING_RATE_IMAGE_STATE_CREATE_INFO_NV = 1000164000
+     * #define GL_INT64_NV 5134
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_SHADING_RATE_IMAGE_STATE_CREATE_INFO_NV() {
-        return VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_SHADING_RATE_IMAGE_STATE_CREATE_INFO_NV;
+    public static int GL_INT64_NV() {
+        return GL_INT64_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADING_RATE_IMAGE_FEATURES_NV = (int)1000164001L;
+    private static final int GL_UNSIGNED_INT64_NV = (int)5135L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADING_RATE_IMAGE_FEATURES_NV = 1000164001
+     * #define GL_UNSIGNED_INT64_NV 5135
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADING_RATE_IMAGE_FEATURES_NV() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADING_RATE_IMAGE_FEATURES_NV;
+    public static int GL_UNSIGNED_INT64_NV() {
+        return GL_UNSIGNED_INT64_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADING_RATE_IMAGE_PROPERTIES_NV = (int)1000164002L;
+    private static final int GL_INT8_NV = (int)36832L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADING_RATE_IMAGE_PROPERTIES_NV = 1000164002
+     * #define GL_INT8_NV 36832
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADING_RATE_IMAGE_PROPERTIES_NV() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADING_RATE_IMAGE_PROPERTIES_NV;
+    public static int GL_INT8_NV() {
+        return GL_INT8_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_COARSE_SAMPLE_ORDER_STATE_CREATE_INFO_NV = (int)1000164005L;
+    private static final int GL_INT8_VEC2_NV = (int)36833L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_COARSE_SAMPLE_ORDER_STATE_CREATE_INFO_NV = 1000164005
+     * #define GL_INT8_VEC2_NV 36833
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_COARSE_SAMPLE_ORDER_STATE_CREATE_INFO_NV() {
-        return VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_COARSE_SAMPLE_ORDER_STATE_CREATE_INFO_NV;
+    public static int GL_INT8_VEC2_NV() {
+        return GL_INT8_VEC2_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_RAY_TRACING_PIPELINE_CREATE_INFO_NV = (int)1000165000L;
+    private static final int GL_INT8_VEC3_NV = (int)36834L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_RAY_TRACING_PIPELINE_CREATE_INFO_NV = 1000165000
+     * #define GL_INT8_VEC3_NV 36834
      * }
      */
-    public static int VK_STRUCTURE_TYPE_RAY_TRACING_PIPELINE_CREATE_INFO_NV() {
-        return VK_STRUCTURE_TYPE_RAY_TRACING_PIPELINE_CREATE_INFO_NV;
+    public static int GL_INT8_VEC3_NV() {
+        return GL_INT8_VEC3_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_CREATE_INFO_NV = (int)1000165001L;
+    private static final int GL_INT8_VEC4_NV = (int)36835L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_CREATE_INFO_NV = 1000165001
+     * #define GL_INT8_VEC4_NV 36835
      * }
      */
-    public static int VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_CREATE_INFO_NV() {
-        return VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_CREATE_INFO_NV;
+    public static int GL_INT8_VEC4_NV() {
+        return GL_INT8_VEC4_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_GEOMETRY_NV = (int)1000165003L;
+    private static final int GL_INT16_NV = (int)36836L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_GEOMETRY_NV = 1000165003
+     * #define GL_INT16_NV 36836
      * }
      */
-    public static int VK_STRUCTURE_TYPE_GEOMETRY_NV() {
-        return VK_STRUCTURE_TYPE_GEOMETRY_NV;
+    public static int GL_INT16_NV() {
+        return GL_INT16_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_GEOMETRY_TRIANGLES_NV = (int)1000165004L;
+    private static final int GL_INT16_VEC2_NV = (int)36837L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_GEOMETRY_TRIANGLES_NV = 1000165004
+     * #define GL_INT16_VEC2_NV 36837
      * }
      */
-    public static int VK_STRUCTURE_TYPE_GEOMETRY_TRIANGLES_NV() {
-        return VK_STRUCTURE_TYPE_GEOMETRY_TRIANGLES_NV;
+    public static int GL_INT16_VEC2_NV() {
+        return GL_INT16_VEC2_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_GEOMETRY_AABB_NV = (int)1000165005L;
+    private static final int GL_INT16_VEC3_NV = (int)36838L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_GEOMETRY_AABB_NV = 1000165005
+     * #define GL_INT16_VEC3_NV 36838
      * }
      */
-    public static int VK_STRUCTURE_TYPE_GEOMETRY_AABB_NV() {
-        return VK_STRUCTURE_TYPE_GEOMETRY_AABB_NV;
+    public static int GL_INT16_VEC3_NV() {
+        return GL_INT16_VEC3_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_BIND_ACCELERATION_STRUCTURE_MEMORY_INFO_NV = (int)1000165006L;
+    private static final int GL_INT16_VEC4_NV = (int)36839L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_BIND_ACCELERATION_STRUCTURE_MEMORY_INFO_NV = 1000165006
+     * #define GL_INT16_VEC4_NV 36839
      * }
      */
-    public static int VK_STRUCTURE_TYPE_BIND_ACCELERATION_STRUCTURE_MEMORY_INFO_NV() {
-        return VK_STRUCTURE_TYPE_BIND_ACCELERATION_STRUCTURE_MEMORY_INFO_NV;
+    public static int GL_INT16_VEC4_NV() {
+        return GL_INT16_VEC4_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET_ACCELERATION_STRUCTURE_NV = (int)1000165007L;
+    private static final int GL_INT64_VEC2_NV = (int)36841L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET_ACCELERATION_STRUCTURE_NV = 1000165007
+     * #define GL_INT64_VEC2_NV 36841
      * }
      */
-    public static int VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET_ACCELERATION_STRUCTURE_NV() {
-        return VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET_ACCELERATION_STRUCTURE_NV;
+    public static int GL_INT64_VEC2_NV() {
+        return GL_INT64_VEC2_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_MEMORY_REQUIREMENTS_INFO_NV = (int)1000165008L;
+    private static final int GL_INT64_VEC3_NV = (int)36842L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_MEMORY_REQUIREMENTS_INFO_NV = 1000165008
+     * #define GL_INT64_VEC3_NV 36842
      * }
      */
-    public static int VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_MEMORY_REQUIREMENTS_INFO_NV() {
-        return VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_MEMORY_REQUIREMENTS_INFO_NV;
+    public static int GL_INT64_VEC3_NV() {
+        return GL_INT64_VEC3_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_TRACING_PROPERTIES_NV = (int)1000165009L;
+    private static final int GL_INT64_VEC4_NV = (int)36843L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_TRACING_PROPERTIES_NV = 1000165009
+     * #define GL_INT64_VEC4_NV 36843
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_TRACING_PROPERTIES_NV() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_TRACING_PROPERTIES_NV;
+    public static int GL_INT64_VEC4_NV() {
+        return GL_INT64_VEC4_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_RAY_TRACING_SHADER_GROUP_CREATE_INFO_NV = (int)1000165011L;
+    private static final int GL_UNSIGNED_INT8_NV = (int)36844L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_RAY_TRACING_SHADER_GROUP_CREATE_INFO_NV = 1000165011
+     * #define GL_UNSIGNED_INT8_NV 36844
      * }
      */
-    public static int VK_STRUCTURE_TYPE_RAY_TRACING_SHADER_GROUP_CREATE_INFO_NV() {
-        return VK_STRUCTURE_TYPE_RAY_TRACING_SHADER_GROUP_CREATE_INFO_NV;
+    public static int GL_UNSIGNED_INT8_NV() {
+        return GL_UNSIGNED_INT8_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_INFO_NV = (int)1000165012L;
+    private static final int GL_UNSIGNED_INT8_VEC2_NV = (int)36845L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_INFO_NV = 1000165012
+     * #define GL_UNSIGNED_INT8_VEC2_NV 36845
      * }
      */
-    public static int VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_INFO_NV() {
-        return VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_INFO_NV;
+    public static int GL_UNSIGNED_INT8_VEC2_NV() {
+        return GL_UNSIGNED_INT8_VEC2_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_REPRESENTATIVE_FRAGMENT_TEST_FEATURES_NV = (int)1000166000L;
+    private static final int GL_UNSIGNED_INT8_VEC3_NV = (int)36846L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_REPRESENTATIVE_FRAGMENT_TEST_FEATURES_NV = 1000166000
+     * #define GL_UNSIGNED_INT8_VEC3_NV 36846
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_REPRESENTATIVE_FRAGMENT_TEST_FEATURES_NV() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_REPRESENTATIVE_FRAGMENT_TEST_FEATURES_NV;
+    public static int GL_UNSIGNED_INT8_VEC3_NV() {
+        return GL_UNSIGNED_INT8_VEC3_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_REPRESENTATIVE_FRAGMENT_TEST_STATE_CREATE_INFO_NV = (int)1000166001L;
+    private static final int GL_UNSIGNED_INT8_VEC4_NV = (int)36847L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_REPRESENTATIVE_FRAGMENT_TEST_STATE_CREATE_INFO_NV = 1000166001
+     * #define GL_UNSIGNED_INT8_VEC4_NV 36847
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_REPRESENTATIVE_FRAGMENT_TEST_STATE_CREATE_INFO_NV() {
-        return VK_STRUCTURE_TYPE_PIPELINE_REPRESENTATIVE_FRAGMENT_TEST_STATE_CREATE_INFO_NV;
+    public static int GL_UNSIGNED_INT8_VEC4_NV() {
+        return GL_UNSIGNED_INT8_VEC4_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_VIEW_IMAGE_FORMAT_INFO_EXT = (int)1000170000L;
+    private static final int GL_UNSIGNED_INT16_NV = (int)36848L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_VIEW_IMAGE_FORMAT_INFO_EXT = 1000170000
+     * #define GL_UNSIGNED_INT16_NV 36848
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_VIEW_IMAGE_FORMAT_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_VIEW_IMAGE_FORMAT_INFO_EXT;
+    public static int GL_UNSIGNED_INT16_NV() {
+        return GL_UNSIGNED_INT16_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_FILTER_CUBIC_IMAGE_VIEW_IMAGE_FORMAT_PROPERTIES_EXT = (int)1000170001L;
+    private static final int GL_UNSIGNED_INT16_VEC2_NV = (int)36849L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_FILTER_CUBIC_IMAGE_VIEW_IMAGE_FORMAT_PROPERTIES_EXT = 1000170001
+     * #define GL_UNSIGNED_INT16_VEC2_NV 36849
      * }
      */
-    public static int VK_STRUCTURE_TYPE_FILTER_CUBIC_IMAGE_VIEW_IMAGE_FORMAT_PROPERTIES_EXT() {
-        return VK_STRUCTURE_TYPE_FILTER_CUBIC_IMAGE_VIEW_IMAGE_FORMAT_PROPERTIES_EXT;
+    public static int GL_UNSIGNED_INT16_VEC2_NV() {
+        return GL_UNSIGNED_INT16_VEC2_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_DEVICE_QUEUE_GLOBAL_PRIORITY_CREATE_INFO_EXT = (int)1000174000L;
+    private static final int GL_UNSIGNED_INT16_VEC3_NV = (int)36850L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEVICE_QUEUE_GLOBAL_PRIORITY_CREATE_INFO_EXT = 1000174000
+     * #define GL_UNSIGNED_INT16_VEC3_NV 36850
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEVICE_QUEUE_GLOBAL_PRIORITY_CREATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_DEVICE_QUEUE_GLOBAL_PRIORITY_CREATE_INFO_EXT;
+    public static int GL_UNSIGNED_INT16_VEC3_NV() {
+        return GL_UNSIGNED_INT16_VEC3_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_IMPORT_MEMORY_HOST_POINTER_INFO_EXT = (int)1000178000L;
+    private static final int GL_UNSIGNED_INT16_VEC4_NV = (int)36851L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMPORT_MEMORY_HOST_POINTER_INFO_EXT = 1000178000
+     * #define GL_UNSIGNED_INT16_VEC4_NV 36851
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMPORT_MEMORY_HOST_POINTER_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_IMPORT_MEMORY_HOST_POINTER_INFO_EXT;
+    public static int GL_UNSIGNED_INT16_VEC4_NV() {
+        return GL_UNSIGNED_INT16_VEC4_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_MEMORY_HOST_POINTER_PROPERTIES_EXT = (int)1000178001L;
+    private static final int GL_UNSIGNED_INT64_VEC2_NV = (int)36853L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_MEMORY_HOST_POINTER_PROPERTIES_EXT = 1000178001
+     * #define GL_UNSIGNED_INT64_VEC2_NV 36853
      * }
      */
-    public static int VK_STRUCTURE_TYPE_MEMORY_HOST_POINTER_PROPERTIES_EXT() {
-        return VK_STRUCTURE_TYPE_MEMORY_HOST_POINTER_PROPERTIES_EXT;
+    public static int GL_UNSIGNED_INT64_VEC2_NV() {
+        return GL_UNSIGNED_INT64_VEC2_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_MEMORY_HOST_PROPERTIES_EXT = (int)1000178002L;
+    private static final int GL_UNSIGNED_INT64_VEC3_NV = (int)36854L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_MEMORY_HOST_PROPERTIES_EXT = 1000178002
+     * #define GL_UNSIGNED_INT64_VEC3_NV 36854
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_MEMORY_HOST_PROPERTIES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_MEMORY_HOST_PROPERTIES_EXT;
+    public static int GL_UNSIGNED_INT64_VEC3_NV() {
+        return GL_UNSIGNED_INT64_VEC3_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CLOCK_FEATURES_KHR = (int)1000181000L;
+    private static final int GL_UNSIGNED_INT64_VEC4_NV = (int)36855L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CLOCK_FEATURES_KHR = 1000181000
+     * #define GL_UNSIGNED_INT64_VEC4_NV 36855
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CLOCK_FEATURES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CLOCK_FEATURES_KHR;
+    public static int GL_UNSIGNED_INT64_VEC4_NV() {
+        return GL_UNSIGNED_INT64_VEC4_NV;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_COMPILER_CONTROL_CREATE_INFO_AMD = (int)1000183000L;
+    private static final int GL_AMD_interleaved_elements = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_COMPILER_CONTROL_CREATE_INFO_AMD = 1000183000
+     * #define GL_AMD_interleaved_elements 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_COMPILER_CONTROL_CREATE_INFO_AMD() {
-        return VK_STRUCTURE_TYPE_PIPELINE_COMPILER_CONTROL_CREATE_INFO_AMD;
+    public static int GL_AMD_interleaved_elements() {
+        return GL_AMD_interleaved_elements;
     }
-    private static final int VK_STRUCTURE_TYPE_CALIBRATED_TIMESTAMP_INFO_EXT = (int)1000184000L;
+    private static final int GL_VERTEX_ELEMENT_SWIZZLE_AMD = (int)37284L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_CALIBRATED_TIMESTAMP_INFO_EXT = 1000184000
+     * #define GL_VERTEX_ELEMENT_SWIZZLE_AMD 37284
      * }
      */
-    public static int VK_STRUCTURE_TYPE_CALIBRATED_TIMESTAMP_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_CALIBRATED_TIMESTAMP_INFO_EXT;
+    public static int GL_VERTEX_ELEMENT_SWIZZLE_AMD() {
+        return GL_VERTEX_ELEMENT_SWIZZLE_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CORE_PROPERTIES_AMD = (int)1000185000L;
+    private static final int GL_VERTEX_ID_SWIZZLE_AMD = (int)37285L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CORE_PROPERTIES_AMD = 1000185000
+     * #define GL_VERTEX_ID_SWIZZLE_AMD 37285
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CORE_PROPERTIES_AMD() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CORE_PROPERTIES_AMD;
+    public static int GL_VERTEX_ID_SWIZZLE_AMD() {
+        return GL_VERTEX_ID_SWIZZLE_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_DEVICE_MEMORY_OVERALLOCATION_CREATE_INFO_AMD = (int)1000189000L;
+    private static final int GL_AMD_multi_draw_indirect = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEVICE_MEMORY_OVERALLOCATION_CREATE_INFO_AMD = 1000189000
+     * #define GL_AMD_multi_draw_indirect 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEVICE_MEMORY_OVERALLOCATION_CREATE_INFO_AMD() {
-        return VK_STRUCTURE_TYPE_DEVICE_MEMORY_OVERALLOCATION_CREATE_INFO_AMD;
+    public static int GL_AMD_multi_draw_indirect() {
+        return GL_AMD_multi_draw_indirect;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_PROPERTIES_EXT = (int)1000190000L;
+    private static final int GL_AMD_name_gen_delete = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_PROPERTIES_EXT = 1000190000
+     * #define GL_AMD_name_gen_delete 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_PROPERTIES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_PROPERTIES_EXT;
+    public static int GL_AMD_name_gen_delete() {
+        return GL_AMD_name_gen_delete;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_DIVISOR_STATE_CREATE_INFO_EXT = (int)1000190001L;
+    private static final int GL_DATA_BUFFER_AMD = (int)37201L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_DIVISOR_STATE_CREATE_INFO_EXT = 1000190001
+     * #define GL_DATA_BUFFER_AMD 37201
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_DIVISOR_STATE_CREATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_DIVISOR_STATE_CREATE_INFO_EXT;
+    public static int GL_DATA_BUFFER_AMD() {
+        return GL_DATA_BUFFER_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_FEATURES_EXT = (int)1000190002L;
+    private static final int GL_PERFORMANCE_MONITOR_AMD = (int)37202L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_FEATURES_EXT = 1000190002
+     * #define GL_PERFORMANCE_MONITOR_AMD 37202
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_FEATURES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_FEATURES_EXT;
+    public static int GL_PERFORMANCE_MONITOR_AMD() {
+        return GL_PERFORMANCE_MONITOR_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PRESENT_FRAME_TOKEN_GGP = (int)1000191000L;
+    private static final int GL_QUERY_OBJECT_AMD = (int)37203L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PRESENT_FRAME_TOKEN_GGP = 1000191000
+     * #define GL_QUERY_OBJECT_AMD 37203
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PRESENT_FRAME_TOKEN_GGP() {
-        return VK_STRUCTURE_TYPE_PRESENT_FRAME_TOKEN_GGP;
+    public static int GL_QUERY_OBJECT_AMD() {
+        return GL_QUERY_OBJECT_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_CREATION_FEEDBACK_CREATE_INFO_EXT = (int)1000192000L;
+    private static final int GL_VERTEX_ARRAY_OBJECT_AMD = (int)37204L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_CREATION_FEEDBACK_CREATE_INFO_EXT = 1000192000
+     * #define GL_VERTEX_ARRAY_OBJECT_AMD 37204
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_CREATION_FEEDBACK_CREATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_PIPELINE_CREATION_FEEDBACK_CREATE_INFO_EXT;
+    public static int GL_VERTEX_ARRAY_OBJECT_AMD() {
+        return GL_VERTEX_ARRAY_OBJECT_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COMPUTE_SHADER_DERIVATIVES_FEATURES_NV = (int)1000201000L;
+    private static final int GL_SAMPLER_OBJECT_AMD = (int)37205L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COMPUTE_SHADER_DERIVATIVES_FEATURES_NV = 1000201000
+     * #define GL_SAMPLER_OBJECT_AMD 37205
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COMPUTE_SHADER_DERIVATIVES_FEATURES_NV() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COMPUTE_SHADER_DERIVATIVES_FEATURES_NV;
+    public static int GL_SAMPLER_OBJECT_AMD() {
+        return GL_SAMPLER_OBJECT_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MESH_SHADER_FEATURES_NV = (int)1000202000L;
+    private static final int GL_AMD_occlusion_query_event = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MESH_SHADER_FEATURES_NV = 1000202000
+     * #define GL_AMD_occlusion_query_event 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MESH_SHADER_FEATURES_NV() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MESH_SHADER_FEATURES_NV;
+    public static int GL_AMD_occlusion_query_event() {
+        return GL_AMD_occlusion_query_event;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MESH_SHADER_PROPERTIES_NV = (int)1000202001L;
+    private static final int GL_OCCLUSION_QUERY_EVENT_MASK_AMD = (int)34639L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MESH_SHADER_PROPERTIES_NV = 1000202001
+     * #define GL_OCCLUSION_QUERY_EVENT_MASK_AMD 34639
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MESH_SHADER_PROPERTIES_NV() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MESH_SHADER_PROPERTIES_NV;
+    public static int GL_OCCLUSION_QUERY_EVENT_MASK_AMD() {
+        return GL_OCCLUSION_QUERY_EVENT_MASK_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADER_BARYCENTRIC_FEATURES_NV = (int)1000203000L;
+    private static final int GL_QUERY_DEPTH_PASS_EVENT_BIT_AMD = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADER_BARYCENTRIC_FEATURES_NV = 1000203000
+     * #define GL_QUERY_DEPTH_PASS_EVENT_BIT_AMD 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADER_BARYCENTRIC_FEATURES_NV() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADER_BARYCENTRIC_FEATURES_NV;
+    public static int GL_QUERY_DEPTH_PASS_EVENT_BIT_AMD() {
+        return GL_QUERY_DEPTH_PASS_EVENT_BIT_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_IMAGE_FOOTPRINT_FEATURES_NV = (int)1000204000L;
+    private static final int GL_QUERY_DEPTH_FAIL_EVENT_BIT_AMD = (int)2L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_IMAGE_FOOTPRINT_FEATURES_NV = 1000204000
+     * #define GL_QUERY_DEPTH_FAIL_EVENT_BIT_AMD 2
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_IMAGE_FOOTPRINT_FEATURES_NV() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_IMAGE_FOOTPRINT_FEATURES_NV;
+    public static int GL_QUERY_DEPTH_FAIL_EVENT_BIT_AMD() {
+        return GL_QUERY_DEPTH_FAIL_EVENT_BIT_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_EXCLUSIVE_SCISSOR_STATE_CREATE_INFO_NV = (int)1000205000L;
+    private static final int GL_QUERY_STENCIL_FAIL_EVENT_BIT_AMD = (int)4L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_EXCLUSIVE_SCISSOR_STATE_CREATE_INFO_NV = 1000205000
+     * #define GL_QUERY_STENCIL_FAIL_EVENT_BIT_AMD 4
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_EXCLUSIVE_SCISSOR_STATE_CREATE_INFO_NV() {
-        return VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_EXCLUSIVE_SCISSOR_STATE_CREATE_INFO_NV;
+    public static int GL_QUERY_STENCIL_FAIL_EVENT_BIT_AMD() {
+        return GL_QUERY_STENCIL_FAIL_EVENT_BIT_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXCLUSIVE_SCISSOR_FEATURES_NV = (int)1000205002L;
+    private static final int GL_QUERY_DEPTH_BOUNDS_FAIL_EVENT_BIT_AMD = (int)8L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXCLUSIVE_SCISSOR_FEATURES_NV = 1000205002
+     * #define GL_QUERY_DEPTH_BOUNDS_FAIL_EVENT_BIT_AMD 8
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXCLUSIVE_SCISSOR_FEATURES_NV() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXCLUSIVE_SCISSOR_FEATURES_NV;
+    public static int GL_QUERY_DEPTH_BOUNDS_FAIL_EVENT_BIT_AMD() {
+        return GL_QUERY_DEPTH_BOUNDS_FAIL_EVENT_BIT_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_CHECKPOINT_DATA_NV = (int)1000206000L;
+    private static final int GL_AMD_performance_monitor = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_CHECKPOINT_DATA_NV = 1000206000
+     * #define GL_AMD_performance_monitor 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_CHECKPOINT_DATA_NV() {
-        return VK_STRUCTURE_TYPE_CHECKPOINT_DATA_NV;
+    public static int GL_AMD_performance_monitor() {
+        return GL_AMD_performance_monitor;
     }
-    private static final int VK_STRUCTURE_TYPE_QUEUE_FAMILY_CHECKPOINT_PROPERTIES_NV = (int)1000206001L;
+    private static final int GL_COUNTER_TYPE_AMD = (int)35776L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_QUEUE_FAMILY_CHECKPOINT_PROPERTIES_NV = 1000206001
+     * #define GL_COUNTER_TYPE_AMD 35776
      * }
      */
-    public static int VK_STRUCTURE_TYPE_QUEUE_FAMILY_CHECKPOINT_PROPERTIES_NV() {
-        return VK_STRUCTURE_TYPE_QUEUE_FAMILY_CHECKPOINT_PROPERTIES_NV;
+    public static int GL_COUNTER_TYPE_AMD() {
+        return GL_COUNTER_TYPE_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_FUNCTIONS_2_FEATURES_INTEL = (int)1000209000L;
+    private static final int GL_COUNTER_RANGE_AMD = (int)35777L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_FUNCTIONS_2_FEATURES_INTEL = 1000209000
+     * #define GL_COUNTER_RANGE_AMD 35777
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_FUNCTIONS_2_FEATURES_INTEL() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_FUNCTIONS_2_FEATURES_INTEL;
+    public static int GL_COUNTER_RANGE_AMD() {
+        return GL_COUNTER_RANGE_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_QUERY_POOL_CREATE_INFO_INTEL = (int)1000210000L;
+    private static final int GL_UNSIGNED_INT64_AMD = (int)35778L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_QUERY_POOL_CREATE_INFO_INTEL = 1000210000
+     * #define GL_UNSIGNED_INT64_AMD 35778
      * }
      */
-    public static int VK_STRUCTURE_TYPE_QUERY_POOL_CREATE_INFO_INTEL() {
-        return VK_STRUCTURE_TYPE_QUERY_POOL_CREATE_INFO_INTEL;
+    public static int GL_UNSIGNED_INT64_AMD() {
+        return GL_UNSIGNED_INT64_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_INITIALIZE_PERFORMANCE_API_INFO_INTEL = (int)1000210001L;
+    private static final int GL_PERCENTAGE_AMD = (int)35779L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_INITIALIZE_PERFORMANCE_API_INFO_INTEL = 1000210001
+     * #define GL_PERCENTAGE_AMD 35779
      * }
      */
-    public static int VK_STRUCTURE_TYPE_INITIALIZE_PERFORMANCE_API_INFO_INTEL() {
-        return VK_STRUCTURE_TYPE_INITIALIZE_PERFORMANCE_API_INFO_INTEL;
+    public static int GL_PERCENTAGE_AMD() {
+        return GL_PERCENTAGE_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PERFORMANCE_MARKER_INFO_INTEL = (int)1000210002L;
+    private static final int GL_PERFMON_RESULT_AVAILABLE_AMD = (int)35780L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PERFORMANCE_MARKER_INFO_INTEL = 1000210002
+     * #define GL_PERFMON_RESULT_AVAILABLE_AMD 35780
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PERFORMANCE_MARKER_INFO_INTEL() {
-        return VK_STRUCTURE_TYPE_PERFORMANCE_MARKER_INFO_INTEL;
+    public static int GL_PERFMON_RESULT_AVAILABLE_AMD() {
+        return GL_PERFMON_RESULT_AVAILABLE_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PERFORMANCE_STREAM_MARKER_INFO_INTEL = (int)1000210003L;
+    private static final int GL_PERFMON_RESULT_SIZE_AMD = (int)35781L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PERFORMANCE_STREAM_MARKER_INFO_INTEL = 1000210003
+     * #define GL_PERFMON_RESULT_SIZE_AMD 35781
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PERFORMANCE_STREAM_MARKER_INFO_INTEL() {
-        return VK_STRUCTURE_TYPE_PERFORMANCE_STREAM_MARKER_INFO_INTEL;
+    public static int GL_PERFMON_RESULT_SIZE_AMD() {
+        return GL_PERFMON_RESULT_SIZE_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PERFORMANCE_OVERRIDE_INFO_INTEL = (int)1000210004L;
+    private static final int GL_PERFMON_RESULT_AMD = (int)35782L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PERFORMANCE_OVERRIDE_INFO_INTEL = 1000210004
+     * #define GL_PERFMON_RESULT_AMD 35782
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PERFORMANCE_OVERRIDE_INFO_INTEL() {
-        return VK_STRUCTURE_TYPE_PERFORMANCE_OVERRIDE_INFO_INTEL;
+    public static int GL_PERFMON_RESULT_AMD() {
+        return GL_PERFMON_RESULT_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PERFORMANCE_CONFIGURATION_ACQUIRE_INFO_INTEL = (int)1000210005L;
+    private static final int GL_AMD_pinned_memory = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PERFORMANCE_CONFIGURATION_ACQUIRE_INFO_INTEL = 1000210005
+     * #define GL_AMD_pinned_memory 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PERFORMANCE_CONFIGURATION_ACQUIRE_INFO_INTEL() {
-        return VK_STRUCTURE_TYPE_PERFORMANCE_CONFIGURATION_ACQUIRE_INFO_INTEL;
+    public static int GL_AMD_pinned_memory() {
+        return GL_AMD_pinned_memory;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PCI_BUS_INFO_PROPERTIES_EXT = (int)1000212000L;
+    private static final int GL_EXTERNAL_VIRTUAL_MEMORY_BUFFER_AMD = (int)37216L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PCI_BUS_INFO_PROPERTIES_EXT = 1000212000
+     * #define GL_EXTERNAL_VIRTUAL_MEMORY_BUFFER_AMD 37216
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PCI_BUS_INFO_PROPERTIES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PCI_BUS_INFO_PROPERTIES_EXT;
+    public static int GL_EXTERNAL_VIRTUAL_MEMORY_BUFFER_AMD() {
+        return GL_EXTERNAL_VIRTUAL_MEMORY_BUFFER_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_DISPLAY_NATIVE_HDR_SURFACE_CAPABILITIES_AMD = (int)1000213000L;
+    private static final int GL_AMD_query_buffer_object = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DISPLAY_NATIVE_HDR_SURFACE_CAPABILITIES_AMD = 1000213000
+     * #define GL_AMD_query_buffer_object 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DISPLAY_NATIVE_HDR_SURFACE_CAPABILITIES_AMD() {
-        return VK_STRUCTURE_TYPE_DISPLAY_NATIVE_HDR_SURFACE_CAPABILITIES_AMD;
+    public static int GL_AMD_query_buffer_object() {
+        return GL_AMD_query_buffer_object;
     }
-    private static final int VK_STRUCTURE_TYPE_SWAPCHAIN_DISPLAY_NATIVE_HDR_CREATE_INFO_AMD = (int)1000213001L;
+    private static final int GL_QUERY_BUFFER_AMD = (int)37266L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SWAPCHAIN_DISPLAY_NATIVE_HDR_CREATE_INFO_AMD = 1000213001
+     * #define GL_QUERY_BUFFER_AMD 37266
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SWAPCHAIN_DISPLAY_NATIVE_HDR_CREATE_INFO_AMD() {
-        return VK_STRUCTURE_TYPE_SWAPCHAIN_DISPLAY_NATIVE_HDR_CREATE_INFO_AMD;
+    public static int GL_QUERY_BUFFER_AMD() {
+        return GL_QUERY_BUFFER_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_IMAGEPIPE_SURFACE_CREATE_INFO_FUCHSIA = (int)1000214000L;
+    private static final int GL_QUERY_BUFFER_BINDING_AMD = (int)37267L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMAGEPIPE_SURFACE_CREATE_INFO_FUCHSIA = 1000214000
+     * #define GL_QUERY_BUFFER_BINDING_AMD 37267
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMAGEPIPE_SURFACE_CREATE_INFO_FUCHSIA() {
-        return VK_STRUCTURE_TYPE_IMAGEPIPE_SURFACE_CREATE_INFO_FUCHSIA;
+    public static int GL_QUERY_BUFFER_BINDING_AMD() {
+        return GL_QUERY_BUFFER_BINDING_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_METAL_SURFACE_CREATE_INFO_EXT = (int)1000217000L;
+    private static final int GL_QUERY_RESULT_NO_WAIT_AMD = (int)37268L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_METAL_SURFACE_CREATE_INFO_EXT = 1000217000
+     * #define GL_QUERY_RESULT_NO_WAIT_AMD 37268
      * }
      */
-    public static int VK_STRUCTURE_TYPE_METAL_SURFACE_CREATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_METAL_SURFACE_CREATE_INFO_EXT;
+    public static int GL_QUERY_RESULT_NO_WAIT_AMD() {
+        return GL_QUERY_RESULT_NO_WAIT_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_FEATURES_EXT = (int)1000218000L;
+    private static final int GL_AMD_sample_positions = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_FEATURES_EXT = 1000218000
+     * #define GL_AMD_sample_positions 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_FEATURES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_FEATURES_EXT;
+    public static int GL_AMD_sample_positions() {
+        return GL_AMD_sample_positions;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_PROPERTIES_EXT = (int)1000218001L;
+    private static final int GL_AMD_seamless_cubemap_per_texture = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_PROPERTIES_EXT = 1000218001
+     * #define GL_AMD_seamless_cubemap_per_texture 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_PROPERTIES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_PROPERTIES_EXT;
+    public static int GL_AMD_seamless_cubemap_per_texture() {
+        return GL_AMD_seamless_cubemap_per_texture;
     }
-    private static final int VK_STRUCTURE_TYPE_RENDER_PASS_FRAGMENT_DENSITY_MAP_CREATE_INFO_EXT = (int)1000218002L;
+    private static final int GL_AMD_shader_atomic_counter_ops = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_RENDER_PASS_FRAGMENT_DENSITY_MAP_CREATE_INFO_EXT = 1000218002
+     * #define GL_AMD_shader_atomic_counter_ops 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_RENDER_PASS_FRAGMENT_DENSITY_MAP_CREATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_RENDER_PASS_FRAGMENT_DENSITY_MAP_CREATE_INFO_EXT;
+    public static int GL_AMD_shader_atomic_counter_ops() {
+        return GL_AMD_shader_atomic_counter_ops;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_SIZE_CONTROL_PROPERTIES_EXT = (int)1000225000L;
+    private static final int GL_AMD_shader_ballot = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_SIZE_CONTROL_PROPERTIES_EXT = 1000225000
+     * #define GL_AMD_shader_ballot 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_SIZE_CONTROL_PROPERTIES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_SIZE_CONTROL_PROPERTIES_EXT;
+    public static int GL_AMD_shader_ballot() {
+        return GL_AMD_shader_ballot;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_REQUIRED_SUBGROUP_SIZE_CREATE_INFO_EXT = (int)1000225001L;
+    private static final int GL_AMD_shader_explicit_vertex_parameter = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_REQUIRED_SUBGROUP_SIZE_CREATE_INFO_EXT = 1000225001
+     * #define GL_AMD_shader_explicit_vertex_parameter 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_REQUIRED_SUBGROUP_SIZE_CREATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_REQUIRED_SUBGROUP_SIZE_CREATE_INFO_EXT;
+    public static int GL_AMD_shader_explicit_vertex_parameter() {
+        return GL_AMD_shader_explicit_vertex_parameter;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_SIZE_CONTROL_FEATURES_EXT = (int)1000225002L;
+    private static final int GL_AMD_shader_gpu_shader_half_float_fetch = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_SIZE_CONTROL_FEATURES_EXT = 1000225002
+     * #define GL_AMD_shader_gpu_shader_half_float_fetch 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_SIZE_CONTROL_FEATURES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_SIZE_CONTROL_FEATURES_EXT;
+    public static int GL_AMD_shader_gpu_shader_half_float_fetch() {
+        return GL_AMD_shader_gpu_shader_half_float_fetch;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CORE_PROPERTIES_2_AMD = (int)1000227000L;
+    private static final int GL_AMD_shader_image_load_store_lod = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CORE_PROPERTIES_2_AMD = 1000227000
+     * #define GL_AMD_shader_image_load_store_lod 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CORE_PROPERTIES_2_AMD() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CORE_PROPERTIES_2_AMD;
+    public static int GL_AMD_shader_image_load_store_lod() {
+        return GL_AMD_shader_image_load_store_lod;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COHERENT_MEMORY_FEATURES_AMD = (int)1000229000L;
+    private static final int GL_AMD_shader_stencil_export = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COHERENT_MEMORY_FEATURES_AMD = 1000229000
+     * #define GL_AMD_shader_stencil_export 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COHERENT_MEMORY_FEATURES_AMD() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COHERENT_MEMORY_FEATURES_AMD;
+    public static int GL_AMD_shader_stencil_export() {
+        return GL_AMD_shader_stencil_export;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_BUDGET_PROPERTIES_EXT = (int)1000237000L;
+    private static final int GL_AMD_shader_trinary_minmax = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_BUDGET_PROPERTIES_EXT = 1000237000
+     * #define GL_AMD_shader_trinary_minmax 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_BUDGET_PROPERTIES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_BUDGET_PROPERTIES_EXT;
+    public static int GL_AMD_shader_trinary_minmax() {
+        return GL_AMD_shader_trinary_minmax;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_PRIORITY_FEATURES_EXT = (int)1000238000L;
+    private static final int GL_AMD_sparse_texture = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_PRIORITY_FEATURES_EXT = 1000238000
+     * #define GL_AMD_sparse_texture 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_PRIORITY_FEATURES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_PRIORITY_FEATURES_EXT;
+    public static int GL_AMD_sparse_texture() {
+        return GL_AMD_sparse_texture;
     }
-    private static final int VK_STRUCTURE_TYPE_MEMORY_PRIORITY_ALLOCATE_INFO_EXT = (int)1000238001L;
+    private static final int GL_VIRTUAL_PAGE_SIZE_X_AMD = (int)37269L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_MEMORY_PRIORITY_ALLOCATE_INFO_EXT = 1000238001
+     * #define GL_VIRTUAL_PAGE_SIZE_X_AMD 37269
      * }
      */
-    public static int VK_STRUCTURE_TYPE_MEMORY_PRIORITY_ALLOCATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_MEMORY_PRIORITY_ALLOCATE_INFO_EXT;
+    public static int GL_VIRTUAL_PAGE_SIZE_X_AMD() {
+        return GL_VIRTUAL_PAGE_SIZE_X_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_SURFACE_PROTECTED_CAPABILITIES_KHR = (int)1000239000L;
+    private static final int GL_VIRTUAL_PAGE_SIZE_Y_AMD = (int)37270L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SURFACE_PROTECTED_CAPABILITIES_KHR = 1000239000
+     * #define GL_VIRTUAL_PAGE_SIZE_Y_AMD 37270
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SURFACE_PROTECTED_CAPABILITIES_KHR() {
-        return VK_STRUCTURE_TYPE_SURFACE_PROTECTED_CAPABILITIES_KHR;
+    public static int GL_VIRTUAL_PAGE_SIZE_Y_AMD() {
+        return GL_VIRTUAL_PAGE_SIZE_Y_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEDICATED_ALLOCATION_IMAGE_ALIASING_FEATURES_NV = (int)1000240000L;
+    private static final int GL_VIRTUAL_PAGE_SIZE_Z_AMD = (int)37271L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEDICATED_ALLOCATION_IMAGE_ALIASING_FEATURES_NV = 1000240000
+     * #define GL_VIRTUAL_PAGE_SIZE_Z_AMD 37271
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEDICATED_ALLOCATION_IMAGE_ALIASING_FEATURES_NV() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEDICATED_ALLOCATION_IMAGE_ALIASING_FEATURES_NV;
+    public static int GL_VIRTUAL_PAGE_SIZE_Z_AMD() {
+        return GL_VIRTUAL_PAGE_SIZE_Z_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_DEVICE_ADDRESS_FEATURES_EXT = (int)1000244000L;
+    private static final int GL_MAX_SPARSE_TEXTURE_SIZE_AMD = (int)37272L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_DEVICE_ADDRESS_FEATURES_EXT = 1000244000
+     * #define GL_MAX_SPARSE_TEXTURE_SIZE_AMD 37272
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_DEVICE_ADDRESS_FEATURES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_DEVICE_ADDRESS_FEATURES_EXT;
+    public static int GL_MAX_SPARSE_TEXTURE_SIZE_AMD() {
+        return GL_MAX_SPARSE_TEXTURE_SIZE_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_CREATE_INFO_EXT = (int)1000244002L;
+    private static final int GL_MAX_SPARSE_3D_TEXTURE_SIZE_AMD = (int)37273L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_CREATE_INFO_EXT = 1000244002
+     * #define GL_MAX_SPARSE_3D_TEXTURE_SIZE_AMD 37273
      * }
      */
-    public static int VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_CREATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_CREATE_INFO_EXT;
+    public static int GL_MAX_SPARSE_3D_TEXTURE_SIZE_AMD() {
+        return GL_MAX_SPARSE_3D_TEXTURE_SIZE_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TOOL_PROPERTIES_EXT = (int)1000245000L;
+    private static final int GL_MAX_SPARSE_ARRAY_TEXTURE_LAYERS = (int)37274L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TOOL_PROPERTIES_EXT = 1000245000
+     * #define GL_MAX_SPARSE_ARRAY_TEXTURE_LAYERS 37274
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TOOL_PROPERTIES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TOOL_PROPERTIES_EXT;
+    public static int GL_MAX_SPARSE_ARRAY_TEXTURE_LAYERS() {
+        return GL_MAX_SPARSE_ARRAY_TEXTURE_LAYERS;
     }
-    private static final int VK_STRUCTURE_TYPE_VALIDATION_FEATURES_EXT = (int)1000247000L;
+    private static final int GL_MIN_SPARSE_LEVEL_AMD = (int)37275L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_VALIDATION_FEATURES_EXT = 1000247000
+     * #define GL_MIN_SPARSE_LEVEL_AMD 37275
      * }
      */
-    public static int VK_STRUCTURE_TYPE_VALIDATION_FEATURES_EXT() {
-        return VK_STRUCTURE_TYPE_VALIDATION_FEATURES_EXT;
+    public static int GL_MIN_SPARSE_LEVEL_AMD() {
+        return GL_MIN_SPARSE_LEVEL_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COOPERATIVE_MATRIX_FEATURES_NV = (int)1000249000L;
+    private static final int GL_MIN_LOD_WARNING_AMD = (int)37276L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COOPERATIVE_MATRIX_FEATURES_NV = 1000249000
+     * #define GL_MIN_LOD_WARNING_AMD 37276
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COOPERATIVE_MATRIX_FEATURES_NV() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COOPERATIVE_MATRIX_FEATURES_NV;
+    public static int GL_MIN_LOD_WARNING_AMD() {
+        return GL_MIN_LOD_WARNING_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_COOPERATIVE_MATRIX_PROPERTIES_NV = (int)1000249001L;
+    private static final int GL_TEXTURE_STORAGE_SPARSE_BIT_AMD = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_COOPERATIVE_MATRIX_PROPERTIES_NV = 1000249001
+     * #define GL_TEXTURE_STORAGE_SPARSE_BIT_AMD 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_COOPERATIVE_MATRIX_PROPERTIES_NV() {
-        return VK_STRUCTURE_TYPE_COOPERATIVE_MATRIX_PROPERTIES_NV;
+    public static int GL_TEXTURE_STORAGE_SPARSE_BIT_AMD() {
+        return GL_TEXTURE_STORAGE_SPARSE_BIT_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COOPERATIVE_MATRIX_PROPERTIES_NV = (int)1000249002L;
+    private static final int GL_AMD_stencil_operation_extended = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COOPERATIVE_MATRIX_PROPERTIES_NV = 1000249002
+     * #define GL_AMD_stencil_operation_extended 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COOPERATIVE_MATRIX_PROPERTIES_NV() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COOPERATIVE_MATRIX_PROPERTIES_NV;
+    public static int GL_AMD_stencil_operation_extended() {
+        return GL_AMD_stencil_operation_extended;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COVERAGE_REDUCTION_MODE_FEATURES_NV = (int)1000250000L;
+    private static final int GL_SET_AMD = (int)34634L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COVERAGE_REDUCTION_MODE_FEATURES_NV = 1000250000
+     * #define GL_SET_AMD 34634
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COVERAGE_REDUCTION_MODE_FEATURES_NV() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COVERAGE_REDUCTION_MODE_FEATURES_NV;
+    public static int GL_SET_AMD() {
+        return GL_SET_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_COVERAGE_REDUCTION_STATE_CREATE_INFO_NV = (int)1000250001L;
+    private static final int GL_REPLACE_VALUE_AMD = (int)34635L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_COVERAGE_REDUCTION_STATE_CREATE_INFO_NV = 1000250001
+     * #define GL_REPLACE_VALUE_AMD 34635
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_COVERAGE_REDUCTION_STATE_CREATE_INFO_NV() {
-        return VK_STRUCTURE_TYPE_PIPELINE_COVERAGE_REDUCTION_STATE_CREATE_INFO_NV;
+    public static int GL_REPLACE_VALUE_AMD() {
+        return GL_REPLACE_VALUE_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_FRAMEBUFFER_MIXED_SAMPLES_COMBINATION_NV = (int)1000250002L;
+    private static final int GL_STENCIL_OP_VALUE_AMD = (int)34636L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_FRAMEBUFFER_MIXED_SAMPLES_COMBINATION_NV = 1000250002
+     * #define GL_STENCIL_OP_VALUE_AMD 34636
      * }
      */
-    public static int VK_STRUCTURE_TYPE_FRAMEBUFFER_MIXED_SAMPLES_COMBINATION_NV() {
-        return VK_STRUCTURE_TYPE_FRAMEBUFFER_MIXED_SAMPLES_COMBINATION_NV;
+    public static int GL_STENCIL_OP_VALUE_AMD() {
+        return GL_STENCIL_OP_VALUE_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADER_INTERLOCK_FEATURES_EXT = (int)1000251000L;
+    private static final int GL_STENCIL_BACK_OP_VALUE_AMD = (int)34637L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADER_INTERLOCK_FEATURES_EXT = 1000251000
+     * #define GL_STENCIL_BACK_OP_VALUE_AMD 34637
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADER_INTERLOCK_FEATURES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADER_INTERLOCK_FEATURES_EXT;
+    public static int GL_STENCIL_BACK_OP_VALUE_AMD() {
+        return GL_STENCIL_BACK_OP_VALUE_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_YCBCR_IMAGE_ARRAYS_FEATURES_EXT = (int)1000252000L;
+    private static final int GL_AMD_texture_gather_bias_lod = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_YCBCR_IMAGE_ARRAYS_FEATURES_EXT = 1000252000
+     * #define GL_AMD_texture_gather_bias_lod 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_YCBCR_IMAGE_ARRAYS_FEATURES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_YCBCR_IMAGE_ARRAYS_FEATURES_EXT;
+    public static int GL_AMD_texture_gather_bias_lod() {
+        return GL_AMD_texture_gather_bias_lod;
     }
-    private static final int VK_STRUCTURE_TYPE_SURFACE_FULL_SCREEN_EXCLUSIVE_INFO_EXT = (int)1000255000L;
+    private static final int GL_AMD_texture_texture4 = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SURFACE_FULL_SCREEN_EXCLUSIVE_INFO_EXT = 1000255000
+     * #define GL_AMD_texture_texture4 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SURFACE_FULL_SCREEN_EXCLUSIVE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_SURFACE_FULL_SCREEN_EXCLUSIVE_INFO_EXT;
+    public static int GL_AMD_texture_texture4() {
+        return GL_AMD_texture_texture4;
     }
-    private static final int VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES_FULL_SCREEN_EXCLUSIVE_EXT = (int)1000255002L;
+    private static final int GL_AMD_transform_feedback3_lines_triangles = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES_FULL_SCREEN_EXCLUSIVE_EXT = 1000255002
+     * #define GL_AMD_transform_feedback3_lines_triangles 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES_FULL_SCREEN_EXCLUSIVE_EXT() {
-        return VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES_FULL_SCREEN_EXCLUSIVE_EXT;
+    public static int GL_AMD_transform_feedback3_lines_triangles() {
+        return GL_AMD_transform_feedback3_lines_triangles;
     }
-    private static final int VK_STRUCTURE_TYPE_SURFACE_FULL_SCREEN_EXCLUSIVE_WIN32_INFO_EXT = (int)1000255001L;
+    private static final int GL_AMD_transform_feedback4 = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SURFACE_FULL_SCREEN_EXCLUSIVE_WIN32_INFO_EXT = 1000255001
+     * #define GL_AMD_transform_feedback4 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SURFACE_FULL_SCREEN_EXCLUSIVE_WIN32_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_SURFACE_FULL_SCREEN_EXCLUSIVE_WIN32_INFO_EXT;
+    public static int GL_AMD_transform_feedback4() {
+        return GL_AMD_transform_feedback4;
     }
-    private static final int VK_STRUCTURE_TYPE_HEADLESS_SURFACE_CREATE_INFO_EXT = (int)1000256000L;
+    private static final int GL_STREAM_RASTERIZATION_AMD = (int)37280L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_HEADLESS_SURFACE_CREATE_INFO_EXT = 1000256000
+     * #define GL_STREAM_RASTERIZATION_AMD 37280
      * }
      */
-    public static int VK_STRUCTURE_TYPE_HEADLESS_SURFACE_CREATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_HEADLESS_SURFACE_CREATE_INFO_EXT;
+    public static int GL_STREAM_RASTERIZATION_AMD() {
+        return GL_STREAM_RASTERIZATION_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_FEATURES_EXT = (int)1000259000L;
+    private static final int GL_AMD_vertex_shader_layer = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_FEATURES_EXT = 1000259000
+     * #define GL_AMD_vertex_shader_layer 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_FEATURES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_FEATURES_EXT;
+    public static int GL_AMD_vertex_shader_layer() {
+        return GL_AMD_vertex_shader_layer;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_LINE_STATE_CREATE_INFO_EXT = (int)1000259001L;
+    private static final int GL_AMD_vertex_shader_tessellator = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_LINE_STATE_CREATE_INFO_EXT = 1000259001
+     * #define GL_AMD_vertex_shader_tessellator 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_LINE_STATE_CREATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_LINE_STATE_CREATE_INFO_EXT;
+    public static int GL_AMD_vertex_shader_tessellator() {
+        return GL_AMD_vertex_shader_tessellator;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_PROPERTIES_EXT = (int)1000259002L;
+    private static final int GL_SAMPLER_BUFFER_AMD = (int)36865L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_PROPERTIES_EXT = 1000259002
+     * #define GL_SAMPLER_BUFFER_AMD 36865
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_PROPERTIES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_PROPERTIES_EXT;
+    public static int GL_SAMPLER_BUFFER_AMD() {
+        return GL_SAMPLER_BUFFER_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INDEX_TYPE_UINT8_FEATURES_EXT = (int)1000265000L;
+    private static final int GL_INT_SAMPLER_BUFFER_AMD = (int)36866L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INDEX_TYPE_UINT8_FEATURES_EXT = 1000265000
+     * #define GL_INT_SAMPLER_BUFFER_AMD 36866
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INDEX_TYPE_UINT8_FEATURES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INDEX_TYPE_UINT8_FEATURES_EXT;
+    public static int GL_INT_SAMPLER_BUFFER_AMD() {
+        return GL_INT_SAMPLER_BUFFER_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_EXECUTABLE_PROPERTIES_FEATURES_KHR = (int)1000269000L;
+    private static final int GL_UNSIGNED_INT_SAMPLER_BUFFER_AMD = (int)36867L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_EXECUTABLE_PROPERTIES_FEATURES_KHR = 1000269000
+     * #define GL_UNSIGNED_INT_SAMPLER_BUFFER_AMD 36867
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_EXECUTABLE_PROPERTIES_FEATURES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_EXECUTABLE_PROPERTIES_FEATURES_KHR;
+    public static int GL_UNSIGNED_INT_SAMPLER_BUFFER_AMD() {
+        return GL_UNSIGNED_INT_SAMPLER_BUFFER_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_INFO_KHR = (int)1000269001L;
+    private static final int GL_TESSELLATION_MODE_AMD = (int)36868L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_INFO_KHR = 1000269001
+     * #define GL_TESSELLATION_MODE_AMD 36868
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_PIPELINE_INFO_KHR;
+    public static int GL_TESSELLATION_MODE_AMD() {
+        return GL_TESSELLATION_MODE_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_PROPERTIES_KHR = (int)1000269002L;
+    private static final int GL_TESSELLATION_FACTOR_AMD = (int)36869L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_PROPERTIES_KHR = 1000269002
+     * #define GL_TESSELLATION_FACTOR_AMD 36869
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_PROPERTIES_KHR() {
-        return VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_PROPERTIES_KHR;
+    public static int GL_TESSELLATION_FACTOR_AMD() {
+        return GL_TESSELLATION_FACTOR_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_INFO_KHR = (int)1000269003L;
+    private static final int GL_DISCRETE_AMD = (int)36870L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_INFO_KHR = 1000269003
+     * #define GL_DISCRETE_AMD 36870
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_INFO_KHR;
+    public static int GL_DISCRETE_AMD() {
+        return GL_DISCRETE_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_STATISTIC_KHR = (int)1000269004L;
+    private static final int GL_CONTINUOUS_AMD = (int)36871L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_STATISTIC_KHR = 1000269004
+     * #define GL_CONTINUOUS_AMD 36871
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_STATISTIC_KHR() {
-        return VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_STATISTIC_KHR;
+    public static int GL_CONTINUOUS_AMD() {
+        return GL_CONTINUOUS_AMD;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_INTERNAL_REPRESENTATION_KHR = (int)1000269005L;
+    private static final int GL_AMD_vertex_shader_viewport_index = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_INTERNAL_REPRESENTATION_KHR = 1000269005
+     * #define GL_AMD_vertex_shader_viewport_index 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_INTERNAL_REPRESENTATION_KHR() {
-        return VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_INTERNAL_REPRESENTATION_KHR;
+    public static int GL_AMD_vertex_shader_viewport_index() {
+        return GL_AMD_vertex_shader_viewport_index;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DEMOTE_TO_HELPER_INVOCATION_FEATURES_EXT = (int)1000276000L;
+    private static final int GL_APPLE_aux_depth_stencil = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DEMOTE_TO_HELPER_INVOCATION_FEATURES_EXT = 1000276000
+     * #define GL_APPLE_aux_depth_stencil 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DEMOTE_TO_HELPER_INVOCATION_FEATURES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DEMOTE_TO_HELPER_INVOCATION_FEATURES_EXT;
+    public static int GL_APPLE_aux_depth_stencil() {
+        return GL_APPLE_aux_depth_stencil;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXEL_BUFFER_ALIGNMENT_FEATURES_EXT = (int)1000281000L;
+    private static final int GL_AUX_DEPTH_STENCIL_APPLE = (int)35348L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXEL_BUFFER_ALIGNMENT_FEATURES_EXT = 1000281000
+     * #define GL_AUX_DEPTH_STENCIL_APPLE 35348
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXEL_BUFFER_ALIGNMENT_FEATURES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXEL_BUFFER_ALIGNMENT_FEATURES_EXT;
+    public static int GL_AUX_DEPTH_STENCIL_APPLE() {
+        return GL_AUX_DEPTH_STENCIL_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXEL_BUFFER_ALIGNMENT_PROPERTIES_EXT = (int)1000281001L;
+    private static final int GL_APPLE_client_storage = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXEL_BUFFER_ALIGNMENT_PROPERTIES_EXT = 1000281001
+     * #define GL_APPLE_client_storage 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXEL_BUFFER_ALIGNMENT_PROPERTIES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXEL_BUFFER_ALIGNMENT_PROPERTIES_EXT;
+    public static int GL_APPLE_client_storage() {
+        return GL_APPLE_client_storage;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTER_FEATURES = (int)1000120000L;
+    private static final int GL_UNPACK_CLIENT_STORAGE_APPLE = (int)34226L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTER_FEATURES = 1000120000
+     * #define GL_UNPACK_CLIENT_STORAGE_APPLE 34226
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTER_FEATURES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTER_FEATURES;
+    public static int GL_UNPACK_CLIENT_STORAGE_APPLE() {
+        return GL_UNPACK_CLIENT_STORAGE_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DRAW_PARAMETER_FEATURES = (int)1000063000L;
+    private static final int GL_APPLE_element_array = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DRAW_PARAMETER_FEATURES = 1000063000
+     * #define GL_APPLE_element_array 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DRAW_PARAMETER_FEATURES() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DRAW_PARAMETER_FEATURES;
+    public static int GL_APPLE_element_array() {
+        return GL_APPLE_element_array;
     }
-    private static final int VK_STRUCTURE_TYPE_DEBUG_REPORT_CREATE_INFO_EXT = (int)1000011000L;
+    private static final int GL_ELEMENT_ARRAY_APPLE = (int)35340L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEBUG_REPORT_CREATE_INFO_EXT = 1000011000
+     * #define GL_ELEMENT_ARRAY_APPLE 35340
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEBUG_REPORT_CREATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_DEBUG_REPORT_CREATE_INFO_EXT;
+    public static int GL_ELEMENT_ARRAY_APPLE() {
+        return GL_ELEMENT_ARRAY_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_RENDER_PASS_MULTIVIEW_CREATE_INFO_KHR = (int)1000053000L;
+    private static final int GL_ELEMENT_ARRAY_TYPE_APPLE = (int)35341L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_RENDER_PASS_MULTIVIEW_CREATE_INFO_KHR = 1000053000
+     * #define GL_ELEMENT_ARRAY_TYPE_APPLE 35341
      * }
      */
-    public static int VK_STRUCTURE_TYPE_RENDER_PASS_MULTIVIEW_CREATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_RENDER_PASS_MULTIVIEW_CREATE_INFO_KHR;
+    public static int GL_ELEMENT_ARRAY_TYPE_APPLE() {
+        return GL_ELEMENT_ARRAY_TYPE_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_FEATURES_KHR = (int)1000053001L;
+    private static final int GL_ELEMENT_ARRAY_POINTER_APPLE = (int)35342L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_FEATURES_KHR = 1000053001
+     * #define GL_ELEMENT_ARRAY_POINTER_APPLE 35342
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_FEATURES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_FEATURES_KHR;
+    public static int GL_ELEMENT_ARRAY_POINTER_APPLE() {
+        return GL_ELEMENT_ARRAY_POINTER_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PROPERTIES_KHR = (int)1000053002L;
+    private static final int GL_APPLE_fence = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PROPERTIES_KHR = 1000053002
+     * #define GL_APPLE_fence 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PROPERTIES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PROPERTIES_KHR;
+    public static int GL_APPLE_fence() {
+        return GL_APPLE_fence;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FEATURES_2_KHR = (int)1000059000L;
+    private static final int GL_DRAW_PIXELS_APPLE = (int)35338L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FEATURES_2_KHR = 1000059000
+     * #define GL_DRAW_PIXELS_APPLE 35338
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FEATURES_2_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FEATURES_2_KHR;
+    public static int GL_DRAW_PIXELS_APPLE() {
+        return GL_DRAW_PIXELS_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROPERTIES_2_KHR = (int)1000059001L;
+    private static final int GL_FENCE_APPLE = (int)35339L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROPERTIES_2_KHR = 1000059001
+     * #define GL_FENCE_APPLE 35339
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROPERTIES_2_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROPERTIES_2_KHR;
+    public static int GL_FENCE_APPLE() {
+        return GL_FENCE_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_FORMAT_PROPERTIES_2_KHR = (int)1000059002L;
+    private static final int GL_APPLE_float_pixels = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_FORMAT_PROPERTIES_2_KHR = 1000059002
+     * #define GL_APPLE_float_pixels 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_FORMAT_PROPERTIES_2_KHR() {
-        return VK_STRUCTURE_TYPE_FORMAT_PROPERTIES_2_KHR;
+    public static int GL_APPLE_float_pixels() {
+        return GL_APPLE_float_pixels;
     }
-    private static final int VK_STRUCTURE_TYPE_IMAGE_FORMAT_PROPERTIES_2_KHR = (int)1000059003L;
+    private static final int GL_HALF_APPLE = (int)5131L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMAGE_FORMAT_PROPERTIES_2_KHR = 1000059003
+     * #define GL_HALF_APPLE 5131
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMAGE_FORMAT_PROPERTIES_2_KHR() {
-        return VK_STRUCTURE_TYPE_IMAGE_FORMAT_PROPERTIES_2_KHR;
+    public static int GL_HALF_APPLE() {
+        return GL_HALF_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_FORMAT_INFO_2_KHR = (int)1000059004L;
+    private static final int GL_RGBA_FLOAT32_APPLE = (int)34836L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_FORMAT_INFO_2_KHR = 1000059004
+     * #define GL_RGBA_FLOAT32_APPLE 34836
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_FORMAT_INFO_2_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_FORMAT_INFO_2_KHR;
+    public static int GL_RGBA_FLOAT32_APPLE() {
+        return GL_RGBA_FLOAT32_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_QUEUE_FAMILY_PROPERTIES_2_KHR = (int)1000059005L;
+    private static final int GL_RGB_FLOAT32_APPLE = (int)34837L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_QUEUE_FAMILY_PROPERTIES_2_KHR = 1000059005
+     * #define GL_RGB_FLOAT32_APPLE 34837
      * }
      */
-    public static int VK_STRUCTURE_TYPE_QUEUE_FAMILY_PROPERTIES_2_KHR() {
-        return VK_STRUCTURE_TYPE_QUEUE_FAMILY_PROPERTIES_2_KHR;
+    public static int GL_RGB_FLOAT32_APPLE() {
+        return GL_RGB_FLOAT32_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_PROPERTIES_2_KHR = (int)1000059006L;
+    private static final int GL_ALPHA_FLOAT32_APPLE = (int)34838L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_PROPERTIES_2_KHR = 1000059006
+     * #define GL_ALPHA_FLOAT32_APPLE 34838
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_PROPERTIES_2_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_PROPERTIES_2_KHR;
+    public static int GL_ALPHA_FLOAT32_APPLE() {
+        return GL_ALPHA_FLOAT32_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_SPARSE_IMAGE_FORMAT_PROPERTIES_2_KHR = (int)1000059007L;
+    private static final int GL_INTENSITY_FLOAT32_APPLE = (int)34839L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SPARSE_IMAGE_FORMAT_PROPERTIES_2_KHR = 1000059007
+     * #define GL_INTENSITY_FLOAT32_APPLE 34839
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SPARSE_IMAGE_FORMAT_PROPERTIES_2_KHR() {
-        return VK_STRUCTURE_TYPE_SPARSE_IMAGE_FORMAT_PROPERTIES_2_KHR;
+    public static int GL_INTENSITY_FLOAT32_APPLE() {
+        return GL_INTENSITY_FLOAT32_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SPARSE_IMAGE_FORMAT_INFO_2_KHR = (int)1000059008L;
+    private static final int GL_LUMINANCE_FLOAT32_APPLE = (int)34840L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SPARSE_IMAGE_FORMAT_INFO_2_KHR = 1000059008
+     * #define GL_LUMINANCE_FLOAT32_APPLE 34840
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SPARSE_IMAGE_FORMAT_INFO_2_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SPARSE_IMAGE_FORMAT_INFO_2_KHR;
+    public static int GL_LUMINANCE_FLOAT32_APPLE() {
+        return GL_LUMINANCE_FLOAT32_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_MEMORY_ALLOCATE_FLAGS_INFO_KHR = (int)1000060000L;
+    private static final int GL_LUMINANCE_ALPHA_FLOAT32_APPLE = (int)34841L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_MEMORY_ALLOCATE_FLAGS_INFO_KHR = 1000060000
+     * #define GL_LUMINANCE_ALPHA_FLOAT32_APPLE 34841
      * }
      */
-    public static int VK_STRUCTURE_TYPE_MEMORY_ALLOCATE_FLAGS_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_MEMORY_ALLOCATE_FLAGS_INFO_KHR;
+    public static int GL_LUMINANCE_ALPHA_FLOAT32_APPLE() {
+        return GL_LUMINANCE_ALPHA_FLOAT32_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_DEVICE_GROUP_RENDER_PASS_BEGIN_INFO_KHR = (int)1000060003L;
+    private static final int GL_RGBA_FLOAT16_APPLE = (int)34842L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEVICE_GROUP_RENDER_PASS_BEGIN_INFO_KHR = 1000060003
+     * #define GL_RGBA_FLOAT16_APPLE 34842
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEVICE_GROUP_RENDER_PASS_BEGIN_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_DEVICE_GROUP_RENDER_PASS_BEGIN_INFO_KHR;
+    public static int GL_RGBA_FLOAT16_APPLE() {
+        return GL_RGBA_FLOAT16_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_DEVICE_GROUP_COMMAND_BUFFER_BEGIN_INFO_KHR = (int)1000060004L;
+    private static final int GL_RGB_FLOAT16_APPLE = (int)34843L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEVICE_GROUP_COMMAND_BUFFER_BEGIN_INFO_KHR = 1000060004
+     * #define GL_RGB_FLOAT16_APPLE 34843
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEVICE_GROUP_COMMAND_BUFFER_BEGIN_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_DEVICE_GROUP_COMMAND_BUFFER_BEGIN_INFO_KHR;
+    public static int GL_RGB_FLOAT16_APPLE() {
+        return GL_RGB_FLOAT16_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_DEVICE_GROUP_SUBMIT_INFO_KHR = (int)1000060005L;
+    private static final int GL_ALPHA_FLOAT16_APPLE = (int)34844L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEVICE_GROUP_SUBMIT_INFO_KHR = 1000060005
+     * #define GL_ALPHA_FLOAT16_APPLE 34844
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEVICE_GROUP_SUBMIT_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_DEVICE_GROUP_SUBMIT_INFO_KHR;
+    public static int GL_ALPHA_FLOAT16_APPLE() {
+        return GL_ALPHA_FLOAT16_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_DEVICE_GROUP_BIND_SPARSE_INFO_KHR = (int)1000060006L;
+    private static final int GL_INTENSITY_FLOAT16_APPLE = (int)34845L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEVICE_GROUP_BIND_SPARSE_INFO_KHR = 1000060006
+     * #define GL_INTENSITY_FLOAT16_APPLE 34845
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEVICE_GROUP_BIND_SPARSE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_DEVICE_GROUP_BIND_SPARSE_INFO_KHR;
+    public static int GL_INTENSITY_FLOAT16_APPLE() {
+        return GL_INTENSITY_FLOAT16_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_DEVICE_GROUP_INFO_KHR = (int)1000060013L;
+    private static final int GL_LUMINANCE_FLOAT16_APPLE = (int)34846L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_DEVICE_GROUP_INFO_KHR = 1000060013
+     * #define GL_LUMINANCE_FLOAT16_APPLE 34846
      * }
      */
-    public static int VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_DEVICE_GROUP_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_DEVICE_GROUP_INFO_KHR;
+    public static int GL_LUMINANCE_FLOAT16_APPLE() {
+        return GL_LUMINANCE_FLOAT16_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_DEVICE_GROUP_INFO_KHR = (int)1000060014L;
+    private static final int GL_LUMINANCE_ALPHA_FLOAT16_APPLE = (int)34847L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_DEVICE_GROUP_INFO_KHR = 1000060014
+     * #define GL_LUMINANCE_ALPHA_FLOAT16_APPLE 34847
      * }
      */
-    public static int VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_DEVICE_GROUP_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_DEVICE_GROUP_INFO_KHR;
+    public static int GL_LUMINANCE_ALPHA_FLOAT16_APPLE() {
+        return GL_LUMINANCE_ALPHA_FLOAT16_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GROUP_PROPERTIES_KHR = (int)1000070000L;
+    private static final int GL_COLOR_FLOAT_APPLE = (int)35343L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GROUP_PROPERTIES_KHR = 1000070000
+     * #define GL_COLOR_FLOAT_APPLE 35343
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GROUP_PROPERTIES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GROUP_PROPERTIES_KHR;
+    public static int GL_COLOR_FLOAT_APPLE() {
+        return GL_COLOR_FLOAT_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_DEVICE_GROUP_DEVICE_CREATE_INFO_KHR = (int)1000070001L;
+    private static final int GL_APPLE_flush_buffer_range = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEVICE_GROUP_DEVICE_CREATE_INFO_KHR = 1000070001
+     * #define GL_APPLE_flush_buffer_range 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEVICE_GROUP_DEVICE_CREATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_DEVICE_GROUP_DEVICE_CREATE_INFO_KHR;
+    public static int GL_APPLE_flush_buffer_range() {
+        return GL_APPLE_flush_buffer_range;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_IMAGE_FORMAT_INFO_KHR = (int)1000071000L;
+    private static final int GL_BUFFER_SERIALIZED_MODIFY_APPLE = (int)35346L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_IMAGE_FORMAT_INFO_KHR = 1000071000
+     * #define GL_BUFFER_SERIALIZED_MODIFY_APPLE 35346
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_IMAGE_FORMAT_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_IMAGE_FORMAT_INFO_KHR;
+    public static int GL_BUFFER_SERIALIZED_MODIFY_APPLE() {
+        return GL_BUFFER_SERIALIZED_MODIFY_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_EXTERNAL_IMAGE_FORMAT_PROPERTIES_KHR = (int)1000071001L;
+    private static final int GL_BUFFER_FLUSHING_UNMAP_APPLE = (int)35347L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_EXTERNAL_IMAGE_FORMAT_PROPERTIES_KHR = 1000071001
+     * #define GL_BUFFER_FLUSHING_UNMAP_APPLE 35347
      * }
      */
-    public static int VK_STRUCTURE_TYPE_EXTERNAL_IMAGE_FORMAT_PROPERTIES_KHR() {
-        return VK_STRUCTURE_TYPE_EXTERNAL_IMAGE_FORMAT_PROPERTIES_KHR;
+    public static int GL_BUFFER_FLUSHING_UNMAP_APPLE() {
+        return GL_BUFFER_FLUSHING_UNMAP_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_BUFFER_INFO_KHR = (int)1000071002L;
+    private static final int GL_APPLE_object_purgeable = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_BUFFER_INFO_KHR = 1000071002
+     * #define GL_APPLE_object_purgeable 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_BUFFER_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_BUFFER_INFO_KHR;
+    public static int GL_APPLE_object_purgeable() {
+        return GL_APPLE_object_purgeable;
     }
-    private static final int VK_STRUCTURE_TYPE_EXTERNAL_BUFFER_PROPERTIES_KHR = (int)1000071003L;
+    private static final int GL_BUFFER_OBJECT_APPLE = (int)34227L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_EXTERNAL_BUFFER_PROPERTIES_KHR = 1000071003
+     * #define GL_BUFFER_OBJECT_APPLE 34227
      * }
      */
-    public static int VK_STRUCTURE_TYPE_EXTERNAL_BUFFER_PROPERTIES_KHR() {
-        return VK_STRUCTURE_TYPE_EXTERNAL_BUFFER_PROPERTIES_KHR;
+    public static int GL_BUFFER_OBJECT_APPLE() {
+        return GL_BUFFER_OBJECT_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ID_PROPERTIES_KHR = (int)1000071004L;
+    private static final int GL_RELEASED_APPLE = (int)35353L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ID_PROPERTIES_KHR = 1000071004
+     * #define GL_RELEASED_APPLE 35353
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ID_PROPERTIES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ID_PROPERTIES_KHR;
+    public static int GL_RELEASED_APPLE() {
+        return GL_RELEASED_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_BUFFER_CREATE_INFO_KHR = (int)1000072000L;
+    private static final int GL_VOLATILE_APPLE = (int)35354L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_BUFFER_CREATE_INFO_KHR = 1000072000
+     * #define GL_VOLATILE_APPLE 35354
      * }
      */
-    public static int VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_BUFFER_CREATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_BUFFER_CREATE_INFO_KHR;
+    public static int GL_VOLATILE_APPLE() {
+        return GL_VOLATILE_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_IMAGE_CREATE_INFO_KHR = (int)1000072001L;
+    private static final int GL_RETAINED_APPLE = (int)35355L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_IMAGE_CREATE_INFO_KHR = 1000072001
+     * #define GL_RETAINED_APPLE 35355
      * }
      */
-    public static int VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_IMAGE_CREATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_IMAGE_CREATE_INFO_KHR;
+    public static int GL_RETAINED_APPLE() {
+        return GL_RETAINED_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_EXPORT_MEMORY_ALLOCATE_INFO_KHR = (int)1000072002L;
+    private static final int GL_UNDEFINED_APPLE = (int)35356L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_EXPORT_MEMORY_ALLOCATE_INFO_KHR = 1000072002
+     * #define GL_UNDEFINED_APPLE 35356
      * }
      */
-    public static int VK_STRUCTURE_TYPE_EXPORT_MEMORY_ALLOCATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_EXPORT_MEMORY_ALLOCATE_INFO_KHR;
+    public static int GL_UNDEFINED_APPLE() {
+        return GL_UNDEFINED_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_SEMAPHORE_INFO_KHR = (int)1000076000L;
+    private static final int GL_PURGEABLE_APPLE = (int)35357L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_SEMAPHORE_INFO_KHR = 1000076000
+     * #define GL_PURGEABLE_APPLE 35357
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_SEMAPHORE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_SEMAPHORE_INFO_KHR;
+    public static int GL_PURGEABLE_APPLE() {
+        return GL_PURGEABLE_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_EXTERNAL_SEMAPHORE_PROPERTIES_KHR = (int)1000076001L;
+    private static final int GL_APPLE_rgb_422 = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_EXTERNAL_SEMAPHORE_PROPERTIES_KHR = 1000076001
+     * #define GL_APPLE_rgb_422 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_EXTERNAL_SEMAPHORE_PROPERTIES_KHR() {
-        return VK_STRUCTURE_TYPE_EXTERNAL_SEMAPHORE_PROPERTIES_KHR;
+    public static int GL_APPLE_rgb_422() {
+        return GL_APPLE_rgb_422;
     }
-    private static final int VK_STRUCTURE_TYPE_EXPORT_SEMAPHORE_CREATE_INFO_KHR = (int)1000077000L;
+    private static final int GL_RGB_422_APPLE = (int)35359L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_EXPORT_SEMAPHORE_CREATE_INFO_KHR = 1000077000
+     * #define GL_RGB_422_APPLE 35359
      * }
      */
-    public static int VK_STRUCTURE_TYPE_EXPORT_SEMAPHORE_CREATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_EXPORT_SEMAPHORE_CREATE_INFO_KHR;
+    public static int GL_RGB_422_APPLE() {
+        return GL_RGB_422_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_FLOAT16_INT8_FEATURES_KHR = (int)1000082000L;
+    private static final int GL_UNSIGNED_SHORT_8_8_APPLE = (int)34234L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_FLOAT16_INT8_FEATURES_KHR = 1000082000
+     * #define GL_UNSIGNED_SHORT_8_8_APPLE 34234
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_FLOAT16_INT8_FEATURES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_FLOAT16_INT8_FEATURES_KHR;
+    public static int GL_UNSIGNED_SHORT_8_8_APPLE() {
+        return GL_UNSIGNED_SHORT_8_8_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FLOAT16_INT8_FEATURES_KHR = (int)1000082000L;
+    private static final int GL_UNSIGNED_SHORT_8_8_REV_APPLE = (int)34235L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FLOAT16_INT8_FEATURES_KHR = 1000082000
+     * #define GL_UNSIGNED_SHORT_8_8_REV_APPLE 34235
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FLOAT16_INT8_FEATURES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FLOAT16_INT8_FEATURES_KHR;
+    public static int GL_UNSIGNED_SHORT_8_8_REV_APPLE() {
+        return GL_UNSIGNED_SHORT_8_8_REV_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_16BIT_STORAGE_FEATURES_KHR = (int)1000083000L;
+    private static final int GL_RGB_RAW_422_APPLE = (int)35409L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_16BIT_STORAGE_FEATURES_KHR = 1000083000
+     * #define GL_RGB_RAW_422_APPLE 35409
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_16BIT_STORAGE_FEATURES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_16BIT_STORAGE_FEATURES_KHR;
+    public static int GL_RGB_RAW_422_APPLE() {
+        return GL_RGB_RAW_422_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_CREATE_INFO_KHR = (int)1000085000L;
+    private static final int GL_APPLE_row_bytes = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_CREATE_INFO_KHR = 1000085000
+     * #define GL_APPLE_row_bytes 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_CREATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_CREATE_INFO_KHR;
+    public static int GL_APPLE_row_bytes() {
+        return GL_APPLE_row_bytes;
     }
-    private static final int VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES2_EXT = (int)1000090000L;
+    private static final int GL_PACK_ROW_BYTES_APPLE = (int)35349L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES2_EXT = 1000090000
+     * #define GL_PACK_ROW_BYTES_APPLE 35349
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES2_EXT() {
-        return VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES2_EXT;
+    public static int GL_PACK_ROW_BYTES_APPLE() {
+        return GL_PACK_ROW_BYTES_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGELESS_FRAMEBUFFER_FEATURES_KHR = (int)1000108000L;
+    private static final int GL_UNPACK_ROW_BYTES_APPLE = (int)35350L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGELESS_FRAMEBUFFER_FEATURES_KHR = 1000108000
+     * #define GL_UNPACK_ROW_BYTES_APPLE 35350
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGELESS_FRAMEBUFFER_FEATURES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGELESS_FRAMEBUFFER_FEATURES_KHR;
+    public static int GL_UNPACK_ROW_BYTES_APPLE() {
+        return GL_UNPACK_ROW_BYTES_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENTS_CREATE_INFO_KHR = (int)1000108001L;
+    private static final int GL_APPLE_specular_vector = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENTS_CREATE_INFO_KHR = 1000108001
+     * #define GL_APPLE_specular_vector 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENTS_CREATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENTS_CREATE_INFO_KHR;
+    public static int GL_APPLE_specular_vector() {
+        return GL_APPLE_specular_vector;
     }
-    private static final int VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENT_IMAGE_INFO_KHR = (int)1000108002L;
+    private static final int GL_LIGHT_MODEL_SPECULAR_VECTOR_APPLE = (int)34224L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENT_IMAGE_INFO_KHR = 1000108002
+     * #define GL_LIGHT_MODEL_SPECULAR_VECTOR_APPLE 34224
      * }
      */
-    public static int VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENT_IMAGE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENT_IMAGE_INFO_KHR;
+    public static int GL_LIGHT_MODEL_SPECULAR_VECTOR_APPLE() {
+        return GL_LIGHT_MODEL_SPECULAR_VECTOR_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_RENDER_PASS_ATTACHMENT_BEGIN_INFO_KHR = (int)1000108003L;
+    private static final int GL_APPLE_texture_range = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_RENDER_PASS_ATTACHMENT_BEGIN_INFO_KHR = 1000108003
+     * #define GL_APPLE_texture_range 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_RENDER_PASS_ATTACHMENT_BEGIN_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_RENDER_PASS_ATTACHMENT_BEGIN_INFO_KHR;
+    public static int GL_APPLE_texture_range() {
+        return GL_APPLE_texture_range;
     }
-    private static final int VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_2_KHR = (int)1000109000L;
+    private static final int GL_TEXTURE_RANGE_LENGTH_APPLE = (int)34231L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_2_KHR = 1000109000
+     * #define GL_TEXTURE_RANGE_LENGTH_APPLE 34231
      * }
      */
-    public static int VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_2_KHR() {
-        return VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_2_KHR;
+    public static int GL_TEXTURE_RANGE_LENGTH_APPLE() {
+        return GL_TEXTURE_RANGE_LENGTH_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_2_KHR = (int)1000109001L;
+    private static final int GL_TEXTURE_RANGE_POINTER_APPLE = (int)34232L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_2_KHR = 1000109001
+     * #define GL_TEXTURE_RANGE_POINTER_APPLE 34232
      * }
      */
-    public static int VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_2_KHR() {
-        return VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_2_KHR;
+    public static int GL_TEXTURE_RANGE_POINTER_APPLE() {
+        return GL_TEXTURE_RANGE_POINTER_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_2_KHR = (int)1000109002L;
+    private static final int GL_TEXTURE_STORAGE_HINT_APPLE = (int)34236L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_2_KHR = 1000109002
+     * #define GL_TEXTURE_STORAGE_HINT_APPLE 34236
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_2_KHR() {
-        return VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_2_KHR;
+    public static int GL_TEXTURE_STORAGE_HINT_APPLE() {
+        return GL_TEXTURE_STORAGE_HINT_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_SUBPASS_DEPENDENCY_2_KHR = (int)1000109003L;
+    private static final int GL_STORAGE_PRIVATE_APPLE = (int)34237L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SUBPASS_DEPENDENCY_2_KHR = 1000109003
+     * #define GL_STORAGE_PRIVATE_APPLE 34237
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SUBPASS_DEPENDENCY_2_KHR() {
-        return VK_STRUCTURE_TYPE_SUBPASS_DEPENDENCY_2_KHR;
+    public static int GL_STORAGE_PRIVATE_APPLE() {
+        return GL_STORAGE_PRIVATE_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_RENDER_PASS_CREATE_INFO_2_KHR = (int)1000109004L;
+    private static final int GL_STORAGE_CACHED_APPLE = (int)34238L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_RENDER_PASS_CREATE_INFO_2_KHR = 1000109004
+     * #define GL_STORAGE_CACHED_APPLE 34238
      * }
      */
-    public static int VK_STRUCTURE_TYPE_RENDER_PASS_CREATE_INFO_2_KHR() {
-        return VK_STRUCTURE_TYPE_RENDER_PASS_CREATE_INFO_2_KHR;
+    public static int GL_STORAGE_CACHED_APPLE() {
+        return GL_STORAGE_CACHED_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_SUBPASS_BEGIN_INFO_KHR = (int)1000109005L;
+    private static final int GL_STORAGE_SHARED_APPLE = (int)34239L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SUBPASS_BEGIN_INFO_KHR = 1000109005
+     * #define GL_STORAGE_SHARED_APPLE 34239
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SUBPASS_BEGIN_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_SUBPASS_BEGIN_INFO_KHR;
+    public static int GL_STORAGE_SHARED_APPLE() {
+        return GL_STORAGE_SHARED_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_SUBPASS_END_INFO_KHR = (int)1000109006L;
+    private static final int GL_APPLE_transform_hint = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SUBPASS_END_INFO_KHR = 1000109006
+     * #define GL_APPLE_transform_hint 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SUBPASS_END_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_SUBPASS_END_INFO_KHR;
+    public static int GL_APPLE_transform_hint() {
+        return GL_APPLE_transform_hint;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_FENCE_INFO_KHR = (int)1000112000L;
+    private static final int GL_TRANSFORM_HINT_APPLE = (int)34225L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_FENCE_INFO_KHR = 1000112000
+     * #define GL_TRANSFORM_HINT_APPLE 34225
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_FENCE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_FENCE_INFO_KHR;
+    public static int GL_TRANSFORM_HINT_APPLE() {
+        return GL_TRANSFORM_HINT_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_EXTERNAL_FENCE_PROPERTIES_KHR = (int)1000112001L;
+    private static final int GL_APPLE_vertex_array_object = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_EXTERNAL_FENCE_PROPERTIES_KHR = 1000112001
+     * #define GL_APPLE_vertex_array_object 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_EXTERNAL_FENCE_PROPERTIES_KHR() {
-        return VK_STRUCTURE_TYPE_EXTERNAL_FENCE_PROPERTIES_KHR;
+    public static int GL_APPLE_vertex_array_object() {
+        return GL_APPLE_vertex_array_object;
     }
-    private static final int VK_STRUCTURE_TYPE_EXPORT_FENCE_CREATE_INFO_KHR = (int)1000113000L;
+    private static final int GL_VERTEX_ARRAY_BINDING_APPLE = (int)34229L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_EXPORT_FENCE_CREATE_INFO_KHR = 1000113000
+     * #define GL_VERTEX_ARRAY_BINDING_APPLE 34229
      * }
      */
-    public static int VK_STRUCTURE_TYPE_EXPORT_FENCE_CREATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_EXPORT_FENCE_CREATE_INFO_KHR;
+    public static int GL_VERTEX_ARRAY_BINDING_APPLE() {
+        return GL_VERTEX_ARRAY_BINDING_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_POINT_CLIPPING_PROPERTIES_KHR = (int)1000117000L;
+    private static final int GL_APPLE_vertex_array_range = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_POINT_CLIPPING_PROPERTIES_KHR = 1000117000
+     * #define GL_APPLE_vertex_array_range 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_POINT_CLIPPING_PROPERTIES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_POINT_CLIPPING_PROPERTIES_KHR;
+    public static int GL_APPLE_vertex_array_range() {
+        return GL_APPLE_vertex_array_range;
     }
-    private static final int VK_STRUCTURE_TYPE_RENDER_PASS_INPUT_ATTACHMENT_ASPECT_CREATE_INFO_KHR = (int)1000117001L;
+    private static final int GL_VERTEX_ARRAY_RANGE_APPLE = (int)34077L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_RENDER_PASS_INPUT_ATTACHMENT_ASPECT_CREATE_INFO_KHR = 1000117001
+     * #define GL_VERTEX_ARRAY_RANGE_APPLE 34077
      * }
      */
-    public static int VK_STRUCTURE_TYPE_RENDER_PASS_INPUT_ATTACHMENT_ASPECT_CREATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_RENDER_PASS_INPUT_ATTACHMENT_ASPECT_CREATE_INFO_KHR;
+    public static int GL_VERTEX_ARRAY_RANGE_APPLE() {
+        return GL_VERTEX_ARRAY_RANGE_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_IMAGE_VIEW_USAGE_CREATE_INFO_KHR = (int)1000117002L;
+    private static final int GL_VERTEX_ARRAY_RANGE_LENGTH_APPLE = (int)34078L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMAGE_VIEW_USAGE_CREATE_INFO_KHR = 1000117002
+     * #define GL_VERTEX_ARRAY_RANGE_LENGTH_APPLE 34078
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMAGE_VIEW_USAGE_CREATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_IMAGE_VIEW_USAGE_CREATE_INFO_KHR;
+    public static int GL_VERTEX_ARRAY_RANGE_LENGTH_APPLE() {
+        return GL_VERTEX_ARRAY_RANGE_LENGTH_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_PIPELINE_TESSELLATION_DOMAIN_ORIGIN_STATE_CREATE_INFO_KHR = (int)1000117003L;
+    private static final int GL_VERTEX_ARRAY_STORAGE_HINT_APPLE = (int)34079L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PIPELINE_TESSELLATION_DOMAIN_ORIGIN_STATE_CREATE_INFO_KHR = 1000117003
+     * #define GL_VERTEX_ARRAY_STORAGE_HINT_APPLE 34079
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PIPELINE_TESSELLATION_DOMAIN_ORIGIN_STATE_CREATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_PIPELINE_TESSELLATION_DOMAIN_ORIGIN_STATE_CREATE_INFO_KHR;
+    public static int GL_VERTEX_ARRAY_STORAGE_HINT_APPLE() {
+        return GL_VERTEX_ARRAY_STORAGE_HINT_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTER_FEATURES_KHR = (int)1000120000L;
+    private static final int GL_VERTEX_ARRAY_RANGE_POINTER_APPLE = (int)34081L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTER_FEATURES_KHR = 1000120000
+     * #define GL_VERTEX_ARRAY_RANGE_POINTER_APPLE 34081
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTER_FEATURES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTER_FEATURES_KHR;
+    public static int GL_VERTEX_ARRAY_RANGE_POINTER_APPLE() {
+        return GL_VERTEX_ARRAY_RANGE_POINTER_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTERS_FEATURES_KHR = (int)1000120000L;
+    private static final int GL_STORAGE_CLIENT_APPLE = (int)34228L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTERS_FEATURES_KHR = 1000120000
+     * #define GL_STORAGE_CLIENT_APPLE 34228
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTERS_FEATURES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTERS_FEATURES_KHR;
+    public static int GL_STORAGE_CLIENT_APPLE() {
+        return GL_STORAGE_CLIENT_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_MEMORY_DEDICATED_REQUIREMENTS_KHR = (int)1000127000L;
+    private static final int GL_APPLE_vertex_program_evaluators = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_MEMORY_DEDICATED_REQUIREMENTS_KHR = 1000127000
+     * #define GL_APPLE_vertex_program_evaluators 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_MEMORY_DEDICATED_REQUIREMENTS_KHR() {
-        return VK_STRUCTURE_TYPE_MEMORY_DEDICATED_REQUIREMENTS_KHR;
+    public static int GL_APPLE_vertex_program_evaluators() {
+        return GL_APPLE_vertex_program_evaluators;
     }
-    private static final int VK_STRUCTURE_TYPE_MEMORY_DEDICATED_ALLOCATE_INFO_KHR = (int)1000127001L;
+    private static final int GL_VERTEX_ATTRIB_MAP1_APPLE = (int)35328L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_MEMORY_DEDICATED_ALLOCATE_INFO_KHR = 1000127001
+     * #define GL_VERTEX_ATTRIB_MAP1_APPLE 35328
      * }
      */
-    public static int VK_STRUCTURE_TYPE_MEMORY_DEDICATED_ALLOCATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_MEMORY_DEDICATED_ALLOCATE_INFO_KHR;
+    public static int GL_VERTEX_ATTRIB_MAP1_APPLE() {
+        return GL_VERTEX_ATTRIB_MAP1_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_FILTER_MINMAX_PROPERTIES_EXT = (int)1000130000L;
+    private static final int GL_VERTEX_ATTRIB_MAP2_APPLE = (int)35329L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_FILTER_MINMAX_PROPERTIES_EXT = 1000130000
+     * #define GL_VERTEX_ATTRIB_MAP2_APPLE 35329
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_FILTER_MINMAX_PROPERTIES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_FILTER_MINMAX_PROPERTIES_EXT;
+    public static int GL_VERTEX_ATTRIB_MAP2_APPLE() {
+        return GL_VERTEX_ATTRIB_MAP2_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_SAMPLER_REDUCTION_MODE_CREATE_INFO_EXT = (int)1000130001L;
+    private static final int GL_VERTEX_ATTRIB_MAP1_SIZE_APPLE = (int)35330L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SAMPLER_REDUCTION_MODE_CREATE_INFO_EXT = 1000130001
+     * #define GL_VERTEX_ATTRIB_MAP1_SIZE_APPLE 35330
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SAMPLER_REDUCTION_MODE_CREATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_SAMPLER_REDUCTION_MODE_CREATE_INFO_EXT;
+    public static int GL_VERTEX_ATTRIB_MAP1_SIZE_APPLE() {
+        return GL_VERTEX_ATTRIB_MAP1_SIZE_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_BUFFER_MEMORY_REQUIREMENTS_INFO_2_KHR = (int)1000146000L;
+    private static final int GL_VERTEX_ATTRIB_MAP1_COEFF_APPLE = (int)35331L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_BUFFER_MEMORY_REQUIREMENTS_INFO_2_KHR = 1000146000
+     * #define GL_VERTEX_ATTRIB_MAP1_COEFF_APPLE 35331
      * }
      */
-    public static int VK_STRUCTURE_TYPE_BUFFER_MEMORY_REQUIREMENTS_INFO_2_KHR() {
-        return VK_STRUCTURE_TYPE_BUFFER_MEMORY_REQUIREMENTS_INFO_2_KHR;
+    public static int GL_VERTEX_ATTRIB_MAP1_COEFF_APPLE() {
+        return GL_VERTEX_ATTRIB_MAP1_COEFF_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_IMAGE_MEMORY_REQUIREMENTS_INFO_2_KHR = (int)1000146001L;
+    private static final int GL_VERTEX_ATTRIB_MAP1_ORDER_APPLE = (int)35332L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMAGE_MEMORY_REQUIREMENTS_INFO_2_KHR = 1000146001
+     * #define GL_VERTEX_ATTRIB_MAP1_ORDER_APPLE 35332
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMAGE_MEMORY_REQUIREMENTS_INFO_2_KHR() {
-        return VK_STRUCTURE_TYPE_IMAGE_MEMORY_REQUIREMENTS_INFO_2_KHR;
+    public static int GL_VERTEX_ATTRIB_MAP1_ORDER_APPLE() {
+        return GL_VERTEX_ATTRIB_MAP1_ORDER_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_IMAGE_SPARSE_MEMORY_REQUIREMENTS_INFO_2_KHR = (int)1000146002L;
+    private static final int GL_VERTEX_ATTRIB_MAP1_DOMAIN_APPLE = (int)35333L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMAGE_SPARSE_MEMORY_REQUIREMENTS_INFO_2_KHR = 1000146002
+     * #define GL_VERTEX_ATTRIB_MAP1_DOMAIN_APPLE 35333
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMAGE_SPARSE_MEMORY_REQUIREMENTS_INFO_2_KHR() {
-        return VK_STRUCTURE_TYPE_IMAGE_SPARSE_MEMORY_REQUIREMENTS_INFO_2_KHR;
+    public static int GL_VERTEX_ATTRIB_MAP1_DOMAIN_APPLE() {
+        return GL_VERTEX_ATTRIB_MAP1_DOMAIN_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_MEMORY_REQUIREMENTS_2_KHR = (int)1000146003L;
+    private static final int GL_VERTEX_ATTRIB_MAP2_SIZE_APPLE = (int)35334L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_MEMORY_REQUIREMENTS_2_KHR = 1000146003
+     * #define GL_VERTEX_ATTRIB_MAP2_SIZE_APPLE 35334
      * }
      */
-    public static int VK_STRUCTURE_TYPE_MEMORY_REQUIREMENTS_2_KHR() {
-        return VK_STRUCTURE_TYPE_MEMORY_REQUIREMENTS_2_KHR;
+    public static int GL_VERTEX_ATTRIB_MAP2_SIZE_APPLE() {
+        return GL_VERTEX_ATTRIB_MAP2_SIZE_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_SPARSE_IMAGE_MEMORY_REQUIREMENTS_2_KHR = (int)1000146004L;
+    private static final int GL_VERTEX_ATTRIB_MAP2_COEFF_APPLE = (int)35335L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SPARSE_IMAGE_MEMORY_REQUIREMENTS_2_KHR = 1000146004
+     * #define GL_VERTEX_ATTRIB_MAP2_COEFF_APPLE 35335
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SPARSE_IMAGE_MEMORY_REQUIREMENTS_2_KHR() {
-        return VK_STRUCTURE_TYPE_SPARSE_IMAGE_MEMORY_REQUIREMENTS_2_KHR;
+    public static int GL_VERTEX_ATTRIB_MAP2_COEFF_APPLE() {
+        return GL_VERTEX_ATTRIB_MAP2_COEFF_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_IMAGE_FORMAT_LIST_CREATE_INFO_KHR = (int)1000147000L;
+    private static final int GL_VERTEX_ATTRIB_MAP2_ORDER_APPLE = (int)35336L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMAGE_FORMAT_LIST_CREATE_INFO_KHR = 1000147000
+     * #define GL_VERTEX_ATTRIB_MAP2_ORDER_APPLE 35336
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMAGE_FORMAT_LIST_CREATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_IMAGE_FORMAT_LIST_CREATE_INFO_KHR;
+    public static int GL_VERTEX_ATTRIB_MAP2_ORDER_APPLE() {
+        return GL_VERTEX_ATTRIB_MAP2_ORDER_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_CREATE_INFO_KHR = (int)1000156000L;
+    private static final int GL_VERTEX_ATTRIB_MAP2_DOMAIN_APPLE = (int)35337L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_CREATE_INFO_KHR = 1000156000
+     * #define GL_VERTEX_ATTRIB_MAP2_DOMAIN_APPLE 35337
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_CREATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_CREATE_INFO_KHR;
+    public static int GL_VERTEX_ATTRIB_MAP2_DOMAIN_APPLE() {
+        return GL_VERTEX_ATTRIB_MAP2_DOMAIN_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_INFO_KHR = (int)1000156001L;
+    private static final int GL_APPLE_ycbcr_422 = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_INFO_KHR = 1000156001
+     * #define GL_APPLE_ycbcr_422 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_INFO_KHR;
+    public static int GL_APPLE_ycbcr_422() {
+        return GL_APPLE_ycbcr_422;
     }
-    private static final int VK_STRUCTURE_TYPE_BIND_IMAGE_PLANE_MEMORY_INFO_KHR = (int)1000156002L;
+    private static final int GL_YCBCR_422_APPLE = (int)34233L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_BIND_IMAGE_PLANE_MEMORY_INFO_KHR = 1000156002
+     * #define GL_YCBCR_422_APPLE 34233
      * }
      */
-    public static int VK_STRUCTURE_TYPE_BIND_IMAGE_PLANE_MEMORY_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_BIND_IMAGE_PLANE_MEMORY_INFO_KHR;
+    public static int GL_YCBCR_422_APPLE() {
+        return GL_YCBCR_422_APPLE;
     }
-    private static final int VK_STRUCTURE_TYPE_IMAGE_PLANE_MEMORY_REQUIREMENTS_INFO_KHR = (int)1000156003L;
+    private static final int GL_ATI_draw_buffers = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMAGE_PLANE_MEMORY_REQUIREMENTS_INFO_KHR = 1000156003
+     * #define GL_ATI_draw_buffers 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMAGE_PLANE_MEMORY_REQUIREMENTS_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_IMAGE_PLANE_MEMORY_REQUIREMENTS_INFO_KHR;
+    public static int GL_ATI_draw_buffers() {
+        return GL_ATI_draw_buffers;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_YCBCR_CONVERSION_FEATURES_KHR = (int)1000156004L;
+    private static final int GL_MAX_DRAW_BUFFERS_ATI = (int)34852L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_YCBCR_CONVERSION_FEATURES_KHR = 1000156004
+     * #define GL_MAX_DRAW_BUFFERS_ATI 34852
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_YCBCR_CONVERSION_FEATURES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_YCBCR_CONVERSION_FEATURES_KHR;
+    public static int GL_MAX_DRAW_BUFFERS_ATI() {
+        return GL_MAX_DRAW_BUFFERS_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_IMAGE_FORMAT_PROPERTIES_KHR = (int)1000156005L;
+    private static final int GL_DRAW_BUFFER0_ATI = (int)34853L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_IMAGE_FORMAT_PROPERTIES_KHR = 1000156005
+     * #define GL_DRAW_BUFFER0_ATI 34853
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_IMAGE_FORMAT_PROPERTIES_KHR() {
-        return VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_IMAGE_FORMAT_PROPERTIES_KHR;
+    public static int GL_DRAW_BUFFER0_ATI() {
+        return GL_DRAW_BUFFER0_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_INFO_KHR = (int)1000157000L;
+    private static final int GL_DRAW_BUFFER1_ATI = (int)34854L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_INFO_KHR = 1000157000
+     * #define GL_DRAW_BUFFER1_ATI 34854
      * }
      */
-    public static int VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_INFO_KHR;
+    public static int GL_DRAW_BUFFER1_ATI() {
+        return GL_DRAW_BUFFER1_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_INFO_KHR = (int)1000157001L;
+    private static final int GL_DRAW_BUFFER2_ATI = (int)34855L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_INFO_KHR = 1000157001
+     * #define GL_DRAW_BUFFER2_ATI 34855
      * }
      */
-    public static int VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_INFO_KHR;
+    public static int GL_DRAW_BUFFER2_ATI() {
+        return GL_DRAW_BUFFER2_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_BINDING_FLAGS_CREATE_INFO_EXT = (int)1000161000L;
+    private static final int GL_DRAW_BUFFER3_ATI = (int)34856L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_BINDING_FLAGS_CREATE_INFO_EXT = 1000161000
+     * #define GL_DRAW_BUFFER3_ATI 34856
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_BINDING_FLAGS_CREATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_BINDING_FLAGS_CREATE_INFO_EXT;
+    public static int GL_DRAW_BUFFER3_ATI() {
+        return GL_DRAW_BUFFER3_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_FEATURES_EXT = (int)1000161001L;
+    private static final int GL_DRAW_BUFFER4_ATI = (int)34857L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_FEATURES_EXT = 1000161001
+     * #define GL_DRAW_BUFFER4_ATI 34857
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_FEATURES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_FEATURES_EXT;
+    public static int GL_DRAW_BUFFER4_ATI() {
+        return GL_DRAW_BUFFER4_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_PROPERTIES_EXT = (int)1000161002L;
+    private static final int GL_DRAW_BUFFER5_ATI = (int)34858L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_PROPERTIES_EXT = 1000161002
+     * #define GL_DRAW_BUFFER5_ATI 34858
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_PROPERTIES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_PROPERTIES_EXT;
+    public static int GL_DRAW_BUFFER5_ATI() {
+        return GL_DRAW_BUFFER5_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_ALLOCATE_INFO_EXT = (int)1000161003L;
+    private static final int GL_DRAW_BUFFER6_ATI = (int)34859L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_ALLOCATE_INFO_EXT = 1000161003
+     * #define GL_DRAW_BUFFER6_ATI 34859
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_ALLOCATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_ALLOCATE_INFO_EXT;
+    public static int GL_DRAW_BUFFER6_ATI() {
+        return GL_DRAW_BUFFER6_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_LAYOUT_SUPPORT_EXT = (int)1000161004L;
+    private static final int GL_DRAW_BUFFER7_ATI = (int)34860L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_LAYOUT_SUPPORT_EXT = 1000161004
+     * #define GL_DRAW_BUFFER7_ATI 34860
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_LAYOUT_SUPPORT_EXT() {
-        return VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_LAYOUT_SUPPORT_EXT;
+    public static int GL_DRAW_BUFFER7_ATI() {
+        return GL_DRAW_BUFFER7_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_3_PROPERTIES_KHR = (int)1000168000L;
+    private static final int GL_DRAW_BUFFER8_ATI = (int)34861L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_3_PROPERTIES_KHR = 1000168000
+     * #define GL_DRAW_BUFFER8_ATI 34861
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_3_PROPERTIES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_3_PROPERTIES_KHR;
+    public static int GL_DRAW_BUFFER8_ATI() {
+        return GL_DRAW_BUFFER8_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_SUPPORT_KHR = (int)1000168001L;
+    private static final int GL_DRAW_BUFFER9_ATI = (int)34862L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_SUPPORT_KHR = 1000168001
+     * #define GL_DRAW_BUFFER9_ATI 34862
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_SUPPORT_KHR() {
-        return VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_SUPPORT_KHR;
+    public static int GL_DRAW_BUFFER9_ATI() {
+        return GL_DRAW_BUFFER9_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SUBGROUP_EXTENDED_TYPES_FEATURES_KHR = (int)1000175000L;
+    private static final int GL_DRAW_BUFFER10_ATI = (int)34863L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SUBGROUP_EXTENDED_TYPES_FEATURES_KHR = 1000175000
+     * #define GL_DRAW_BUFFER10_ATI 34863
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SUBGROUP_EXTENDED_TYPES_FEATURES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SUBGROUP_EXTENDED_TYPES_FEATURES_KHR;
+    public static int GL_DRAW_BUFFER10_ATI() {
+        return GL_DRAW_BUFFER10_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_8BIT_STORAGE_FEATURES_KHR = (int)1000177000L;
+    private static final int GL_DRAW_BUFFER11_ATI = (int)34864L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_8BIT_STORAGE_FEATURES_KHR = 1000177000
+     * #define GL_DRAW_BUFFER11_ATI 34864
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_8BIT_STORAGE_FEATURES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_8BIT_STORAGE_FEATURES_KHR;
+    public static int GL_DRAW_BUFFER11_ATI() {
+        return GL_DRAW_BUFFER11_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_INT64_FEATURES_KHR = (int)1000180000L;
+    private static final int GL_DRAW_BUFFER12_ATI = (int)34865L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_INT64_FEATURES_KHR = 1000180000
+     * #define GL_DRAW_BUFFER12_ATI 34865
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_INT64_FEATURES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_INT64_FEATURES_KHR;
+    public static int GL_DRAW_BUFFER12_ATI() {
+        return GL_DRAW_BUFFER12_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DRIVER_PROPERTIES_KHR = (int)1000196000L;
+    private static final int GL_DRAW_BUFFER13_ATI = (int)34866L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DRIVER_PROPERTIES_KHR = 1000196000
+     * #define GL_DRAW_BUFFER13_ATI 34866
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DRIVER_PROPERTIES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DRIVER_PROPERTIES_KHR;
+    public static int GL_DRAW_BUFFER13_ATI() {
+        return GL_DRAW_BUFFER13_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FLOAT_CONTROLS_PROPERTIES_KHR = (int)1000197000L;
+    private static final int GL_DRAW_BUFFER14_ATI = (int)34867L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FLOAT_CONTROLS_PROPERTIES_KHR = 1000197000
+     * #define GL_DRAW_BUFFER14_ATI 34867
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FLOAT_CONTROLS_PROPERTIES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FLOAT_CONTROLS_PROPERTIES_KHR;
+    public static int GL_DRAW_BUFFER14_ATI() {
+        return GL_DRAW_BUFFER14_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_STENCIL_RESOLVE_PROPERTIES_KHR = (int)1000199000L;
+    private static final int GL_DRAW_BUFFER15_ATI = (int)34868L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_STENCIL_RESOLVE_PROPERTIES_KHR = 1000199000
+     * #define GL_DRAW_BUFFER15_ATI 34868
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_STENCIL_RESOLVE_PROPERTIES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_STENCIL_RESOLVE_PROPERTIES_KHR;
+    public static int GL_DRAW_BUFFER15_ATI() {
+        return GL_DRAW_BUFFER15_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_DEPTH_STENCIL_RESOLVE_KHR = (int)1000199001L;
+    private static final int GL_ATI_element_array = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_DEPTH_STENCIL_RESOLVE_KHR = 1000199001
+     * #define GL_ATI_element_array 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_DEPTH_STENCIL_RESOLVE_KHR() {
-        return VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_DEPTH_STENCIL_RESOLVE_KHR;
+    public static int GL_ATI_element_array() {
+        return GL_ATI_element_array;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_FEATURES_KHR = (int)1000207000L;
+    private static final int GL_ELEMENT_ARRAY_ATI = (int)34664L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_FEATURES_KHR = 1000207000
+     * #define GL_ELEMENT_ARRAY_ATI 34664
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_FEATURES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_FEATURES_KHR;
+    public static int GL_ELEMENT_ARRAY_ATI() {
+        return GL_ELEMENT_ARRAY_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_PROPERTIES_KHR = (int)1000207001L;
+    private static final int GL_ELEMENT_ARRAY_TYPE_ATI = (int)34665L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_PROPERTIES_KHR = 1000207001
+     * #define GL_ELEMENT_ARRAY_TYPE_ATI 34665
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_PROPERTIES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_PROPERTIES_KHR;
+    public static int GL_ELEMENT_ARRAY_TYPE_ATI() {
+        return GL_ELEMENT_ARRAY_TYPE_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_SEMAPHORE_TYPE_CREATE_INFO_KHR = (int)1000207002L;
+    private static final int GL_ELEMENT_ARRAY_POINTER_ATI = (int)34666L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SEMAPHORE_TYPE_CREATE_INFO_KHR = 1000207002
+     * #define GL_ELEMENT_ARRAY_POINTER_ATI 34666
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SEMAPHORE_TYPE_CREATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_SEMAPHORE_TYPE_CREATE_INFO_KHR;
+    public static int GL_ELEMENT_ARRAY_POINTER_ATI() {
+        return GL_ELEMENT_ARRAY_POINTER_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_TIMELINE_SEMAPHORE_SUBMIT_INFO_KHR = (int)1000207003L;
+    private static final int GL_ATI_envmap_bumpmap = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_TIMELINE_SEMAPHORE_SUBMIT_INFO_KHR = 1000207003
+     * #define GL_ATI_envmap_bumpmap 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_TIMELINE_SEMAPHORE_SUBMIT_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_TIMELINE_SEMAPHORE_SUBMIT_INFO_KHR;
+    public static int GL_ATI_envmap_bumpmap() {
+        return GL_ATI_envmap_bumpmap;
     }
-    private static final int VK_STRUCTURE_TYPE_SEMAPHORE_WAIT_INFO_KHR = (int)1000207004L;
+    private static final int GL_BUMP_ROT_MATRIX_ATI = (int)34677L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SEMAPHORE_WAIT_INFO_KHR = 1000207004
+     * #define GL_BUMP_ROT_MATRIX_ATI 34677
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SEMAPHORE_WAIT_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_SEMAPHORE_WAIT_INFO_KHR;
+    public static int GL_BUMP_ROT_MATRIX_ATI() {
+        return GL_BUMP_ROT_MATRIX_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_SEMAPHORE_SIGNAL_INFO_KHR = (int)1000207005L;
+    private static final int GL_BUMP_ROT_MATRIX_SIZE_ATI = (int)34678L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_SEMAPHORE_SIGNAL_INFO_KHR = 1000207005
+     * #define GL_BUMP_ROT_MATRIX_SIZE_ATI 34678
      * }
      */
-    public static int VK_STRUCTURE_TYPE_SEMAPHORE_SIGNAL_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_SEMAPHORE_SIGNAL_INFO_KHR;
+    public static int GL_BUMP_ROT_MATRIX_SIZE_ATI() {
+        return GL_BUMP_ROT_MATRIX_SIZE_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_MEMORY_MODEL_FEATURES_KHR = (int)1000211000L;
+    private static final int GL_BUMP_NUM_TEX_UNITS_ATI = (int)34679L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_MEMORY_MODEL_FEATURES_KHR = 1000211000
+     * #define GL_BUMP_NUM_TEX_UNITS_ATI 34679
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_MEMORY_MODEL_FEATURES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_MEMORY_MODEL_FEATURES_KHR;
+    public static int GL_BUMP_NUM_TEX_UNITS_ATI() {
+        return GL_BUMP_NUM_TEX_UNITS_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SCALAR_BLOCK_LAYOUT_FEATURES_EXT = (int)1000221000L;
+    private static final int GL_BUMP_TEX_UNITS_ATI = (int)34680L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SCALAR_BLOCK_LAYOUT_FEATURES_EXT = 1000221000
+     * #define GL_BUMP_TEX_UNITS_ATI 34680
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SCALAR_BLOCK_LAYOUT_FEATURES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SCALAR_BLOCK_LAYOUT_FEATURES_EXT;
+    public static int GL_BUMP_TEX_UNITS_ATI() {
+        return GL_BUMP_TEX_UNITS_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SEPARATE_DEPTH_STENCIL_LAYOUTS_FEATURES_KHR = (int)1000241000L;
+    private static final int GL_DUDV_ATI = (int)34681L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SEPARATE_DEPTH_STENCIL_LAYOUTS_FEATURES_KHR = 1000241000
+     * #define GL_DUDV_ATI 34681
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SEPARATE_DEPTH_STENCIL_LAYOUTS_FEATURES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SEPARATE_DEPTH_STENCIL_LAYOUTS_FEATURES_KHR;
+    public static int GL_DUDV_ATI() {
+        return GL_DUDV_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_STENCIL_LAYOUT_KHR = (int)1000241001L;
+    private static final int GL_DU8DV8_ATI = (int)34682L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_STENCIL_LAYOUT_KHR = 1000241001
+     * #define GL_DU8DV8_ATI 34682
      * }
      */
-    public static int VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_STENCIL_LAYOUT_KHR() {
-        return VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_STENCIL_LAYOUT_KHR;
+    public static int GL_DU8DV8_ATI() {
+        return GL_DU8DV8_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_STENCIL_LAYOUT_KHR = (int)1000241002L;
+    private static final int GL_BUMP_ENVMAP_ATI = (int)34683L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_STENCIL_LAYOUT_KHR = 1000241002
+     * #define GL_BUMP_ENVMAP_ATI 34683
      * }
      */
-    public static int VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_STENCIL_LAYOUT_KHR() {
-        return VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_STENCIL_LAYOUT_KHR;
+    public static int GL_BUMP_ENVMAP_ATI() {
+        return GL_BUMP_ENVMAP_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_ADDRESS_FEATURES_EXT = (int)1000244000L;
+    private static final int GL_BUMP_TARGET_ATI = (int)34684L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_ADDRESS_FEATURES_EXT = 1000244000
+     * #define GL_BUMP_TARGET_ATI 34684
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_ADDRESS_FEATURES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_ADDRESS_FEATURES_EXT;
+    public static int GL_BUMP_TARGET_ATI() {
+        return GL_BUMP_TARGET_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_INFO_EXT = (int)1000244001L;
+    private static final int GL_ATI_fragment_shader = (int)1L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_INFO_EXT = 1000244001
+     * #define GL_ATI_fragment_shader 1
      * }
      */
-    public static int VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_INFO_EXT;
+    public static int GL_ATI_fragment_shader() {
+        return GL_ATI_fragment_shader;
     }
-    private static final int VK_STRUCTURE_TYPE_IMAGE_STENCIL_USAGE_CREATE_INFO_EXT = (int)1000246000L;
+    private static final int GL_FRAGMENT_SHADER_ATI = (int)35104L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_IMAGE_STENCIL_USAGE_CREATE_INFO_EXT = 1000246000
+     * #define GL_FRAGMENT_SHADER_ATI 35104
      * }
      */
-    public static int VK_STRUCTURE_TYPE_IMAGE_STENCIL_USAGE_CREATE_INFO_EXT() {
-        return VK_STRUCTURE_TYPE_IMAGE_STENCIL_USAGE_CREATE_INFO_EXT;
+    public static int GL_FRAGMENT_SHADER_ATI() {
+        return GL_FRAGMENT_SHADER_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_UNIFORM_BUFFER_STANDARD_LAYOUT_FEATURES_KHR = (int)1000253000L;
+    private static final int GL_REG_0_ATI = (int)35105L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_UNIFORM_BUFFER_STANDARD_LAYOUT_FEATURES_KHR = 1000253000
+     * #define GL_REG_0_ATI 35105
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_UNIFORM_BUFFER_STANDARD_LAYOUT_FEATURES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_UNIFORM_BUFFER_STANDARD_LAYOUT_FEATURES_KHR;
+    public static int GL_REG_0_ATI() {
+        return GL_REG_0_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_DEVICE_ADDRESS_FEATURES_KHR = (int)1000257000L;
+    private static final int GL_REG_1_ATI = (int)35106L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_DEVICE_ADDRESS_FEATURES_KHR = 1000257000
+     * #define GL_REG_1_ATI 35106
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_DEVICE_ADDRESS_FEATURES_KHR() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_DEVICE_ADDRESS_FEATURES_KHR;
+    public static int GL_REG_1_ATI() {
+        return GL_REG_1_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_INFO_KHR = (int)1000244001L;
+    private static final int GL_REG_2_ATI = (int)35107L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_INFO_KHR = 1000244001
+     * #define GL_REG_2_ATI 35107
      * }
      */
-    public static int VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_INFO_KHR;
+    public static int GL_REG_2_ATI() {
+        return GL_REG_2_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_BUFFER_OPAQUE_CAPTURE_ADDRESS_CREATE_INFO_KHR = (int)1000257002L;
+    private static final int GL_REG_3_ATI = (int)35108L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_BUFFER_OPAQUE_CAPTURE_ADDRESS_CREATE_INFO_KHR = 1000257002
+     * #define GL_REG_3_ATI 35108
      * }
      */
-    public static int VK_STRUCTURE_TYPE_BUFFER_OPAQUE_CAPTURE_ADDRESS_CREATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_BUFFER_OPAQUE_CAPTURE_ADDRESS_CREATE_INFO_KHR;
+    public static int GL_REG_3_ATI() {
+        return GL_REG_3_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_MEMORY_OPAQUE_CAPTURE_ADDRESS_ALLOCATE_INFO_KHR = (int)1000257003L;
+    private static final int GL_REG_4_ATI = (int)35109L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_MEMORY_OPAQUE_CAPTURE_ADDRESS_ALLOCATE_INFO_KHR = 1000257003
+     * #define GL_REG_4_ATI 35109
      * }
      */
-    public static int VK_STRUCTURE_TYPE_MEMORY_OPAQUE_CAPTURE_ADDRESS_ALLOCATE_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_MEMORY_OPAQUE_CAPTURE_ADDRESS_ALLOCATE_INFO_KHR;
+    public static int GL_REG_4_ATI() {
+        return GL_REG_4_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_DEVICE_MEMORY_OPAQUE_CAPTURE_ADDRESS_INFO_KHR = (int)1000257004L;
+    private static final int GL_REG_5_ATI = (int)35110L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_DEVICE_MEMORY_OPAQUE_CAPTURE_ADDRESS_INFO_KHR = 1000257004
+     * #define GL_REG_5_ATI 35110
      * }
      */
-    public static int VK_STRUCTURE_TYPE_DEVICE_MEMORY_OPAQUE_CAPTURE_ADDRESS_INFO_KHR() {
-        return VK_STRUCTURE_TYPE_DEVICE_MEMORY_OPAQUE_CAPTURE_ADDRESS_INFO_KHR;
+    public static int GL_REG_5_ATI() {
+        return GL_REG_5_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HOST_QUERY_RESET_FEATURES_EXT = (int)1000261000L;
+    private static final int GL_REG_6_ATI = (int)35111L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HOST_QUERY_RESET_FEATURES_EXT = 1000261000
+     * #define GL_REG_6_ATI 35111
      * }
      */
-    public static int VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HOST_QUERY_RESET_FEATURES_EXT() {
-        return VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HOST_QUERY_RESET_FEATURES_EXT;
+    public static int GL_REG_6_ATI() {
+        return GL_REG_6_ATI;
     }
-    private static final int VK_STRUCTURE_TYPE_BEGIN_RANGE = (int)0L;
+    private static final int GL_REG_7_ATI = (int)35112L;
     /**
      * {@snippet lang=c :
-     * enum VkStructureType.VK_STRUCTURE_TYPE_BEGIN_RANGE = 0
+     * #define GL_REG_7_ATI 35112
      * }
      */
-    public static int VK_STRUCTURE_TYPE_BEGIN_RANGE() {
-        return VK_STRUCTURE_TYPE_BEGIN_RANGE;
+    public static int GL_REG_7_ATI() {
+        return GL_REG_7_ATI;
     }
 }
 

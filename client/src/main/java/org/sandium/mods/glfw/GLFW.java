@@ -11,9 +11,7 @@ import org.sandium.api.event.RenderFrame;
 import java.lang.foreign.Arena;
 import java.lang.foreign.MemorySegment;
 
-import static org.sandium.core.libs.glfw.glfw3_h_1.*;
-import static org.sandium.core.libs.glfw.glfw3_h_4.GLFW_CLIENT_API;
-import static org.sandium.core.libs.glfw.glfw3_h_4.GLFW_NO_API;
+import static org.sandium.core.libs.glfw.glfw3_h.*;
 
 @SystemGroup
 public class GLFW {

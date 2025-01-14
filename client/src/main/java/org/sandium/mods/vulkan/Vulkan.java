@@ -3,16 +3,18 @@ package org.sandium.mods.vulkan;
 import org.sandium.api.annotation.PostConstruct;
 import org.sandium.api.annotation.SystemGroup;
 import org.sandium.api.annotation.Inject;
-import org.sandium.core.libs.glfw.VkApplicationInfo;
-import org.sandium.core.libs.glfw.VkInstanceCreateInfo;
+import org.sandium.core.libs.vulkan.VkApplicationInfo;
+import org.sandium.core.libs.vulkan.VkInstanceCreateInfo;
 import org.sandium.mods.glfw.GLFW;
 
 import java.lang.foreign.Arena;
 import java.lang.foreign.MemorySegment;
 
-import static org.sandium.core.libs.glfw.glfw3_h_1.*;
-import static org.sandium.core.libs.glfw.glfw3_h_4.GLFW_TRUE;
-import static org.sandium.core.libs.glfw.glfw3_h_4.VK_STRUCTURE_TYPE_APPLICATION_INFO;
+import static org.sandium.core.libs.glfw.glfw3_h.*;
+import static org.sandium.core.libs.vulkan.vulkan_h.VK_API_VERSION_1_0;
+import static org.sandium.core.libs.vulkan.vulkan_h_1.vkCreateInstance;
+import static org.sandium.core.libs.vulkan.vulkan_h_3.VK_STRUCTURE_TYPE_APPLICATION_INFO;
+import static org.sandium.core.libs.vulkan.vulkan_h_3.VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO;
 
 @SystemGroup
 public class Vulkan {

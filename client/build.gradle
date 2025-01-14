@@ -61,27 +61,47 @@ ext.getEnvVar = { String name, String message ->
 tasks.register('jextract') {
     group = "Build"
     description = "Runs jextract and parses header files of native libraries "
-    doLast {
-        def glfwIncludeDir = getEnvVar("INCLUDE_GLFW", "INCLUDE_GLFW environment variable must be set to the directory containing glfw3.h")
-        def tmpDir = "build/glfwjextract"
 
+    ext.runJextract = { includeDir, includeFile, libName, libEnum, tmpDir, srcDir, packageName ->
         delete tmpDir
         exec {
-            commandLine "jextract", "--include-dir", glfwIncludeDir, "--output", tmpDir, "--target-package", "org.sandium.core.libs.glfw", "--library", "glfw", "-D", "GLFW_INCLUDE_VULKAN=1", "${glfwIncludeDir}/glfw3.h"
+            commandLine "jextract", "--include-dir", includeDir, "--output", tmpDir, "--target-package", packageName, "--library", libName, "${includeDir}/${includeFile}"
         }
 
-        delete "src/main/java/org/sandium/core/libs/glfw"
+        delete srcDir
         copy {
             from tmpDir
             into "src/main/java"
             filter {
-                String line -> line.replace('SymbolLookup.libraryLookup(System.mapLibraryName("glfw"), LIBRARY_ARENA)',
-                                'org.sandium.core.libs.LibraryResolver.libraryLookup(org.sandium.core.libs.NativeLibrary.GLFW, LIBRARY_ARENA);')
-                                .replace('.or(SymbolLookup.loaderLookup())', '')
-                                .replace('.or(Linker.nativeLinker().defaultLookup());', '')
+                String line -> line.replace("SymbolLookup.libraryLookup(System.mapLibraryName(\"${libName}\"), LIBRARY_ARENA)",
+                        "org.sandium.core.libs.LibraryResolver.libraryLookup(org.sandium.core.libs.NativeLibrary.${libEnum}, LIBRARY_ARENA);")
+                        .replace('.or(SymbolLookup.loaderLookup())', '')
+                        .replace('.or(Linker.nativeLinker().defaultLookup());', '')
             }
         }
         delete tmpDir
+    }
+
+    doLast {
+        runJextract(
+                getEnvVar("INCLUDE_GLFW", "INCLUDE_GLFW environment variable must be set to the directory containing glfw3.h"),
+                "glfw3.h",
+                "glfw",
+                "GLFW",
+                "build/glfwjextract",
+                "src/main/java/org/sandium/core/libs/glfw",
+                "org.sandium.core.libs.glfw"
+        )
+
+        runJextract(
+                getEnvVar("INCLUDE_VULKAN", "INCLUDE_VULKAN environment variable must be set to the directory containing vulkan.h"),
+                "vulkan.h",
+                "vulkan",
+                "VULKAN",
+                "build/vulkanjextract",
+                "src/main/java/org/sandium/core/libs/vulkan",
+                "org.sandium.core.libs.vulkan"
+        )
     }
 }
 

@@ -17,9005 +17,9005 @@ public class glfw3_h_5 extends glfw3_h_6 {
     glfw3_h_5() {
         // Should not be called directly
     }
-    private static final int GL_ROUND_NV = (int)37028L;
+    private static final int GL_POINT_SPRITE_COORD_ORIGIN = (int)36000L;
     /**
      * {@snippet lang=c :
-     * #define GL_ROUND_NV 37028
+     * #define GL_POINT_SPRITE_COORD_ORIGIN 36000
      * }
      */
-    public static int GL_ROUND_NV() {
-        return GL_ROUND_NV;
+    public static int GL_POINT_SPRITE_COORD_ORIGIN() {
+        return GL_POINT_SPRITE_COORD_ORIGIN;
     }
-    private static final int GL_TRIANGULAR_NV = (int)37029L;
+    private static final int GL_LOWER_LEFT = (int)36001L;
     /**
      * {@snippet lang=c :
-     * #define GL_TRIANGULAR_NV 37029
+     * #define GL_LOWER_LEFT 36001
      * }
      */
-    public static int GL_TRIANGULAR_NV() {
-        return GL_TRIANGULAR_NV;
+    public static int GL_LOWER_LEFT() {
+        return GL_LOWER_LEFT;
     }
-    private static final int GL_BEVEL_NV = (int)37030L;
+    private static final int GL_UPPER_LEFT = (int)36002L;
     /**
      * {@snippet lang=c :
-     * #define GL_BEVEL_NV 37030
+     * #define GL_UPPER_LEFT 36002
      * }
      */
-    public static int GL_BEVEL_NV() {
-        return GL_BEVEL_NV;
+    public static int GL_UPPER_LEFT() {
+        return GL_UPPER_LEFT;
     }
-    private static final int GL_MITER_REVERT_NV = (int)37031L;
+    private static final int GL_STENCIL_BACK_REF = (int)36003L;
     /**
      * {@snippet lang=c :
-     * #define GL_MITER_REVERT_NV 37031
+     * #define GL_STENCIL_BACK_REF 36003
      * }
      */
-    public static int GL_MITER_REVERT_NV() {
-        return GL_MITER_REVERT_NV;
+    public static int GL_STENCIL_BACK_REF() {
+        return GL_STENCIL_BACK_REF;
     }
-    private static final int GL_MITER_TRUNCATE_NV = (int)37032L;
+    private static final int GL_STENCIL_BACK_VALUE_MASK = (int)36004L;
     /**
      * {@snippet lang=c :
-     * #define GL_MITER_TRUNCATE_NV 37032
+     * #define GL_STENCIL_BACK_VALUE_MASK 36004
      * }
      */
-    public static int GL_MITER_TRUNCATE_NV() {
-        return GL_MITER_TRUNCATE_NV;
+    public static int GL_STENCIL_BACK_VALUE_MASK() {
+        return GL_STENCIL_BACK_VALUE_MASK;
     }
-    private static final int GL_SKIP_MISSING_GLYPH_NV = (int)37033L;
+    private static final int GL_STENCIL_BACK_WRITEMASK = (int)36005L;
     /**
      * {@snippet lang=c :
-     * #define GL_SKIP_MISSING_GLYPH_NV 37033
+     * #define GL_STENCIL_BACK_WRITEMASK 36005
      * }
      */
-    public static int GL_SKIP_MISSING_GLYPH_NV() {
-        return GL_SKIP_MISSING_GLYPH_NV;
+    public static int GL_STENCIL_BACK_WRITEMASK() {
+        return GL_STENCIL_BACK_WRITEMASK;
     }
-    private static final int GL_USE_MISSING_GLYPH_NV = (int)37034L;
+    private static final int GL_VERTEX_PROGRAM_TWO_SIDE = (int)34371L;
     /**
      * {@snippet lang=c :
-     * #define GL_USE_MISSING_GLYPH_NV 37034
+     * #define GL_VERTEX_PROGRAM_TWO_SIDE 34371
      * }
      */
-    public static int GL_USE_MISSING_GLYPH_NV() {
-        return GL_USE_MISSING_GLYPH_NV;
+    public static int GL_VERTEX_PROGRAM_TWO_SIDE() {
+        return GL_VERTEX_PROGRAM_TWO_SIDE;
     }
-    private static final int GL_PATH_ERROR_POSITION_NV = (int)37035L;
+    private static final int GL_POINT_SPRITE = (int)34913L;
     /**
      * {@snippet lang=c :
-     * #define GL_PATH_ERROR_POSITION_NV 37035
+     * #define GL_POINT_SPRITE 34913
      * }
      */
-    public static int GL_PATH_ERROR_POSITION_NV() {
-        return GL_PATH_ERROR_POSITION_NV;
+    public static int GL_POINT_SPRITE() {
+        return GL_POINT_SPRITE;
     }
-    private static final int GL_ACCUM_ADJACENT_PAIRS_NV = (int)37037L;
+    private static final int GL_COORD_REPLACE = (int)34914L;
     /**
      * {@snippet lang=c :
-     * #define GL_ACCUM_ADJACENT_PAIRS_NV 37037
+     * #define GL_COORD_REPLACE 34914
      * }
      */
-    public static int GL_ACCUM_ADJACENT_PAIRS_NV() {
-        return GL_ACCUM_ADJACENT_PAIRS_NV;
+    public static int GL_COORD_REPLACE() {
+        return GL_COORD_REPLACE;
     }
-    private static final int GL_ADJACENT_PAIRS_NV = (int)37038L;
+    private static final int GL_MAX_TEXTURE_COORDS = (int)34929L;
     /**
      * {@snippet lang=c :
-     * #define GL_ADJACENT_PAIRS_NV 37038
+     * #define GL_MAX_TEXTURE_COORDS 34929
      * }
      */
-    public static int GL_ADJACENT_PAIRS_NV() {
-        return GL_ADJACENT_PAIRS_NV;
+    public static int GL_MAX_TEXTURE_COORDS() {
+        return GL_MAX_TEXTURE_COORDS;
     }
-    private static final int GL_FIRST_TO_REST_NV = (int)37039L;
+    private static final int GL_VERSION_2_1 = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_FIRST_TO_REST_NV 37039
+     * #define GL_VERSION_2_1 1
      * }
      */
-    public static int GL_FIRST_TO_REST_NV() {
-        return GL_FIRST_TO_REST_NV;
+    public static int GL_VERSION_2_1() {
+        return GL_VERSION_2_1;
     }
-    private static final int GL_PATH_GEN_MODE_NV = (int)37040L;
+    private static final int GL_PIXEL_PACK_BUFFER = (int)35051L;
     /**
      * {@snippet lang=c :
-     * #define GL_PATH_GEN_MODE_NV 37040
+     * #define GL_PIXEL_PACK_BUFFER 35051
      * }
      */
-    public static int GL_PATH_GEN_MODE_NV() {
-        return GL_PATH_GEN_MODE_NV;
+    public static int GL_PIXEL_PACK_BUFFER() {
+        return GL_PIXEL_PACK_BUFFER;
     }
-    private static final int GL_PATH_GEN_COEFF_NV = (int)37041L;
+    private static final int GL_PIXEL_UNPACK_BUFFER = (int)35052L;
     /**
      * {@snippet lang=c :
-     * #define GL_PATH_GEN_COEFF_NV 37041
+     * #define GL_PIXEL_UNPACK_BUFFER 35052
      * }
      */
-    public static int GL_PATH_GEN_COEFF_NV() {
-        return GL_PATH_GEN_COEFF_NV;
+    public static int GL_PIXEL_UNPACK_BUFFER() {
+        return GL_PIXEL_UNPACK_BUFFER;
     }
-    private static final int GL_PATH_GEN_COMPONENTS_NV = (int)37043L;
+    private static final int GL_PIXEL_PACK_BUFFER_BINDING = (int)35053L;
     /**
      * {@snippet lang=c :
-     * #define GL_PATH_GEN_COMPONENTS_NV 37043
+     * #define GL_PIXEL_PACK_BUFFER_BINDING 35053
      * }
      */
-    public static int GL_PATH_GEN_COMPONENTS_NV() {
-        return GL_PATH_GEN_COMPONENTS_NV;
+    public static int GL_PIXEL_PACK_BUFFER_BINDING() {
+        return GL_PIXEL_PACK_BUFFER_BINDING;
     }
-    private static final int GL_PATH_STENCIL_FUNC_NV = (int)37047L;
+    private static final int GL_PIXEL_UNPACK_BUFFER_BINDING = (int)35055L;
     /**
      * {@snippet lang=c :
-     * #define GL_PATH_STENCIL_FUNC_NV 37047
+     * #define GL_PIXEL_UNPACK_BUFFER_BINDING 35055
      * }
      */
-    public static int GL_PATH_STENCIL_FUNC_NV() {
-        return GL_PATH_STENCIL_FUNC_NV;
+    public static int GL_PIXEL_UNPACK_BUFFER_BINDING() {
+        return GL_PIXEL_UNPACK_BUFFER_BINDING;
     }
-    private static final int GL_PATH_STENCIL_REF_NV = (int)37048L;
+    private static final int GL_FLOAT_MAT2x3 = (int)35685L;
     /**
      * {@snippet lang=c :
-     * #define GL_PATH_STENCIL_REF_NV 37048
+     * #define GL_FLOAT_MAT2x3 35685
      * }
      */
-    public static int GL_PATH_STENCIL_REF_NV() {
-        return GL_PATH_STENCIL_REF_NV;
+    public static int GL_FLOAT_MAT2x3() {
+        return GL_FLOAT_MAT2x3;
     }
-    private static final int GL_PATH_STENCIL_VALUE_MASK_NV = (int)37049L;
+    private static final int GL_FLOAT_MAT2x4 = (int)35686L;
     /**
      * {@snippet lang=c :
-     * #define GL_PATH_STENCIL_VALUE_MASK_NV 37049
+     * #define GL_FLOAT_MAT2x4 35686
      * }
      */
-    public static int GL_PATH_STENCIL_VALUE_MASK_NV() {
-        return GL_PATH_STENCIL_VALUE_MASK_NV;
+    public static int GL_FLOAT_MAT2x4() {
+        return GL_FLOAT_MAT2x4;
     }
-    private static final int GL_PATH_STENCIL_DEPTH_OFFSET_FACTOR_NV = (int)37053L;
+    private static final int GL_FLOAT_MAT3x2 = (int)35687L;
     /**
      * {@snippet lang=c :
-     * #define GL_PATH_STENCIL_DEPTH_OFFSET_FACTOR_NV 37053
+     * #define GL_FLOAT_MAT3x2 35687
      * }
      */
-    public static int GL_PATH_STENCIL_DEPTH_OFFSET_FACTOR_NV() {
-        return GL_PATH_STENCIL_DEPTH_OFFSET_FACTOR_NV;
+    public static int GL_FLOAT_MAT3x2() {
+        return GL_FLOAT_MAT3x2;
     }
-    private static final int GL_PATH_STENCIL_DEPTH_OFFSET_UNITS_NV = (int)37054L;
+    private static final int GL_FLOAT_MAT3x4 = (int)35688L;
     /**
      * {@snippet lang=c :
-     * #define GL_PATH_STENCIL_DEPTH_OFFSET_UNITS_NV 37054
+     * #define GL_FLOAT_MAT3x4 35688
      * }
      */
-    public static int GL_PATH_STENCIL_DEPTH_OFFSET_UNITS_NV() {
-        return GL_PATH_STENCIL_DEPTH_OFFSET_UNITS_NV;
+    public static int GL_FLOAT_MAT3x4() {
+        return GL_FLOAT_MAT3x4;
     }
-    private static final int GL_PATH_COVER_DEPTH_FUNC_NV = (int)37055L;
+    private static final int GL_FLOAT_MAT4x2 = (int)35689L;
     /**
      * {@snippet lang=c :
-     * #define GL_PATH_COVER_DEPTH_FUNC_NV 37055
+     * #define GL_FLOAT_MAT4x2 35689
      * }
      */
-    public static int GL_PATH_COVER_DEPTH_FUNC_NV() {
-        return GL_PATH_COVER_DEPTH_FUNC_NV;
+    public static int GL_FLOAT_MAT4x2() {
+        return GL_FLOAT_MAT4x2;
     }
-    private static final int GL_PATH_DASH_OFFSET_RESET_NV = (int)37044L;
+    private static final int GL_FLOAT_MAT4x3 = (int)35690L;
     /**
      * {@snippet lang=c :
-     * #define GL_PATH_DASH_OFFSET_RESET_NV 37044
+     * #define GL_FLOAT_MAT4x3 35690
      * }
      */
-    public static int GL_PATH_DASH_OFFSET_RESET_NV() {
-        return GL_PATH_DASH_OFFSET_RESET_NV;
+    public static int GL_FLOAT_MAT4x3() {
+        return GL_FLOAT_MAT4x3;
     }
-    private static final int GL_MOVE_TO_RESETS_NV = (int)37045L;
+    private static final int GL_SRGB = (int)35904L;
     /**
      * {@snippet lang=c :
-     * #define GL_MOVE_TO_RESETS_NV 37045
+     * #define GL_SRGB 35904
      * }
      */
-    public static int GL_MOVE_TO_RESETS_NV() {
-        return GL_MOVE_TO_RESETS_NV;
+    public static int GL_SRGB() {
+        return GL_SRGB;
     }
-    private static final int GL_MOVE_TO_CONTINUES_NV = (int)37046L;
+    private static final int GL_SRGB8 = (int)35905L;
     /**
      * {@snippet lang=c :
-     * #define GL_MOVE_TO_CONTINUES_NV 37046
+     * #define GL_SRGB8 35905
      * }
      */
-    public static int GL_MOVE_TO_CONTINUES_NV() {
-        return GL_MOVE_TO_CONTINUES_NV;
+    public static int GL_SRGB8() {
+        return GL_SRGB8;
     }
-    private static final int GL_CLOSE_PATH_NV = (int)0L;
+    private static final int GL_SRGB_ALPHA = (int)35906L;
     /**
      * {@snippet lang=c :
-     * #define GL_CLOSE_PATH_NV 0
+     * #define GL_SRGB_ALPHA 35906
      * }
      */
-    public static int GL_CLOSE_PATH_NV() {
-        return GL_CLOSE_PATH_NV;
+    public static int GL_SRGB_ALPHA() {
+        return GL_SRGB_ALPHA;
     }
-    private static final int GL_MOVE_TO_NV = (int)2L;
+    private static final int GL_SRGB8_ALPHA8 = (int)35907L;
     /**
      * {@snippet lang=c :
-     * #define GL_MOVE_TO_NV 2
+     * #define GL_SRGB8_ALPHA8 35907
      * }
      */
-    public static int GL_MOVE_TO_NV() {
-        return GL_MOVE_TO_NV;
+    public static int GL_SRGB8_ALPHA8() {
+        return GL_SRGB8_ALPHA8;
     }
-    private static final int GL_RELATIVE_MOVE_TO_NV = (int)3L;
+    private static final int GL_COMPRESSED_SRGB = (int)35912L;
     /**
      * {@snippet lang=c :
-     * #define GL_RELATIVE_MOVE_TO_NV 3
+     * #define GL_COMPRESSED_SRGB 35912
      * }
      */
-    public static int GL_RELATIVE_MOVE_TO_NV() {
-        return GL_RELATIVE_MOVE_TO_NV;
+    public static int GL_COMPRESSED_SRGB() {
+        return GL_COMPRESSED_SRGB;
     }
-    private static final int GL_LINE_TO_NV = (int)4L;
+    private static final int GL_COMPRESSED_SRGB_ALPHA = (int)35913L;
     /**
      * {@snippet lang=c :
-     * #define GL_LINE_TO_NV 4
+     * #define GL_COMPRESSED_SRGB_ALPHA 35913
      * }
      */
-    public static int GL_LINE_TO_NV() {
-        return GL_LINE_TO_NV;
+    public static int GL_COMPRESSED_SRGB_ALPHA() {
+        return GL_COMPRESSED_SRGB_ALPHA;
     }
-    private static final int GL_RELATIVE_LINE_TO_NV = (int)5L;
+    private static final int GL_CURRENT_RASTER_SECONDARY_COLOR = (int)33887L;
     /**
      * {@snippet lang=c :
-     * #define GL_RELATIVE_LINE_TO_NV 5
+     * #define GL_CURRENT_RASTER_SECONDARY_COLOR 33887
      * }
      */
-    public static int GL_RELATIVE_LINE_TO_NV() {
-        return GL_RELATIVE_LINE_TO_NV;
+    public static int GL_CURRENT_RASTER_SECONDARY_COLOR() {
+        return GL_CURRENT_RASTER_SECONDARY_COLOR;
     }
-    private static final int GL_HORIZONTAL_LINE_TO_NV = (int)6L;
+    private static final int GL_SLUMINANCE_ALPHA = (int)35908L;
     /**
      * {@snippet lang=c :
-     * #define GL_HORIZONTAL_LINE_TO_NV 6
+     * #define GL_SLUMINANCE_ALPHA 35908
      * }
      */
-    public static int GL_HORIZONTAL_LINE_TO_NV() {
-        return GL_HORIZONTAL_LINE_TO_NV;
+    public static int GL_SLUMINANCE_ALPHA() {
+        return GL_SLUMINANCE_ALPHA;
     }
-    private static final int GL_RELATIVE_HORIZONTAL_LINE_TO_NV = (int)7L;
+    private static final int GL_SLUMINANCE8_ALPHA8 = (int)35909L;
     /**
      * {@snippet lang=c :
-     * #define GL_RELATIVE_HORIZONTAL_LINE_TO_NV 7
+     * #define GL_SLUMINANCE8_ALPHA8 35909
      * }
      */
-    public static int GL_RELATIVE_HORIZONTAL_LINE_TO_NV() {
-        return GL_RELATIVE_HORIZONTAL_LINE_TO_NV;
+    public static int GL_SLUMINANCE8_ALPHA8() {
+        return GL_SLUMINANCE8_ALPHA8;
     }
-    private static final int GL_VERTICAL_LINE_TO_NV = (int)8L;
+    private static final int GL_SLUMINANCE = (int)35910L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTICAL_LINE_TO_NV 8
+     * #define GL_SLUMINANCE 35910
      * }
      */
-    public static int GL_VERTICAL_LINE_TO_NV() {
-        return GL_VERTICAL_LINE_TO_NV;
+    public static int GL_SLUMINANCE() {
+        return GL_SLUMINANCE;
     }
-    private static final int GL_RELATIVE_VERTICAL_LINE_TO_NV = (int)9L;
+    private static final int GL_SLUMINANCE8 = (int)35911L;
     /**
      * {@snippet lang=c :
-     * #define GL_RELATIVE_VERTICAL_LINE_TO_NV 9
+     * #define GL_SLUMINANCE8 35911
      * }
      */
-    public static int GL_RELATIVE_VERTICAL_LINE_TO_NV() {
-        return GL_RELATIVE_VERTICAL_LINE_TO_NV;
+    public static int GL_SLUMINANCE8() {
+        return GL_SLUMINANCE8;
     }
-    private static final int GL_QUADRATIC_CURVE_TO_NV = (int)10L;
+    private static final int GL_COMPRESSED_SLUMINANCE = (int)35914L;
     /**
      * {@snippet lang=c :
-     * #define GL_QUADRATIC_CURVE_TO_NV 10
+     * #define GL_COMPRESSED_SLUMINANCE 35914
      * }
      */
-    public static int GL_QUADRATIC_CURVE_TO_NV() {
-        return GL_QUADRATIC_CURVE_TO_NV;
+    public static int GL_COMPRESSED_SLUMINANCE() {
+        return GL_COMPRESSED_SLUMINANCE;
     }
-    private static final int GL_RELATIVE_QUADRATIC_CURVE_TO_NV = (int)11L;
+    private static final int GL_COMPRESSED_SLUMINANCE_ALPHA = (int)35915L;
     /**
      * {@snippet lang=c :
-     * #define GL_RELATIVE_QUADRATIC_CURVE_TO_NV 11
+     * #define GL_COMPRESSED_SLUMINANCE_ALPHA 35915
      * }
      */
-    public static int GL_RELATIVE_QUADRATIC_CURVE_TO_NV() {
-        return GL_RELATIVE_QUADRATIC_CURVE_TO_NV;
+    public static int GL_COMPRESSED_SLUMINANCE_ALPHA() {
+        return GL_COMPRESSED_SLUMINANCE_ALPHA;
     }
-    private static final int GL_CUBIC_CURVE_TO_NV = (int)12L;
+    private static final int GL_VERSION_3_0 = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_CUBIC_CURVE_TO_NV 12
+     * #define GL_VERSION_3_0 1
      * }
      */
-    public static int GL_CUBIC_CURVE_TO_NV() {
-        return GL_CUBIC_CURVE_TO_NV;
+    public static int GL_VERSION_3_0() {
+        return GL_VERSION_3_0;
     }
-    private static final int GL_RELATIVE_CUBIC_CURVE_TO_NV = (int)13L;
+    private static final int GL_COMPARE_REF_TO_TEXTURE = (int)34894L;
     /**
      * {@snippet lang=c :
-     * #define GL_RELATIVE_CUBIC_CURVE_TO_NV 13
+     * #define GL_COMPARE_REF_TO_TEXTURE 34894
      * }
      */
-    public static int GL_RELATIVE_CUBIC_CURVE_TO_NV() {
-        return GL_RELATIVE_CUBIC_CURVE_TO_NV;
+    public static int GL_COMPARE_REF_TO_TEXTURE() {
+        return GL_COMPARE_REF_TO_TEXTURE;
     }
-    private static final int GL_SMOOTH_QUADRATIC_CURVE_TO_NV = (int)14L;
+    private static final int GL_CLIP_DISTANCE0 = (int)12288L;
     /**
      * {@snippet lang=c :
-     * #define GL_SMOOTH_QUADRATIC_CURVE_TO_NV 14
+     * #define GL_CLIP_DISTANCE0 12288
      * }
      */
-    public static int GL_SMOOTH_QUADRATIC_CURVE_TO_NV() {
-        return GL_SMOOTH_QUADRATIC_CURVE_TO_NV;
+    public static int GL_CLIP_DISTANCE0() {
+        return GL_CLIP_DISTANCE0;
     }
-    private static final int GL_RELATIVE_SMOOTH_QUADRATIC_CURVE_TO_NV = (int)15L;
+    private static final int GL_CLIP_DISTANCE1 = (int)12289L;
     /**
      * {@snippet lang=c :
-     * #define GL_RELATIVE_SMOOTH_QUADRATIC_CURVE_TO_NV 15
+     * #define GL_CLIP_DISTANCE1 12289
      * }
      */
-    public static int GL_RELATIVE_SMOOTH_QUADRATIC_CURVE_TO_NV() {
-        return GL_RELATIVE_SMOOTH_QUADRATIC_CURVE_TO_NV;
+    public static int GL_CLIP_DISTANCE1() {
+        return GL_CLIP_DISTANCE1;
     }
-    private static final int GL_SMOOTH_CUBIC_CURVE_TO_NV = (int)16L;
+    private static final int GL_CLIP_DISTANCE2 = (int)12290L;
     /**
      * {@snippet lang=c :
-     * #define GL_SMOOTH_CUBIC_CURVE_TO_NV 16
+     * #define GL_CLIP_DISTANCE2 12290
      * }
      */
-    public static int GL_SMOOTH_CUBIC_CURVE_TO_NV() {
-        return GL_SMOOTH_CUBIC_CURVE_TO_NV;
+    public static int GL_CLIP_DISTANCE2() {
+        return GL_CLIP_DISTANCE2;
     }
-    private static final int GL_RELATIVE_SMOOTH_CUBIC_CURVE_TO_NV = (int)17L;
+    private static final int GL_CLIP_DISTANCE3 = (int)12291L;
     /**
      * {@snippet lang=c :
-     * #define GL_RELATIVE_SMOOTH_CUBIC_CURVE_TO_NV 17
+     * #define GL_CLIP_DISTANCE3 12291
      * }
      */
-    public static int GL_RELATIVE_SMOOTH_CUBIC_CURVE_TO_NV() {
-        return GL_RELATIVE_SMOOTH_CUBIC_CURVE_TO_NV;
+    public static int GL_CLIP_DISTANCE3() {
+        return GL_CLIP_DISTANCE3;
     }
-    private static final int GL_SMALL_CCW_ARC_TO_NV = (int)18L;
+    private static final int GL_CLIP_DISTANCE4 = (int)12292L;
     /**
      * {@snippet lang=c :
-     * #define GL_SMALL_CCW_ARC_TO_NV 18
+     * #define GL_CLIP_DISTANCE4 12292
      * }
      */
-    public static int GL_SMALL_CCW_ARC_TO_NV() {
-        return GL_SMALL_CCW_ARC_TO_NV;
+    public static int GL_CLIP_DISTANCE4() {
+        return GL_CLIP_DISTANCE4;
     }
-    private static final int GL_RELATIVE_SMALL_CCW_ARC_TO_NV = (int)19L;
+    private static final int GL_CLIP_DISTANCE5 = (int)12293L;
     /**
      * {@snippet lang=c :
-     * #define GL_RELATIVE_SMALL_CCW_ARC_TO_NV 19
+     * #define GL_CLIP_DISTANCE5 12293
      * }
      */
-    public static int GL_RELATIVE_SMALL_CCW_ARC_TO_NV() {
-        return GL_RELATIVE_SMALL_CCW_ARC_TO_NV;
+    public static int GL_CLIP_DISTANCE5() {
+        return GL_CLIP_DISTANCE5;
     }
-    private static final int GL_SMALL_CW_ARC_TO_NV = (int)20L;
+    private static final int GL_CLIP_DISTANCE6 = (int)12294L;
     /**
      * {@snippet lang=c :
-     * #define GL_SMALL_CW_ARC_TO_NV 20
+     * #define GL_CLIP_DISTANCE6 12294
      * }
      */
-    public static int GL_SMALL_CW_ARC_TO_NV() {
-        return GL_SMALL_CW_ARC_TO_NV;
+    public static int GL_CLIP_DISTANCE6() {
+        return GL_CLIP_DISTANCE6;
     }
-    private static final int GL_RELATIVE_SMALL_CW_ARC_TO_NV = (int)21L;
+    private static final int GL_CLIP_DISTANCE7 = (int)12295L;
     /**
      * {@snippet lang=c :
-     * #define GL_RELATIVE_SMALL_CW_ARC_TO_NV 21
+     * #define GL_CLIP_DISTANCE7 12295
      * }
      */
-    public static int GL_RELATIVE_SMALL_CW_ARC_TO_NV() {
-        return GL_RELATIVE_SMALL_CW_ARC_TO_NV;
+    public static int GL_CLIP_DISTANCE7() {
+        return GL_CLIP_DISTANCE7;
     }
-    private static final int GL_LARGE_CCW_ARC_TO_NV = (int)22L;
+    private static final int GL_MAX_CLIP_DISTANCES = (int)3378L;
     /**
      * {@snippet lang=c :
-     * #define GL_LARGE_CCW_ARC_TO_NV 22
+     * #define GL_MAX_CLIP_DISTANCES 3378
      * }
      */
-    public static int GL_LARGE_CCW_ARC_TO_NV() {
-        return GL_LARGE_CCW_ARC_TO_NV;
+    public static int GL_MAX_CLIP_DISTANCES() {
+        return GL_MAX_CLIP_DISTANCES;
     }
-    private static final int GL_RELATIVE_LARGE_CCW_ARC_TO_NV = (int)23L;
+    private static final int GL_MAJOR_VERSION = (int)33307L;
     /**
      * {@snippet lang=c :
-     * #define GL_RELATIVE_LARGE_CCW_ARC_TO_NV 23
+     * #define GL_MAJOR_VERSION 33307
      * }
      */
-    public static int GL_RELATIVE_LARGE_CCW_ARC_TO_NV() {
-        return GL_RELATIVE_LARGE_CCW_ARC_TO_NV;
+    public static int GL_MAJOR_VERSION() {
+        return GL_MAJOR_VERSION;
     }
-    private static final int GL_LARGE_CW_ARC_TO_NV = (int)24L;
+    private static final int GL_MINOR_VERSION = (int)33308L;
     /**
      * {@snippet lang=c :
-     * #define GL_LARGE_CW_ARC_TO_NV 24
+     * #define GL_MINOR_VERSION 33308
      * }
      */
-    public static int GL_LARGE_CW_ARC_TO_NV() {
-        return GL_LARGE_CW_ARC_TO_NV;
+    public static int GL_MINOR_VERSION() {
+        return GL_MINOR_VERSION;
     }
-    private static final int GL_RELATIVE_LARGE_CW_ARC_TO_NV = (int)25L;
+    private static final int GL_NUM_EXTENSIONS = (int)33309L;
     /**
      * {@snippet lang=c :
-     * #define GL_RELATIVE_LARGE_CW_ARC_TO_NV 25
+     * #define GL_NUM_EXTENSIONS 33309
      * }
      */
-    public static int GL_RELATIVE_LARGE_CW_ARC_TO_NV() {
-        return GL_RELATIVE_LARGE_CW_ARC_TO_NV;
+    public static int GL_NUM_EXTENSIONS() {
+        return GL_NUM_EXTENSIONS;
     }
-    private static final int GL_RESTART_PATH_NV = (int)240L;
+    private static final int GL_CONTEXT_FLAGS = (int)33310L;
     /**
      * {@snippet lang=c :
-     * #define GL_RESTART_PATH_NV 240
+     * #define GL_CONTEXT_FLAGS 33310
      * }
      */
-    public static int GL_RESTART_PATH_NV() {
-        return GL_RESTART_PATH_NV;
+    public static int GL_CONTEXT_FLAGS() {
+        return GL_CONTEXT_FLAGS;
     }
-    private static final int GL_DUP_FIRST_CUBIC_CURVE_TO_NV = (int)242L;
+    private static final int GL_COMPRESSED_RED = (int)33317L;
     /**
      * {@snippet lang=c :
-     * #define GL_DUP_FIRST_CUBIC_CURVE_TO_NV 242
+     * #define GL_COMPRESSED_RED 33317
      * }
      */
-    public static int GL_DUP_FIRST_CUBIC_CURVE_TO_NV() {
-        return GL_DUP_FIRST_CUBIC_CURVE_TO_NV;
+    public static int GL_COMPRESSED_RED() {
+        return GL_COMPRESSED_RED;
     }
-    private static final int GL_DUP_LAST_CUBIC_CURVE_TO_NV = (int)244L;
+    private static final int GL_COMPRESSED_RG = (int)33318L;
     /**
      * {@snippet lang=c :
-     * #define GL_DUP_LAST_CUBIC_CURVE_TO_NV 244
+     * #define GL_COMPRESSED_RG 33318
      * }
      */
-    public static int GL_DUP_LAST_CUBIC_CURVE_TO_NV() {
-        return GL_DUP_LAST_CUBIC_CURVE_TO_NV;
+    public static int GL_COMPRESSED_RG() {
+        return GL_COMPRESSED_RG;
     }
-    private static final int GL_RECT_NV = (int)246L;
+    private static final int GL_CONTEXT_FLAG_FORWARD_COMPATIBLE_BIT = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_RECT_NV 246
+     * #define GL_CONTEXT_FLAG_FORWARD_COMPATIBLE_BIT 1
      * }
      */
-    public static int GL_RECT_NV() {
-        return GL_RECT_NV;
+    public static int GL_CONTEXT_FLAG_FORWARD_COMPATIBLE_BIT() {
+        return GL_CONTEXT_FLAG_FORWARD_COMPATIBLE_BIT;
     }
-    private static final int GL_CIRCULAR_CCW_ARC_TO_NV = (int)248L;
+    private static final int GL_RGBA32F = (int)34836L;
     /**
      * {@snippet lang=c :
-     * #define GL_CIRCULAR_CCW_ARC_TO_NV 248
+     * #define GL_RGBA32F 34836
      * }
      */
-    public static int GL_CIRCULAR_CCW_ARC_TO_NV() {
-        return GL_CIRCULAR_CCW_ARC_TO_NV;
+    public static int GL_RGBA32F() {
+        return GL_RGBA32F;
     }
-    private static final int GL_CIRCULAR_CW_ARC_TO_NV = (int)250L;
+    private static final int GL_RGB32F = (int)34837L;
     /**
      * {@snippet lang=c :
-     * #define GL_CIRCULAR_CW_ARC_TO_NV 250
+     * #define GL_RGB32F 34837
      * }
      */
-    public static int GL_CIRCULAR_CW_ARC_TO_NV() {
-        return GL_CIRCULAR_CW_ARC_TO_NV;
+    public static int GL_RGB32F() {
+        return GL_RGB32F;
     }
-    private static final int GL_CIRCULAR_TANGENT_ARC_TO_NV = (int)252L;
+    private static final int GL_RGBA16F = (int)34842L;
     /**
      * {@snippet lang=c :
-     * #define GL_CIRCULAR_TANGENT_ARC_TO_NV 252
+     * #define GL_RGBA16F 34842
      * }
      */
-    public static int GL_CIRCULAR_TANGENT_ARC_TO_NV() {
-        return GL_CIRCULAR_TANGENT_ARC_TO_NV;
+    public static int GL_RGBA16F() {
+        return GL_RGBA16F;
     }
-    private static final int GL_ARC_TO_NV = (int)254L;
+    private static final int GL_RGB16F = (int)34843L;
     /**
      * {@snippet lang=c :
-     * #define GL_ARC_TO_NV 254
+     * #define GL_RGB16F 34843
      * }
      */
-    public static int GL_ARC_TO_NV() {
-        return GL_ARC_TO_NV;
+    public static int GL_RGB16F() {
+        return GL_RGB16F;
     }
-    private static final int GL_RELATIVE_ARC_TO_NV = (int)255L;
+    private static final int GL_VERTEX_ATTRIB_ARRAY_INTEGER = (int)35069L;
     /**
      * {@snippet lang=c :
-     * #define GL_RELATIVE_ARC_TO_NV 255
+     * #define GL_VERTEX_ATTRIB_ARRAY_INTEGER 35069
      * }
      */
-    public static int GL_RELATIVE_ARC_TO_NV() {
-        return GL_RELATIVE_ARC_TO_NV;
+    public static int GL_VERTEX_ATTRIB_ARRAY_INTEGER() {
+        return GL_VERTEX_ATTRIB_ARRAY_INTEGER;
     }
-    private static final int GL_BOLD_BIT_NV = (int)1L;
+    private static final int GL_MAX_ARRAY_TEXTURE_LAYERS = (int)35071L;
     /**
      * {@snippet lang=c :
-     * #define GL_BOLD_BIT_NV 1
+     * #define GL_MAX_ARRAY_TEXTURE_LAYERS 35071
      * }
      */
-    public static int GL_BOLD_BIT_NV() {
-        return GL_BOLD_BIT_NV;
+    public static int GL_MAX_ARRAY_TEXTURE_LAYERS() {
+        return GL_MAX_ARRAY_TEXTURE_LAYERS;
     }
-    private static final int GL_ITALIC_BIT_NV = (int)2L;
+    private static final int GL_MIN_PROGRAM_TEXEL_OFFSET = (int)35076L;
     /**
      * {@snippet lang=c :
-     * #define GL_ITALIC_BIT_NV 2
+     * #define GL_MIN_PROGRAM_TEXEL_OFFSET 35076
      * }
      */
-    public static int GL_ITALIC_BIT_NV() {
-        return GL_ITALIC_BIT_NV;
+    public static int GL_MIN_PROGRAM_TEXEL_OFFSET() {
+        return GL_MIN_PROGRAM_TEXEL_OFFSET;
     }
-    private static final int GL_GLYPH_WIDTH_BIT_NV = (int)1L;
+    private static final int GL_MAX_PROGRAM_TEXEL_OFFSET = (int)35077L;
     /**
      * {@snippet lang=c :
-     * #define GL_GLYPH_WIDTH_BIT_NV 1
+     * #define GL_MAX_PROGRAM_TEXEL_OFFSET 35077
      * }
      */
-    public static int GL_GLYPH_WIDTH_BIT_NV() {
-        return GL_GLYPH_WIDTH_BIT_NV;
+    public static int GL_MAX_PROGRAM_TEXEL_OFFSET() {
+        return GL_MAX_PROGRAM_TEXEL_OFFSET;
     }
-    private static final int GL_GLYPH_HEIGHT_BIT_NV = (int)2L;
+    private static final int GL_CLAMP_READ_COLOR = (int)35100L;
     /**
      * {@snippet lang=c :
-     * #define GL_GLYPH_HEIGHT_BIT_NV 2
+     * #define GL_CLAMP_READ_COLOR 35100
      * }
      */
-    public static int GL_GLYPH_HEIGHT_BIT_NV() {
-        return GL_GLYPH_HEIGHT_BIT_NV;
+    public static int GL_CLAMP_READ_COLOR() {
+        return GL_CLAMP_READ_COLOR;
     }
-    private static final int GL_GLYPH_HORIZONTAL_BEARING_X_BIT_NV = (int)4L;
+    private static final int GL_FIXED_ONLY = (int)35101L;
     /**
      * {@snippet lang=c :
-     * #define GL_GLYPH_HORIZONTAL_BEARING_X_BIT_NV 4
+     * #define GL_FIXED_ONLY 35101
      * }
      */
-    public static int GL_GLYPH_HORIZONTAL_BEARING_X_BIT_NV() {
-        return GL_GLYPH_HORIZONTAL_BEARING_X_BIT_NV;
+    public static int GL_FIXED_ONLY() {
+        return GL_FIXED_ONLY;
     }
-    private static final int GL_GLYPH_HORIZONTAL_BEARING_Y_BIT_NV = (int)8L;
+    private static final int GL_MAX_VARYING_COMPONENTS = (int)35659L;
     /**
      * {@snippet lang=c :
-     * #define GL_GLYPH_HORIZONTAL_BEARING_Y_BIT_NV 8
+     * #define GL_MAX_VARYING_COMPONENTS 35659
      * }
      */
-    public static int GL_GLYPH_HORIZONTAL_BEARING_Y_BIT_NV() {
-        return GL_GLYPH_HORIZONTAL_BEARING_Y_BIT_NV;
+    public static int GL_MAX_VARYING_COMPONENTS() {
+        return GL_MAX_VARYING_COMPONENTS;
     }
-    private static final int GL_GLYPH_HORIZONTAL_BEARING_ADVANCE_BIT_NV = (int)16L;
+    private static final int GL_TEXTURE_1D_ARRAY = (int)35864L;
     /**
      * {@snippet lang=c :
-     * #define GL_GLYPH_HORIZONTAL_BEARING_ADVANCE_BIT_NV 16
+     * #define GL_TEXTURE_1D_ARRAY 35864
      * }
      */
-    public static int GL_GLYPH_HORIZONTAL_BEARING_ADVANCE_BIT_NV() {
-        return GL_GLYPH_HORIZONTAL_BEARING_ADVANCE_BIT_NV;
+    public static int GL_TEXTURE_1D_ARRAY() {
+        return GL_TEXTURE_1D_ARRAY;
     }
-    private static final int GL_GLYPH_VERTICAL_BEARING_X_BIT_NV = (int)32L;
+    private static final int GL_PROXY_TEXTURE_1D_ARRAY = (int)35865L;
     /**
      * {@snippet lang=c :
-     * #define GL_GLYPH_VERTICAL_BEARING_X_BIT_NV 32
+     * #define GL_PROXY_TEXTURE_1D_ARRAY 35865
      * }
      */
-    public static int GL_GLYPH_VERTICAL_BEARING_X_BIT_NV() {
-        return GL_GLYPH_VERTICAL_BEARING_X_BIT_NV;
+    public static int GL_PROXY_TEXTURE_1D_ARRAY() {
+        return GL_PROXY_TEXTURE_1D_ARRAY;
     }
-    private static final int GL_GLYPH_VERTICAL_BEARING_Y_BIT_NV = (int)64L;
+    private static final int GL_TEXTURE_2D_ARRAY = (int)35866L;
     /**
      * {@snippet lang=c :
-     * #define GL_GLYPH_VERTICAL_BEARING_Y_BIT_NV 64
+     * #define GL_TEXTURE_2D_ARRAY 35866
      * }
      */
-    public static int GL_GLYPH_VERTICAL_BEARING_Y_BIT_NV() {
-        return GL_GLYPH_VERTICAL_BEARING_Y_BIT_NV;
+    public static int GL_TEXTURE_2D_ARRAY() {
+        return GL_TEXTURE_2D_ARRAY;
     }
-    private static final int GL_GLYPH_VERTICAL_BEARING_ADVANCE_BIT_NV = (int)128L;
+    private static final int GL_PROXY_TEXTURE_2D_ARRAY = (int)35867L;
     /**
      * {@snippet lang=c :
-     * #define GL_GLYPH_VERTICAL_BEARING_ADVANCE_BIT_NV 128
+     * #define GL_PROXY_TEXTURE_2D_ARRAY 35867
      * }
      */
-    public static int GL_GLYPH_VERTICAL_BEARING_ADVANCE_BIT_NV() {
-        return GL_GLYPH_VERTICAL_BEARING_ADVANCE_BIT_NV;
+    public static int GL_PROXY_TEXTURE_2D_ARRAY() {
+        return GL_PROXY_TEXTURE_2D_ARRAY;
     }
-    private static final int GL_GLYPH_HAS_KERNING_BIT_NV = (int)256L;
+    private static final int GL_TEXTURE_BINDING_1D_ARRAY = (int)35868L;
     /**
      * {@snippet lang=c :
-     * #define GL_GLYPH_HAS_KERNING_BIT_NV 256
+     * #define GL_TEXTURE_BINDING_1D_ARRAY 35868
      * }
      */
-    public static int GL_GLYPH_HAS_KERNING_BIT_NV() {
-        return GL_GLYPH_HAS_KERNING_BIT_NV;
+    public static int GL_TEXTURE_BINDING_1D_ARRAY() {
+        return GL_TEXTURE_BINDING_1D_ARRAY;
     }
-    private static final int GL_FONT_X_MIN_BOUNDS_BIT_NV = (int)65536L;
+    private static final int GL_TEXTURE_BINDING_2D_ARRAY = (int)35869L;
     /**
      * {@snippet lang=c :
-     * #define GL_FONT_X_MIN_BOUNDS_BIT_NV 65536
+     * #define GL_TEXTURE_BINDING_2D_ARRAY 35869
      * }
      */
-    public static int GL_FONT_X_MIN_BOUNDS_BIT_NV() {
-        return GL_FONT_X_MIN_BOUNDS_BIT_NV;
+    public static int GL_TEXTURE_BINDING_2D_ARRAY() {
+        return GL_TEXTURE_BINDING_2D_ARRAY;
     }
-    private static final int GL_FONT_Y_MIN_BOUNDS_BIT_NV = (int)131072L;
+    private static final int GL_R11F_G11F_B10F = (int)35898L;
     /**
      * {@snippet lang=c :
-     * #define GL_FONT_Y_MIN_BOUNDS_BIT_NV 131072
+     * #define GL_R11F_G11F_B10F 35898
      * }
      */
-    public static int GL_FONT_Y_MIN_BOUNDS_BIT_NV() {
-        return GL_FONT_Y_MIN_BOUNDS_BIT_NV;
+    public static int GL_R11F_G11F_B10F() {
+        return GL_R11F_G11F_B10F;
     }
-    private static final int GL_FONT_X_MAX_BOUNDS_BIT_NV = (int)262144L;
+    private static final int GL_UNSIGNED_INT_10F_11F_11F_REV = (int)35899L;
     /**
      * {@snippet lang=c :
-     * #define GL_FONT_X_MAX_BOUNDS_BIT_NV 262144
+     * #define GL_UNSIGNED_INT_10F_11F_11F_REV 35899
      * }
      */
-    public static int GL_FONT_X_MAX_BOUNDS_BIT_NV() {
-        return GL_FONT_X_MAX_BOUNDS_BIT_NV;
+    public static int GL_UNSIGNED_INT_10F_11F_11F_REV() {
+        return GL_UNSIGNED_INT_10F_11F_11F_REV;
     }
-    private static final int GL_FONT_Y_MAX_BOUNDS_BIT_NV = (int)524288L;
+    private static final int GL_RGB9_E5 = (int)35901L;
     /**
      * {@snippet lang=c :
-     * #define GL_FONT_Y_MAX_BOUNDS_BIT_NV 524288
+     * #define GL_RGB9_E5 35901
      * }
      */
-    public static int GL_FONT_Y_MAX_BOUNDS_BIT_NV() {
-        return GL_FONT_Y_MAX_BOUNDS_BIT_NV;
+    public static int GL_RGB9_E5() {
+        return GL_RGB9_E5;
     }
-    private static final int GL_FONT_UNITS_PER_EM_BIT_NV = (int)1048576L;
+    private static final int GL_UNSIGNED_INT_5_9_9_9_REV = (int)35902L;
     /**
      * {@snippet lang=c :
-     * #define GL_FONT_UNITS_PER_EM_BIT_NV 1048576
+     * #define GL_UNSIGNED_INT_5_9_9_9_REV 35902
      * }
      */
-    public static int GL_FONT_UNITS_PER_EM_BIT_NV() {
-        return GL_FONT_UNITS_PER_EM_BIT_NV;
+    public static int GL_UNSIGNED_INT_5_9_9_9_REV() {
+        return GL_UNSIGNED_INT_5_9_9_9_REV;
     }
-    private static final int GL_FONT_ASCENDER_BIT_NV = (int)2097152L;
+    private static final int GL_TEXTURE_SHARED_SIZE = (int)35903L;
     /**
      * {@snippet lang=c :
-     * #define GL_FONT_ASCENDER_BIT_NV 2097152
+     * #define GL_TEXTURE_SHARED_SIZE 35903
      * }
      */
-    public static int GL_FONT_ASCENDER_BIT_NV() {
-        return GL_FONT_ASCENDER_BIT_NV;
+    public static int GL_TEXTURE_SHARED_SIZE() {
+        return GL_TEXTURE_SHARED_SIZE;
     }
-    private static final int GL_FONT_DESCENDER_BIT_NV = (int)4194304L;
+    private static final int GL_TRANSFORM_FEEDBACK_VARYING_MAX_LENGTH = (int)35958L;
     /**
      * {@snippet lang=c :
-     * #define GL_FONT_DESCENDER_BIT_NV 4194304
+     * #define GL_TRANSFORM_FEEDBACK_VARYING_MAX_LENGTH 35958
      * }
      */
-    public static int GL_FONT_DESCENDER_BIT_NV() {
-        return GL_FONT_DESCENDER_BIT_NV;
+    public static int GL_TRANSFORM_FEEDBACK_VARYING_MAX_LENGTH() {
+        return GL_TRANSFORM_FEEDBACK_VARYING_MAX_LENGTH;
     }
-    private static final int GL_FONT_HEIGHT_BIT_NV = (int)8388608L;
+    private static final int GL_TRANSFORM_FEEDBACK_BUFFER_MODE = (int)35967L;
     /**
      * {@snippet lang=c :
-     * #define GL_FONT_HEIGHT_BIT_NV 8388608
+     * #define GL_TRANSFORM_FEEDBACK_BUFFER_MODE 35967
      * }
      */
-    public static int GL_FONT_HEIGHT_BIT_NV() {
-        return GL_FONT_HEIGHT_BIT_NV;
+    public static int GL_TRANSFORM_FEEDBACK_BUFFER_MODE() {
+        return GL_TRANSFORM_FEEDBACK_BUFFER_MODE;
     }
-    private static final int GL_FONT_MAX_ADVANCE_WIDTH_BIT_NV = (int)16777216L;
+    private static final int GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS = (int)35968L;
     /**
      * {@snippet lang=c :
-     * #define GL_FONT_MAX_ADVANCE_WIDTH_BIT_NV 16777216
+     * #define GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS 35968
      * }
      */
-    public static int GL_FONT_MAX_ADVANCE_WIDTH_BIT_NV() {
-        return GL_FONT_MAX_ADVANCE_WIDTH_BIT_NV;
+    public static int GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS() {
+        return GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS;
     }
-    private static final int GL_FONT_MAX_ADVANCE_HEIGHT_BIT_NV = (int)33554432L;
+    private static final int GL_TRANSFORM_FEEDBACK_VARYINGS = (int)35971L;
     /**
      * {@snippet lang=c :
-     * #define GL_FONT_MAX_ADVANCE_HEIGHT_BIT_NV 33554432
+     * #define GL_TRANSFORM_FEEDBACK_VARYINGS 35971
      * }
      */
-    public static int GL_FONT_MAX_ADVANCE_HEIGHT_BIT_NV() {
-        return GL_FONT_MAX_ADVANCE_HEIGHT_BIT_NV;
+    public static int GL_TRANSFORM_FEEDBACK_VARYINGS() {
+        return GL_TRANSFORM_FEEDBACK_VARYINGS;
     }
-    private static final int GL_FONT_UNDERLINE_POSITION_BIT_NV = (int)67108864L;
+    private static final int GL_TRANSFORM_FEEDBACK_BUFFER_START = (int)35972L;
     /**
      * {@snippet lang=c :
-     * #define GL_FONT_UNDERLINE_POSITION_BIT_NV 67108864
+     * #define GL_TRANSFORM_FEEDBACK_BUFFER_START 35972
      * }
      */
-    public static int GL_FONT_UNDERLINE_POSITION_BIT_NV() {
-        return GL_FONT_UNDERLINE_POSITION_BIT_NV;
+    public static int GL_TRANSFORM_FEEDBACK_BUFFER_START() {
+        return GL_TRANSFORM_FEEDBACK_BUFFER_START;
     }
-    private static final int GL_FONT_UNDERLINE_THICKNESS_BIT_NV = (int)134217728L;
+    private static final int GL_TRANSFORM_FEEDBACK_BUFFER_SIZE = (int)35973L;
     /**
      * {@snippet lang=c :
-     * #define GL_FONT_UNDERLINE_THICKNESS_BIT_NV 134217728
+     * #define GL_TRANSFORM_FEEDBACK_BUFFER_SIZE 35973
      * }
      */
-    public static int GL_FONT_UNDERLINE_THICKNESS_BIT_NV() {
-        return GL_FONT_UNDERLINE_THICKNESS_BIT_NV;
+    public static int GL_TRANSFORM_FEEDBACK_BUFFER_SIZE() {
+        return GL_TRANSFORM_FEEDBACK_BUFFER_SIZE;
     }
-    private static final int GL_FONT_HAS_KERNING_BIT_NV = (int)268435456L;
+    private static final int GL_PRIMITIVES_GENERATED = (int)35975L;
     /**
      * {@snippet lang=c :
-     * #define GL_FONT_HAS_KERNING_BIT_NV 268435456
+     * #define GL_PRIMITIVES_GENERATED 35975
      * }
      */
-    public static int GL_FONT_HAS_KERNING_BIT_NV() {
-        return GL_FONT_HAS_KERNING_BIT_NV;
+    public static int GL_PRIMITIVES_GENERATED() {
+        return GL_PRIMITIVES_GENERATED;
     }
-    private static final int GL_ROUNDED_RECT_NV = (int)232L;
+    private static final int GL_TRANSFORM_FEEDBACK_PRIMITIVES_WRITTEN = (int)35976L;
     /**
      * {@snippet lang=c :
-     * #define GL_ROUNDED_RECT_NV 232
+     * #define GL_TRANSFORM_FEEDBACK_PRIMITIVES_WRITTEN 35976
      * }
      */
-    public static int GL_ROUNDED_RECT_NV() {
-        return GL_ROUNDED_RECT_NV;
+    public static int GL_TRANSFORM_FEEDBACK_PRIMITIVES_WRITTEN() {
+        return GL_TRANSFORM_FEEDBACK_PRIMITIVES_WRITTEN;
     }
-    private static final int GL_RELATIVE_ROUNDED_RECT_NV = (int)233L;
+    private static final int GL_RASTERIZER_DISCARD = (int)35977L;
     /**
      * {@snippet lang=c :
-     * #define GL_RELATIVE_ROUNDED_RECT_NV 233
+     * #define GL_RASTERIZER_DISCARD 35977
      * }
      */
-    public static int GL_RELATIVE_ROUNDED_RECT_NV() {
-        return GL_RELATIVE_ROUNDED_RECT_NV;
+    public static int GL_RASTERIZER_DISCARD() {
+        return GL_RASTERIZER_DISCARD;
     }
-    private static final int GL_ROUNDED_RECT2_NV = (int)234L;
+    private static final int GL_MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS = (int)35978L;
     /**
      * {@snippet lang=c :
-     * #define GL_ROUNDED_RECT2_NV 234
+     * #define GL_MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS 35978
      * }
      */
-    public static int GL_ROUNDED_RECT2_NV() {
-        return GL_ROUNDED_RECT2_NV;
+    public static int GL_MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS() {
+        return GL_MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS;
     }
-    private static final int GL_RELATIVE_ROUNDED_RECT2_NV = (int)235L;
+    private static final int GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS = (int)35979L;
     /**
      * {@snippet lang=c :
-     * #define GL_RELATIVE_ROUNDED_RECT2_NV 235
+     * #define GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS 35979
      * }
      */
-    public static int GL_RELATIVE_ROUNDED_RECT2_NV() {
-        return GL_RELATIVE_ROUNDED_RECT2_NV;
+    public static int GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS() {
+        return GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS;
     }
-    private static final int GL_ROUNDED_RECT4_NV = (int)236L;
+    private static final int GL_INTERLEAVED_ATTRIBS = (int)35980L;
     /**
      * {@snippet lang=c :
-     * #define GL_ROUNDED_RECT4_NV 236
+     * #define GL_INTERLEAVED_ATTRIBS 35980
      * }
      */
-    public static int GL_ROUNDED_RECT4_NV() {
-        return GL_ROUNDED_RECT4_NV;
+    public static int GL_INTERLEAVED_ATTRIBS() {
+        return GL_INTERLEAVED_ATTRIBS;
     }
-    private static final int GL_RELATIVE_ROUNDED_RECT4_NV = (int)237L;
+    private static final int GL_SEPARATE_ATTRIBS = (int)35981L;
     /**
      * {@snippet lang=c :
-     * #define GL_RELATIVE_ROUNDED_RECT4_NV 237
+     * #define GL_SEPARATE_ATTRIBS 35981
      * }
      */
-    public static int GL_RELATIVE_ROUNDED_RECT4_NV() {
-        return GL_RELATIVE_ROUNDED_RECT4_NV;
+    public static int GL_SEPARATE_ATTRIBS() {
+        return GL_SEPARATE_ATTRIBS;
     }
-    private static final int GL_ROUNDED_RECT8_NV = (int)238L;
+    private static final int GL_TRANSFORM_FEEDBACK_BUFFER = (int)35982L;
     /**
      * {@snippet lang=c :
-     * #define GL_ROUNDED_RECT8_NV 238
+     * #define GL_TRANSFORM_FEEDBACK_BUFFER 35982
      * }
      */
-    public static int GL_ROUNDED_RECT8_NV() {
-        return GL_ROUNDED_RECT8_NV;
+    public static int GL_TRANSFORM_FEEDBACK_BUFFER() {
+        return GL_TRANSFORM_FEEDBACK_BUFFER;
     }
-    private static final int GL_RELATIVE_ROUNDED_RECT8_NV = (int)239L;
+    private static final int GL_TRANSFORM_FEEDBACK_BUFFER_BINDING = (int)35983L;
     /**
      * {@snippet lang=c :
-     * #define GL_RELATIVE_ROUNDED_RECT8_NV 239
+     * #define GL_TRANSFORM_FEEDBACK_BUFFER_BINDING 35983
      * }
      */
-    public static int GL_RELATIVE_ROUNDED_RECT8_NV() {
-        return GL_RELATIVE_ROUNDED_RECT8_NV;
+    public static int GL_TRANSFORM_FEEDBACK_BUFFER_BINDING() {
+        return GL_TRANSFORM_FEEDBACK_BUFFER_BINDING;
     }
-    private static final int GL_RELATIVE_RECT_NV = (int)247L;
+    private static final int GL_RGBA32UI = (int)36208L;
     /**
      * {@snippet lang=c :
-     * #define GL_RELATIVE_RECT_NV 247
+     * #define GL_RGBA32UI 36208
      * }
      */
-    public static int GL_RELATIVE_RECT_NV() {
-        return GL_RELATIVE_RECT_NV;
+    public static int GL_RGBA32UI() {
+        return GL_RGBA32UI;
     }
-    private static final int GL_FONT_GLYPHS_AVAILABLE_NV = (int)37736L;
+    private static final int GL_RGB32UI = (int)36209L;
     /**
      * {@snippet lang=c :
-     * #define GL_FONT_GLYPHS_AVAILABLE_NV 37736
+     * #define GL_RGB32UI 36209
      * }
      */
-    public static int GL_FONT_GLYPHS_AVAILABLE_NV() {
-        return GL_FONT_GLYPHS_AVAILABLE_NV;
+    public static int GL_RGB32UI() {
+        return GL_RGB32UI;
     }
-    private static final int GL_FONT_TARGET_UNAVAILABLE_NV = (int)37737L;
+    private static final int GL_RGBA16UI = (int)36214L;
     /**
      * {@snippet lang=c :
-     * #define GL_FONT_TARGET_UNAVAILABLE_NV 37737
+     * #define GL_RGBA16UI 36214
      * }
      */
-    public static int GL_FONT_TARGET_UNAVAILABLE_NV() {
-        return GL_FONT_TARGET_UNAVAILABLE_NV;
+    public static int GL_RGBA16UI() {
+        return GL_RGBA16UI;
     }
-    private static final int GL_FONT_UNAVAILABLE_NV = (int)37738L;
+    private static final int GL_RGB16UI = (int)36215L;
     /**
      * {@snippet lang=c :
-     * #define GL_FONT_UNAVAILABLE_NV 37738
+     * #define GL_RGB16UI 36215
      * }
      */
-    public static int GL_FONT_UNAVAILABLE_NV() {
-        return GL_FONT_UNAVAILABLE_NV;
+    public static int GL_RGB16UI() {
+        return GL_RGB16UI;
     }
-    private static final int GL_FONT_UNINTELLIGIBLE_NV = (int)37739L;
+    private static final int GL_RGBA8UI = (int)36220L;
     /**
      * {@snippet lang=c :
-     * #define GL_FONT_UNINTELLIGIBLE_NV 37739
+     * #define GL_RGBA8UI 36220
      * }
      */
-    public static int GL_FONT_UNINTELLIGIBLE_NV() {
-        return GL_FONT_UNINTELLIGIBLE_NV;
+    public static int GL_RGBA8UI() {
+        return GL_RGBA8UI;
     }
-    private static final int GL_CONIC_CURVE_TO_NV = (int)26L;
+    private static final int GL_RGB8UI = (int)36221L;
     /**
      * {@snippet lang=c :
-     * #define GL_CONIC_CURVE_TO_NV 26
+     * #define GL_RGB8UI 36221
      * }
      */
-    public static int GL_CONIC_CURVE_TO_NV() {
-        return GL_CONIC_CURVE_TO_NV;
+    public static int GL_RGB8UI() {
+        return GL_RGB8UI;
     }
-    private static final int GL_RELATIVE_CONIC_CURVE_TO_NV = (int)27L;
+    private static final int GL_RGBA32I = (int)36226L;
     /**
      * {@snippet lang=c :
-     * #define GL_RELATIVE_CONIC_CURVE_TO_NV 27
+     * #define GL_RGBA32I 36226
      * }
      */
-    public static int GL_RELATIVE_CONIC_CURVE_TO_NV() {
-        return GL_RELATIVE_CONIC_CURVE_TO_NV;
+    public static int GL_RGBA32I() {
+        return GL_RGBA32I;
     }
-    private static final int GL_FONT_NUM_GLYPH_INDICES_BIT_NV = (int)536870912L;
+    private static final int GL_RGB32I = (int)36227L;
     /**
      * {@snippet lang=c :
-     * #define GL_FONT_NUM_GLYPH_INDICES_BIT_NV 536870912
+     * #define GL_RGB32I 36227
      * }
      */
-    public static int GL_FONT_NUM_GLYPH_INDICES_BIT_NV() {
-        return GL_FONT_NUM_GLYPH_INDICES_BIT_NV;
+    public static int GL_RGB32I() {
+        return GL_RGB32I;
     }
-    private static final int GL_STANDARD_FONT_FORMAT_NV = (int)37740L;
+    private static final int GL_RGBA16I = (int)36232L;
     /**
      * {@snippet lang=c :
-     * #define GL_STANDARD_FONT_FORMAT_NV 37740
+     * #define GL_RGBA16I 36232
      * }
      */
-    public static int GL_STANDARD_FONT_FORMAT_NV() {
-        return GL_STANDARD_FONT_FORMAT_NV;
+    public static int GL_RGBA16I() {
+        return GL_RGBA16I;
     }
-    private static final int GL_2_BYTES_NV = (int)5127L;
+    private static final int GL_RGB16I = (int)36233L;
     /**
      * {@snippet lang=c :
-     * #define GL_2_BYTES_NV 5127
+     * #define GL_RGB16I 36233
      * }
      */
-    public static int GL_2_BYTES_NV() {
-        return GL_2_BYTES_NV;
+    public static int GL_RGB16I() {
+        return GL_RGB16I;
     }
-    private static final int GL_3_BYTES_NV = (int)5128L;
+    private static final int GL_RGBA8I = (int)36238L;
     /**
      * {@snippet lang=c :
-     * #define GL_3_BYTES_NV 5128
+     * #define GL_RGBA8I 36238
      * }
      */
-    public static int GL_3_BYTES_NV() {
-        return GL_3_BYTES_NV;
+    public static int GL_RGBA8I() {
+        return GL_RGBA8I;
     }
-    private static final int GL_4_BYTES_NV = (int)5129L;
+    private static final int GL_RGB8I = (int)36239L;
     /**
      * {@snippet lang=c :
-     * #define GL_4_BYTES_NV 5129
+     * #define GL_RGB8I 36239
      * }
      */
-    public static int GL_4_BYTES_NV() {
-        return GL_4_BYTES_NV;
+    public static int GL_RGB8I() {
+        return GL_RGB8I;
     }
-    private static final int GL_EYE_LINEAR_NV = (int)9216L;
+    private static final int GL_RED_INTEGER = (int)36244L;
     /**
      * {@snippet lang=c :
-     * #define GL_EYE_LINEAR_NV 9216
+     * #define GL_RED_INTEGER 36244
      * }
      */
-    public static int GL_EYE_LINEAR_NV() {
-        return GL_EYE_LINEAR_NV;
+    public static int GL_RED_INTEGER() {
+        return GL_RED_INTEGER;
     }
-    private static final int GL_OBJECT_LINEAR_NV = (int)9217L;
+    private static final int GL_GREEN_INTEGER = (int)36245L;
     /**
      * {@snippet lang=c :
-     * #define GL_OBJECT_LINEAR_NV 9217
+     * #define GL_GREEN_INTEGER 36245
      * }
      */
-    public static int GL_OBJECT_LINEAR_NV() {
-        return GL_OBJECT_LINEAR_NV;
+    public static int GL_GREEN_INTEGER() {
+        return GL_GREEN_INTEGER;
     }
-    private static final int GL_CONSTANT_NV = (int)34166L;
+    private static final int GL_BLUE_INTEGER = (int)36246L;
     /**
      * {@snippet lang=c :
-     * #define GL_CONSTANT_NV 34166
+     * #define GL_BLUE_INTEGER 36246
      * }
      */
-    public static int GL_CONSTANT_NV() {
-        return GL_CONSTANT_NV;
+    public static int GL_BLUE_INTEGER() {
+        return GL_BLUE_INTEGER;
     }
-    private static final int GL_PATH_FOG_GEN_MODE_NV = (int)37036L;
+    private static final int GL_RGB_INTEGER = (int)36248L;
     /**
      * {@snippet lang=c :
-     * #define GL_PATH_FOG_GEN_MODE_NV 37036
+     * #define GL_RGB_INTEGER 36248
      * }
      */
-    public static int GL_PATH_FOG_GEN_MODE_NV() {
-        return GL_PATH_FOG_GEN_MODE_NV;
+    public static int GL_RGB_INTEGER() {
+        return GL_RGB_INTEGER;
     }
-    private static final int GL_PRIMARY_COLOR_NV = (int)34092L;
+    private static final int GL_RGBA_INTEGER = (int)36249L;
     /**
      * {@snippet lang=c :
-     * #define GL_PRIMARY_COLOR_NV 34092
+     * #define GL_RGBA_INTEGER 36249
      * }
      */
-    public static int GL_PRIMARY_COLOR_NV() {
-        return GL_PRIMARY_COLOR_NV;
+    public static int GL_RGBA_INTEGER() {
+        return GL_RGBA_INTEGER;
     }
-    private static final int GL_SECONDARY_COLOR_NV = (int)34093L;
+    private static final int GL_BGR_INTEGER = (int)36250L;
     /**
      * {@snippet lang=c :
-     * #define GL_SECONDARY_COLOR_NV 34093
+     * #define GL_BGR_INTEGER 36250
      * }
      */
-    public static int GL_SECONDARY_COLOR_NV() {
-        return GL_SECONDARY_COLOR_NV;
+    public static int GL_BGR_INTEGER() {
+        return GL_BGR_INTEGER;
     }
-    private static final int GL_PATH_GEN_COLOR_FORMAT_NV = (int)37042L;
+    private static final int GL_BGRA_INTEGER = (int)36251L;
     /**
      * {@snippet lang=c :
-     * #define GL_PATH_GEN_COLOR_FORMAT_NV 37042
+     * #define GL_BGRA_INTEGER 36251
      * }
      */
-    public static int GL_PATH_GEN_COLOR_FORMAT_NV() {
-        return GL_PATH_GEN_COLOR_FORMAT_NV;
+    public static int GL_BGRA_INTEGER() {
+        return GL_BGRA_INTEGER;
     }
-    private static final int GL_PATH_PROJECTION_NV = (int)5889L;
+    private static final int GL_SAMPLER_1D_ARRAY = (int)36288L;
     /**
      * {@snippet lang=c :
-     * #define GL_PATH_PROJECTION_NV 5889
+     * #define GL_SAMPLER_1D_ARRAY 36288
      * }
      */
-    public static int GL_PATH_PROJECTION_NV() {
-        return GL_PATH_PROJECTION_NV;
+    public static int GL_SAMPLER_1D_ARRAY() {
+        return GL_SAMPLER_1D_ARRAY;
     }
-    private static final int GL_PATH_MODELVIEW_NV = (int)5888L;
+    private static final int GL_SAMPLER_2D_ARRAY = (int)36289L;
     /**
      * {@snippet lang=c :
-     * #define GL_PATH_MODELVIEW_NV 5888
+     * #define GL_SAMPLER_2D_ARRAY 36289
      * }
      */
-    public static int GL_PATH_MODELVIEW_NV() {
-        return GL_PATH_MODELVIEW_NV;
+    public static int GL_SAMPLER_2D_ARRAY() {
+        return GL_SAMPLER_2D_ARRAY;
     }
-    private static final int GL_PATH_MODELVIEW_STACK_DEPTH_NV = (int)2979L;
+    private static final int GL_SAMPLER_1D_ARRAY_SHADOW = (int)36291L;
     /**
      * {@snippet lang=c :
-     * #define GL_PATH_MODELVIEW_STACK_DEPTH_NV 2979
+     * #define GL_SAMPLER_1D_ARRAY_SHADOW 36291
      * }
      */
-    public static int GL_PATH_MODELVIEW_STACK_DEPTH_NV() {
-        return GL_PATH_MODELVIEW_STACK_DEPTH_NV;
+    public static int GL_SAMPLER_1D_ARRAY_SHADOW() {
+        return GL_SAMPLER_1D_ARRAY_SHADOW;
     }
-    private static final int GL_PATH_MODELVIEW_MATRIX_NV = (int)2982L;
+    private static final int GL_SAMPLER_2D_ARRAY_SHADOW = (int)36292L;
     /**
      * {@snippet lang=c :
-     * #define GL_PATH_MODELVIEW_MATRIX_NV 2982
+     * #define GL_SAMPLER_2D_ARRAY_SHADOW 36292
      * }
      */
-    public static int GL_PATH_MODELVIEW_MATRIX_NV() {
-        return GL_PATH_MODELVIEW_MATRIX_NV;
+    public static int GL_SAMPLER_2D_ARRAY_SHADOW() {
+        return GL_SAMPLER_2D_ARRAY_SHADOW;
     }
-    private static final int GL_PATH_MAX_MODELVIEW_STACK_DEPTH_NV = (int)3382L;
+    private static final int GL_SAMPLER_CUBE_SHADOW = (int)36293L;
     /**
      * {@snippet lang=c :
-     * #define GL_PATH_MAX_MODELVIEW_STACK_DEPTH_NV 3382
+     * #define GL_SAMPLER_CUBE_SHADOW 36293
      * }
      */
-    public static int GL_PATH_MAX_MODELVIEW_STACK_DEPTH_NV() {
-        return GL_PATH_MAX_MODELVIEW_STACK_DEPTH_NV;
+    public static int GL_SAMPLER_CUBE_SHADOW() {
+        return GL_SAMPLER_CUBE_SHADOW;
     }
-    private static final int GL_PATH_TRANSPOSE_MODELVIEW_MATRIX_NV = (int)34019L;
+    private static final int GL_UNSIGNED_INT_VEC2 = (int)36294L;
     /**
      * {@snippet lang=c :
-     * #define GL_PATH_TRANSPOSE_MODELVIEW_MATRIX_NV 34019
+     * #define GL_UNSIGNED_INT_VEC2 36294
      * }
      */
-    public static int GL_PATH_TRANSPOSE_MODELVIEW_MATRIX_NV() {
-        return GL_PATH_TRANSPOSE_MODELVIEW_MATRIX_NV;
+    public static int GL_UNSIGNED_INT_VEC2() {
+        return GL_UNSIGNED_INT_VEC2;
     }
-    private static final int GL_PATH_PROJECTION_STACK_DEPTH_NV = (int)2980L;
+    private static final int GL_UNSIGNED_INT_VEC3 = (int)36295L;
     /**
      * {@snippet lang=c :
-     * #define GL_PATH_PROJECTION_STACK_DEPTH_NV 2980
+     * #define GL_UNSIGNED_INT_VEC3 36295
      * }
      */
-    public static int GL_PATH_PROJECTION_STACK_DEPTH_NV() {
-        return GL_PATH_PROJECTION_STACK_DEPTH_NV;
+    public static int GL_UNSIGNED_INT_VEC3() {
+        return GL_UNSIGNED_INT_VEC3;
     }
-    private static final int GL_PATH_PROJECTION_MATRIX_NV = (int)2983L;
+    private static final int GL_UNSIGNED_INT_VEC4 = (int)36296L;
     /**
      * {@snippet lang=c :
-     * #define GL_PATH_PROJECTION_MATRIX_NV 2983
+     * #define GL_UNSIGNED_INT_VEC4 36296
      * }
      */
-    public static int GL_PATH_PROJECTION_MATRIX_NV() {
-        return GL_PATH_PROJECTION_MATRIX_NV;
+    public static int GL_UNSIGNED_INT_VEC4() {
+        return GL_UNSIGNED_INT_VEC4;
     }
-    private static final int GL_PATH_MAX_PROJECTION_STACK_DEPTH_NV = (int)3384L;
+    private static final int GL_INT_SAMPLER_1D = (int)36297L;
     /**
      * {@snippet lang=c :
-     * #define GL_PATH_MAX_PROJECTION_STACK_DEPTH_NV 3384
+     * #define GL_INT_SAMPLER_1D 36297
      * }
      */
-    public static int GL_PATH_MAX_PROJECTION_STACK_DEPTH_NV() {
-        return GL_PATH_MAX_PROJECTION_STACK_DEPTH_NV;
+    public static int GL_INT_SAMPLER_1D() {
+        return GL_INT_SAMPLER_1D;
     }
-    private static final int GL_PATH_TRANSPOSE_PROJECTION_MATRIX_NV = (int)34020L;
+    private static final int GL_INT_SAMPLER_2D = (int)36298L;
     /**
      * {@snippet lang=c :
-     * #define GL_PATH_TRANSPOSE_PROJECTION_MATRIX_NV 34020
+     * #define GL_INT_SAMPLER_2D 36298
      * }
      */
-    public static int GL_PATH_TRANSPOSE_PROJECTION_MATRIX_NV() {
-        return GL_PATH_TRANSPOSE_PROJECTION_MATRIX_NV;
+    public static int GL_INT_SAMPLER_2D() {
+        return GL_INT_SAMPLER_2D;
     }
-    private static final int GL_FRAGMENT_INPUT_NV = (int)37741L;
+    private static final int GL_INT_SAMPLER_3D = (int)36299L;
     /**
      * {@snippet lang=c :
-     * #define GL_FRAGMENT_INPUT_NV 37741
+     * #define GL_INT_SAMPLER_3D 36299
      * }
      */
-    public static int GL_FRAGMENT_INPUT_NV() {
-        return GL_FRAGMENT_INPUT_NV;
+    public static int GL_INT_SAMPLER_3D() {
+        return GL_INT_SAMPLER_3D;
     }
-    private static final int GL_NV_path_rendering_shared_edge = (int)1L;
+    private static final int GL_INT_SAMPLER_CUBE = (int)36300L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_path_rendering_shared_edge 1
+     * #define GL_INT_SAMPLER_CUBE 36300
      * }
      */
-    public static int GL_NV_path_rendering_shared_edge() {
-        return GL_NV_path_rendering_shared_edge;
+    public static int GL_INT_SAMPLER_CUBE() {
+        return GL_INT_SAMPLER_CUBE;
     }
-    private static final int GL_SHARED_EDGE_NV = (int)192L;
+    private static final int GL_INT_SAMPLER_1D_ARRAY = (int)36302L;
     /**
      * {@snippet lang=c :
-     * #define GL_SHARED_EDGE_NV 192
+     * #define GL_INT_SAMPLER_1D_ARRAY 36302
      * }
      */
-    public static int GL_SHARED_EDGE_NV() {
-        return GL_SHARED_EDGE_NV;
+    public static int GL_INT_SAMPLER_1D_ARRAY() {
+        return GL_INT_SAMPLER_1D_ARRAY;
     }
-    private static final int GL_NV_pixel_data_range = (int)1L;
+    private static final int GL_INT_SAMPLER_2D_ARRAY = (int)36303L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_pixel_data_range 1
+     * #define GL_INT_SAMPLER_2D_ARRAY 36303
      * }
      */
-    public static int GL_NV_pixel_data_range() {
-        return GL_NV_pixel_data_range;
+    public static int GL_INT_SAMPLER_2D_ARRAY() {
+        return GL_INT_SAMPLER_2D_ARRAY;
     }
-    private static final int GL_WRITE_PIXEL_DATA_RANGE_NV = (int)34936L;
+    private static final int GL_UNSIGNED_INT_SAMPLER_1D = (int)36305L;
     /**
      * {@snippet lang=c :
-     * #define GL_WRITE_PIXEL_DATA_RANGE_NV 34936
+     * #define GL_UNSIGNED_INT_SAMPLER_1D 36305
      * }
      */
-    public static int GL_WRITE_PIXEL_DATA_RANGE_NV() {
-        return GL_WRITE_PIXEL_DATA_RANGE_NV;
+    public static int GL_UNSIGNED_INT_SAMPLER_1D() {
+        return GL_UNSIGNED_INT_SAMPLER_1D;
     }
-    private static final int GL_READ_PIXEL_DATA_RANGE_NV = (int)34937L;
+    private static final int GL_UNSIGNED_INT_SAMPLER_2D = (int)36306L;
     /**
      * {@snippet lang=c :
-     * #define GL_READ_PIXEL_DATA_RANGE_NV 34937
+     * #define GL_UNSIGNED_INT_SAMPLER_2D 36306
      * }
      */
-    public static int GL_READ_PIXEL_DATA_RANGE_NV() {
-        return GL_READ_PIXEL_DATA_RANGE_NV;
+    public static int GL_UNSIGNED_INT_SAMPLER_2D() {
+        return GL_UNSIGNED_INT_SAMPLER_2D;
     }
-    private static final int GL_WRITE_PIXEL_DATA_RANGE_LENGTH_NV = (int)34938L;
+    private static final int GL_UNSIGNED_INT_SAMPLER_3D = (int)36307L;
     /**
      * {@snippet lang=c :
-     * #define GL_WRITE_PIXEL_DATA_RANGE_LENGTH_NV 34938
+     * #define GL_UNSIGNED_INT_SAMPLER_3D 36307
      * }
      */
-    public static int GL_WRITE_PIXEL_DATA_RANGE_LENGTH_NV() {
-        return GL_WRITE_PIXEL_DATA_RANGE_LENGTH_NV;
+    public static int GL_UNSIGNED_INT_SAMPLER_3D() {
+        return GL_UNSIGNED_INT_SAMPLER_3D;
     }
-    private static final int GL_READ_PIXEL_DATA_RANGE_LENGTH_NV = (int)34939L;
+    private static final int GL_UNSIGNED_INT_SAMPLER_CUBE = (int)36308L;
     /**
      * {@snippet lang=c :
-     * #define GL_READ_PIXEL_DATA_RANGE_LENGTH_NV 34939
+     * #define GL_UNSIGNED_INT_SAMPLER_CUBE 36308
      * }
      */
-    public static int GL_READ_PIXEL_DATA_RANGE_LENGTH_NV() {
-        return GL_READ_PIXEL_DATA_RANGE_LENGTH_NV;
+    public static int GL_UNSIGNED_INT_SAMPLER_CUBE() {
+        return GL_UNSIGNED_INT_SAMPLER_CUBE;
     }
-    private static final int GL_WRITE_PIXEL_DATA_RANGE_POINTER_NV = (int)34940L;
+    private static final int GL_UNSIGNED_INT_SAMPLER_1D_ARRAY = (int)36310L;
     /**
      * {@snippet lang=c :
-     * #define GL_WRITE_PIXEL_DATA_RANGE_POINTER_NV 34940
+     * #define GL_UNSIGNED_INT_SAMPLER_1D_ARRAY 36310
      * }
      */
-    public static int GL_WRITE_PIXEL_DATA_RANGE_POINTER_NV() {
-        return GL_WRITE_PIXEL_DATA_RANGE_POINTER_NV;
+    public static int GL_UNSIGNED_INT_SAMPLER_1D_ARRAY() {
+        return GL_UNSIGNED_INT_SAMPLER_1D_ARRAY;
     }
-    private static final int GL_READ_PIXEL_DATA_RANGE_POINTER_NV = (int)34941L;
+    private static final int GL_UNSIGNED_INT_SAMPLER_2D_ARRAY = (int)36311L;
     /**
      * {@snippet lang=c :
-     * #define GL_READ_PIXEL_DATA_RANGE_POINTER_NV 34941
+     * #define GL_UNSIGNED_INT_SAMPLER_2D_ARRAY 36311
      * }
      */
-    public static int GL_READ_PIXEL_DATA_RANGE_POINTER_NV() {
-        return GL_READ_PIXEL_DATA_RANGE_POINTER_NV;
+    public static int GL_UNSIGNED_INT_SAMPLER_2D_ARRAY() {
+        return GL_UNSIGNED_INT_SAMPLER_2D_ARRAY;
     }
-    private static final int GL_NV_point_sprite = (int)1L;
+    private static final int GL_QUERY_WAIT = (int)36371L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_point_sprite 1
+     * #define GL_QUERY_WAIT 36371
      * }
      */
-    public static int GL_NV_point_sprite() {
-        return GL_NV_point_sprite;
+    public static int GL_QUERY_WAIT() {
+        return GL_QUERY_WAIT;
     }
-    private static final int GL_POINT_SPRITE_NV = (int)34913L;
+    private static final int GL_QUERY_NO_WAIT = (int)36372L;
     /**
      * {@snippet lang=c :
-     * #define GL_POINT_SPRITE_NV 34913
+     * #define GL_QUERY_NO_WAIT 36372
      * }
      */
-    public static int GL_POINT_SPRITE_NV() {
-        return GL_POINT_SPRITE_NV;
+    public static int GL_QUERY_NO_WAIT() {
+        return GL_QUERY_NO_WAIT;
     }
-    private static final int GL_COORD_REPLACE_NV = (int)34914L;
+    private static final int GL_QUERY_BY_REGION_WAIT = (int)36373L;
     /**
      * {@snippet lang=c :
-     * #define GL_COORD_REPLACE_NV 34914
+     * #define GL_QUERY_BY_REGION_WAIT 36373
      * }
      */
-    public static int GL_COORD_REPLACE_NV() {
-        return GL_COORD_REPLACE_NV;
+    public static int GL_QUERY_BY_REGION_WAIT() {
+        return GL_QUERY_BY_REGION_WAIT;
     }
-    private static final int GL_POINT_SPRITE_R_MODE_NV = (int)34915L;
+    private static final int GL_QUERY_BY_REGION_NO_WAIT = (int)36374L;
     /**
      * {@snippet lang=c :
-     * #define GL_POINT_SPRITE_R_MODE_NV 34915
+     * #define GL_QUERY_BY_REGION_NO_WAIT 36374
      * }
      */
-    public static int GL_POINT_SPRITE_R_MODE_NV() {
-        return GL_POINT_SPRITE_R_MODE_NV;
+    public static int GL_QUERY_BY_REGION_NO_WAIT() {
+        return GL_QUERY_BY_REGION_NO_WAIT;
     }
-    private static final int GL_NV_present_video = (int)1L;
+    private static final int GL_BUFFER_ACCESS_FLAGS = (int)37151L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_present_video 1
+     * #define GL_BUFFER_ACCESS_FLAGS 37151
      * }
      */
-    public static int GL_NV_present_video() {
-        return GL_NV_present_video;
+    public static int GL_BUFFER_ACCESS_FLAGS() {
+        return GL_BUFFER_ACCESS_FLAGS;
     }
-    private static final int GL_FRAME_NV = (int)36390L;
+    private static final int GL_BUFFER_MAP_LENGTH = (int)37152L;
     /**
      * {@snippet lang=c :
-     * #define GL_FRAME_NV 36390
+     * #define GL_BUFFER_MAP_LENGTH 37152
      * }
      */
-    public static int GL_FRAME_NV() {
-        return GL_FRAME_NV;
+    public static int GL_BUFFER_MAP_LENGTH() {
+        return GL_BUFFER_MAP_LENGTH;
     }
-    private static final int GL_FIELDS_NV = (int)36391L;
+    private static final int GL_BUFFER_MAP_OFFSET = (int)37153L;
     /**
      * {@snippet lang=c :
-     * #define GL_FIELDS_NV 36391
+     * #define GL_BUFFER_MAP_OFFSET 37153
      * }
      */
-    public static int GL_FIELDS_NV() {
-        return GL_FIELDS_NV;
+    public static int GL_BUFFER_MAP_OFFSET() {
+        return GL_BUFFER_MAP_OFFSET;
     }
-    private static final int GL_CURRENT_TIME_NV = (int)36392L;
+    private static final int GL_DEPTH_COMPONENT32F = (int)36012L;
     /**
      * {@snippet lang=c :
-     * #define GL_CURRENT_TIME_NV 36392
+     * #define GL_DEPTH_COMPONENT32F 36012
      * }
      */
-    public static int GL_CURRENT_TIME_NV() {
-        return GL_CURRENT_TIME_NV;
+    public static int GL_DEPTH_COMPONENT32F() {
+        return GL_DEPTH_COMPONENT32F;
     }
-    private static final int GL_NUM_FILL_STREAMS_NV = (int)36393L;
+    private static final int GL_DEPTH32F_STENCIL8 = (int)36013L;
     /**
      * {@snippet lang=c :
-     * #define GL_NUM_FILL_STREAMS_NV 36393
+     * #define GL_DEPTH32F_STENCIL8 36013
      * }
      */
-    public static int GL_NUM_FILL_STREAMS_NV() {
-        return GL_NUM_FILL_STREAMS_NV;
+    public static int GL_DEPTH32F_STENCIL8() {
+        return GL_DEPTH32F_STENCIL8;
     }
-    private static final int GL_PRESENT_TIME_NV = (int)36394L;
+    private static final int GL_FLOAT_32_UNSIGNED_INT_24_8_REV = (int)36269L;
     /**
      * {@snippet lang=c :
-     * #define GL_PRESENT_TIME_NV 36394
+     * #define GL_FLOAT_32_UNSIGNED_INT_24_8_REV 36269
      * }
      */
-    public static int GL_PRESENT_TIME_NV() {
-        return GL_PRESENT_TIME_NV;
+    public static int GL_FLOAT_32_UNSIGNED_INT_24_8_REV() {
+        return GL_FLOAT_32_UNSIGNED_INT_24_8_REV;
     }
-    private static final int GL_PRESENT_DURATION_NV = (int)36395L;
+    private static final int GL_INVALID_FRAMEBUFFER_OPERATION = (int)1286L;
     /**
      * {@snippet lang=c :
-     * #define GL_PRESENT_DURATION_NV 36395
+     * #define GL_INVALID_FRAMEBUFFER_OPERATION 1286
      * }
      */
-    public static int GL_PRESENT_DURATION_NV() {
-        return GL_PRESENT_DURATION_NV;
+    public static int GL_INVALID_FRAMEBUFFER_OPERATION() {
+        return GL_INVALID_FRAMEBUFFER_OPERATION;
     }
-    private static final int GL_NV_primitive_restart = (int)1L;
+    private static final int GL_FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING = (int)33296L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_primitive_restart 1
+     * #define GL_FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING 33296
      * }
      */
-    public static int GL_NV_primitive_restart() {
-        return GL_NV_primitive_restart;
+    public static int GL_FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING() {
+        return GL_FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING;
     }
-    private static final int GL_PRIMITIVE_RESTART_NV = (int)34136L;
+    private static final int GL_FRAMEBUFFER_ATTACHMENT_COMPONENT_TYPE = (int)33297L;
     /**
      * {@snippet lang=c :
-     * #define GL_PRIMITIVE_RESTART_NV 34136
+     * #define GL_FRAMEBUFFER_ATTACHMENT_COMPONENT_TYPE 33297
      * }
      */
-    public static int GL_PRIMITIVE_RESTART_NV() {
-        return GL_PRIMITIVE_RESTART_NV;
+    public static int GL_FRAMEBUFFER_ATTACHMENT_COMPONENT_TYPE() {
+        return GL_FRAMEBUFFER_ATTACHMENT_COMPONENT_TYPE;
     }
-    private static final int GL_PRIMITIVE_RESTART_INDEX_NV = (int)34137L;
+    private static final int GL_FRAMEBUFFER_ATTACHMENT_RED_SIZE = (int)33298L;
     /**
      * {@snippet lang=c :
-     * #define GL_PRIMITIVE_RESTART_INDEX_NV 34137
+     * #define GL_FRAMEBUFFER_ATTACHMENT_RED_SIZE 33298
      * }
      */
-    public static int GL_PRIMITIVE_RESTART_INDEX_NV() {
-        return GL_PRIMITIVE_RESTART_INDEX_NV;
+    public static int GL_FRAMEBUFFER_ATTACHMENT_RED_SIZE() {
+        return GL_FRAMEBUFFER_ATTACHMENT_RED_SIZE;
     }
-    private static final int GL_NV_query_resource = (int)1L;
+    private static final int GL_FRAMEBUFFER_ATTACHMENT_GREEN_SIZE = (int)33299L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_query_resource 1
+     * #define GL_FRAMEBUFFER_ATTACHMENT_GREEN_SIZE 33299
      * }
      */
-    public static int GL_NV_query_resource() {
-        return GL_NV_query_resource;
+    public static int GL_FRAMEBUFFER_ATTACHMENT_GREEN_SIZE() {
+        return GL_FRAMEBUFFER_ATTACHMENT_GREEN_SIZE;
     }
-    private static final int GL_QUERY_RESOURCE_TYPE_VIDMEM_ALLOC_NV = (int)38208L;
+    private static final int GL_FRAMEBUFFER_ATTACHMENT_BLUE_SIZE = (int)33300L;
     /**
      * {@snippet lang=c :
-     * #define GL_QUERY_RESOURCE_TYPE_VIDMEM_ALLOC_NV 38208
+     * #define GL_FRAMEBUFFER_ATTACHMENT_BLUE_SIZE 33300
      * }
      */
-    public static int GL_QUERY_RESOURCE_TYPE_VIDMEM_ALLOC_NV() {
-        return GL_QUERY_RESOURCE_TYPE_VIDMEM_ALLOC_NV;
+    public static int GL_FRAMEBUFFER_ATTACHMENT_BLUE_SIZE() {
+        return GL_FRAMEBUFFER_ATTACHMENT_BLUE_SIZE;
     }
-    private static final int GL_QUERY_RESOURCE_MEMTYPE_VIDMEM_NV = (int)38210L;
+    private static final int GL_FRAMEBUFFER_ATTACHMENT_ALPHA_SIZE = (int)33301L;
     /**
      * {@snippet lang=c :
-     * #define GL_QUERY_RESOURCE_MEMTYPE_VIDMEM_NV 38210
+     * #define GL_FRAMEBUFFER_ATTACHMENT_ALPHA_SIZE 33301
      * }
      */
-    public static int GL_QUERY_RESOURCE_MEMTYPE_VIDMEM_NV() {
-        return GL_QUERY_RESOURCE_MEMTYPE_VIDMEM_NV;
+    public static int GL_FRAMEBUFFER_ATTACHMENT_ALPHA_SIZE() {
+        return GL_FRAMEBUFFER_ATTACHMENT_ALPHA_SIZE;
     }
-    private static final int GL_QUERY_RESOURCE_SYS_RESERVED_NV = (int)38212L;
+    private static final int GL_FRAMEBUFFER_ATTACHMENT_DEPTH_SIZE = (int)33302L;
     /**
      * {@snippet lang=c :
-     * #define GL_QUERY_RESOURCE_SYS_RESERVED_NV 38212
+     * #define GL_FRAMEBUFFER_ATTACHMENT_DEPTH_SIZE 33302
      * }
      */
-    public static int GL_QUERY_RESOURCE_SYS_RESERVED_NV() {
-        return GL_QUERY_RESOURCE_SYS_RESERVED_NV;
+    public static int GL_FRAMEBUFFER_ATTACHMENT_DEPTH_SIZE() {
+        return GL_FRAMEBUFFER_ATTACHMENT_DEPTH_SIZE;
     }
-    private static final int GL_QUERY_RESOURCE_TEXTURE_NV = (int)38213L;
+    private static final int GL_FRAMEBUFFER_ATTACHMENT_STENCIL_SIZE = (int)33303L;
     /**
      * {@snippet lang=c :
-     * #define GL_QUERY_RESOURCE_TEXTURE_NV 38213
+     * #define GL_FRAMEBUFFER_ATTACHMENT_STENCIL_SIZE 33303
      * }
      */
-    public static int GL_QUERY_RESOURCE_TEXTURE_NV() {
-        return GL_QUERY_RESOURCE_TEXTURE_NV;
+    public static int GL_FRAMEBUFFER_ATTACHMENT_STENCIL_SIZE() {
+        return GL_FRAMEBUFFER_ATTACHMENT_STENCIL_SIZE;
     }
-    private static final int GL_QUERY_RESOURCE_RENDERBUFFER_NV = (int)38214L;
+    private static final int GL_FRAMEBUFFER_DEFAULT = (int)33304L;
     /**
      * {@snippet lang=c :
-     * #define GL_QUERY_RESOURCE_RENDERBUFFER_NV 38214
+     * #define GL_FRAMEBUFFER_DEFAULT 33304
      * }
      */
-    public static int GL_QUERY_RESOURCE_RENDERBUFFER_NV() {
-        return GL_QUERY_RESOURCE_RENDERBUFFER_NV;
+    public static int GL_FRAMEBUFFER_DEFAULT() {
+        return GL_FRAMEBUFFER_DEFAULT;
     }
-    private static final int GL_QUERY_RESOURCE_BUFFEROBJECT_NV = (int)38215L;
+    private static final int GL_FRAMEBUFFER_UNDEFINED = (int)33305L;
     /**
      * {@snippet lang=c :
-     * #define GL_QUERY_RESOURCE_BUFFEROBJECT_NV 38215
+     * #define GL_FRAMEBUFFER_UNDEFINED 33305
      * }
      */
-    public static int GL_QUERY_RESOURCE_BUFFEROBJECT_NV() {
-        return GL_QUERY_RESOURCE_BUFFEROBJECT_NV;
+    public static int GL_FRAMEBUFFER_UNDEFINED() {
+        return GL_FRAMEBUFFER_UNDEFINED;
     }
-    private static final int GL_NV_query_resource_tag = (int)1L;
+    private static final int GL_DEPTH_STENCIL_ATTACHMENT = (int)33306L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_query_resource_tag 1
+     * #define GL_DEPTH_STENCIL_ATTACHMENT 33306
      * }
      */
-    public static int GL_NV_query_resource_tag() {
-        return GL_NV_query_resource_tag;
+    public static int GL_DEPTH_STENCIL_ATTACHMENT() {
+        return GL_DEPTH_STENCIL_ATTACHMENT;
     }
-    private static final int GL_NV_register_combiners = (int)1L;
+    private static final int GL_MAX_RENDERBUFFER_SIZE = (int)34024L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_register_combiners 1
+     * #define GL_MAX_RENDERBUFFER_SIZE 34024
      * }
      */
-    public static int GL_NV_register_combiners() {
-        return GL_NV_register_combiners;
+    public static int GL_MAX_RENDERBUFFER_SIZE() {
+        return GL_MAX_RENDERBUFFER_SIZE;
     }
-    private static final int GL_REGISTER_COMBINERS_NV = (int)34082L;
+    private static final int GL_DEPTH_STENCIL = (int)34041L;
     /**
      * {@snippet lang=c :
-     * #define GL_REGISTER_COMBINERS_NV 34082
+     * #define GL_DEPTH_STENCIL 34041
      * }
      */
-    public static int GL_REGISTER_COMBINERS_NV() {
-        return GL_REGISTER_COMBINERS_NV;
+    public static int GL_DEPTH_STENCIL() {
+        return GL_DEPTH_STENCIL;
     }
-    private static final int GL_VARIABLE_A_NV = (int)34083L;
+    private static final int GL_UNSIGNED_INT_24_8 = (int)34042L;
     /**
      * {@snippet lang=c :
-     * #define GL_VARIABLE_A_NV 34083
+     * #define GL_UNSIGNED_INT_24_8 34042
      * }
      */
-    public static int GL_VARIABLE_A_NV() {
-        return GL_VARIABLE_A_NV;
+    public static int GL_UNSIGNED_INT_24_8() {
+        return GL_UNSIGNED_INT_24_8;
     }
-    private static final int GL_VARIABLE_B_NV = (int)34084L;
+    private static final int GL_DEPTH24_STENCIL8 = (int)35056L;
     /**
      * {@snippet lang=c :
-     * #define GL_VARIABLE_B_NV 34084
+     * #define GL_DEPTH24_STENCIL8 35056
      * }
      */
-    public static int GL_VARIABLE_B_NV() {
-        return GL_VARIABLE_B_NV;
+    public static int GL_DEPTH24_STENCIL8() {
+        return GL_DEPTH24_STENCIL8;
     }
-    private static final int GL_VARIABLE_C_NV = (int)34085L;
+    private static final int GL_TEXTURE_STENCIL_SIZE = (int)35057L;
     /**
      * {@snippet lang=c :
-     * #define GL_VARIABLE_C_NV 34085
+     * #define GL_TEXTURE_STENCIL_SIZE 35057
      * }
      */
-    public static int GL_VARIABLE_C_NV() {
-        return GL_VARIABLE_C_NV;
+    public static int GL_TEXTURE_STENCIL_SIZE() {
+        return GL_TEXTURE_STENCIL_SIZE;
     }
-    private static final int GL_VARIABLE_D_NV = (int)34086L;
+    private static final int GL_TEXTURE_RED_TYPE = (int)35856L;
     /**
      * {@snippet lang=c :
-     * #define GL_VARIABLE_D_NV 34086
+     * #define GL_TEXTURE_RED_TYPE 35856
      * }
      */
-    public static int GL_VARIABLE_D_NV() {
-        return GL_VARIABLE_D_NV;
+    public static int GL_TEXTURE_RED_TYPE() {
+        return GL_TEXTURE_RED_TYPE;
     }
-    private static final int GL_VARIABLE_E_NV = (int)34087L;
+    private static final int GL_TEXTURE_GREEN_TYPE = (int)35857L;
     /**
      * {@snippet lang=c :
-     * #define GL_VARIABLE_E_NV 34087
+     * #define GL_TEXTURE_GREEN_TYPE 35857
      * }
      */
-    public static int GL_VARIABLE_E_NV() {
-        return GL_VARIABLE_E_NV;
+    public static int GL_TEXTURE_GREEN_TYPE() {
+        return GL_TEXTURE_GREEN_TYPE;
     }
-    private static final int GL_VARIABLE_F_NV = (int)34088L;
+    private static final int GL_TEXTURE_BLUE_TYPE = (int)35858L;
     /**
      * {@snippet lang=c :
-     * #define GL_VARIABLE_F_NV 34088
+     * #define GL_TEXTURE_BLUE_TYPE 35858
      * }
      */
-    public static int GL_VARIABLE_F_NV() {
-        return GL_VARIABLE_F_NV;
+    public static int GL_TEXTURE_BLUE_TYPE() {
+        return GL_TEXTURE_BLUE_TYPE;
     }
-    private static final int GL_VARIABLE_G_NV = (int)34089L;
+    private static final int GL_TEXTURE_ALPHA_TYPE = (int)35859L;
     /**
      * {@snippet lang=c :
-     * #define GL_VARIABLE_G_NV 34089
+     * #define GL_TEXTURE_ALPHA_TYPE 35859
      * }
      */
-    public static int GL_VARIABLE_G_NV() {
-        return GL_VARIABLE_G_NV;
+    public static int GL_TEXTURE_ALPHA_TYPE() {
+        return GL_TEXTURE_ALPHA_TYPE;
     }
-    private static final int GL_CONSTANT_COLOR0_NV = (int)34090L;
+    private static final int GL_TEXTURE_DEPTH_TYPE = (int)35862L;
     /**
      * {@snippet lang=c :
-     * #define GL_CONSTANT_COLOR0_NV 34090
+     * #define GL_TEXTURE_DEPTH_TYPE 35862
      * }
      */
-    public static int GL_CONSTANT_COLOR0_NV() {
-        return GL_CONSTANT_COLOR0_NV;
+    public static int GL_TEXTURE_DEPTH_TYPE() {
+        return GL_TEXTURE_DEPTH_TYPE;
     }
-    private static final int GL_CONSTANT_COLOR1_NV = (int)34091L;
+    private static final int GL_UNSIGNED_NORMALIZED = (int)35863L;
     /**
      * {@snippet lang=c :
-     * #define GL_CONSTANT_COLOR1_NV 34091
+     * #define GL_UNSIGNED_NORMALIZED 35863
      * }
      */
-    public static int GL_CONSTANT_COLOR1_NV() {
-        return GL_CONSTANT_COLOR1_NV;
+    public static int GL_UNSIGNED_NORMALIZED() {
+        return GL_UNSIGNED_NORMALIZED;
     }
-    private static final int GL_SPARE0_NV = (int)34094L;
+    private static final int GL_FRAMEBUFFER_BINDING = (int)36006L;
     /**
      * {@snippet lang=c :
-     * #define GL_SPARE0_NV 34094
+     * #define GL_FRAMEBUFFER_BINDING 36006
      * }
      */
-    public static int GL_SPARE0_NV() {
-        return GL_SPARE0_NV;
+    public static int GL_FRAMEBUFFER_BINDING() {
+        return GL_FRAMEBUFFER_BINDING;
     }
-    private static final int GL_SPARE1_NV = (int)34095L;
+    private static final int GL_DRAW_FRAMEBUFFER_BINDING = (int)36006L;
     /**
      * {@snippet lang=c :
-     * #define GL_SPARE1_NV 34095
+     * #define GL_DRAW_FRAMEBUFFER_BINDING 36006
      * }
      */
-    public static int GL_SPARE1_NV() {
-        return GL_SPARE1_NV;
+    public static int GL_DRAW_FRAMEBUFFER_BINDING() {
+        return GL_DRAW_FRAMEBUFFER_BINDING;
     }
-    private static final int GL_DISCARD_NV = (int)34096L;
+    private static final int GL_RENDERBUFFER_BINDING = (int)36007L;
     /**
      * {@snippet lang=c :
-     * #define GL_DISCARD_NV 34096
+     * #define GL_RENDERBUFFER_BINDING 36007
      * }
      */
-    public static int GL_DISCARD_NV() {
-        return GL_DISCARD_NV;
+    public static int GL_RENDERBUFFER_BINDING() {
+        return GL_RENDERBUFFER_BINDING;
     }
-    private static final int GL_E_TIMES_F_NV = (int)34097L;
+    private static final int GL_READ_FRAMEBUFFER = (int)36008L;
     /**
      * {@snippet lang=c :
-     * #define GL_E_TIMES_F_NV 34097
+     * #define GL_READ_FRAMEBUFFER 36008
      * }
      */
-    public static int GL_E_TIMES_F_NV() {
-        return GL_E_TIMES_F_NV;
+    public static int GL_READ_FRAMEBUFFER() {
+        return GL_READ_FRAMEBUFFER;
     }
-    private static final int GL_SPARE0_PLUS_SECONDARY_COLOR_NV = (int)34098L;
+    private static final int GL_DRAW_FRAMEBUFFER = (int)36009L;
     /**
      * {@snippet lang=c :
-     * #define GL_SPARE0_PLUS_SECONDARY_COLOR_NV 34098
+     * #define GL_DRAW_FRAMEBUFFER 36009
      * }
      */
-    public static int GL_SPARE0_PLUS_SECONDARY_COLOR_NV() {
-        return GL_SPARE0_PLUS_SECONDARY_COLOR_NV;
+    public static int GL_DRAW_FRAMEBUFFER() {
+        return GL_DRAW_FRAMEBUFFER;
     }
-    private static final int GL_UNSIGNED_IDENTITY_NV = (int)34102L;
+    private static final int GL_READ_FRAMEBUFFER_BINDING = (int)36010L;
     /**
      * {@snippet lang=c :
-     * #define GL_UNSIGNED_IDENTITY_NV 34102
+     * #define GL_READ_FRAMEBUFFER_BINDING 36010
      * }
      */
-    public static int GL_UNSIGNED_IDENTITY_NV() {
-        return GL_UNSIGNED_IDENTITY_NV;
+    public static int GL_READ_FRAMEBUFFER_BINDING() {
+        return GL_READ_FRAMEBUFFER_BINDING;
     }
-    private static final int GL_UNSIGNED_INVERT_NV = (int)34103L;
+    private static final int GL_RENDERBUFFER_SAMPLES = (int)36011L;
     /**
      * {@snippet lang=c :
-     * #define GL_UNSIGNED_INVERT_NV 34103
+     * #define GL_RENDERBUFFER_SAMPLES 36011
      * }
      */
-    public static int GL_UNSIGNED_INVERT_NV() {
-        return GL_UNSIGNED_INVERT_NV;
+    public static int GL_RENDERBUFFER_SAMPLES() {
+        return GL_RENDERBUFFER_SAMPLES;
     }
-    private static final int GL_EXPAND_NORMAL_NV = (int)34104L;
+    private static final int GL_FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE = (int)36048L;
     /**
      * {@snippet lang=c :
-     * #define GL_EXPAND_NORMAL_NV 34104
+     * #define GL_FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE 36048
      * }
      */
-    public static int GL_EXPAND_NORMAL_NV() {
-        return GL_EXPAND_NORMAL_NV;
+    public static int GL_FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE() {
+        return GL_FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE;
     }
-    private static final int GL_EXPAND_NEGATE_NV = (int)34105L;
+    private static final int GL_FRAMEBUFFER_ATTACHMENT_OBJECT_NAME = (int)36049L;
     /**
      * {@snippet lang=c :
-     * #define GL_EXPAND_NEGATE_NV 34105
+     * #define GL_FRAMEBUFFER_ATTACHMENT_OBJECT_NAME 36049
      * }
      */
-    public static int GL_EXPAND_NEGATE_NV() {
-        return GL_EXPAND_NEGATE_NV;
+    public static int GL_FRAMEBUFFER_ATTACHMENT_OBJECT_NAME() {
+        return GL_FRAMEBUFFER_ATTACHMENT_OBJECT_NAME;
     }
-    private static final int GL_HALF_BIAS_NORMAL_NV = (int)34106L;
+    private static final int GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL = (int)36050L;
     /**
      * {@snippet lang=c :
-     * #define GL_HALF_BIAS_NORMAL_NV 34106
+     * #define GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL 36050
      * }
      */
-    public static int GL_HALF_BIAS_NORMAL_NV() {
-        return GL_HALF_BIAS_NORMAL_NV;
+    public static int GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL() {
+        return GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL;
     }
-    private static final int GL_HALF_BIAS_NEGATE_NV = (int)34107L;
+    private static final int GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE = (int)36051L;
     /**
      * {@snippet lang=c :
-     * #define GL_HALF_BIAS_NEGATE_NV 34107
+     * #define GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE 36051
      * }
      */
-    public static int GL_HALF_BIAS_NEGATE_NV() {
-        return GL_HALF_BIAS_NEGATE_NV;
+    public static int GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE() {
+        return GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE;
     }
-    private static final int GL_SIGNED_IDENTITY_NV = (int)34108L;
+    private static final int GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LAYER = (int)36052L;
     /**
      * {@snippet lang=c :
-     * #define GL_SIGNED_IDENTITY_NV 34108
+     * #define GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LAYER 36052
      * }
      */
-    public static int GL_SIGNED_IDENTITY_NV() {
-        return GL_SIGNED_IDENTITY_NV;
+    public static int GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LAYER() {
+        return GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LAYER;
     }
-    private static final int GL_SIGNED_NEGATE_NV = (int)34109L;
+    private static final int GL_FRAMEBUFFER_COMPLETE = (int)36053L;
     /**
      * {@snippet lang=c :
-     * #define GL_SIGNED_NEGATE_NV 34109
+     * #define GL_FRAMEBUFFER_COMPLETE 36053
      * }
      */
-    public static int GL_SIGNED_NEGATE_NV() {
-        return GL_SIGNED_NEGATE_NV;
+    public static int GL_FRAMEBUFFER_COMPLETE() {
+        return GL_FRAMEBUFFER_COMPLETE;
     }
-    private static final int GL_SCALE_BY_TWO_NV = (int)34110L;
+    private static final int GL_FRAMEBUFFER_INCOMPLETE_ATTACHMENT = (int)36054L;
     /**
      * {@snippet lang=c :
-     * #define GL_SCALE_BY_TWO_NV 34110
+     * #define GL_FRAMEBUFFER_INCOMPLETE_ATTACHMENT 36054
      * }
      */
-    public static int GL_SCALE_BY_TWO_NV() {
-        return GL_SCALE_BY_TWO_NV;
+    public static int GL_FRAMEBUFFER_INCOMPLETE_ATTACHMENT() {
+        return GL_FRAMEBUFFER_INCOMPLETE_ATTACHMENT;
     }
-    private static final int GL_SCALE_BY_FOUR_NV = (int)34111L;
+    private static final int GL_FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT = (int)36055L;
     /**
      * {@snippet lang=c :
-     * #define GL_SCALE_BY_FOUR_NV 34111
+     * #define GL_FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT 36055
      * }
      */
-    public static int GL_SCALE_BY_FOUR_NV() {
-        return GL_SCALE_BY_FOUR_NV;
+    public static int GL_FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT() {
+        return GL_FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT;
     }
-    private static final int GL_SCALE_BY_ONE_HALF_NV = (int)34112L;
+    private static final int GL_FRAMEBUFFER_INCOMPLETE_DRAW_BUFFER = (int)36059L;
     /**
      * {@snippet lang=c :
-     * #define GL_SCALE_BY_ONE_HALF_NV 34112
+     * #define GL_FRAMEBUFFER_INCOMPLETE_DRAW_BUFFER 36059
      * }
      */
-    public static int GL_SCALE_BY_ONE_HALF_NV() {
-        return GL_SCALE_BY_ONE_HALF_NV;
+    public static int GL_FRAMEBUFFER_INCOMPLETE_DRAW_BUFFER() {
+        return GL_FRAMEBUFFER_INCOMPLETE_DRAW_BUFFER;
     }
-    private static final int GL_BIAS_BY_NEGATIVE_ONE_HALF_NV = (int)34113L;
+    private static final int GL_FRAMEBUFFER_INCOMPLETE_READ_BUFFER = (int)36060L;
     /**
      * {@snippet lang=c :
-     * #define GL_BIAS_BY_NEGATIVE_ONE_HALF_NV 34113
+     * #define GL_FRAMEBUFFER_INCOMPLETE_READ_BUFFER 36060
      * }
      */
-    public static int GL_BIAS_BY_NEGATIVE_ONE_HALF_NV() {
-        return GL_BIAS_BY_NEGATIVE_ONE_HALF_NV;
+    public static int GL_FRAMEBUFFER_INCOMPLETE_READ_BUFFER() {
+        return GL_FRAMEBUFFER_INCOMPLETE_READ_BUFFER;
     }
-    private static final int GL_COMBINER_INPUT_NV = (int)34114L;
+    private static final int GL_FRAMEBUFFER_UNSUPPORTED = (int)36061L;
     /**
      * {@snippet lang=c :
-     * #define GL_COMBINER_INPUT_NV 34114
+     * #define GL_FRAMEBUFFER_UNSUPPORTED 36061
      * }
      */
-    public static int GL_COMBINER_INPUT_NV() {
-        return GL_COMBINER_INPUT_NV;
+    public static int GL_FRAMEBUFFER_UNSUPPORTED() {
+        return GL_FRAMEBUFFER_UNSUPPORTED;
     }
-    private static final int GL_COMBINER_MAPPING_NV = (int)34115L;
+    private static final int GL_MAX_COLOR_ATTACHMENTS = (int)36063L;
     /**
      * {@snippet lang=c :
-     * #define GL_COMBINER_MAPPING_NV 34115
+     * #define GL_MAX_COLOR_ATTACHMENTS 36063
      * }
      */
-    public static int GL_COMBINER_MAPPING_NV() {
-        return GL_COMBINER_MAPPING_NV;
+    public static int GL_MAX_COLOR_ATTACHMENTS() {
+        return GL_MAX_COLOR_ATTACHMENTS;
     }
-    private static final int GL_COMBINER_COMPONENT_USAGE_NV = (int)34116L;
+    private static final int GL_COLOR_ATTACHMENT0 = (int)36064L;
     /**
      * {@snippet lang=c :
-     * #define GL_COMBINER_COMPONENT_USAGE_NV 34116
+     * #define GL_COLOR_ATTACHMENT0 36064
      * }
      */
-    public static int GL_COMBINER_COMPONENT_USAGE_NV() {
-        return GL_COMBINER_COMPONENT_USAGE_NV;
+    public static int GL_COLOR_ATTACHMENT0() {
+        return GL_COLOR_ATTACHMENT0;
     }
-    private static final int GL_COMBINER_AB_DOT_PRODUCT_NV = (int)34117L;
+    private static final int GL_COLOR_ATTACHMENT1 = (int)36065L;
     /**
      * {@snippet lang=c :
-     * #define GL_COMBINER_AB_DOT_PRODUCT_NV 34117
+     * #define GL_COLOR_ATTACHMENT1 36065
      * }
      */
-    public static int GL_COMBINER_AB_DOT_PRODUCT_NV() {
-        return GL_COMBINER_AB_DOT_PRODUCT_NV;
+    public static int GL_COLOR_ATTACHMENT1() {
+        return GL_COLOR_ATTACHMENT1;
     }
-    private static final int GL_COMBINER_CD_DOT_PRODUCT_NV = (int)34118L;
+    private static final int GL_COLOR_ATTACHMENT2 = (int)36066L;
     /**
      * {@snippet lang=c :
-     * #define GL_COMBINER_CD_DOT_PRODUCT_NV 34118
+     * #define GL_COLOR_ATTACHMENT2 36066
      * }
      */
-    public static int GL_COMBINER_CD_DOT_PRODUCT_NV() {
-        return GL_COMBINER_CD_DOT_PRODUCT_NV;
+    public static int GL_COLOR_ATTACHMENT2() {
+        return GL_COLOR_ATTACHMENT2;
     }
-    private static final int GL_COMBINER_MUX_SUM_NV = (int)34119L;
+    private static final int GL_COLOR_ATTACHMENT3 = (int)36067L;
     /**
      * {@snippet lang=c :
-     * #define GL_COMBINER_MUX_SUM_NV 34119
+     * #define GL_COLOR_ATTACHMENT3 36067
      * }
      */
-    public static int GL_COMBINER_MUX_SUM_NV() {
-        return GL_COMBINER_MUX_SUM_NV;
+    public static int GL_COLOR_ATTACHMENT3() {
+        return GL_COLOR_ATTACHMENT3;
     }
-    private static final int GL_COMBINER_SCALE_NV = (int)34120L;
+    private static final int GL_COLOR_ATTACHMENT4 = (int)36068L;
     /**
      * {@snippet lang=c :
-     * #define GL_COMBINER_SCALE_NV 34120
+     * #define GL_COLOR_ATTACHMENT4 36068
      * }
      */
-    public static int GL_COMBINER_SCALE_NV() {
-        return GL_COMBINER_SCALE_NV;
+    public static int GL_COLOR_ATTACHMENT4() {
+        return GL_COLOR_ATTACHMENT4;
     }
-    private static final int GL_COMBINER_BIAS_NV = (int)34121L;
+    private static final int GL_COLOR_ATTACHMENT5 = (int)36069L;
     /**
      * {@snippet lang=c :
-     * #define GL_COMBINER_BIAS_NV 34121
+     * #define GL_COLOR_ATTACHMENT5 36069
      * }
      */
-    public static int GL_COMBINER_BIAS_NV() {
-        return GL_COMBINER_BIAS_NV;
+    public static int GL_COLOR_ATTACHMENT5() {
+        return GL_COLOR_ATTACHMENT5;
     }
-    private static final int GL_COMBINER_AB_OUTPUT_NV = (int)34122L;
+    private static final int GL_COLOR_ATTACHMENT6 = (int)36070L;
     /**
      * {@snippet lang=c :
-     * #define GL_COMBINER_AB_OUTPUT_NV 34122
+     * #define GL_COLOR_ATTACHMENT6 36070
      * }
      */
-    public static int GL_COMBINER_AB_OUTPUT_NV() {
-        return GL_COMBINER_AB_OUTPUT_NV;
+    public static int GL_COLOR_ATTACHMENT6() {
+        return GL_COLOR_ATTACHMENT6;
     }
-    private static final int GL_COMBINER_CD_OUTPUT_NV = (int)34123L;
+    private static final int GL_COLOR_ATTACHMENT7 = (int)36071L;
     /**
      * {@snippet lang=c :
-     * #define GL_COMBINER_CD_OUTPUT_NV 34123
+     * #define GL_COLOR_ATTACHMENT7 36071
      * }
      */
-    public static int GL_COMBINER_CD_OUTPUT_NV() {
-        return GL_COMBINER_CD_OUTPUT_NV;
+    public static int GL_COLOR_ATTACHMENT7() {
+        return GL_COLOR_ATTACHMENT7;
     }
-    private static final int GL_COMBINER_SUM_OUTPUT_NV = (int)34124L;
+    private static final int GL_COLOR_ATTACHMENT8 = (int)36072L;
     /**
      * {@snippet lang=c :
-     * #define GL_COMBINER_SUM_OUTPUT_NV 34124
+     * #define GL_COLOR_ATTACHMENT8 36072
      * }
      */
-    public static int GL_COMBINER_SUM_OUTPUT_NV() {
-        return GL_COMBINER_SUM_OUTPUT_NV;
+    public static int GL_COLOR_ATTACHMENT8() {
+        return GL_COLOR_ATTACHMENT8;
     }
-    private static final int GL_MAX_GENERAL_COMBINERS_NV = (int)34125L;
+    private static final int GL_COLOR_ATTACHMENT9 = (int)36073L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAX_GENERAL_COMBINERS_NV 34125
+     * #define GL_COLOR_ATTACHMENT9 36073
      * }
      */
-    public static int GL_MAX_GENERAL_COMBINERS_NV() {
-        return GL_MAX_GENERAL_COMBINERS_NV;
+    public static int GL_COLOR_ATTACHMENT9() {
+        return GL_COLOR_ATTACHMENT9;
     }
-    private static final int GL_NUM_GENERAL_COMBINERS_NV = (int)34126L;
+    private static final int GL_COLOR_ATTACHMENT10 = (int)36074L;
     /**
      * {@snippet lang=c :
-     * #define GL_NUM_GENERAL_COMBINERS_NV 34126
+     * #define GL_COLOR_ATTACHMENT10 36074
      * }
      */
-    public static int GL_NUM_GENERAL_COMBINERS_NV() {
-        return GL_NUM_GENERAL_COMBINERS_NV;
+    public static int GL_COLOR_ATTACHMENT10() {
+        return GL_COLOR_ATTACHMENT10;
     }
-    private static final int GL_COLOR_SUM_CLAMP_NV = (int)34127L;
+    private static final int GL_COLOR_ATTACHMENT11 = (int)36075L;
     /**
      * {@snippet lang=c :
-     * #define GL_COLOR_SUM_CLAMP_NV 34127
+     * #define GL_COLOR_ATTACHMENT11 36075
      * }
      */
-    public static int GL_COLOR_SUM_CLAMP_NV() {
-        return GL_COLOR_SUM_CLAMP_NV;
+    public static int GL_COLOR_ATTACHMENT11() {
+        return GL_COLOR_ATTACHMENT11;
     }
-    private static final int GL_COMBINER0_NV = (int)34128L;
+    private static final int GL_COLOR_ATTACHMENT12 = (int)36076L;
     /**
      * {@snippet lang=c :
-     * #define GL_COMBINER0_NV 34128
+     * #define GL_COLOR_ATTACHMENT12 36076
      * }
      */
-    public static int GL_COMBINER0_NV() {
-        return GL_COMBINER0_NV;
+    public static int GL_COLOR_ATTACHMENT12() {
+        return GL_COLOR_ATTACHMENT12;
     }
-    private static final int GL_COMBINER1_NV = (int)34129L;
+    private static final int GL_COLOR_ATTACHMENT13 = (int)36077L;
     /**
      * {@snippet lang=c :
-     * #define GL_COMBINER1_NV 34129
+     * #define GL_COLOR_ATTACHMENT13 36077
      * }
      */
-    public static int GL_COMBINER1_NV() {
-        return GL_COMBINER1_NV;
+    public static int GL_COLOR_ATTACHMENT13() {
+        return GL_COLOR_ATTACHMENT13;
     }
-    private static final int GL_COMBINER2_NV = (int)34130L;
+    private static final int GL_COLOR_ATTACHMENT14 = (int)36078L;
     /**
      * {@snippet lang=c :
-     * #define GL_COMBINER2_NV 34130
+     * #define GL_COLOR_ATTACHMENT14 36078
      * }
      */
-    public static int GL_COMBINER2_NV() {
-        return GL_COMBINER2_NV;
+    public static int GL_COLOR_ATTACHMENT14() {
+        return GL_COLOR_ATTACHMENT14;
     }
-    private static final int GL_COMBINER3_NV = (int)34131L;
+    private static final int GL_COLOR_ATTACHMENT15 = (int)36079L;
     /**
      * {@snippet lang=c :
-     * #define GL_COMBINER3_NV 34131
+     * #define GL_COLOR_ATTACHMENT15 36079
      * }
      */
-    public static int GL_COMBINER3_NV() {
-        return GL_COMBINER3_NV;
+    public static int GL_COLOR_ATTACHMENT15() {
+        return GL_COLOR_ATTACHMENT15;
     }
-    private static final int GL_COMBINER4_NV = (int)34132L;
+    private static final int GL_COLOR_ATTACHMENT16 = (int)36080L;
     /**
      * {@snippet lang=c :
-     * #define GL_COMBINER4_NV 34132
+     * #define GL_COLOR_ATTACHMENT16 36080
      * }
      */
-    public static int GL_COMBINER4_NV() {
-        return GL_COMBINER4_NV;
+    public static int GL_COLOR_ATTACHMENT16() {
+        return GL_COLOR_ATTACHMENT16;
     }
-    private static final int GL_COMBINER5_NV = (int)34133L;
+    private static final int GL_COLOR_ATTACHMENT17 = (int)36081L;
     /**
      * {@snippet lang=c :
-     * #define GL_COMBINER5_NV 34133
+     * #define GL_COLOR_ATTACHMENT17 36081
      * }
      */
-    public static int GL_COMBINER5_NV() {
-        return GL_COMBINER5_NV;
+    public static int GL_COLOR_ATTACHMENT17() {
+        return GL_COLOR_ATTACHMENT17;
     }
-    private static final int GL_COMBINER6_NV = (int)34134L;
+    private static final int GL_COLOR_ATTACHMENT18 = (int)36082L;
     /**
      * {@snippet lang=c :
-     * #define GL_COMBINER6_NV 34134
+     * #define GL_COLOR_ATTACHMENT18 36082
      * }
      */
-    public static int GL_COMBINER6_NV() {
-        return GL_COMBINER6_NV;
+    public static int GL_COLOR_ATTACHMENT18() {
+        return GL_COLOR_ATTACHMENT18;
     }
-    private static final int GL_COMBINER7_NV = (int)34135L;
+    private static final int GL_COLOR_ATTACHMENT19 = (int)36083L;
     /**
      * {@snippet lang=c :
-     * #define GL_COMBINER7_NV 34135
+     * #define GL_COLOR_ATTACHMENT19 36083
      * }
      */
-    public static int GL_COMBINER7_NV() {
-        return GL_COMBINER7_NV;
+    public static int GL_COLOR_ATTACHMENT19() {
+        return GL_COLOR_ATTACHMENT19;
     }
-    private static final int GL_NV_register_combiners2 = (int)1L;
+    private static final int GL_COLOR_ATTACHMENT20 = (int)36084L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_register_combiners2 1
+     * #define GL_COLOR_ATTACHMENT20 36084
      * }
      */
-    public static int GL_NV_register_combiners2() {
-        return GL_NV_register_combiners2;
+    public static int GL_COLOR_ATTACHMENT20() {
+        return GL_COLOR_ATTACHMENT20;
     }
-    private static final int GL_PER_STAGE_CONSTANTS_NV = (int)34101L;
+    private static final int GL_COLOR_ATTACHMENT21 = (int)36085L;
     /**
      * {@snippet lang=c :
-     * #define GL_PER_STAGE_CONSTANTS_NV 34101
+     * #define GL_COLOR_ATTACHMENT21 36085
      * }
      */
-    public static int GL_PER_STAGE_CONSTANTS_NV() {
-        return GL_PER_STAGE_CONSTANTS_NV;
+    public static int GL_COLOR_ATTACHMENT21() {
+        return GL_COLOR_ATTACHMENT21;
     }
-    private static final int GL_NV_representative_fragment_test = (int)1L;
+    private static final int GL_COLOR_ATTACHMENT22 = (int)36086L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_representative_fragment_test 1
+     * #define GL_COLOR_ATTACHMENT22 36086
      * }
      */
-    public static int GL_NV_representative_fragment_test() {
-        return GL_NV_representative_fragment_test;
+    public static int GL_COLOR_ATTACHMENT22() {
+        return GL_COLOR_ATTACHMENT22;
     }
-    private static final int GL_REPRESENTATIVE_FRAGMENT_TEST_NV = (int)37759L;
+    private static final int GL_COLOR_ATTACHMENT23 = (int)36087L;
     /**
      * {@snippet lang=c :
-     * #define GL_REPRESENTATIVE_FRAGMENT_TEST_NV 37759
+     * #define GL_COLOR_ATTACHMENT23 36087
      * }
      */
-    public static int GL_REPRESENTATIVE_FRAGMENT_TEST_NV() {
-        return GL_REPRESENTATIVE_FRAGMENT_TEST_NV;
+    public static int GL_COLOR_ATTACHMENT23() {
+        return GL_COLOR_ATTACHMENT23;
     }
-    private static final int GL_NV_robustness_video_memory_purge = (int)1L;
+    private static final int GL_COLOR_ATTACHMENT24 = (int)36088L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_robustness_video_memory_purge 1
+     * #define GL_COLOR_ATTACHMENT24 36088
      * }
      */
-    public static int GL_NV_robustness_video_memory_purge() {
-        return GL_NV_robustness_video_memory_purge;
+    public static int GL_COLOR_ATTACHMENT24() {
+        return GL_COLOR_ATTACHMENT24;
     }
-    private static final int GL_PURGED_CONTEXT_RESET_NV = (int)37563L;
+    private static final int GL_COLOR_ATTACHMENT25 = (int)36089L;
     /**
      * {@snippet lang=c :
-     * #define GL_PURGED_CONTEXT_RESET_NV 37563
+     * #define GL_COLOR_ATTACHMENT25 36089
      * }
      */
-    public static int GL_PURGED_CONTEXT_RESET_NV() {
-        return GL_PURGED_CONTEXT_RESET_NV;
+    public static int GL_COLOR_ATTACHMENT25() {
+        return GL_COLOR_ATTACHMENT25;
     }
-    private static final int GL_NV_sample_locations = (int)1L;
+    private static final int GL_COLOR_ATTACHMENT26 = (int)36090L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_sample_locations 1
+     * #define GL_COLOR_ATTACHMENT26 36090
      * }
      */
-    public static int GL_NV_sample_locations() {
-        return GL_NV_sample_locations;
+    public static int GL_COLOR_ATTACHMENT26() {
+        return GL_COLOR_ATTACHMENT26;
     }
-    private static final int GL_SAMPLE_LOCATION_SUBPIXEL_BITS_NV = (int)37693L;
+    private static final int GL_COLOR_ATTACHMENT27 = (int)36091L;
     /**
      * {@snippet lang=c :
-     * #define GL_SAMPLE_LOCATION_SUBPIXEL_BITS_NV 37693
+     * #define GL_COLOR_ATTACHMENT27 36091
      * }
      */
-    public static int GL_SAMPLE_LOCATION_SUBPIXEL_BITS_NV() {
-        return GL_SAMPLE_LOCATION_SUBPIXEL_BITS_NV;
+    public static int GL_COLOR_ATTACHMENT27() {
+        return GL_COLOR_ATTACHMENT27;
     }
-    private static final int GL_SAMPLE_LOCATION_PIXEL_GRID_WIDTH_NV = (int)37694L;
+    private static final int GL_COLOR_ATTACHMENT28 = (int)36092L;
     /**
      * {@snippet lang=c :
-     * #define GL_SAMPLE_LOCATION_PIXEL_GRID_WIDTH_NV 37694
+     * #define GL_COLOR_ATTACHMENT28 36092
      * }
      */
-    public static int GL_SAMPLE_LOCATION_PIXEL_GRID_WIDTH_NV() {
-        return GL_SAMPLE_LOCATION_PIXEL_GRID_WIDTH_NV;
+    public static int GL_COLOR_ATTACHMENT28() {
+        return GL_COLOR_ATTACHMENT28;
     }
-    private static final int GL_SAMPLE_LOCATION_PIXEL_GRID_HEIGHT_NV = (int)37695L;
+    private static final int GL_COLOR_ATTACHMENT29 = (int)36093L;
     /**
      * {@snippet lang=c :
-     * #define GL_SAMPLE_LOCATION_PIXEL_GRID_HEIGHT_NV 37695
+     * #define GL_COLOR_ATTACHMENT29 36093
      * }
      */
-    public static int GL_SAMPLE_LOCATION_PIXEL_GRID_HEIGHT_NV() {
-        return GL_SAMPLE_LOCATION_PIXEL_GRID_HEIGHT_NV;
+    public static int GL_COLOR_ATTACHMENT29() {
+        return GL_COLOR_ATTACHMENT29;
     }
-    private static final int GL_PROGRAMMABLE_SAMPLE_LOCATION_TABLE_SIZE_NV = (int)37696L;
+    private static final int GL_COLOR_ATTACHMENT30 = (int)36094L;
     /**
      * {@snippet lang=c :
-     * #define GL_PROGRAMMABLE_SAMPLE_LOCATION_TABLE_SIZE_NV 37696
+     * #define GL_COLOR_ATTACHMENT30 36094
      * }
      */
-    public static int GL_PROGRAMMABLE_SAMPLE_LOCATION_TABLE_SIZE_NV() {
-        return GL_PROGRAMMABLE_SAMPLE_LOCATION_TABLE_SIZE_NV;
+    public static int GL_COLOR_ATTACHMENT30() {
+        return GL_COLOR_ATTACHMENT30;
     }
-    private static final int GL_SAMPLE_LOCATION_NV = (int)36432L;
+    private static final int GL_COLOR_ATTACHMENT31 = (int)36095L;
     /**
      * {@snippet lang=c :
-     * #define GL_SAMPLE_LOCATION_NV 36432
+     * #define GL_COLOR_ATTACHMENT31 36095
      * }
      */
-    public static int GL_SAMPLE_LOCATION_NV() {
-        return GL_SAMPLE_LOCATION_NV;
+    public static int GL_COLOR_ATTACHMENT31() {
+        return GL_COLOR_ATTACHMENT31;
     }
-    private static final int GL_PROGRAMMABLE_SAMPLE_LOCATION_NV = (int)37697L;
+    private static final int GL_DEPTH_ATTACHMENT = (int)36096L;
     /**
      * {@snippet lang=c :
-     * #define GL_PROGRAMMABLE_SAMPLE_LOCATION_NV 37697
+     * #define GL_DEPTH_ATTACHMENT 36096
      * }
      */
-    public static int GL_PROGRAMMABLE_SAMPLE_LOCATION_NV() {
-        return GL_PROGRAMMABLE_SAMPLE_LOCATION_NV;
+    public static int GL_DEPTH_ATTACHMENT() {
+        return GL_DEPTH_ATTACHMENT;
     }
-    private static final int GL_FRAMEBUFFER_PROGRAMMABLE_SAMPLE_LOCATIONS_NV = (int)37698L;
+    private static final int GL_STENCIL_ATTACHMENT = (int)36128L;
     /**
      * {@snippet lang=c :
-     * #define GL_FRAMEBUFFER_PROGRAMMABLE_SAMPLE_LOCATIONS_NV 37698
+     * #define GL_STENCIL_ATTACHMENT 36128
      * }
      */
-    public static int GL_FRAMEBUFFER_PROGRAMMABLE_SAMPLE_LOCATIONS_NV() {
-        return GL_FRAMEBUFFER_PROGRAMMABLE_SAMPLE_LOCATIONS_NV;
+    public static int GL_STENCIL_ATTACHMENT() {
+        return GL_STENCIL_ATTACHMENT;
     }
-    private static final int GL_FRAMEBUFFER_SAMPLE_LOCATION_PIXEL_GRID_NV = (int)37699L;
+    private static final int GL_FRAMEBUFFER = (int)36160L;
     /**
      * {@snippet lang=c :
-     * #define GL_FRAMEBUFFER_SAMPLE_LOCATION_PIXEL_GRID_NV 37699
+     * #define GL_FRAMEBUFFER 36160
      * }
      */
-    public static int GL_FRAMEBUFFER_SAMPLE_LOCATION_PIXEL_GRID_NV() {
-        return GL_FRAMEBUFFER_SAMPLE_LOCATION_PIXEL_GRID_NV;
+    public static int GL_FRAMEBUFFER() {
+        return GL_FRAMEBUFFER;
     }
-    private static final int GL_NV_sample_mask_override_coverage = (int)1L;
+    private static final int GL_RENDERBUFFER = (int)36161L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_sample_mask_override_coverage 1
+     * #define GL_RENDERBUFFER 36161
      * }
      */
-    public static int GL_NV_sample_mask_override_coverage() {
-        return GL_NV_sample_mask_override_coverage;
+    public static int GL_RENDERBUFFER() {
+        return GL_RENDERBUFFER;
     }
-    private static final int GL_NV_scissor_exclusive = (int)1L;
+    private static final int GL_RENDERBUFFER_WIDTH = (int)36162L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_scissor_exclusive 1
+     * #define GL_RENDERBUFFER_WIDTH 36162
      * }
      */
-    public static int GL_NV_scissor_exclusive() {
-        return GL_NV_scissor_exclusive;
+    public static int GL_RENDERBUFFER_WIDTH() {
+        return GL_RENDERBUFFER_WIDTH;
     }
-    private static final int GL_SCISSOR_TEST_EXCLUSIVE_NV = (int)38229L;
+    private static final int GL_RENDERBUFFER_HEIGHT = (int)36163L;
     /**
      * {@snippet lang=c :
-     * #define GL_SCISSOR_TEST_EXCLUSIVE_NV 38229
+     * #define GL_RENDERBUFFER_HEIGHT 36163
      * }
      */
-    public static int GL_SCISSOR_TEST_EXCLUSIVE_NV() {
-        return GL_SCISSOR_TEST_EXCLUSIVE_NV;
+    public static int GL_RENDERBUFFER_HEIGHT() {
+        return GL_RENDERBUFFER_HEIGHT;
     }
-    private static final int GL_SCISSOR_BOX_EXCLUSIVE_NV = (int)38230L;
+    private static final int GL_RENDERBUFFER_INTERNAL_FORMAT = (int)36164L;
     /**
      * {@snippet lang=c :
-     * #define GL_SCISSOR_BOX_EXCLUSIVE_NV 38230
+     * #define GL_RENDERBUFFER_INTERNAL_FORMAT 36164
      * }
      */
-    public static int GL_SCISSOR_BOX_EXCLUSIVE_NV() {
-        return GL_SCISSOR_BOX_EXCLUSIVE_NV;
+    public static int GL_RENDERBUFFER_INTERNAL_FORMAT() {
+        return GL_RENDERBUFFER_INTERNAL_FORMAT;
     }
-    private static final int GL_NV_shader_atomic_counters = (int)1L;
+    private static final int GL_STENCIL_INDEX1 = (int)36166L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_shader_atomic_counters 1
+     * #define GL_STENCIL_INDEX1 36166
      * }
      */
-    public static int GL_NV_shader_atomic_counters() {
-        return GL_NV_shader_atomic_counters;
+    public static int GL_STENCIL_INDEX1() {
+        return GL_STENCIL_INDEX1;
     }
-    private static final int GL_NV_shader_atomic_float = (int)1L;
+    private static final int GL_STENCIL_INDEX4 = (int)36167L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_shader_atomic_float 1
+     * #define GL_STENCIL_INDEX4 36167
      * }
      */
-    public static int GL_NV_shader_atomic_float() {
-        return GL_NV_shader_atomic_float;
+    public static int GL_STENCIL_INDEX4() {
+        return GL_STENCIL_INDEX4;
     }
-    private static final int GL_NV_shader_atomic_float64 = (int)1L;
+    private static final int GL_STENCIL_INDEX8 = (int)36168L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_shader_atomic_float64 1
+     * #define GL_STENCIL_INDEX8 36168
      * }
      */
-    public static int GL_NV_shader_atomic_float64() {
-        return GL_NV_shader_atomic_float64;
+    public static int GL_STENCIL_INDEX8() {
+        return GL_STENCIL_INDEX8;
     }
-    private static final int GL_NV_shader_atomic_fp16_vector = (int)1L;
+    private static final int GL_STENCIL_INDEX16 = (int)36169L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_shader_atomic_fp16_vector 1
+     * #define GL_STENCIL_INDEX16 36169
      * }
      */
-    public static int GL_NV_shader_atomic_fp16_vector() {
-        return GL_NV_shader_atomic_fp16_vector;
+    public static int GL_STENCIL_INDEX16() {
+        return GL_STENCIL_INDEX16;
     }
-    private static final int GL_NV_shader_atomic_int64 = (int)1L;
+    private static final int GL_RENDERBUFFER_RED_SIZE = (int)36176L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_shader_atomic_int64 1
+     * #define GL_RENDERBUFFER_RED_SIZE 36176
      * }
      */
-    public static int GL_NV_shader_atomic_int64() {
-        return GL_NV_shader_atomic_int64;
+    public static int GL_RENDERBUFFER_RED_SIZE() {
+        return GL_RENDERBUFFER_RED_SIZE;
     }
-    private static final int GL_NV_shader_buffer_load = (int)1L;
+    private static final int GL_RENDERBUFFER_GREEN_SIZE = (int)36177L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_shader_buffer_load 1
+     * #define GL_RENDERBUFFER_GREEN_SIZE 36177
      * }
      */
-    public static int GL_NV_shader_buffer_load() {
-        return GL_NV_shader_buffer_load;
+    public static int GL_RENDERBUFFER_GREEN_SIZE() {
+        return GL_RENDERBUFFER_GREEN_SIZE;
     }
-    private static final int GL_BUFFER_GPU_ADDRESS_NV = (int)36637L;
+    private static final int GL_RENDERBUFFER_BLUE_SIZE = (int)36178L;
     /**
      * {@snippet lang=c :
-     * #define GL_BUFFER_GPU_ADDRESS_NV 36637
+     * #define GL_RENDERBUFFER_BLUE_SIZE 36178
      * }
      */
-    public static int GL_BUFFER_GPU_ADDRESS_NV() {
-        return GL_BUFFER_GPU_ADDRESS_NV;
+    public static int GL_RENDERBUFFER_BLUE_SIZE() {
+        return GL_RENDERBUFFER_BLUE_SIZE;
     }
-    private static final int GL_GPU_ADDRESS_NV = (int)36660L;
+    private static final int GL_RENDERBUFFER_ALPHA_SIZE = (int)36179L;
     /**
      * {@snippet lang=c :
-     * #define GL_GPU_ADDRESS_NV 36660
+     * #define GL_RENDERBUFFER_ALPHA_SIZE 36179
      * }
      */
-    public static int GL_GPU_ADDRESS_NV() {
-        return GL_GPU_ADDRESS_NV;
+    public static int GL_RENDERBUFFER_ALPHA_SIZE() {
+        return GL_RENDERBUFFER_ALPHA_SIZE;
     }
-    private static final int GL_MAX_SHADER_BUFFER_ADDRESS_NV = (int)36661L;
+    private static final int GL_RENDERBUFFER_DEPTH_SIZE = (int)36180L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAX_SHADER_BUFFER_ADDRESS_NV 36661
+     * #define GL_RENDERBUFFER_DEPTH_SIZE 36180
      * }
      */
-    public static int GL_MAX_SHADER_BUFFER_ADDRESS_NV() {
-        return GL_MAX_SHADER_BUFFER_ADDRESS_NV;
+    public static int GL_RENDERBUFFER_DEPTH_SIZE() {
+        return GL_RENDERBUFFER_DEPTH_SIZE;
     }
-    private static final int GL_NV_shader_buffer_store = (int)1L;
+    private static final int GL_RENDERBUFFER_STENCIL_SIZE = (int)36181L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_shader_buffer_store 1
+     * #define GL_RENDERBUFFER_STENCIL_SIZE 36181
      * }
      */
-    public static int GL_NV_shader_buffer_store() {
-        return GL_NV_shader_buffer_store;
+    public static int GL_RENDERBUFFER_STENCIL_SIZE() {
+        return GL_RENDERBUFFER_STENCIL_SIZE;
     }
-    private static final int GL_SHADER_GLOBAL_ACCESS_BARRIER_BIT_NV = (int)16L;
+    private static final int GL_FRAMEBUFFER_INCOMPLETE_MULTISAMPLE = (int)36182L;
     /**
      * {@snippet lang=c :
-     * #define GL_SHADER_GLOBAL_ACCESS_BARRIER_BIT_NV 16
+     * #define GL_FRAMEBUFFER_INCOMPLETE_MULTISAMPLE 36182
      * }
      */
-    public static int GL_SHADER_GLOBAL_ACCESS_BARRIER_BIT_NV() {
-        return GL_SHADER_GLOBAL_ACCESS_BARRIER_BIT_NV;
+    public static int GL_FRAMEBUFFER_INCOMPLETE_MULTISAMPLE() {
+        return GL_FRAMEBUFFER_INCOMPLETE_MULTISAMPLE;
     }
-    private static final int GL_NV_shader_storage_buffer_object = (int)1L;
+    private static final int GL_MAX_SAMPLES = (int)36183L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_shader_storage_buffer_object 1
+     * #define GL_MAX_SAMPLES 36183
      * }
      */
-    public static int GL_NV_shader_storage_buffer_object() {
-        return GL_NV_shader_storage_buffer_object;
+    public static int GL_MAX_SAMPLES() {
+        return GL_MAX_SAMPLES;
     }
-    private static final int GL_NV_shader_subgroup_partitioned = (int)1L;
+    private static final int GL_INDEX = (int)33314L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_shader_subgroup_partitioned 1
+     * #define GL_INDEX 33314
      * }
      */
-    public static int GL_NV_shader_subgroup_partitioned() {
-        return GL_NV_shader_subgroup_partitioned;
+    public static int GL_INDEX() {
+        return GL_INDEX;
     }
-    private static final int GL_SUBGROUP_FEATURE_PARTITIONED_BIT_NV = (int)256L;
+    private static final int GL_TEXTURE_LUMINANCE_TYPE = (int)35860L;
     /**
      * {@snippet lang=c :
-     * #define GL_SUBGROUP_FEATURE_PARTITIONED_BIT_NV 256
+     * #define GL_TEXTURE_LUMINANCE_TYPE 35860
      * }
      */
-    public static int GL_SUBGROUP_FEATURE_PARTITIONED_BIT_NV() {
-        return GL_SUBGROUP_FEATURE_PARTITIONED_BIT_NV;
+    public static int GL_TEXTURE_LUMINANCE_TYPE() {
+        return GL_TEXTURE_LUMINANCE_TYPE;
     }
-    private static final int GL_NV_shader_texture_footprint = (int)1L;
+    private static final int GL_TEXTURE_INTENSITY_TYPE = (int)35861L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_shader_texture_footprint 1
+     * #define GL_TEXTURE_INTENSITY_TYPE 35861
      * }
      */
-    public static int GL_NV_shader_texture_footprint() {
-        return GL_NV_shader_texture_footprint;
+    public static int GL_TEXTURE_INTENSITY_TYPE() {
+        return GL_TEXTURE_INTENSITY_TYPE;
     }
-    private static final int GL_NV_shader_thread_group = (int)1L;
+    private static final int GL_FRAMEBUFFER_SRGB = (int)36281L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_shader_thread_group 1
+     * #define GL_FRAMEBUFFER_SRGB 36281
      * }
      */
-    public static int GL_NV_shader_thread_group() {
-        return GL_NV_shader_thread_group;
+    public static int GL_FRAMEBUFFER_SRGB() {
+        return GL_FRAMEBUFFER_SRGB;
     }
-    private static final int GL_WARP_SIZE_NV = (int)37689L;
+    private static final int GL_HALF_FLOAT = (int)5131L;
     /**
      * {@snippet lang=c :
-     * #define GL_WARP_SIZE_NV 37689
+     * #define GL_HALF_FLOAT 5131
      * }
      */
-    public static int GL_WARP_SIZE_NV() {
-        return GL_WARP_SIZE_NV;
+    public static int GL_HALF_FLOAT() {
+        return GL_HALF_FLOAT;
     }
-    private static final int GL_WARPS_PER_SM_NV = (int)37690L;
+    private static final int GL_MAP_READ_BIT = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_WARPS_PER_SM_NV 37690
+     * #define GL_MAP_READ_BIT 1
      * }
      */
-    public static int GL_WARPS_PER_SM_NV() {
-        return GL_WARPS_PER_SM_NV;
+    public static int GL_MAP_READ_BIT() {
+        return GL_MAP_READ_BIT;
     }
-    private static final int GL_SM_COUNT_NV = (int)37691L;
+    private static final int GL_MAP_WRITE_BIT = (int)2L;
     /**
      * {@snippet lang=c :
-     * #define GL_SM_COUNT_NV 37691
+     * #define GL_MAP_WRITE_BIT 2
      * }
      */
-    public static int GL_SM_COUNT_NV() {
-        return GL_SM_COUNT_NV;
+    public static int GL_MAP_WRITE_BIT() {
+        return GL_MAP_WRITE_BIT;
     }
-    private static final int GL_NV_shader_thread_shuffle = (int)1L;
+    private static final int GL_MAP_INVALIDATE_RANGE_BIT = (int)4L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_shader_thread_shuffle 1
+     * #define GL_MAP_INVALIDATE_RANGE_BIT 4
      * }
      */
-    public static int GL_NV_shader_thread_shuffle() {
-        return GL_NV_shader_thread_shuffle;
+    public static int GL_MAP_INVALIDATE_RANGE_BIT() {
+        return GL_MAP_INVALIDATE_RANGE_BIT;
     }
-    private static final int GL_NV_shading_rate_image = (int)1L;
+    private static final int GL_MAP_INVALIDATE_BUFFER_BIT = (int)8L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_shading_rate_image 1
+     * #define GL_MAP_INVALIDATE_BUFFER_BIT 8
      * }
      */
-    public static int GL_NV_shading_rate_image() {
-        return GL_NV_shading_rate_image;
+    public static int GL_MAP_INVALIDATE_BUFFER_BIT() {
+        return GL_MAP_INVALIDATE_BUFFER_BIT;
     }
-    private static final int GL_SHADING_RATE_IMAGE_NV = (int)38243L;
+    private static final int GL_MAP_FLUSH_EXPLICIT_BIT = (int)16L;
     /**
      * {@snippet lang=c :
-     * #define GL_SHADING_RATE_IMAGE_NV 38243
+     * #define GL_MAP_FLUSH_EXPLICIT_BIT 16
      * }
      */
-    public static int GL_SHADING_RATE_IMAGE_NV() {
-        return GL_SHADING_RATE_IMAGE_NV;
+    public static int GL_MAP_FLUSH_EXPLICIT_BIT() {
+        return GL_MAP_FLUSH_EXPLICIT_BIT;
     }
-    private static final int GL_SHADING_RATE_NO_INVOCATIONS_NV = (int)38244L;
+    private static final int GL_MAP_UNSYNCHRONIZED_BIT = (int)32L;
     /**
      * {@snippet lang=c :
-     * #define GL_SHADING_RATE_NO_INVOCATIONS_NV 38244
+     * #define GL_MAP_UNSYNCHRONIZED_BIT 32
      * }
      */
-    public static int GL_SHADING_RATE_NO_INVOCATIONS_NV() {
-        return GL_SHADING_RATE_NO_INVOCATIONS_NV;
+    public static int GL_MAP_UNSYNCHRONIZED_BIT() {
+        return GL_MAP_UNSYNCHRONIZED_BIT;
     }
-    private static final int GL_SHADING_RATE_1_INVOCATION_PER_PIXEL_NV = (int)38245L;
+    private static final int GL_COMPRESSED_RED_RGTC1 = (int)36283L;
     /**
      * {@snippet lang=c :
-     * #define GL_SHADING_RATE_1_INVOCATION_PER_PIXEL_NV 38245
+     * #define GL_COMPRESSED_RED_RGTC1 36283
      * }
      */
-    public static int GL_SHADING_RATE_1_INVOCATION_PER_PIXEL_NV() {
-        return GL_SHADING_RATE_1_INVOCATION_PER_PIXEL_NV;
+    public static int GL_COMPRESSED_RED_RGTC1() {
+        return GL_COMPRESSED_RED_RGTC1;
     }
-    private static final int GL_SHADING_RATE_1_INVOCATION_PER_1X2_PIXELS_NV = (int)38246L;
+    private static final int GL_COMPRESSED_SIGNED_RED_RGTC1 = (int)36284L;
     /**
      * {@snippet lang=c :
-     * #define GL_SHADING_RATE_1_INVOCATION_PER_1X2_PIXELS_NV 38246
+     * #define GL_COMPRESSED_SIGNED_RED_RGTC1 36284
      * }
      */
-    public static int GL_SHADING_RATE_1_INVOCATION_PER_1X2_PIXELS_NV() {
-        return GL_SHADING_RATE_1_INVOCATION_PER_1X2_PIXELS_NV;
+    public static int GL_COMPRESSED_SIGNED_RED_RGTC1() {
+        return GL_COMPRESSED_SIGNED_RED_RGTC1;
     }
-    private static final int GL_SHADING_RATE_1_INVOCATION_PER_2X1_PIXELS_NV = (int)38247L;
+    private static final int GL_COMPRESSED_RG_RGTC2 = (int)36285L;
     /**
      * {@snippet lang=c :
-     * #define GL_SHADING_RATE_1_INVOCATION_PER_2X1_PIXELS_NV 38247
+     * #define GL_COMPRESSED_RG_RGTC2 36285
      * }
      */
-    public static int GL_SHADING_RATE_1_INVOCATION_PER_2X1_PIXELS_NV() {
-        return GL_SHADING_RATE_1_INVOCATION_PER_2X1_PIXELS_NV;
+    public static int GL_COMPRESSED_RG_RGTC2() {
+        return GL_COMPRESSED_RG_RGTC2;
     }
-    private static final int GL_SHADING_RATE_1_INVOCATION_PER_2X2_PIXELS_NV = (int)38248L;
+    private static final int GL_COMPRESSED_SIGNED_RG_RGTC2 = (int)36286L;
     /**
      * {@snippet lang=c :
-     * #define GL_SHADING_RATE_1_INVOCATION_PER_2X2_PIXELS_NV 38248
+     * #define GL_COMPRESSED_SIGNED_RG_RGTC2 36286
      * }
      */
-    public static int GL_SHADING_RATE_1_INVOCATION_PER_2X2_PIXELS_NV() {
-        return GL_SHADING_RATE_1_INVOCATION_PER_2X2_PIXELS_NV;
+    public static int GL_COMPRESSED_SIGNED_RG_RGTC2() {
+        return GL_COMPRESSED_SIGNED_RG_RGTC2;
     }
-    private static final int GL_SHADING_RATE_1_INVOCATION_PER_2X4_PIXELS_NV = (int)38249L;
+    private static final int GL_RG = (int)33319L;
     /**
      * {@snippet lang=c :
-     * #define GL_SHADING_RATE_1_INVOCATION_PER_2X4_PIXELS_NV 38249
+     * #define GL_RG 33319
      * }
      */
-    public static int GL_SHADING_RATE_1_INVOCATION_PER_2X4_PIXELS_NV() {
-        return GL_SHADING_RATE_1_INVOCATION_PER_2X4_PIXELS_NV;
+    public static int GL_RG() {
+        return GL_RG;
     }
-    private static final int GL_SHADING_RATE_1_INVOCATION_PER_4X2_PIXELS_NV = (int)38250L;
+    private static final int GL_RG_INTEGER = (int)33320L;
     /**
      * {@snippet lang=c :
-     * #define GL_SHADING_RATE_1_INVOCATION_PER_4X2_PIXELS_NV 38250
+     * #define GL_RG_INTEGER 33320
      * }
      */
-    public static int GL_SHADING_RATE_1_INVOCATION_PER_4X2_PIXELS_NV() {
-        return GL_SHADING_RATE_1_INVOCATION_PER_4X2_PIXELS_NV;
+    public static int GL_RG_INTEGER() {
+        return GL_RG_INTEGER;
     }
-    private static final int GL_SHADING_RATE_1_INVOCATION_PER_4X4_PIXELS_NV = (int)38251L;
+    private static final int GL_R8 = (int)33321L;
     /**
      * {@snippet lang=c :
-     * #define GL_SHADING_RATE_1_INVOCATION_PER_4X4_PIXELS_NV 38251
+     * #define GL_R8 33321
      * }
      */
-    public static int GL_SHADING_RATE_1_INVOCATION_PER_4X4_PIXELS_NV() {
-        return GL_SHADING_RATE_1_INVOCATION_PER_4X4_PIXELS_NV;
+    public static int GL_R8() {
+        return GL_R8;
     }
-    private static final int GL_SHADING_RATE_2_INVOCATIONS_PER_PIXEL_NV = (int)38252L;
+    private static final int GL_R16 = (int)33322L;
     /**
      * {@snippet lang=c :
-     * #define GL_SHADING_RATE_2_INVOCATIONS_PER_PIXEL_NV 38252
+     * #define GL_R16 33322
      * }
      */
-    public static int GL_SHADING_RATE_2_INVOCATIONS_PER_PIXEL_NV() {
-        return GL_SHADING_RATE_2_INVOCATIONS_PER_PIXEL_NV;
+    public static int GL_R16() {
+        return GL_R16;
     }
-    private static final int GL_SHADING_RATE_4_INVOCATIONS_PER_PIXEL_NV = (int)38253L;
+    private static final int GL_RG8 = (int)33323L;
     /**
      * {@snippet lang=c :
-     * #define GL_SHADING_RATE_4_INVOCATIONS_PER_PIXEL_NV 38253
+     * #define GL_RG8 33323
      * }
      */
-    public static int GL_SHADING_RATE_4_INVOCATIONS_PER_PIXEL_NV() {
-        return GL_SHADING_RATE_4_INVOCATIONS_PER_PIXEL_NV;
+    public static int GL_RG8() {
+        return GL_RG8;
     }
-    private static final int GL_SHADING_RATE_8_INVOCATIONS_PER_PIXEL_NV = (int)38254L;
+    private static final int GL_RG16 = (int)33324L;
     /**
      * {@snippet lang=c :
-     * #define GL_SHADING_RATE_8_INVOCATIONS_PER_PIXEL_NV 38254
+     * #define GL_RG16 33324
      * }
      */
-    public static int GL_SHADING_RATE_8_INVOCATIONS_PER_PIXEL_NV() {
-        return GL_SHADING_RATE_8_INVOCATIONS_PER_PIXEL_NV;
+    public static int GL_RG16() {
+        return GL_RG16;
     }
-    private static final int GL_SHADING_RATE_16_INVOCATIONS_PER_PIXEL_NV = (int)38255L;
+    private static final int GL_R16F = (int)33325L;
     /**
      * {@snippet lang=c :
-     * #define GL_SHADING_RATE_16_INVOCATIONS_PER_PIXEL_NV 38255
+     * #define GL_R16F 33325
      * }
      */
-    public static int GL_SHADING_RATE_16_INVOCATIONS_PER_PIXEL_NV() {
-        return GL_SHADING_RATE_16_INVOCATIONS_PER_PIXEL_NV;
+    public static int GL_R16F() {
+        return GL_R16F;
     }
-    private static final int GL_SHADING_RATE_IMAGE_BINDING_NV = (int)38235L;
+    private static final int GL_R32F = (int)33326L;
     /**
      * {@snippet lang=c :
-     * #define GL_SHADING_RATE_IMAGE_BINDING_NV 38235
+     * #define GL_R32F 33326
      * }
      */
-    public static int GL_SHADING_RATE_IMAGE_BINDING_NV() {
-        return GL_SHADING_RATE_IMAGE_BINDING_NV;
+    public static int GL_R32F() {
+        return GL_R32F;
     }
-    private static final int GL_SHADING_RATE_IMAGE_TEXEL_WIDTH_NV = (int)38236L;
+    private static final int GL_RG16F = (int)33327L;
     /**
      * {@snippet lang=c :
-     * #define GL_SHADING_RATE_IMAGE_TEXEL_WIDTH_NV 38236
+     * #define GL_RG16F 33327
      * }
      */
-    public static int GL_SHADING_RATE_IMAGE_TEXEL_WIDTH_NV() {
-        return GL_SHADING_RATE_IMAGE_TEXEL_WIDTH_NV;
+    public static int GL_RG16F() {
+        return GL_RG16F;
     }
-    private static final int GL_SHADING_RATE_IMAGE_TEXEL_HEIGHT_NV = (int)38237L;
+    private static final int GL_RG32F = (int)33328L;
     /**
      * {@snippet lang=c :
-     * #define GL_SHADING_RATE_IMAGE_TEXEL_HEIGHT_NV 38237
+     * #define GL_RG32F 33328
      * }
      */
-    public static int GL_SHADING_RATE_IMAGE_TEXEL_HEIGHT_NV() {
-        return GL_SHADING_RATE_IMAGE_TEXEL_HEIGHT_NV;
+    public static int GL_RG32F() {
+        return GL_RG32F;
     }
-    private static final int GL_SHADING_RATE_IMAGE_PALETTE_SIZE_NV = (int)38238L;
+    private static final int GL_R8I = (int)33329L;
     /**
      * {@snippet lang=c :
-     * #define GL_SHADING_RATE_IMAGE_PALETTE_SIZE_NV 38238
+     * #define GL_R8I 33329
      * }
      */
-    public static int GL_SHADING_RATE_IMAGE_PALETTE_SIZE_NV() {
-        return GL_SHADING_RATE_IMAGE_PALETTE_SIZE_NV;
+    public static int GL_R8I() {
+        return GL_R8I;
     }
-    private static final int GL_MAX_COARSE_FRAGMENT_SAMPLES_NV = (int)38239L;
+    private static final int GL_R8UI = (int)33330L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAX_COARSE_FRAGMENT_SAMPLES_NV 38239
+     * #define GL_R8UI 33330
      * }
      */
-    public static int GL_MAX_COARSE_FRAGMENT_SAMPLES_NV() {
-        return GL_MAX_COARSE_FRAGMENT_SAMPLES_NV;
+    public static int GL_R8UI() {
+        return GL_R8UI;
     }
-    private static final int GL_SHADING_RATE_SAMPLE_ORDER_DEFAULT_NV = (int)38318L;
+    private static final int GL_R16I = (int)33331L;
     /**
      * {@snippet lang=c :
-     * #define GL_SHADING_RATE_SAMPLE_ORDER_DEFAULT_NV 38318
+     * #define GL_R16I 33331
      * }
      */
-    public static int GL_SHADING_RATE_SAMPLE_ORDER_DEFAULT_NV() {
-        return GL_SHADING_RATE_SAMPLE_ORDER_DEFAULT_NV;
+    public static int GL_R16I() {
+        return GL_R16I;
     }
-    private static final int GL_SHADING_RATE_SAMPLE_ORDER_PIXEL_MAJOR_NV = (int)38319L;
+    private static final int GL_R16UI = (int)33332L;
     /**
      * {@snippet lang=c :
-     * #define GL_SHADING_RATE_SAMPLE_ORDER_PIXEL_MAJOR_NV 38319
+     * #define GL_R16UI 33332
      * }
      */
-    public static int GL_SHADING_RATE_SAMPLE_ORDER_PIXEL_MAJOR_NV() {
-        return GL_SHADING_RATE_SAMPLE_ORDER_PIXEL_MAJOR_NV;
+    public static int GL_R16UI() {
+        return GL_R16UI;
     }
-    private static final int GL_SHADING_RATE_SAMPLE_ORDER_SAMPLE_MAJOR_NV = (int)38320L;
+    private static final int GL_R32I = (int)33333L;
     /**
      * {@snippet lang=c :
-     * #define GL_SHADING_RATE_SAMPLE_ORDER_SAMPLE_MAJOR_NV 38320
+     * #define GL_R32I 33333
      * }
      */
-    public static int GL_SHADING_RATE_SAMPLE_ORDER_SAMPLE_MAJOR_NV() {
-        return GL_SHADING_RATE_SAMPLE_ORDER_SAMPLE_MAJOR_NV;
+    public static int GL_R32I() {
+        return GL_R32I;
     }
-    private static final int GL_NV_stereo_view_rendering = (int)1L;
+    private static final int GL_R32UI = (int)33334L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_stereo_view_rendering 1
+     * #define GL_R32UI 33334
      * }
      */
-    public static int GL_NV_stereo_view_rendering() {
-        return GL_NV_stereo_view_rendering;
+    public static int GL_R32UI() {
+        return GL_R32UI;
     }
-    private static final int GL_NV_tessellation_program5 = (int)1L;
+    private static final int GL_RG8I = (int)33335L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_tessellation_program5 1
+     * #define GL_RG8I 33335
      * }
      */
-    public static int GL_NV_tessellation_program5() {
-        return GL_NV_tessellation_program5;
+    public static int GL_RG8I() {
+        return GL_RG8I;
     }
-    private static final int GL_MAX_PROGRAM_PATCH_ATTRIBS_NV = (int)34520L;
+    private static final int GL_RG8UI = (int)33336L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAX_PROGRAM_PATCH_ATTRIBS_NV 34520
+     * #define GL_RG8UI 33336
      * }
      */
-    public static int GL_MAX_PROGRAM_PATCH_ATTRIBS_NV() {
-        return GL_MAX_PROGRAM_PATCH_ATTRIBS_NV;
+    public static int GL_RG8UI() {
+        return GL_RG8UI;
     }
-    private static final int GL_TESS_CONTROL_PROGRAM_NV = (int)35102L;
+    private static final int GL_RG16I = (int)33337L;
     /**
      * {@snippet lang=c :
-     * #define GL_TESS_CONTROL_PROGRAM_NV 35102
+     * #define GL_RG16I 33337
      * }
      */
-    public static int GL_TESS_CONTROL_PROGRAM_NV() {
-        return GL_TESS_CONTROL_PROGRAM_NV;
+    public static int GL_RG16I() {
+        return GL_RG16I;
     }
-    private static final int GL_TESS_EVALUATION_PROGRAM_NV = (int)35103L;
+    private static final int GL_RG16UI = (int)33338L;
     /**
      * {@snippet lang=c :
-     * #define GL_TESS_EVALUATION_PROGRAM_NV 35103
+     * #define GL_RG16UI 33338
      * }
      */
-    public static int GL_TESS_EVALUATION_PROGRAM_NV() {
-        return GL_TESS_EVALUATION_PROGRAM_NV;
+    public static int GL_RG16UI() {
+        return GL_RG16UI;
     }
-    private static final int GL_TESS_CONTROL_PROGRAM_PARAMETER_BUFFER_NV = (int)35956L;
+    private static final int GL_RG32I = (int)33339L;
     /**
      * {@snippet lang=c :
-     * #define GL_TESS_CONTROL_PROGRAM_PARAMETER_BUFFER_NV 35956
+     * #define GL_RG32I 33339
      * }
      */
-    public static int GL_TESS_CONTROL_PROGRAM_PARAMETER_BUFFER_NV() {
-        return GL_TESS_CONTROL_PROGRAM_PARAMETER_BUFFER_NV;
+    public static int GL_RG32I() {
+        return GL_RG32I;
     }
-    private static final int GL_TESS_EVALUATION_PROGRAM_PARAMETER_BUFFER_NV = (int)35957L;
+    private static final int GL_RG32UI = (int)33340L;
     /**
      * {@snippet lang=c :
-     * #define GL_TESS_EVALUATION_PROGRAM_PARAMETER_BUFFER_NV 35957
+     * #define GL_RG32UI 33340
      * }
      */
-    public static int GL_TESS_EVALUATION_PROGRAM_PARAMETER_BUFFER_NV() {
-        return GL_TESS_EVALUATION_PROGRAM_PARAMETER_BUFFER_NV;
+    public static int GL_RG32UI() {
+        return GL_RG32UI;
     }
-    private static final int GL_NV_texgen_emboss = (int)1L;
+    private static final int GL_VERTEX_ARRAY_BINDING = (int)34229L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_texgen_emboss 1
+     * #define GL_VERTEX_ARRAY_BINDING 34229
      * }
      */
-    public static int GL_NV_texgen_emboss() {
-        return GL_NV_texgen_emboss;
+    public static int GL_VERTEX_ARRAY_BINDING() {
+        return GL_VERTEX_ARRAY_BINDING;
     }
-    private static final int GL_EMBOSS_LIGHT_NV = (int)34141L;
+    private static final int GL_CLAMP_VERTEX_COLOR = (int)35098L;
     /**
      * {@snippet lang=c :
-     * #define GL_EMBOSS_LIGHT_NV 34141
+     * #define GL_CLAMP_VERTEX_COLOR 35098
      * }
      */
-    public static int GL_EMBOSS_LIGHT_NV() {
-        return GL_EMBOSS_LIGHT_NV;
+    public static int GL_CLAMP_VERTEX_COLOR() {
+        return GL_CLAMP_VERTEX_COLOR;
     }
-    private static final int GL_EMBOSS_CONSTANT_NV = (int)34142L;
+    private static final int GL_CLAMP_FRAGMENT_COLOR = (int)35099L;
     /**
      * {@snippet lang=c :
-     * #define GL_EMBOSS_CONSTANT_NV 34142
+     * #define GL_CLAMP_FRAGMENT_COLOR 35099
      * }
      */
-    public static int GL_EMBOSS_CONSTANT_NV() {
-        return GL_EMBOSS_CONSTANT_NV;
+    public static int GL_CLAMP_FRAGMENT_COLOR() {
+        return GL_CLAMP_FRAGMENT_COLOR;
     }
-    private static final int GL_EMBOSS_MAP_NV = (int)34143L;
+    private static final int GL_ALPHA_INTEGER = (int)36247L;
     /**
      * {@snippet lang=c :
-     * #define GL_EMBOSS_MAP_NV 34143
+     * #define GL_ALPHA_INTEGER 36247
      * }
      */
-    public static int GL_EMBOSS_MAP_NV() {
-        return GL_EMBOSS_MAP_NV;
+    public static int GL_ALPHA_INTEGER() {
+        return GL_ALPHA_INTEGER;
     }
-    private static final int GL_NV_texgen_reflection = (int)1L;
+    private static final int GL_VERSION_3_1 = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_texgen_reflection 1
+     * #define GL_VERSION_3_1 1
      * }
      */
-    public static int GL_NV_texgen_reflection() {
-        return GL_NV_texgen_reflection;
+    public static int GL_VERSION_3_1() {
+        return GL_VERSION_3_1;
     }
-    private static final int GL_NORMAL_MAP_NV = (int)34065L;
+    private static final int GL_SAMPLER_2D_RECT = (int)35683L;
     /**
      * {@snippet lang=c :
-     * #define GL_NORMAL_MAP_NV 34065
+     * #define GL_SAMPLER_2D_RECT 35683
      * }
      */
-    public static int GL_NORMAL_MAP_NV() {
-        return GL_NORMAL_MAP_NV;
+    public static int GL_SAMPLER_2D_RECT() {
+        return GL_SAMPLER_2D_RECT;
     }
-    private static final int GL_REFLECTION_MAP_NV = (int)34066L;
+    private static final int GL_SAMPLER_2D_RECT_SHADOW = (int)35684L;
     /**
      * {@snippet lang=c :
-     * #define GL_REFLECTION_MAP_NV 34066
+     * #define GL_SAMPLER_2D_RECT_SHADOW 35684
      * }
      */
-    public static int GL_REFLECTION_MAP_NV() {
-        return GL_REFLECTION_MAP_NV;
+    public static int GL_SAMPLER_2D_RECT_SHADOW() {
+        return GL_SAMPLER_2D_RECT_SHADOW;
     }
-    private static final int GL_NV_texture_barrier = (int)1L;
+    private static final int GL_SAMPLER_BUFFER = (int)36290L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_texture_barrier 1
+     * #define GL_SAMPLER_BUFFER 36290
      * }
      */
-    public static int GL_NV_texture_barrier() {
-        return GL_NV_texture_barrier;
+    public static int GL_SAMPLER_BUFFER() {
+        return GL_SAMPLER_BUFFER;
     }
-    private static final int GL_NV_texture_compression_vtc = (int)1L;
+    private static final int GL_INT_SAMPLER_2D_RECT = (int)36301L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_texture_compression_vtc 1
+     * #define GL_INT_SAMPLER_2D_RECT 36301
      * }
      */
-    public static int GL_NV_texture_compression_vtc() {
-        return GL_NV_texture_compression_vtc;
+    public static int GL_INT_SAMPLER_2D_RECT() {
+        return GL_INT_SAMPLER_2D_RECT;
     }
-    private static final int GL_NV_texture_env_combine4 = (int)1L;
+    private static final int GL_INT_SAMPLER_BUFFER = (int)36304L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_texture_env_combine4 1
+     * #define GL_INT_SAMPLER_BUFFER 36304
      * }
      */
-    public static int GL_NV_texture_env_combine4() {
-        return GL_NV_texture_env_combine4;
+    public static int GL_INT_SAMPLER_BUFFER() {
+        return GL_INT_SAMPLER_BUFFER;
     }
-    private static final int GL_COMBINE4_NV = (int)34051L;
+    private static final int GL_UNSIGNED_INT_SAMPLER_2D_RECT = (int)36309L;
     /**
      * {@snippet lang=c :
-     * #define GL_COMBINE4_NV 34051
+     * #define GL_UNSIGNED_INT_SAMPLER_2D_RECT 36309
      * }
      */
-    public static int GL_COMBINE4_NV() {
-        return GL_COMBINE4_NV;
+    public static int GL_UNSIGNED_INT_SAMPLER_2D_RECT() {
+        return GL_UNSIGNED_INT_SAMPLER_2D_RECT;
     }
-    private static final int GL_SOURCE3_RGB_NV = (int)34179L;
+    private static final int GL_UNSIGNED_INT_SAMPLER_BUFFER = (int)36312L;
     /**
      * {@snippet lang=c :
-     * #define GL_SOURCE3_RGB_NV 34179
+     * #define GL_UNSIGNED_INT_SAMPLER_BUFFER 36312
      * }
      */
-    public static int GL_SOURCE3_RGB_NV() {
-        return GL_SOURCE3_RGB_NV;
+    public static int GL_UNSIGNED_INT_SAMPLER_BUFFER() {
+        return GL_UNSIGNED_INT_SAMPLER_BUFFER;
     }
-    private static final int GL_SOURCE3_ALPHA_NV = (int)34187L;
+    private static final int GL_TEXTURE_BUFFER = (int)35882L;
     /**
      * {@snippet lang=c :
-     * #define GL_SOURCE3_ALPHA_NV 34187
+     * #define GL_TEXTURE_BUFFER 35882
      * }
      */
-    public static int GL_SOURCE3_ALPHA_NV() {
-        return GL_SOURCE3_ALPHA_NV;
+    public static int GL_TEXTURE_BUFFER() {
+        return GL_TEXTURE_BUFFER;
     }
-    private static final int GL_OPERAND3_RGB_NV = (int)34195L;
+    private static final int GL_MAX_TEXTURE_BUFFER_SIZE = (int)35883L;
     /**
      * {@snippet lang=c :
-     * #define GL_OPERAND3_RGB_NV 34195
+     * #define GL_MAX_TEXTURE_BUFFER_SIZE 35883
      * }
      */
-    public static int GL_OPERAND3_RGB_NV() {
-        return GL_OPERAND3_RGB_NV;
+    public static int GL_MAX_TEXTURE_BUFFER_SIZE() {
+        return GL_MAX_TEXTURE_BUFFER_SIZE;
     }
-    private static final int GL_OPERAND3_ALPHA_NV = (int)34203L;
+    private static final int GL_TEXTURE_BINDING_BUFFER = (int)35884L;
     /**
      * {@snippet lang=c :
-     * #define GL_OPERAND3_ALPHA_NV 34203
+     * #define GL_TEXTURE_BINDING_BUFFER 35884
      * }
      */
-    public static int GL_OPERAND3_ALPHA_NV() {
-        return GL_OPERAND3_ALPHA_NV;
+    public static int GL_TEXTURE_BINDING_BUFFER() {
+        return GL_TEXTURE_BINDING_BUFFER;
     }
-    private static final int GL_NV_texture_expand_normal = (int)1L;
+    private static final int GL_TEXTURE_BUFFER_DATA_STORE_BINDING = (int)35885L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_texture_expand_normal 1
+     * #define GL_TEXTURE_BUFFER_DATA_STORE_BINDING 35885
      * }
      */
-    public static int GL_NV_texture_expand_normal() {
-        return GL_NV_texture_expand_normal;
+    public static int GL_TEXTURE_BUFFER_DATA_STORE_BINDING() {
+        return GL_TEXTURE_BUFFER_DATA_STORE_BINDING;
     }
-    private static final int GL_TEXTURE_UNSIGNED_REMAP_MODE_NV = (int)34959L;
+    private static final int GL_TEXTURE_RECTANGLE = (int)34037L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_UNSIGNED_REMAP_MODE_NV 34959
+     * #define GL_TEXTURE_RECTANGLE 34037
      * }
      */
-    public static int GL_TEXTURE_UNSIGNED_REMAP_MODE_NV() {
-        return GL_TEXTURE_UNSIGNED_REMAP_MODE_NV;
+    public static int GL_TEXTURE_RECTANGLE() {
+        return GL_TEXTURE_RECTANGLE;
     }
-    private static final int GL_NV_texture_multisample = (int)1L;
+    private static final int GL_TEXTURE_BINDING_RECTANGLE = (int)34038L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_texture_multisample 1
+     * #define GL_TEXTURE_BINDING_RECTANGLE 34038
      * }
      */
-    public static int GL_NV_texture_multisample() {
-        return GL_NV_texture_multisample;
+    public static int GL_TEXTURE_BINDING_RECTANGLE() {
+        return GL_TEXTURE_BINDING_RECTANGLE;
     }
-    private static final int GL_TEXTURE_COVERAGE_SAMPLES_NV = (int)36933L;
+    private static final int GL_PROXY_TEXTURE_RECTANGLE = (int)34039L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_COVERAGE_SAMPLES_NV 36933
+     * #define GL_PROXY_TEXTURE_RECTANGLE 34039
      * }
      */
-    public static int GL_TEXTURE_COVERAGE_SAMPLES_NV() {
-        return GL_TEXTURE_COVERAGE_SAMPLES_NV;
+    public static int GL_PROXY_TEXTURE_RECTANGLE() {
+        return GL_PROXY_TEXTURE_RECTANGLE;
     }
-    private static final int GL_TEXTURE_COLOR_SAMPLES_NV = (int)36934L;
+    private static final int GL_MAX_RECTANGLE_TEXTURE_SIZE = (int)34040L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_COLOR_SAMPLES_NV 36934
+     * #define GL_MAX_RECTANGLE_TEXTURE_SIZE 34040
      * }
      */
-    public static int GL_TEXTURE_COLOR_SAMPLES_NV() {
-        return GL_TEXTURE_COLOR_SAMPLES_NV;
+    public static int GL_MAX_RECTANGLE_TEXTURE_SIZE() {
+        return GL_MAX_RECTANGLE_TEXTURE_SIZE;
     }
-    private static final int GL_NV_texture_rectangle = (int)1L;
+    private static final int GL_R8_SNORM = (int)36756L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_texture_rectangle 1
+     * #define GL_R8_SNORM 36756
      * }
      */
-    public static int GL_NV_texture_rectangle() {
-        return GL_NV_texture_rectangle;
+    public static int GL_R8_SNORM() {
+        return GL_R8_SNORM;
     }
-    private static final int GL_TEXTURE_RECTANGLE_NV = (int)34037L;
+    private static final int GL_RG8_SNORM = (int)36757L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_RECTANGLE_NV 34037
+     * #define GL_RG8_SNORM 36757
      * }
      */
-    public static int GL_TEXTURE_RECTANGLE_NV() {
-        return GL_TEXTURE_RECTANGLE_NV;
+    public static int GL_RG8_SNORM() {
+        return GL_RG8_SNORM;
     }
-    private static final int GL_TEXTURE_BINDING_RECTANGLE_NV = (int)34038L;
+    private static final int GL_RGB8_SNORM = (int)36758L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_BINDING_RECTANGLE_NV 34038
+     * #define GL_RGB8_SNORM 36758
      * }
      */
-    public static int GL_TEXTURE_BINDING_RECTANGLE_NV() {
-        return GL_TEXTURE_BINDING_RECTANGLE_NV;
+    public static int GL_RGB8_SNORM() {
+        return GL_RGB8_SNORM;
     }
-    private static final int GL_PROXY_TEXTURE_RECTANGLE_NV = (int)34039L;
+    private static final int GL_RGBA8_SNORM = (int)36759L;
     /**
      * {@snippet lang=c :
-     * #define GL_PROXY_TEXTURE_RECTANGLE_NV 34039
+     * #define GL_RGBA8_SNORM 36759
      * }
      */
-    public static int GL_PROXY_TEXTURE_RECTANGLE_NV() {
-        return GL_PROXY_TEXTURE_RECTANGLE_NV;
+    public static int GL_RGBA8_SNORM() {
+        return GL_RGBA8_SNORM;
     }
-    private static final int GL_MAX_RECTANGLE_TEXTURE_SIZE_NV = (int)34040L;
+    private static final int GL_R16_SNORM = (int)36760L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAX_RECTANGLE_TEXTURE_SIZE_NV 34040
+     * #define GL_R16_SNORM 36760
      * }
      */
-    public static int GL_MAX_RECTANGLE_TEXTURE_SIZE_NV() {
-        return GL_MAX_RECTANGLE_TEXTURE_SIZE_NV;
+    public static int GL_R16_SNORM() {
+        return GL_R16_SNORM;
     }
-    private static final int GL_NV_texture_rectangle_compressed = (int)1L;
+    private static final int GL_RG16_SNORM = (int)36761L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_texture_rectangle_compressed 1
+     * #define GL_RG16_SNORM 36761
      * }
      */
-    public static int GL_NV_texture_rectangle_compressed() {
-        return GL_NV_texture_rectangle_compressed;
+    public static int GL_RG16_SNORM() {
+        return GL_RG16_SNORM;
     }
-    private static final int GL_NV_texture_shader = (int)1L;
+    private static final int GL_RGB16_SNORM = (int)36762L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_texture_shader 1
+     * #define GL_RGB16_SNORM 36762
      * }
      */
-    public static int GL_NV_texture_shader() {
-        return GL_NV_texture_shader;
+    public static int GL_RGB16_SNORM() {
+        return GL_RGB16_SNORM;
     }
-    private static final int GL_OFFSET_TEXTURE_RECTANGLE_NV = (int)34380L;
+    private static final int GL_RGBA16_SNORM = (int)36763L;
     /**
      * {@snippet lang=c :
-     * #define GL_OFFSET_TEXTURE_RECTANGLE_NV 34380
+     * #define GL_RGBA16_SNORM 36763
      * }
      */
-    public static int GL_OFFSET_TEXTURE_RECTANGLE_NV() {
-        return GL_OFFSET_TEXTURE_RECTANGLE_NV;
+    public static int GL_RGBA16_SNORM() {
+        return GL_RGBA16_SNORM;
     }
-    private static final int GL_OFFSET_TEXTURE_RECTANGLE_SCALE_NV = (int)34381L;
+    private static final int GL_SIGNED_NORMALIZED = (int)36764L;
     /**
      * {@snippet lang=c :
-     * #define GL_OFFSET_TEXTURE_RECTANGLE_SCALE_NV 34381
+     * #define GL_SIGNED_NORMALIZED 36764
      * }
      */
-    public static int GL_OFFSET_TEXTURE_RECTANGLE_SCALE_NV() {
-        return GL_OFFSET_TEXTURE_RECTANGLE_SCALE_NV;
+    public static int GL_SIGNED_NORMALIZED() {
+        return GL_SIGNED_NORMALIZED;
     }
-    private static final int GL_DOT_PRODUCT_TEXTURE_RECTANGLE_NV = (int)34382L;
+    private static final int GL_PRIMITIVE_RESTART = (int)36765L;
     /**
      * {@snippet lang=c :
-     * #define GL_DOT_PRODUCT_TEXTURE_RECTANGLE_NV 34382
+     * #define GL_PRIMITIVE_RESTART 36765
      * }
      */
-    public static int GL_DOT_PRODUCT_TEXTURE_RECTANGLE_NV() {
-        return GL_DOT_PRODUCT_TEXTURE_RECTANGLE_NV;
+    public static int GL_PRIMITIVE_RESTART() {
+        return GL_PRIMITIVE_RESTART;
     }
-    private static final int GL_RGBA_UNSIGNED_DOT_PRODUCT_MAPPING_NV = (int)34521L;
+    private static final int GL_PRIMITIVE_RESTART_INDEX = (int)36766L;
     /**
      * {@snippet lang=c :
-     * #define GL_RGBA_UNSIGNED_DOT_PRODUCT_MAPPING_NV 34521
+     * #define GL_PRIMITIVE_RESTART_INDEX 36766
      * }
      */
-    public static int GL_RGBA_UNSIGNED_DOT_PRODUCT_MAPPING_NV() {
-        return GL_RGBA_UNSIGNED_DOT_PRODUCT_MAPPING_NV;
+    public static int GL_PRIMITIVE_RESTART_INDEX() {
+        return GL_PRIMITIVE_RESTART_INDEX;
     }
-    private static final int GL_UNSIGNED_INT_S8_S8_8_8_NV = (int)34522L;
+    private static final int GL_COPY_READ_BUFFER = (int)36662L;
     /**
      * {@snippet lang=c :
-     * #define GL_UNSIGNED_INT_S8_S8_8_8_NV 34522
+     * #define GL_COPY_READ_BUFFER 36662
      * }
      */
-    public static int GL_UNSIGNED_INT_S8_S8_8_8_NV() {
-        return GL_UNSIGNED_INT_S8_S8_8_8_NV;
+    public static int GL_COPY_READ_BUFFER() {
+        return GL_COPY_READ_BUFFER;
     }
-    private static final int GL_UNSIGNED_INT_8_8_S8_S8_REV_NV = (int)34523L;
+    private static final int GL_COPY_WRITE_BUFFER = (int)36663L;
     /**
      * {@snippet lang=c :
-     * #define GL_UNSIGNED_INT_8_8_S8_S8_REV_NV 34523
+     * #define GL_COPY_WRITE_BUFFER 36663
      * }
      */
-    public static int GL_UNSIGNED_INT_8_8_S8_S8_REV_NV() {
-        return GL_UNSIGNED_INT_8_8_S8_S8_REV_NV;
+    public static int GL_COPY_WRITE_BUFFER() {
+        return GL_COPY_WRITE_BUFFER;
     }
-    private static final int GL_DSDT_MAG_INTENSITY_NV = (int)34524L;
+    private static final int GL_UNIFORM_BUFFER = (int)35345L;
     /**
      * {@snippet lang=c :
-     * #define GL_DSDT_MAG_INTENSITY_NV 34524
+     * #define GL_UNIFORM_BUFFER 35345
      * }
      */
-    public static int GL_DSDT_MAG_INTENSITY_NV() {
-        return GL_DSDT_MAG_INTENSITY_NV;
+    public static int GL_UNIFORM_BUFFER() {
+        return GL_UNIFORM_BUFFER;
     }
-    private static final int GL_SHADER_CONSISTENT_NV = (int)34525L;
+    private static final int GL_UNIFORM_BUFFER_BINDING = (int)35368L;
     /**
      * {@snippet lang=c :
-     * #define GL_SHADER_CONSISTENT_NV 34525
+     * #define GL_UNIFORM_BUFFER_BINDING 35368
      * }
      */
-    public static int GL_SHADER_CONSISTENT_NV() {
-        return GL_SHADER_CONSISTENT_NV;
+    public static int GL_UNIFORM_BUFFER_BINDING() {
+        return GL_UNIFORM_BUFFER_BINDING;
     }
-    private static final int GL_TEXTURE_SHADER_NV = (int)34526L;
+    private static final int GL_UNIFORM_BUFFER_START = (int)35369L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_SHADER_NV 34526
+     * #define GL_UNIFORM_BUFFER_START 35369
      * }
      */
-    public static int GL_TEXTURE_SHADER_NV() {
-        return GL_TEXTURE_SHADER_NV;
+    public static int GL_UNIFORM_BUFFER_START() {
+        return GL_UNIFORM_BUFFER_START;
     }
-    private static final int GL_SHADER_OPERATION_NV = (int)34527L;
+    private static final int GL_UNIFORM_BUFFER_SIZE = (int)35370L;
     /**
      * {@snippet lang=c :
-     * #define GL_SHADER_OPERATION_NV 34527
+     * #define GL_UNIFORM_BUFFER_SIZE 35370
      * }
      */
-    public static int GL_SHADER_OPERATION_NV() {
-        return GL_SHADER_OPERATION_NV;
+    public static int GL_UNIFORM_BUFFER_SIZE() {
+        return GL_UNIFORM_BUFFER_SIZE;
     }
-    private static final int GL_CULL_MODES_NV = (int)34528L;
+    private static final int GL_MAX_VERTEX_UNIFORM_BLOCKS = (int)35371L;
     /**
      * {@snippet lang=c :
-     * #define GL_CULL_MODES_NV 34528
+     * #define GL_MAX_VERTEX_UNIFORM_BLOCKS 35371
      * }
      */
-    public static int GL_CULL_MODES_NV() {
-        return GL_CULL_MODES_NV;
+    public static int GL_MAX_VERTEX_UNIFORM_BLOCKS() {
+        return GL_MAX_VERTEX_UNIFORM_BLOCKS;
     }
-    private static final int GL_OFFSET_TEXTURE_MATRIX_NV = (int)34529L;
+    private static final int GL_MAX_GEOMETRY_UNIFORM_BLOCKS = (int)35372L;
     /**
      * {@snippet lang=c :
-     * #define GL_OFFSET_TEXTURE_MATRIX_NV 34529
+     * #define GL_MAX_GEOMETRY_UNIFORM_BLOCKS 35372
      * }
      */
-    public static int GL_OFFSET_TEXTURE_MATRIX_NV() {
-        return GL_OFFSET_TEXTURE_MATRIX_NV;
+    public static int GL_MAX_GEOMETRY_UNIFORM_BLOCKS() {
+        return GL_MAX_GEOMETRY_UNIFORM_BLOCKS;
     }
-    private static final int GL_OFFSET_TEXTURE_SCALE_NV = (int)34530L;
+    private static final int GL_MAX_FRAGMENT_UNIFORM_BLOCKS = (int)35373L;
     /**
      * {@snippet lang=c :
-     * #define GL_OFFSET_TEXTURE_SCALE_NV 34530
+     * #define GL_MAX_FRAGMENT_UNIFORM_BLOCKS 35373
      * }
      */
-    public static int GL_OFFSET_TEXTURE_SCALE_NV() {
-        return GL_OFFSET_TEXTURE_SCALE_NV;
+    public static int GL_MAX_FRAGMENT_UNIFORM_BLOCKS() {
+        return GL_MAX_FRAGMENT_UNIFORM_BLOCKS;
     }
-    private static final int GL_OFFSET_TEXTURE_BIAS_NV = (int)34531L;
+    private static final int GL_MAX_COMBINED_UNIFORM_BLOCKS = (int)35374L;
     /**
      * {@snippet lang=c :
-     * #define GL_OFFSET_TEXTURE_BIAS_NV 34531
+     * #define GL_MAX_COMBINED_UNIFORM_BLOCKS 35374
      * }
      */
-    public static int GL_OFFSET_TEXTURE_BIAS_NV() {
-        return GL_OFFSET_TEXTURE_BIAS_NV;
+    public static int GL_MAX_COMBINED_UNIFORM_BLOCKS() {
+        return GL_MAX_COMBINED_UNIFORM_BLOCKS;
     }
-    private static final int GL_OFFSET_TEXTURE_2D_MATRIX_NV = (int)34529L;
+    private static final int GL_MAX_UNIFORM_BUFFER_BINDINGS = (int)35375L;
     /**
      * {@snippet lang=c :
-     * #define GL_OFFSET_TEXTURE_2D_MATRIX_NV 34529
+     * #define GL_MAX_UNIFORM_BUFFER_BINDINGS 35375
      * }
      */
-    public static int GL_OFFSET_TEXTURE_2D_MATRIX_NV() {
-        return GL_OFFSET_TEXTURE_2D_MATRIX_NV;
+    public static int GL_MAX_UNIFORM_BUFFER_BINDINGS() {
+        return GL_MAX_UNIFORM_BUFFER_BINDINGS;
     }
-    private static final int GL_OFFSET_TEXTURE_2D_SCALE_NV = (int)34530L;
+    private static final int GL_MAX_UNIFORM_BLOCK_SIZE = (int)35376L;
     /**
      * {@snippet lang=c :
-     * #define GL_OFFSET_TEXTURE_2D_SCALE_NV 34530
+     * #define GL_MAX_UNIFORM_BLOCK_SIZE 35376
      * }
      */
-    public static int GL_OFFSET_TEXTURE_2D_SCALE_NV() {
-        return GL_OFFSET_TEXTURE_2D_SCALE_NV;
+    public static int GL_MAX_UNIFORM_BLOCK_SIZE() {
+        return GL_MAX_UNIFORM_BLOCK_SIZE;
     }
-    private static final int GL_OFFSET_TEXTURE_2D_BIAS_NV = (int)34531L;
+    private static final int GL_MAX_COMBINED_VERTEX_UNIFORM_COMPONENTS = (int)35377L;
     /**
      * {@snippet lang=c :
-     * #define GL_OFFSET_TEXTURE_2D_BIAS_NV 34531
+     * #define GL_MAX_COMBINED_VERTEX_UNIFORM_COMPONENTS 35377
      * }
      */
-    public static int GL_OFFSET_TEXTURE_2D_BIAS_NV() {
-        return GL_OFFSET_TEXTURE_2D_BIAS_NV;
+    public static int GL_MAX_COMBINED_VERTEX_UNIFORM_COMPONENTS() {
+        return GL_MAX_COMBINED_VERTEX_UNIFORM_COMPONENTS;
     }
-    private static final int GL_PREVIOUS_TEXTURE_INPUT_NV = (int)34532L;
+    private static final int GL_MAX_COMBINED_GEOMETRY_UNIFORM_COMPONENTS = (int)35378L;
     /**
      * {@snippet lang=c :
-     * #define GL_PREVIOUS_TEXTURE_INPUT_NV 34532
+     * #define GL_MAX_COMBINED_GEOMETRY_UNIFORM_COMPONENTS 35378
      * }
      */
-    public static int GL_PREVIOUS_TEXTURE_INPUT_NV() {
-        return GL_PREVIOUS_TEXTURE_INPUT_NV;
+    public static int GL_MAX_COMBINED_GEOMETRY_UNIFORM_COMPONENTS() {
+        return GL_MAX_COMBINED_GEOMETRY_UNIFORM_COMPONENTS;
     }
-    private static final int GL_CONST_EYE_NV = (int)34533L;
+    private static final int GL_MAX_COMBINED_FRAGMENT_UNIFORM_COMPONENTS = (int)35379L;
     /**
      * {@snippet lang=c :
-     * #define GL_CONST_EYE_NV 34533
+     * #define GL_MAX_COMBINED_FRAGMENT_UNIFORM_COMPONENTS 35379
      * }
      */
-    public static int GL_CONST_EYE_NV() {
-        return GL_CONST_EYE_NV;
+    public static int GL_MAX_COMBINED_FRAGMENT_UNIFORM_COMPONENTS() {
+        return GL_MAX_COMBINED_FRAGMENT_UNIFORM_COMPONENTS;
     }
-    private static final int GL_PASS_THROUGH_NV = (int)34534L;
+    private static final int GL_UNIFORM_BUFFER_OFFSET_ALIGNMENT = (int)35380L;
     /**
      * {@snippet lang=c :
-     * #define GL_PASS_THROUGH_NV 34534
+     * #define GL_UNIFORM_BUFFER_OFFSET_ALIGNMENT 35380
      * }
      */
-    public static int GL_PASS_THROUGH_NV() {
-        return GL_PASS_THROUGH_NV;
+    public static int GL_UNIFORM_BUFFER_OFFSET_ALIGNMENT() {
+        return GL_UNIFORM_BUFFER_OFFSET_ALIGNMENT;
     }
-    private static final int GL_CULL_FRAGMENT_NV = (int)34535L;
+    private static final int GL_ACTIVE_UNIFORM_BLOCK_MAX_NAME_LENGTH = (int)35381L;
     /**
      * {@snippet lang=c :
-     * #define GL_CULL_FRAGMENT_NV 34535
+     * #define GL_ACTIVE_UNIFORM_BLOCK_MAX_NAME_LENGTH 35381
      * }
      */
-    public static int GL_CULL_FRAGMENT_NV() {
-        return GL_CULL_FRAGMENT_NV;
+    public static int GL_ACTIVE_UNIFORM_BLOCK_MAX_NAME_LENGTH() {
+        return GL_ACTIVE_UNIFORM_BLOCK_MAX_NAME_LENGTH;
     }
-    private static final int GL_OFFSET_TEXTURE_2D_NV = (int)34536L;
+    private static final int GL_ACTIVE_UNIFORM_BLOCKS = (int)35382L;
     /**
      * {@snippet lang=c :
-     * #define GL_OFFSET_TEXTURE_2D_NV 34536
+     * #define GL_ACTIVE_UNIFORM_BLOCKS 35382
      * }
      */
-    public static int GL_OFFSET_TEXTURE_2D_NV() {
-        return GL_OFFSET_TEXTURE_2D_NV;
+    public static int GL_ACTIVE_UNIFORM_BLOCKS() {
+        return GL_ACTIVE_UNIFORM_BLOCKS;
     }
-    private static final int GL_DEPENDENT_AR_TEXTURE_2D_NV = (int)34537L;
+    private static final int GL_UNIFORM_TYPE = (int)35383L;
     /**
      * {@snippet lang=c :
-     * #define GL_DEPENDENT_AR_TEXTURE_2D_NV 34537
+     * #define GL_UNIFORM_TYPE 35383
      * }
      */
-    public static int GL_DEPENDENT_AR_TEXTURE_2D_NV() {
-        return GL_DEPENDENT_AR_TEXTURE_2D_NV;
+    public static int GL_UNIFORM_TYPE() {
+        return GL_UNIFORM_TYPE;
     }
-    private static final int GL_DEPENDENT_GB_TEXTURE_2D_NV = (int)34538L;
+    private static final int GL_UNIFORM_SIZE = (int)35384L;
     /**
      * {@snippet lang=c :
-     * #define GL_DEPENDENT_GB_TEXTURE_2D_NV 34538
+     * #define GL_UNIFORM_SIZE 35384
      * }
      */
-    public static int GL_DEPENDENT_GB_TEXTURE_2D_NV() {
-        return GL_DEPENDENT_GB_TEXTURE_2D_NV;
+    public static int GL_UNIFORM_SIZE() {
+        return GL_UNIFORM_SIZE;
     }
-    private static final int GL_DOT_PRODUCT_NV = (int)34540L;
+    private static final int GL_UNIFORM_NAME_LENGTH = (int)35385L;
     /**
      * {@snippet lang=c :
-     * #define GL_DOT_PRODUCT_NV 34540
+     * #define GL_UNIFORM_NAME_LENGTH 35385
      * }
      */
-    public static int GL_DOT_PRODUCT_NV() {
-        return GL_DOT_PRODUCT_NV;
+    public static int GL_UNIFORM_NAME_LENGTH() {
+        return GL_UNIFORM_NAME_LENGTH;
     }
-    private static final int GL_DOT_PRODUCT_DEPTH_REPLACE_NV = (int)34541L;
+    private static final int GL_UNIFORM_BLOCK_INDEX = (int)35386L;
     /**
      * {@snippet lang=c :
-     * #define GL_DOT_PRODUCT_DEPTH_REPLACE_NV 34541
+     * #define GL_UNIFORM_BLOCK_INDEX 35386
      * }
      */
-    public static int GL_DOT_PRODUCT_DEPTH_REPLACE_NV() {
-        return GL_DOT_PRODUCT_DEPTH_REPLACE_NV;
+    public static int GL_UNIFORM_BLOCK_INDEX() {
+        return GL_UNIFORM_BLOCK_INDEX;
     }
-    private static final int GL_DOT_PRODUCT_TEXTURE_2D_NV = (int)34542L;
+    private static final int GL_UNIFORM_OFFSET = (int)35387L;
     /**
      * {@snippet lang=c :
-     * #define GL_DOT_PRODUCT_TEXTURE_2D_NV 34542
+     * #define GL_UNIFORM_OFFSET 35387
      * }
      */
-    public static int GL_DOT_PRODUCT_TEXTURE_2D_NV() {
-        return GL_DOT_PRODUCT_TEXTURE_2D_NV;
+    public static int GL_UNIFORM_OFFSET() {
+        return GL_UNIFORM_OFFSET;
     }
-    private static final int GL_DOT_PRODUCT_TEXTURE_CUBE_MAP_NV = (int)34544L;
+    private static final int GL_UNIFORM_ARRAY_STRIDE = (int)35388L;
     /**
      * {@snippet lang=c :
-     * #define GL_DOT_PRODUCT_TEXTURE_CUBE_MAP_NV 34544
+     * #define GL_UNIFORM_ARRAY_STRIDE 35388
      * }
      */
-    public static int GL_DOT_PRODUCT_TEXTURE_CUBE_MAP_NV() {
-        return GL_DOT_PRODUCT_TEXTURE_CUBE_MAP_NV;
+    public static int GL_UNIFORM_ARRAY_STRIDE() {
+        return GL_UNIFORM_ARRAY_STRIDE;
     }
-    private static final int GL_DOT_PRODUCT_DIFFUSE_CUBE_MAP_NV = (int)34545L;
+    private static final int GL_UNIFORM_MATRIX_STRIDE = (int)35389L;
     /**
      * {@snippet lang=c :
-     * #define GL_DOT_PRODUCT_DIFFUSE_CUBE_MAP_NV 34545
+     * #define GL_UNIFORM_MATRIX_STRIDE 35389
      * }
      */
-    public static int GL_DOT_PRODUCT_DIFFUSE_CUBE_MAP_NV() {
-        return GL_DOT_PRODUCT_DIFFUSE_CUBE_MAP_NV;
+    public static int GL_UNIFORM_MATRIX_STRIDE() {
+        return GL_UNIFORM_MATRIX_STRIDE;
     }
-    private static final int GL_DOT_PRODUCT_REFLECT_CUBE_MAP_NV = (int)34546L;
+    private static final int GL_UNIFORM_IS_ROW_MAJOR = (int)35390L;
     /**
      * {@snippet lang=c :
-     * #define GL_DOT_PRODUCT_REFLECT_CUBE_MAP_NV 34546
+     * #define GL_UNIFORM_IS_ROW_MAJOR 35390
      * }
      */
-    public static int GL_DOT_PRODUCT_REFLECT_CUBE_MAP_NV() {
-        return GL_DOT_PRODUCT_REFLECT_CUBE_MAP_NV;
+    public static int GL_UNIFORM_IS_ROW_MAJOR() {
+        return GL_UNIFORM_IS_ROW_MAJOR;
     }
-    private static final int GL_DOT_PRODUCT_CONST_EYE_REFLECT_CUBE_MAP_NV = (int)34547L;
+    private static final int GL_UNIFORM_BLOCK_BINDING = (int)35391L;
     /**
      * {@snippet lang=c :
-     * #define GL_DOT_PRODUCT_CONST_EYE_REFLECT_CUBE_MAP_NV 34547
+     * #define GL_UNIFORM_BLOCK_BINDING 35391
      * }
      */
-    public static int GL_DOT_PRODUCT_CONST_EYE_REFLECT_CUBE_MAP_NV() {
-        return GL_DOT_PRODUCT_CONST_EYE_REFLECT_CUBE_MAP_NV;
+    public static int GL_UNIFORM_BLOCK_BINDING() {
+        return GL_UNIFORM_BLOCK_BINDING;
     }
-    private static final int GL_HILO_NV = (int)34548L;
+    private static final int GL_UNIFORM_BLOCK_DATA_SIZE = (int)35392L;
     /**
      * {@snippet lang=c :
-     * #define GL_HILO_NV 34548
+     * #define GL_UNIFORM_BLOCK_DATA_SIZE 35392
      * }
      */
-    public static int GL_HILO_NV() {
-        return GL_HILO_NV;
+    public static int GL_UNIFORM_BLOCK_DATA_SIZE() {
+        return GL_UNIFORM_BLOCK_DATA_SIZE;
     }
-    private static final int GL_DSDT_NV = (int)34549L;
+    private static final int GL_UNIFORM_BLOCK_NAME_LENGTH = (int)35393L;
     /**
      * {@snippet lang=c :
-     * #define GL_DSDT_NV 34549
+     * #define GL_UNIFORM_BLOCK_NAME_LENGTH 35393
      * }
      */
-    public static int GL_DSDT_NV() {
-        return GL_DSDT_NV;
+    public static int GL_UNIFORM_BLOCK_NAME_LENGTH() {
+        return GL_UNIFORM_BLOCK_NAME_LENGTH;
     }
-    private static final int GL_DSDT_MAG_NV = (int)34550L;
+    private static final int GL_UNIFORM_BLOCK_ACTIVE_UNIFORMS = (int)35394L;
     /**
      * {@snippet lang=c :
-     * #define GL_DSDT_MAG_NV 34550
+     * #define GL_UNIFORM_BLOCK_ACTIVE_UNIFORMS 35394
      * }
      */
-    public static int GL_DSDT_MAG_NV() {
-        return GL_DSDT_MAG_NV;
+    public static int GL_UNIFORM_BLOCK_ACTIVE_UNIFORMS() {
+        return GL_UNIFORM_BLOCK_ACTIVE_UNIFORMS;
     }
-    private static final int GL_DSDT_MAG_VIB_NV = (int)34551L;
+    private static final int GL_UNIFORM_BLOCK_ACTIVE_UNIFORM_INDICES = (int)35395L;
     /**
      * {@snippet lang=c :
-     * #define GL_DSDT_MAG_VIB_NV 34551
+     * #define GL_UNIFORM_BLOCK_ACTIVE_UNIFORM_INDICES 35395
      * }
      */
-    public static int GL_DSDT_MAG_VIB_NV() {
-        return GL_DSDT_MAG_VIB_NV;
+    public static int GL_UNIFORM_BLOCK_ACTIVE_UNIFORM_INDICES() {
+        return GL_UNIFORM_BLOCK_ACTIVE_UNIFORM_INDICES;
     }
-    private static final int GL_HILO16_NV = (int)34552L;
+    private static final int GL_UNIFORM_BLOCK_REFERENCED_BY_VERTEX_SHADER = (int)35396L;
     /**
      * {@snippet lang=c :
-     * #define GL_HILO16_NV 34552
+     * #define GL_UNIFORM_BLOCK_REFERENCED_BY_VERTEX_SHADER 35396
      * }
      */
-    public static int GL_HILO16_NV() {
-        return GL_HILO16_NV;
+    public static int GL_UNIFORM_BLOCK_REFERENCED_BY_VERTEX_SHADER() {
+        return GL_UNIFORM_BLOCK_REFERENCED_BY_VERTEX_SHADER;
     }
-    private static final int GL_SIGNED_HILO_NV = (int)34553L;
+    private static final int GL_UNIFORM_BLOCK_REFERENCED_BY_GEOMETRY_SHADER = (int)35397L;
     /**
      * {@snippet lang=c :
-     * #define GL_SIGNED_HILO_NV 34553
+     * #define GL_UNIFORM_BLOCK_REFERENCED_BY_GEOMETRY_SHADER 35397
      * }
      */
-    public static int GL_SIGNED_HILO_NV() {
-        return GL_SIGNED_HILO_NV;
+    public static int GL_UNIFORM_BLOCK_REFERENCED_BY_GEOMETRY_SHADER() {
+        return GL_UNIFORM_BLOCK_REFERENCED_BY_GEOMETRY_SHADER;
     }
-    private static final int GL_SIGNED_HILO16_NV = (int)34554L;
+    private static final int GL_UNIFORM_BLOCK_REFERENCED_BY_FRAGMENT_SHADER = (int)35398L;
     /**
      * {@snippet lang=c :
-     * #define GL_SIGNED_HILO16_NV 34554
+     * #define GL_UNIFORM_BLOCK_REFERENCED_BY_FRAGMENT_SHADER 35398
      * }
      */
-    public static int GL_SIGNED_HILO16_NV() {
-        return GL_SIGNED_HILO16_NV;
+    public static int GL_UNIFORM_BLOCK_REFERENCED_BY_FRAGMENT_SHADER() {
+        return GL_UNIFORM_BLOCK_REFERENCED_BY_FRAGMENT_SHADER;
     }
-    private static final int GL_SIGNED_RGBA_NV = (int)34555L;
+    private static final int GL_VERSION_3_2 = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_SIGNED_RGBA_NV 34555
+     * #define GL_VERSION_3_2 1
      * }
      */
-    public static int GL_SIGNED_RGBA_NV() {
-        return GL_SIGNED_RGBA_NV;
+    public static int GL_VERSION_3_2() {
+        return GL_VERSION_3_2;
     }
-    private static final int GL_SIGNED_RGBA8_NV = (int)34556L;
+    private static final int GL_CONTEXT_CORE_PROFILE_BIT = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_SIGNED_RGBA8_NV 34556
+     * #define GL_CONTEXT_CORE_PROFILE_BIT 1
      * }
      */
-    public static int GL_SIGNED_RGBA8_NV() {
-        return GL_SIGNED_RGBA8_NV;
+    public static int GL_CONTEXT_CORE_PROFILE_BIT() {
+        return GL_CONTEXT_CORE_PROFILE_BIT;
     }
-    private static final int GL_SIGNED_RGB_NV = (int)34558L;
+    private static final int GL_CONTEXT_COMPATIBILITY_PROFILE_BIT = (int)2L;
     /**
      * {@snippet lang=c :
-     * #define GL_SIGNED_RGB_NV 34558
+     * #define GL_CONTEXT_COMPATIBILITY_PROFILE_BIT 2
      * }
      */
-    public static int GL_SIGNED_RGB_NV() {
-        return GL_SIGNED_RGB_NV;
+    public static int GL_CONTEXT_COMPATIBILITY_PROFILE_BIT() {
+        return GL_CONTEXT_COMPATIBILITY_PROFILE_BIT;
     }
-    private static final int GL_SIGNED_RGB8_NV = (int)34559L;
+    private static final int GL_LINES_ADJACENCY = (int)10L;
     /**
      * {@snippet lang=c :
-     * #define GL_SIGNED_RGB8_NV 34559
+     * #define GL_LINES_ADJACENCY 10
      * }
      */
-    public static int GL_SIGNED_RGB8_NV() {
-        return GL_SIGNED_RGB8_NV;
+    public static int GL_LINES_ADJACENCY() {
+        return GL_LINES_ADJACENCY;
     }
-    private static final int GL_SIGNED_LUMINANCE_NV = (int)34561L;
+    private static final int GL_LINE_STRIP_ADJACENCY = (int)11L;
     /**
      * {@snippet lang=c :
-     * #define GL_SIGNED_LUMINANCE_NV 34561
+     * #define GL_LINE_STRIP_ADJACENCY 11
      * }
      */
-    public static int GL_SIGNED_LUMINANCE_NV() {
-        return GL_SIGNED_LUMINANCE_NV;
+    public static int GL_LINE_STRIP_ADJACENCY() {
+        return GL_LINE_STRIP_ADJACENCY;
     }
-    private static final int GL_SIGNED_LUMINANCE8_NV = (int)34562L;
+    private static final int GL_TRIANGLES_ADJACENCY = (int)12L;
     /**
      * {@snippet lang=c :
-     * #define GL_SIGNED_LUMINANCE8_NV 34562
+     * #define GL_TRIANGLES_ADJACENCY 12
      * }
      */
-    public static int GL_SIGNED_LUMINANCE8_NV() {
-        return GL_SIGNED_LUMINANCE8_NV;
+    public static int GL_TRIANGLES_ADJACENCY() {
+        return GL_TRIANGLES_ADJACENCY;
     }
-    private static final int GL_SIGNED_LUMINANCE_ALPHA_NV = (int)34563L;
+    private static final int GL_TRIANGLE_STRIP_ADJACENCY = (int)13L;
     /**
      * {@snippet lang=c :
-     * #define GL_SIGNED_LUMINANCE_ALPHA_NV 34563
+     * #define GL_TRIANGLE_STRIP_ADJACENCY 13
      * }
      */
-    public static int GL_SIGNED_LUMINANCE_ALPHA_NV() {
-        return GL_SIGNED_LUMINANCE_ALPHA_NV;
+    public static int GL_TRIANGLE_STRIP_ADJACENCY() {
+        return GL_TRIANGLE_STRIP_ADJACENCY;
     }
-    private static final int GL_SIGNED_LUMINANCE8_ALPHA8_NV = (int)34564L;
+    private static final int GL_PROGRAM_POINT_SIZE = (int)34370L;
     /**
      * {@snippet lang=c :
-     * #define GL_SIGNED_LUMINANCE8_ALPHA8_NV 34564
+     * #define GL_PROGRAM_POINT_SIZE 34370
      * }
      */
-    public static int GL_SIGNED_LUMINANCE8_ALPHA8_NV() {
-        return GL_SIGNED_LUMINANCE8_ALPHA8_NV;
+    public static int GL_PROGRAM_POINT_SIZE() {
+        return GL_PROGRAM_POINT_SIZE;
     }
-    private static final int GL_SIGNED_ALPHA_NV = (int)34565L;
+    private static final int GL_MAX_GEOMETRY_TEXTURE_IMAGE_UNITS = (int)35881L;
     /**
      * {@snippet lang=c :
-     * #define GL_SIGNED_ALPHA_NV 34565
+     * #define GL_MAX_GEOMETRY_TEXTURE_IMAGE_UNITS 35881
      * }
      */
-    public static int GL_SIGNED_ALPHA_NV() {
-        return GL_SIGNED_ALPHA_NV;
+    public static int GL_MAX_GEOMETRY_TEXTURE_IMAGE_UNITS() {
+        return GL_MAX_GEOMETRY_TEXTURE_IMAGE_UNITS;
     }
-    private static final int GL_SIGNED_ALPHA8_NV = (int)34566L;
+    private static final int GL_FRAMEBUFFER_ATTACHMENT_LAYERED = (int)36263L;
     /**
      * {@snippet lang=c :
-     * #define GL_SIGNED_ALPHA8_NV 34566
+     * #define GL_FRAMEBUFFER_ATTACHMENT_LAYERED 36263
      * }
      */
-    public static int GL_SIGNED_ALPHA8_NV() {
-        return GL_SIGNED_ALPHA8_NV;
+    public static int GL_FRAMEBUFFER_ATTACHMENT_LAYERED() {
+        return GL_FRAMEBUFFER_ATTACHMENT_LAYERED;
     }
-    private static final int GL_SIGNED_INTENSITY_NV = (int)34567L;
+    private static final int GL_FRAMEBUFFER_INCOMPLETE_LAYER_TARGETS = (int)36264L;
     /**
      * {@snippet lang=c :
-     * #define GL_SIGNED_INTENSITY_NV 34567
+     * #define GL_FRAMEBUFFER_INCOMPLETE_LAYER_TARGETS 36264
      * }
      */
-    public static int GL_SIGNED_INTENSITY_NV() {
-        return GL_SIGNED_INTENSITY_NV;
+    public static int GL_FRAMEBUFFER_INCOMPLETE_LAYER_TARGETS() {
+        return GL_FRAMEBUFFER_INCOMPLETE_LAYER_TARGETS;
     }
-    private static final int GL_SIGNED_INTENSITY8_NV = (int)34568L;
+    private static final int GL_GEOMETRY_SHADER = (int)36313L;
     /**
      * {@snippet lang=c :
-     * #define GL_SIGNED_INTENSITY8_NV 34568
+     * #define GL_GEOMETRY_SHADER 36313
      * }
      */
-    public static int GL_SIGNED_INTENSITY8_NV() {
-        return GL_SIGNED_INTENSITY8_NV;
+    public static int GL_GEOMETRY_SHADER() {
+        return GL_GEOMETRY_SHADER;
     }
-    private static final int GL_DSDT8_NV = (int)34569L;
+    private static final int GL_GEOMETRY_VERTICES_OUT = (int)35094L;
     /**
      * {@snippet lang=c :
-     * #define GL_DSDT8_NV 34569
+     * #define GL_GEOMETRY_VERTICES_OUT 35094
      * }
      */
-    public static int GL_DSDT8_NV() {
-        return GL_DSDT8_NV;
+    public static int GL_GEOMETRY_VERTICES_OUT() {
+        return GL_GEOMETRY_VERTICES_OUT;
     }
-    private static final int GL_DSDT8_MAG8_NV = (int)34570L;
+    private static final int GL_GEOMETRY_INPUT_TYPE = (int)35095L;
     /**
      * {@snippet lang=c :
-     * #define GL_DSDT8_MAG8_NV 34570
+     * #define GL_GEOMETRY_INPUT_TYPE 35095
      * }
      */
-    public static int GL_DSDT8_MAG8_NV() {
-        return GL_DSDT8_MAG8_NV;
+    public static int GL_GEOMETRY_INPUT_TYPE() {
+        return GL_GEOMETRY_INPUT_TYPE;
     }
-    private static final int GL_DSDT8_MAG8_INTENSITY8_NV = (int)34571L;
+    private static final int GL_GEOMETRY_OUTPUT_TYPE = (int)35096L;
     /**
      * {@snippet lang=c :
-     * #define GL_DSDT8_MAG8_INTENSITY8_NV 34571
+     * #define GL_GEOMETRY_OUTPUT_TYPE 35096
      * }
      */
-    public static int GL_DSDT8_MAG8_INTENSITY8_NV() {
-        return GL_DSDT8_MAG8_INTENSITY8_NV;
+    public static int GL_GEOMETRY_OUTPUT_TYPE() {
+        return GL_GEOMETRY_OUTPUT_TYPE;
     }
-    private static final int GL_SIGNED_RGB_UNSIGNED_ALPHA_NV = (int)34572L;
+    private static final int GL_MAX_GEOMETRY_UNIFORM_COMPONENTS = (int)36319L;
     /**
      * {@snippet lang=c :
-     * #define GL_SIGNED_RGB_UNSIGNED_ALPHA_NV 34572
+     * #define GL_MAX_GEOMETRY_UNIFORM_COMPONENTS 36319
      * }
      */
-    public static int GL_SIGNED_RGB_UNSIGNED_ALPHA_NV() {
-        return GL_SIGNED_RGB_UNSIGNED_ALPHA_NV;
+    public static int GL_MAX_GEOMETRY_UNIFORM_COMPONENTS() {
+        return GL_MAX_GEOMETRY_UNIFORM_COMPONENTS;
     }
-    private static final int GL_SIGNED_RGB8_UNSIGNED_ALPHA8_NV = (int)34573L;
+    private static final int GL_MAX_GEOMETRY_OUTPUT_VERTICES = (int)36320L;
     /**
      * {@snippet lang=c :
-     * #define GL_SIGNED_RGB8_UNSIGNED_ALPHA8_NV 34573
+     * #define GL_MAX_GEOMETRY_OUTPUT_VERTICES 36320
      * }
      */
-    public static int GL_SIGNED_RGB8_UNSIGNED_ALPHA8_NV() {
-        return GL_SIGNED_RGB8_UNSIGNED_ALPHA8_NV;
+    public static int GL_MAX_GEOMETRY_OUTPUT_VERTICES() {
+        return GL_MAX_GEOMETRY_OUTPUT_VERTICES;
     }
-    private static final int GL_HI_SCALE_NV = (int)34574L;
+    private static final int GL_MAX_GEOMETRY_TOTAL_OUTPUT_COMPONENTS = (int)36321L;
     /**
      * {@snippet lang=c :
-     * #define GL_HI_SCALE_NV 34574
+     * #define GL_MAX_GEOMETRY_TOTAL_OUTPUT_COMPONENTS 36321
      * }
      */
-    public static int GL_HI_SCALE_NV() {
-        return GL_HI_SCALE_NV;
+    public static int GL_MAX_GEOMETRY_TOTAL_OUTPUT_COMPONENTS() {
+        return GL_MAX_GEOMETRY_TOTAL_OUTPUT_COMPONENTS;
     }
-    private static final int GL_LO_SCALE_NV = (int)34575L;
+    private static final int GL_MAX_VERTEX_OUTPUT_COMPONENTS = (int)37154L;
     /**
      * {@snippet lang=c :
-     * #define GL_LO_SCALE_NV 34575
+     * #define GL_MAX_VERTEX_OUTPUT_COMPONENTS 37154
      * }
      */
-    public static int GL_LO_SCALE_NV() {
-        return GL_LO_SCALE_NV;
+    public static int GL_MAX_VERTEX_OUTPUT_COMPONENTS() {
+        return GL_MAX_VERTEX_OUTPUT_COMPONENTS;
     }
-    private static final int GL_DS_SCALE_NV = (int)34576L;
+    private static final int GL_MAX_GEOMETRY_INPUT_COMPONENTS = (int)37155L;
     /**
      * {@snippet lang=c :
-     * #define GL_DS_SCALE_NV 34576
+     * #define GL_MAX_GEOMETRY_INPUT_COMPONENTS 37155
      * }
      */
-    public static int GL_DS_SCALE_NV() {
-        return GL_DS_SCALE_NV;
+    public static int GL_MAX_GEOMETRY_INPUT_COMPONENTS() {
+        return GL_MAX_GEOMETRY_INPUT_COMPONENTS;
     }
-    private static final int GL_DT_SCALE_NV = (int)34577L;
+    private static final int GL_MAX_GEOMETRY_OUTPUT_COMPONENTS = (int)37156L;
     /**
      * {@snippet lang=c :
-     * #define GL_DT_SCALE_NV 34577
+     * #define GL_MAX_GEOMETRY_OUTPUT_COMPONENTS 37156
      * }
      */
-    public static int GL_DT_SCALE_NV() {
-        return GL_DT_SCALE_NV;
+    public static int GL_MAX_GEOMETRY_OUTPUT_COMPONENTS() {
+        return GL_MAX_GEOMETRY_OUTPUT_COMPONENTS;
     }
-    private static final int GL_MAGNITUDE_SCALE_NV = (int)34578L;
+    private static final int GL_MAX_FRAGMENT_INPUT_COMPONENTS = (int)37157L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAGNITUDE_SCALE_NV 34578
+     * #define GL_MAX_FRAGMENT_INPUT_COMPONENTS 37157
      * }
      */
-    public static int GL_MAGNITUDE_SCALE_NV() {
-        return GL_MAGNITUDE_SCALE_NV;
+    public static int GL_MAX_FRAGMENT_INPUT_COMPONENTS() {
+        return GL_MAX_FRAGMENT_INPUT_COMPONENTS;
     }
-    private static final int GL_VIBRANCE_SCALE_NV = (int)34579L;
+    private static final int GL_CONTEXT_PROFILE_MASK = (int)37158L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIBRANCE_SCALE_NV 34579
+     * #define GL_CONTEXT_PROFILE_MASK 37158
      * }
      */
-    public static int GL_VIBRANCE_SCALE_NV() {
-        return GL_VIBRANCE_SCALE_NV;
+    public static int GL_CONTEXT_PROFILE_MASK() {
+        return GL_CONTEXT_PROFILE_MASK;
     }
-    private static final int GL_HI_BIAS_NV = (int)34580L;
+    private static final int GL_DEPTH_CLAMP = (int)34383L;
     /**
      * {@snippet lang=c :
-     * #define GL_HI_BIAS_NV 34580
+     * #define GL_DEPTH_CLAMP 34383
      * }
      */
-    public static int GL_HI_BIAS_NV() {
-        return GL_HI_BIAS_NV;
+    public static int GL_DEPTH_CLAMP() {
+        return GL_DEPTH_CLAMP;
     }
-    private static final int GL_LO_BIAS_NV = (int)34581L;
+    private static final int GL_QUADS_FOLLOW_PROVOKING_VERTEX_CONVENTION = (int)36428L;
     /**
      * {@snippet lang=c :
-     * #define GL_LO_BIAS_NV 34581
+     * #define GL_QUADS_FOLLOW_PROVOKING_VERTEX_CONVENTION 36428
      * }
      */
-    public static int GL_LO_BIAS_NV() {
-        return GL_LO_BIAS_NV;
+    public static int GL_QUADS_FOLLOW_PROVOKING_VERTEX_CONVENTION() {
+        return GL_QUADS_FOLLOW_PROVOKING_VERTEX_CONVENTION;
     }
-    private static final int GL_DS_BIAS_NV = (int)34582L;
+    private static final int GL_FIRST_VERTEX_CONVENTION = (int)36429L;
     /**
      * {@snippet lang=c :
-     * #define GL_DS_BIAS_NV 34582
+     * #define GL_FIRST_VERTEX_CONVENTION 36429
      * }
      */
-    public static int GL_DS_BIAS_NV() {
-        return GL_DS_BIAS_NV;
+    public static int GL_FIRST_VERTEX_CONVENTION() {
+        return GL_FIRST_VERTEX_CONVENTION;
     }
-    private static final int GL_DT_BIAS_NV = (int)34583L;
+    private static final int GL_LAST_VERTEX_CONVENTION = (int)36430L;
     /**
      * {@snippet lang=c :
-     * #define GL_DT_BIAS_NV 34583
+     * #define GL_LAST_VERTEX_CONVENTION 36430
      * }
      */
-    public static int GL_DT_BIAS_NV() {
-        return GL_DT_BIAS_NV;
+    public static int GL_LAST_VERTEX_CONVENTION() {
+        return GL_LAST_VERTEX_CONVENTION;
     }
-    private static final int GL_MAGNITUDE_BIAS_NV = (int)34584L;
+    private static final int GL_PROVOKING_VERTEX = (int)36431L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAGNITUDE_BIAS_NV 34584
+     * #define GL_PROVOKING_VERTEX 36431
      * }
      */
-    public static int GL_MAGNITUDE_BIAS_NV() {
-        return GL_MAGNITUDE_BIAS_NV;
+    public static int GL_PROVOKING_VERTEX() {
+        return GL_PROVOKING_VERTEX;
     }
-    private static final int GL_VIBRANCE_BIAS_NV = (int)34585L;
+    private static final int GL_TEXTURE_CUBE_MAP_SEAMLESS = (int)34895L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIBRANCE_BIAS_NV 34585
+     * #define GL_TEXTURE_CUBE_MAP_SEAMLESS 34895
      * }
      */
-    public static int GL_VIBRANCE_BIAS_NV() {
-        return GL_VIBRANCE_BIAS_NV;
+    public static int GL_TEXTURE_CUBE_MAP_SEAMLESS() {
+        return GL_TEXTURE_CUBE_MAP_SEAMLESS;
     }
-    private static final int GL_TEXTURE_BORDER_VALUES_NV = (int)34586L;
+    private static final int GL_MAX_SERVER_WAIT_TIMEOUT = (int)37137L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_BORDER_VALUES_NV 34586
+     * #define GL_MAX_SERVER_WAIT_TIMEOUT 37137
      * }
      */
-    public static int GL_TEXTURE_BORDER_VALUES_NV() {
-        return GL_TEXTURE_BORDER_VALUES_NV;
+    public static int GL_MAX_SERVER_WAIT_TIMEOUT() {
+        return GL_MAX_SERVER_WAIT_TIMEOUT;
     }
-    private static final int GL_TEXTURE_HI_SIZE_NV = (int)34587L;
+    private static final int GL_OBJECT_TYPE = (int)37138L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_HI_SIZE_NV 34587
+     * #define GL_OBJECT_TYPE 37138
      * }
      */
-    public static int GL_TEXTURE_HI_SIZE_NV() {
-        return GL_TEXTURE_HI_SIZE_NV;
+    public static int GL_OBJECT_TYPE() {
+        return GL_OBJECT_TYPE;
     }
-    private static final int GL_TEXTURE_LO_SIZE_NV = (int)34588L;
+    private static final int GL_SYNC_CONDITION = (int)37139L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_LO_SIZE_NV 34588
+     * #define GL_SYNC_CONDITION 37139
      * }
      */
-    public static int GL_TEXTURE_LO_SIZE_NV() {
-        return GL_TEXTURE_LO_SIZE_NV;
+    public static int GL_SYNC_CONDITION() {
+        return GL_SYNC_CONDITION;
     }
-    private static final int GL_TEXTURE_DS_SIZE_NV = (int)34589L;
+    private static final int GL_SYNC_STATUS = (int)37140L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_DS_SIZE_NV 34589
+     * #define GL_SYNC_STATUS 37140
      * }
      */
-    public static int GL_TEXTURE_DS_SIZE_NV() {
-        return GL_TEXTURE_DS_SIZE_NV;
+    public static int GL_SYNC_STATUS() {
+        return GL_SYNC_STATUS;
     }
-    private static final int GL_TEXTURE_DT_SIZE_NV = (int)34590L;
+    private static final int GL_SYNC_FLAGS = (int)37141L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_DT_SIZE_NV 34590
+     * #define GL_SYNC_FLAGS 37141
      * }
      */
-    public static int GL_TEXTURE_DT_SIZE_NV() {
-        return GL_TEXTURE_DT_SIZE_NV;
+    public static int GL_SYNC_FLAGS() {
+        return GL_SYNC_FLAGS;
     }
-    private static final int GL_TEXTURE_MAG_SIZE_NV = (int)34591L;
+    private static final int GL_SYNC_FENCE = (int)37142L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_MAG_SIZE_NV 34591
+     * #define GL_SYNC_FENCE 37142
      * }
      */
-    public static int GL_TEXTURE_MAG_SIZE_NV() {
-        return GL_TEXTURE_MAG_SIZE_NV;
+    public static int GL_SYNC_FENCE() {
+        return GL_SYNC_FENCE;
     }
-    private static final int GL_NV_texture_shader2 = (int)1L;
+    private static final int GL_SYNC_GPU_COMMANDS_COMPLETE = (int)37143L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_texture_shader2 1
+     * #define GL_SYNC_GPU_COMMANDS_COMPLETE 37143
      * }
      */
-    public static int GL_NV_texture_shader2() {
-        return GL_NV_texture_shader2;
+    public static int GL_SYNC_GPU_COMMANDS_COMPLETE() {
+        return GL_SYNC_GPU_COMMANDS_COMPLETE;
     }
-    private static final int GL_DOT_PRODUCT_TEXTURE_3D_NV = (int)34543L;
+    private static final int GL_UNSIGNALED = (int)37144L;
     /**
      * {@snippet lang=c :
-     * #define GL_DOT_PRODUCT_TEXTURE_3D_NV 34543
+     * #define GL_UNSIGNALED 37144
      * }
      */
-    public static int GL_DOT_PRODUCT_TEXTURE_3D_NV() {
-        return GL_DOT_PRODUCT_TEXTURE_3D_NV;
+    public static int GL_UNSIGNALED() {
+        return GL_UNSIGNALED;
     }
-    private static final int GL_NV_texture_shader3 = (int)1L;
+    private static final int GL_SIGNALED = (int)37145L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_texture_shader3 1
+     * #define GL_SIGNALED 37145
      * }
      */
-    public static int GL_NV_texture_shader3() {
-        return GL_NV_texture_shader3;
+    public static int GL_SIGNALED() {
+        return GL_SIGNALED;
     }
-    private static final int GL_OFFSET_PROJECTIVE_TEXTURE_2D_NV = (int)34896L;
+    private static final int GL_ALREADY_SIGNALED = (int)37146L;
     /**
      * {@snippet lang=c :
-     * #define GL_OFFSET_PROJECTIVE_TEXTURE_2D_NV 34896
+     * #define GL_ALREADY_SIGNALED 37146
      * }
      */
-    public static int GL_OFFSET_PROJECTIVE_TEXTURE_2D_NV() {
-        return GL_OFFSET_PROJECTIVE_TEXTURE_2D_NV;
+    public static int GL_ALREADY_SIGNALED() {
+        return GL_ALREADY_SIGNALED;
     }
-    private static final int GL_OFFSET_PROJECTIVE_TEXTURE_2D_SCALE_NV = (int)34897L;
+    private static final int GL_TIMEOUT_EXPIRED = (int)37147L;
     /**
      * {@snippet lang=c :
-     * #define GL_OFFSET_PROJECTIVE_TEXTURE_2D_SCALE_NV 34897
+     * #define GL_TIMEOUT_EXPIRED 37147
      * }
      */
-    public static int GL_OFFSET_PROJECTIVE_TEXTURE_2D_SCALE_NV() {
-        return GL_OFFSET_PROJECTIVE_TEXTURE_2D_SCALE_NV;
+    public static int GL_TIMEOUT_EXPIRED() {
+        return GL_TIMEOUT_EXPIRED;
     }
-    private static final int GL_OFFSET_PROJECTIVE_TEXTURE_RECTANGLE_NV = (int)34898L;
+    private static final int GL_CONDITION_SATISFIED = (int)37148L;
     /**
      * {@snippet lang=c :
-     * #define GL_OFFSET_PROJECTIVE_TEXTURE_RECTANGLE_NV 34898
+     * #define GL_CONDITION_SATISFIED 37148
      * }
      */
-    public static int GL_OFFSET_PROJECTIVE_TEXTURE_RECTANGLE_NV() {
-        return GL_OFFSET_PROJECTIVE_TEXTURE_RECTANGLE_NV;
+    public static int GL_CONDITION_SATISFIED() {
+        return GL_CONDITION_SATISFIED;
     }
-    private static final int GL_OFFSET_PROJECTIVE_TEXTURE_RECTANGLE_SCALE_NV = (int)34899L;
+    private static final int GL_WAIT_FAILED = (int)37149L;
     /**
      * {@snippet lang=c :
-     * #define GL_OFFSET_PROJECTIVE_TEXTURE_RECTANGLE_SCALE_NV 34899
+     * #define GL_WAIT_FAILED 37149
      * }
      */
-    public static int GL_OFFSET_PROJECTIVE_TEXTURE_RECTANGLE_SCALE_NV() {
-        return GL_OFFSET_PROJECTIVE_TEXTURE_RECTANGLE_SCALE_NV;
+    public static int GL_WAIT_FAILED() {
+        return GL_WAIT_FAILED;
     }
-    private static final int GL_OFFSET_HILO_TEXTURE_2D_NV = (int)34900L;
+    private static final int GL_SYNC_FLUSH_COMMANDS_BIT = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_OFFSET_HILO_TEXTURE_2D_NV 34900
+     * #define GL_SYNC_FLUSH_COMMANDS_BIT 1
      * }
      */
-    public static int GL_OFFSET_HILO_TEXTURE_2D_NV() {
-        return GL_OFFSET_HILO_TEXTURE_2D_NV;
+    public static int GL_SYNC_FLUSH_COMMANDS_BIT() {
+        return GL_SYNC_FLUSH_COMMANDS_BIT;
     }
-    private static final int GL_OFFSET_HILO_TEXTURE_RECTANGLE_NV = (int)34901L;
+    private static final int GL_SAMPLE_POSITION = (int)36432L;
     /**
      * {@snippet lang=c :
-     * #define GL_OFFSET_HILO_TEXTURE_RECTANGLE_NV 34901
+     * #define GL_SAMPLE_POSITION 36432
      * }
      */
-    public static int GL_OFFSET_HILO_TEXTURE_RECTANGLE_NV() {
-        return GL_OFFSET_HILO_TEXTURE_RECTANGLE_NV;
+    public static int GL_SAMPLE_POSITION() {
+        return GL_SAMPLE_POSITION;
     }
-    private static final int GL_OFFSET_HILO_PROJECTIVE_TEXTURE_2D_NV = (int)34902L;
+    private static final int GL_SAMPLE_MASK = (int)36433L;
     /**
      * {@snippet lang=c :
-     * #define GL_OFFSET_HILO_PROJECTIVE_TEXTURE_2D_NV 34902
+     * #define GL_SAMPLE_MASK 36433
      * }
      */
-    public static int GL_OFFSET_HILO_PROJECTIVE_TEXTURE_2D_NV() {
-        return GL_OFFSET_HILO_PROJECTIVE_TEXTURE_2D_NV;
+    public static int GL_SAMPLE_MASK() {
+        return GL_SAMPLE_MASK;
     }
-    private static final int GL_OFFSET_HILO_PROJECTIVE_TEXTURE_RECTANGLE_NV = (int)34903L;
+    private static final int GL_SAMPLE_MASK_VALUE = (int)36434L;
     /**
      * {@snippet lang=c :
-     * #define GL_OFFSET_HILO_PROJECTIVE_TEXTURE_RECTANGLE_NV 34903
+     * #define GL_SAMPLE_MASK_VALUE 36434
      * }
      */
-    public static int GL_OFFSET_HILO_PROJECTIVE_TEXTURE_RECTANGLE_NV() {
-        return GL_OFFSET_HILO_PROJECTIVE_TEXTURE_RECTANGLE_NV;
+    public static int GL_SAMPLE_MASK_VALUE() {
+        return GL_SAMPLE_MASK_VALUE;
     }
-    private static final int GL_DEPENDENT_HILO_TEXTURE_2D_NV = (int)34904L;
+    private static final int GL_MAX_SAMPLE_MASK_WORDS = (int)36441L;
     /**
      * {@snippet lang=c :
-     * #define GL_DEPENDENT_HILO_TEXTURE_2D_NV 34904
+     * #define GL_MAX_SAMPLE_MASK_WORDS 36441
      * }
      */
-    public static int GL_DEPENDENT_HILO_TEXTURE_2D_NV() {
-        return GL_DEPENDENT_HILO_TEXTURE_2D_NV;
+    public static int GL_MAX_SAMPLE_MASK_WORDS() {
+        return GL_MAX_SAMPLE_MASK_WORDS;
     }
-    private static final int GL_DEPENDENT_RGB_TEXTURE_3D_NV = (int)34905L;
+    private static final int GL_TEXTURE_2D_MULTISAMPLE = (int)37120L;
     /**
      * {@snippet lang=c :
-     * #define GL_DEPENDENT_RGB_TEXTURE_3D_NV 34905
+     * #define GL_TEXTURE_2D_MULTISAMPLE 37120
      * }
      */
-    public static int GL_DEPENDENT_RGB_TEXTURE_3D_NV() {
-        return GL_DEPENDENT_RGB_TEXTURE_3D_NV;
+    public static int GL_TEXTURE_2D_MULTISAMPLE() {
+        return GL_TEXTURE_2D_MULTISAMPLE;
     }
-    private static final int GL_DEPENDENT_RGB_TEXTURE_CUBE_MAP_NV = (int)34906L;
+    private static final int GL_PROXY_TEXTURE_2D_MULTISAMPLE = (int)37121L;
     /**
      * {@snippet lang=c :
-     * #define GL_DEPENDENT_RGB_TEXTURE_CUBE_MAP_NV 34906
+     * #define GL_PROXY_TEXTURE_2D_MULTISAMPLE 37121
      * }
      */
-    public static int GL_DEPENDENT_RGB_TEXTURE_CUBE_MAP_NV() {
-        return GL_DEPENDENT_RGB_TEXTURE_CUBE_MAP_NV;
+    public static int GL_PROXY_TEXTURE_2D_MULTISAMPLE() {
+        return GL_PROXY_TEXTURE_2D_MULTISAMPLE;
     }
-    private static final int GL_DOT_PRODUCT_PASS_THROUGH_NV = (int)34907L;
+    private static final int GL_TEXTURE_2D_MULTISAMPLE_ARRAY = (int)37122L;
     /**
      * {@snippet lang=c :
-     * #define GL_DOT_PRODUCT_PASS_THROUGH_NV 34907
+     * #define GL_TEXTURE_2D_MULTISAMPLE_ARRAY 37122
      * }
      */
-    public static int GL_DOT_PRODUCT_PASS_THROUGH_NV() {
-        return GL_DOT_PRODUCT_PASS_THROUGH_NV;
+    public static int GL_TEXTURE_2D_MULTISAMPLE_ARRAY() {
+        return GL_TEXTURE_2D_MULTISAMPLE_ARRAY;
     }
-    private static final int GL_DOT_PRODUCT_TEXTURE_1D_NV = (int)34908L;
+    private static final int GL_PROXY_TEXTURE_2D_MULTISAMPLE_ARRAY = (int)37123L;
     /**
      * {@snippet lang=c :
-     * #define GL_DOT_PRODUCT_TEXTURE_1D_NV 34908
+     * #define GL_PROXY_TEXTURE_2D_MULTISAMPLE_ARRAY 37123
      * }
      */
-    public static int GL_DOT_PRODUCT_TEXTURE_1D_NV() {
-        return GL_DOT_PRODUCT_TEXTURE_1D_NV;
+    public static int GL_PROXY_TEXTURE_2D_MULTISAMPLE_ARRAY() {
+        return GL_PROXY_TEXTURE_2D_MULTISAMPLE_ARRAY;
     }
-    private static final int GL_DOT_PRODUCT_AFFINE_DEPTH_REPLACE_NV = (int)34909L;
+    private static final int GL_TEXTURE_BINDING_2D_MULTISAMPLE = (int)37124L;
     /**
      * {@snippet lang=c :
-     * #define GL_DOT_PRODUCT_AFFINE_DEPTH_REPLACE_NV 34909
+     * #define GL_TEXTURE_BINDING_2D_MULTISAMPLE 37124
      * }
      */
-    public static int GL_DOT_PRODUCT_AFFINE_DEPTH_REPLACE_NV() {
-        return GL_DOT_PRODUCT_AFFINE_DEPTH_REPLACE_NV;
+    public static int GL_TEXTURE_BINDING_2D_MULTISAMPLE() {
+        return GL_TEXTURE_BINDING_2D_MULTISAMPLE;
     }
-    private static final int GL_HILO8_NV = (int)34910L;
+    private static final int GL_TEXTURE_BINDING_2D_MULTISAMPLE_ARRAY = (int)37125L;
     /**
      * {@snippet lang=c :
-     * #define GL_HILO8_NV 34910
+     * #define GL_TEXTURE_BINDING_2D_MULTISAMPLE_ARRAY 37125
      * }
      */
-    public static int GL_HILO8_NV() {
-        return GL_HILO8_NV;
+    public static int GL_TEXTURE_BINDING_2D_MULTISAMPLE_ARRAY() {
+        return GL_TEXTURE_BINDING_2D_MULTISAMPLE_ARRAY;
     }
-    private static final int GL_SIGNED_HILO8_NV = (int)34911L;
+    private static final int GL_TEXTURE_SAMPLES = (int)37126L;
     /**
      * {@snippet lang=c :
-     * #define GL_SIGNED_HILO8_NV 34911
+     * #define GL_TEXTURE_SAMPLES 37126
      * }
      */
-    public static int GL_SIGNED_HILO8_NV() {
-        return GL_SIGNED_HILO8_NV;
+    public static int GL_TEXTURE_SAMPLES() {
+        return GL_TEXTURE_SAMPLES;
     }
-    private static final int GL_FORCE_BLUE_TO_ONE_NV = (int)34912L;
+    private static final int GL_TEXTURE_FIXED_SAMPLE_LOCATIONS = (int)37127L;
     /**
      * {@snippet lang=c :
-     * #define GL_FORCE_BLUE_TO_ONE_NV 34912
+     * #define GL_TEXTURE_FIXED_SAMPLE_LOCATIONS 37127
      * }
      */
-    public static int GL_FORCE_BLUE_TO_ONE_NV() {
-        return GL_FORCE_BLUE_TO_ONE_NV;
+    public static int GL_TEXTURE_FIXED_SAMPLE_LOCATIONS() {
+        return GL_TEXTURE_FIXED_SAMPLE_LOCATIONS;
     }
-    private static final int GL_NV_transform_feedback = (int)1L;
+    private static final int GL_SAMPLER_2D_MULTISAMPLE = (int)37128L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_transform_feedback 1
+     * #define GL_SAMPLER_2D_MULTISAMPLE 37128
      * }
      */
-    public static int GL_NV_transform_feedback() {
-        return GL_NV_transform_feedback;
+    public static int GL_SAMPLER_2D_MULTISAMPLE() {
+        return GL_SAMPLER_2D_MULTISAMPLE;
     }
-    private static final int GL_BACK_PRIMARY_COLOR_NV = (int)35959L;
+    private static final int GL_INT_SAMPLER_2D_MULTISAMPLE = (int)37129L;
     /**
      * {@snippet lang=c :
-     * #define GL_BACK_PRIMARY_COLOR_NV 35959
+     * #define GL_INT_SAMPLER_2D_MULTISAMPLE 37129
      * }
      */
-    public static int GL_BACK_PRIMARY_COLOR_NV() {
-        return GL_BACK_PRIMARY_COLOR_NV;
+    public static int GL_INT_SAMPLER_2D_MULTISAMPLE() {
+        return GL_INT_SAMPLER_2D_MULTISAMPLE;
     }
-    private static final int GL_BACK_SECONDARY_COLOR_NV = (int)35960L;
+    private static final int GL_UNSIGNED_INT_SAMPLER_2D_MULTISAMPLE = (int)37130L;
     /**
      * {@snippet lang=c :
-     * #define GL_BACK_SECONDARY_COLOR_NV 35960
+     * #define GL_UNSIGNED_INT_SAMPLER_2D_MULTISAMPLE 37130
      * }
      */
-    public static int GL_BACK_SECONDARY_COLOR_NV() {
-        return GL_BACK_SECONDARY_COLOR_NV;
+    public static int GL_UNSIGNED_INT_SAMPLER_2D_MULTISAMPLE() {
+        return GL_UNSIGNED_INT_SAMPLER_2D_MULTISAMPLE;
     }
-    private static final int GL_TEXTURE_COORD_NV = (int)35961L;
+    private static final int GL_SAMPLER_2D_MULTISAMPLE_ARRAY = (int)37131L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_COORD_NV 35961
+     * #define GL_SAMPLER_2D_MULTISAMPLE_ARRAY 37131
      * }
      */
-    public static int GL_TEXTURE_COORD_NV() {
-        return GL_TEXTURE_COORD_NV;
+    public static int GL_SAMPLER_2D_MULTISAMPLE_ARRAY() {
+        return GL_SAMPLER_2D_MULTISAMPLE_ARRAY;
     }
-    private static final int GL_CLIP_DISTANCE_NV = (int)35962L;
+    private static final int GL_INT_SAMPLER_2D_MULTISAMPLE_ARRAY = (int)37132L;
     /**
      * {@snippet lang=c :
-     * #define GL_CLIP_DISTANCE_NV 35962
+     * #define GL_INT_SAMPLER_2D_MULTISAMPLE_ARRAY 37132
      * }
      */
-    public static int GL_CLIP_DISTANCE_NV() {
-        return GL_CLIP_DISTANCE_NV;
+    public static int GL_INT_SAMPLER_2D_MULTISAMPLE_ARRAY() {
+        return GL_INT_SAMPLER_2D_MULTISAMPLE_ARRAY;
     }
-    private static final int GL_VERTEX_ID_NV = (int)35963L;
+    private static final int GL_UNSIGNED_INT_SAMPLER_2D_MULTISAMPLE_ARRAY = (int)37133L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ID_NV 35963
+     * #define GL_UNSIGNED_INT_SAMPLER_2D_MULTISAMPLE_ARRAY 37133
      * }
      */
-    public static int GL_VERTEX_ID_NV() {
-        return GL_VERTEX_ID_NV;
+    public static int GL_UNSIGNED_INT_SAMPLER_2D_MULTISAMPLE_ARRAY() {
+        return GL_UNSIGNED_INT_SAMPLER_2D_MULTISAMPLE_ARRAY;
     }
-    private static final int GL_PRIMITIVE_ID_NV = (int)35964L;
+    private static final int GL_MAX_COLOR_TEXTURE_SAMPLES = (int)37134L;
     /**
      * {@snippet lang=c :
-     * #define GL_PRIMITIVE_ID_NV 35964
+     * #define GL_MAX_COLOR_TEXTURE_SAMPLES 37134
      * }
      */
-    public static int GL_PRIMITIVE_ID_NV() {
-        return GL_PRIMITIVE_ID_NV;
+    public static int GL_MAX_COLOR_TEXTURE_SAMPLES() {
+        return GL_MAX_COLOR_TEXTURE_SAMPLES;
     }
-    private static final int GL_GENERIC_ATTRIB_NV = (int)35965L;
+    private static final int GL_MAX_DEPTH_TEXTURE_SAMPLES = (int)37135L;
     /**
      * {@snippet lang=c :
-     * #define GL_GENERIC_ATTRIB_NV 35965
+     * #define GL_MAX_DEPTH_TEXTURE_SAMPLES 37135
      * }
      */
-    public static int GL_GENERIC_ATTRIB_NV() {
-        return GL_GENERIC_ATTRIB_NV;
+    public static int GL_MAX_DEPTH_TEXTURE_SAMPLES() {
+        return GL_MAX_DEPTH_TEXTURE_SAMPLES;
     }
-    private static final int GL_TRANSFORM_FEEDBACK_ATTRIBS_NV = (int)35966L;
+    private static final int GL_MAX_INTEGER_SAMPLES = (int)37136L;
     /**
      * {@snippet lang=c :
-     * #define GL_TRANSFORM_FEEDBACK_ATTRIBS_NV 35966
+     * #define GL_MAX_INTEGER_SAMPLES 37136
      * }
      */
-    public static int GL_TRANSFORM_FEEDBACK_ATTRIBS_NV() {
-        return GL_TRANSFORM_FEEDBACK_ATTRIBS_NV;
+    public static int GL_MAX_INTEGER_SAMPLES() {
+        return GL_MAX_INTEGER_SAMPLES;
     }
-    private static final int GL_TRANSFORM_FEEDBACK_BUFFER_MODE_NV = (int)35967L;
+    private static final int GL_VERSION_3_3 = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_TRANSFORM_FEEDBACK_BUFFER_MODE_NV 35967
+     * #define GL_VERSION_3_3 1
      * }
      */
-    public static int GL_TRANSFORM_FEEDBACK_BUFFER_MODE_NV() {
-        return GL_TRANSFORM_FEEDBACK_BUFFER_MODE_NV;
+    public static int GL_VERSION_3_3() {
+        return GL_VERSION_3_3;
     }
-    private static final int GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS_NV = (int)35968L;
+    private static final int GL_VERTEX_ATTRIB_ARRAY_DIVISOR = (int)35070L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS_NV 35968
+     * #define GL_VERTEX_ATTRIB_ARRAY_DIVISOR 35070
      * }
      */
-    public static int GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS_NV() {
-        return GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS_NV;
+    public static int GL_VERTEX_ATTRIB_ARRAY_DIVISOR() {
+        return GL_VERTEX_ATTRIB_ARRAY_DIVISOR;
     }
-    private static final int GL_ACTIVE_VARYINGS_NV = (int)35969L;
+    private static final int GL_SRC1_COLOR = (int)35065L;
     /**
      * {@snippet lang=c :
-     * #define GL_ACTIVE_VARYINGS_NV 35969
+     * #define GL_SRC1_COLOR 35065
      * }
      */
-    public static int GL_ACTIVE_VARYINGS_NV() {
-        return GL_ACTIVE_VARYINGS_NV;
+    public static int GL_SRC1_COLOR() {
+        return GL_SRC1_COLOR;
     }
-    private static final int GL_ACTIVE_VARYING_MAX_LENGTH_NV = (int)35970L;
+    private static final int GL_ONE_MINUS_SRC1_COLOR = (int)35066L;
     /**
      * {@snippet lang=c :
-     * #define GL_ACTIVE_VARYING_MAX_LENGTH_NV 35970
+     * #define GL_ONE_MINUS_SRC1_COLOR 35066
      * }
      */
-    public static int GL_ACTIVE_VARYING_MAX_LENGTH_NV() {
-        return GL_ACTIVE_VARYING_MAX_LENGTH_NV;
+    public static int GL_ONE_MINUS_SRC1_COLOR() {
+        return GL_ONE_MINUS_SRC1_COLOR;
     }
-    private static final int GL_TRANSFORM_FEEDBACK_VARYINGS_NV = (int)35971L;
+    private static final int GL_ONE_MINUS_SRC1_ALPHA = (int)35067L;
     /**
      * {@snippet lang=c :
-     * #define GL_TRANSFORM_FEEDBACK_VARYINGS_NV 35971
+     * #define GL_ONE_MINUS_SRC1_ALPHA 35067
      * }
      */
-    public static int GL_TRANSFORM_FEEDBACK_VARYINGS_NV() {
-        return GL_TRANSFORM_FEEDBACK_VARYINGS_NV;
+    public static int GL_ONE_MINUS_SRC1_ALPHA() {
+        return GL_ONE_MINUS_SRC1_ALPHA;
     }
-    private static final int GL_TRANSFORM_FEEDBACK_BUFFER_START_NV = (int)35972L;
+    private static final int GL_MAX_DUAL_SOURCE_DRAW_BUFFERS = (int)35068L;
     /**
      * {@snippet lang=c :
-     * #define GL_TRANSFORM_FEEDBACK_BUFFER_START_NV 35972
+     * #define GL_MAX_DUAL_SOURCE_DRAW_BUFFERS 35068
      * }
      */
-    public static int GL_TRANSFORM_FEEDBACK_BUFFER_START_NV() {
-        return GL_TRANSFORM_FEEDBACK_BUFFER_START_NV;
+    public static int GL_MAX_DUAL_SOURCE_DRAW_BUFFERS() {
+        return GL_MAX_DUAL_SOURCE_DRAW_BUFFERS;
     }
-    private static final int GL_TRANSFORM_FEEDBACK_BUFFER_SIZE_NV = (int)35973L;
+    private static final int GL_ANY_SAMPLES_PASSED = (int)35887L;
     /**
      * {@snippet lang=c :
-     * #define GL_TRANSFORM_FEEDBACK_BUFFER_SIZE_NV 35973
+     * #define GL_ANY_SAMPLES_PASSED 35887
      * }
      */
-    public static int GL_TRANSFORM_FEEDBACK_BUFFER_SIZE_NV() {
-        return GL_TRANSFORM_FEEDBACK_BUFFER_SIZE_NV;
+    public static int GL_ANY_SAMPLES_PASSED() {
+        return GL_ANY_SAMPLES_PASSED;
     }
-    private static final int GL_TRANSFORM_FEEDBACK_RECORD_NV = (int)35974L;
+    private static final int GL_SAMPLER_BINDING = (int)35097L;
     /**
      * {@snippet lang=c :
-     * #define GL_TRANSFORM_FEEDBACK_RECORD_NV 35974
+     * #define GL_SAMPLER_BINDING 35097
      * }
      */
-    public static int GL_TRANSFORM_FEEDBACK_RECORD_NV() {
-        return GL_TRANSFORM_FEEDBACK_RECORD_NV;
+    public static int GL_SAMPLER_BINDING() {
+        return GL_SAMPLER_BINDING;
     }
-    private static final int GL_PRIMITIVES_GENERATED_NV = (int)35975L;
+    private static final int GL_RGB10_A2UI = (int)36975L;
     /**
      * {@snippet lang=c :
-     * #define GL_PRIMITIVES_GENERATED_NV 35975
+     * #define GL_RGB10_A2UI 36975
      * }
      */
-    public static int GL_PRIMITIVES_GENERATED_NV() {
-        return GL_PRIMITIVES_GENERATED_NV;
+    public static int GL_RGB10_A2UI() {
+        return GL_RGB10_A2UI;
     }
-    private static final int GL_TRANSFORM_FEEDBACK_PRIMITIVES_WRITTEN_NV = (int)35976L;
+    private static final int GL_TEXTURE_SWIZZLE_R = (int)36418L;
     /**
      * {@snippet lang=c :
-     * #define GL_TRANSFORM_FEEDBACK_PRIMITIVES_WRITTEN_NV 35976
+     * #define GL_TEXTURE_SWIZZLE_R 36418
      * }
      */
-    public static int GL_TRANSFORM_FEEDBACK_PRIMITIVES_WRITTEN_NV() {
-        return GL_TRANSFORM_FEEDBACK_PRIMITIVES_WRITTEN_NV;
+    public static int GL_TEXTURE_SWIZZLE_R() {
+        return GL_TEXTURE_SWIZZLE_R;
     }
-    private static final int GL_RASTERIZER_DISCARD_NV = (int)35977L;
+    private static final int GL_TEXTURE_SWIZZLE_G = (int)36419L;
     /**
      * {@snippet lang=c :
-     * #define GL_RASTERIZER_DISCARD_NV 35977
+     * #define GL_TEXTURE_SWIZZLE_G 36419
      * }
      */
-    public static int GL_RASTERIZER_DISCARD_NV() {
-        return GL_RASTERIZER_DISCARD_NV;
+    public static int GL_TEXTURE_SWIZZLE_G() {
+        return GL_TEXTURE_SWIZZLE_G;
     }
-    private static final int GL_MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS_NV = (int)35978L;
+    private static final int GL_TEXTURE_SWIZZLE_B = (int)36420L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS_NV 35978
+     * #define GL_TEXTURE_SWIZZLE_B 36420
      * }
      */
-    public static int GL_MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS_NV() {
-        return GL_MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS_NV;
+    public static int GL_TEXTURE_SWIZZLE_B() {
+        return GL_TEXTURE_SWIZZLE_B;
     }
-    private static final int GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS_NV = (int)35979L;
+    private static final int GL_TEXTURE_SWIZZLE_A = (int)36421L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS_NV 35979
+     * #define GL_TEXTURE_SWIZZLE_A 36421
      * }
      */
-    public static int GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS_NV() {
-        return GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS_NV;
+    public static int GL_TEXTURE_SWIZZLE_A() {
+        return GL_TEXTURE_SWIZZLE_A;
     }
-    private static final int GL_INTERLEAVED_ATTRIBS_NV = (int)35980L;
+    private static final int GL_TEXTURE_SWIZZLE_RGBA = (int)36422L;
     /**
      * {@snippet lang=c :
-     * #define GL_INTERLEAVED_ATTRIBS_NV 35980
+     * #define GL_TEXTURE_SWIZZLE_RGBA 36422
      * }
      */
-    public static int GL_INTERLEAVED_ATTRIBS_NV() {
-        return GL_INTERLEAVED_ATTRIBS_NV;
+    public static int GL_TEXTURE_SWIZZLE_RGBA() {
+        return GL_TEXTURE_SWIZZLE_RGBA;
     }
-    private static final int GL_SEPARATE_ATTRIBS_NV = (int)35981L;
+    private static final int GL_TIME_ELAPSED = (int)35007L;
     /**
      * {@snippet lang=c :
-     * #define GL_SEPARATE_ATTRIBS_NV 35981
+     * #define GL_TIME_ELAPSED 35007
      * }
      */
-    public static int GL_SEPARATE_ATTRIBS_NV() {
-        return GL_SEPARATE_ATTRIBS_NV;
+    public static int GL_TIME_ELAPSED() {
+        return GL_TIME_ELAPSED;
     }
-    private static final int GL_TRANSFORM_FEEDBACK_BUFFER_NV = (int)35982L;
+    private static final int GL_TIMESTAMP = (int)36392L;
     /**
      * {@snippet lang=c :
-     * #define GL_TRANSFORM_FEEDBACK_BUFFER_NV 35982
+     * #define GL_TIMESTAMP 36392
      * }
      */
-    public static int GL_TRANSFORM_FEEDBACK_BUFFER_NV() {
-        return GL_TRANSFORM_FEEDBACK_BUFFER_NV;
+    public static int GL_TIMESTAMP() {
+        return GL_TIMESTAMP;
     }
-    private static final int GL_TRANSFORM_FEEDBACK_BUFFER_BINDING_NV = (int)35983L;
+    private static final int GL_INT_2_10_10_10_REV = (int)36255L;
     /**
      * {@snippet lang=c :
-     * #define GL_TRANSFORM_FEEDBACK_BUFFER_BINDING_NV 35983
+     * #define GL_INT_2_10_10_10_REV 36255
      * }
      */
-    public static int GL_TRANSFORM_FEEDBACK_BUFFER_BINDING_NV() {
-        return GL_TRANSFORM_FEEDBACK_BUFFER_BINDING_NV;
+    public static int GL_INT_2_10_10_10_REV() {
+        return GL_INT_2_10_10_10_REV;
     }
-    private static final int GL_LAYER_NV = (int)36266L;
+    private static final int GL_VERSION_4_0 = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_LAYER_NV 36266
+     * #define GL_VERSION_4_0 1
      * }
      */
-    public static int GL_LAYER_NV() {
-        return GL_LAYER_NV;
+    public static int GL_VERSION_4_0() {
+        return GL_VERSION_4_0;
     }
-    private static final int GL_NV_transform_feedback2 = (int)1L;
+    private static final int GL_SAMPLE_SHADING = (int)35894L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_transform_feedback2 1
+     * #define GL_SAMPLE_SHADING 35894
      * }
      */
-    public static int GL_NV_transform_feedback2() {
-        return GL_NV_transform_feedback2;
+    public static int GL_SAMPLE_SHADING() {
+        return GL_SAMPLE_SHADING;
     }
-    private static final int GL_TRANSFORM_FEEDBACK_NV = (int)36386L;
+    private static final int GL_MIN_SAMPLE_SHADING_VALUE = (int)35895L;
     /**
      * {@snippet lang=c :
-     * #define GL_TRANSFORM_FEEDBACK_NV 36386
+     * #define GL_MIN_SAMPLE_SHADING_VALUE 35895
      * }
      */
-    public static int GL_TRANSFORM_FEEDBACK_NV() {
-        return GL_TRANSFORM_FEEDBACK_NV;
+    public static int GL_MIN_SAMPLE_SHADING_VALUE() {
+        return GL_MIN_SAMPLE_SHADING_VALUE;
     }
-    private static final int GL_TRANSFORM_FEEDBACK_BUFFER_PAUSED_NV = (int)36387L;
+    private static final int GL_MIN_PROGRAM_TEXTURE_GATHER_OFFSET = (int)36446L;
     /**
      * {@snippet lang=c :
-     * #define GL_TRANSFORM_FEEDBACK_BUFFER_PAUSED_NV 36387
+     * #define GL_MIN_PROGRAM_TEXTURE_GATHER_OFFSET 36446
      * }
      */
-    public static int GL_TRANSFORM_FEEDBACK_BUFFER_PAUSED_NV() {
-        return GL_TRANSFORM_FEEDBACK_BUFFER_PAUSED_NV;
+    public static int GL_MIN_PROGRAM_TEXTURE_GATHER_OFFSET() {
+        return GL_MIN_PROGRAM_TEXTURE_GATHER_OFFSET;
     }
-    private static final int GL_TRANSFORM_FEEDBACK_BUFFER_ACTIVE_NV = (int)36388L;
+    private static final int GL_MAX_PROGRAM_TEXTURE_GATHER_OFFSET = (int)36447L;
     /**
      * {@snippet lang=c :
-     * #define GL_TRANSFORM_FEEDBACK_BUFFER_ACTIVE_NV 36388
+     * #define GL_MAX_PROGRAM_TEXTURE_GATHER_OFFSET 36447
      * }
      */
-    public static int GL_TRANSFORM_FEEDBACK_BUFFER_ACTIVE_NV() {
-        return GL_TRANSFORM_FEEDBACK_BUFFER_ACTIVE_NV;
+    public static int GL_MAX_PROGRAM_TEXTURE_GATHER_OFFSET() {
+        return GL_MAX_PROGRAM_TEXTURE_GATHER_OFFSET;
     }
-    private static final int GL_TRANSFORM_FEEDBACK_BINDING_NV = (int)36389L;
+    private static final int GL_TEXTURE_CUBE_MAP_ARRAY = (int)36873L;
     /**
      * {@snippet lang=c :
-     * #define GL_TRANSFORM_FEEDBACK_BINDING_NV 36389
+     * #define GL_TEXTURE_CUBE_MAP_ARRAY 36873
      * }
      */
-    public static int GL_TRANSFORM_FEEDBACK_BINDING_NV() {
-        return GL_TRANSFORM_FEEDBACK_BINDING_NV;
+    public static int GL_TEXTURE_CUBE_MAP_ARRAY() {
+        return GL_TEXTURE_CUBE_MAP_ARRAY;
     }
-    private static final int GL_NV_uniform_buffer_unified_memory = (int)1L;
+    private static final int GL_TEXTURE_BINDING_CUBE_MAP_ARRAY = (int)36874L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_uniform_buffer_unified_memory 1
+     * #define GL_TEXTURE_BINDING_CUBE_MAP_ARRAY 36874
      * }
      */
-    public static int GL_NV_uniform_buffer_unified_memory() {
-        return GL_NV_uniform_buffer_unified_memory;
+    public static int GL_TEXTURE_BINDING_CUBE_MAP_ARRAY() {
+        return GL_TEXTURE_BINDING_CUBE_MAP_ARRAY;
     }
-    private static final int GL_UNIFORM_BUFFER_UNIFIED_NV = (int)37742L;
+    private static final int GL_PROXY_TEXTURE_CUBE_MAP_ARRAY = (int)36875L;
     /**
      * {@snippet lang=c :
-     * #define GL_UNIFORM_BUFFER_UNIFIED_NV 37742
+     * #define GL_PROXY_TEXTURE_CUBE_MAP_ARRAY 36875
      * }
      */
-    public static int GL_UNIFORM_BUFFER_UNIFIED_NV() {
-        return GL_UNIFORM_BUFFER_UNIFIED_NV;
+    public static int GL_PROXY_TEXTURE_CUBE_MAP_ARRAY() {
+        return GL_PROXY_TEXTURE_CUBE_MAP_ARRAY;
     }
-    private static final int GL_UNIFORM_BUFFER_ADDRESS_NV = (int)37743L;
+    private static final int GL_SAMPLER_CUBE_MAP_ARRAY = (int)36876L;
     /**
      * {@snippet lang=c :
-     * #define GL_UNIFORM_BUFFER_ADDRESS_NV 37743
+     * #define GL_SAMPLER_CUBE_MAP_ARRAY 36876
      * }
      */
-    public static int GL_UNIFORM_BUFFER_ADDRESS_NV() {
-        return GL_UNIFORM_BUFFER_ADDRESS_NV;
+    public static int GL_SAMPLER_CUBE_MAP_ARRAY() {
+        return GL_SAMPLER_CUBE_MAP_ARRAY;
     }
-    private static final int GL_UNIFORM_BUFFER_LENGTH_NV = (int)37744L;
+    private static final int GL_SAMPLER_CUBE_MAP_ARRAY_SHADOW = (int)36877L;
     /**
      * {@snippet lang=c :
-     * #define GL_UNIFORM_BUFFER_LENGTH_NV 37744
+     * #define GL_SAMPLER_CUBE_MAP_ARRAY_SHADOW 36877
      * }
      */
-    public static int GL_UNIFORM_BUFFER_LENGTH_NV() {
-        return GL_UNIFORM_BUFFER_LENGTH_NV;
+    public static int GL_SAMPLER_CUBE_MAP_ARRAY_SHADOW() {
+        return GL_SAMPLER_CUBE_MAP_ARRAY_SHADOW;
     }
-    private static final int GL_NV_vdpau_interop = (int)1L;
+    private static final int GL_INT_SAMPLER_CUBE_MAP_ARRAY = (int)36878L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_vdpau_interop 1
+     * #define GL_INT_SAMPLER_CUBE_MAP_ARRAY 36878
      * }
      */
-    public static int GL_NV_vdpau_interop() {
-        return GL_NV_vdpau_interop;
+    public static int GL_INT_SAMPLER_CUBE_MAP_ARRAY() {
+        return GL_INT_SAMPLER_CUBE_MAP_ARRAY;
     }
-    private static final int GL_SURFACE_STATE_NV = (int)34539L;
+    private static final int GL_UNSIGNED_INT_SAMPLER_CUBE_MAP_ARRAY = (int)36879L;
     /**
      * {@snippet lang=c :
-     * #define GL_SURFACE_STATE_NV 34539
+     * #define GL_UNSIGNED_INT_SAMPLER_CUBE_MAP_ARRAY 36879
      * }
      */
-    public static int GL_SURFACE_STATE_NV() {
-        return GL_SURFACE_STATE_NV;
+    public static int GL_UNSIGNED_INT_SAMPLER_CUBE_MAP_ARRAY() {
+        return GL_UNSIGNED_INT_SAMPLER_CUBE_MAP_ARRAY;
     }
-    private static final int GL_SURFACE_REGISTERED_NV = (int)34557L;
+    private static final int GL_DRAW_INDIRECT_BUFFER = (int)36671L;
     /**
      * {@snippet lang=c :
-     * #define GL_SURFACE_REGISTERED_NV 34557
+     * #define GL_DRAW_INDIRECT_BUFFER 36671
      * }
      */
-    public static int GL_SURFACE_REGISTERED_NV() {
-        return GL_SURFACE_REGISTERED_NV;
+    public static int GL_DRAW_INDIRECT_BUFFER() {
+        return GL_DRAW_INDIRECT_BUFFER;
     }
-    private static final int GL_SURFACE_MAPPED_NV = (int)34560L;
+    private static final int GL_DRAW_INDIRECT_BUFFER_BINDING = (int)36675L;
     /**
      * {@snippet lang=c :
-     * #define GL_SURFACE_MAPPED_NV 34560
+     * #define GL_DRAW_INDIRECT_BUFFER_BINDING 36675
      * }
      */
-    public static int GL_SURFACE_MAPPED_NV() {
-        return GL_SURFACE_MAPPED_NV;
+    public static int GL_DRAW_INDIRECT_BUFFER_BINDING() {
+        return GL_DRAW_INDIRECT_BUFFER_BINDING;
     }
-    private static final int GL_WRITE_DISCARD_NV = (int)35006L;
+    private static final int GL_GEOMETRY_SHADER_INVOCATIONS = (int)34943L;
     /**
      * {@snippet lang=c :
-     * #define GL_WRITE_DISCARD_NV 35006
+     * #define GL_GEOMETRY_SHADER_INVOCATIONS 34943
      * }
      */
-    public static int GL_WRITE_DISCARD_NV() {
-        return GL_WRITE_DISCARD_NV;
+    public static int GL_GEOMETRY_SHADER_INVOCATIONS() {
+        return GL_GEOMETRY_SHADER_INVOCATIONS;
     }
-    private static final int GL_NV_vdpau_interop2 = (int)1L;
+    private static final int GL_MAX_GEOMETRY_SHADER_INVOCATIONS = (int)36442L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_vdpau_interop2 1
+     * #define GL_MAX_GEOMETRY_SHADER_INVOCATIONS 36442
      * }
      */
-    public static int GL_NV_vdpau_interop2() {
-        return GL_NV_vdpau_interop2;
+    public static int GL_MAX_GEOMETRY_SHADER_INVOCATIONS() {
+        return GL_MAX_GEOMETRY_SHADER_INVOCATIONS;
     }
-    private static final int GL_NV_vertex_array_range = (int)1L;
+    private static final int GL_MIN_FRAGMENT_INTERPOLATION_OFFSET = (int)36443L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_vertex_array_range 1
+     * #define GL_MIN_FRAGMENT_INTERPOLATION_OFFSET 36443
      * }
      */
-    public static int GL_NV_vertex_array_range() {
-        return GL_NV_vertex_array_range;
+    public static int GL_MIN_FRAGMENT_INTERPOLATION_OFFSET() {
+        return GL_MIN_FRAGMENT_INTERPOLATION_OFFSET;
     }
-    private static final int GL_VERTEX_ARRAY_RANGE_NV = (int)34077L;
+    private static final int GL_MAX_FRAGMENT_INTERPOLATION_OFFSET = (int)36444L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ARRAY_RANGE_NV 34077
+     * #define GL_MAX_FRAGMENT_INTERPOLATION_OFFSET 36444
      * }
      */
-    public static int GL_VERTEX_ARRAY_RANGE_NV() {
-        return GL_VERTEX_ARRAY_RANGE_NV;
+    public static int GL_MAX_FRAGMENT_INTERPOLATION_OFFSET() {
+        return GL_MAX_FRAGMENT_INTERPOLATION_OFFSET;
     }
-    private static final int GL_VERTEX_ARRAY_RANGE_LENGTH_NV = (int)34078L;
+    private static final int GL_FRAGMENT_INTERPOLATION_OFFSET_BITS = (int)36445L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ARRAY_RANGE_LENGTH_NV 34078
+     * #define GL_FRAGMENT_INTERPOLATION_OFFSET_BITS 36445
      * }
      */
-    public static int GL_VERTEX_ARRAY_RANGE_LENGTH_NV() {
-        return GL_VERTEX_ARRAY_RANGE_LENGTH_NV;
+    public static int GL_FRAGMENT_INTERPOLATION_OFFSET_BITS() {
+        return GL_FRAGMENT_INTERPOLATION_OFFSET_BITS;
     }
-    private static final int GL_VERTEX_ARRAY_RANGE_VALID_NV = (int)34079L;
+    private static final int GL_MAX_VERTEX_STREAMS = (int)36465L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ARRAY_RANGE_VALID_NV 34079
+     * #define GL_MAX_VERTEX_STREAMS 36465
      * }
      */
-    public static int GL_VERTEX_ARRAY_RANGE_VALID_NV() {
-        return GL_VERTEX_ARRAY_RANGE_VALID_NV;
+    public static int GL_MAX_VERTEX_STREAMS() {
+        return GL_MAX_VERTEX_STREAMS;
     }
-    private static final int GL_MAX_VERTEX_ARRAY_RANGE_ELEMENT_NV = (int)34080L;
+    private static final int GL_DOUBLE_VEC2 = (int)36860L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAX_VERTEX_ARRAY_RANGE_ELEMENT_NV 34080
+     * #define GL_DOUBLE_VEC2 36860
      * }
      */
-    public static int GL_MAX_VERTEX_ARRAY_RANGE_ELEMENT_NV() {
-        return GL_MAX_VERTEX_ARRAY_RANGE_ELEMENT_NV;
+    public static int GL_DOUBLE_VEC2() {
+        return GL_DOUBLE_VEC2;
     }
-    private static final int GL_VERTEX_ARRAY_RANGE_POINTER_NV = (int)34081L;
+    private static final int GL_DOUBLE_VEC3 = (int)36861L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ARRAY_RANGE_POINTER_NV 34081
+     * #define GL_DOUBLE_VEC3 36861
      * }
      */
-    public static int GL_VERTEX_ARRAY_RANGE_POINTER_NV() {
-        return GL_VERTEX_ARRAY_RANGE_POINTER_NV;
+    public static int GL_DOUBLE_VEC3() {
+        return GL_DOUBLE_VEC3;
     }
-    private static final int GL_NV_vertex_array_range2 = (int)1L;
+    private static final int GL_DOUBLE_VEC4 = (int)36862L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_vertex_array_range2 1
+     * #define GL_DOUBLE_VEC4 36862
      * }
      */
-    public static int GL_NV_vertex_array_range2() {
-        return GL_NV_vertex_array_range2;
+    public static int GL_DOUBLE_VEC4() {
+        return GL_DOUBLE_VEC4;
     }
-    private static final int GL_VERTEX_ARRAY_RANGE_WITHOUT_FLUSH_NV = (int)34099L;
+    private static final int GL_DOUBLE_MAT2 = (int)36678L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ARRAY_RANGE_WITHOUT_FLUSH_NV 34099
+     * #define GL_DOUBLE_MAT2 36678
      * }
      */
-    public static int GL_VERTEX_ARRAY_RANGE_WITHOUT_FLUSH_NV() {
-        return GL_VERTEX_ARRAY_RANGE_WITHOUT_FLUSH_NV;
+    public static int GL_DOUBLE_MAT2() {
+        return GL_DOUBLE_MAT2;
     }
-    private static final int GL_NV_vertex_attrib_integer_64bit = (int)1L;
+    private static final int GL_DOUBLE_MAT3 = (int)36679L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_vertex_attrib_integer_64bit 1
+     * #define GL_DOUBLE_MAT3 36679
      * }
      */
-    public static int GL_NV_vertex_attrib_integer_64bit() {
-        return GL_NV_vertex_attrib_integer_64bit;
+    public static int GL_DOUBLE_MAT3() {
+        return GL_DOUBLE_MAT3;
     }
-    private static final int GL_NV_vertex_buffer_unified_memory = (int)1L;
+    private static final int GL_DOUBLE_MAT4 = (int)36680L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_vertex_buffer_unified_memory 1
+     * #define GL_DOUBLE_MAT4 36680
      * }
      */
-    public static int GL_NV_vertex_buffer_unified_memory() {
-        return GL_NV_vertex_buffer_unified_memory;
+    public static int GL_DOUBLE_MAT4() {
+        return GL_DOUBLE_MAT4;
     }
-    private static final int GL_VERTEX_ATTRIB_ARRAY_UNIFIED_NV = (int)36638L;
+    private static final int GL_DOUBLE_MAT2x3 = (int)36681L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ATTRIB_ARRAY_UNIFIED_NV 36638
+     * #define GL_DOUBLE_MAT2x3 36681
      * }
      */
-    public static int GL_VERTEX_ATTRIB_ARRAY_UNIFIED_NV() {
-        return GL_VERTEX_ATTRIB_ARRAY_UNIFIED_NV;
+    public static int GL_DOUBLE_MAT2x3() {
+        return GL_DOUBLE_MAT2x3;
     }
-    private static final int GL_ELEMENT_ARRAY_UNIFIED_NV = (int)36639L;
+    private static final int GL_DOUBLE_MAT2x4 = (int)36682L;
     /**
      * {@snippet lang=c :
-     * #define GL_ELEMENT_ARRAY_UNIFIED_NV 36639
+     * #define GL_DOUBLE_MAT2x4 36682
      * }
      */
-    public static int GL_ELEMENT_ARRAY_UNIFIED_NV() {
-        return GL_ELEMENT_ARRAY_UNIFIED_NV;
+    public static int GL_DOUBLE_MAT2x4() {
+        return GL_DOUBLE_MAT2x4;
     }
-    private static final int GL_VERTEX_ATTRIB_ARRAY_ADDRESS_NV = (int)36640L;
+    private static final int GL_DOUBLE_MAT3x2 = (int)36683L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ATTRIB_ARRAY_ADDRESS_NV 36640
+     * #define GL_DOUBLE_MAT3x2 36683
      * }
      */
-    public static int GL_VERTEX_ATTRIB_ARRAY_ADDRESS_NV() {
-        return GL_VERTEX_ATTRIB_ARRAY_ADDRESS_NV;
+    public static int GL_DOUBLE_MAT3x2() {
+        return GL_DOUBLE_MAT3x2;
     }
-    private static final int GL_VERTEX_ARRAY_ADDRESS_NV = (int)36641L;
+    private static final int GL_DOUBLE_MAT3x4 = (int)36684L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ARRAY_ADDRESS_NV 36641
+     * #define GL_DOUBLE_MAT3x4 36684
      * }
      */
-    public static int GL_VERTEX_ARRAY_ADDRESS_NV() {
-        return GL_VERTEX_ARRAY_ADDRESS_NV;
+    public static int GL_DOUBLE_MAT3x4() {
+        return GL_DOUBLE_MAT3x4;
     }
-    private static final int GL_NORMAL_ARRAY_ADDRESS_NV = (int)36642L;
+    private static final int GL_DOUBLE_MAT4x2 = (int)36685L;
     /**
      * {@snippet lang=c :
-     * #define GL_NORMAL_ARRAY_ADDRESS_NV 36642
+     * #define GL_DOUBLE_MAT4x2 36685
      * }
      */
-    public static int GL_NORMAL_ARRAY_ADDRESS_NV() {
-        return GL_NORMAL_ARRAY_ADDRESS_NV;
+    public static int GL_DOUBLE_MAT4x2() {
+        return GL_DOUBLE_MAT4x2;
     }
-    private static final int GL_COLOR_ARRAY_ADDRESS_NV = (int)36643L;
+    private static final int GL_DOUBLE_MAT4x3 = (int)36686L;
     /**
      * {@snippet lang=c :
-     * #define GL_COLOR_ARRAY_ADDRESS_NV 36643
+     * #define GL_DOUBLE_MAT4x3 36686
      * }
      */
-    public static int GL_COLOR_ARRAY_ADDRESS_NV() {
-        return GL_COLOR_ARRAY_ADDRESS_NV;
+    public static int GL_DOUBLE_MAT4x3() {
+        return GL_DOUBLE_MAT4x3;
     }
-    private static final int GL_INDEX_ARRAY_ADDRESS_NV = (int)36644L;
+    private static final int GL_ACTIVE_SUBROUTINES = (int)36325L;
     /**
      * {@snippet lang=c :
-     * #define GL_INDEX_ARRAY_ADDRESS_NV 36644
+     * #define GL_ACTIVE_SUBROUTINES 36325
      * }
      */
-    public static int GL_INDEX_ARRAY_ADDRESS_NV() {
-        return GL_INDEX_ARRAY_ADDRESS_NV;
+    public static int GL_ACTIVE_SUBROUTINES() {
+        return GL_ACTIVE_SUBROUTINES;
     }
-    private static final int GL_TEXTURE_COORD_ARRAY_ADDRESS_NV = (int)36645L;
+    private static final int GL_ACTIVE_SUBROUTINE_UNIFORMS = (int)36326L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_COORD_ARRAY_ADDRESS_NV 36645
+     * #define GL_ACTIVE_SUBROUTINE_UNIFORMS 36326
      * }
      */
-    public static int GL_TEXTURE_COORD_ARRAY_ADDRESS_NV() {
-        return GL_TEXTURE_COORD_ARRAY_ADDRESS_NV;
+    public static int GL_ACTIVE_SUBROUTINE_UNIFORMS() {
+        return GL_ACTIVE_SUBROUTINE_UNIFORMS;
     }
-    private static final int GL_EDGE_FLAG_ARRAY_ADDRESS_NV = (int)36646L;
+    private static final int GL_ACTIVE_SUBROUTINE_UNIFORM_LOCATIONS = (int)36423L;
     /**
      * {@snippet lang=c :
-     * #define GL_EDGE_FLAG_ARRAY_ADDRESS_NV 36646
+     * #define GL_ACTIVE_SUBROUTINE_UNIFORM_LOCATIONS 36423
      * }
      */
-    public static int GL_EDGE_FLAG_ARRAY_ADDRESS_NV() {
-        return GL_EDGE_FLAG_ARRAY_ADDRESS_NV;
+    public static int GL_ACTIVE_SUBROUTINE_UNIFORM_LOCATIONS() {
+        return GL_ACTIVE_SUBROUTINE_UNIFORM_LOCATIONS;
     }
-    private static final int GL_SECONDARY_COLOR_ARRAY_ADDRESS_NV = (int)36647L;
+    private static final int GL_ACTIVE_SUBROUTINE_MAX_LENGTH = (int)36424L;
     /**
      * {@snippet lang=c :
-     * #define GL_SECONDARY_COLOR_ARRAY_ADDRESS_NV 36647
+     * #define GL_ACTIVE_SUBROUTINE_MAX_LENGTH 36424
      * }
      */
-    public static int GL_SECONDARY_COLOR_ARRAY_ADDRESS_NV() {
-        return GL_SECONDARY_COLOR_ARRAY_ADDRESS_NV;
+    public static int GL_ACTIVE_SUBROUTINE_MAX_LENGTH() {
+        return GL_ACTIVE_SUBROUTINE_MAX_LENGTH;
     }
-    private static final int GL_FOG_COORD_ARRAY_ADDRESS_NV = (int)36648L;
+    private static final int GL_ACTIVE_SUBROUTINE_UNIFORM_MAX_LENGTH = (int)36425L;
     /**
      * {@snippet lang=c :
-     * #define GL_FOG_COORD_ARRAY_ADDRESS_NV 36648
+     * #define GL_ACTIVE_SUBROUTINE_UNIFORM_MAX_LENGTH 36425
      * }
      */
-    public static int GL_FOG_COORD_ARRAY_ADDRESS_NV() {
-        return GL_FOG_COORD_ARRAY_ADDRESS_NV;
+    public static int GL_ACTIVE_SUBROUTINE_UNIFORM_MAX_LENGTH() {
+        return GL_ACTIVE_SUBROUTINE_UNIFORM_MAX_LENGTH;
     }
-    private static final int GL_ELEMENT_ARRAY_ADDRESS_NV = (int)36649L;
+    private static final int GL_MAX_SUBROUTINES = (int)36327L;
     /**
      * {@snippet lang=c :
-     * #define GL_ELEMENT_ARRAY_ADDRESS_NV 36649
+     * #define GL_MAX_SUBROUTINES 36327
      * }
      */
-    public static int GL_ELEMENT_ARRAY_ADDRESS_NV() {
-        return GL_ELEMENT_ARRAY_ADDRESS_NV;
+    public static int GL_MAX_SUBROUTINES() {
+        return GL_MAX_SUBROUTINES;
     }
-    private static final int GL_VERTEX_ATTRIB_ARRAY_LENGTH_NV = (int)36650L;
+    private static final int GL_MAX_SUBROUTINE_UNIFORM_LOCATIONS = (int)36328L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ATTRIB_ARRAY_LENGTH_NV 36650
+     * #define GL_MAX_SUBROUTINE_UNIFORM_LOCATIONS 36328
      * }
      */
-    public static int GL_VERTEX_ATTRIB_ARRAY_LENGTH_NV() {
-        return GL_VERTEX_ATTRIB_ARRAY_LENGTH_NV;
+    public static int GL_MAX_SUBROUTINE_UNIFORM_LOCATIONS() {
+        return GL_MAX_SUBROUTINE_UNIFORM_LOCATIONS;
     }
-    private static final int GL_VERTEX_ARRAY_LENGTH_NV = (int)36651L;
+    private static final int GL_NUM_COMPATIBLE_SUBROUTINES = (int)36426L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ARRAY_LENGTH_NV 36651
+     * #define GL_NUM_COMPATIBLE_SUBROUTINES 36426
      * }
      */
-    public static int GL_VERTEX_ARRAY_LENGTH_NV() {
-        return GL_VERTEX_ARRAY_LENGTH_NV;
+    public static int GL_NUM_COMPATIBLE_SUBROUTINES() {
+        return GL_NUM_COMPATIBLE_SUBROUTINES;
     }
-    private static final int GL_NORMAL_ARRAY_LENGTH_NV = (int)36652L;
+    private static final int GL_COMPATIBLE_SUBROUTINES = (int)36427L;
     /**
      * {@snippet lang=c :
-     * #define GL_NORMAL_ARRAY_LENGTH_NV 36652
+     * #define GL_COMPATIBLE_SUBROUTINES 36427
      * }
      */
-    public static int GL_NORMAL_ARRAY_LENGTH_NV() {
-        return GL_NORMAL_ARRAY_LENGTH_NV;
+    public static int GL_COMPATIBLE_SUBROUTINES() {
+        return GL_COMPATIBLE_SUBROUTINES;
     }
-    private static final int GL_COLOR_ARRAY_LENGTH_NV = (int)36653L;
+    private static final int GL_PATCHES = (int)14L;
     /**
      * {@snippet lang=c :
-     * #define GL_COLOR_ARRAY_LENGTH_NV 36653
+     * #define GL_PATCHES 14
      * }
      */
-    public static int GL_COLOR_ARRAY_LENGTH_NV() {
-        return GL_COLOR_ARRAY_LENGTH_NV;
+    public static int GL_PATCHES() {
+        return GL_PATCHES;
     }
-    private static final int GL_INDEX_ARRAY_LENGTH_NV = (int)36654L;
+    private static final int GL_PATCH_VERTICES = (int)36466L;
     /**
      * {@snippet lang=c :
-     * #define GL_INDEX_ARRAY_LENGTH_NV 36654
+     * #define GL_PATCH_VERTICES 36466
      * }
      */
-    public static int GL_INDEX_ARRAY_LENGTH_NV() {
-        return GL_INDEX_ARRAY_LENGTH_NV;
+    public static int GL_PATCH_VERTICES() {
+        return GL_PATCH_VERTICES;
     }
-    private static final int GL_TEXTURE_COORD_ARRAY_LENGTH_NV = (int)36655L;
+    private static final int GL_PATCH_DEFAULT_INNER_LEVEL = (int)36467L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_COORD_ARRAY_LENGTH_NV 36655
+     * #define GL_PATCH_DEFAULT_INNER_LEVEL 36467
      * }
      */
-    public static int GL_TEXTURE_COORD_ARRAY_LENGTH_NV() {
-        return GL_TEXTURE_COORD_ARRAY_LENGTH_NV;
+    public static int GL_PATCH_DEFAULT_INNER_LEVEL() {
+        return GL_PATCH_DEFAULT_INNER_LEVEL;
     }
-    private static final int GL_EDGE_FLAG_ARRAY_LENGTH_NV = (int)36656L;
+    private static final int GL_PATCH_DEFAULT_OUTER_LEVEL = (int)36468L;
     /**
      * {@snippet lang=c :
-     * #define GL_EDGE_FLAG_ARRAY_LENGTH_NV 36656
+     * #define GL_PATCH_DEFAULT_OUTER_LEVEL 36468
      * }
      */
-    public static int GL_EDGE_FLAG_ARRAY_LENGTH_NV() {
-        return GL_EDGE_FLAG_ARRAY_LENGTH_NV;
+    public static int GL_PATCH_DEFAULT_OUTER_LEVEL() {
+        return GL_PATCH_DEFAULT_OUTER_LEVEL;
     }
-    private static final int GL_SECONDARY_COLOR_ARRAY_LENGTH_NV = (int)36657L;
+    private static final int GL_TESS_CONTROL_OUTPUT_VERTICES = (int)36469L;
     /**
      * {@snippet lang=c :
-     * #define GL_SECONDARY_COLOR_ARRAY_LENGTH_NV 36657
+     * #define GL_TESS_CONTROL_OUTPUT_VERTICES 36469
      * }
      */
-    public static int GL_SECONDARY_COLOR_ARRAY_LENGTH_NV() {
-        return GL_SECONDARY_COLOR_ARRAY_LENGTH_NV;
+    public static int GL_TESS_CONTROL_OUTPUT_VERTICES() {
+        return GL_TESS_CONTROL_OUTPUT_VERTICES;
     }
-    private static final int GL_FOG_COORD_ARRAY_LENGTH_NV = (int)36658L;
+    private static final int GL_TESS_GEN_MODE = (int)36470L;
     /**
      * {@snippet lang=c :
-     * #define GL_FOG_COORD_ARRAY_LENGTH_NV 36658
+     * #define GL_TESS_GEN_MODE 36470
      * }
      */
-    public static int GL_FOG_COORD_ARRAY_LENGTH_NV() {
-        return GL_FOG_COORD_ARRAY_LENGTH_NV;
+    public static int GL_TESS_GEN_MODE() {
+        return GL_TESS_GEN_MODE;
     }
-    private static final int GL_ELEMENT_ARRAY_LENGTH_NV = (int)36659L;
+    private static final int GL_TESS_GEN_SPACING = (int)36471L;
     /**
      * {@snippet lang=c :
-     * #define GL_ELEMENT_ARRAY_LENGTH_NV 36659
+     * #define GL_TESS_GEN_SPACING 36471
      * }
      */
-    public static int GL_ELEMENT_ARRAY_LENGTH_NV() {
-        return GL_ELEMENT_ARRAY_LENGTH_NV;
+    public static int GL_TESS_GEN_SPACING() {
+        return GL_TESS_GEN_SPACING;
     }
-    private static final int GL_DRAW_INDIRECT_UNIFIED_NV = (int)36672L;
+    private static final int GL_TESS_GEN_VERTEX_ORDER = (int)36472L;
     /**
      * {@snippet lang=c :
-     * #define GL_DRAW_INDIRECT_UNIFIED_NV 36672
+     * #define GL_TESS_GEN_VERTEX_ORDER 36472
      * }
      */
-    public static int GL_DRAW_INDIRECT_UNIFIED_NV() {
-        return GL_DRAW_INDIRECT_UNIFIED_NV;
+    public static int GL_TESS_GEN_VERTEX_ORDER() {
+        return GL_TESS_GEN_VERTEX_ORDER;
     }
-    private static final int GL_DRAW_INDIRECT_ADDRESS_NV = (int)36673L;
+    private static final int GL_TESS_GEN_POINT_MODE = (int)36473L;
     /**
      * {@snippet lang=c :
-     * #define GL_DRAW_INDIRECT_ADDRESS_NV 36673
+     * #define GL_TESS_GEN_POINT_MODE 36473
      * }
      */
-    public static int GL_DRAW_INDIRECT_ADDRESS_NV() {
-        return GL_DRAW_INDIRECT_ADDRESS_NV;
+    public static int GL_TESS_GEN_POINT_MODE() {
+        return GL_TESS_GEN_POINT_MODE;
     }
-    private static final int GL_DRAW_INDIRECT_LENGTH_NV = (int)36674L;
+    private static final int GL_ISOLINES = (int)36474L;
     /**
      * {@snippet lang=c :
-     * #define GL_DRAW_INDIRECT_LENGTH_NV 36674
+     * #define GL_ISOLINES 36474
      * }
      */
-    public static int GL_DRAW_INDIRECT_LENGTH_NV() {
-        return GL_DRAW_INDIRECT_LENGTH_NV;
+    public static int GL_ISOLINES() {
+        return GL_ISOLINES;
     }
-    private static final int GL_NV_vertex_program = (int)1L;
+    private static final int GL_FRACTIONAL_ODD = (int)36475L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_vertex_program 1
+     * #define GL_FRACTIONAL_ODD 36475
      * }
      */
-    public static int GL_NV_vertex_program() {
-        return GL_NV_vertex_program;
+    public static int GL_FRACTIONAL_ODD() {
+        return GL_FRACTIONAL_ODD;
     }
-    private static final int GL_VERTEX_PROGRAM_NV = (int)34336L;
+    private static final int GL_FRACTIONAL_EVEN = (int)36476L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_PROGRAM_NV 34336
+     * #define GL_FRACTIONAL_EVEN 36476
      * }
      */
-    public static int GL_VERTEX_PROGRAM_NV() {
-        return GL_VERTEX_PROGRAM_NV;
+    public static int GL_FRACTIONAL_EVEN() {
+        return GL_FRACTIONAL_EVEN;
     }
-    private static final int GL_VERTEX_STATE_PROGRAM_NV = (int)34337L;
+    private static final int GL_MAX_PATCH_VERTICES = (int)36477L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_STATE_PROGRAM_NV 34337
+     * #define GL_MAX_PATCH_VERTICES 36477
      * }
      */
-    public static int GL_VERTEX_STATE_PROGRAM_NV() {
-        return GL_VERTEX_STATE_PROGRAM_NV;
+    public static int GL_MAX_PATCH_VERTICES() {
+        return GL_MAX_PATCH_VERTICES;
     }
-    private static final int GL_ATTRIB_ARRAY_SIZE_NV = (int)34339L;
+    private static final int GL_MAX_TESS_GEN_LEVEL = (int)36478L;
     /**
      * {@snippet lang=c :
-     * #define GL_ATTRIB_ARRAY_SIZE_NV 34339
+     * #define GL_MAX_TESS_GEN_LEVEL 36478
      * }
      */
-    public static int GL_ATTRIB_ARRAY_SIZE_NV() {
-        return GL_ATTRIB_ARRAY_SIZE_NV;
+    public static int GL_MAX_TESS_GEN_LEVEL() {
+        return GL_MAX_TESS_GEN_LEVEL;
     }
-    private static final int GL_ATTRIB_ARRAY_STRIDE_NV = (int)34340L;
+    private static final int GL_MAX_TESS_CONTROL_UNIFORM_COMPONENTS = (int)36479L;
     /**
      * {@snippet lang=c :
-     * #define GL_ATTRIB_ARRAY_STRIDE_NV 34340
+     * #define GL_MAX_TESS_CONTROL_UNIFORM_COMPONENTS 36479
      * }
      */
-    public static int GL_ATTRIB_ARRAY_STRIDE_NV() {
-        return GL_ATTRIB_ARRAY_STRIDE_NV;
+    public static int GL_MAX_TESS_CONTROL_UNIFORM_COMPONENTS() {
+        return GL_MAX_TESS_CONTROL_UNIFORM_COMPONENTS;
     }
-    private static final int GL_ATTRIB_ARRAY_TYPE_NV = (int)34341L;
+    private static final int GL_MAX_TESS_EVALUATION_UNIFORM_COMPONENTS = (int)36480L;
     /**
      * {@snippet lang=c :
-     * #define GL_ATTRIB_ARRAY_TYPE_NV 34341
+     * #define GL_MAX_TESS_EVALUATION_UNIFORM_COMPONENTS 36480
      * }
      */
-    public static int GL_ATTRIB_ARRAY_TYPE_NV() {
-        return GL_ATTRIB_ARRAY_TYPE_NV;
+    public static int GL_MAX_TESS_EVALUATION_UNIFORM_COMPONENTS() {
+        return GL_MAX_TESS_EVALUATION_UNIFORM_COMPONENTS;
     }
-    private static final int GL_CURRENT_ATTRIB_NV = (int)34342L;
+    private static final int GL_MAX_TESS_CONTROL_TEXTURE_IMAGE_UNITS = (int)36481L;
     /**
      * {@snippet lang=c :
-     * #define GL_CURRENT_ATTRIB_NV 34342
+     * #define GL_MAX_TESS_CONTROL_TEXTURE_IMAGE_UNITS 36481
      * }
      */
-    public static int GL_CURRENT_ATTRIB_NV() {
-        return GL_CURRENT_ATTRIB_NV;
+    public static int GL_MAX_TESS_CONTROL_TEXTURE_IMAGE_UNITS() {
+        return GL_MAX_TESS_CONTROL_TEXTURE_IMAGE_UNITS;
     }
-    private static final int GL_PROGRAM_LENGTH_NV = (int)34343L;
+    private static final int GL_MAX_TESS_EVALUATION_TEXTURE_IMAGE_UNITS = (int)36482L;
     /**
      * {@snippet lang=c :
-     * #define GL_PROGRAM_LENGTH_NV 34343
+     * #define GL_MAX_TESS_EVALUATION_TEXTURE_IMAGE_UNITS 36482
      * }
      */
-    public static int GL_PROGRAM_LENGTH_NV() {
-        return GL_PROGRAM_LENGTH_NV;
+    public static int GL_MAX_TESS_EVALUATION_TEXTURE_IMAGE_UNITS() {
+        return GL_MAX_TESS_EVALUATION_TEXTURE_IMAGE_UNITS;
     }
-    private static final int GL_PROGRAM_STRING_NV = (int)34344L;
+    private static final int GL_MAX_TESS_CONTROL_OUTPUT_COMPONENTS = (int)36483L;
     /**
      * {@snippet lang=c :
-     * #define GL_PROGRAM_STRING_NV 34344
+     * #define GL_MAX_TESS_CONTROL_OUTPUT_COMPONENTS 36483
      * }
      */
-    public static int GL_PROGRAM_STRING_NV() {
-        return GL_PROGRAM_STRING_NV;
+    public static int GL_MAX_TESS_CONTROL_OUTPUT_COMPONENTS() {
+        return GL_MAX_TESS_CONTROL_OUTPUT_COMPONENTS;
     }
-    private static final int GL_MODELVIEW_PROJECTION_NV = (int)34345L;
+    private static final int GL_MAX_TESS_PATCH_COMPONENTS = (int)36484L;
     /**
      * {@snippet lang=c :
-     * #define GL_MODELVIEW_PROJECTION_NV 34345
+     * #define GL_MAX_TESS_PATCH_COMPONENTS 36484
      * }
      */
-    public static int GL_MODELVIEW_PROJECTION_NV() {
-        return GL_MODELVIEW_PROJECTION_NV;
+    public static int GL_MAX_TESS_PATCH_COMPONENTS() {
+        return GL_MAX_TESS_PATCH_COMPONENTS;
     }
-    private static final int GL_IDENTITY_NV = (int)34346L;
+    private static final int GL_MAX_TESS_CONTROL_TOTAL_OUTPUT_COMPONENTS = (int)36485L;
     /**
      * {@snippet lang=c :
-     * #define GL_IDENTITY_NV 34346
+     * #define GL_MAX_TESS_CONTROL_TOTAL_OUTPUT_COMPONENTS 36485
      * }
      */
-    public static int GL_IDENTITY_NV() {
-        return GL_IDENTITY_NV;
+    public static int GL_MAX_TESS_CONTROL_TOTAL_OUTPUT_COMPONENTS() {
+        return GL_MAX_TESS_CONTROL_TOTAL_OUTPUT_COMPONENTS;
     }
-    private static final int GL_INVERSE_NV = (int)34347L;
+    private static final int GL_MAX_TESS_EVALUATION_OUTPUT_COMPONENTS = (int)36486L;
     /**
      * {@snippet lang=c :
-     * #define GL_INVERSE_NV 34347
+     * #define GL_MAX_TESS_EVALUATION_OUTPUT_COMPONENTS 36486
      * }
      */
-    public static int GL_INVERSE_NV() {
-        return GL_INVERSE_NV;
+    public static int GL_MAX_TESS_EVALUATION_OUTPUT_COMPONENTS() {
+        return GL_MAX_TESS_EVALUATION_OUTPUT_COMPONENTS;
     }
-    private static final int GL_TRANSPOSE_NV = (int)34348L;
+    private static final int GL_MAX_TESS_CONTROL_UNIFORM_BLOCKS = (int)36489L;
     /**
      * {@snippet lang=c :
-     * #define GL_TRANSPOSE_NV 34348
+     * #define GL_MAX_TESS_CONTROL_UNIFORM_BLOCKS 36489
      * }
      */
-    public static int GL_TRANSPOSE_NV() {
-        return GL_TRANSPOSE_NV;
+    public static int GL_MAX_TESS_CONTROL_UNIFORM_BLOCKS() {
+        return GL_MAX_TESS_CONTROL_UNIFORM_BLOCKS;
     }
-    private static final int GL_INVERSE_TRANSPOSE_NV = (int)34349L;
+    private static final int GL_MAX_TESS_EVALUATION_UNIFORM_BLOCKS = (int)36490L;
     /**
      * {@snippet lang=c :
-     * #define GL_INVERSE_TRANSPOSE_NV 34349
+     * #define GL_MAX_TESS_EVALUATION_UNIFORM_BLOCKS 36490
      * }
      */
-    public static int GL_INVERSE_TRANSPOSE_NV() {
-        return GL_INVERSE_TRANSPOSE_NV;
+    public static int GL_MAX_TESS_EVALUATION_UNIFORM_BLOCKS() {
+        return GL_MAX_TESS_EVALUATION_UNIFORM_BLOCKS;
     }
-    private static final int GL_MAX_TRACK_MATRIX_STACK_DEPTH_NV = (int)34350L;
+    private static final int GL_MAX_TESS_CONTROL_INPUT_COMPONENTS = (int)34924L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAX_TRACK_MATRIX_STACK_DEPTH_NV 34350
+     * #define GL_MAX_TESS_CONTROL_INPUT_COMPONENTS 34924
      * }
      */
-    public static int GL_MAX_TRACK_MATRIX_STACK_DEPTH_NV() {
-        return GL_MAX_TRACK_MATRIX_STACK_DEPTH_NV;
+    public static int GL_MAX_TESS_CONTROL_INPUT_COMPONENTS() {
+        return GL_MAX_TESS_CONTROL_INPUT_COMPONENTS;
     }
-    private static final int GL_MAX_TRACK_MATRICES_NV = (int)34351L;
+    private static final int GL_MAX_TESS_EVALUATION_INPUT_COMPONENTS = (int)34925L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAX_TRACK_MATRICES_NV 34351
+     * #define GL_MAX_TESS_EVALUATION_INPUT_COMPONENTS 34925
      * }
      */
-    public static int GL_MAX_TRACK_MATRICES_NV() {
-        return GL_MAX_TRACK_MATRICES_NV;
+    public static int GL_MAX_TESS_EVALUATION_INPUT_COMPONENTS() {
+        return GL_MAX_TESS_EVALUATION_INPUT_COMPONENTS;
     }
-    private static final int GL_MATRIX0_NV = (int)34352L;
+    private static final int GL_MAX_COMBINED_TESS_CONTROL_UNIFORM_COMPONENTS = (int)36382L;
     /**
      * {@snippet lang=c :
-     * #define GL_MATRIX0_NV 34352
+     * #define GL_MAX_COMBINED_TESS_CONTROL_UNIFORM_COMPONENTS 36382
      * }
      */
-    public static int GL_MATRIX0_NV() {
-        return GL_MATRIX0_NV;
+    public static int GL_MAX_COMBINED_TESS_CONTROL_UNIFORM_COMPONENTS() {
+        return GL_MAX_COMBINED_TESS_CONTROL_UNIFORM_COMPONENTS;
     }
-    private static final int GL_MATRIX1_NV = (int)34353L;
+    private static final int GL_MAX_COMBINED_TESS_EVALUATION_UNIFORM_COMPONENTS = (int)36383L;
     /**
      * {@snippet lang=c :
-     * #define GL_MATRIX1_NV 34353
+     * #define GL_MAX_COMBINED_TESS_EVALUATION_UNIFORM_COMPONENTS 36383
      * }
      */
-    public static int GL_MATRIX1_NV() {
-        return GL_MATRIX1_NV;
+    public static int GL_MAX_COMBINED_TESS_EVALUATION_UNIFORM_COMPONENTS() {
+        return GL_MAX_COMBINED_TESS_EVALUATION_UNIFORM_COMPONENTS;
     }
-    private static final int GL_MATRIX2_NV = (int)34354L;
+    private static final int GL_UNIFORM_BLOCK_REFERENCED_BY_TESS_CONTROL_SHADER = (int)34032L;
     /**
      * {@snippet lang=c :
-     * #define GL_MATRIX2_NV 34354
+     * #define GL_UNIFORM_BLOCK_REFERENCED_BY_TESS_CONTROL_SHADER 34032
      * }
      */
-    public static int GL_MATRIX2_NV() {
-        return GL_MATRIX2_NV;
+    public static int GL_UNIFORM_BLOCK_REFERENCED_BY_TESS_CONTROL_SHADER() {
+        return GL_UNIFORM_BLOCK_REFERENCED_BY_TESS_CONTROL_SHADER;
     }
-    private static final int GL_MATRIX3_NV = (int)34355L;
+    private static final int GL_UNIFORM_BLOCK_REFERENCED_BY_TESS_EVALUATION_SHADER = (int)34033L;
     /**
      * {@snippet lang=c :
-     * #define GL_MATRIX3_NV 34355
+     * #define GL_UNIFORM_BLOCK_REFERENCED_BY_TESS_EVALUATION_SHADER 34033
      * }
      */
-    public static int GL_MATRIX3_NV() {
-        return GL_MATRIX3_NV;
+    public static int GL_UNIFORM_BLOCK_REFERENCED_BY_TESS_EVALUATION_SHADER() {
+        return GL_UNIFORM_BLOCK_REFERENCED_BY_TESS_EVALUATION_SHADER;
     }
-    private static final int GL_MATRIX4_NV = (int)34356L;
+    private static final int GL_TESS_EVALUATION_SHADER = (int)36487L;
     /**
      * {@snippet lang=c :
-     * #define GL_MATRIX4_NV 34356
+     * #define GL_TESS_EVALUATION_SHADER 36487
      * }
      */
-    public static int GL_MATRIX4_NV() {
-        return GL_MATRIX4_NV;
+    public static int GL_TESS_EVALUATION_SHADER() {
+        return GL_TESS_EVALUATION_SHADER;
     }
-    private static final int GL_MATRIX5_NV = (int)34357L;
+    private static final int GL_TESS_CONTROL_SHADER = (int)36488L;
     /**
      * {@snippet lang=c :
-     * #define GL_MATRIX5_NV 34357
+     * #define GL_TESS_CONTROL_SHADER 36488
      * }
      */
-    public static int GL_MATRIX5_NV() {
-        return GL_MATRIX5_NV;
+    public static int GL_TESS_CONTROL_SHADER() {
+        return GL_TESS_CONTROL_SHADER;
     }
-    private static final int GL_MATRIX6_NV = (int)34358L;
+    private static final int GL_TRANSFORM_FEEDBACK = (int)36386L;
     /**
      * {@snippet lang=c :
-     * #define GL_MATRIX6_NV 34358
+     * #define GL_TRANSFORM_FEEDBACK 36386
      * }
      */
-    public static int GL_MATRIX6_NV() {
-        return GL_MATRIX6_NV;
+    public static int GL_TRANSFORM_FEEDBACK() {
+        return GL_TRANSFORM_FEEDBACK;
     }
-    private static final int GL_MATRIX7_NV = (int)34359L;
+    private static final int GL_TRANSFORM_FEEDBACK_BUFFER_PAUSED = (int)36387L;
     /**
      * {@snippet lang=c :
-     * #define GL_MATRIX7_NV 34359
+     * #define GL_TRANSFORM_FEEDBACK_BUFFER_PAUSED 36387
      * }
      */
-    public static int GL_MATRIX7_NV() {
-        return GL_MATRIX7_NV;
+    public static int GL_TRANSFORM_FEEDBACK_BUFFER_PAUSED() {
+        return GL_TRANSFORM_FEEDBACK_BUFFER_PAUSED;
     }
-    private static final int GL_CURRENT_MATRIX_STACK_DEPTH_NV = (int)34368L;
+    private static final int GL_TRANSFORM_FEEDBACK_BUFFER_ACTIVE = (int)36388L;
     /**
      * {@snippet lang=c :
-     * #define GL_CURRENT_MATRIX_STACK_DEPTH_NV 34368
+     * #define GL_TRANSFORM_FEEDBACK_BUFFER_ACTIVE 36388
      * }
      */
-    public static int GL_CURRENT_MATRIX_STACK_DEPTH_NV() {
-        return GL_CURRENT_MATRIX_STACK_DEPTH_NV;
+    public static int GL_TRANSFORM_FEEDBACK_BUFFER_ACTIVE() {
+        return GL_TRANSFORM_FEEDBACK_BUFFER_ACTIVE;
     }
-    private static final int GL_CURRENT_MATRIX_NV = (int)34369L;
+    private static final int GL_TRANSFORM_FEEDBACK_BINDING = (int)36389L;
     /**
      * {@snippet lang=c :
-     * #define GL_CURRENT_MATRIX_NV 34369
+     * #define GL_TRANSFORM_FEEDBACK_BINDING 36389
      * }
      */
-    public static int GL_CURRENT_MATRIX_NV() {
-        return GL_CURRENT_MATRIX_NV;
+    public static int GL_TRANSFORM_FEEDBACK_BINDING() {
+        return GL_TRANSFORM_FEEDBACK_BINDING;
     }
-    private static final int GL_VERTEX_PROGRAM_POINT_SIZE_NV = (int)34370L;
+    private static final int GL_MAX_TRANSFORM_FEEDBACK_BUFFERS = (int)36464L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_PROGRAM_POINT_SIZE_NV 34370
+     * #define GL_MAX_TRANSFORM_FEEDBACK_BUFFERS 36464
      * }
      */
-    public static int GL_VERTEX_PROGRAM_POINT_SIZE_NV() {
-        return GL_VERTEX_PROGRAM_POINT_SIZE_NV;
+    public static int GL_MAX_TRANSFORM_FEEDBACK_BUFFERS() {
+        return GL_MAX_TRANSFORM_FEEDBACK_BUFFERS;
     }
-    private static final int GL_VERTEX_PROGRAM_TWO_SIDE_NV = (int)34371L;
+    private static final int GL_VERSION_4_1 = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_PROGRAM_TWO_SIDE_NV 34371
+     * #define GL_VERSION_4_1 1
      * }
      */
-    public static int GL_VERTEX_PROGRAM_TWO_SIDE_NV() {
-        return GL_VERTEX_PROGRAM_TWO_SIDE_NV;
+    public static int GL_VERSION_4_1() {
+        return GL_VERSION_4_1;
     }
-    private static final int GL_PROGRAM_PARAMETER_NV = (int)34372L;
+    private static final int GL_FIXED = (int)5132L;
     /**
      * {@snippet lang=c :
-     * #define GL_PROGRAM_PARAMETER_NV 34372
+     * #define GL_FIXED 5132
      * }
      */
-    public static int GL_PROGRAM_PARAMETER_NV() {
-        return GL_PROGRAM_PARAMETER_NV;
+    public static int GL_FIXED() {
+        return GL_FIXED;
     }
-    private static final int GL_ATTRIB_ARRAY_POINTER_NV = (int)34373L;
+    private static final int GL_IMPLEMENTATION_COLOR_READ_TYPE = (int)35738L;
     /**
      * {@snippet lang=c :
-     * #define GL_ATTRIB_ARRAY_POINTER_NV 34373
+     * #define GL_IMPLEMENTATION_COLOR_READ_TYPE 35738
      * }
      */
-    public static int GL_ATTRIB_ARRAY_POINTER_NV() {
-        return GL_ATTRIB_ARRAY_POINTER_NV;
+    public static int GL_IMPLEMENTATION_COLOR_READ_TYPE() {
+        return GL_IMPLEMENTATION_COLOR_READ_TYPE;
     }
-    private static final int GL_PROGRAM_TARGET_NV = (int)34374L;
+    private static final int GL_IMPLEMENTATION_COLOR_READ_FORMAT = (int)35739L;
     /**
      * {@snippet lang=c :
-     * #define GL_PROGRAM_TARGET_NV 34374
+     * #define GL_IMPLEMENTATION_COLOR_READ_FORMAT 35739
      * }
      */
-    public static int GL_PROGRAM_TARGET_NV() {
-        return GL_PROGRAM_TARGET_NV;
+    public static int GL_IMPLEMENTATION_COLOR_READ_FORMAT() {
+        return GL_IMPLEMENTATION_COLOR_READ_FORMAT;
     }
-    private static final int GL_PROGRAM_RESIDENT_NV = (int)34375L;
+    private static final int GL_LOW_FLOAT = (int)36336L;
     /**
      * {@snippet lang=c :
-     * #define GL_PROGRAM_RESIDENT_NV 34375
+     * #define GL_LOW_FLOAT 36336
      * }
      */
-    public static int GL_PROGRAM_RESIDENT_NV() {
-        return GL_PROGRAM_RESIDENT_NV;
+    public static int GL_LOW_FLOAT() {
+        return GL_LOW_FLOAT;
     }
-    private static final int GL_TRACK_MATRIX_NV = (int)34376L;
+    private static final int GL_MEDIUM_FLOAT = (int)36337L;
     /**
      * {@snippet lang=c :
-     * #define GL_TRACK_MATRIX_NV 34376
+     * #define GL_MEDIUM_FLOAT 36337
      * }
      */
-    public static int GL_TRACK_MATRIX_NV() {
-        return GL_TRACK_MATRIX_NV;
+    public static int GL_MEDIUM_FLOAT() {
+        return GL_MEDIUM_FLOAT;
     }
-    private static final int GL_TRACK_MATRIX_TRANSFORM_NV = (int)34377L;
+    private static final int GL_HIGH_FLOAT = (int)36338L;
     /**
      * {@snippet lang=c :
-     * #define GL_TRACK_MATRIX_TRANSFORM_NV 34377
+     * #define GL_HIGH_FLOAT 36338
      * }
      */
-    public static int GL_TRACK_MATRIX_TRANSFORM_NV() {
-        return GL_TRACK_MATRIX_TRANSFORM_NV;
+    public static int GL_HIGH_FLOAT() {
+        return GL_HIGH_FLOAT;
     }
-    private static final int GL_VERTEX_PROGRAM_BINDING_NV = (int)34378L;
+    private static final int GL_LOW_INT = (int)36339L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_PROGRAM_BINDING_NV 34378
+     * #define GL_LOW_INT 36339
      * }
      */
-    public static int GL_VERTEX_PROGRAM_BINDING_NV() {
-        return GL_VERTEX_PROGRAM_BINDING_NV;
+    public static int GL_LOW_INT() {
+        return GL_LOW_INT;
     }
-    private static final int GL_PROGRAM_ERROR_POSITION_NV = (int)34379L;
+    private static final int GL_MEDIUM_INT = (int)36340L;
     /**
      * {@snippet lang=c :
-     * #define GL_PROGRAM_ERROR_POSITION_NV 34379
+     * #define GL_MEDIUM_INT 36340
      * }
      */
-    public static int GL_PROGRAM_ERROR_POSITION_NV() {
-        return GL_PROGRAM_ERROR_POSITION_NV;
+    public static int GL_MEDIUM_INT() {
+        return GL_MEDIUM_INT;
     }
-    private static final int GL_VERTEX_ATTRIB_ARRAY0_NV = (int)34384L;
+    private static final int GL_HIGH_INT = (int)36341L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ATTRIB_ARRAY0_NV 34384
+     * #define GL_HIGH_INT 36341
      * }
      */
-    public static int GL_VERTEX_ATTRIB_ARRAY0_NV() {
-        return GL_VERTEX_ATTRIB_ARRAY0_NV;
+    public static int GL_HIGH_INT() {
+        return GL_HIGH_INT;
     }
-    private static final int GL_VERTEX_ATTRIB_ARRAY1_NV = (int)34385L;
+    private static final int GL_SHADER_COMPILER = (int)36346L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ATTRIB_ARRAY1_NV 34385
+     * #define GL_SHADER_COMPILER 36346
      * }
      */
-    public static int GL_VERTEX_ATTRIB_ARRAY1_NV() {
-        return GL_VERTEX_ATTRIB_ARRAY1_NV;
+    public static int GL_SHADER_COMPILER() {
+        return GL_SHADER_COMPILER;
     }
-    private static final int GL_VERTEX_ATTRIB_ARRAY2_NV = (int)34386L;
+    private static final int GL_SHADER_BINARY_FORMATS = (int)36344L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ATTRIB_ARRAY2_NV 34386
+     * #define GL_SHADER_BINARY_FORMATS 36344
      * }
      */
-    public static int GL_VERTEX_ATTRIB_ARRAY2_NV() {
-        return GL_VERTEX_ATTRIB_ARRAY2_NV;
+    public static int GL_SHADER_BINARY_FORMATS() {
+        return GL_SHADER_BINARY_FORMATS;
     }
-    private static final int GL_VERTEX_ATTRIB_ARRAY3_NV = (int)34387L;
+    private static final int GL_NUM_SHADER_BINARY_FORMATS = (int)36345L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ATTRIB_ARRAY3_NV 34387
+     * #define GL_NUM_SHADER_BINARY_FORMATS 36345
      * }
      */
-    public static int GL_VERTEX_ATTRIB_ARRAY3_NV() {
-        return GL_VERTEX_ATTRIB_ARRAY3_NV;
+    public static int GL_NUM_SHADER_BINARY_FORMATS() {
+        return GL_NUM_SHADER_BINARY_FORMATS;
     }
-    private static final int GL_VERTEX_ATTRIB_ARRAY4_NV = (int)34388L;
+    private static final int GL_MAX_VERTEX_UNIFORM_VECTORS = (int)36347L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ATTRIB_ARRAY4_NV 34388
+     * #define GL_MAX_VERTEX_UNIFORM_VECTORS 36347
      * }
      */
-    public static int GL_VERTEX_ATTRIB_ARRAY4_NV() {
-        return GL_VERTEX_ATTRIB_ARRAY4_NV;
+    public static int GL_MAX_VERTEX_UNIFORM_VECTORS() {
+        return GL_MAX_VERTEX_UNIFORM_VECTORS;
     }
-    private static final int GL_VERTEX_ATTRIB_ARRAY5_NV = (int)34389L;
+    private static final int GL_MAX_VARYING_VECTORS = (int)36348L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ATTRIB_ARRAY5_NV 34389
+     * #define GL_MAX_VARYING_VECTORS 36348
      * }
      */
-    public static int GL_VERTEX_ATTRIB_ARRAY5_NV() {
-        return GL_VERTEX_ATTRIB_ARRAY5_NV;
+    public static int GL_MAX_VARYING_VECTORS() {
+        return GL_MAX_VARYING_VECTORS;
     }
-    private static final int GL_VERTEX_ATTRIB_ARRAY6_NV = (int)34390L;
+    private static final int GL_MAX_FRAGMENT_UNIFORM_VECTORS = (int)36349L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ATTRIB_ARRAY6_NV 34390
+     * #define GL_MAX_FRAGMENT_UNIFORM_VECTORS 36349
      * }
      */
-    public static int GL_VERTEX_ATTRIB_ARRAY6_NV() {
-        return GL_VERTEX_ATTRIB_ARRAY6_NV;
+    public static int GL_MAX_FRAGMENT_UNIFORM_VECTORS() {
+        return GL_MAX_FRAGMENT_UNIFORM_VECTORS;
     }
-    private static final int GL_VERTEX_ATTRIB_ARRAY7_NV = (int)34391L;
+    private static final int GL_RGB565 = (int)36194L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ATTRIB_ARRAY7_NV 34391
+     * #define GL_RGB565 36194
      * }
      */
-    public static int GL_VERTEX_ATTRIB_ARRAY7_NV() {
-        return GL_VERTEX_ATTRIB_ARRAY7_NV;
+    public static int GL_RGB565() {
+        return GL_RGB565;
     }
-    private static final int GL_VERTEX_ATTRIB_ARRAY8_NV = (int)34392L;
+    private static final int GL_PROGRAM_BINARY_RETRIEVABLE_HINT = (int)33367L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ATTRIB_ARRAY8_NV 34392
+     * #define GL_PROGRAM_BINARY_RETRIEVABLE_HINT 33367
      * }
      */
-    public static int GL_VERTEX_ATTRIB_ARRAY8_NV() {
-        return GL_VERTEX_ATTRIB_ARRAY8_NV;
+    public static int GL_PROGRAM_BINARY_RETRIEVABLE_HINT() {
+        return GL_PROGRAM_BINARY_RETRIEVABLE_HINT;
     }
-    private static final int GL_VERTEX_ATTRIB_ARRAY9_NV = (int)34393L;
+    private static final int GL_PROGRAM_BINARY_LENGTH = (int)34625L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ATTRIB_ARRAY9_NV 34393
+     * #define GL_PROGRAM_BINARY_LENGTH 34625
      * }
      */
-    public static int GL_VERTEX_ATTRIB_ARRAY9_NV() {
-        return GL_VERTEX_ATTRIB_ARRAY9_NV;
+    public static int GL_PROGRAM_BINARY_LENGTH() {
+        return GL_PROGRAM_BINARY_LENGTH;
     }
-    private static final int GL_VERTEX_ATTRIB_ARRAY10_NV = (int)34394L;
+    private static final int GL_NUM_PROGRAM_BINARY_FORMATS = (int)34814L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ATTRIB_ARRAY10_NV 34394
+     * #define GL_NUM_PROGRAM_BINARY_FORMATS 34814
      * }
      */
-    public static int GL_VERTEX_ATTRIB_ARRAY10_NV() {
-        return GL_VERTEX_ATTRIB_ARRAY10_NV;
+    public static int GL_NUM_PROGRAM_BINARY_FORMATS() {
+        return GL_NUM_PROGRAM_BINARY_FORMATS;
     }
-    private static final int GL_VERTEX_ATTRIB_ARRAY11_NV = (int)34395L;
+    private static final int GL_PROGRAM_BINARY_FORMATS = (int)34815L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ATTRIB_ARRAY11_NV 34395
+     * #define GL_PROGRAM_BINARY_FORMATS 34815
      * }
      */
-    public static int GL_VERTEX_ATTRIB_ARRAY11_NV() {
-        return GL_VERTEX_ATTRIB_ARRAY11_NV;
+    public static int GL_PROGRAM_BINARY_FORMATS() {
+        return GL_PROGRAM_BINARY_FORMATS;
     }
-    private static final int GL_VERTEX_ATTRIB_ARRAY12_NV = (int)34396L;
+    private static final int GL_VERTEX_SHADER_BIT = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ATTRIB_ARRAY12_NV 34396
+     * #define GL_VERTEX_SHADER_BIT 1
      * }
      */
-    public static int GL_VERTEX_ATTRIB_ARRAY12_NV() {
-        return GL_VERTEX_ATTRIB_ARRAY12_NV;
+    public static int GL_VERTEX_SHADER_BIT() {
+        return GL_VERTEX_SHADER_BIT;
     }
-    private static final int GL_VERTEX_ATTRIB_ARRAY13_NV = (int)34397L;
+    private static final int GL_FRAGMENT_SHADER_BIT = (int)2L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ATTRIB_ARRAY13_NV 34397
+     * #define GL_FRAGMENT_SHADER_BIT 2
      * }
      */
-    public static int GL_VERTEX_ATTRIB_ARRAY13_NV() {
-        return GL_VERTEX_ATTRIB_ARRAY13_NV;
+    public static int GL_FRAGMENT_SHADER_BIT() {
+        return GL_FRAGMENT_SHADER_BIT;
     }
-    private static final int GL_VERTEX_ATTRIB_ARRAY14_NV = (int)34398L;
+    private static final int GL_GEOMETRY_SHADER_BIT = (int)4L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ATTRIB_ARRAY14_NV 34398
+     * #define GL_GEOMETRY_SHADER_BIT 4
      * }
      */
-    public static int GL_VERTEX_ATTRIB_ARRAY14_NV() {
-        return GL_VERTEX_ATTRIB_ARRAY14_NV;
+    public static int GL_GEOMETRY_SHADER_BIT() {
+        return GL_GEOMETRY_SHADER_BIT;
     }
-    private static final int GL_VERTEX_ATTRIB_ARRAY15_NV = (int)34399L;
+    private static final int GL_TESS_CONTROL_SHADER_BIT = (int)8L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ATTRIB_ARRAY15_NV 34399
+     * #define GL_TESS_CONTROL_SHADER_BIT 8
      * }
      */
-    public static int GL_VERTEX_ATTRIB_ARRAY15_NV() {
-        return GL_VERTEX_ATTRIB_ARRAY15_NV;
+    public static int GL_TESS_CONTROL_SHADER_BIT() {
+        return GL_TESS_CONTROL_SHADER_BIT;
     }
-    private static final int GL_MAP1_VERTEX_ATTRIB0_4_NV = (int)34400L;
+    private static final int GL_TESS_EVALUATION_SHADER_BIT = (int)16L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP1_VERTEX_ATTRIB0_4_NV 34400
+     * #define GL_TESS_EVALUATION_SHADER_BIT 16
      * }
      */
-    public static int GL_MAP1_VERTEX_ATTRIB0_4_NV() {
-        return GL_MAP1_VERTEX_ATTRIB0_4_NV;
+    public static int GL_TESS_EVALUATION_SHADER_BIT() {
+        return GL_TESS_EVALUATION_SHADER_BIT;
     }
-    private static final int GL_MAP1_VERTEX_ATTRIB1_4_NV = (int)34401L;
+    private static final int GL_PROGRAM_SEPARABLE = (int)33368L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP1_VERTEX_ATTRIB1_4_NV 34401
+     * #define GL_PROGRAM_SEPARABLE 33368
      * }
      */
-    public static int GL_MAP1_VERTEX_ATTRIB1_4_NV() {
-        return GL_MAP1_VERTEX_ATTRIB1_4_NV;
+    public static int GL_PROGRAM_SEPARABLE() {
+        return GL_PROGRAM_SEPARABLE;
     }
-    private static final int GL_MAP1_VERTEX_ATTRIB2_4_NV = (int)34402L;
+    private static final int GL_ACTIVE_PROGRAM = (int)33369L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP1_VERTEX_ATTRIB2_4_NV 34402
+     * #define GL_ACTIVE_PROGRAM 33369
      * }
      */
-    public static int GL_MAP1_VERTEX_ATTRIB2_4_NV() {
-        return GL_MAP1_VERTEX_ATTRIB2_4_NV;
+    public static int GL_ACTIVE_PROGRAM() {
+        return GL_ACTIVE_PROGRAM;
     }
-    private static final int GL_MAP1_VERTEX_ATTRIB3_4_NV = (int)34403L;
+    private static final int GL_PROGRAM_PIPELINE_BINDING = (int)33370L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP1_VERTEX_ATTRIB3_4_NV 34403
+     * #define GL_PROGRAM_PIPELINE_BINDING 33370
      * }
      */
-    public static int GL_MAP1_VERTEX_ATTRIB3_4_NV() {
-        return GL_MAP1_VERTEX_ATTRIB3_4_NV;
+    public static int GL_PROGRAM_PIPELINE_BINDING() {
+        return GL_PROGRAM_PIPELINE_BINDING;
     }
-    private static final int GL_MAP1_VERTEX_ATTRIB4_4_NV = (int)34404L;
+    private static final int GL_MAX_VIEWPORTS = (int)33371L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP1_VERTEX_ATTRIB4_4_NV 34404
+     * #define GL_MAX_VIEWPORTS 33371
      * }
      */
-    public static int GL_MAP1_VERTEX_ATTRIB4_4_NV() {
-        return GL_MAP1_VERTEX_ATTRIB4_4_NV;
+    public static int GL_MAX_VIEWPORTS() {
+        return GL_MAX_VIEWPORTS;
     }
-    private static final int GL_MAP1_VERTEX_ATTRIB5_4_NV = (int)34405L;
+    private static final int GL_VIEWPORT_SUBPIXEL_BITS = (int)33372L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP1_VERTEX_ATTRIB5_4_NV 34405
+     * #define GL_VIEWPORT_SUBPIXEL_BITS 33372
      * }
      */
-    public static int GL_MAP1_VERTEX_ATTRIB5_4_NV() {
-        return GL_MAP1_VERTEX_ATTRIB5_4_NV;
+    public static int GL_VIEWPORT_SUBPIXEL_BITS() {
+        return GL_VIEWPORT_SUBPIXEL_BITS;
     }
-    private static final int GL_MAP1_VERTEX_ATTRIB6_4_NV = (int)34406L;
+    private static final int GL_VIEWPORT_BOUNDS_RANGE = (int)33373L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP1_VERTEX_ATTRIB6_4_NV 34406
+     * #define GL_VIEWPORT_BOUNDS_RANGE 33373
      * }
      */
-    public static int GL_MAP1_VERTEX_ATTRIB6_4_NV() {
-        return GL_MAP1_VERTEX_ATTRIB6_4_NV;
+    public static int GL_VIEWPORT_BOUNDS_RANGE() {
+        return GL_VIEWPORT_BOUNDS_RANGE;
     }
-    private static final int GL_MAP1_VERTEX_ATTRIB7_4_NV = (int)34407L;
+    private static final int GL_LAYER_PROVOKING_VERTEX = (int)33374L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP1_VERTEX_ATTRIB7_4_NV 34407
+     * #define GL_LAYER_PROVOKING_VERTEX 33374
      * }
      */
-    public static int GL_MAP1_VERTEX_ATTRIB7_4_NV() {
-        return GL_MAP1_VERTEX_ATTRIB7_4_NV;
+    public static int GL_LAYER_PROVOKING_VERTEX() {
+        return GL_LAYER_PROVOKING_VERTEX;
     }
-    private static final int GL_MAP1_VERTEX_ATTRIB8_4_NV = (int)34408L;
+    private static final int GL_VIEWPORT_INDEX_PROVOKING_VERTEX = (int)33375L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP1_VERTEX_ATTRIB8_4_NV 34408
+     * #define GL_VIEWPORT_INDEX_PROVOKING_VERTEX 33375
      * }
      */
-    public static int GL_MAP1_VERTEX_ATTRIB8_4_NV() {
-        return GL_MAP1_VERTEX_ATTRIB8_4_NV;
+    public static int GL_VIEWPORT_INDEX_PROVOKING_VERTEX() {
+        return GL_VIEWPORT_INDEX_PROVOKING_VERTEX;
     }
-    private static final int GL_MAP1_VERTEX_ATTRIB9_4_NV = (int)34409L;
+    private static final int GL_UNDEFINED_VERTEX = (int)33376L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP1_VERTEX_ATTRIB9_4_NV 34409
+     * #define GL_UNDEFINED_VERTEX 33376
      * }
      */
-    public static int GL_MAP1_VERTEX_ATTRIB9_4_NV() {
-        return GL_MAP1_VERTEX_ATTRIB9_4_NV;
+    public static int GL_UNDEFINED_VERTEX() {
+        return GL_UNDEFINED_VERTEX;
     }
-    private static final int GL_MAP1_VERTEX_ATTRIB10_4_NV = (int)34410L;
+    private static final int GL_VERSION_4_2 = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP1_VERTEX_ATTRIB10_4_NV 34410
+     * #define GL_VERSION_4_2 1
      * }
      */
-    public static int GL_MAP1_VERTEX_ATTRIB10_4_NV() {
-        return GL_MAP1_VERTEX_ATTRIB10_4_NV;
+    public static int GL_VERSION_4_2() {
+        return GL_VERSION_4_2;
     }
-    private static final int GL_MAP1_VERTEX_ATTRIB11_4_NV = (int)34411L;
+    private static final int GL_COPY_READ_BUFFER_BINDING = (int)36662L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP1_VERTEX_ATTRIB11_4_NV 34411
+     * #define GL_COPY_READ_BUFFER_BINDING 36662
      * }
      */
-    public static int GL_MAP1_VERTEX_ATTRIB11_4_NV() {
-        return GL_MAP1_VERTEX_ATTRIB11_4_NV;
+    public static int GL_COPY_READ_BUFFER_BINDING() {
+        return GL_COPY_READ_BUFFER_BINDING;
     }
-    private static final int GL_MAP1_VERTEX_ATTRIB12_4_NV = (int)34412L;
+    private static final int GL_COPY_WRITE_BUFFER_BINDING = (int)36663L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP1_VERTEX_ATTRIB12_4_NV 34412
+     * #define GL_COPY_WRITE_BUFFER_BINDING 36663
      * }
      */
-    public static int GL_MAP1_VERTEX_ATTRIB12_4_NV() {
-        return GL_MAP1_VERTEX_ATTRIB12_4_NV;
+    public static int GL_COPY_WRITE_BUFFER_BINDING() {
+        return GL_COPY_WRITE_BUFFER_BINDING;
     }
-    private static final int GL_MAP1_VERTEX_ATTRIB13_4_NV = (int)34413L;
+    private static final int GL_TRANSFORM_FEEDBACK_ACTIVE = (int)36388L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP1_VERTEX_ATTRIB13_4_NV 34413
+     * #define GL_TRANSFORM_FEEDBACK_ACTIVE 36388
      * }
      */
-    public static int GL_MAP1_VERTEX_ATTRIB13_4_NV() {
-        return GL_MAP1_VERTEX_ATTRIB13_4_NV;
+    public static int GL_TRANSFORM_FEEDBACK_ACTIVE() {
+        return GL_TRANSFORM_FEEDBACK_ACTIVE;
     }
-    private static final int GL_MAP1_VERTEX_ATTRIB14_4_NV = (int)34414L;
+    private static final int GL_TRANSFORM_FEEDBACK_PAUSED = (int)36387L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP1_VERTEX_ATTRIB14_4_NV 34414
+     * #define GL_TRANSFORM_FEEDBACK_PAUSED 36387
      * }
      */
-    public static int GL_MAP1_VERTEX_ATTRIB14_4_NV() {
-        return GL_MAP1_VERTEX_ATTRIB14_4_NV;
+    public static int GL_TRANSFORM_FEEDBACK_PAUSED() {
+        return GL_TRANSFORM_FEEDBACK_PAUSED;
     }
-    private static final int GL_MAP1_VERTEX_ATTRIB15_4_NV = (int)34415L;
+    private static final int GL_UNPACK_COMPRESSED_BLOCK_WIDTH = (int)37159L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP1_VERTEX_ATTRIB15_4_NV 34415
+     * #define GL_UNPACK_COMPRESSED_BLOCK_WIDTH 37159
      * }
      */
-    public static int GL_MAP1_VERTEX_ATTRIB15_4_NV() {
-        return GL_MAP1_VERTEX_ATTRIB15_4_NV;
+    public static int GL_UNPACK_COMPRESSED_BLOCK_WIDTH() {
+        return GL_UNPACK_COMPRESSED_BLOCK_WIDTH;
     }
-    private static final int GL_MAP2_VERTEX_ATTRIB0_4_NV = (int)34416L;
+    private static final int GL_UNPACK_COMPRESSED_BLOCK_HEIGHT = (int)37160L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP2_VERTEX_ATTRIB0_4_NV 34416
+     * #define GL_UNPACK_COMPRESSED_BLOCK_HEIGHT 37160
      * }
      */
-    public static int GL_MAP2_VERTEX_ATTRIB0_4_NV() {
-        return GL_MAP2_VERTEX_ATTRIB0_4_NV;
+    public static int GL_UNPACK_COMPRESSED_BLOCK_HEIGHT() {
+        return GL_UNPACK_COMPRESSED_BLOCK_HEIGHT;
     }
-    private static final int GL_MAP2_VERTEX_ATTRIB1_4_NV = (int)34417L;
+    private static final int GL_UNPACK_COMPRESSED_BLOCK_DEPTH = (int)37161L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP2_VERTEX_ATTRIB1_4_NV 34417
+     * #define GL_UNPACK_COMPRESSED_BLOCK_DEPTH 37161
      * }
      */
-    public static int GL_MAP2_VERTEX_ATTRIB1_4_NV() {
-        return GL_MAP2_VERTEX_ATTRIB1_4_NV;
+    public static int GL_UNPACK_COMPRESSED_BLOCK_DEPTH() {
+        return GL_UNPACK_COMPRESSED_BLOCK_DEPTH;
     }
-    private static final int GL_MAP2_VERTEX_ATTRIB2_4_NV = (int)34418L;
+    private static final int GL_UNPACK_COMPRESSED_BLOCK_SIZE = (int)37162L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP2_VERTEX_ATTRIB2_4_NV 34418
+     * #define GL_UNPACK_COMPRESSED_BLOCK_SIZE 37162
      * }
      */
-    public static int GL_MAP2_VERTEX_ATTRIB2_4_NV() {
-        return GL_MAP2_VERTEX_ATTRIB2_4_NV;
+    public static int GL_UNPACK_COMPRESSED_BLOCK_SIZE() {
+        return GL_UNPACK_COMPRESSED_BLOCK_SIZE;
     }
-    private static final int GL_MAP2_VERTEX_ATTRIB3_4_NV = (int)34419L;
+    private static final int GL_PACK_COMPRESSED_BLOCK_WIDTH = (int)37163L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP2_VERTEX_ATTRIB3_4_NV 34419
+     * #define GL_PACK_COMPRESSED_BLOCK_WIDTH 37163
      * }
      */
-    public static int GL_MAP2_VERTEX_ATTRIB3_4_NV() {
-        return GL_MAP2_VERTEX_ATTRIB3_4_NV;
+    public static int GL_PACK_COMPRESSED_BLOCK_WIDTH() {
+        return GL_PACK_COMPRESSED_BLOCK_WIDTH;
     }
-    private static final int GL_MAP2_VERTEX_ATTRIB4_4_NV = (int)34420L;
+    private static final int GL_PACK_COMPRESSED_BLOCK_HEIGHT = (int)37164L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP2_VERTEX_ATTRIB4_4_NV 34420
+     * #define GL_PACK_COMPRESSED_BLOCK_HEIGHT 37164
      * }
      */
-    public static int GL_MAP2_VERTEX_ATTRIB4_4_NV() {
-        return GL_MAP2_VERTEX_ATTRIB4_4_NV;
+    public static int GL_PACK_COMPRESSED_BLOCK_HEIGHT() {
+        return GL_PACK_COMPRESSED_BLOCK_HEIGHT;
     }
-    private static final int GL_MAP2_VERTEX_ATTRIB5_4_NV = (int)34421L;
+    private static final int GL_PACK_COMPRESSED_BLOCK_DEPTH = (int)37165L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP2_VERTEX_ATTRIB5_4_NV 34421
+     * #define GL_PACK_COMPRESSED_BLOCK_DEPTH 37165
      * }
      */
-    public static int GL_MAP2_VERTEX_ATTRIB5_4_NV() {
-        return GL_MAP2_VERTEX_ATTRIB5_4_NV;
+    public static int GL_PACK_COMPRESSED_BLOCK_DEPTH() {
+        return GL_PACK_COMPRESSED_BLOCK_DEPTH;
     }
-    private static final int GL_MAP2_VERTEX_ATTRIB6_4_NV = (int)34422L;
+    private static final int GL_PACK_COMPRESSED_BLOCK_SIZE = (int)37166L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP2_VERTEX_ATTRIB6_4_NV 34422
+     * #define GL_PACK_COMPRESSED_BLOCK_SIZE 37166
      * }
      */
-    public static int GL_MAP2_VERTEX_ATTRIB6_4_NV() {
-        return GL_MAP2_VERTEX_ATTRIB6_4_NV;
+    public static int GL_PACK_COMPRESSED_BLOCK_SIZE() {
+        return GL_PACK_COMPRESSED_BLOCK_SIZE;
     }
-    private static final int GL_MAP2_VERTEX_ATTRIB7_4_NV = (int)34423L;
+    private static final int GL_NUM_SAMPLE_COUNTS = (int)37760L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP2_VERTEX_ATTRIB7_4_NV 34423
+     * #define GL_NUM_SAMPLE_COUNTS 37760
      * }
      */
-    public static int GL_MAP2_VERTEX_ATTRIB7_4_NV() {
-        return GL_MAP2_VERTEX_ATTRIB7_4_NV;
+    public static int GL_NUM_SAMPLE_COUNTS() {
+        return GL_NUM_SAMPLE_COUNTS;
     }
-    private static final int GL_MAP2_VERTEX_ATTRIB8_4_NV = (int)34424L;
+    private static final int GL_MIN_MAP_BUFFER_ALIGNMENT = (int)37052L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP2_VERTEX_ATTRIB8_4_NV 34424
+     * #define GL_MIN_MAP_BUFFER_ALIGNMENT 37052
      * }
      */
-    public static int GL_MAP2_VERTEX_ATTRIB8_4_NV() {
-        return GL_MAP2_VERTEX_ATTRIB8_4_NV;
+    public static int GL_MIN_MAP_BUFFER_ALIGNMENT() {
+        return GL_MIN_MAP_BUFFER_ALIGNMENT;
     }
-    private static final int GL_MAP2_VERTEX_ATTRIB9_4_NV = (int)34425L;
+    private static final int GL_ATOMIC_COUNTER_BUFFER = (int)37568L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP2_VERTEX_ATTRIB9_4_NV 34425
+     * #define GL_ATOMIC_COUNTER_BUFFER 37568
      * }
      */
-    public static int GL_MAP2_VERTEX_ATTRIB9_4_NV() {
-        return GL_MAP2_VERTEX_ATTRIB9_4_NV;
+    public static int GL_ATOMIC_COUNTER_BUFFER() {
+        return GL_ATOMIC_COUNTER_BUFFER;
     }
-    private static final int GL_MAP2_VERTEX_ATTRIB10_4_NV = (int)34426L;
+    private static final int GL_ATOMIC_COUNTER_BUFFER_BINDING = (int)37569L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP2_VERTEX_ATTRIB10_4_NV 34426
+     * #define GL_ATOMIC_COUNTER_BUFFER_BINDING 37569
      * }
      */
-    public static int GL_MAP2_VERTEX_ATTRIB10_4_NV() {
-        return GL_MAP2_VERTEX_ATTRIB10_4_NV;
+    public static int GL_ATOMIC_COUNTER_BUFFER_BINDING() {
+        return GL_ATOMIC_COUNTER_BUFFER_BINDING;
     }
-    private static final int GL_MAP2_VERTEX_ATTRIB11_4_NV = (int)34427L;
+    private static final int GL_ATOMIC_COUNTER_BUFFER_START = (int)37570L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP2_VERTEX_ATTRIB11_4_NV 34427
+     * #define GL_ATOMIC_COUNTER_BUFFER_START 37570
      * }
      */
-    public static int GL_MAP2_VERTEX_ATTRIB11_4_NV() {
-        return GL_MAP2_VERTEX_ATTRIB11_4_NV;
+    public static int GL_ATOMIC_COUNTER_BUFFER_START() {
+        return GL_ATOMIC_COUNTER_BUFFER_START;
     }
-    private static final int GL_MAP2_VERTEX_ATTRIB12_4_NV = (int)34428L;
+    private static final int GL_ATOMIC_COUNTER_BUFFER_SIZE = (int)37571L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP2_VERTEX_ATTRIB12_4_NV 34428
+     * #define GL_ATOMIC_COUNTER_BUFFER_SIZE 37571
      * }
      */
-    public static int GL_MAP2_VERTEX_ATTRIB12_4_NV() {
-        return GL_MAP2_VERTEX_ATTRIB12_4_NV;
+    public static int GL_ATOMIC_COUNTER_BUFFER_SIZE() {
+        return GL_ATOMIC_COUNTER_BUFFER_SIZE;
     }
-    private static final int GL_MAP2_VERTEX_ATTRIB13_4_NV = (int)34429L;
+    private static final int GL_ATOMIC_COUNTER_BUFFER_DATA_SIZE = (int)37572L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP2_VERTEX_ATTRIB13_4_NV 34429
+     * #define GL_ATOMIC_COUNTER_BUFFER_DATA_SIZE 37572
      * }
      */
-    public static int GL_MAP2_VERTEX_ATTRIB13_4_NV() {
-        return GL_MAP2_VERTEX_ATTRIB13_4_NV;
+    public static int GL_ATOMIC_COUNTER_BUFFER_DATA_SIZE() {
+        return GL_ATOMIC_COUNTER_BUFFER_DATA_SIZE;
     }
-    private static final int GL_MAP2_VERTEX_ATTRIB14_4_NV = (int)34430L;
+    private static final int GL_ATOMIC_COUNTER_BUFFER_ACTIVE_ATOMIC_COUNTERS = (int)37573L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP2_VERTEX_ATTRIB14_4_NV 34430
+     * #define GL_ATOMIC_COUNTER_BUFFER_ACTIVE_ATOMIC_COUNTERS 37573
      * }
      */
-    public static int GL_MAP2_VERTEX_ATTRIB14_4_NV() {
-        return GL_MAP2_VERTEX_ATTRIB14_4_NV;
+    public static int GL_ATOMIC_COUNTER_BUFFER_ACTIVE_ATOMIC_COUNTERS() {
+        return GL_ATOMIC_COUNTER_BUFFER_ACTIVE_ATOMIC_COUNTERS;
     }
-    private static final int GL_MAP2_VERTEX_ATTRIB15_4_NV = (int)34431L;
+    private static final int GL_ATOMIC_COUNTER_BUFFER_ACTIVE_ATOMIC_COUNTER_INDICES = (int)37574L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAP2_VERTEX_ATTRIB15_4_NV 34431
+     * #define GL_ATOMIC_COUNTER_BUFFER_ACTIVE_ATOMIC_COUNTER_INDICES 37574
      * }
      */
-    public static int GL_MAP2_VERTEX_ATTRIB15_4_NV() {
-        return GL_MAP2_VERTEX_ATTRIB15_4_NV;
+    public static int GL_ATOMIC_COUNTER_BUFFER_ACTIVE_ATOMIC_COUNTER_INDICES() {
+        return GL_ATOMIC_COUNTER_BUFFER_ACTIVE_ATOMIC_COUNTER_INDICES;
     }
-    private static final int GL_NV_vertex_program1_1 = (int)1L;
+    private static final int GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_VERTEX_SHADER = (int)37575L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_vertex_program1_1 1
+     * #define GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_VERTEX_SHADER 37575
      * }
      */
-    public static int GL_NV_vertex_program1_1() {
-        return GL_NV_vertex_program1_1;
+    public static int GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_VERTEX_SHADER() {
+        return GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_VERTEX_SHADER;
     }
-    private static final int GL_NV_vertex_program2 = (int)1L;
+    private static final int GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_TESS_CONTROL_SHADER = (int)37576L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_vertex_program2 1
+     * #define GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_TESS_CONTROL_SHADER 37576
      * }
      */
-    public static int GL_NV_vertex_program2() {
-        return GL_NV_vertex_program2;
+    public static int GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_TESS_CONTROL_SHADER() {
+        return GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_TESS_CONTROL_SHADER;
     }
-    private static final int GL_NV_vertex_program2_option = (int)1L;
+    private static final int GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_TESS_EVALUATION_SHADER = (int)37577L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_vertex_program2_option 1
+     * #define GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_TESS_EVALUATION_SHADER 37577
      * }
      */
-    public static int GL_NV_vertex_program2_option() {
-        return GL_NV_vertex_program2_option;
+    public static int GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_TESS_EVALUATION_SHADER() {
+        return GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_TESS_EVALUATION_SHADER;
     }
-    private static final int GL_NV_vertex_program3 = (int)1L;
+    private static final int GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_GEOMETRY_SHADER = (int)37578L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_vertex_program3 1
+     * #define GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_GEOMETRY_SHADER 37578
      * }
      */
-    public static int GL_NV_vertex_program3() {
-        return GL_NV_vertex_program3;
+    public static int GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_GEOMETRY_SHADER() {
+        return GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_GEOMETRY_SHADER;
     }
-    private static final int GL_NV_vertex_program4 = (int)1L;
+    private static final int GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_FRAGMENT_SHADER = (int)37579L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_vertex_program4 1
+     * #define GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_FRAGMENT_SHADER 37579
      * }
      */
-    public static int GL_NV_vertex_program4() {
-        return GL_NV_vertex_program4;
+    public static int GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_FRAGMENT_SHADER() {
+        return GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_FRAGMENT_SHADER;
     }
-    private static final int GL_VERTEX_ATTRIB_ARRAY_INTEGER_NV = (int)35069L;
+    private static final int GL_MAX_VERTEX_ATOMIC_COUNTER_BUFFERS = (int)37580L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_ATTRIB_ARRAY_INTEGER_NV 35069
+     * #define GL_MAX_VERTEX_ATOMIC_COUNTER_BUFFERS 37580
      * }
      */
-    public static int GL_VERTEX_ATTRIB_ARRAY_INTEGER_NV() {
-        return GL_VERTEX_ATTRIB_ARRAY_INTEGER_NV;
+    public static int GL_MAX_VERTEX_ATOMIC_COUNTER_BUFFERS() {
+        return GL_MAX_VERTEX_ATOMIC_COUNTER_BUFFERS;
     }
-    private static final int GL_NV_video_capture = (int)1L;
+    private static final int GL_MAX_TESS_CONTROL_ATOMIC_COUNTER_BUFFERS = (int)37581L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_video_capture 1
+     * #define GL_MAX_TESS_CONTROL_ATOMIC_COUNTER_BUFFERS 37581
      * }
      */
-    public static int GL_NV_video_capture() {
-        return GL_NV_video_capture;
+    public static int GL_MAX_TESS_CONTROL_ATOMIC_COUNTER_BUFFERS() {
+        return GL_MAX_TESS_CONTROL_ATOMIC_COUNTER_BUFFERS;
     }
-    private static final int GL_VIDEO_BUFFER_NV = (int)36896L;
+    private static final int GL_MAX_TESS_EVALUATION_ATOMIC_COUNTER_BUFFERS = (int)37582L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIDEO_BUFFER_NV 36896
+     * #define GL_MAX_TESS_EVALUATION_ATOMIC_COUNTER_BUFFERS 37582
      * }
      */
-    public static int GL_VIDEO_BUFFER_NV() {
-        return GL_VIDEO_BUFFER_NV;
+    public static int GL_MAX_TESS_EVALUATION_ATOMIC_COUNTER_BUFFERS() {
+        return GL_MAX_TESS_EVALUATION_ATOMIC_COUNTER_BUFFERS;
     }
-    private static final int GL_VIDEO_BUFFER_BINDING_NV = (int)36897L;
+    private static final int GL_MAX_GEOMETRY_ATOMIC_COUNTER_BUFFERS = (int)37583L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIDEO_BUFFER_BINDING_NV 36897
+     * #define GL_MAX_GEOMETRY_ATOMIC_COUNTER_BUFFERS 37583
      * }
      */
-    public static int GL_VIDEO_BUFFER_BINDING_NV() {
-        return GL_VIDEO_BUFFER_BINDING_NV;
+    public static int GL_MAX_GEOMETRY_ATOMIC_COUNTER_BUFFERS() {
+        return GL_MAX_GEOMETRY_ATOMIC_COUNTER_BUFFERS;
     }
-    private static final int GL_FIELD_UPPER_NV = (int)36898L;
+    private static final int GL_MAX_FRAGMENT_ATOMIC_COUNTER_BUFFERS = (int)37584L;
     /**
      * {@snippet lang=c :
-     * #define GL_FIELD_UPPER_NV 36898
+     * #define GL_MAX_FRAGMENT_ATOMIC_COUNTER_BUFFERS 37584
      * }
      */
-    public static int GL_FIELD_UPPER_NV() {
-        return GL_FIELD_UPPER_NV;
+    public static int GL_MAX_FRAGMENT_ATOMIC_COUNTER_BUFFERS() {
+        return GL_MAX_FRAGMENT_ATOMIC_COUNTER_BUFFERS;
     }
-    private static final int GL_FIELD_LOWER_NV = (int)36899L;
+    private static final int GL_MAX_COMBINED_ATOMIC_COUNTER_BUFFERS = (int)37585L;
     /**
      * {@snippet lang=c :
-     * #define GL_FIELD_LOWER_NV 36899
+     * #define GL_MAX_COMBINED_ATOMIC_COUNTER_BUFFERS 37585
      * }
      */
-    public static int GL_FIELD_LOWER_NV() {
-        return GL_FIELD_LOWER_NV;
+    public static int GL_MAX_COMBINED_ATOMIC_COUNTER_BUFFERS() {
+        return GL_MAX_COMBINED_ATOMIC_COUNTER_BUFFERS;
     }
-    private static final int GL_NUM_VIDEO_CAPTURE_STREAMS_NV = (int)36900L;
+    private static final int GL_MAX_VERTEX_ATOMIC_COUNTERS = (int)37586L;
     /**
      * {@snippet lang=c :
-     * #define GL_NUM_VIDEO_CAPTURE_STREAMS_NV 36900
+     * #define GL_MAX_VERTEX_ATOMIC_COUNTERS 37586
      * }
      */
-    public static int GL_NUM_VIDEO_CAPTURE_STREAMS_NV() {
-        return GL_NUM_VIDEO_CAPTURE_STREAMS_NV;
+    public static int GL_MAX_VERTEX_ATOMIC_COUNTERS() {
+        return GL_MAX_VERTEX_ATOMIC_COUNTERS;
     }
-    private static final int GL_NEXT_VIDEO_CAPTURE_BUFFER_STATUS_NV = (int)36901L;
+    private static final int GL_MAX_TESS_CONTROL_ATOMIC_COUNTERS = (int)37587L;
     /**
      * {@snippet lang=c :
-     * #define GL_NEXT_VIDEO_CAPTURE_BUFFER_STATUS_NV 36901
+     * #define GL_MAX_TESS_CONTROL_ATOMIC_COUNTERS 37587
      * }
      */
-    public static int GL_NEXT_VIDEO_CAPTURE_BUFFER_STATUS_NV() {
-        return GL_NEXT_VIDEO_CAPTURE_BUFFER_STATUS_NV;
+    public static int GL_MAX_TESS_CONTROL_ATOMIC_COUNTERS() {
+        return GL_MAX_TESS_CONTROL_ATOMIC_COUNTERS;
     }
-    private static final int GL_VIDEO_CAPTURE_TO_422_SUPPORTED_NV = (int)36902L;
+    private static final int GL_MAX_TESS_EVALUATION_ATOMIC_COUNTERS = (int)37588L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIDEO_CAPTURE_TO_422_SUPPORTED_NV 36902
+     * #define GL_MAX_TESS_EVALUATION_ATOMIC_COUNTERS 37588
      * }
      */
-    public static int GL_VIDEO_CAPTURE_TO_422_SUPPORTED_NV() {
-        return GL_VIDEO_CAPTURE_TO_422_SUPPORTED_NV;
+    public static int GL_MAX_TESS_EVALUATION_ATOMIC_COUNTERS() {
+        return GL_MAX_TESS_EVALUATION_ATOMIC_COUNTERS;
     }
-    private static final int GL_LAST_VIDEO_CAPTURE_STATUS_NV = (int)36903L;
+    private static final int GL_MAX_GEOMETRY_ATOMIC_COUNTERS = (int)37589L;
     /**
      * {@snippet lang=c :
-     * #define GL_LAST_VIDEO_CAPTURE_STATUS_NV 36903
+     * #define GL_MAX_GEOMETRY_ATOMIC_COUNTERS 37589
      * }
      */
-    public static int GL_LAST_VIDEO_CAPTURE_STATUS_NV() {
-        return GL_LAST_VIDEO_CAPTURE_STATUS_NV;
+    public static int GL_MAX_GEOMETRY_ATOMIC_COUNTERS() {
+        return GL_MAX_GEOMETRY_ATOMIC_COUNTERS;
     }
-    private static final int GL_VIDEO_BUFFER_PITCH_NV = (int)36904L;
+    private static final int GL_MAX_FRAGMENT_ATOMIC_COUNTERS = (int)37590L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIDEO_BUFFER_PITCH_NV 36904
+     * #define GL_MAX_FRAGMENT_ATOMIC_COUNTERS 37590
      * }
      */
-    public static int GL_VIDEO_BUFFER_PITCH_NV() {
-        return GL_VIDEO_BUFFER_PITCH_NV;
+    public static int GL_MAX_FRAGMENT_ATOMIC_COUNTERS() {
+        return GL_MAX_FRAGMENT_ATOMIC_COUNTERS;
     }
-    private static final int GL_VIDEO_COLOR_CONVERSION_MATRIX_NV = (int)36905L;
+    private static final int GL_MAX_COMBINED_ATOMIC_COUNTERS = (int)37591L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIDEO_COLOR_CONVERSION_MATRIX_NV 36905
+     * #define GL_MAX_COMBINED_ATOMIC_COUNTERS 37591
      * }
      */
-    public static int GL_VIDEO_COLOR_CONVERSION_MATRIX_NV() {
-        return GL_VIDEO_COLOR_CONVERSION_MATRIX_NV;
+    public static int GL_MAX_COMBINED_ATOMIC_COUNTERS() {
+        return GL_MAX_COMBINED_ATOMIC_COUNTERS;
     }
-    private static final int GL_VIDEO_COLOR_CONVERSION_MAX_NV = (int)36906L;
+    private static final int GL_MAX_ATOMIC_COUNTER_BUFFER_SIZE = (int)37592L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIDEO_COLOR_CONVERSION_MAX_NV 36906
+     * #define GL_MAX_ATOMIC_COUNTER_BUFFER_SIZE 37592
      * }
      */
-    public static int GL_VIDEO_COLOR_CONVERSION_MAX_NV() {
-        return GL_VIDEO_COLOR_CONVERSION_MAX_NV;
+    public static int GL_MAX_ATOMIC_COUNTER_BUFFER_SIZE() {
+        return GL_MAX_ATOMIC_COUNTER_BUFFER_SIZE;
     }
-    private static final int GL_VIDEO_COLOR_CONVERSION_MIN_NV = (int)36907L;
+    private static final int GL_MAX_ATOMIC_COUNTER_BUFFER_BINDINGS = (int)37596L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIDEO_COLOR_CONVERSION_MIN_NV 36907
+     * #define GL_MAX_ATOMIC_COUNTER_BUFFER_BINDINGS 37596
      * }
      */
-    public static int GL_VIDEO_COLOR_CONVERSION_MIN_NV() {
-        return GL_VIDEO_COLOR_CONVERSION_MIN_NV;
+    public static int GL_MAX_ATOMIC_COUNTER_BUFFER_BINDINGS() {
+        return GL_MAX_ATOMIC_COUNTER_BUFFER_BINDINGS;
     }
-    private static final int GL_VIDEO_COLOR_CONVERSION_OFFSET_NV = (int)36908L;
+    private static final int GL_ACTIVE_ATOMIC_COUNTER_BUFFERS = (int)37593L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIDEO_COLOR_CONVERSION_OFFSET_NV 36908
+     * #define GL_ACTIVE_ATOMIC_COUNTER_BUFFERS 37593
      * }
      */
-    public static int GL_VIDEO_COLOR_CONVERSION_OFFSET_NV() {
-        return GL_VIDEO_COLOR_CONVERSION_OFFSET_NV;
+    public static int GL_ACTIVE_ATOMIC_COUNTER_BUFFERS() {
+        return GL_ACTIVE_ATOMIC_COUNTER_BUFFERS;
     }
-    private static final int GL_VIDEO_BUFFER_INTERNAL_FORMAT_NV = (int)36909L;
+    private static final int GL_UNIFORM_ATOMIC_COUNTER_BUFFER_INDEX = (int)37594L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIDEO_BUFFER_INTERNAL_FORMAT_NV 36909
+     * #define GL_UNIFORM_ATOMIC_COUNTER_BUFFER_INDEX 37594
      * }
      */
-    public static int GL_VIDEO_BUFFER_INTERNAL_FORMAT_NV() {
-        return GL_VIDEO_BUFFER_INTERNAL_FORMAT_NV;
+    public static int GL_UNIFORM_ATOMIC_COUNTER_BUFFER_INDEX() {
+        return GL_UNIFORM_ATOMIC_COUNTER_BUFFER_INDEX;
     }
-    private static final int GL_PARTIAL_SUCCESS_NV = (int)36910L;
+    private static final int GL_UNSIGNED_INT_ATOMIC_COUNTER = (int)37595L;
     /**
      * {@snippet lang=c :
-     * #define GL_PARTIAL_SUCCESS_NV 36910
+     * #define GL_UNSIGNED_INT_ATOMIC_COUNTER 37595
      * }
      */
-    public static int GL_PARTIAL_SUCCESS_NV() {
-        return GL_PARTIAL_SUCCESS_NV;
+    public static int GL_UNSIGNED_INT_ATOMIC_COUNTER() {
+        return GL_UNSIGNED_INT_ATOMIC_COUNTER;
     }
-    private static final int GL_SUCCESS_NV = (int)36911L;
+    private static final int GL_VERTEX_ATTRIB_ARRAY_BARRIER_BIT = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_SUCCESS_NV 36911
+     * #define GL_VERTEX_ATTRIB_ARRAY_BARRIER_BIT 1
      * }
      */
-    public static int GL_SUCCESS_NV() {
-        return GL_SUCCESS_NV;
+    public static int GL_VERTEX_ATTRIB_ARRAY_BARRIER_BIT() {
+        return GL_VERTEX_ATTRIB_ARRAY_BARRIER_BIT;
     }
-    private static final int GL_FAILURE_NV = (int)36912L;
+    private static final int GL_ELEMENT_ARRAY_BARRIER_BIT = (int)2L;
     /**
      * {@snippet lang=c :
-     * #define GL_FAILURE_NV 36912
+     * #define GL_ELEMENT_ARRAY_BARRIER_BIT 2
      * }
      */
-    public static int GL_FAILURE_NV() {
-        return GL_FAILURE_NV;
+    public static int GL_ELEMENT_ARRAY_BARRIER_BIT() {
+        return GL_ELEMENT_ARRAY_BARRIER_BIT;
     }
-    private static final int GL_YCBYCR8_422_NV = (int)36913L;
+    private static final int GL_UNIFORM_BARRIER_BIT = (int)4L;
     /**
      * {@snippet lang=c :
-     * #define GL_YCBYCR8_422_NV 36913
+     * #define GL_UNIFORM_BARRIER_BIT 4
      * }
      */
-    public static int GL_YCBYCR8_422_NV() {
-        return GL_YCBYCR8_422_NV;
+    public static int GL_UNIFORM_BARRIER_BIT() {
+        return GL_UNIFORM_BARRIER_BIT;
     }
-    private static final int GL_YCBAYCR8A_4224_NV = (int)36914L;
+    private static final int GL_TEXTURE_FETCH_BARRIER_BIT = (int)8L;
     /**
      * {@snippet lang=c :
-     * #define GL_YCBAYCR8A_4224_NV 36914
+     * #define GL_TEXTURE_FETCH_BARRIER_BIT 8
      * }
      */
-    public static int GL_YCBAYCR8A_4224_NV() {
-        return GL_YCBAYCR8A_4224_NV;
+    public static int GL_TEXTURE_FETCH_BARRIER_BIT() {
+        return GL_TEXTURE_FETCH_BARRIER_BIT;
     }
-    private static final int GL_Z6Y10Z6CB10Z6Y10Z6CR10_422_NV = (int)36915L;
+    private static final int GL_SHADER_IMAGE_ACCESS_BARRIER_BIT = (int)32L;
     /**
      * {@snippet lang=c :
-     * #define GL_Z6Y10Z6CB10Z6Y10Z6CR10_422_NV 36915
+     * #define GL_SHADER_IMAGE_ACCESS_BARRIER_BIT 32
      * }
      */
-    public static int GL_Z6Y10Z6CB10Z6Y10Z6CR10_422_NV() {
-        return GL_Z6Y10Z6CB10Z6Y10Z6CR10_422_NV;
+    public static int GL_SHADER_IMAGE_ACCESS_BARRIER_BIT() {
+        return GL_SHADER_IMAGE_ACCESS_BARRIER_BIT;
     }
-    private static final int GL_Z6Y10Z6CB10Z6A10Z6Y10Z6CR10Z6A10_4224_NV = (int)36916L;
+    private static final int GL_COMMAND_BARRIER_BIT = (int)64L;
     /**
      * {@snippet lang=c :
-     * #define GL_Z6Y10Z6CB10Z6A10Z6Y10Z6CR10Z6A10_4224_NV 36916
+     * #define GL_COMMAND_BARRIER_BIT 64
      * }
      */
-    public static int GL_Z6Y10Z6CB10Z6A10Z6Y10Z6CR10Z6A10_4224_NV() {
-        return GL_Z6Y10Z6CB10Z6A10Z6Y10Z6CR10Z6A10_4224_NV;
+    public static int GL_COMMAND_BARRIER_BIT() {
+        return GL_COMMAND_BARRIER_BIT;
     }
-    private static final int GL_Z4Y12Z4CB12Z4Y12Z4CR12_422_NV = (int)36917L;
+    private static final int GL_PIXEL_BUFFER_BARRIER_BIT = (int)128L;
     /**
      * {@snippet lang=c :
-     * #define GL_Z4Y12Z4CB12Z4Y12Z4CR12_422_NV 36917
+     * #define GL_PIXEL_BUFFER_BARRIER_BIT 128
      * }
      */
-    public static int GL_Z4Y12Z4CB12Z4Y12Z4CR12_422_NV() {
-        return GL_Z4Y12Z4CB12Z4Y12Z4CR12_422_NV;
+    public static int GL_PIXEL_BUFFER_BARRIER_BIT() {
+        return GL_PIXEL_BUFFER_BARRIER_BIT;
     }
-    private static final int GL_Z4Y12Z4CB12Z4A12Z4Y12Z4CR12Z4A12_4224_NV = (int)36918L;
+    private static final int GL_TEXTURE_UPDATE_BARRIER_BIT = (int)256L;
     /**
      * {@snippet lang=c :
-     * #define GL_Z4Y12Z4CB12Z4A12Z4Y12Z4CR12Z4A12_4224_NV 36918
+     * #define GL_TEXTURE_UPDATE_BARRIER_BIT 256
      * }
      */
-    public static int GL_Z4Y12Z4CB12Z4A12Z4Y12Z4CR12Z4A12_4224_NV() {
-        return GL_Z4Y12Z4CB12Z4A12Z4Y12Z4CR12Z4A12_4224_NV;
+    public static int GL_TEXTURE_UPDATE_BARRIER_BIT() {
+        return GL_TEXTURE_UPDATE_BARRIER_BIT;
     }
-    private static final int GL_Z4Y12Z4CB12Z4CR12_444_NV = (int)36919L;
+    private static final int GL_BUFFER_UPDATE_BARRIER_BIT = (int)512L;
     /**
      * {@snippet lang=c :
-     * #define GL_Z4Y12Z4CB12Z4CR12_444_NV 36919
+     * #define GL_BUFFER_UPDATE_BARRIER_BIT 512
      * }
      */
-    public static int GL_Z4Y12Z4CB12Z4CR12_444_NV() {
-        return GL_Z4Y12Z4CB12Z4CR12_444_NV;
+    public static int GL_BUFFER_UPDATE_BARRIER_BIT() {
+        return GL_BUFFER_UPDATE_BARRIER_BIT;
     }
-    private static final int GL_VIDEO_CAPTURE_FRAME_WIDTH_NV = (int)36920L;
+    private static final int GL_FRAMEBUFFER_BARRIER_BIT = (int)1024L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIDEO_CAPTURE_FRAME_WIDTH_NV 36920
+     * #define GL_FRAMEBUFFER_BARRIER_BIT 1024
      * }
      */
-    public static int GL_VIDEO_CAPTURE_FRAME_WIDTH_NV() {
-        return GL_VIDEO_CAPTURE_FRAME_WIDTH_NV;
+    public static int GL_FRAMEBUFFER_BARRIER_BIT() {
+        return GL_FRAMEBUFFER_BARRIER_BIT;
     }
-    private static final int GL_VIDEO_CAPTURE_FRAME_HEIGHT_NV = (int)36921L;
+    private static final int GL_TRANSFORM_FEEDBACK_BARRIER_BIT = (int)2048L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIDEO_CAPTURE_FRAME_HEIGHT_NV 36921
+     * #define GL_TRANSFORM_FEEDBACK_BARRIER_BIT 2048
      * }
      */
-    public static int GL_VIDEO_CAPTURE_FRAME_HEIGHT_NV() {
-        return GL_VIDEO_CAPTURE_FRAME_HEIGHT_NV;
+    public static int GL_TRANSFORM_FEEDBACK_BARRIER_BIT() {
+        return GL_TRANSFORM_FEEDBACK_BARRIER_BIT;
     }
-    private static final int GL_VIDEO_CAPTURE_FIELD_UPPER_HEIGHT_NV = (int)36922L;
+    private static final int GL_ATOMIC_COUNTER_BARRIER_BIT = (int)4096L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIDEO_CAPTURE_FIELD_UPPER_HEIGHT_NV 36922
+     * #define GL_ATOMIC_COUNTER_BARRIER_BIT 4096
      * }
      */
-    public static int GL_VIDEO_CAPTURE_FIELD_UPPER_HEIGHT_NV() {
-        return GL_VIDEO_CAPTURE_FIELD_UPPER_HEIGHT_NV;
+    public static int GL_ATOMIC_COUNTER_BARRIER_BIT() {
+        return GL_ATOMIC_COUNTER_BARRIER_BIT;
     }
-    private static final int GL_VIDEO_CAPTURE_FIELD_LOWER_HEIGHT_NV = (int)36923L;
+    private static final int GL_MAX_IMAGE_UNITS = (int)36664L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIDEO_CAPTURE_FIELD_LOWER_HEIGHT_NV 36923
+     * #define GL_MAX_IMAGE_UNITS 36664
      * }
      */
-    public static int GL_VIDEO_CAPTURE_FIELD_LOWER_HEIGHT_NV() {
-        return GL_VIDEO_CAPTURE_FIELD_LOWER_HEIGHT_NV;
+    public static int GL_MAX_IMAGE_UNITS() {
+        return GL_MAX_IMAGE_UNITS;
     }
-    private static final int GL_VIDEO_CAPTURE_SURFACE_ORIGIN_NV = (int)36924L;
+    private static final int GL_MAX_COMBINED_IMAGE_UNITS_AND_FRAGMENT_OUTPUTS = (int)36665L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIDEO_CAPTURE_SURFACE_ORIGIN_NV 36924
+     * #define GL_MAX_COMBINED_IMAGE_UNITS_AND_FRAGMENT_OUTPUTS 36665
      * }
      */
-    public static int GL_VIDEO_CAPTURE_SURFACE_ORIGIN_NV() {
-        return GL_VIDEO_CAPTURE_SURFACE_ORIGIN_NV;
+    public static int GL_MAX_COMBINED_IMAGE_UNITS_AND_FRAGMENT_OUTPUTS() {
+        return GL_MAX_COMBINED_IMAGE_UNITS_AND_FRAGMENT_OUTPUTS;
     }
-    private static final int GL_NV_viewport_array2 = (int)1L;
+    private static final int GL_IMAGE_BINDING_NAME = (int)36666L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_viewport_array2 1
+     * #define GL_IMAGE_BINDING_NAME 36666
      * }
      */
-    public static int GL_NV_viewport_array2() {
-        return GL_NV_viewport_array2;
+    public static int GL_IMAGE_BINDING_NAME() {
+        return GL_IMAGE_BINDING_NAME;
     }
-    private static final int GL_NV_viewport_swizzle = (int)1L;
+    private static final int GL_IMAGE_BINDING_LEVEL = (int)36667L;
     /**
      * {@snippet lang=c :
-     * #define GL_NV_viewport_swizzle 1
+     * #define GL_IMAGE_BINDING_LEVEL 36667
      * }
      */
-    public static int GL_NV_viewport_swizzle() {
-        return GL_NV_viewport_swizzle;
+    public static int GL_IMAGE_BINDING_LEVEL() {
+        return GL_IMAGE_BINDING_LEVEL;
     }
-    private static final int GL_VIEWPORT_SWIZZLE_POSITIVE_X_NV = (int)37712L;
+    private static final int GL_IMAGE_BINDING_LAYERED = (int)36668L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIEWPORT_SWIZZLE_POSITIVE_X_NV 37712
+     * #define GL_IMAGE_BINDING_LAYERED 36668
      * }
      */
-    public static int GL_VIEWPORT_SWIZZLE_POSITIVE_X_NV() {
-        return GL_VIEWPORT_SWIZZLE_POSITIVE_X_NV;
+    public static int GL_IMAGE_BINDING_LAYERED() {
+        return GL_IMAGE_BINDING_LAYERED;
     }
-    private static final int GL_VIEWPORT_SWIZZLE_NEGATIVE_X_NV = (int)37713L;
+    private static final int GL_IMAGE_BINDING_LAYER = (int)36669L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIEWPORT_SWIZZLE_NEGATIVE_X_NV 37713
+     * #define GL_IMAGE_BINDING_LAYER 36669
      * }
      */
-    public static int GL_VIEWPORT_SWIZZLE_NEGATIVE_X_NV() {
-        return GL_VIEWPORT_SWIZZLE_NEGATIVE_X_NV;
+    public static int GL_IMAGE_BINDING_LAYER() {
+        return GL_IMAGE_BINDING_LAYER;
     }
-    private static final int GL_VIEWPORT_SWIZZLE_POSITIVE_Y_NV = (int)37714L;
+    private static final int GL_IMAGE_BINDING_ACCESS = (int)36670L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIEWPORT_SWIZZLE_POSITIVE_Y_NV 37714
+     * #define GL_IMAGE_BINDING_ACCESS 36670
      * }
      */
-    public static int GL_VIEWPORT_SWIZZLE_POSITIVE_Y_NV() {
-        return GL_VIEWPORT_SWIZZLE_POSITIVE_Y_NV;
+    public static int GL_IMAGE_BINDING_ACCESS() {
+        return GL_IMAGE_BINDING_ACCESS;
     }
-    private static final int GL_VIEWPORT_SWIZZLE_NEGATIVE_Y_NV = (int)37715L;
+    private static final int GL_IMAGE_1D = (int)36940L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIEWPORT_SWIZZLE_NEGATIVE_Y_NV 37715
+     * #define GL_IMAGE_1D 36940
      * }
      */
-    public static int GL_VIEWPORT_SWIZZLE_NEGATIVE_Y_NV() {
-        return GL_VIEWPORT_SWIZZLE_NEGATIVE_Y_NV;
+    public static int GL_IMAGE_1D() {
+        return GL_IMAGE_1D;
     }
-    private static final int GL_VIEWPORT_SWIZZLE_POSITIVE_Z_NV = (int)37716L;
+    private static final int GL_IMAGE_2D = (int)36941L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIEWPORT_SWIZZLE_POSITIVE_Z_NV 37716
+     * #define GL_IMAGE_2D 36941
      * }
      */
-    public static int GL_VIEWPORT_SWIZZLE_POSITIVE_Z_NV() {
-        return GL_VIEWPORT_SWIZZLE_POSITIVE_Z_NV;
+    public static int GL_IMAGE_2D() {
+        return GL_IMAGE_2D;
     }
-    private static final int GL_VIEWPORT_SWIZZLE_NEGATIVE_Z_NV = (int)37717L;
+    private static final int GL_IMAGE_3D = (int)36942L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIEWPORT_SWIZZLE_NEGATIVE_Z_NV 37717
+     * #define GL_IMAGE_3D 36942
      * }
      */
-    public static int GL_VIEWPORT_SWIZZLE_NEGATIVE_Z_NV() {
-        return GL_VIEWPORT_SWIZZLE_NEGATIVE_Z_NV;
+    public static int GL_IMAGE_3D() {
+        return GL_IMAGE_3D;
     }
-    private static final int GL_VIEWPORT_SWIZZLE_POSITIVE_W_NV = (int)37718L;
+    private static final int GL_IMAGE_2D_RECT = (int)36943L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIEWPORT_SWIZZLE_POSITIVE_W_NV 37718
+     * #define GL_IMAGE_2D_RECT 36943
      * }
      */
-    public static int GL_VIEWPORT_SWIZZLE_POSITIVE_W_NV() {
-        return GL_VIEWPORT_SWIZZLE_POSITIVE_W_NV;
+    public static int GL_IMAGE_2D_RECT() {
+        return GL_IMAGE_2D_RECT;
     }
-    private static final int GL_VIEWPORT_SWIZZLE_NEGATIVE_W_NV = (int)37719L;
+    private static final int GL_IMAGE_CUBE = (int)36944L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIEWPORT_SWIZZLE_NEGATIVE_W_NV 37719
+     * #define GL_IMAGE_CUBE 36944
      * }
      */
-    public static int GL_VIEWPORT_SWIZZLE_NEGATIVE_W_NV() {
-        return GL_VIEWPORT_SWIZZLE_NEGATIVE_W_NV;
+    public static int GL_IMAGE_CUBE() {
+        return GL_IMAGE_CUBE;
     }
-    private static final int GL_VIEWPORT_SWIZZLE_X_NV = (int)37720L;
+    private static final int GL_IMAGE_BUFFER = (int)36945L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIEWPORT_SWIZZLE_X_NV 37720
+     * #define GL_IMAGE_BUFFER 36945
      * }
      */
-    public static int GL_VIEWPORT_SWIZZLE_X_NV() {
-        return GL_VIEWPORT_SWIZZLE_X_NV;
+    public static int GL_IMAGE_BUFFER() {
+        return GL_IMAGE_BUFFER;
     }
-    private static final int GL_VIEWPORT_SWIZZLE_Y_NV = (int)37721L;
+    private static final int GL_IMAGE_1D_ARRAY = (int)36946L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIEWPORT_SWIZZLE_Y_NV 37721
+     * #define GL_IMAGE_1D_ARRAY 36946
      * }
      */
-    public static int GL_VIEWPORT_SWIZZLE_Y_NV() {
-        return GL_VIEWPORT_SWIZZLE_Y_NV;
+    public static int GL_IMAGE_1D_ARRAY() {
+        return GL_IMAGE_1D_ARRAY;
     }
-    private static final int GL_VIEWPORT_SWIZZLE_Z_NV = (int)37722L;
+    private static final int GL_IMAGE_2D_ARRAY = (int)36947L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIEWPORT_SWIZZLE_Z_NV 37722
+     * #define GL_IMAGE_2D_ARRAY 36947
      * }
      */
-    public static int GL_VIEWPORT_SWIZZLE_Z_NV() {
-        return GL_VIEWPORT_SWIZZLE_Z_NV;
+    public static int GL_IMAGE_2D_ARRAY() {
+        return GL_IMAGE_2D_ARRAY;
     }
-    private static final int GL_VIEWPORT_SWIZZLE_W_NV = (int)37723L;
+    private static final int GL_IMAGE_CUBE_MAP_ARRAY = (int)36948L;
     /**
      * {@snippet lang=c :
-     * #define GL_VIEWPORT_SWIZZLE_W_NV 37723
+     * #define GL_IMAGE_CUBE_MAP_ARRAY 36948
      * }
      */
-    public static int GL_VIEWPORT_SWIZZLE_W_NV() {
-        return GL_VIEWPORT_SWIZZLE_W_NV;
+    public static int GL_IMAGE_CUBE_MAP_ARRAY() {
+        return GL_IMAGE_CUBE_MAP_ARRAY;
     }
-    private static final int GL_OML_interlace = (int)1L;
+    private static final int GL_IMAGE_2D_MULTISAMPLE = (int)36949L;
     /**
      * {@snippet lang=c :
-     * #define GL_OML_interlace 1
+     * #define GL_IMAGE_2D_MULTISAMPLE 36949
      * }
      */
-    public static int GL_OML_interlace() {
-        return GL_OML_interlace;
+    public static int GL_IMAGE_2D_MULTISAMPLE() {
+        return GL_IMAGE_2D_MULTISAMPLE;
     }
-    private static final int GL_INTERLACE_OML = (int)35200L;
+    private static final int GL_IMAGE_2D_MULTISAMPLE_ARRAY = (int)36950L;
     /**
      * {@snippet lang=c :
-     * #define GL_INTERLACE_OML 35200
+     * #define GL_IMAGE_2D_MULTISAMPLE_ARRAY 36950
      * }
      */
-    public static int GL_INTERLACE_OML() {
-        return GL_INTERLACE_OML;
+    public static int GL_IMAGE_2D_MULTISAMPLE_ARRAY() {
+        return GL_IMAGE_2D_MULTISAMPLE_ARRAY;
     }
-    private static final int GL_INTERLACE_READ_OML = (int)35201L;
+    private static final int GL_INT_IMAGE_1D = (int)36951L;
     /**
      * {@snippet lang=c :
-     * #define GL_INTERLACE_READ_OML 35201
+     * #define GL_INT_IMAGE_1D 36951
      * }
      */
-    public static int GL_INTERLACE_READ_OML() {
-        return GL_INTERLACE_READ_OML;
+    public static int GL_INT_IMAGE_1D() {
+        return GL_INT_IMAGE_1D;
     }
-    private static final int GL_OML_resample = (int)1L;
+    private static final int GL_INT_IMAGE_2D = (int)36952L;
     /**
      * {@snippet lang=c :
-     * #define GL_OML_resample 1
+     * #define GL_INT_IMAGE_2D 36952
      * }
      */
-    public static int GL_OML_resample() {
-        return GL_OML_resample;
+    public static int GL_INT_IMAGE_2D() {
+        return GL_INT_IMAGE_2D;
     }
-    private static final int GL_PACK_RESAMPLE_OML = (int)35204L;
+    private static final int GL_INT_IMAGE_3D = (int)36953L;
     /**
      * {@snippet lang=c :
-     * #define GL_PACK_RESAMPLE_OML 35204
+     * #define GL_INT_IMAGE_3D 36953
      * }
      */
-    public static int GL_PACK_RESAMPLE_OML() {
-        return GL_PACK_RESAMPLE_OML;
+    public static int GL_INT_IMAGE_3D() {
+        return GL_INT_IMAGE_3D;
     }
-    private static final int GL_UNPACK_RESAMPLE_OML = (int)35205L;
+    private static final int GL_INT_IMAGE_2D_RECT = (int)36954L;
     /**
      * {@snippet lang=c :
-     * #define GL_UNPACK_RESAMPLE_OML 35205
+     * #define GL_INT_IMAGE_2D_RECT 36954
      * }
      */
-    public static int GL_UNPACK_RESAMPLE_OML() {
-        return GL_UNPACK_RESAMPLE_OML;
+    public static int GL_INT_IMAGE_2D_RECT() {
+        return GL_INT_IMAGE_2D_RECT;
     }
-    private static final int GL_RESAMPLE_REPLICATE_OML = (int)35206L;
+    private static final int GL_INT_IMAGE_CUBE = (int)36955L;
     /**
      * {@snippet lang=c :
-     * #define GL_RESAMPLE_REPLICATE_OML 35206
+     * #define GL_INT_IMAGE_CUBE 36955
      * }
      */
-    public static int GL_RESAMPLE_REPLICATE_OML() {
-        return GL_RESAMPLE_REPLICATE_OML;
+    public static int GL_INT_IMAGE_CUBE() {
+        return GL_INT_IMAGE_CUBE;
     }
-    private static final int GL_RESAMPLE_ZERO_FILL_OML = (int)35207L;
+    private static final int GL_INT_IMAGE_BUFFER = (int)36956L;
     /**
      * {@snippet lang=c :
-     * #define GL_RESAMPLE_ZERO_FILL_OML 35207
+     * #define GL_INT_IMAGE_BUFFER 36956
      * }
      */
-    public static int GL_RESAMPLE_ZERO_FILL_OML() {
-        return GL_RESAMPLE_ZERO_FILL_OML;
+    public static int GL_INT_IMAGE_BUFFER() {
+        return GL_INT_IMAGE_BUFFER;
     }
-    private static final int GL_RESAMPLE_AVERAGE_OML = (int)35208L;
+    private static final int GL_INT_IMAGE_1D_ARRAY = (int)36957L;
     /**
      * {@snippet lang=c :
-     * #define GL_RESAMPLE_AVERAGE_OML 35208
+     * #define GL_INT_IMAGE_1D_ARRAY 36957
      * }
      */
-    public static int GL_RESAMPLE_AVERAGE_OML() {
-        return GL_RESAMPLE_AVERAGE_OML;
+    public static int GL_INT_IMAGE_1D_ARRAY() {
+        return GL_INT_IMAGE_1D_ARRAY;
     }
-    private static final int GL_RESAMPLE_DECIMATE_OML = (int)35209L;
+    private static final int GL_INT_IMAGE_2D_ARRAY = (int)36958L;
     /**
      * {@snippet lang=c :
-     * #define GL_RESAMPLE_DECIMATE_OML 35209
+     * #define GL_INT_IMAGE_2D_ARRAY 36958
      * }
      */
-    public static int GL_RESAMPLE_DECIMATE_OML() {
-        return GL_RESAMPLE_DECIMATE_OML;
+    public static int GL_INT_IMAGE_2D_ARRAY() {
+        return GL_INT_IMAGE_2D_ARRAY;
     }
-    private static final int GL_OML_subsample = (int)1L;
+    private static final int GL_INT_IMAGE_CUBE_MAP_ARRAY = (int)36959L;
     /**
      * {@snippet lang=c :
-     * #define GL_OML_subsample 1
+     * #define GL_INT_IMAGE_CUBE_MAP_ARRAY 36959
      * }
      */
-    public static int GL_OML_subsample() {
-        return GL_OML_subsample;
+    public static int GL_INT_IMAGE_CUBE_MAP_ARRAY() {
+        return GL_INT_IMAGE_CUBE_MAP_ARRAY;
     }
-    private static final int GL_FORMAT_SUBSAMPLE_24_24_OML = (int)35202L;
+    private static final int GL_INT_IMAGE_2D_MULTISAMPLE = (int)36960L;
     /**
      * {@snippet lang=c :
-     * #define GL_FORMAT_SUBSAMPLE_24_24_OML 35202
+     * #define GL_INT_IMAGE_2D_MULTISAMPLE 36960
      * }
      */
-    public static int GL_FORMAT_SUBSAMPLE_24_24_OML() {
-        return GL_FORMAT_SUBSAMPLE_24_24_OML;
+    public static int GL_INT_IMAGE_2D_MULTISAMPLE() {
+        return GL_INT_IMAGE_2D_MULTISAMPLE;
     }
-    private static final int GL_FORMAT_SUBSAMPLE_244_244_OML = (int)35203L;
+    private static final int GL_INT_IMAGE_2D_MULTISAMPLE_ARRAY = (int)36961L;
     /**
      * {@snippet lang=c :
-     * #define GL_FORMAT_SUBSAMPLE_244_244_OML 35203
+     * #define GL_INT_IMAGE_2D_MULTISAMPLE_ARRAY 36961
      * }
      */
-    public static int GL_FORMAT_SUBSAMPLE_244_244_OML() {
-        return GL_FORMAT_SUBSAMPLE_244_244_OML;
+    public static int GL_INT_IMAGE_2D_MULTISAMPLE_ARRAY() {
+        return GL_INT_IMAGE_2D_MULTISAMPLE_ARRAY;
     }
-    private static final int GL_OVR_multiview = (int)1L;
+    private static final int GL_UNSIGNED_INT_IMAGE_1D = (int)36962L;
     /**
      * {@snippet lang=c :
-     * #define GL_OVR_multiview 1
+     * #define GL_UNSIGNED_INT_IMAGE_1D 36962
      * }
      */
-    public static int GL_OVR_multiview() {
-        return GL_OVR_multiview;
+    public static int GL_UNSIGNED_INT_IMAGE_1D() {
+        return GL_UNSIGNED_INT_IMAGE_1D;
     }
-    private static final int GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_NUM_VIEWS_OVR = (int)38448L;
+    private static final int GL_UNSIGNED_INT_IMAGE_2D = (int)36963L;
     /**
      * {@snippet lang=c :
-     * #define GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_NUM_VIEWS_OVR 38448
+     * #define GL_UNSIGNED_INT_IMAGE_2D 36963
      * }
      */
-    public static int GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_NUM_VIEWS_OVR() {
-        return GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_NUM_VIEWS_OVR;
+    public static int GL_UNSIGNED_INT_IMAGE_2D() {
+        return GL_UNSIGNED_INT_IMAGE_2D;
     }
-    private static final int GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_BASE_VIEW_INDEX_OVR = (int)38450L;
+    private static final int GL_UNSIGNED_INT_IMAGE_3D = (int)36964L;
     /**
      * {@snippet lang=c :
-     * #define GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_BASE_VIEW_INDEX_OVR 38450
+     * #define GL_UNSIGNED_INT_IMAGE_3D 36964
      * }
      */
-    public static int GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_BASE_VIEW_INDEX_OVR() {
-        return GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_BASE_VIEW_INDEX_OVR;
+    public static int GL_UNSIGNED_INT_IMAGE_3D() {
+        return GL_UNSIGNED_INT_IMAGE_3D;
     }
-    private static final int GL_MAX_VIEWS_OVR = (int)38449L;
+    private static final int GL_UNSIGNED_INT_IMAGE_2D_RECT = (int)36965L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAX_VIEWS_OVR 38449
+     * #define GL_UNSIGNED_INT_IMAGE_2D_RECT 36965
      * }
      */
-    public static int GL_MAX_VIEWS_OVR() {
-        return GL_MAX_VIEWS_OVR;
+    public static int GL_UNSIGNED_INT_IMAGE_2D_RECT() {
+        return GL_UNSIGNED_INT_IMAGE_2D_RECT;
     }
-    private static final int GL_FRAMEBUFFER_INCOMPLETE_VIEW_TARGETS_OVR = (int)38451L;
+    private static final int GL_UNSIGNED_INT_IMAGE_CUBE = (int)36966L;
     /**
      * {@snippet lang=c :
-     * #define GL_FRAMEBUFFER_INCOMPLETE_VIEW_TARGETS_OVR 38451
+     * #define GL_UNSIGNED_INT_IMAGE_CUBE 36966
      * }
      */
-    public static int GL_FRAMEBUFFER_INCOMPLETE_VIEW_TARGETS_OVR() {
-        return GL_FRAMEBUFFER_INCOMPLETE_VIEW_TARGETS_OVR;
+    public static int GL_UNSIGNED_INT_IMAGE_CUBE() {
+        return GL_UNSIGNED_INT_IMAGE_CUBE;
     }
-    private static final int GL_OVR_multiview2 = (int)1L;
+    private static final int GL_UNSIGNED_INT_IMAGE_BUFFER = (int)36967L;
     /**
      * {@snippet lang=c :
-     * #define GL_OVR_multiview2 1
+     * #define GL_UNSIGNED_INT_IMAGE_BUFFER 36967
      * }
      */
-    public static int GL_OVR_multiview2() {
-        return GL_OVR_multiview2;
+    public static int GL_UNSIGNED_INT_IMAGE_BUFFER() {
+        return GL_UNSIGNED_INT_IMAGE_BUFFER;
     }
-    private static final int GL_PGI_misc_hints = (int)1L;
+    private static final int GL_UNSIGNED_INT_IMAGE_1D_ARRAY = (int)36968L;
     /**
      * {@snippet lang=c :
-     * #define GL_PGI_misc_hints 1
+     * #define GL_UNSIGNED_INT_IMAGE_1D_ARRAY 36968
      * }
      */
-    public static int GL_PGI_misc_hints() {
-        return GL_PGI_misc_hints;
+    public static int GL_UNSIGNED_INT_IMAGE_1D_ARRAY() {
+        return GL_UNSIGNED_INT_IMAGE_1D_ARRAY;
     }
-    private static final int GL_PREFER_DOUBLEBUFFER_HINT_PGI = (int)107000L;
+    private static final int GL_UNSIGNED_INT_IMAGE_2D_ARRAY = (int)36969L;
     /**
      * {@snippet lang=c :
-     * #define GL_PREFER_DOUBLEBUFFER_HINT_PGI 107000
+     * #define GL_UNSIGNED_INT_IMAGE_2D_ARRAY 36969
      * }
      */
-    public static int GL_PREFER_DOUBLEBUFFER_HINT_PGI() {
-        return GL_PREFER_DOUBLEBUFFER_HINT_PGI;
+    public static int GL_UNSIGNED_INT_IMAGE_2D_ARRAY() {
+        return GL_UNSIGNED_INT_IMAGE_2D_ARRAY;
     }
-    private static final int GL_CONSERVE_MEMORY_HINT_PGI = (int)107005L;
+    private static final int GL_UNSIGNED_INT_IMAGE_CUBE_MAP_ARRAY = (int)36970L;
     /**
      * {@snippet lang=c :
-     * #define GL_CONSERVE_MEMORY_HINT_PGI 107005
+     * #define GL_UNSIGNED_INT_IMAGE_CUBE_MAP_ARRAY 36970
      * }
      */
-    public static int GL_CONSERVE_MEMORY_HINT_PGI() {
-        return GL_CONSERVE_MEMORY_HINT_PGI;
+    public static int GL_UNSIGNED_INT_IMAGE_CUBE_MAP_ARRAY() {
+        return GL_UNSIGNED_INT_IMAGE_CUBE_MAP_ARRAY;
     }
-    private static final int GL_RECLAIM_MEMORY_HINT_PGI = (int)107006L;
+    private static final int GL_UNSIGNED_INT_IMAGE_2D_MULTISAMPLE = (int)36971L;
     /**
      * {@snippet lang=c :
-     * #define GL_RECLAIM_MEMORY_HINT_PGI 107006
+     * #define GL_UNSIGNED_INT_IMAGE_2D_MULTISAMPLE 36971
      * }
      */
-    public static int GL_RECLAIM_MEMORY_HINT_PGI() {
-        return GL_RECLAIM_MEMORY_HINT_PGI;
+    public static int GL_UNSIGNED_INT_IMAGE_2D_MULTISAMPLE() {
+        return GL_UNSIGNED_INT_IMAGE_2D_MULTISAMPLE;
     }
-    private static final int GL_NATIVE_GRAPHICS_HANDLE_PGI = (int)107010L;
+    private static final int GL_UNSIGNED_INT_IMAGE_2D_MULTISAMPLE_ARRAY = (int)36972L;
     /**
      * {@snippet lang=c :
-     * #define GL_NATIVE_GRAPHICS_HANDLE_PGI 107010
+     * #define GL_UNSIGNED_INT_IMAGE_2D_MULTISAMPLE_ARRAY 36972
      * }
      */
-    public static int GL_NATIVE_GRAPHICS_HANDLE_PGI() {
-        return GL_NATIVE_GRAPHICS_HANDLE_PGI;
+    public static int GL_UNSIGNED_INT_IMAGE_2D_MULTISAMPLE_ARRAY() {
+        return GL_UNSIGNED_INT_IMAGE_2D_MULTISAMPLE_ARRAY;
     }
-    private static final int GL_NATIVE_GRAPHICS_BEGIN_HINT_PGI = (int)107011L;
+    private static final int GL_MAX_IMAGE_SAMPLES = (int)36973L;
     /**
      * {@snippet lang=c :
-     * #define GL_NATIVE_GRAPHICS_BEGIN_HINT_PGI 107011
+     * #define GL_MAX_IMAGE_SAMPLES 36973
      * }
      */
-    public static int GL_NATIVE_GRAPHICS_BEGIN_HINT_PGI() {
-        return GL_NATIVE_GRAPHICS_BEGIN_HINT_PGI;
+    public static int GL_MAX_IMAGE_SAMPLES() {
+        return GL_MAX_IMAGE_SAMPLES;
     }
-    private static final int GL_NATIVE_GRAPHICS_END_HINT_PGI = (int)107012L;
+    private static final int GL_IMAGE_BINDING_FORMAT = (int)36974L;
     /**
      * {@snippet lang=c :
-     * #define GL_NATIVE_GRAPHICS_END_HINT_PGI 107012
+     * #define GL_IMAGE_BINDING_FORMAT 36974
      * }
      */
-    public static int GL_NATIVE_GRAPHICS_END_HINT_PGI() {
-        return GL_NATIVE_GRAPHICS_END_HINT_PGI;
+    public static int GL_IMAGE_BINDING_FORMAT() {
+        return GL_IMAGE_BINDING_FORMAT;
     }
-    private static final int GL_ALWAYS_FAST_HINT_PGI = (int)107020L;
+    private static final int GL_IMAGE_FORMAT_COMPATIBILITY_TYPE = (int)37063L;
     /**
      * {@snippet lang=c :
-     * #define GL_ALWAYS_FAST_HINT_PGI 107020
+     * #define GL_IMAGE_FORMAT_COMPATIBILITY_TYPE 37063
      * }
      */
-    public static int GL_ALWAYS_FAST_HINT_PGI() {
-        return GL_ALWAYS_FAST_HINT_PGI;
+    public static int GL_IMAGE_FORMAT_COMPATIBILITY_TYPE() {
+        return GL_IMAGE_FORMAT_COMPATIBILITY_TYPE;
     }
-    private static final int GL_ALWAYS_SOFT_HINT_PGI = (int)107021L;
+    private static final int GL_IMAGE_FORMAT_COMPATIBILITY_BY_SIZE = (int)37064L;
     /**
      * {@snippet lang=c :
-     * #define GL_ALWAYS_SOFT_HINT_PGI 107021
+     * #define GL_IMAGE_FORMAT_COMPATIBILITY_BY_SIZE 37064
      * }
      */
-    public static int GL_ALWAYS_SOFT_HINT_PGI() {
-        return GL_ALWAYS_SOFT_HINT_PGI;
+    public static int GL_IMAGE_FORMAT_COMPATIBILITY_BY_SIZE() {
+        return GL_IMAGE_FORMAT_COMPATIBILITY_BY_SIZE;
     }
-    private static final int GL_ALLOW_DRAW_OBJ_HINT_PGI = (int)107022L;
+    private static final int GL_IMAGE_FORMAT_COMPATIBILITY_BY_CLASS = (int)37065L;
     /**
      * {@snippet lang=c :
-     * #define GL_ALLOW_DRAW_OBJ_HINT_PGI 107022
+     * #define GL_IMAGE_FORMAT_COMPATIBILITY_BY_CLASS 37065
      * }
      */
-    public static int GL_ALLOW_DRAW_OBJ_HINT_PGI() {
-        return GL_ALLOW_DRAW_OBJ_HINT_PGI;
+    public static int GL_IMAGE_FORMAT_COMPATIBILITY_BY_CLASS() {
+        return GL_IMAGE_FORMAT_COMPATIBILITY_BY_CLASS;
     }
-    private static final int GL_ALLOW_DRAW_WIN_HINT_PGI = (int)107023L;
+    private static final int GL_MAX_VERTEX_IMAGE_UNIFORMS = (int)37066L;
     /**
      * {@snippet lang=c :
-     * #define GL_ALLOW_DRAW_WIN_HINT_PGI 107023
+     * #define GL_MAX_VERTEX_IMAGE_UNIFORMS 37066
      * }
      */
-    public static int GL_ALLOW_DRAW_WIN_HINT_PGI() {
-        return GL_ALLOW_DRAW_WIN_HINT_PGI;
+    public static int GL_MAX_VERTEX_IMAGE_UNIFORMS() {
+        return GL_MAX_VERTEX_IMAGE_UNIFORMS;
     }
-    private static final int GL_ALLOW_DRAW_FRG_HINT_PGI = (int)107024L;
+    private static final int GL_MAX_TESS_CONTROL_IMAGE_UNIFORMS = (int)37067L;
     /**
      * {@snippet lang=c :
-     * #define GL_ALLOW_DRAW_FRG_HINT_PGI 107024
+     * #define GL_MAX_TESS_CONTROL_IMAGE_UNIFORMS 37067
      * }
      */
-    public static int GL_ALLOW_DRAW_FRG_HINT_PGI() {
-        return GL_ALLOW_DRAW_FRG_HINT_PGI;
+    public static int GL_MAX_TESS_CONTROL_IMAGE_UNIFORMS() {
+        return GL_MAX_TESS_CONTROL_IMAGE_UNIFORMS;
     }
-    private static final int GL_ALLOW_DRAW_MEM_HINT_PGI = (int)107025L;
+    private static final int GL_MAX_TESS_EVALUATION_IMAGE_UNIFORMS = (int)37068L;
     /**
      * {@snippet lang=c :
-     * #define GL_ALLOW_DRAW_MEM_HINT_PGI 107025
+     * #define GL_MAX_TESS_EVALUATION_IMAGE_UNIFORMS 37068
      * }
      */
-    public static int GL_ALLOW_DRAW_MEM_HINT_PGI() {
-        return GL_ALLOW_DRAW_MEM_HINT_PGI;
+    public static int GL_MAX_TESS_EVALUATION_IMAGE_UNIFORMS() {
+        return GL_MAX_TESS_EVALUATION_IMAGE_UNIFORMS;
     }
-    private static final int GL_STRICT_DEPTHFUNC_HINT_PGI = (int)107030L;
+    private static final int GL_MAX_GEOMETRY_IMAGE_UNIFORMS = (int)37069L;
     /**
      * {@snippet lang=c :
-     * #define GL_STRICT_DEPTHFUNC_HINT_PGI 107030
+     * #define GL_MAX_GEOMETRY_IMAGE_UNIFORMS 37069
      * }
      */
-    public static int GL_STRICT_DEPTHFUNC_HINT_PGI() {
-        return GL_STRICT_DEPTHFUNC_HINT_PGI;
+    public static int GL_MAX_GEOMETRY_IMAGE_UNIFORMS() {
+        return GL_MAX_GEOMETRY_IMAGE_UNIFORMS;
     }
-    private static final int GL_STRICT_LIGHTING_HINT_PGI = (int)107031L;
+    private static final int GL_MAX_FRAGMENT_IMAGE_UNIFORMS = (int)37070L;
     /**
      * {@snippet lang=c :
-     * #define GL_STRICT_LIGHTING_HINT_PGI 107031
+     * #define GL_MAX_FRAGMENT_IMAGE_UNIFORMS 37070
      * }
      */
-    public static int GL_STRICT_LIGHTING_HINT_PGI() {
-        return GL_STRICT_LIGHTING_HINT_PGI;
+    public static int GL_MAX_FRAGMENT_IMAGE_UNIFORMS() {
+        return GL_MAX_FRAGMENT_IMAGE_UNIFORMS;
     }
-    private static final int GL_STRICT_SCISSOR_HINT_PGI = (int)107032L;
+    private static final int GL_MAX_COMBINED_IMAGE_UNIFORMS = (int)37071L;
     /**
      * {@snippet lang=c :
-     * #define GL_STRICT_SCISSOR_HINT_PGI 107032
+     * #define GL_MAX_COMBINED_IMAGE_UNIFORMS 37071
      * }
      */
-    public static int GL_STRICT_SCISSOR_HINT_PGI() {
-        return GL_STRICT_SCISSOR_HINT_PGI;
+    public static int GL_MAX_COMBINED_IMAGE_UNIFORMS() {
+        return GL_MAX_COMBINED_IMAGE_UNIFORMS;
     }
-    private static final int GL_FULL_STIPPLE_HINT_PGI = (int)107033L;
+    private static final int GL_COMPRESSED_RGBA_BPTC_UNORM = (int)36492L;
     /**
      * {@snippet lang=c :
-     * #define GL_FULL_STIPPLE_HINT_PGI 107033
+     * #define GL_COMPRESSED_RGBA_BPTC_UNORM 36492
      * }
      */
-    public static int GL_FULL_STIPPLE_HINT_PGI() {
-        return GL_FULL_STIPPLE_HINT_PGI;
+    public static int GL_COMPRESSED_RGBA_BPTC_UNORM() {
+        return GL_COMPRESSED_RGBA_BPTC_UNORM;
     }
-    private static final int GL_CLIP_NEAR_HINT_PGI = (int)107040L;
+    private static final int GL_COMPRESSED_SRGB_ALPHA_BPTC_UNORM = (int)36493L;
     /**
      * {@snippet lang=c :
-     * #define GL_CLIP_NEAR_HINT_PGI 107040
+     * #define GL_COMPRESSED_SRGB_ALPHA_BPTC_UNORM 36493
      * }
      */
-    public static int GL_CLIP_NEAR_HINT_PGI() {
-        return GL_CLIP_NEAR_HINT_PGI;
+    public static int GL_COMPRESSED_SRGB_ALPHA_BPTC_UNORM() {
+        return GL_COMPRESSED_SRGB_ALPHA_BPTC_UNORM;
     }
-    private static final int GL_CLIP_FAR_HINT_PGI = (int)107041L;
+    private static final int GL_COMPRESSED_RGB_BPTC_SIGNED_FLOAT = (int)36494L;
     /**
      * {@snippet lang=c :
-     * #define GL_CLIP_FAR_HINT_PGI 107041
+     * #define GL_COMPRESSED_RGB_BPTC_SIGNED_FLOAT 36494
      * }
      */
-    public static int GL_CLIP_FAR_HINT_PGI() {
-        return GL_CLIP_FAR_HINT_PGI;
+    public static int GL_COMPRESSED_RGB_BPTC_SIGNED_FLOAT() {
+        return GL_COMPRESSED_RGB_BPTC_SIGNED_FLOAT;
     }
-    private static final int GL_WIDE_LINE_HINT_PGI = (int)107042L;
+    private static final int GL_COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT = (int)36495L;
     /**
      * {@snippet lang=c :
-     * #define GL_WIDE_LINE_HINT_PGI 107042
+     * #define GL_COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT 36495
      * }
      */
-    public static int GL_WIDE_LINE_HINT_PGI() {
-        return GL_WIDE_LINE_HINT_PGI;
+    public static int GL_COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT() {
+        return GL_COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT;
     }
-    private static final int GL_BACK_NORMALS_HINT_PGI = (int)107043L;
+    private static final int GL_TEXTURE_IMMUTABLE_FORMAT = (int)37167L;
     /**
      * {@snippet lang=c :
-     * #define GL_BACK_NORMALS_HINT_PGI 107043
+     * #define GL_TEXTURE_IMMUTABLE_FORMAT 37167
      * }
      */
-    public static int GL_BACK_NORMALS_HINT_PGI() {
-        return GL_BACK_NORMALS_HINT_PGI;
+    public static int GL_TEXTURE_IMMUTABLE_FORMAT() {
+        return GL_TEXTURE_IMMUTABLE_FORMAT;
     }
-    private static final int GL_PGI_vertex_hints = (int)1L;
+    private static final int GL_VERSION_4_3 = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_PGI_vertex_hints 1
+     * #define GL_VERSION_4_3 1
      * }
      */
-    public static int GL_PGI_vertex_hints() {
-        return GL_PGI_vertex_hints;
+    public static int GL_VERSION_4_3() {
+        return GL_VERSION_4_3;
     }
-    private static final int GL_VERTEX_DATA_HINT_PGI = (int)107050L;
+    private static final int GL_NUM_SHADING_LANGUAGE_VERSIONS = (int)33513L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_DATA_HINT_PGI 107050
+     * #define GL_NUM_SHADING_LANGUAGE_VERSIONS 33513
      * }
      */
-    public static int GL_VERTEX_DATA_HINT_PGI() {
-        return GL_VERTEX_DATA_HINT_PGI;
+    public static int GL_NUM_SHADING_LANGUAGE_VERSIONS() {
+        return GL_NUM_SHADING_LANGUAGE_VERSIONS;
     }
-    private static final int GL_VERTEX_CONSISTENT_HINT_PGI = (int)107051L;
+    private static final int GL_VERTEX_ATTRIB_ARRAY_LONG = (int)34638L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_CONSISTENT_HINT_PGI 107051
+     * #define GL_VERTEX_ATTRIB_ARRAY_LONG 34638
      * }
      */
-    public static int GL_VERTEX_CONSISTENT_HINT_PGI() {
-        return GL_VERTEX_CONSISTENT_HINT_PGI;
+    public static int GL_VERTEX_ATTRIB_ARRAY_LONG() {
+        return GL_VERTEX_ATTRIB_ARRAY_LONG;
     }
-    private static final int GL_MATERIAL_SIDE_HINT_PGI = (int)107052L;
+    private static final int GL_COMPRESSED_RGB8_ETC2 = (int)37492L;
     /**
      * {@snippet lang=c :
-     * #define GL_MATERIAL_SIDE_HINT_PGI 107052
+     * #define GL_COMPRESSED_RGB8_ETC2 37492
      * }
      */
-    public static int GL_MATERIAL_SIDE_HINT_PGI() {
-        return GL_MATERIAL_SIDE_HINT_PGI;
+    public static int GL_COMPRESSED_RGB8_ETC2() {
+        return GL_COMPRESSED_RGB8_ETC2;
     }
-    private static final int GL_MAX_VERTEX_HINT_PGI = (int)107053L;
+    private static final int GL_COMPRESSED_SRGB8_ETC2 = (int)37493L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAX_VERTEX_HINT_PGI 107053
+     * #define GL_COMPRESSED_SRGB8_ETC2 37493
      * }
      */
-    public static int GL_MAX_VERTEX_HINT_PGI() {
-        return GL_MAX_VERTEX_HINT_PGI;
+    public static int GL_COMPRESSED_SRGB8_ETC2() {
+        return GL_COMPRESSED_SRGB8_ETC2;
     }
-    private static final int GL_COLOR3_BIT_PGI = (int)65536L;
+    private static final int GL_COMPRESSED_RGB8_PUNCHTHROUGH_ALPHA1_ETC2 = (int)37494L;
     /**
      * {@snippet lang=c :
-     * #define GL_COLOR3_BIT_PGI 65536
+     * #define GL_COMPRESSED_RGB8_PUNCHTHROUGH_ALPHA1_ETC2 37494
      * }
      */
-    public static int GL_COLOR3_BIT_PGI() {
-        return GL_COLOR3_BIT_PGI;
+    public static int GL_COMPRESSED_RGB8_PUNCHTHROUGH_ALPHA1_ETC2() {
+        return GL_COMPRESSED_RGB8_PUNCHTHROUGH_ALPHA1_ETC2;
     }
-    private static final int GL_COLOR4_BIT_PGI = (int)131072L;
+    private static final int GL_COMPRESSED_SRGB8_PUNCHTHROUGH_ALPHA1_ETC2 = (int)37495L;
     /**
      * {@snippet lang=c :
-     * #define GL_COLOR4_BIT_PGI 131072
+     * #define GL_COMPRESSED_SRGB8_PUNCHTHROUGH_ALPHA1_ETC2 37495
      * }
      */
-    public static int GL_COLOR4_BIT_PGI() {
-        return GL_COLOR4_BIT_PGI;
+    public static int GL_COMPRESSED_SRGB8_PUNCHTHROUGH_ALPHA1_ETC2() {
+        return GL_COMPRESSED_SRGB8_PUNCHTHROUGH_ALPHA1_ETC2;
     }
-    private static final int GL_EDGEFLAG_BIT_PGI = (int)262144L;
+    private static final int GL_COMPRESSED_RGBA8_ETC2_EAC = (int)37496L;
     /**
      * {@snippet lang=c :
-     * #define GL_EDGEFLAG_BIT_PGI 262144
+     * #define GL_COMPRESSED_RGBA8_ETC2_EAC 37496
      * }
      */
-    public static int GL_EDGEFLAG_BIT_PGI() {
-        return GL_EDGEFLAG_BIT_PGI;
+    public static int GL_COMPRESSED_RGBA8_ETC2_EAC() {
+        return GL_COMPRESSED_RGBA8_ETC2_EAC;
     }
-    private static final int GL_INDEX_BIT_PGI = (int)524288L;
+    private static final int GL_COMPRESSED_SRGB8_ALPHA8_ETC2_EAC = (int)37497L;
     /**
      * {@snippet lang=c :
-     * #define GL_INDEX_BIT_PGI 524288
+     * #define GL_COMPRESSED_SRGB8_ALPHA8_ETC2_EAC 37497
      * }
      */
-    public static int GL_INDEX_BIT_PGI() {
-        return GL_INDEX_BIT_PGI;
+    public static int GL_COMPRESSED_SRGB8_ALPHA8_ETC2_EAC() {
+        return GL_COMPRESSED_SRGB8_ALPHA8_ETC2_EAC;
     }
-    private static final int GL_MAT_AMBIENT_BIT_PGI = (int)1048576L;
+    private static final int GL_COMPRESSED_R11_EAC = (int)37488L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAT_AMBIENT_BIT_PGI 1048576
+     * #define GL_COMPRESSED_R11_EAC 37488
      * }
      */
-    public static int GL_MAT_AMBIENT_BIT_PGI() {
-        return GL_MAT_AMBIENT_BIT_PGI;
+    public static int GL_COMPRESSED_R11_EAC() {
+        return GL_COMPRESSED_R11_EAC;
     }
-    private static final int GL_MAT_AMBIENT_AND_DIFFUSE_BIT_PGI = (int)2097152L;
+    private static final int GL_COMPRESSED_SIGNED_R11_EAC = (int)37489L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAT_AMBIENT_AND_DIFFUSE_BIT_PGI 2097152
+     * #define GL_COMPRESSED_SIGNED_R11_EAC 37489
      * }
      */
-    public static int GL_MAT_AMBIENT_AND_DIFFUSE_BIT_PGI() {
-        return GL_MAT_AMBIENT_AND_DIFFUSE_BIT_PGI;
+    public static int GL_COMPRESSED_SIGNED_R11_EAC() {
+        return GL_COMPRESSED_SIGNED_R11_EAC;
     }
-    private static final int GL_MAT_DIFFUSE_BIT_PGI = (int)4194304L;
+    private static final int GL_COMPRESSED_RG11_EAC = (int)37490L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAT_DIFFUSE_BIT_PGI 4194304
+     * #define GL_COMPRESSED_RG11_EAC 37490
      * }
      */
-    public static int GL_MAT_DIFFUSE_BIT_PGI() {
-        return GL_MAT_DIFFUSE_BIT_PGI;
+    public static int GL_COMPRESSED_RG11_EAC() {
+        return GL_COMPRESSED_RG11_EAC;
     }
-    private static final int GL_MAT_EMISSION_BIT_PGI = (int)8388608L;
+    private static final int GL_COMPRESSED_SIGNED_RG11_EAC = (int)37491L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAT_EMISSION_BIT_PGI 8388608
+     * #define GL_COMPRESSED_SIGNED_RG11_EAC 37491
      * }
      */
-    public static int GL_MAT_EMISSION_BIT_PGI() {
-        return GL_MAT_EMISSION_BIT_PGI;
+    public static int GL_COMPRESSED_SIGNED_RG11_EAC() {
+        return GL_COMPRESSED_SIGNED_RG11_EAC;
     }
-    private static final int GL_MAT_COLOR_INDEXES_BIT_PGI = (int)16777216L;
+    private static final int GL_PRIMITIVE_RESTART_FIXED_INDEX = (int)36201L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAT_COLOR_INDEXES_BIT_PGI 16777216
+     * #define GL_PRIMITIVE_RESTART_FIXED_INDEX 36201
      * }
      */
-    public static int GL_MAT_COLOR_INDEXES_BIT_PGI() {
-        return GL_MAT_COLOR_INDEXES_BIT_PGI;
+    public static int GL_PRIMITIVE_RESTART_FIXED_INDEX() {
+        return GL_PRIMITIVE_RESTART_FIXED_INDEX;
     }
-    private static final int GL_MAT_SHININESS_BIT_PGI = (int)33554432L;
+    private static final int GL_ANY_SAMPLES_PASSED_CONSERVATIVE = (int)36202L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAT_SHININESS_BIT_PGI 33554432
+     * #define GL_ANY_SAMPLES_PASSED_CONSERVATIVE 36202
      * }
      */
-    public static int GL_MAT_SHININESS_BIT_PGI() {
-        return GL_MAT_SHININESS_BIT_PGI;
+    public static int GL_ANY_SAMPLES_PASSED_CONSERVATIVE() {
+        return GL_ANY_SAMPLES_PASSED_CONSERVATIVE;
     }
-    private static final int GL_MAT_SPECULAR_BIT_PGI = (int)67108864L;
+    private static final int GL_MAX_ELEMENT_INDEX = (int)36203L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAT_SPECULAR_BIT_PGI 67108864
+     * #define GL_MAX_ELEMENT_INDEX 36203
      * }
      */
-    public static int GL_MAT_SPECULAR_BIT_PGI() {
-        return GL_MAT_SPECULAR_BIT_PGI;
+    public static int GL_MAX_ELEMENT_INDEX() {
+        return GL_MAX_ELEMENT_INDEX;
     }
-    private static final int GL_NORMAL_BIT_PGI = (int)134217728L;
+    private static final int GL_COMPUTE_SHADER = (int)37305L;
     /**
      * {@snippet lang=c :
-     * #define GL_NORMAL_BIT_PGI 134217728
+     * #define GL_COMPUTE_SHADER 37305
      * }
      */
-    public static int GL_NORMAL_BIT_PGI() {
-        return GL_NORMAL_BIT_PGI;
+    public static int GL_COMPUTE_SHADER() {
+        return GL_COMPUTE_SHADER;
     }
-    private static final int GL_TEXCOORD1_BIT_PGI = (int)268435456L;
+    private static final int GL_MAX_COMPUTE_UNIFORM_BLOCKS = (int)37307L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXCOORD1_BIT_PGI 268435456
+     * #define GL_MAX_COMPUTE_UNIFORM_BLOCKS 37307
      * }
      */
-    public static int GL_TEXCOORD1_BIT_PGI() {
-        return GL_TEXCOORD1_BIT_PGI;
+    public static int GL_MAX_COMPUTE_UNIFORM_BLOCKS() {
+        return GL_MAX_COMPUTE_UNIFORM_BLOCKS;
     }
-    private static final int GL_TEXCOORD2_BIT_PGI = (int)536870912L;
+    private static final int GL_MAX_COMPUTE_TEXTURE_IMAGE_UNITS = (int)37308L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXCOORD2_BIT_PGI 536870912
+     * #define GL_MAX_COMPUTE_TEXTURE_IMAGE_UNITS 37308
      * }
      */
-    public static int GL_TEXCOORD2_BIT_PGI() {
-        return GL_TEXCOORD2_BIT_PGI;
+    public static int GL_MAX_COMPUTE_TEXTURE_IMAGE_UNITS() {
+        return GL_MAX_COMPUTE_TEXTURE_IMAGE_UNITS;
     }
-    private static final int GL_TEXCOORD3_BIT_PGI = (int)1073741824L;
+    private static final int GL_MAX_COMPUTE_IMAGE_UNIFORMS = (int)37309L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXCOORD3_BIT_PGI 1073741824
+     * #define GL_MAX_COMPUTE_IMAGE_UNIFORMS 37309
      * }
      */
-    public static int GL_TEXCOORD3_BIT_PGI() {
-        return GL_TEXCOORD3_BIT_PGI;
+    public static int GL_MAX_COMPUTE_IMAGE_UNIFORMS() {
+        return GL_MAX_COMPUTE_IMAGE_UNIFORMS;
     }
-    private static final int GL_VERTEX23_BIT_PGI = (int)4L;
+    private static final int GL_MAX_COMPUTE_SHARED_MEMORY_SIZE = (int)33378L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX23_BIT_PGI 4
+     * #define GL_MAX_COMPUTE_SHARED_MEMORY_SIZE 33378
      * }
      */
-    public static int GL_VERTEX23_BIT_PGI() {
-        return GL_VERTEX23_BIT_PGI;
+    public static int GL_MAX_COMPUTE_SHARED_MEMORY_SIZE() {
+        return GL_MAX_COMPUTE_SHARED_MEMORY_SIZE;
     }
-    private static final int GL_VERTEX4_BIT_PGI = (int)8L;
+    private static final int GL_MAX_COMPUTE_UNIFORM_COMPONENTS = (int)33379L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX4_BIT_PGI 8
+     * #define GL_MAX_COMPUTE_UNIFORM_COMPONENTS 33379
      * }
      */
-    public static int GL_VERTEX4_BIT_PGI() {
-        return GL_VERTEX4_BIT_PGI;
+    public static int GL_MAX_COMPUTE_UNIFORM_COMPONENTS() {
+        return GL_MAX_COMPUTE_UNIFORM_COMPONENTS;
     }
-    private static final int GL_REND_screen_coordinates = (int)1L;
+    private static final int GL_MAX_COMPUTE_ATOMIC_COUNTER_BUFFERS = (int)33380L;
     /**
      * {@snippet lang=c :
-     * #define GL_REND_screen_coordinates 1
+     * #define GL_MAX_COMPUTE_ATOMIC_COUNTER_BUFFERS 33380
      * }
      */
-    public static int GL_REND_screen_coordinates() {
-        return GL_REND_screen_coordinates;
+    public static int GL_MAX_COMPUTE_ATOMIC_COUNTER_BUFFERS() {
+        return GL_MAX_COMPUTE_ATOMIC_COUNTER_BUFFERS;
     }
-    private static final int GL_SCREEN_COORDINATES_REND = (int)33936L;
+    private static final int GL_MAX_COMPUTE_ATOMIC_COUNTERS = (int)33381L;
     /**
      * {@snippet lang=c :
-     * #define GL_SCREEN_COORDINATES_REND 33936
+     * #define GL_MAX_COMPUTE_ATOMIC_COUNTERS 33381
      * }
      */
-    public static int GL_SCREEN_COORDINATES_REND() {
-        return GL_SCREEN_COORDINATES_REND;
+    public static int GL_MAX_COMPUTE_ATOMIC_COUNTERS() {
+        return GL_MAX_COMPUTE_ATOMIC_COUNTERS;
     }
-    private static final int GL_INVERTED_SCREEN_W_REND = (int)33937L;
+    private static final int GL_MAX_COMBINED_COMPUTE_UNIFORM_COMPONENTS = (int)33382L;
     /**
      * {@snippet lang=c :
-     * #define GL_INVERTED_SCREEN_W_REND 33937
+     * #define GL_MAX_COMBINED_COMPUTE_UNIFORM_COMPONENTS 33382
      * }
      */
-    public static int GL_INVERTED_SCREEN_W_REND() {
-        return GL_INVERTED_SCREEN_W_REND;
+    public static int GL_MAX_COMBINED_COMPUTE_UNIFORM_COMPONENTS() {
+        return GL_MAX_COMBINED_COMPUTE_UNIFORM_COMPONENTS;
     }
-    private static final int GL_S3_s3tc = (int)1L;
+    private static final int GL_MAX_COMPUTE_WORK_GROUP_INVOCATIONS = (int)37099L;
     /**
      * {@snippet lang=c :
-     * #define GL_S3_s3tc 1
+     * #define GL_MAX_COMPUTE_WORK_GROUP_INVOCATIONS 37099
      * }
      */
-    public static int GL_S3_s3tc() {
-        return GL_S3_s3tc;
+    public static int GL_MAX_COMPUTE_WORK_GROUP_INVOCATIONS() {
+        return GL_MAX_COMPUTE_WORK_GROUP_INVOCATIONS;
     }
-    private static final int GL_RGB_S3TC = (int)33696L;
+    private static final int GL_MAX_COMPUTE_WORK_GROUP_COUNT = (int)37310L;
     /**
      * {@snippet lang=c :
-     * #define GL_RGB_S3TC 33696
+     * #define GL_MAX_COMPUTE_WORK_GROUP_COUNT 37310
      * }
      */
-    public static int GL_RGB_S3TC() {
-        return GL_RGB_S3TC;
+    public static int GL_MAX_COMPUTE_WORK_GROUP_COUNT() {
+        return GL_MAX_COMPUTE_WORK_GROUP_COUNT;
     }
-    private static final int GL_RGB4_S3TC = (int)33697L;
+    private static final int GL_MAX_COMPUTE_WORK_GROUP_SIZE = (int)37311L;
     /**
      * {@snippet lang=c :
-     * #define GL_RGB4_S3TC 33697
+     * #define GL_MAX_COMPUTE_WORK_GROUP_SIZE 37311
      * }
      */
-    public static int GL_RGB4_S3TC() {
-        return GL_RGB4_S3TC;
+    public static int GL_MAX_COMPUTE_WORK_GROUP_SIZE() {
+        return GL_MAX_COMPUTE_WORK_GROUP_SIZE;
     }
-    private static final int GL_RGBA_S3TC = (int)33698L;
+    private static final int GL_COMPUTE_WORK_GROUP_SIZE = (int)33383L;
     /**
      * {@snippet lang=c :
-     * #define GL_RGBA_S3TC 33698
+     * #define GL_COMPUTE_WORK_GROUP_SIZE 33383
      * }
      */
-    public static int GL_RGBA_S3TC() {
-        return GL_RGBA_S3TC;
+    public static int GL_COMPUTE_WORK_GROUP_SIZE() {
+        return GL_COMPUTE_WORK_GROUP_SIZE;
     }
-    private static final int GL_RGBA4_S3TC = (int)33699L;
+    private static final int GL_UNIFORM_BLOCK_REFERENCED_BY_COMPUTE_SHADER = (int)37100L;
     /**
      * {@snippet lang=c :
-     * #define GL_RGBA4_S3TC 33699
+     * #define GL_UNIFORM_BLOCK_REFERENCED_BY_COMPUTE_SHADER 37100
      * }
      */
-    public static int GL_RGBA4_S3TC() {
-        return GL_RGBA4_S3TC;
+    public static int GL_UNIFORM_BLOCK_REFERENCED_BY_COMPUTE_SHADER() {
+        return GL_UNIFORM_BLOCK_REFERENCED_BY_COMPUTE_SHADER;
     }
-    private static final int GL_RGBA_DXT5_S3TC = (int)33700L;
+    private static final int GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_COMPUTE_SHADER = (int)37101L;
     /**
      * {@snippet lang=c :
-     * #define GL_RGBA_DXT5_S3TC 33700
+     * #define GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_COMPUTE_SHADER 37101
      * }
      */
-    public static int GL_RGBA_DXT5_S3TC() {
-        return GL_RGBA_DXT5_S3TC;
+    public static int GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_COMPUTE_SHADER() {
+        return GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_COMPUTE_SHADER;
     }
-    private static final int GL_RGBA4_DXT5_S3TC = (int)33701L;
+    private static final int GL_DISPATCH_INDIRECT_BUFFER = (int)37102L;
     /**
      * {@snippet lang=c :
-     * #define GL_RGBA4_DXT5_S3TC 33701
+     * #define GL_DISPATCH_INDIRECT_BUFFER 37102
      * }
      */
-    public static int GL_RGBA4_DXT5_S3TC() {
-        return GL_RGBA4_DXT5_S3TC;
+    public static int GL_DISPATCH_INDIRECT_BUFFER() {
+        return GL_DISPATCH_INDIRECT_BUFFER;
     }
-    private static final int GL_SGIS_detail_texture = (int)1L;
+    private static final int GL_DISPATCH_INDIRECT_BUFFER_BINDING = (int)37103L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIS_detail_texture 1
+     * #define GL_DISPATCH_INDIRECT_BUFFER_BINDING 37103
      * }
      */
-    public static int GL_SGIS_detail_texture() {
-        return GL_SGIS_detail_texture;
+    public static int GL_DISPATCH_INDIRECT_BUFFER_BINDING() {
+        return GL_DISPATCH_INDIRECT_BUFFER_BINDING;
     }
-    private static final int GL_DETAIL_TEXTURE_2D_SGIS = (int)32917L;
+    private static final int GL_COMPUTE_SHADER_BIT = (int)32L;
     /**
      * {@snippet lang=c :
-     * #define GL_DETAIL_TEXTURE_2D_SGIS 32917
+     * #define GL_COMPUTE_SHADER_BIT 32
      * }
      */
-    public static int GL_DETAIL_TEXTURE_2D_SGIS() {
-        return GL_DETAIL_TEXTURE_2D_SGIS;
+    public static int GL_COMPUTE_SHADER_BIT() {
+        return GL_COMPUTE_SHADER_BIT;
     }
-    private static final int GL_DETAIL_TEXTURE_2D_BINDING_SGIS = (int)32918L;
+    private static final int GL_DEBUG_OUTPUT_SYNCHRONOUS = (int)33346L;
     /**
      * {@snippet lang=c :
-     * #define GL_DETAIL_TEXTURE_2D_BINDING_SGIS 32918
+     * #define GL_DEBUG_OUTPUT_SYNCHRONOUS 33346
      * }
      */
-    public static int GL_DETAIL_TEXTURE_2D_BINDING_SGIS() {
-        return GL_DETAIL_TEXTURE_2D_BINDING_SGIS;
+    public static int GL_DEBUG_OUTPUT_SYNCHRONOUS() {
+        return GL_DEBUG_OUTPUT_SYNCHRONOUS;
     }
-    private static final int GL_LINEAR_DETAIL_SGIS = (int)32919L;
+    private static final int GL_DEBUG_NEXT_LOGGED_MESSAGE_LENGTH = (int)33347L;
     /**
      * {@snippet lang=c :
-     * #define GL_LINEAR_DETAIL_SGIS 32919
+     * #define GL_DEBUG_NEXT_LOGGED_MESSAGE_LENGTH 33347
      * }
      */
-    public static int GL_LINEAR_DETAIL_SGIS() {
-        return GL_LINEAR_DETAIL_SGIS;
+    public static int GL_DEBUG_NEXT_LOGGED_MESSAGE_LENGTH() {
+        return GL_DEBUG_NEXT_LOGGED_MESSAGE_LENGTH;
     }
-    private static final int GL_LINEAR_DETAIL_ALPHA_SGIS = (int)32920L;
+    private static final int GL_DEBUG_CALLBACK_FUNCTION = (int)33348L;
     /**
      * {@snippet lang=c :
-     * #define GL_LINEAR_DETAIL_ALPHA_SGIS 32920
+     * #define GL_DEBUG_CALLBACK_FUNCTION 33348
      * }
      */
-    public static int GL_LINEAR_DETAIL_ALPHA_SGIS() {
-        return GL_LINEAR_DETAIL_ALPHA_SGIS;
+    public static int GL_DEBUG_CALLBACK_FUNCTION() {
+        return GL_DEBUG_CALLBACK_FUNCTION;
     }
-    private static final int GL_LINEAR_DETAIL_COLOR_SGIS = (int)32921L;
+    private static final int GL_DEBUG_CALLBACK_USER_PARAM = (int)33349L;
     /**
      * {@snippet lang=c :
-     * #define GL_LINEAR_DETAIL_COLOR_SGIS 32921
+     * #define GL_DEBUG_CALLBACK_USER_PARAM 33349
      * }
      */
-    public static int GL_LINEAR_DETAIL_COLOR_SGIS() {
-        return GL_LINEAR_DETAIL_COLOR_SGIS;
+    public static int GL_DEBUG_CALLBACK_USER_PARAM() {
+        return GL_DEBUG_CALLBACK_USER_PARAM;
     }
-    private static final int GL_DETAIL_TEXTURE_LEVEL_SGIS = (int)32922L;
+    private static final int GL_DEBUG_SOURCE_API = (int)33350L;
     /**
      * {@snippet lang=c :
-     * #define GL_DETAIL_TEXTURE_LEVEL_SGIS 32922
+     * #define GL_DEBUG_SOURCE_API 33350
      * }
      */
-    public static int GL_DETAIL_TEXTURE_LEVEL_SGIS() {
-        return GL_DETAIL_TEXTURE_LEVEL_SGIS;
+    public static int GL_DEBUG_SOURCE_API() {
+        return GL_DEBUG_SOURCE_API;
     }
-    private static final int GL_DETAIL_TEXTURE_MODE_SGIS = (int)32923L;
+    private static final int GL_DEBUG_SOURCE_WINDOW_SYSTEM = (int)33351L;
     /**
      * {@snippet lang=c :
-     * #define GL_DETAIL_TEXTURE_MODE_SGIS 32923
+     * #define GL_DEBUG_SOURCE_WINDOW_SYSTEM 33351
      * }
      */
-    public static int GL_DETAIL_TEXTURE_MODE_SGIS() {
-        return GL_DETAIL_TEXTURE_MODE_SGIS;
+    public static int GL_DEBUG_SOURCE_WINDOW_SYSTEM() {
+        return GL_DEBUG_SOURCE_WINDOW_SYSTEM;
     }
-    private static final int GL_DETAIL_TEXTURE_FUNC_POINTS_SGIS = (int)32924L;
+    private static final int GL_DEBUG_SOURCE_SHADER_COMPILER = (int)33352L;
     /**
      * {@snippet lang=c :
-     * #define GL_DETAIL_TEXTURE_FUNC_POINTS_SGIS 32924
+     * #define GL_DEBUG_SOURCE_SHADER_COMPILER 33352
      * }
      */
-    public static int GL_DETAIL_TEXTURE_FUNC_POINTS_SGIS() {
-        return GL_DETAIL_TEXTURE_FUNC_POINTS_SGIS;
+    public static int GL_DEBUG_SOURCE_SHADER_COMPILER() {
+        return GL_DEBUG_SOURCE_SHADER_COMPILER;
     }
-    private static final int GL_SGIS_fog_function = (int)1L;
+    private static final int GL_DEBUG_SOURCE_THIRD_PARTY = (int)33353L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIS_fog_function 1
+     * #define GL_DEBUG_SOURCE_THIRD_PARTY 33353
      * }
      */
-    public static int GL_SGIS_fog_function() {
-        return GL_SGIS_fog_function;
+    public static int GL_DEBUG_SOURCE_THIRD_PARTY() {
+        return GL_DEBUG_SOURCE_THIRD_PARTY;
     }
-    private static final int GL_FOG_FUNC_SGIS = (int)33066L;
+    private static final int GL_DEBUG_SOURCE_APPLICATION = (int)33354L;
     /**
      * {@snippet lang=c :
-     * #define GL_FOG_FUNC_SGIS 33066
+     * #define GL_DEBUG_SOURCE_APPLICATION 33354
      * }
      */
-    public static int GL_FOG_FUNC_SGIS() {
-        return GL_FOG_FUNC_SGIS;
+    public static int GL_DEBUG_SOURCE_APPLICATION() {
+        return GL_DEBUG_SOURCE_APPLICATION;
     }
-    private static final int GL_FOG_FUNC_POINTS_SGIS = (int)33067L;
+    private static final int GL_DEBUG_SOURCE_OTHER = (int)33355L;
     /**
      * {@snippet lang=c :
-     * #define GL_FOG_FUNC_POINTS_SGIS 33067
+     * #define GL_DEBUG_SOURCE_OTHER 33355
      * }
      */
-    public static int GL_FOG_FUNC_POINTS_SGIS() {
-        return GL_FOG_FUNC_POINTS_SGIS;
+    public static int GL_DEBUG_SOURCE_OTHER() {
+        return GL_DEBUG_SOURCE_OTHER;
     }
-    private static final int GL_MAX_FOG_FUNC_POINTS_SGIS = (int)33068L;
+    private static final int GL_DEBUG_TYPE_ERROR = (int)33356L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAX_FOG_FUNC_POINTS_SGIS 33068
+     * #define GL_DEBUG_TYPE_ERROR 33356
      * }
      */
-    public static int GL_MAX_FOG_FUNC_POINTS_SGIS() {
-        return GL_MAX_FOG_FUNC_POINTS_SGIS;
+    public static int GL_DEBUG_TYPE_ERROR() {
+        return GL_DEBUG_TYPE_ERROR;
     }
-    private static final int GL_SGIS_generate_mipmap = (int)1L;
+    private static final int GL_DEBUG_TYPE_DEPRECATED_BEHAVIOR = (int)33357L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIS_generate_mipmap 1
+     * #define GL_DEBUG_TYPE_DEPRECATED_BEHAVIOR 33357
      * }
      */
-    public static int GL_SGIS_generate_mipmap() {
-        return GL_SGIS_generate_mipmap;
+    public static int GL_DEBUG_TYPE_DEPRECATED_BEHAVIOR() {
+        return GL_DEBUG_TYPE_DEPRECATED_BEHAVIOR;
     }
-    private static final int GL_GENERATE_MIPMAP_SGIS = (int)33169L;
+    private static final int GL_DEBUG_TYPE_UNDEFINED_BEHAVIOR = (int)33358L;
     /**
      * {@snippet lang=c :
-     * #define GL_GENERATE_MIPMAP_SGIS 33169
+     * #define GL_DEBUG_TYPE_UNDEFINED_BEHAVIOR 33358
      * }
      */
-    public static int GL_GENERATE_MIPMAP_SGIS() {
-        return GL_GENERATE_MIPMAP_SGIS;
+    public static int GL_DEBUG_TYPE_UNDEFINED_BEHAVIOR() {
+        return GL_DEBUG_TYPE_UNDEFINED_BEHAVIOR;
     }
-    private static final int GL_GENERATE_MIPMAP_HINT_SGIS = (int)33170L;
+    private static final int GL_DEBUG_TYPE_PORTABILITY = (int)33359L;
     /**
      * {@snippet lang=c :
-     * #define GL_GENERATE_MIPMAP_HINT_SGIS 33170
+     * #define GL_DEBUG_TYPE_PORTABILITY 33359
      * }
      */
-    public static int GL_GENERATE_MIPMAP_HINT_SGIS() {
-        return GL_GENERATE_MIPMAP_HINT_SGIS;
+    public static int GL_DEBUG_TYPE_PORTABILITY() {
+        return GL_DEBUG_TYPE_PORTABILITY;
     }
-    private static final int GL_SGIS_multisample = (int)1L;
+    private static final int GL_DEBUG_TYPE_PERFORMANCE = (int)33360L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIS_multisample 1
+     * #define GL_DEBUG_TYPE_PERFORMANCE 33360
      * }
      */
-    public static int GL_SGIS_multisample() {
-        return GL_SGIS_multisample;
+    public static int GL_DEBUG_TYPE_PERFORMANCE() {
+        return GL_DEBUG_TYPE_PERFORMANCE;
     }
-    private static final int GL_MULTISAMPLE_SGIS = (int)32925L;
+    private static final int GL_DEBUG_TYPE_OTHER = (int)33361L;
     /**
      * {@snippet lang=c :
-     * #define GL_MULTISAMPLE_SGIS 32925
+     * #define GL_DEBUG_TYPE_OTHER 33361
      * }
      */
-    public static int GL_MULTISAMPLE_SGIS() {
-        return GL_MULTISAMPLE_SGIS;
+    public static int GL_DEBUG_TYPE_OTHER() {
+        return GL_DEBUG_TYPE_OTHER;
     }
-    private static final int GL_SAMPLE_ALPHA_TO_MASK_SGIS = (int)32926L;
+    private static final int GL_MAX_DEBUG_MESSAGE_LENGTH = (int)37187L;
     /**
      * {@snippet lang=c :
-     * #define GL_SAMPLE_ALPHA_TO_MASK_SGIS 32926
+     * #define GL_MAX_DEBUG_MESSAGE_LENGTH 37187
      * }
      */
-    public static int GL_SAMPLE_ALPHA_TO_MASK_SGIS() {
-        return GL_SAMPLE_ALPHA_TO_MASK_SGIS;
+    public static int GL_MAX_DEBUG_MESSAGE_LENGTH() {
+        return GL_MAX_DEBUG_MESSAGE_LENGTH;
     }
-    private static final int GL_SAMPLE_ALPHA_TO_ONE_SGIS = (int)32927L;
+    private static final int GL_MAX_DEBUG_LOGGED_MESSAGES = (int)37188L;
     /**
      * {@snippet lang=c :
-     * #define GL_SAMPLE_ALPHA_TO_ONE_SGIS 32927
+     * #define GL_MAX_DEBUG_LOGGED_MESSAGES 37188
      * }
      */
-    public static int GL_SAMPLE_ALPHA_TO_ONE_SGIS() {
-        return GL_SAMPLE_ALPHA_TO_ONE_SGIS;
+    public static int GL_MAX_DEBUG_LOGGED_MESSAGES() {
+        return GL_MAX_DEBUG_LOGGED_MESSAGES;
     }
-    private static final int GL_SAMPLE_MASK_SGIS = (int)32928L;
+    private static final int GL_DEBUG_LOGGED_MESSAGES = (int)37189L;
     /**
      * {@snippet lang=c :
-     * #define GL_SAMPLE_MASK_SGIS 32928
+     * #define GL_DEBUG_LOGGED_MESSAGES 37189
      * }
      */
-    public static int GL_SAMPLE_MASK_SGIS() {
-        return GL_SAMPLE_MASK_SGIS;
+    public static int GL_DEBUG_LOGGED_MESSAGES() {
+        return GL_DEBUG_LOGGED_MESSAGES;
     }
-    private static final int GL_1PASS_SGIS = (int)32929L;
+    private static final int GL_DEBUG_SEVERITY_HIGH = (int)37190L;
     /**
      * {@snippet lang=c :
-     * #define GL_1PASS_SGIS 32929
+     * #define GL_DEBUG_SEVERITY_HIGH 37190
      * }
      */
-    public static int GL_1PASS_SGIS() {
-        return GL_1PASS_SGIS;
+    public static int GL_DEBUG_SEVERITY_HIGH() {
+        return GL_DEBUG_SEVERITY_HIGH;
     }
-    private static final int GL_2PASS_0_SGIS = (int)32930L;
+    private static final int GL_DEBUG_SEVERITY_MEDIUM = (int)37191L;
     /**
      * {@snippet lang=c :
-     * #define GL_2PASS_0_SGIS 32930
+     * #define GL_DEBUG_SEVERITY_MEDIUM 37191
      * }
      */
-    public static int GL_2PASS_0_SGIS() {
-        return GL_2PASS_0_SGIS;
+    public static int GL_DEBUG_SEVERITY_MEDIUM() {
+        return GL_DEBUG_SEVERITY_MEDIUM;
     }
-    private static final int GL_2PASS_1_SGIS = (int)32931L;
+    private static final int GL_DEBUG_SEVERITY_LOW = (int)37192L;
     /**
      * {@snippet lang=c :
-     * #define GL_2PASS_1_SGIS 32931
+     * #define GL_DEBUG_SEVERITY_LOW 37192
      * }
      */
-    public static int GL_2PASS_1_SGIS() {
-        return GL_2PASS_1_SGIS;
+    public static int GL_DEBUG_SEVERITY_LOW() {
+        return GL_DEBUG_SEVERITY_LOW;
     }
-    private static final int GL_4PASS_0_SGIS = (int)32932L;
+    private static final int GL_DEBUG_TYPE_MARKER = (int)33384L;
     /**
      * {@snippet lang=c :
-     * #define GL_4PASS_0_SGIS 32932
+     * #define GL_DEBUG_TYPE_MARKER 33384
      * }
      */
-    public static int GL_4PASS_0_SGIS() {
-        return GL_4PASS_0_SGIS;
+    public static int GL_DEBUG_TYPE_MARKER() {
+        return GL_DEBUG_TYPE_MARKER;
     }
-    private static final int GL_4PASS_1_SGIS = (int)32933L;
+    private static final int GL_DEBUG_TYPE_PUSH_GROUP = (int)33385L;
     /**
      * {@snippet lang=c :
-     * #define GL_4PASS_1_SGIS 32933
+     * #define GL_DEBUG_TYPE_PUSH_GROUP 33385
      * }
      */
-    public static int GL_4PASS_1_SGIS() {
-        return GL_4PASS_1_SGIS;
+    public static int GL_DEBUG_TYPE_PUSH_GROUP() {
+        return GL_DEBUG_TYPE_PUSH_GROUP;
     }
-    private static final int GL_4PASS_2_SGIS = (int)32934L;
+    private static final int GL_DEBUG_TYPE_POP_GROUP = (int)33386L;
     /**
      * {@snippet lang=c :
-     * #define GL_4PASS_2_SGIS 32934
+     * #define GL_DEBUG_TYPE_POP_GROUP 33386
      * }
      */
-    public static int GL_4PASS_2_SGIS() {
-        return GL_4PASS_2_SGIS;
+    public static int GL_DEBUG_TYPE_POP_GROUP() {
+        return GL_DEBUG_TYPE_POP_GROUP;
     }
-    private static final int GL_4PASS_3_SGIS = (int)32935L;
+    private static final int GL_DEBUG_SEVERITY_NOTIFICATION = (int)33387L;
     /**
      * {@snippet lang=c :
-     * #define GL_4PASS_3_SGIS 32935
+     * #define GL_DEBUG_SEVERITY_NOTIFICATION 33387
      * }
      */
-    public static int GL_4PASS_3_SGIS() {
-        return GL_4PASS_3_SGIS;
+    public static int GL_DEBUG_SEVERITY_NOTIFICATION() {
+        return GL_DEBUG_SEVERITY_NOTIFICATION;
     }
-    private static final int GL_SAMPLE_BUFFERS_SGIS = (int)32936L;
+    private static final int GL_MAX_DEBUG_GROUP_STACK_DEPTH = (int)33388L;
     /**
      * {@snippet lang=c :
-     * #define GL_SAMPLE_BUFFERS_SGIS 32936
+     * #define GL_MAX_DEBUG_GROUP_STACK_DEPTH 33388
      * }
      */
-    public static int GL_SAMPLE_BUFFERS_SGIS() {
-        return GL_SAMPLE_BUFFERS_SGIS;
+    public static int GL_MAX_DEBUG_GROUP_STACK_DEPTH() {
+        return GL_MAX_DEBUG_GROUP_STACK_DEPTH;
     }
-    private static final int GL_SAMPLES_SGIS = (int)32937L;
+    private static final int GL_DEBUG_GROUP_STACK_DEPTH = (int)33389L;
     /**
      * {@snippet lang=c :
-     * #define GL_SAMPLES_SGIS 32937
+     * #define GL_DEBUG_GROUP_STACK_DEPTH 33389
      * }
      */
-    public static int GL_SAMPLES_SGIS() {
-        return GL_SAMPLES_SGIS;
+    public static int GL_DEBUG_GROUP_STACK_DEPTH() {
+        return GL_DEBUG_GROUP_STACK_DEPTH;
     }
-    private static final int GL_SAMPLE_MASK_VALUE_SGIS = (int)32938L;
+    private static final int GL_BUFFER = (int)33504L;
     /**
      * {@snippet lang=c :
-     * #define GL_SAMPLE_MASK_VALUE_SGIS 32938
+     * #define GL_BUFFER 33504
      * }
      */
-    public static int GL_SAMPLE_MASK_VALUE_SGIS() {
-        return GL_SAMPLE_MASK_VALUE_SGIS;
+    public static int GL_BUFFER() {
+        return GL_BUFFER;
     }
-    private static final int GL_SAMPLE_MASK_INVERT_SGIS = (int)32939L;
+    private static final int GL_SHADER = (int)33505L;
     /**
      * {@snippet lang=c :
-     * #define GL_SAMPLE_MASK_INVERT_SGIS 32939
+     * #define GL_SHADER 33505
      * }
      */
-    public static int GL_SAMPLE_MASK_INVERT_SGIS() {
-        return GL_SAMPLE_MASK_INVERT_SGIS;
+    public static int GL_SHADER() {
+        return GL_SHADER;
     }
-    private static final int GL_SAMPLE_PATTERN_SGIS = (int)32940L;
+    private static final int GL_PROGRAM = (int)33506L;
     /**
      * {@snippet lang=c :
-     * #define GL_SAMPLE_PATTERN_SGIS 32940
+     * #define GL_PROGRAM 33506
      * }
      */
-    public static int GL_SAMPLE_PATTERN_SGIS() {
-        return GL_SAMPLE_PATTERN_SGIS;
+    public static int GL_PROGRAM() {
+        return GL_PROGRAM;
     }
-    private static final int GL_SGIS_pixel_texture = (int)1L;
+    private static final int GL_QUERY = (int)33507L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIS_pixel_texture 1
+     * #define GL_QUERY 33507
      * }
      */
-    public static int GL_SGIS_pixel_texture() {
-        return GL_SGIS_pixel_texture;
+    public static int GL_QUERY() {
+        return GL_QUERY;
     }
-    private static final int GL_PIXEL_TEXTURE_SGIS = (int)33619L;
+    private static final int GL_PROGRAM_PIPELINE = (int)33508L;
     /**
      * {@snippet lang=c :
-     * #define GL_PIXEL_TEXTURE_SGIS 33619
+     * #define GL_PROGRAM_PIPELINE 33508
      * }
      */
-    public static int GL_PIXEL_TEXTURE_SGIS() {
-        return GL_PIXEL_TEXTURE_SGIS;
+    public static int GL_PROGRAM_PIPELINE() {
+        return GL_PROGRAM_PIPELINE;
     }
-    private static final int GL_PIXEL_FRAGMENT_RGB_SOURCE_SGIS = (int)33620L;
+    private static final int GL_SAMPLER = (int)33510L;
     /**
      * {@snippet lang=c :
-     * #define GL_PIXEL_FRAGMENT_RGB_SOURCE_SGIS 33620
+     * #define GL_SAMPLER 33510
      * }
      */
-    public static int GL_PIXEL_FRAGMENT_RGB_SOURCE_SGIS() {
-        return GL_PIXEL_FRAGMENT_RGB_SOURCE_SGIS;
+    public static int GL_SAMPLER() {
+        return GL_SAMPLER;
     }
-    private static final int GL_PIXEL_FRAGMENT_ALPHA_SOURCE_SGIS = (int)33621L;
+    private static final int GL_MAX_LABEL_LENGTH = (int)33512L;
     /**
      * {@snippet lang=c :
-     * #define GL_PIXEL_FRAGMENT_ALPHA_SOURCE_SGIS 33621
+     * #define GL_MAX_LABEL_LENGTH 33512
      * }
      */
-    public static int GL_PIXEL_FRAGMENT_ALPHA_SOURCE_SGIS() {
-        return GL_PIXEL_FRAGMENT_ALPHA_SOURCE_SGIS;
+    public static int GL_MAX_LABEL_LENGTH() {
+        return GL_MAX_LABEL_LENGTH;
     }
-    private static final int GL_PIXEL_GROUP_COLOR_SGIS = (int)33622L;
+    private static final int GL_DEBUG_OUTPUT = (int)37600L;
     /**
      * {@snippet lang=c :
-     * #define GL_PIXEL_GROUP_COLOR_SGIS 33622
+     * #define GL_DEBUG_OUTPUT 37600
      * }
      */
-    public static int GL_PIXEL_GROUP_COLOR_SGIS() {
-        return GL_PIXEL_GROUP_COLOR_SGIS;
+    public static int GL_DEBUG_OUTPUT() {
+        return GL_DEBUG_OUTPUT;
     }
-    private static final int GL_SGIS_point_line_texgen = (int)1L;
+    private static final int GL_CONTEXT_FLAG_DEBUG_BIT = (int)2L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIS_point_line_texgen 1
+     * #define GL_CONTEXT_FLAG_DEBUG_BIT 2
      * }
      */
-    public static int GL_SGIS_point_line_texgen() {
-        return GL_SGIS_point_line_texgen;
+    public static int GL_CONTEXT_FLAG_DEBUG_BIT() {
+        return GL_CONTEXT_FLAG_DEBUG_BIT;
     }
-    private static final int GL_EYE_DISTANCE_TO_POINT_SGIS = (int)33264L;
+    private static final int GL_MAX_UNIFORM_LOCATIONS = (int)33390L;
     /**
      * {@snippet lang=c :
-     * #define GL_EYE_DISTANCE_TO_POINT_SGIS 33264
+     * #define GL_MAX_UNIFORM_LOCATIONS 33390
      * }
      */
-    public static int GL_EYE_DISTANCE_TO_POINT_SGIS() {
-        return GL_EYE_DISTANCE_TO_POINT_SGIS;
+    public static int GL_MAX_UNIFORM_LOCATIONS() {
+        return GL_MAX_UNIFORM_LOCATIONS;
     }
-    private static final int GL_OBJECT_DISTANCE_TO_POINT_SGIS = (int)33265L;
+    private static final int GL_FRAMEBUFFER_DEFAULT_WIDTH = (int)37648L;
     /**
      * {@snippet lang=c :
-     * #define GL_OBJECT_DISTANCE_TO_POINT_SGIS 33265
+     * #define GL_FRAMEBUFFER_DEFAULT_WIDTH 37648
      * }
      */
-    public static int GL_OBJECT_DISTANCE_TO_POINT_SGIS() {
-        return GL_OBJECT_DISTANCE_TO_POINT_SGIS;
+    public static int GL_FRAMEBUFFER_DEFAULT_WIDTH() {
+        return GL_FRAMEBUFFER_DEFAULT_WIDTH;
     }
-    private static final int GL_EYE_DISTANCE_TO_LINE_SGIS = (int)33266L;
+    private static final int GL_FRAMEBUFFER_DEFAULT_HEIGHT = (int)37649L;
     /**
      * {@snippet lang=c :
-     * #define GL_EYE_DISTANCE_TO_LINE_SGIS 33266
+     * #define GL_FRAMEBUFFER_DEFAULT_HEIGHT 37649
      * }
      */
-    public static int GL_EYE_DISTANCE_TO_LINE_SGIS() {
-        return GL_EYE_DISTANCE_TO_LINE_SGIS;
+    public static int GL_FRAMEBUFFER_DEFAULT_HEIGHT() {
+        return GL_FRAMEBUFFER_DEFAULT_HEIGHT;
     }
-    private static final int GL_OBJECT_DISTANCE_TO_LINE_SGIS = (int)33267L;
+    private static final int GL_FRAMEBUFFER_DEFAULT_LAYERS = (int)37650L;
     /**
      * {@snippet lang=c :
-     * #define GL_OBJECT_DISTANCE_TO_LINE_SGIS 33267
+     * #define GL_FRAMEBUFFER_DEFAULT_LAYERS 37650
      * }
      */
-    public static int GL_OBJECT_DISTANCE_TO_LINE_SGIS() {
-        return GL_OBJECT_DISTANCE_TO_LINE_SGIS;
+    public static int GL_FRAMEBUFFER_DEFAULT_LAYERS() {
+        return GL_FRAMEBUFFER_DEFAULT_LAYERS;
     }
-    private static final int GL_EYE_POINT_SGIS = (int)33268L;
+    private static final int GL_FRAMEBUFFER_DEFAULT_SAMPLES = (int)37651L;
     /**
      * {@snippet lang=c :
-     * #define GL_EYE_POINT_SGIS 33268
+     * #define GL_FRAMEBUFFER_DEFAULT_SAMPLES 37651
      * }
      */
-    public static int GL_EYE_POINT_SGIS() {
-        return GL_EYE_POINT_SGIS;
+    public static int GL_FRAMEBUFFER_DEFAULT_SAMPLES() {
+        return GL_FRAMEBUFFER_DEFAULT_SAMPLES;
     }
-    private static final int GL_OBJECT_POINT_SGIS = (int)33269L;
+    private static final int GL_FRAMEBUFFER_DEFAULT_FIXED_SAMPLE_LOCATIONS = (int)37652L;
     /**
      * {@snippet lang=c :
-     * #define GL_OBJECT_POINT_SGIS 33269
+     * #define GL_FRAMEBUFFER_DEFAULT_FIXED_SAMPLE_LOCATIONS 37652
      * }
      */
-    public static int GL_OBJECT_POINT_SGIS() {
-        return GL_OBJECT_POINT_SGIS;
+    public static int GL_FRAMEBUFFER_DEFAULT_FIXED_SAMPLE_LOCATIONS() {
+        return GL_FRAMEBUFFER_DEFAULT_FIXED_SAMPLE_LOCATIONS;
     }
-    private static final int GL_EYE_LINE_SGIS = (int)33270L;
+    private static final int GL_MAX_FRAMEBUFFER_WIDTH = (int)37653L;
     /**
      * {@snippet lang=c :
-     * #define GL_EYE_LINE_SGIS 33270
+     * #define GL_MAX_FRAMEBUFFER_WIDTH 37653
      * }
      */
-    public static int GL_EYE_LINE_SGIS() {
-        return GL_EYE_LINE_SGIS;
+    public static int GL_MAX_FRAMEBUFFER_WIDTH() {
+        return GL_MAX_FRAMEBUFFER_WIDTH;
     }
-    private static final int GL_OBJECT_LINE_SGIS = (int)33271L;
+    private static final int GL_MAX_FRAMEBUFFER_HEIGHT = (int)37654L;
     /**
      * {@snippet lang=c :
-     * #define GL_OBJECT_LINE_SGIS 33271
+     * #define GL_MAX_FRAMEBUFFER_HEIGHT 37654
      * }
      */
-    public static int GL_OBJECT_LINE_SGIS() {
-        return GL_OBJECT_LINE_SGIS;
+    public static int GL_MAX_FRAMEBUFFER_HEIGHT() {
+        return GL_MAX_FRAMEBUFFER_HEIGHT;
     }
-    private static final int GL_SGIS_point_parameters = (int)1L;
+    private static final int GL_MAX_FRAMEBUFFER_LAYERS = (int)37655L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIS_point_parameters 1
+     * #define GL_MAX_FRAMEBUFFER_LAYERS 37655
      * }
      */
-    public static int GL_SGIS_point_parameters() {
-        return GL_SGIS_point_parameters;
+    public static int GL_MAX_FRAMEBUFFER_LAYERS() {
+        return GL_MAX_FRAMEBUFFER_LAYERS;
     }
-    private static final int GL_POINT_SIZE_MIN_SGIS = (int)33062L;
+    private static final int GL_MAX_FRAMEBUFFER_SAMPLES = (int)37656L;
     /**
      * {@snippet lang=c :
-     * #define GL_POINT_SIZE_MIN_SGIS 33062
+     * #define GL_MAX_FRAMEBUFFER_SAMPLES 37656
      * }
      */
-    public static int GL_POINT_SIZE_MIN_SGIS() {
-        return GL_POINT_SIZE_MIN_SGIS;
+    public static int GL_MAX_FRAMEBUFFER_SAMPLES() {
+        return GL_MAX_FRAMEBUFFER_SAMPLES;
     }
-    private static final int GL_POINT_SIZE_MAX_SGIS = (int)33063L;
+    private static final int GL_INTERNALFORMAT_SUPPORTED = (int)33391L;
     /**
      * {@snippet lang=c :
-     * #define GL_POINT_SIZE_MAX_SGIS 33063
+     * #define GL_INTERNALFORMAT_SUPPORTED 33391
      * }
      */
-    public static int GL_POINT_SIZE_MAX_SGIS() {
-        return GL_POINT_SIZE_MAX_SGIS;
+    public static int GL_INTERNALFORMAT_SUPPORTED() {
+        return GL_INTERNALFORMAT_SUPPORTED;
     }
-    private static final int GL_POINT_FADE_THRESHOLD_SIZE_SGIS = (int)33064L;
+    private static final int GL_INTERNALFORMAT_PREFERRED = (int)33392L;
     /**
      * {@snippet lang=c :
-     * #define GL_POINT_FADE_THRESHOLD_SIZE_SGIS 33064
+     * #define GL_INTERNALFORMAT_PREFERRED 33392
      * }
      */
-    public static int GL_POINT_FADE_THRESHOLD_SIZE_SGIS() {
-        return GL_POINT_FADE_THRESHOLD_SIZE_SGIS;
+    public static int GL_INTERNALFORMAT_PREFERRED() {
+        return GL_INTERNALFORMAT_PREFERRED;
     }
-    private static final int GL_DISTANCE_ATTENUATION_SGIS = (int)33065L;
+    private static final int GL_INTERNALFORMAT_RED_SIZE = (int)33393L;
     /**
      * {@snippet lang=c :
-     * #define GL_DISTANCE_ATTENUATION_SGIS 33065
+     * #define GL_INTERNALFORMAT_RED_SIZE 33393
      * }
      */
-    public static int GL_DISTANCE_ATTENUATION_SGIS() {
-        return GL_DISTANCE_ATTENUATION_SGIS;
+    public static int GL_INTERNALFORMAT_RED_SIZE() {
+        return GL_INTERNALFORMAT_RED_SIZE;
     }
-    private static final int GL_SGIS_sharpen_texture = (int)1L;
+    private static final int GL_INTERNALFORMAT_GREEN_SIZE = (int)33394L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIS_sharpen_texture 1
+     * #define GL_INTERNALFORMAT_GREEN_SIZE 33394
      * }
      */
-    public static int GL_SGIS_sharpen_texture() {
-        return GL_SGIS_sharpen_texture;
+    public static int GL_INTERNALFORMAT_GREEN_SIZE() {
+        return GL_INTERNALFORMAT_GREEN_SIZE;
     }
-    private static final int GL_LINEAR_SHARPEN_SGIS = (int)32941L;
+    private static final int GL_INTERNALFORMAT_BLUE_SIZE = (int)33395L;
     /**
      * {@snippet lang=c :
-     * #define GL_LINEAR_SHARPEN_SGIS 32941
+     * #define GL_INTERNALFORMAT_BLUE_SIZE 33395
      * }
      */
-    public static int GL_LINEAR_SHARPEN_SGIS() {
-        return GL_LINEAR_SHARPEN_SGIS;
+    public static int GL_INTERNALFORMAT_BLUE_SIZE() {
+        return GL_INTERNALFORMAT_BLUE_SIZE;
     }
-    private static final int GL_LINEAR_SHARPEN_ALPHA_SGIS = (int)32942L;
+    private static final int GL_INTERNALFORMAT_ALPHA_SIZE = (int)33396L;
     /**
      * {@snippet lang=c :
-     * #define GL_LINEAR_SHARPEN_ALPHA_SGIS 32942
+     * #define GL_INTERNALFORMAT_ALPHA_SIZE 33396
      * }
      */
-    public static int GL_LINEAR_SHARPEN_ALPHA_SGIS() {
-        return GL_LINEAR_SHARPEN_ALPHA_SGIS;
+    public static int GL_INTERNALFORMAT_ALPHA_SIZE() {
+        return GL_INTERNALFORMAT_ALPHA_SIZE;
     }
-    private static final int GL_LINEAR_SHARPEN_COLOR_SGIS = (int)32943L;
+    private static final int GL_INTERNALFORMAT_DEPTH_SIZE = (int)33397L;
     /**
      * {@snippet lang=c :
-     * #define GL_LINEAR_SHARPEN_COLOR_SGIS 32943
+     * #define GL_INTERNALFORMAT_DEPTH_SIZE 33397
      * }
      */
-    public static int GL_LINEAR_SHARPEN_COLOR_SGIS() {
-        return GL_LINEAR_SHARPEN_COLOR_SGIS;
+    public static int GL_INTERNALFORMAT_DEPTH_SIZE() {
+        return GL_INTERNALFORMAT_DEPTH_SIZE;
     }
-    private static final int GL_SHARPEN_TEXTURE_FUNC_POINTS_SGIS = (int)32944L;
+    private static final int GL_INTERNALFORMAT_STENCIL_SIZE = (int)33398L;
     /**
      * {@snippet lang=c :
-     * #define GL_SHARPEN_TEXTURE_FUNC_POINTS_SGIS 32944
+     * #define GL_INTERNALFORMAT_STENCIL_SIZE 33398
      * }
      */
-    public static int GL_SHARPEN_TEXTURE_FUNC_POINTS_SGIS() {
-        return GL_SHARPEN_TEXTURE_FUNC_POINTS_SGIS;
+    public static int GL_INTERNALFORMAT_STENCIL_SIZE() {
+        return GL_INTERNALFORMAT_STENCIL_SIZE;
     }
-    private static final int GL_SGIS_texture4D = (int)1L;
+    private static final int GL_INTERNALFORMAT_SHARED_SIZE = (int)33399L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIS_texture4D 1
+     * #define GL_INTERNALFORMAT_SHARED_SIZE 33399
      * }
      */
-    public static int GL_SGIS_texture4D() {
-        return GL_SGIS_texture4D;
+    public static int GL_INTERNALFORMAT_SHARED_SIZE() {
+        return GL_INTERNALFORMAT_SHARED_SIZE;
     }
-    private static final int GL_PACK_SKIP_VOLUMES_SGIS = (int)33072L;
+    private static final int GL_INTERNALFORMAT_RED_TYPE = (int)33400L;
     /**
      * {@snippet lang=c :
-     * #define GL_PACK_SKIP_VOLUMES_SGIS 33072
+     * #define GL_INTERNALFORMAT_RED_TYPE 33400
      * }
      */
-    public static int GL_PACK_SKIP_VOLUMES_SGIS() {
-        return GL_PACK_SKIP_VOLUMES_SGIS;
+    public static int GL_INTERNALFORMAT_RED_TYPE() {
+        return GL_INTERNALFORMAT_RED_TYPE;
     }
-    private static final int GL_PACK_IMAGE_DEPTH_SGIS = (int)33073L;
+    private static final int GL_INTERNALFORMAT_GREEN_TYPE = (int)33401L;
     /**
      * {@snippet lang=c :
-     * #define GL_PACK_IMAGE_DEPTH_SGIS 33073
+     * #define GL_INTERNALFORMAT_GREEN_TYPE 33401
      * }
      */
-    public static int GL_PACK_IMAGE_DEPTH_SGIS() {
-        return GL_PACK_IMAGE_DEPTH_SGIS;
+    public static int GL_INTERNALFORMAT_GREEN_TYPE() {
+        return GL_INTERNALFORMAT_GREEN_TYPE;
     }
-    private static final int GL_UNPACK_SKIP_VOLUMES_SGIS = (int)33074L;
+    private static final int GL_INTERNALFORMAT_BLUE_TYPE = (int)33402L;
     /**
      * {@snippet lang=c :
-     * #define GL_UNPACK_SKIP_VOLUMES_SGIS 33074
+     * #define GL_INTERNALFORMAT_BLUE_TYPE 33402
      * }
      */
-    public static int GL_UNPACK_SKIP_VOLUMES_SGIS() {
-        return GL_UNPACK_SKIP_VOLUMES_SGIS;
+    public static int GL_INTERNALFORMAT_BLUE_TYPE() {
+        return GL_INTERNALFORMAT_BLUE_TYPE;
     }
-    private static final int GL_UNPACK_IMAGE_DEPTH_SGIS = (int)33075L;
+    private static final int GL_INTERNALFORMAT_ALPHA_TYPE = (int)33403L;
     /**
      * {@snippet lang=c :
-     * #define GL_UNPACK_IMAGE_DEPTH_SGIS 33075
+     * #define GL_INTERNALFORMAT_ALPHA_TYPE 33403
      * }
      */
-    public static int GL_UNPACK_IMAGE_DEPTH_SGIS() {
-        return GL_UNPACK_IMAGE_DEPTH_SGIS;
+    public static int GL_INTERNALFORMAT_ALPHA_TYPE() {
+        return GL_INTERNALFORMAT_ALPHA_TYPE;
     }
-    private static final int GL_TEXTURE_4D_SGIS = (int)33076L;
+    private static final int GL_INTERNALFORMAT_DEPTH_TYPE = (int)33404L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_4D_SGIS 33076
+     * #define GL_INTERNALFORMAT_DEPTH_TYPE 33404
      * }
      */
-    public static int GL_TEXTURE_4D_SGIS() {
-        return GL_TEXTURE_4D_SGIS;
+    public static int GL_INTERNALFORMAT_DEPTH_TYPE() {
+        return GL_INTERNALFORMAT_DEPTH_TYPE;
     }
-    private static final int GL_PROXY_TEXTURE_4D_SGIS = (int)33077L;
+    private static final int GL_INTERNALFORMAT_STENCIL_TYPE = (int)33405L;
     /**
      * {@snippet lang=c :
-     * #define GL_PROXY_TEXTURE_4D_SGIS 33077
+     * #define GL_INTERNALFORMAT_STENCIL_TYPE 33405
      * }
      */
-    public static int GL_PROXY_TEXTURE_4D_SGIS() {
-        return GL_PROXY_TEXTURE_4D_SGIS;
+    public static int GL_INTERNALFORMAT_STENCIL_TYPE() {
+        return GL_INTERNALFORMAT_STENCIL_TYPE;
     }
-    private static final int GL_TEXTURE_4DSIZE_SGIS = (int)33078L;
+    private static final int GL_MAX_WIDTH = (int)33406L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_4DSIZE_SGIS 33078
+     * #define GL_MAX_WIDTH 33406
      * }
      */
-    public static int GL_TEXTURE_4DSIZE_SGIS() {
-        return GL_TEXTURE_4DSIZE_SGIS;
+    public static int GL_MAX_WIDTH() {
+        return GL_MAX_WIDTH;
     }
-    private static final int GL_TEXTURE_WRAP_Q_SGIS = (int)33079L;
+    private static final int GL_MAX_HEIGHT = (int)33407L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_WRAP_Q_SGIS 33079
+     * #define GL_MAX_HEIGHT 33407
      * }
      */
-    public static int GL_TEXTURE_WRAP_Q_SGIS() {
-        return GL_TEXTURE_WRAP_Q_SGIS;
+    public static int GL_MAX_HEIGHT() {
+        return GL_MAX_HEIGHT;
     }
-    private static final int GL_MAX_4D_TEXTURE_SIZE_SGIS = (int)33080L;
+    private static final int GL_MAX_DEPTH = (int)33408L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAX_4D_TEXTURE_SIZE_SGIS 33080
+     * #define GL_MAX_DEPTH 33408
      * }
      */
-    public static int GL_MAX_4D_TEXTURE_SIZE_SGIS() {
-        return GL_MAX_4D_TEXTURE_SIZE_SGIS;
+    public static int GL_MAX_DEPTH() {
+        return GL_MAX_DEPTH;
     }
-    private static final int GL_TEXTURE_4D_BINDING_SGIS = (int)33103L;
+    private static final int GL_MAX_LAYERS = (int)33409L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_4D_BINDING_SGIS 33103
+     * #define GL_MAX_LAYERS 33409
      * }
      */
-    public static int GL_TEXTURE_4D_BINDING_SGIS() {
-        return GL_TEXTURE_4D_BINDING_SGIS;
+    public static int GL_MAX_LAYERS() {
+        return GL_MAX_LAYERS;
     }
-    private static final int GL_SGIS_texture_border_clamp = (int)1L;
+    private static final int GL_MAX_COMBINED_DIMENSIONS = (int)33410L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIS_texture_border_clamp 1
+     * #define GL_MAX_COMBINED_DIMENSIONS 33410
      * }
      */
-    public static int GL_SGIS_texture_border_clamp() {
-        return GL_SGIS_texture_border_clamp;
+    public static int GL_MAX_COMBINED_DIMENSIONS() {
+        return GL_MAX_COMBINED_DIMENSIONS;
     }
-    private static final int GL_CLAMP_TO_BORDER_SGIS = (int)33069L;
+    private static final int GL_COLOR_COMPONENTS = (int)33411L;
     /**
      * {@snippet lang=c :
-     * #define GL_CLAMP_TO_BORDER_SGIS 33069
+     * #define GL_COLOR_COMPONENTS 33411
      * }
      */
-    public static int GL_CLAMP_TO_BORDER_SGIS() {
-        return GL_CLAMP_TO_BORDER_SGIS;
+    public static int GL_COLOR_COMPONENTS() {
+        return GL_COLOR_COMPONENTS;
     }
-    private static final int GL_SGIS_texture_color_mask = (int)1L;
+    private static final int GL_DEPTH_COMPONENTS = (int)33412L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIS_texture_color_mask 1
+     * #define GL_DEPTH_COMPONENTS 33412
      * }
      */
-    public static int GL_SGIS_texture_color_mask() {
-        return GL_SGIS_texture_color_mask;
+    public static int GL_DEPTH_COMPONENTS() {
+        return GL_DEPTH_COMPONENTS;
     }
-    private static final int GL_TEXTURE_COLOR_WRITEMASK_SGIS = (int)33263L;
+    private static final int GL_STENCIL_COMPONENTS = (int)33413L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_COLOR_WRITEMASK_SGIS 33263
+     * #define GL_STENCIL_COMPONENTS 33413
      * }
      */
-    public static int GL_TEXTURE_COLOR_WRITEMASK_SGIS() {
-        return GL_TEXTURE_COLOR_WRITEMASK_SGIS;
+    public static int GL_STENCIL_COMPONENTS() {
+        return GL_STENCIL_COMPONENTS;
     }
-    private static final int GL_SGIS_texture_edge_clamp = (int)1L;
+    private static final int GL_COLOR_RENDERABLE = (int)33414L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIS_texture_edge_clamp 1
+     * #define GL_COLOR_RENDERABLE 33414
      * }
      */
-    public static int GL_SGIS_texture_edge_clamp() {
-        return GL_SGIS_texture_edge_clamp;
+    public static int GL_COLOR_RENDERABLE() {
+        return GL_COLOR_RENDERABLE;
     }
-    private static final int GL_CLAMP_TO_EDGE_SGIS = (int)33071L;
+    private static final int GL_DEPTH_RENDERABLE = (int)33415L;
     /**
      * {@snippet lang=c :
-     * #define GL_CLAMP_TO_EDGE_SGIS 33071
+     * #define GL_DEPTH_RENDERABLE 33415
      * }
      */
-    public static int GL_CLAMP_TO_EDGE_SGIS() {
-        return GL_CLAMP_TO_EDGE_SGIS;
+    public static int GL_DEPTH_RENDERABLE() {
+        return GL_DEPTH_RENDERABLE;
     }
-    private static final int GL_SGIS_texture_filter4 = (int)1L;
+    private static final int GL_STENCIL_RENDERABLE = (int)33416L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIS_texture_filter4 1
+     * #define GL_STENCIL_RENDERABLE 33416
      * }
      */
-    public static int GL_SGIS_texture_filter4() {
-        return GL_SGIS_texture_filter4;
+    public static int GL_STENCIL_RENDERABLE() {
+        return GL_STENCIL_RENDERABLE;
     }
-    private static final int GL_FILTER4_SGIS = (int)33094L;
+    private static final int GL_FRAMEBUFFER_RENDERABLE = (int)33417L;
     /**
      * {@snippet lang=c :
-     * #define GL_FILTER4_SGIS 33094
+     * #define GL_FRAMEBUFFER_RENDERABLE 33417
      * }
      */
-    public static int GL_FILTER4_SGIS() {
-        return GL_FILTER4_SGIS;
+    public static int GL_FRAMEBUFFER_RENDERABLE() {
+        return GL_FRAMEBUFFER_RENDERABLE;
     }
-    private static final int GL_TEXTURE_FILTER4_SIZE_SGIS = (int)33095L;
+    private static final int GL_FRAMEBUFFER_RENDERABLE_LAYERED = (int)33418L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_FILTER4_SIZE_SGIS 33095
+     * #define GL_FRAMEBUFFER_RENDERABLE_LAYERED 33418
      * }
      */
-    public static int GL_TEXTURE_FILTER4_SIZE_SGIS() {
-        return GL_TEXTURE_FILTER4_SIZE_SGIS;
+    public static int GL_FRAMEBUFFER_RENDERABLE_LAYERED() {
+        return GL_FRAMEBUFFER_RENDERABLE_LAYERED;
     }
-    private static final int GL_SGIS_texture_lod = (int)1L;
+    private static final int GL_FRAMEBUFFER_BLEND = (int)33419L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIS_texture_lod 1
+     * #define GL_FRAMEBUFFER_BLEND 33419
      * }
      */
-    public static int GL_SGIS_texture_lod() {
-        return GL_SGIS_texture_lod;
+    public static int GL_FRAMEBUFFER_BLEND() {
+        return GL_FRAMEBUFFER_BLEND;
     }
-    private static final int GL_TEXTURE_MIN_LOD_SGIS = (int)33082L;
+    private static final int GL_READ_PIXELS = (int)33420L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_MIN_LOD_SGIS 33082
+     * #define GL_READ_PIXELS 33420
      * }
      */
-    public static int GL_TEXTURE_MIN_LOD_SGIS() {
-        return GL_TEXTURE_MIN_LOD_SGIS;
+    public static int GL_READ_PIXELS() {
+        return GL_READ_PIXELS;
     }
-    private static final int GL_TEXTURE_MAX_LOD_SGIS = (int)33083L;
+    private static final int GL_READ_PIXELS_FORMAT = (int)33421L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_MAX_LOD_SGIS 33083
+     * #define GL_READ_PIXELS_FORMAT 33421
      * }
      */
-    public static int GL_TEXTURE_MAX_LOD_SGIS() {
-        return GL_TEXTURE_MAX_LOD_SGIS;
+    public static int GL_READ_PIXELS_FORMAT() {
+        return GL_READ_PIXELS_FORMAT;
     }
-    private static final int GL_TEXTURE_BASE_LEVEL_SGIS = (int)33084L;
+    private static final int GL_READ_PIXELS_TYPE = (int)33422L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_BASE_LEVEL_SGIS 33084
+     * #define GL_READ_PIXELS_TYPE 33422
      * }
      */
-    public static int GL_TEXTURE_BASE_LEVEL_SGIS() {
-        return GL_TEXTURE_BASE_LEVEL_SGIS;
+    public static int GL_READ_PIXELS_TYPE() {
+        return GL_READ_PIXELS_TYPE;
     }
-    private static final int GL_TEXTURE_MAX_LEVEL_SGIS = (int)33085L;
+    private static final int GL_TEXTURE_IMAGE_FORMAT = (int)33423L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_MAX_LEVEL_SGIS 33085
+     * #define GL_TEXTURE_IMAGE_FORMAT 33423
      * }
      */
-    public static int GL_TEXTURE_MAX_LEVEL_SGIS() {
-        return GL_TEXTURE_MAX_LEVEL_SGIS;
+    public static int GL_TEXTURE_IMAGE_FORMAT() {
+        return GL_TEXTURE_IMAGE_FORMAT;
     }
-    private static final int GL_SGIS_texture_select = (int)1L;
+    private static final int GL_TEXTURE_IMAGE_TYPE = (int)33424L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIS_texture_select 1
+     * #define GL_TEXTURE_IMAGE_TYPE 33424
      * }
      */
-    public static int GL_SGIS_texture_select() {
-        return GL_SGIS_texture_select;
+    public static int GL_TEXTURE_IMAGE_TYPE() {
+        return GL_TEXTURE_IMAGE_TYPE;
     }
-    private static final int GL_DUAL_ALPHA4_SGIS = (int)33040L;
+    private static final int GL_GET_TEXTURE_IMAGE_FORMAT = (int)33425L;
     /**
      * {@snippet lang=c :
-     * #define GL_DUAL_ALPHA4_SGIS 33040
+     * #define GL_GET_TEXTURE_IMAGE_FORMAT 33425
      * }
      */
-    public static int GL_DUAL_ALPHA4_SGIS() {
-        return GL_DUAL_ALPHA4_SGIS;
+    public static int GL_GET_TEXTURE_IMAGE_FORMAT() {
+        return GL_GET_TEXTURE_IMAGE_FORMAT;
     }
-    private static final int GL_DUAL_ALPHA8_SGIS = (int)33041L;
+    private static final int GL_GET_TEXTURE_IMAGE_TYPE = (int)33426L;
     /**
      * {@snippet lang=c :
-     * #define GL_DUAL_ALPHA8_SGIS 33041
+     * #define GL_GET_TEXTURE_IMAGE_TYPE 33426
      * }
      */
-    public static int GL_DUAL_ALPHA8_SGIS() {
-        return GL_DUAL_ALPHA8_SGIS;
+    public static int GL_GET_TEXTURE_IMAGE_TYPE() {
+        return GL_GET_TEXTURE_IMAGE_TYPE;
     }
-    private static final int GL_DUAL_ALPHA12_SGIS = (int)33042L;
+    private static final int GL_MIPMAP = (int)33427L;
     /**
      * {@snippet lang=c :
-     * #define GL_DUAL_ALPHA12_SGIS 33042
+     * #define GL_MIPMAP 33427
      * }
      */
-    public static int GL_DUAL_ALPHA12_SGIS() {
-        return GL_DUAL_ALPHA12_SGIS;
+    public static int GL_MIPMAP() {
+        return GL_MIPMAP;
     }
-    private static final int GL_DUAL_ALPHA16_SGIS = (int)33043L;
+    private static final int GL_MANUAL_GENERATE_MIPMAP = (int)33428L;
     /**
      * {@snippet lang=c :
-     * #define GL_DUAL_ALPHA16_SGIS 33043
+     * #define GL_MANUAL_GENERATE_MIPMAP 33428
      * }
      */
-    public static int GL_DUAL_ALPHA16_SGIS() {
-        return GL_DUAL_ALPHA16_SGIS;
+    public static int GL_MANUAL_GENERATE_MIPMAP() {
+        return GL_MANUAL_GENERATE_MIPMAP;
     }
-    private static final int GL_DUAL_LUMINANCE4_SGIS = (int)33044L;
+    private static final int GL_AUTO_GENERATE_MIPMAP = (int)33429L;
     /**
      * {@snippet lang=c :
-     * #define GL_DUAL_LUMINANCE4_SGIS 33044
+     * #define GL_AUTO_GENERATE_MIPMAP 33429
      * }
      */
-    public static int GL_DUAL_LUMINANCE4_SGIS() {
-        return GL_DUAL_LUMINANCE4_SGIS;
+    public static int GL_AUTO_GENERATE_MIPMAP() {
+        return GL_AUTO_GENERATE_MIPMAP;
     }
-    private static final int GL_DUAL_LUMINANCE8_SGIS = (int)33045L;
+    private static final int GL_COLOR_ENCODING = (int)33430L;
     /**
      * {@snippet lang=c :
-     * #define GL_DUAL_LUMINANCE8_SGIS 33045
+     * #define GL_COLOR_ENCODING 33430
      * }
      */
-    public static int GL_DUAL_LUMINANCE8_SGIS() {
-        return GL_DUAL_LUMINANCE8_SGIS;
+    public static int GL_COLOR_ENCODING() {
+        return GL_COLOR_ENCODING;
     }
-    private static final int GL_DUAL_LUMINANCE12_SGIS = (int)33046L;
+    private static final int GL_SRGB_READ = (int)33431L;
     /**
      * {@snippet lang=c :
-     * #define GL_DUAL_LUMINANCE12_SGIS 33046
+     * #define GL_SRGB_READ 33431
      * }
      */
-    public static int GL_DUAL_LUMINANCE12_SGIS() {
-        return GL_DUAL_LUMINANCE12_SGIS;
+    public static int GL_SRGB_READ() {
+        return GL_SRGB_READ;
     }
-    private static final int GL_DUAL_LUMINANCE16_SGIS = (int)33047L;
+    private static final int GL_SRGB_WRITE = (int)33432L;
     /**
      * {@snippet lang=c :
-     * #define GL_DUAL_LUMINANCE16_SGIS 33047
+     * #define GL_SRGB_WRITE 33432
      * }
      */
-    public static int GL_DUAL_LUMINANCE16_SGIS() {
-        return GL_DUAL_LUMINANCE16_SGIS;
+    public static int GL_SRGB_WRITE() {
+        return GL_SRGB_WRITE;
     }
-    private static final int GL_DUAL_INTENSITY4_SGIS = (int)33048L;
+    private static final int GL_FILTER = (int)33434L;
     /**
      * {@snippet lang=c :
-     * #define GL_DUAL_INTENSITY4_SGIS 33048
+     * #define GL_FILTER 33434
      * }
      */
-    public static int GL_DUAL_INTENSITY4_SGIS() {
-        return GL_DUAL_INTENSITY4_SGIS;
+    public static int GL_FILTER() {
+        return GL_FILTER;
     }
-    private static final int GL_DUAL_INTENSITY8_SGIS = (int)33049L;
+    private static final int GL_VERTEX_TEXTURE = (int)33435L;
     /**
      * {@snippet lang=c :
-     * #define GL_DUAL_INTENSITY8_SGIS 33049
+     * #define GL_VERTEX_TEXTURE 33435
      * }
      */
-    public static int GL_DUAL_INTENSITY8_SGIS() {
-        return GL_DUAL_INTENSITY8_SGIS;
+    public static int GL_VERTEX_TEXTURE() {
+        return GL_VERTEX_TEXTURE;
     }
-    private static final int GL_DUAL_INTENSITY12_SGIS = (int)33050L;
+    private static final int GL_TESS_CONTROL_TEXTURE = (int)33436L;
     /**
      * {@snippet lang=c :
-     * #define GL_DUAL_INTENSITY12_SGIS 33050
+     * #define GL_TESS_CONTROL_TEXTURE 33436
      * }
      */
-    public static int GL_DUAL_INTENSITY12_SGIS() {
-        return GL_DUAL_INTENSITY12_SGIS;
+    public static int GL_TESS_CONTROL_TEXTURE() {
+        return GL_TESS_CONTROL_TEXTURE;
     }
-    private static final int GL_DUAL_INTENSITY16_SGIS = (int)33051L;
+    private static final int GL_TESS_EVALUATION_TEXTURE = (int)33437L;
     /**
      * {@snippet lang=c :
-     * #define GL_DUAL_INTENSITY16_SGIS 33051
+     * #define GL_TESS_EVALUATION_TEXTURE 33437
      * }
      */
-    public static int GL_DUAL_INTENSITY16_SGIS() {
-        return GL_DUAL_INTENSITY16_SGIS;
+    public static int GL_TESS_EVALUATION_TEXTURE() {
+        return GL_TESS_EVALUATION_TEXTURE;
     }
-    private static final int GL_DUAL_LUMINANCE_ALPHA4_SGIS = (int)33052L;
+    private static final int GL_GEOMETRY_TEXTURE = (int)33438L;
     /**
      * {@snippet lang=c :
-     * #define GL_DUAL_LUMINANCE_ALPHA4_SGIS 33052
+     * #define GL_GEOMETRY_TEXTURE 33438
      * }
      */
-    public static int GL_DUAL_LUMINANCE_ALPHA4_SGIS() {
-        return GL_DUAL_LUMINANCE_ALPHA4_SGIS;
+    public static int GL_GEOMETRY_TEXTURE() {
+        return GL_GEOMETRY_TEXTURE;
     }
-    private static final int GL_DUAL_LUMINANCE_ALPHA8_SGIS = (int)33053L;
+    private static final int GL_FRAGMENT_TEXTURE = (int)33439L;
     /**
      * {@snippet lang=c :
-     * #define GL_DUAL_LUMINANCE_ALPHA8_SGIS 33053
+     * #define GL_FRAGMENT_TEXTURE 33439
      * }
      */
-    public static int GL_DUAL_LUMINANCE_ALPHA8_SGIS() {
-        return GL_DUAL_LUMINANCE_ALPHA8_SGIS;
+    public static int GL_FRAGMENT_TEXTURE() {
+        return GL_FRAGMENT_TEXTURE;
     }
-    private static final int GL_QUAD_ALPHA4_SGIS = (int)33054L;
+    private static final int GL_COMPUTE_TEXTURE = (int)33440L;
     /**
      * {@snippet lang=c :
-     * #define GL_QUAD_ALPHA4_SGIS 33054
+     * #define GL_COMPUTE_TEXTURE 33440
      * }
      */
-    public static int GL_QUAD_ALPHA4_SGIS() {
-        return GL_QUAD_ALPHA4_SGIS;
+    public static int GL_COMPUTE_TEXTURE() {
+        return GL_COMPUTE_TEXTURE;
     }
-    private static final int GL_QUAD_ALPHA8_SGIS = (int)33055L;
+    private static final int GL_TEXTURE_SHADOW = (int)33441L;
     /**
      * {@snippet lang=c :
-     * #define GL_QUAD_ALPHA8_SGIS 33055
+     * #define GL_TEXTURE_SHADOW 33441
      * }
      */
-    public static int GL_QUAD_ALPHA8_SGIS() {
-        return GL_QUAD_ALPHA8_SGIS;
+    public static int GL_TEXTURE_SHADOW() {
+        return GL_TEXTURE_SHADOW;
     }
-    private static final int GL_QUAD_LUMINANCE4_SGIS = (int)33056L;
+    private static final int GL_TEXTURE_GATHER = (int)33442L;
     /**
      * {@snippet lang=c :
-     * #define GL_QUAD_LUMINANCE4_SGIS 33056
+     * #define GL_TEXTURE_GATHER 33442
      * }
      */
-    public static int GL_QUAD_LUMINANCE4_SGIS() {
-        return GL_QUAD_LUMINANCE4_SGIS;
+    public static int GL_TEXTURE_GATHER() {
+        return GL_TEXTURE_GATHER;
     }
-    private static final int GL_QUAD_LUMINANCE8_SGIS = (int)33057L;
+    private static final int GL_TEXTURE_GATHER_SHADOW = (int)33443L;
     /**
      * {@snippet lang=c :
-     * #define GL_QUAD_LUMINANCE8_SGIS 33057
+     * #define GL_TEXTURE_GATHER_SHADOW 33443
      * }
      */
-    public static int GL_QUAD_LUMINANCE8_SGIS() {
-        return GL_QUAD_LUMINANCE8_SGIS;
+    public static int GL_TEXTURE_GATHER_SHADOW() {
+        return GL_TEXTURE_GATHER_SHADOW;
     }
-    private static final int GL_QUAD_INTENSITY4_SGIS = (int)33058L;
+    private static final int GL_SHADER_IMAGE_LOAD = (int)33444L;
     /**
      * {@snippet lang=c :
-     * #define GL_QUAD_INTENSITY4_SGIS 33058
+     * #define GL_SHADER_IMAGE_LOAD 33444
      * }
      */
-    public static int GL_QUAD_INTENSITY4_SGIS() {
-        return GL_QUAD_INTENSITY4_SGIS;
+    public static int GL_SHADER_IMAGE_LOAD() {
+        return GL_SHADER_IMAGE_LOAD;
     }
-    private static final int GL_QUAD_INTENSITY8_SGIS = (int)33059L;
+    private static final int GL_SHADER_IMAGE_STORE = (int)33445L;
     /**
      * {@snippet lang=c :
-     * #define GL_QUAD_INTENSITY8_SGIS 33059
+     * #define GL_SHADER_IMAGE_STORE 33445
      * }
      */
-    public static int GL_QUAD_INTENSITY8_SGIS() {
-        return GL_QUAD_INTENSITY8_SGIS;
+    public static int GL_SHADER_IMAGE_STORE() {
+        return GL_SHADER_IMAGE_STORE;
     }
-    private static final int GL_DUAL_TEXTURE_SELECT_SGIS = (int)33060L;
+    private static final int GL_SHADER_IMAGE_ATOMIC = (int)33446L;
     /**
      * {@snippet lang=c :
-     * #define GL_DUAL_TEXTURE_SELECT_SGIS 33060
+     * #define GL_SHADER_IMAGE_ATOMIC 33446
      * }
      */
-    public static int GL_DUAL_TEXTURE_SELECT_SGIS() {
-        return GL_DUAL_TEXTURE_SELECT_SGIS;
+    public static int GL_SHADER_IMAGE_ATOMIC() {
+        return GL_SHADER_IMAGE_ATOMIC;
     }
-    private static final int GL_QUAD_TEXTURE_SELECT_SGIS = (int)33061L;
+    private static final int GL_IMAGE_TEXEL_SIZE = (int)33447L;
     /**
      * {@snippet lang=c :
-     * #define GL_QUAD_TEXTURE_SELECT_SGIS 33061
+     * #define GL_IMAGE_TEXEL_SIZE 33447
      * }
      */
-    public static int GL_QUAD_TEXTURE_SELECT_SGIS() {
-        return GL_QUAD_TEXTURE_SELECT_SGIS;
+    public static int GL_IMAGE_TEXEL_SIZE() {
+        return GL_IMAGE_TEXEL_SIZE;
     }
-    private static final int GL_SGIX_async = (int)1L;
+    private static final int GL_IMAGE_COMPATIBILITY_CLASS = (int)33448L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_async 1
+     * #define GL_IMAGE_COMPATIBILITY_CLASS 33448
      * }
      */
-    public static int GL_SGIX_async() {
-        return GL_SGIX_async;
+    public static int GL_IMAGE_COMPATIBILITY_CLASS() {
+        return GL_IMAGE_COMPATIBILITY_CLASS;
     }
-    private static final int GL_ASYNC_MARKER_SGIX = (int)33577L;
+    private static final int GL_IMAGE_PIXEL_FORMAT = (int)33449L;
     /**
      * {@snippet lang=c :
-     * #define GL_ASYNC_MARKER_SGIX 33577
+     * #define GL_IMAGE_PIXEL_FORMAT 33449
      * }
      */
-    public static int GL_ASYNC_MARKER_SGIX() {
-        return GL_ASYNC_MARKER_SGIX;
+    public static int GL_IMAGE_PIXEL_FORMAT() {
+        return GL_IMAGE_PIXEL_FORMAT;
     }
-    private static final int GL_SGIX_async_histogram = (int)1L;
+    private static final int GL_IMAGE_PIXEL_TYPE = (int)33450L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_async_histogram 1
+     * #define GL_IMAGE_PIXEL_TYPE 33450
      * }
      */
-    public static int GL_SGIX_async_histogram() {
-        return GL_SGIX_async_histogram;
+    public static int GL_IMAGE_PIXEL_TYPE() {
+        return GL_IMAGE_PIXEL_TYPE;
     }
-    private static final int GL_ASYNC_HISTOGRAM_SGIX = (int)33580L;
+    private static final int GL_SIMULTANEOUS_TEXTURE_AND_DEPTH_TEST = (int)33452L;
     /**
      * {@snippet lang=c :
-     * #define GL_ASYNC_HISTOGRAM_SGIX 33580
+     * #define GL_SIMULTANEOUS_TEXTURE_AND_DEPTH_TEST 33452
      * }
      */
-    public static int GL_ASYNC_HISTOGRAM_SGIX() {
-        return GL_ASYNC_HISTOGRAM_SGIX;
+    public static int GL_SIMULTANEOUS_TEXTURE_AND_DEPTH_TEST() {
+        return GL_SIMULTANEOUS_TEXTURE_AND_DEPTH_TEST;
     }
-    private static final int GL_MAX_ASYNC_HISTOGRAM_SGIX = (int)33581L;
+    private static final int GL_SIMULTANEOUS_TEXTURE_AND_STENCIL_TEST = (int)33453L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAX_ASYNC_HISTOGRAM_SGIX 33581
+     * #define GL_SIMULTANEOUS_TEXTURE_AND_STENCIL_TEST 33453
      * }
      */
-    public static int GL_MAX_ASYNC_HISTOGRAM_SGIX() {
-        return GL_MAX_ASYNC_HISTOGRAM_SGIX;
+    public static int GL_SIMULTANEOUS_TEXTURE_AND_STENCIL_TEST() {
+        return GL_SIMULTANEOUS_TEXTURE_AND_STENCIL_TEST;
     }
-    private static final int GL_SGIX_async_pixel = (int)1L;
+    private static final int GL_SIMULTANEOUS_TEXTURE_AND_DEPTH_WRITE = (int)33454L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_async_pixel 1
+     * #define GL_SIMULTANEOUS_TEXTURE_AND_DEPTH_WRITE 33454
      * }
      */
-    public static int GL_SGIX_async_pixel() {
-        return GL_SGIX_async_pixel;
+    public static int GL_SIMULTANEOUS_TEXTURE_AND_DEPTH_WRITE() {
+        return GL_SIMULTANEOUS_TEXTURE_AND_DEPTH_WRITE;
     }
-    private static final int GL_ASYNC_TEX_IMAGE_SGIX = (int)33628L;
+    private static final int GL_SIMULTANEOUS_TEXTURE_AND_STENCIL_WRITE = (int)33455L;
     /**
      * {@snippet lang=c :
-     * #define GL_ASYNC_TEX_IMAGE_SGIX 33628
+     * #define GL_SIMULTANEOUS_TEXTURE_AND_STENCIL_WRITE 33455
      * }
      */
-    public static int GL_ASYNC_TEX_IMAGE_SGIX() {
-        return GL_ASYNC_TEX_IMAGE_SGIX;
+    public static int GL_SIMULTANEOUS_TEXTURE_AND_STENCIL_WRITE() {
+        return GL_SIMULTANEOUS_TEXTURE_AND_STENCIL_WRITE;
     }
-    private static final int GL_ASYNC_DRAW_PIXELS_SGIX = (int)33629L;
+    private static final int GL_TEXTURE_COMPRESSED_BLOCK_WIDTH = (int)33457L;
     /**
      * {@snippet lang=c :
-     * #define GL_ASYNC_DRAW_PIXELS_SGIX 33629
+     * #define GL_TEXTURE_COMPRESSED_BLOCK_WIDTH 33457
      * }
      */
-    public static int GL_ASYNC_DRAW_PIXELS_SGIX() {
-        return GL_ASYNC_DRAW_PIXELS_SGIX;
+    public static int GL_TEXTURE_COMPRESSED_BLOCK_WIDTH() {
+        return GL_TEXTURE_COMPRESSED_BLOCK_WIDTH;
     }
-    private static final int GL_ASYNC_READ_PIXELS_SGIX = (int)33630L;
+    private static final int GL_TEXTURE_COMPRESSED_BLOCK_HEIGHT = (int)33458L;
     /**
      * {@snippet lang=c :
-     * #define GL_ASYNC_READ_PIXELS_SGIX 33630
+     * #define GL_TEXTURE_COMPRESSED_BLOCK_HEIGHT 33458
      * }
      */
-    public static int GL_ASYNC_READ_PIXELS_SGIX() {
-        return GL_ASYNC_READ_PIXELS_SGIX;
+    public static int GL_TEXTURE_COMPRESSED_BLOCK_HEIGHT() {
+        return GL_TEXTURE_COMPRESSED_BLOCK_HEIGHT;
     }
-    private static final int GL_MAX_ASYNC_TEX_IMAGE_SGIX = (int)33631L;
+    private static final int GL_TEXTURE_COMPRESSED_BLOCK_SIZE = (int)33459L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAX_ASYNC_TEX_IMAGE_SGIX 33631
+     * #define GL_TEXTURE_COMPRESSED_BLOCK_SIZE 33459
      * }
      */
-    public static int GL_MAX_ASYNC_TEX_IMAGE_SGIX() {
-        return GL_MAX_ASYNC_TEX_IMAGE_SGIX;
+    public static int GL_TEXTURE_COMPRESSED_BLOCK_SIZE() {
+        return GL_TEXTURE_COMPRESSED_BLOCK_SIZE;
     }
-    private static final int GL_MAX_ASYNC_DRAW_PIXELS_SGIX = (int)33632L;
+    private static final int GL_CLEAR_BUFFER = (int)33460L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAX_ASYNC_DRAW_PIXELS_SGIX 33632
+     * #define GL_CLEAR_BUFFER 33460
      * }
      */
-    public static int GL_MAX_ASYNC_DRAW_PIXELS_SGIX() {
-        return GL_MAX_ASYNC_DRAW_PIXELS_SGIX;
+    public static int GL_CLEAR_BUFFER() {
+        return GL_CLEAR_BUFFER;
     }
-    private static final int GL_MAX_ASYNC_READ_PIXELS_SGIX = (int)33633L;
+    private static final int GL_TEXTURE_VIEW = (int)33461L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAX_ASYNC_READ_PIXELS_SGIX 33633
+     * #define GL_TEXTURE_VIEW 33461
      * }
      */
-    public static int GL_MAX_ASYNC_READ_PIXELS_SGIX() {
-        return GL_MAX_ASYNC_READ_PIXELS_SGIX;
+    public static int GL_TEXTURE_VIEW() {
+        return GL_TEXTURE_VIEW;
     }
-    private static final int GL_SGIX_blend_alpha_minmax = (int)1L;
+    private static final int GL_VIEW_COMPATIBILITY_CLASS = (int)33462L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_blend_alpha_minmax 1
+     * #define GL_VIEW_COMPATIBILITY_CLASS 33462
      * }
      */
-    public static int GL_SGIX_blend_alpha_minmax() {
-        return GL_SGIX_blend_alpha_minmax;
+    public static int GL_VIEW_COMPATIBILITY_CLASS() {
+        return GL_VIEW_COMPATIBILITY_CLASS;
     }
-    private static final int GL_ALPHA_MIN_SGIX = (int)33568L;
+    private static final int GL_FULL_SUPPORT = (int)33463L;
     /**
      * {@snippet lang=c :
-     * #define GL_ALPHA_MIN_SGIX 33568
+     * #define GL_FULL_SUPPORT 33463
      * }
      */
-    public static int GL_ALPHA_MIN_SGIX() {
-        return GL_ALPHA_MIN_SGIX;
+    public static int GL_FULL_SUPPORT() {
+        return GL_FULL_SUPPORT;
     }
-    private static final int GL_ALPHA_MAX_SGIX = (int)33569L;
+    private static final int GL_CAVEAT_SUPPORT = (int)33464L;
     /**
      * {@snippet lang=c :
-     * #define GL_ALPHA_MAX_SGIX 33569
+     * #define GL_CAVEAT_SUPPORT 33464
      * }
      */
-    public static int GL_ALPHA_MAX_SGIX() {
-        return GL_ALPHA_MAX_SGIX;
+    public static int GL_CAVEAT_SUPPORT() {
+        return GL_CAVEAT_SUPPORT;
     }
-    private static final int GL_SGIX_calligraphic_fragment = (int)1L;
+    private static final int GL_IMAGE_CLASS_4_X_32 = (int)33465L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_calligraphic_fragment 1
+     * #define GL_IMAGE_CLASS_4_X_32 33465
      * }
      */
-    public static int GL_SGIX_calligraphic_fragment() {
-        return GL_SGIX_calligraphic_fragment;
+    public static int GL_IMAGE_CLASS_4_X_32() {
+        return GL_IMAGE_CLASS_4_X_32;
     }
-    private static final int GL_CALLIGRAPHIC_FRAGMENT_SGIX = (int)33155L;
+    private static final int GL_IMAGE_CLASS_2_X_32 = (int)33466L;
     /**
      * {@snippet lang=c :
-     * #define GL_CALLIGRAPHIC_FRAGMENT_SGIX 33155
+     * #define GL_IMAGE_CLASS_2_X_32 33466
      * }
      */
-    public static int GL_CALLIGRAPHIC_FRAGMENT_SGIX() {
-        return GL_CALLIGRAPHIC_FRAGMENT_SGIX;
+    public static int GL_IMAGE_CLASS_2_X_32() {
+        return GL_IMAGE_CLASS_2_X_32;
     }
-    private static final int GL_SGIX_clipmap = (int)1L;
+    private static final int GL_IMAGE_CLASS_1_X_32 = (int)33467L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_clipmap 1
+     * #define GL_IMAGE_CLASS_1_X_32 33467
      * }
      */
-    public static int GL_SGIX_clipmap() {
-        return GL_SGIX_clipmap;
+    public static int GL_IMAGE_CLASS_1_X_32() {
+        return GL_IMAGE_CLASS_1_X_32;
     }
-    private static final int GL_LINEAR_CLIPMAP_LINEAR_SGIX = (int)33136L;
+    private static final int GL_IMAGE_CLASS_4_X_16 = (int)33468L;
     /**
      * {@snippet lang=c :
-     * #define GL_LINEAR_CLIPMAP_LINEAR_SGIX 33136
+     * #define GL_IMAGE_CLASS_4_X_16 33468
      * }
      */
-    public static int GL_LINEAR_CLIPMAP_LINEAR_SGIX() {
-        return GL_LINEAR_CLIPMAP_LINEAR_SGIX;
+    public static int GL_IMAGE_CLASS_4_X_16() {
+        return GL_IMAGE_CLASS_4_X_16;
     }
-    private static final int GL_TEXTURE_CLIPMAP_CENTER_SGIX = (int)33137L;
+    private static final int GL_IMAGE_CLASS_2_X_16 = (int)33469L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_CLIPMAP_CENTER_SGIX 33137
+     * #define GL_IMAGE_CLASS_2_X_16 33469
      * }
      */
-    public static int GL_TEXTURE_CLIPMAP_CENTER_SGIX() {
-        return GL_TEXTURE_CLIPMAP_CENTER_SGIX;
+    public static int GL_IMAGE_CLASS_2_X_16() {
+        return GL_IMAGE_CLASS_2_X_16;
     }
-    private static final int GL_TEXTURE_CLIPMAP_FRAME_SGIX = (int)33138L;
+    private static final int GL_IMAGE_CLASS_1_X_16 = (int)33470L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_CLIPMAP_FRAME_SGIX 33138
+     * #define GL_IMAGE_CLASS_1_X_16 33470
      * }
      */
-    public static int GL_TEXTURE_CLIPMAP_FRAME_SGIX() {
-        return GL_TEXTURE_CLIPMAP_FRAME_SGIX;
+    public static int GL_IMAGE_CLASS_1_X_16() {
+        return GL_IMAGE_CLASS_1_X_16;
     }
-    private static final int GL_TEXTURE_CLIPMAP_OFFSET_SGIX = (int)33139L;
+    private static final int GL_IMAGE_CLASS_4_X_8 = (int)33471L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_CLIPMAP_OFFSET_SGIX 33139
+     * #define GL_IMAGE_CLASS_4_X_8 33471
      * }
      */
-    public static int GL_TEXTURE_CLIPMAP_OFFSET_SGIX() {
-        return GL_TEXTURE_CLIPMAP_OFFSET_SGIX;
+    public static int GL_IMAGE_CLASS_4_X_8() {
+        return GL_IMAGE_CLASS_4_X_8;
     }
-    private static final int GL_TEXTURE_CLIPMAP_VIRTUAL_DEPTH_SGIX = (int)33140L;
+    private static final int GL_IMAGE_CLASS_2_X_8 = (int)33472L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_CLIPMAP_VIRTUAL_DEPTH_SGIX 33140
+     * #define GL_IMAGE_CLASS_2_X_8 33472
      * }
      */
-    public static int GL_TEXTURE_CLIPMAP_VIRTUAL_DEPTH_SGIX() {
-        return GL_TEXTURE_CLIPMAP_VIRTUAL_DEPTH_SGIX;
+    public static int GL_IMAGE_CLASS_2_X_8() {
+        return GL_IMAGE_CLASS_2_X_8;
     }
-    private static final int GL_TEXTURE_CLIPMAP_LOD_OFFSET_SGIX = (int)33141L;
+    private static final int GL_IMAGE_CLASS_1_X_8 = (int)33473L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_CLIPMAP_LOD_OFFSET_SGIX 33141
+     * #define GL_IMAGE_CLASS_1_X_8 33473
      * }
      */
-    public static int GL_TEXTURE_CLIPMAP_LOD_OFFSET_SGIX() {
-        return GL_TEXTURE_CLIPMAP_LOD_OFFSET_SGIX;
+    public static int GL_IMAGE_CLASS_1_X_8() {
+        return GL_IMAGE_CLASS_1_X_8;
     }
-    private static final int GL_TEXTURE_CLIPMAP_DEPTH_SGIX = (int)33142L;
+    private static final int GL_IMAGE_CLASS_11_11_10 = (int)33474L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_CLIPMAP_DEPTH_SGIX 33142
+     * #define GL_IMAGE_CLASS_11_11_10 33474
      * }
      */
-    public static int GL_TEXTURE_CLIPMAP_DEPTH_SGIX() {
-        return GL_TEXTURE_CLIPMAP_DEPTH_SGIX;
+    public static int GL_IMAGE_CLASS_11_11_10() {
+        return GL_IMAGE_CLASS_11_11_10;
     }
-    private static final int GL_MAX_CLIPMAP_DEPTH_SGIX = (int)33143L;
+    private static final int GL_IMAGE_CLASS_10_10_10_2 = (int)33475L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAX_CLIPMAP_DEPTH_SGIX 33143
+     * #define GL_IMAGE_CLASS_10_10_10_2 33475
      * }
      */
-    public static int GL_MAX_CLIPMAP_DEPTH_SGIX() {
-        return GL_MAX_CLIPMAP_DEPTH_SGIX;
+    public static int GL_IMAGE_CLASS_10_10_10_2() {
+        return GL_IMAGE_CLASS_10_10_10_2;
     }
-    private static final int GL_MAX_CLIPMAP_VIRTUAL_DEPTH_SGIX = (int)33144L;
+    private static final int GL_VIEW_CLASS_128_BITS = (int)33476L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAX_CLIPMAP_VIRTUAL_DEPTH_SGIX 33144
+     * #define GL_VIEW_CLASS_128_BITS 33476
      * }
      */
-    public static int GL_MAX_CLIPMAP_VIRTUAL_DEPTH_SGIX() {
-        return GL_MAX_CLIPMAP_VIRTUAL_DEPTH_SGIX;
+    public static int GL_VIEW_CLASS_128_BITS() {
+        return GL_VIEW_CLASS_128_BITS;
     }
-    private static final int GL_NEAREST_CLIPMAP_NEAREST_SGIX = (int)33869L;
+    private static final int GL_VIEW_CLASS_96_BITS = (int)33477L;
     /**
      * {@snippet lang=c :
-     * #define GL_NEAREST_CLIPMAP_NEAREST_SGIX 33869
+     * #define GL_VIEW_CLASS_96_BITS 33477
      * }
      */
-    public static int GL_NEAREST_CLIPMAP_NEAREST_SGIX() {
-        return GL_NEAREST_CLIPMAP_NEAREST_SGIX;
+    public static int GL_VIEW_CLASS_96_BITS() {
+        return GL_VIEW_CLASS_96_BITS;
     }
-    private static final int GL_NEAREST_CLIPMAP_LINEAR_SGIX = (int)33870L;
+    private static final int GL_VIEW_CLASS_64_BITS = (int)33478L;
     /**
      * {@snippet lang=c :
-     * #define GL_NEAREST_CLIPMAP_LINEAR_SGIX 33870
+     * #define GL_VIEW_CLASS_64_BITS 33478
      * }
      */
-    public static int GL_NEAREST_CLIPMAP_LINEAR_SGIX() {
-        return GL_NEAREST_CLIPMAP_LINEAR_SGIX;
+    public static int GL_VIEW_CLASS_64_BITS() {
+        return GL_VIEW_CLASS_64_BITS;
     }
-    private static final int GL_LINEAR_CLIPMAP_NEAREST_SGIX = (int)33871L;
+    private static final int GL_VIEW_CLASS_48_BITS = (int)33479L;
     /**
      * {@snippet lang=c :
-     * #define GL_LINEAR_CLIPMAP_NEAREST_SGIX 33871
+     * #define GL_VIEW_CLASS_48_BITS 33479
      * }
      */
-    public static int GL_LINEAR_CLIPMAP_NEAREST_SGIX() {
-        return GL_LINEAR_CLIPMAP_NEAREST_SGIX;
+    public static int GL_VIEW_CLASS_48_BITS() {
+        return GL_VIEW_CLASS_48_BITS;
     }
-    private static final int GL_SGIX_convolution_accuracy = (int)1L;
+    private static final int GL_VIEW_CLASS_32_BITS = (int)33480L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_convolution_accuracy 1
+     * #define GL_VIEW_CLASS_32_BITS 33480
      * }
      */
-    public static int GL_SGIX_convolution_accuracy() {
-        return GL_SGIX_convolution_accuracy;
+    public static int GL_VIEW_CLASS_32_BITS() {
+        return GL_VIEW_CLASS_32_BITS;
     }
-    private static final int GL_CONVOLUTION_HINT_SGIX = (int)33558L;
+    private static final int GL_VIEW_CLASS_24_BITS = (int)33481L;
     /**
      * {@snippet lang=c :
-     * #define GL_CONVOLUTION_HINT_SGIX 33558
+     * #define GL_VIEW_CLASS_24_BITS 33481
      * }
      */
-    public static int GL_CONVOLUTION_HINT_SGIX() {
-        return GL_CONVOLUTION_HINT_SGIX;
+    public static int GL_VIEW_CLASS_24_BITS() {
+        return GL_VIEW_CLASS_24_BITS;
     }
-    private static final int GL_SGIX_depth_pass_instrument = (int)1L;
+    private static final int GL_VIEW_CLASS_16_BITS = (int)33482L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_depth_pass_instrument 1
+     * #define GL_VIEW_CLASS_16_BITS 33482
      * }
      */
-    public static int GL_SGIX_depth_pass_instrument() {
-        return GL_SGIX_depth_pass_instrument;
+    public static int GL_VIEW_CLASS_16_BITS() {
+        return GL_VIEW_CLASS_16_BITS;
     }
-    private static final int GL_SGIX_depth_texture = (int)1L;
+    private static final int GL_VIEW_CLASS_8_BITS = (int)33483L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_depth_texture 1
+     * #define GL_VIEW_CLASS_8_BITS 33483
      * }
      */
-    public static int GL_SGIX_depth_texture() {
-        return GL_SGIX_depth_texture;
+    public static int GL_VIEW_CLASS_8_BITS() {
+        return GL_VIEW_CLASS_8_BITS;
     }
-    private static final int GL_DEPTH_COMPONENT16_SGIX = (int)33189L;
+    private static final int GL_VIEW_CLASS_S3TC_DXT1_RGB = (int)33484L;
     /**
      * {@snippet lang=c :
-     * #define GL_DEPTH_COMPONENT16_SGIX 33189
+     * #define GL_VIEW_CLASS_S3TC_DXT1_RGB 33484
      * }
      */
-    public static int GL_DEPTH_COMPONENT16_SGIX() {
-        return GL_DEPTH_COMPONENT16_SGIX;
+    public static int GL_VIEW_CLASS_S3TC_DXT1_RGB() {
+        return GL_VIEW_CLASS_S3TC_DXT1_RGB;
     }
-    private static final int GL_DEPTH_COMPONENT24_SGIX = (int)33190L;
+    private static final int GL_VIEW_CLASS_S3TC_DXT1_RGBA = (int)33485L;
     /**
      * {@snippet lang=c :
-     * #define GL_DEPTH_COMPONENT24_SGIX 33190
+     * #define GL_VIEW_CLASS_S3TC_DXT1_RGBA 33485
      * }
      */
-    public static int GL_DEPTH_COMPONENT24_SGIX() {
-        return GL_DEPTH_COMPONENT24_SGIX;
+    public static int GL_VIEW_CLASS_S3TC_DXT1_RGBA() {
+        return GL_VIEW_CLASS_S3TC_DXT1_RGBA;
     }
-    private static final int GL_DEPTH_COMPONENT32_SGIX = (int)33191L;
+    private static final int GL_VIEW_CLASS_S3TC_DXT3_RGBA = (int)33486L;
     /**
      * {@snippet lang=c :
-     * #define GL_DEPTH_COMPONENT32_SGIX 33191
+     * #define GL_VIEW_CLASS_S3TC_DXT3_RGBA 33486
      * }
      */
-    public static int GL_DEPTH_COMPONENT32_SGIX() {
-        return GL_DEPTH_COMPONENT32_SGIX;
+    public static int GL_VIEW_CLASS_S3TC_DXT3_RGBA() {
+        return GL_VIEW_CLASS_S3TC_DXT3_RGBA;
     }
-    private static final int GL_SGIX_flush_raster = (int)1L;
+    private static final int GL_VIEW_CLASS_S3TC_DXT5_RGBA = (int)33487L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_flush_raster 1
+     * #define GL_VIEW_CLASS_S3TC_DXT5_RGBA 33487
      * }
      */
-    public static int GL_SGIX_flush_raster() {
-        return GL_SGIX_flush_raster;
+    public static int GL_VIEW_CLASS_S3TC_DXT5_RGBA() {
+        return GL_VIEW_CLASS_S3TC_DXT5_RGBA;
     }
-    private static final int GL_SGIX_fog_offset = (int)1L;
+    private static final int GL_VIEW_CLASS_RGTC1_RED = (int)33488L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_fog_offset 1
+     * #define GL_VIEW_CLASS_RGTC1_RED 33488
      * }
      */
-    public static int GL_SGIX_fog_offset() {
-        return GL_SGIX_fog_offset;
+    public static int GL_VIEW_CLASS_RGTC1_RED() {
+        return GL_VIEW_CLASS_RGTC1_RED;
     }
-    private static final int GL_FOG_OFFSET_SGIX = (int)33176L;
+    private static final int GL_VIEW_CLASS_RGTC2_RG = (int)33489L;
     /**
      * {@snippet lang=c :
-     * #define GL_FOG_OFFSET_SGIX 33176
+     * #define GL_VIEW_CLASS_RGTC2_RG 33489
      * }
      */
-    public static int GL_FOG_OFFSET_SGIX() {
-        return GL_FOG_OFFSET_SGIX;
+    public static int GL_VIEW_CLASS_RGTC2_RG() {
+        return GL_VIEW_CLASS_RGTC2_RG;
     }
-    private static final int GL_FOG_OFFSET_VALUE_SGIX = (int)33177L;
+    private static final int GL_VIEW_CLASS_BPTC_UNORM = (int)33490L;
     /**
      * {@snippet lang=c :
-     * #define GL_FOG_OFFSET_VALUE_SGIX 33177
+     * #define GL_VIEW_CLASS_BPTC_UNORM 33490
      * }
      */
-    public static int GL_FOG_OFFSET_VALUE_SGIX() {
-        return GL_FOG_OFFSET_VALUE_SGIX;
+    public static int GL_VIEW_CLASS_BPTC_UNORM() {
+        return GL_VIEW_CLASS_BPTC_UNORM;
     }
-    private static final int GL_SGIX_fragment_lighting = (int)1L;
+    private static final int GL_VIEW_CLASS_BPTC_FLOAT = (int)33491L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_fragment_lighting 1
+     * #define GL_VIEW_CLASS_BPTC_FLOAT 33491
      * }
      */
-    public static int GL_SGIX_fragment_lighting() {
-        return GL_SGIX_fragment_lighting;
+    public static int GL_VIEW_CLASS_BPTC_FLOAT() {
+        return GL_VIEW_CLASS_BPTC_FLOAT;
     }
-    private static final int GL_FRAGMENT_LIGHTING_SGIX = (int)33792L;
+    private static final int GL_UNIFORM = (int)37601L;
     /**
      * {@snippet lang=c :
-     * #define GL_FRAGMENT_LIGHTING_SGIX 33792
+     * #define GL_UNIFORM 37601
      * }
      */
-    public static int GL_FRAGMENT_LIGHTING_SGIX() {
-        return GL_FRAGMENT_LIGHTING_SGIX;
+    public static int GL_UNIFORM() {
+        return GL_UNIFORM;
     }
-    private static final int GL_FRAGMENT_COLOR_MATERIAL_SGIX = (int)33793L;
+    private static final int GL_UNIFORM_BLOCK = (int)37602L;
     /**
      * {@snippet lang=c :
-     * #define GL_FRAGMENT_COLOR_MATERIAL_SGIX 33793
+     * #define GL_UNIFORM_BLOCK 37602
      * }
      */
-    public static int GL_FRAGMENT_COLOR_MATERIAL_SGIX() {
-        return GL_FRAGMENT_COLOR_MATERIAL_SGIX;
+    public static int GL_UNIFORM_BLOCK() {
+        return GL_UNIFORM_BLOCK;
     }
-    private static final int GL_FRAGMENT_COLOR_MATERIAL_FACE_SGIX = (int)33794L;
+    private static final int GL_PROGRAM_INPUT = (int)37603L;
     /**
      * {@snippet lang=c :
-     * #define GL_FRAGMENT_COLOR_MATERIAL_FACE_SGIX 33794
+     * #define GL_PROGRAM_INPUT 37603
      * }
      */
-    public static int GL_FRAGMENT_COLOR_MATERIAL_FACE_SGIX() {
-        return GL_FRAGMENT_COLOR_MATERIAL_FACE_SGIX;
+    public static int GL_PROGRAM_INPUT() {
+        return GL_PROGRAM_INPUT;
     }
-    private static final int GL_FRAGMENT_COLOR_MATERIAL_PARAMETER_SGIX = (int)33795L;
+    private static final int GL_PROGRAM_OUTPUT = (int)37604L;
     /**
      * {@snippet lang=c :
-     * #define GL_FRAGMENT_COLOR_MATERIAL_PARAMETER_SGIX 33795
+     * #define GL_PROGRAM_OUTPUT 37604
      * }
      */
-    public static int GL_FRAGMENT_COLOR_MATERIAL_PARAMETER_SGIX() {
-        return GL_FRAGMENT_COLOR_MATERIAL_PARAMETER_SGIX;
+    public static int GL_PROGRAM_OUTPUT() {
+        return GL_PROGRAM_OUTPUT;
     }
-    private static final int GL_MAX_FRAGMENT_LIGHTS_SGIX = (int)33796L;
+    private static final int GL_BUFFER_VARIABLE = (int)37605L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAX_FRAGMENT_LIGHTS_SGIX 33796
+     * #define GL_BUFFER_VARIABLE 37605
      * }
      */
-    public static int GL_MAX_FRAGMENT_LIGHTS_SGIX() {
-        return GL_MAX_FRAGMENT_LIGHTS_SGIX;
+    public static int GL_BUFFER_VARIABLE() {
+        return GL_BUFFER_VARIABLE;
     }
-    private static final int GL_MAX_ACTIVE_LIGHTS_SGIX = (int)33797L;
+    private static final int GL_SHADER_STORAGE_BLOCK = (int)37606L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAX_ACTIVE_LIGHTS_SGIX 33797
+     * #define GL_SHADER_STORAGE_BLOCK 37606
      * }
      */
-    public static int GL_MAX_ACTIVE_LIGHTS_SGIX() {
-        return GL_MAX_ACTIVE_LIGHTS_SGIX;
+    public static int GL_SHADER_STORAGE_BLOCK() {
+        return GL_SHADER_STORAGE_BLOCK;
     }
-    private static final int GL_CURRENT_RASTER_NORMAL_SGIX = (int)33798L;
+    private static final int GL_VERTEX_SUBROUTINE = (int)37608L;
     /**
      * {@snippet lang=c :
-     * #define GL_CURRENT_RASTER_NORMAL_SGIX 33798
+     * #define GL_VERTEX_SUBROUTINE 37608
      * }
      */
-    public static int GL_CURRENT_RASTER_NORMAL_SGIX() {
-        return GL_CURRENT_RASTER_NORMAL_SGIX;
+    public static int GL_VERTEX_SUBROUTINE() {
+        return GL_VERTEX_SUBROUTINE;
     }
-    private static final int GL_LIGHT_ENV_MODE_SGIX = (int)33799L;
+    private static final int GL_TESS_CONTROL_SUBROUTINE = (int)37609L;
     /**
      * {@snippet lang=c :
-     * #define GL_LIGHT_ENV_MODE_SGIX 33799
+     * #define GL_TESS_CONTROL_SUBROUTINE 37609
      * }
      */
-    public static int GL_LIGHT_ENV_MODE_SGIX() {
-        return GL_LIGHT_ENV_MODE_SGIX;
+    public static int GL_TESS_CONTROL_SUBROUTINE() {
+        return GL_TESS_CONTROL_SUBROUTINE;
     }
-    private static final int GL_FRAGMENT_LIGHT_MODEL_LOCAL_VIEWER_SGIX = (int)33800L;
+    private static final int GL_TESS_EVALUATION_SUBROUTINE = (int)37610L;
     /**
      * {@snippet lang=c :
-     * #define GL_FRAGMENT_LIGHT_MODEL_LOCAL_VIEWER_SGIX 33800
+     * #define GL_TESS_EVALUATION_SUBROUTINE 37610
      * }
      */
-    public static int GL_FRAGMENT_LIGHT_MODEL_LOCAL_VIEWER_SGIX() {
-        return GL_FRAGMENT_LIGHT_MODEL_LOCAL_VIEWER_SGIX;
+    public static int GL_TESS_EVALUATION_SUBROUTINE() {
+        return GL_TESS_EVALUATION_SUBROUTINE;
     }
-    private static final int GL_FRAGMENT_LIGHT_MODEL_TWO_SIDE_SGIX = (int)33801L;
+    private static final int GL_GEOMETRY_SUBROUTINE = (int)37611L;
     /**
      * {@snippet lang=c :
-     * #define GL_FRAGMENT_LIGHT_MODEL_TWO_SIDE_SGIX 33801
+     * #define GL_GEOMETRY_SUBROUTINE 37611
      * }
      */
-    public static int GL_FRAGMENT_LIGHT_MODEL_TWO_SIDE_SGIX() {
-        return GL_FRAGMENT_LIGHT_MODEL_TWO_SIDE_SGIX;
+    public static int GL_GEOMETRY_SUBROUTINE() {
+        return GL_GEOMETRY_SUBROUTINE;
     }
-    private static final int GL_FRAGMENT_LIGHT_MODEL_AMBIENT_SGIX = (int)33802L;
+    private static final int GL_FRAGMENT_SUBROUTINE = (int)37612L;
     /**
      * {@snippet lang=c :
-     * #define GL_FRAGMENT_LIGHT_MODEL_AMBIENT_SGIX 33802
+     * #define GL_FRAGMENT_SUBROUTINE 37612
      * }
      */
-    public static int GL_FRAGMENT_LIGHT_MODEL_AMBIENT_SGIX() {
-        return GL_FRAGMENT_LIGHT_MODEL_AMBIENT_SGIX;
+    public static int GL_FRAGMENT_SUBROUTINE() {
+        return GL_FRAGMENT_SUBROUTINE;
     }
-    private static final int GL_FRAGMENT_LIGHT_MODEL_NORMAL_INTERPOLATION_SGIX = (int)33803L;
+    private static final int GL_COMPUTE_SUBROUTINE = (int)37613L;
     /**
      * {@snippet lang=c :
-     * #define GL_FRAGMENT_LIGHT_MODEL_NORMAL_INTERPOLATION_SGIX 33803
+     * #define GL_COMPUTE_SUBROUTINE 37613
      * }
      */
-    public static int GL_FRAGMENT_LIGHT_MODEL_NORMAL_INTERPOLATION_SGIX() {
-        return GL_FRAGMENT_LIGHT_MODEL_NORMAL_INTERPOLATION_SGIX;
+    public static int GL_COMPUTE_SUBROUTINE() {
+        return GL_COMPUTE_SUBROUTINE;
     }
-    private static final int GL_FRAGMENT_LIGHT0_SGIX = (int)33804L;
+    private static final int GL_VERTEX_SUBROUTINE_UNIFORM = (int)37614L;
     /**
      * {@snippet lang=c :
-     * #define GL_FRAGMENT_LIGHT0_SGIX 33804
+     * #define GL_VERTEX_SUBROUTINE_UNIFORM 37614
      * }
      */
-    public static int GL_FRAGMENT_LIGHT0_SGIX() {
-        return GL_FRAGMENT_LIGHT0_SGIX;
+    public static int GL_VERTEX_SUBROUTINE_UNIFORM() {
+        return GL_VERTEX_SUBROUTINE_UNIFORM;
     }
-    private static final int GL_FRAGMENT_LIGHT1_SGIX = (int)33805L;
+    private static final int GL_TESS_CONTROL_SUBROUTINE_UNIFORM = (int)37615L;
     /**
      * {@snippet lang=c :
-     * #define GL_FRAGMENT_LIGHT1_SGIX 33805
+     * #define GL_TESS_CONTROL_SUBROUTINE_UNIFORM 37615
      * }
      */
-    public static int GL_FRAGMENT_LIGHT1_SGIX() {
-        return GL_FRAGMENT_LIGHT1_SGIX;
+    public static int GL_TESS_CONTROL_SUBROUTINE_UNIFORM() {
+        return GL_TESS_CONTROL_SUBROUTINE_UNIFORM;
     }
-    private static final int GL_FRAGMENT_LIGHT2_SGIX = (int)33806L;
+    private static final int GL_TESS_EVALUATION_SUBROUTINE_UNIFORM = (int)37616L;
     /**
      * {@snippet lang=c :
-     * #define GL_FRAGMENT_LIGHT2_SGIX 33806
+     * #define GL_TESS_EVALUATION_SUBROUTINE_UNIFORM 37616
      * }
      */
-    public static int GL_FRAGMENT_LIGHT2_SGIX() {
-        return GL_FRAGMENT_LIGHT2_SGIX;
+    public static int GL_TESS_EVALUATION_SUBROUTINE_UNIFORM() {
+        return GL_TESS_EVALUATION_SUBROUTINE_UNIFORM;
     }
-    private static final int GL_FRAGMENT_LIGHT3_SGIX = (int)33807L;
+    private static final int GL_GEOMETRY_SUBROUTINE_UNIFORM = (int)37617L;
     /**
      * {@snippet lang=c :
-     * #define GL_FRAGMENT_LIGHT3_SGIX 33807
+     * #define GL_GEOMETRY_SUBROUTINE_UNIFORM 37617
      * }
      */
-    public static int GL_FRAGMENT_LIGHT3_SGIX() {
-        return GL_FRAGMENT_LIGHT3_SGIX;
+    public static int GL_GEOMETRY_SUBROUTINE_UNIFORM() {
+        return GL_GEOMETRY_SUBROUTINE_UNIFORM;
     }
-    private static final int GL_FRAGMENT_LIGHT4_SGIX = (int)33808L;
+    private static final int GL_FRAGMENT_SUBROUTINE_UNIFORM = (int)37618L;
     /**
      * {@snippet lang=c :
-     * #define GL_FRAGMENT_LIGHT4_SGIX 33808
+     * #define GL_FRAGMENT_SUBROUTINE_UNIFORM 37618
      * }
      */
-    public static int GL_FRAGMENT_LIGHT4_SGIX() {
-        return GL_FRAGMENT_LIGHT4_SGIX;
+    public static int GL_FRAGMENT_SUBROUTINE_UNIFORM() {
+        return GL_FRAGMENT_SUBROUTINE_UNIFORM;
     }
-    private static final int GL_FRAGMENT_LIGHT5_SGIX = (int)33809L;
+    private static final int GL_COMPUTE_SUBROUTINE_UNIFORM = (int)37619L;
     /**
      * {@snippet lang=c :
-     * #define GL_FRAGMENT_LIGHT5_SGIX 33809
+     * #define GL_COMPUTE_SUBROUTINE_UNIFORM 37619
      * }
      */
-    public static int GL_FRAGMENT_LIGHT5_SGIX() {
-        return GL_FRAGMENT_LIGHT5_SGIX;
+    public static int GL_COMPUTE_SUBROUTINE_UNIFORM() {
+        return GL_COMPUTE_SUBROUTINE_UNIFORM;
     }
-    private static final int GL_FRAGMENT_LIGHT6_SGIX = (int)33810L;
+    private static final int GL_TRANSFORM_FEEDBACK_VARYING = (int)37620L;
     /**
      * {@snippet lang=c :
-     * #define GL_FRAGMENT_LIGHT6_SGIX 33810
+     * #define GL_TRANSFORM_FEEDBACK_VARYING 37620
      * }
      */
-    public static int GL_FRAGMENT_LIGHT6_SGIX() {
-        return GL_FRAGMENT_LIGHT6_SGIX;
+    public static int GL_TRANSFORM_FEEDBACK_VARYING() {
+        return GL_TRANSFORM_FEEDBACK_VARYING;
     }
-    private static final int GL_FRAGMENT_LIGHT7_SGIX = (int)33811L;
+    private static final int GL_ACTIVE_RESOURCES = (int)37621L;
     /**
      * {@snippet lang=c :
-     * #define GL_FRAGMENT_LIGHT7_SGIX 33811
+     * #define GL_ACTIVE_RESOURCES 37621
      * }
      */
-    public static int GL_FRAGMENT_LIGHT7_SGIX() {
-        return GL_FRAGMENT_LIGHT7_SGIX;
+    public static int GL_ACTIVE_RESOURCES() {
+        return GL_ACTIVE_RESOURCES;
     }
-    private static final int GL_SGIX_framezoom = (int)1L;
+    private static final int GL_MAX_NAME_LENGTH = (int)37622L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_framezoom 1
+     * #define GL_MAX_NAME_LENGTH 37622
      * }
      */
-    public static int GL_SGIX_framezoom() {
-        return GL_SGIX_framezoom;
+    public static int GL_MAX_NAME_LENGTH() {
+        return GL_MAX_NAME_LENGTH;
     }
-    private static final int GL_FRAMEZOOM_SGIX = (int)33163L;
+    private static final int GL_MAX_NUM_ACTIVE_VARIABLES = (int)37623L;
     /**
      * {@snippet lang=c :
-     * #define GL_FRAMEZOOM_SGIX 33163
+     * #define GL_MAX_NUM_ACTIVE_VARIABLES 37623
      * }
      */
-    public static int GL_FRAMEZOOM_SGIX() {
-        return GL_FRAMEZOOM_SGIX;
+    public static int GL_MAX_NUM_ACTIVE_VARIABLES() {
+        return GL_MAX_NUM_ACTIVE_VARIABLES;
     }
-    private static final int GL_FRAMEZOOM_FACTOR_SGIX = (int)33164L;
+    private static final int GL_MAX_NUM_COMPATIBLE_SUBROUTINES = (int)37624L;
     /**
      * {@snippet lang=c :
-     * #define GL_FRAMEZOOM_FACTOR_SGIX 33164
+     * #define GL_MAX_NUM_COMPATIBLE_SUBROUTINES 37624
      * }
      */
-    public static int GL_FRAMEZOOM_FACTOR_SGIX() {
-        return GL_FRAMEZOOM_FACTOR_SGIX;
+    public static int GL_MAX_NUM_COMPATIBLE_SUBROUTINES() {
+        return GL_MAX_NUM_COMPATIBLE_SUBROUTINES;
     }
-    private static final int GL_MAX_FRAMEZOOM_FACTOR_SGIX = (int)33165L;
+    private static final int GL_NAME_LENGTH = (int)37625L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAX_FRAMEZOOM_FACTOR_SGIX 33165
+     * #define GL_NAME_LENGTH 37625
      * }
      */
-    public static int GL_MAX_FRAMEZOOM_FACTOR_SGIX() {
-        return GL_MAX_FRAMEZOOM_FACTOR_SGIX;
+    public static int GL_NAME_LENGTH() {
+        return GL_NAME_LENGTH;
     }
-    private static final int GL_SGIX_igloo_interface = (int)1L;
+    private static final int GL_TYPE = (int)37626L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_igloo_interface 1
+     * #define GL_TYPE 37626
      * }
      */
-    public static int GL_SGIX_igloo_interface() {
-        return GL_SGIX_igloo_interface;
+    public static int GL_TYPE() {
+        return GL_TYPE;
     }
-    private static final int GL_SGIX_instruments = (int)1L;
+    private static final int GL_ARRAY_SIZE = (int)37627L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_instruments 1
+     * #define GL_ARRAY_SIZE 37627
      * }
      */
-    public static int GL_SGIX_instruments() {
-        return GL_SGIX_instruments;
+    public static int GL_ARRAY_SIZE() {
+        return GL_ARRAY_SIZE;
     }
-    private static final int GL_INSTRUMENT_BUFFER_POINTER_SGIX = (int)33152L;
+    private static final int GL_OFFSET = (int)37628L;
     /**
      * {@snippet lang=c :
-     * #define GL_INSTRUMENT_BUFFER_POINTER_SGIX 33152
+     * #define GL_OFFSET 37628
      * }
      */
-    public static int GL_INSTRUMENT_BUFFER_POINTER_SGIX() {
-        return GL_INSTRUMENT_BUFFER_POINTER_SGIX;
+    public static int GL_OFFSET() {
+        return GL_OFFSET;
     }
-    private static final int GL_INSTRUMENT_MEASUREMENTS_SGIX = (int)33153L;
+    private static final int GL_BLOCK_INDEX = (int)37629L;
     /**
      * {@snippet lang=c :
-     * #define GL_INSTRUMENT_MEASUREMENTS_SGIX 33153
+     * #define GL_BLOCK_INDEX 37629
      * }
      */
-    public static int GL_INSTRUMENT_MEASUREMENTS_SGIX() {
-        return GL_INSTRUMENT_MEASUREMENTS_SGIX;
+    public static int GL_BLOCK_INDEX() {
+        return GL_BLOCK_INDEX;
     }
-    private static final int GL_SGIX_interlace = (int)1L;
+    private static final int GL_ARRAY_STRIDE = (int)37630L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_interlace 1
+     * #define GL_ARRAY_STRIDE 37630
      * }
      */
-    public static int GL_SGIX_interlace() {
-        return GL_SGIX_interlace;
+    public static int GL_ARRAY_STRIDE() {
+        return GL_ARRAY_STRIDE;
     }
-    private static final int GL_INTERLACE_SGIX = (int)32916L;
+    private static final int GL_MATRIX_STRIDE = (int)37631L;
     /**
      * {@snippet lang=c :
-     * #define GL_INTERLACE_SGIX 32916
+     * #define GL_MATRIX_STRIDE 37631
      * }
      */
-    public static int GL_INTERLACE_SGIX() {
-        return GL_INTERLACE_SGIX;
+    public static int GL_MATRIX_STRIDE() {
+        return GL_MATRIX_STRIDE;
     }
-    private static final int GL_SGIX_ir_instrument1 = (int)1L;
+    private static final int GL_IS_ROW_MAJOR = (int)37632L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_ir_instrument1 1
+     * #define GL_IS_ROW_MAJOR 37632
      * }
      */
-    public static int GL_SGIX_ir_instrument1() {
-        return GL_SGIX_ir_instrument1;
+    public static int GL_IS_ROW_MAJOR() {
+        return GL_IS_ROW_MAJOR;
     }
-    private static final int GL_IR_INSTRUMENT1_SGIX = (int)33151L;
+    private static final int GL_ATOMIC_COUNTER_BUFFER_INDEX = (int)37633L;
     /**
      * {@snippet lang=c :
-     * #define GL_IR_INSTRUMENT1_SGIX 33151
+     * #define GL_ATOMIC_COUNTER_BUFFER_INDEX 37633
      * }
      */
-    public static int GL_IR_INSTRUMENT1_SGIX() {
-        return GL_IR_INSTRUMENT1_SGIX;
+    public static int GL_ATOMIC_COUNTER_BUFFER_INDEX() {
+        return GL_ATOMIC_COUNTER_BUFFER_INDEX;
     }
-    private static final int GL_SGIX_list_priority = (int)1L;
+    private static final int GL_BUFFER_BINDING = (int)37634L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_list_priority 1
+     * #define GL_BUFFER_BINDING 37634
      * }
      */
-    public static int GL_SGIX_list_priority() {
-        return GL_SGIX_list_priority;
+    public static int GL_BUFFER_BINDING() {
+        return GL_BUFFER_BINDING;
     }
-    private static final int GL_LIST_PRIORITY_SGIX = (int)33154L;
+    private static final int GL_BUFFER_DATA_SIZE = (int)37635L;
     /**
      * {@snippet lang=c :
-     * #define GL_LIST_PRIORITY_SGIX 33154
+     * #define GL_BUFFER_DATA_SIZE 37635
      * }
      */
-    public static int GL_LIST_PRIORITY_SGIX() {
-        return GL_LIST_PRIORITY_SGIX;
+    public static int GL_BUFFER_DATA_SIZE() {
+        return GL_BUFFER_DATA_SIZE;
     }
-    private static final int GL_SGIX_pixel_texture = (int)1L;
+    private static final int GL_NUM_ACTIVE_VARIABLES = (int)37636L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_pixel_texture 1
+     * #define GL_NUM_ACTIVE_VARIABLES 37636
      * }
      */
-    public static int GL_SGIX_pixel_texture() {
-        return GL_SGIX_pixel_texture;
+    public static int GL_NUM_ACTIVE_VARIABLES() {
+        return GL_NUM_ACTIVE_VARIABLES;
     }
-    private static final int GL_PIXEL_TEX_GEN_SGIX = (int)33081L;
+    private static final int GL_ACTIVE_VARIABLES = (int)37637L;
     /**
      * {@snippet lang=c :
-     * #define GL_PIXEL_TEX_GEN_SGIX 33081
+     * #define GL_ACTIVE_VARIABLES 37637
      * }
      */
-    public static int GL_PIXEL_TEX_GEN_SGIX() {
-        return GL_PIXEL_TEX_GEN_SGIX;
+    public static int GL_ACTIVE_VARIABLES() {
+        return GL_ACTIVE_VARIABLES;
     }
-    private static final int GL_PIXEL_TEX_GEN_MODE_SGIX = (int)33579L;
+    private static final int GL_REFERENCED_BY_VERTEX_SHADER = (int)37638L;
     /**
      * {@snippet lang=c :
-     * #define GL_PIXEL_TEX_GEN_MODE_SGIX 33579
+     * #define GL_REFERENCED_BY_VERTEX_SHADER 37638
      * }
      */
-    public static int GL_PIXEL_TEX_GEN_MODE_SGIX() {
-        return GL_PIXEL_TEX_GEN_MODE_SGIX;
+    public static int GL_REFERENCED_BY_VERTEX_SHADER() {
+        return GL_REFERENCED_BY_VERTEX_SHADER;
     }
-    private static final int GL_SGIX_pixel_tiles = (int)1L;
+    private static final int GL_REFERENCED_BY_TESS_CONTROL_SHADER = (int)37639L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_pixel_tiles 1
+     * #define GL_REFERENCED_BY_TESS_CONTROL_SHADER 37639
      * }
      */
-    public static int GL_SGIX_pixel_tiles() {
-        return GL_SGIX_pixel_tiles;
+    public static int GL_REFERENCED_BY_TESS_CONTROL_SHADER() {
+        return GL_REFERENCED_BY_TESS_CONTROL_SHADER;
     }
-    private static final int GL_PIXEL_TILE_BEST_ALIGNMENT_SGIX = (int)33086L;
+    private static final int GL_REFERENCED_BY_TESS_EVALUATION_SHADER = (int)37640L;
     /**
      * {@snippet lang=c :
-     * #define GL_PIXEL_TILE_BEST_ALIGNMENT_SGIX 33086
+     * #define GL_REFERENCED_BY_TESS_EVALUATION_SHADER 37640
      * }
      */
-    public static int GL_PIXEL_TILE_BEST_ALIGNMENT_SGIX() {
-        return GL_PIXEL_TILE_BEST_ALIGNMENT_SGIX;
+    public static int GL_REFERENCED_BY_TESS_EVALUATION_SHADER() {
+        return GL_REFERENCED_BY_TESS_EVALUATION_SHADER;
     }
-    private static final int GL_PIXEL_TILE_CACHE_INCREMENT_SGIX = (int)33087L;
+    private static final int GL_REFERENCED_BY_GEOMETRY_SHADER = (int)37641L;
     /**
      * {@snippet lang=c :
-     * #define GL_PIXEL_TILE_CACHE_INCREMENT_SGIX 33087
+     * #define GL_REFERENCED_BY_GEOMETRY_SHADER 37641
      * }
      */
-    public static int GL_PIXEL_TILE_CACHE_INCREMENT_SGIX() {
-        return GL_PIXEL_TILE_CACHE_INCREMENT_SGIX;
+    public static int GL_REFERENCED_BY_GEOMETRY_SHADER() {
+        return GL_REFERENCED_BY_GEOMETRY_SHADER;
     }
-    private static final int GL_PIXEL_TILE_WIDTH_SGIX = (int)33088L;
+    private static final int GL_REFERENCED_BY_FRAGMENT_SHADER = (int)37642L;
     /**
      * {@snippet lang=c :
-     * #define GL_PIXEL_TILE_WIDTH_SGIX 33088
+     * #define GL_REFERENCED_BY_FRAGMENT_SHADER 37642
      * }
      */
-    public static int GL_PIXEL_TILE_WIDTH_SGIX() {
-        return GL_PIXEL_TILE_WIDTH_SGIX;
+    public static int GL_REFERENCED_BY_FRAGMENT_SHADER() {
+        return GL_REFERENCED_BY_FRAGMENT_SHADER;
     }
-    private static final int GL_PIXEL_TILE_HEIGHT_SGIX = (int)33089L;
+    private static final int GL_REFERENCED_BY_COMPUTE_SHADER = (int)37643L;
     /**
      * {@snippet lang=c :
-     * #define GL_PIXEL_TILE_HEIGHT_SGIX 33089
+     * #define GL_REFERENCED_BY_COMPUTE_SHADER 37643
      * }
      */
-    public static int GL_PIXEL_TILE_HEIGHT_SGIX() {
-        return GL_PIXEL_TILE_HEIGHT_SGIX;
+    public static int GL_REFERENCED_BY_COMPUTE_SHADER() {
+        return GL_REFERENCED_BY_COMPUTE_SHADER;
     }
-    private static final int GL_PIXEL_TILE_GRID_WIDTH_SGIX = (int)33090L;
+    private static final int GL_TOP_LEVEL_ARRAY_SIZE = (int)37644L;
     /**
      * {@snippet lang=c :
-     * #define GL_PIXEL_TILE_GRID_WIDTH_SGIX 33090
+     * #define GL_TOP_LEVEL_ARRAY_SIZE 37644
      * }
      */
-    public static int GL_PIXEL_TILE_GRID_WIDTH_SGIX() {
-        return GL_PIXEL_TILE_GRID_WIDTH_SGIX;
+    public static int GL_TOP_LEVEL_ARRAY_SIZE() {
+        return GL_TOP_LEVEL_ARRAY_SIZE;
     }
-    private static final int GL_PIXEL_TILE_GRID_HEIGHT_SGIX = (int)33091L;
+    private static final int GL_TOP_LEVEL_ARRAY_STRIDE = (int)37645L;
     /**
      * {@snippet lang=c :
-     * #define GL_PIXEL_TILE_GRID_HEIGHT_SGIX 33091
+     * #define GL_TOP_LEVEL_ARRAY_STRIDE 37645
      * }
      */
-    public static int GL_PIXEL_TILE_GRID_HEIGHT_SGIX() {
-        return GL_PIXEL_TILE_GRID_HEIGHT_SGIX;
+    public static int GL_TOP_LEVEL_ARRAY_STRIDE() {
+        return GL_TOP_LEVEL_ARRAY_STRIDE;
     }
-    private static final int GL_PIXEL_TILE_GRID_DEPTH_SGIX = (int)33092L;
+    private static final int GL_LOCATION = (int)37646L;
     /**
      * {@snippet lang=c :
-     * #define GL_PIXEL_TILE_GRID_DEPTH_SGIX 33092
+     * #define GL_LOCATION 37646
      * }
      */
-    public static int GL_PIXEL_TILE_GRID_DEPTH_SGIX() {
-        return GL_PIXEL_TILE_GRID_DEPTH_SGIX;
+    public static int GL_LOCATION() {
+        return GL_LOCATION;
     }
-    private static final int GL_PIXEL_TILE_CACHE_SIZE_SGIX = (int)33093L;
+    private static final int GL_LOCATION_INDEX = (int)37647L;
     /**
      * {@snippet lang=c :
-     * #define GL_PIXEL_TILE_CACHE_SIZE_SGIX 33093
+     * #define GL_LOCATION_INDEX 37647
      * }
      */
-    public static int GL_PIXEL_TILE_CACHE_SIZE_SGIX() {
-        return GL_PIXEL_TILE_CACHE_SIZE_SGIX;
+    public static int GL_LOCATION_INDEX() {
+        return GL_LOCATION_INDEX;
     }
-    private static final int GL_SGIX_polynomial_ffd = (int)1L;
+    private static final int GL_IS_PER_PATCH = (int)37607L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_polynomial_ffd 1
+     * #define GL_IS_PER_PATCH 37607
      * }
      */
-    public static int GL_SGIX_polynomial_ffd() {
-        return GL_SGIX_polynomial_ffd;
+    public static int GL_IS_PER_PATCH() {
+        return GL_IS_PER_PATCH;
     }
-    private static final int GL_TEXTURE_DEFORMATION_BIT_SGIX = (int)1L;
+    private static final int GL_SHADER_STORAGE_BUFFER = (int)37074L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_DEFORMATION_BIT_SGIX 1
+     * #define GL_SHADER_STORAGE_BUFFER 37074
      * }
      */
-    public static int GL_TEXTURE_DEFORMATION_BIT_SGIX() {
-        return GL_TEXTURE_DEFORMATION_BIT_SGIX;
+    public static int GL_SHADER_STORAGE_BUFFER() {
+        return GL_SHADER_STORAGE_BUFFER;
     }
-    private static final int GL_GEOMETRY_DEFORMATION_BIT_SGIX = (int)2L;
+    private static final int GL_SHADER_STORAGE_BUFFER_BINDING = (int)37075L;
     /**
      * {@snippet lang=c :
-     * #define GL_GEOMETRY_DEFORMATION_BIT_SGIX 2
+     * #define GL_SHADER_STORAGE_BUFFER_BINDING 37075
      * }
      */
-    public static int GL_GEOMETRY_DEFORMATION_BIT_SGIX() {
-        return GL_GEOMETRY_DEFORMATION_BIT_SGIX;
+    public static int GL_SHADER_STORAGE_BUFFER_BINDING() {
+        return GL_SHADER_STORAGE_BUFFER_BINDING;
     }
-    private static final int GL_GEOMETRY_DEFORMATION_SGIX = (int)33172L;
+    private static final int GL_SHADER_STORAGE_BUFFER_START = (int)37076L;
     /**
      * {@snippet lang=c :
-     * #define GL_GEOMETRY_DEFORMATION_SGIX 33172
+     * #define GL_SHADER_STORAGE_BUFFER_START 37076
      * }
      */
-    public static int GL_GEOMETRY_DEFORMATION_SGIX() {
-        return GL_GEOMETRY_DEFORMATION_SGIX;
+    public static int GL_SHADER_STORAGE_BUFFER_START() {
+        return GL_SHADER_STORAGE_BUFFER_START;
     }
-    private static final int GL_TEXTURE_DEFORMATION_SGIX = (int)33173L;
+    private static final int GL_SHADER_STORAGE_BUFFER_SIZE = (int)37077L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_DEFORMATION_SGIX 33173
+     * #define GL_SHADER_STORAGE_BUFFER_SIZE 37077
      * }
      */
-    public static int GL_TEXTURE_DEFORMATION_SGIX() {
-        return GL_TEXTURE_DEFORMATION_SGIX;
+    public static int GL_SHADER_STORAGE_BUFFER_SIZE() {
+        return GL_SHADER_STORAGE_BUFFER_SIZE;
     }
-    private static final int GL_DEFORMATIONS_MASK_SGIX = (int)33174L;
+    private static final int GL_MAX_VERTEX_SHADER_STORAGE_BLOCKS = (int)37078L;
     /**
      * {@snippet lang=c :
-     * #define GL_DEFORMATIONS_MASK_SGIX 33174
+     * #define GL_MAX_VERTEX_SHADER_STORAGE_BLOCKS 37078
      * }
      */
-    public static int GL_DEFORMATIONS_MASK_SGIX() {
-        return GL_DEFORMATIONS_MASK_SGIX;
+    public static int GL_MAX_VERTEX_SHADER_STORAGE_BLOCKS() {
+        return GL_MAX_VERTEX_SHADER_STORAGE_BLOCKS;
     }
-    private static final int GL_MAX_DEFORMATION_ORDER_SGIX = (int)33175L;
+    private static final int GL_MAX_GEOMETRY_SHADER_STORAGE_BLOCKS = (int)37079L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAX_DEFORMATION_ORDER_SGIX 33175
+     * #define GL_MAX_GEOMETRY_SHADER_STORAGE_BLOCKS 37079
      * }
      */
-    public static int GL_MAX_DEFORMATION_ORDER_SGIX() {
-        return GL_MAX_DEFORMATION_ORDER_SGIX;
+    public static int GL_MAX_GEOMETRY_SHADER_STORAGE_BLOCKS() {
+        return GL_MAX_GEOMETRY_SHADER_STORAGE_BLOCKS;
     }
-    private static final int GL_SGIX_reference_plane = (int)1L;
+    private static final int GL_MAX_TESS_CONTROL_SHADER_STORAGE_BLOCKS = (int)37080L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_reference_plane 1
+     * #define GL_MAX_TESS_CONTROL_SHADER_STORAGE_BLOCKS 37080
      * }
      */
-    public static int GL_SGIX_reference_plane() {
-        return GL_SGIX_reference_plane;
+    public static int GL_MAX_TESS_CONTROL_SHADER_STORAGE_BLOCKS() {
+        return GL_MAX_TESS_CONTROL_SHADER_STORAGE_BLOCKS;
     }
-    private static final int GL_REFERENCE_PLANE_SGIX = (int)33149L;
+    private static final int GL_MAX_TESS_EVALUATION_SHADER_STORAGE_BLOCKS = (int)37081L;
     /**
      * {@snippet lang=c :
-     * #define GL_REFERENCE_PLANE_SGIX 33149
+     * #define GL_MAX_TESS_EVALUATION_SHADER_STORAGE_BLOCKS 37081
      * }
      */
-    public static int GL_REFERENCE_PLANE_SGIX() {
-        return GL_REFERENCE_PLANE_SGIX;
+    public static int GL_MAX_TESS_EVALUATION_SHADER_STORAGE_BLOCKS() {
+        return GL_MAX_TESS_EVALUATION_SHADER_STORAGE_BLOCKS;
     }
-    private static final int GL_REFERENCE_PLANE_EQUATION_SGIX = (int)33150L;
+    private static final int GL_MAX_FRAGMENT_SHADER_STORAGE_BLOCKS = (int)37082L;
     /**
      * {@snippet lang=c :
-     * #define GL_REFERENCE_PLANE_EQUATION_SGIX 33150
+     * #define GL_MAX_FRAGMENT_SHADER_STORAGE_BLOCKS 37082
      * }
      */
-    public static int GL_REFERENCE_PLANE_EQUATION_SGIX() {
-        return GL_REFERENCE_PLANE_EQUATION_SGIX;
+    public static int GL_MAX_FRAGMENT_SHADER_STORAGE_BLOCKS() {
+        return GL_MAX_FRAGMENT_SHADER_STORAGE_BLOCKS;
     }
-    private static final int GL_SGIX_resample = (int)1L;
+    private static final int GL_MAX_COMPUTE_SHADER_STORAGE_BLOCKS = (int)37083L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_resample 1
+     * #define GL_MAX_COMPUTE_SHADER_STORAGE_BLOCKS 37083
      * }
      */
-    public static int GL_SGIX_resample() {
-        return GL_SGIX_resample;
+    public static int GL_MAX_COMPUTE_SHADER_STORAGE_BLOCKS() {
+        return GL_MAX_COMPUTE_SHADER_STORAGE_BLOCKS;
     }
-    private static final int GL_PACK_RESAMPLE_SGIX = (int)33838L;
+    private static final int GL_MAX_COMBINED_SHADER_STORAGE_BLOCKS = (int)37084L;
     /**
      * {@snippet lang=c :
-     * #define GL_PACK_RESAMPLE_SGIX 33838
+     * #define GL_MAX_COMBINED_SHADER_STORAGE_BLOCKS 37084
      * }
      */
-    public static int GL_PACK_RESAMPLE_SGIX() {
-        return GL_PACK_RESAMPLE_SGIX;
+    public static int GL_MAX_COMBINED_SHADER_STORAGE_BLOCKS() {
+        return GL_MAX_COMBINED_SHADER_STORAGE_BLOCKS;
     }
-    private static final int GL_UNPACK_RESAMPLE_SGIX = (int)33839L;
+    private static final int GL_MAX_SHADER_STORAGE_BUFFER_BINDINGS = (int)37085L;
     /**
      * {@snippet lang=c :
-     * #define GL_UNPACK_RESAMPLE_SGIX 33839
+     * #define GL_MAX_SHADER_STORAGE_BUFFER_BINDINGS 37085
      * }
      */
-    public static int GL_UNPACK_RESAMPLE_SGIX() {
-        return GL_UNPACK_RESAMPLE_SGIX;
+    public static int GL_MAX_SHADER_STORAGE_BUFFER_BINDINGS() {
+        return GL_MAX_SHADER_STORAGE_BUFFER_BINDINGS;
     }
-    private static final int GL_RESAMPLE_REPLICATE_SGIX = (int)33843L;
+    private static final int GL_MAX_SHADER_STORAGE_BLOCK_SIZE = (int)37086L;
     /**
      * {@snippet lang=c :
-     * #define GL_RESAMPLE_REPLICATE_SGIX 33843
+     * #define GL_MAX_SHADER_STORAGE_BLOCK_SIZE 37086
      * }
      */
-    public static int GL_RESAMPLE_REPLICATE_SGIX() {
-        return GL_RESAMPLE_REPLICATE_SGIX;
+    public static int GL_MAX_SHADER_STORAGE_BLOCK_SIZE() {
+        return GL_MAX_SHADER_STORAGE_BLOCK_SIZE;
     }
-    private static final int GL_RESAMPLE_ZERO_FILL_SGIX = (int)33844L;
+    private static final int GL_SHADER_STORAGE_BUFFER_OFFSET_ALIGNMENT = (int)37087L;
     /**
      * {@snippet lang=c :
-     * #define GL_RESAMPLE_ZERO_FILL_SGIX 33844
+     * #define GL_SHADER_STORAGE_BUFFER_OFFSET_ALIGNMENT 37087
      * }
      */
-    public static int GL_RESAMPLE_ZERO_FILL_SGIX() {
-        return GL_RESAMPLE_ZERO_FILL_SGIX;
+    public static int GL_SHADER_STORAGE_BUFFER_OFFSET_ALIGNMENT() {
+        return GL_SHADER_STORAGE_BUFFER_OFFSET_ALIGNMENT;
     }
-    private static final int GL_RESAMPLE_DECIMATE_SGIX = (int)33840L;
+    private static final int GL_SHADER_STORAGE_BARRIER_BIT = (int)8192L;
     /**
      * {@snippet lang=c :
-     * #define GL_RESAMPLE_DECIMATE_SGIX 33840
+     * #define GL_SHADER_STORAGE_BARRIER_BIT 8192
      * }
      */
-    public static int GL_RESAMPLE_DECIMATE_SGIX() {
-        return GL_RESAMPLE_DECIMATE_SGIX;
+    public static int GL_SHADER_STORAGE_BARRIER_BIT() {
+        return GL_SHADER_STORAGE_BARRIER_BIT;
     }
-    private static final int GL_SGIX_scalebias_hint = (int)1L;
+    private static final int GL_MAX_COMBINED_SHADER_OUTPUT_RESOURCES = (int)36665L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_scalebias_hint 1
+     * #define GL_MAX_COMBINED_SHADER_OUTPUT_RESOURCES 36665
      * }
      */
-    public static int GL_SGIX_scalebias_hint() {
-        return GL_SGIX_scalebias_hint;
+    public static int GL_MAX_COMBINED_SHADER_OUTPUT_RESOURCES() {
+        return GL_MAX_COMBINED_SHADER_OUTPUT_RESOURCES;
     }
-    private static final int GL_SCALEBIAS_HINT_SGIX = (int)33570L;
+    private static final int GL_DEPTH_STENCIL_TEXTURE_MODE = (int)37098L;
     /**
      * {@snippet lang=c :
-     * #define GL_SCALEBIAS_HINT_SGIX 33570
+     * #define GL_DEPTH_STENCIL_TEXTURE_MODE 37098
      * }
      */
-    public static int GL_SCALEBIAS_HINT_SGIX() {
-        return GL_SCALEBIAS_HINT_SGIX;
+    public static int GL_DEPTH_STENCIL_TEXTURE_MODE() {
+        return GL_DEPTH_STENCIL_TEXTURE_MODE;
     }
-    private static final int GL_SGIX_shadow = (int)1L;
+    private static final int GL_TEXTURE_BUFFER_OFFSET = (int)37277L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_shadow 1
+     * #define GL_TEXTURE_BUFFER_OFFSET 37277
      * }
      */
-    public static int GL_SGIX_shadow() {
-        return GL_SGIX_shadow;
+    public static int GL_TEXTURE_BUFFER_OFFSET() {
+        return GL_TEXTURE_BUFFER_OFFSET;
     }
-    private static final int GL_TEXTURE_COMPARE_SGIX = (int)33178L;
+    private static final int GL_TEXTURE_BUFFER_SIZE = (int)37278L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_COMPARE_SGIX 33178
+     * #define GL_TEXTURE_BUFFER_SIZE 37278
      * }
      */
-    public static int GL_TEXTURE_COMPARE_SGIX() {
-        return GL_TEXTURE_COMPARE_SGIX;
+    public static int GL_TEXTURE_BUFFER_SIZE() {
+        return GL_TEXTURE_BUFFER_SIZE;
     }
-    private static final int GL_TEXTURE_COMPARE_OPERATOR_SGIX = (int)33179L;
+    private static final int GL_TEXTURE_BUFFER_OFFSET_ALIGNMENT = (int)37279L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_COMPARE_OPERATOR_SGIX 33179
+     * #define GL_TEXTURE_BUFFER_OFFSET_ALIGNMENT 37279
      * }
      */
-    public static int GL_TEXTURE_COMPARE_OPERATOR_SGIX() {
-        return GL_TEXTURE_COMPARE_OPERATOR_SGIX;
+    public static int GL_TEXTURE_BUFFER_OFFSET_ALIGNMENT() {
+        return GL_TEXTURE_BUFFER_OFFSET_ALIGNMENT;
     }
-    private static final int GL_TEXTURE_LEQUAL_R_SGIX = (int)33180L;
+    private static final int GL_TEXTURE_VIEW_MIN_LEVEL = (int)33499L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_LEQUAL_R_SGIX 33180
+     * #define GL_TEXTURE_VIEW_MIN_LEVEL 33499
      * }
      */
-    public static int GL_TEXTURE_LEQUAL_R_SGIX() {
-        return GL_TEXTURE_LEQUAL_R_SGIX;
+    public static int GL_TEXTURE_VIEW_MIN_LEVEL() {
+        return GL_TEXTURE_VIEW_MIN_LEVEL;
     }
-    private static final int GL_TEXTURE_GEQUAL_R_SGIX = (int)33181L;
+    private static final int GL_TEXTURE_VIEW_NUM_LEVELS = (int)33500L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_GEQUAL_R_SGIX 33181
+     * #define GL_TEXTURE_VIEW_NUM_LEVELS 33500
      * }
      */
-    public static int GL_TEXTURE_GEQUAL_R_SGIX() {
-        return GL_TEXTURE_GEQUAL_R_SGIX;
+    public static int GL_TEXTURE_VIEW_NUM_LEVELS() {
+        return GL_TEXTURE_VIEW_NUM_LEVELS;
     }
-    private static final int GL_SGIX_shadow_ambient = (int)1L;
+    private static final int GL_TEXTURE_VIEW_MIN_LAYER = (int)33501L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_shadow_ambient 1
+     * #define GL_TEXTURE_VIEW_MIN_LAYER 33501
      * }
      */
-    public static int GL_SGIX_shadow_ambient() {
-        return GL_SGIX_shadow_ambient;
+    public static int GL_TEXTURE_VIEW_MIN_LAYER() {
+        return GL_TEXTURE_VIEW_MIN_LAYER;
     }
-    private static final int GL_SHADOW_AMBIENT_SGIX = (int)32959L;
+    private static final int GL_TEXTURE_VIEW_NUM_LAYERS = (int)33502L;
     /**
      * {@snippet lang=c :
-     * #define GL_SHADOW_AMBIENT_SGIX 32959
+     * #define GL_TEXTURE_VIEW_NUM_LAYERS 33502
      * }
      */
-    public static int GL_SHADOW_AMBIENT_SGIX() {
-        return GL_SHADOW_AMBIENT_SGIX;
+    public static int GL_TEXTURE_VIEW_NUM_LAYERS() {
+        return GL_TEXTURE_VIEW_NUM_LAYERS;
     }
-    private static final int GL_SGIX_sprite = (int)1L;
+    private static final int GL_TEXTURE_IMMUTABLE_LEVELS = (int)33503L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_sprite 1
+     * #define GL_TEXTURE_IMMUTABLE_LEVELS 33503
      * }
      */
-    public static int GL_SGIX_sprite() {
-        return GL_SGIX_sprite;
+    public static int GL_TEXTURE_IMMUTABLE_LEVELS() {
+        return GL_TEXTURE_IMMUTABLE_LEVELS;
     }
-    private static final int GL_SPRITE_SGIX = (int)33096L;
+    private static final int GL_VERTEX_ATTRIB_BINDING = (int)33492L;
     /**
      * {@snippet lang=c :
-     * #define GL_SPRITE_SGIX 33096
+     * #define GL_VERTEX_ATTRIB_BINDING 33492
      * }
      */
-    public static int GL_SPRITE_SGIX() {
-        return GL_SPRITE_SGIX;
+    public static int GL_VERTEX_ATTRIB_BINDING() {
+        return GL_VERTEX_ATTRIB_BINDING;
     }
-    private static final int GL_SPRITE_MODE_SGIX = (int)33097L;
+    private static final int GL_VERTEX_ATTRIB_RELATIVE_OFFSET = (int)33493L;
     /**
      * {@snippet lang=c :
-     * #define GL_SPRITE_MODE_SGIX 33097
+     * #define GL_VERTEX_ATTRIB_RELATIVE_OFFSET 33493
      * }
      */
-    public static int GL_SPRITE_MODE_SGIX() {
-        return GL_SPRITE_MODE_SGIX;
+    public static int GL_VERTEX_ATTRIB_RELATIVE_OFFSET() {
+        return GL_VERTEX_ATTRIB_RELATIVE_OFFSET;
     }
-    private static final int GL_SPRITE_AXIS_SGIX = (int)33098L;
+    private static final int GL_VERTEX_BINDING_DIVISOR = (int)33494L;
     /**
      * {@snippet lang=c :
-     * #define GL_SPRITE_AXIS_SGIX 33098
+     * #define GL_VERTEX_BINDING_DIVISOR 33494
      * }
      */
-    public static int GL_SPRITE_AXIS_SGIX() {
-        return GL_SPRITE_AXIS_SGIX;
+    public static int GL_VERTEX_BINDING_DIVISOR() {
+        return GL_VERTEX_BINDING_DIVISOR;
     }
-    private static final int GL_SPRITE_TRANSLATION_SGIX = (int)33099L;
+    private static final int GL_VERTEX_BINDING_OFFSET = (int)33495L;
     /**
      * {@snippet lang=c :
-     * #define GL_SPRITE_TRANSLATION_SGIX 33099
+     * #define GL_VERTEX_BINDING_OFFSET 33495
      * }
      */
-    public static int GL_SPRITE_TRANSLATION_SGIX() {
-        return GL_SPRITE_TRANSLATION_SGIX;
+    public static int GL_VERTEX_BINDING_OFFSET() {
+        return GL_VERTEX_BINDING_OFFSET;
     }
-    private static final int GL_SPRITE_AXIAL_SGIX = (int)33100L;
+    private static final int GL_VERTEX_BINDING_STRIDE = (int)33496L;
     /**
      * {@snippet lang=c :
-     * #define GL_SPRITE_AXIAL_SGIX 33100
+     * #define GL_VERTEX_BINDING_STRIDE 33496
      * }
      */
-    public static int GL_SPRITE_AXIAL_SGIX() {
-        return GL_SPRITE_AXIAL_SGIX;
+    public static int GL_VERTEX_BINDING_STRIDE() {
+        return GL_VERTEX_BINDING_STRIDE;
     }
-    private static final int GL_SPRITE_OBJECT_ALIGNED_SGIX = (int)33101L;
+    private static final int GL_MAX_VERTEX_ATTRIB_RELATIVE_OFFSET = (int)33497L;
     /**
      * {@snippet lang=c :
-     * #define GL_SPRITE_OBJECT_ALIGNED_SGIX 33101
+     * #define GL_MAX_VERTEX_ATTRIB_RELATIVE_OFFSET 33497
      * }
      */
-    public static int GL_SPRITE_OBJECT_ALIGNED_SGIX() {
-        return GL_SPRITE_OBJECT_ALIGNED_SGIX;
+    public static int GL_MAX_VERTEX_ATTRIB_RELATIVE_OFFSET() {
+        return GL_MAX_VERTEX_ATTRIB_RELATIVE_OFFSET;
     }
-    private static final int GL_SPRITE_EYE_ALIGNED_SGIX = (int)33102L;
+    private static final int GL_MAX_VERTEX_ATTRIB_BINDINGS = (int)33498L;
     /**
      * {@snippet lang=c :
-     * #define GL_SPRITE_EYE_ALIGNED_SGIX 33102
+     * #define GL_MAX_VERTEX_ATTRIB_BINDINGS 33498
      * }
      */
-    public static int GL_SPRITE_EYE_ALIGNED_SGIX() {
-        return GL_SPRITE_EYE_ALIGNED_SGIX;
+    public static int GL_MAX_VERTEX_ATTRIB_BINDINGS() {
+        return GL_MAX_VERTEX_ATTRIB_BINDINGS;
     }
-    private static final int GL_SGIX_subsample = (int)1L;
+    private static final int GL_VERTEX_BINDING_BUFFER = (int)36687L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_subsample 1
+     * #define GL_VERTEX_BINDING_BUFFER 36687
      * }
      */
-    public static int GL_SGIX_subsample() {
-        return GL_SGIX_subsample;
+    public static int GL_VERTEX_BINDING_BUFFER() {
+        return GL_VERTEX_BINDING_BUFFER;
     }
-    private static final int GL_PACK_SUBSAMPLE_RATE_SGIX = (int)34208L;
+    private static final int GL_DISPLAY_LIST = (int)33511L;
     /**
      * {@snippet lang=c :
-     * #define GL_PACK_SUBSAMPLE_RATE_SGIX 34208
+     * #define GL_DISPLAY_LIST 33511
      * }
      */
-    public static int GL_PACK_SUBSAMPLE_RATE_SGIX() {
-        return GL_PACK_SUBSAMPLE_RATE_SGIX;
+    public static int GL_DISPLAY_LIST() {
+        return GL_DISPLAY_LIST;
     }
-    private static final int GL_UNPACK_SUBSAMPLE_RATE_SGIX = (int)34209L;
+    private static final int GL_VERSION_4_4 = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_UNPACK_SUBSAMPLE_RATE_SGIX 34209
+     * #define GL_VERSION_4_4 1
      * }
      */
-    public static int GL_UNPACK_SUBSAMPLE_RATE_SGIX() {
-        return GL_UNPACK_SUBSAMPLE_RATE_SGIX;
+    public static int GL_VERSION_4_4() {
+        return GL_VERSION_4_4;
     }
-    private static final int GL_PIXEL_SUBSAMPLE_4444_SGIX = (int)34210L;
+    private static final int GL_MAX_VERTEX_ATTRIB_STRIDE = (int)33509L;
     /**
      * {@snippet lang=c :
-     * #define GL_PIXEL_SUBSAMPLE_4444_SGIX 34210
+     * #define GL_MAX_VERTEX_ATTRIB_STRIDE 33509
      * }
      */
-    public static int GL_PIXEL_SUBSAMPLE_4444_SGIX() {
-        return GL_PIXEL_SUBSAMPLE_4444_SGIX;
+    public static int GL_MAX_VERTEX_ATTRIB_STRIDE() {
+        return GL_MAX_VERTEX_ATTRIB_STRIDE;
     }
-    private static final int GL_PIXEL_SUBSAMPLE_2424_SGIX = (int)34211L;
+    private static final int GL_PRIMITIVE_RESTART_FOR_PATCHES_SUPPORTED = (int)33313L;
     /**
      * {@snippet lang=c :
-     * #define GL_PIXEL_SUBSAMPLE_2424_SGIX 34211
+     * #define GL_PRIMITIVE_RESTART_FOR_PATCHES_SUPPORTED 33313
      * }
      */
-    public static int GL_PIXEL_SUBSAMPLE_2424_SGIX() {
-        return GL_PIXEL_SUBSAMPLE_2424_SGIX;
+    public static int GL_PRIMITIVE_RESTART_FOR_PATCHES_SUPPORTED() {
+        return GL_PRIMITIVE_RESTART_FOR_PATCHES_SUPPORTED;
     }
-    private static final int GL_PIXEL_SUBSAMPLE_4242_SGIX = (int)34212L;
+    private static final int GL_TEXTURE_BUFFER_BINDING = (int)35882L;
     /**
      * {@snippet lang=c :
-     * #define GL_PIXEL_SUBSAMPLE_4242_SGIX 34212
+     * #define GL_TEXTURE_BUFFER_BINDING 35882
      * }
      */
-    public static int GL_PIXEL_SUBSAMPLE_4242_SGIX() {
-        return GL_PIXEL_SUBSAMPLE_4242_SGIX;
+    public static int GL_TEXTURE_BUFFER_BINDING() {
+        return GL_TEXTURE_BUFFER_BINDING;
     }
-    private static final int GL_SGIX_tag_sample_buffer = (int)1L;
+    private static final int GL_MAP_PERSISTENT_BIT = (int)64L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_tag_sample_buffer 1
+     * #define GL_MAP_PERSISTENT_BIT 64
      * }
      */
-    public static int GL_SGIX_tag_sample_buffer() {
-        return GL_SGIX_tag_sample_buffer;
+    public static int GL_MAP_PERSISTENT_BIT() {
+        return GL_MAP_PERSISTENT_BIT;
     }
-    private static final int GL_SGIX_texture_add_env = (int)1L;
+    private static final int GL_MAP_COHERENT_BIT = (int)128L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_texture_add_env 1
+     * #define GL_MAP_COHERENT_BIT 128
      * }
      */
-    public static int GL_SGIX_texture_add_env() {
-        return GL_SGIX_texture_add_env;
+    public static int GL_MAP_COHERENT_BIT() {
+        return GL_MAP_COHERENT_BIT;
     }
-    private static final int GL_TEXTURE_ENV_BIAS_SGIX = (int)32958L;
+    private static final int GL_DYNAMIC_STORAGE_BIT = (int)256L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_ENV_BIAS_SGIX 32958
+     * #define GL_DYNAMIC_STORAGE_BIT 256
      * }
      */
-    public static int GL_TEXTURE_ENV_BIAS_SGIX() {
-        return GL_TEXTURE_ENV_BIAS_SGIX;
+    public static int GL_DYNAMIC_STORAGE_BIT() {
+        return GL_DYNAMIC_STORAGE_BIT;
     }
-    private static final int GL_SGIX_texture_coordinate_clamp = (int)1L;
+    private static final int GL_CLIENT_STORAGE_BIT = (int)512L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_texture_coordinate_clamp 1
+     * #define GL_CLIENT_STORAGE_BIT 512
      * }
      */
-    public static int GL_SGIX_texture_coordinate_clamp() {
-        return GL_SGIX_texture_coordinate_clamp;
+    public static int GL_CLIENT_STORAGE_BIT() {
+        return GL_CLIENT_STORAGE_BIT;
     }
-    private static final int GL_TEXTURE_MAX_CLAMP_S_SGIX = (int)33641L;
+    private static final int GL_CLIENT_MAPPED_BUFFER_BARRIER_BIT = (int)16384L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_MAX_CLAMP_S_SGIX 33641
+     * #define GL_CLIENT_MAPPED_BUFFER_BARRIER_BIT 16384
      * }
      */
-    public static int GL_TEXTURE_MAX_CLAMP_S_SGIX() {
-        return GL_TEXTURE_MAX_CLAMP_S_SGIX;
+    public static int GL_CLIENT_MAPPED_BUFFER_BARRIER_BIT() {
+        return GL_CLIENT_MAPPED_BUFFER_BARRIER_BIT;
     }
-    private static final int GL_TEXTURE_MAX_CLAMP_T_SGIX = (int)33642L;
+    private static final int GL_BUFFER_IMMUTABLE_STORAGE = (int)33311L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_MAX_CLAMP_T_SGIX 33642
+     * #define GL_BUFFER_IMMUTABLE_STORAGE 33311
      * }
      */
-    public static int GL_TEXTURE_MAX_CLAMP_T_SGIX() {
-        return GL_TEXTURE_MAX_CLAMP_T_SGIX;
+    public static int GL_BUFFER_IMMUTABLE_STORAGE() {
+        return GL_BUFFER_IMMUTABLE_STORAGE;
     }
-    private static final int GL_TEXTURE_MAX_CLAMP_R_SGIX = (int)33643L;
+    private static final int GL_BUFFER_STORAGE_FLAGS = (int)33312L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_MAX_CLAMP_R_SGIX 33643
+     * #define GL_BUFFER_STORAGE_FLAGS 33312
      * }
      */
-    public static int GL_TEXTURE_MAX_CLAMP_R_SGIX() {
-        return GL_TEXTURE_MAX_CLAMP_R_SGIX;
+    public static int GL_BUFFER_STORAGE_FLAGS() {
+        return GL_BUFFER_STORAGE_FLAGS;
     }
-    private static final int GL_SGIX_texture_lod_bias = (int)1L;
+    private static final int GL_CLEAR_TEXTURE = (int)37733L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_texture_lod_bias 1
+     * #define GL_CLEAR_TEXTURE 37733
      * }
      */
-    public static int GL_SGIX_texture_lod_bias() {
-        return GL_SGIX_texture_lod_bias;
+    public static int GL_CLEAR_TEXTURE() {
+        return GL_CLEAR_TEXTURE;
     }
-    private static final int GL_TEXTURE_LOD_BIAS_S_SGIX = (int)33166L;
+    private static final int GL_LOCATION_COMPONENT = (int)37706L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_LOD_BIAS_S_SGIX 33166
+     * #define GL_LOCATION_COMPONENT 37706
      * }
      */
-    public static int GL_TEXTURE_LOD_BIAS_S_SGIX() {
-        return GL_TEXTURE_LOD_BIAS_S_SGIX;
+    public static int GL_LOCATION_COMPONENT() {
+        return GL_LOCATION_COMPONENT;
     }
-    private static final int GL_TEXTURE_LOD_BIAS_T_SGIX = (int)33167L;
+    private static final int GL_TRANSFORM_FEEDBACK_BUFFER_INDEX = (int)37707L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_LOD_BIAS_T_SGIX 33167
+     * #define GL_TRANSFORM_FEEDBACK_BUFFER_INDEX 37707
      * }
      */
-    public static int GL_TEXTURE_LOD_BIAS_T_SGIX() {
-        return GL_TEXTURE_LOD_BIAS_T_SGIX;
+    public static int GL_TRANSFORM_FEEDBACK_BUFFER_INDEX() {
+        return GL_TRANSFORM_FEEDBACK_BUFFER_INDEX;
     }
-    private static final int GL_TEXTURE_LOD_BIAS_R_SGIX = (int)33168L;
+    private static final int GL_TRANSFORM_FEEDBACK_BUFFER_STRIDE = (int)37708L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_LOD_BIAS_R_SGIX 33168
+     * #define GL_TRANSFORM_FEEDBACK_BUFFER_STRIDE 37708
      * }
      */
-    public static int GL_TEXTURE_LOD_BIAS_R_SGIX() {
-        return GL_TEXTURE_LOD_BIAS_R_SGIX;
+    public static int GL_TRANSFORM_FEEDBACK_BUFFER_STRIDE() {
+        return GL_TRANSFORM_FEEDBACK_BUFFER_STRIDE;
     }
-    private static final int GL_SGIX_texture_multi_buffer = (int)1L;
+    private static final int GL_QUERY_BUFFER = (int)37266L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_texture_multi_buffer 1
+     * #define GL_QUERY_BUFFER 37266
      * }
      */
-    public static int GL_SGIX_texture_multi_buffer() {
-        return GL_SGIX_texture_multi_buffer;
+    public static int GL_QUERY_BUFFER() {
+        return GL_QUERY_BUFFER;
     }
-    private static final int GL_TEXTURE_MULTI_BUFFER_HINT_SGIX = (int)33070L;
+    private static final int GL_QUERY_BUFFER_BARRIER_BIT = (int)32768L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_MULTI_BUFFER_HINT_SGIX 33070
+     * #define GL_QUERY_BUFFER_BARRIER_BIT 32768
      * }
      */
-    public static int GL_TEXTURE_MULTI_BUFFER_HINT_SGIX() {
-        return GL_TEXTURE_MULTI_BUFFER_HINT_SGIX;
+    public static int GL_QUERY_BUFFER_BARRIER_BIT() {
+        return GL_QUERY_BUFFER_BARRIER_BIT;
     }
-    private static final int GL_SGIX_texture_scale_bias = (int)1L;
+    private static final int GL_QUERY_BUFFER_BINDING = (int)37267L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_texture_scale_bias 1
+     * #define GL_QUERY_BUFFER_BINDING 37267
      * }
      */
-    public static int GL_SGIX_texture_scale_bias() {
-        return GL_SGIX_texture_scale_bias;
+    public static int GL_QUERY_BUFFER_BINDING() {
+        return GL_QUERY_BUFFER_BINDING;
     }
-    private static final int GL_POST_TEXTURE_FILTER_BIAS_SGIX = (int)33145L;
+    private static final int GL_QUERY_RESULT_NO_WAIT = (int)37268L;
     /**
      * {@snippet lang=c :
-     * #define GL_POST_TEXTURE_FILTER_BIAS_SGIX 33145
+     * #define GL_QUERY_RESULT_NO_WAIT 37268
      * }
      */
-    public static int GL_POST_TEXTURE_FILTER_BIAS_SGIX() {
-        return GL_POST_TEXTURE_FILTER_BIAS_SGIX;
+    public static int GL_QUERY_RESULT_NO_WAIT() {
+        return GL_QUERY_RESULT_NO_WAIT;
     }
-    private static final int GL_POST_TEXTURE_FILTER_SCALE_SGIX = (int)33146L;
+    private static final int GL_MIRROR_CLAMP_TO_EDGE = (int)34627L;
     /**
      * {@snippet lang=c :
-     * #define GL_POST_TEXTURE_FILTER_SCALE_SGIX 33146
+     * #define GL_MIRROR_CLAMP_TO_EDGE 34627
      * }
      */
-    public static int GL_POST_TEXTURE_FILTER_SCALE_SGIX() {
-        return GL_POST_TEXTURE_FILTER_SCALE_SGIX;
+    public static int GL_MIRROR_CLAMP_TO_EDGE() {
+        return GL_MIRROR_CLAMP_TO_EDGE;
     }
-    private static final int GL_POST_TEXTURE_FILTER_BIAS_RANGE_SGIX = (int)33147L;
+    private static final int GL_VERSION_4_5 = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_POST_TEXTURE_FILTER_BIAS_RANGE_SGIX 33147
+     * #define GL_VERSION_4_5 1
      * }
      */
-    public static int GL_POST_TEXTURE_FILTER_BIAS_RANGE_SGIX() {
-        return GL_POST_TEXTURE_FILTER_BIAS_RANGE_SGIX;
+    public static int GL_VERSION_4_5() {
+        return GL_VERSION_4_5;
     }
-    private static final int GL_POST_TEXTURE_FILTER_SCALE_RANGE_SGIX = (int)33148L;
+    private static final int GL_CONTEXT_LOST = (int)1287L;
     /**
      * {@snippet lang=c :
-     * #define GL_POST_TEXTURE_FILTER_SCALE_RANGE_SGIX 33148
+     * #define GL_CONTEXT_LOST 1287
      * }
      */
-    public static int GL_POST_TEXTURE_FILTER_SCALE_RANGE_SGIX() {
-        return GL_POST_TEXTURE_FILTER_SCALE_RANGE_SGIX;
+    public static int GL_CONTEXT_LOST() {
+        return GL_CONTEXT_LOST;
     }
-    private static final int GL_SGIX_vertex_preclip = (int)1L;
+    private static final int GL_NEGATIVE_ONE_TO_ONE = (int)37726L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_vertex_preclip 1
+     * #define GL_NEGATIVE_ONE_TO_ONE 37726
      * }
      */
-    public static int GL_SGIX_vertex_preclip() {
-        return GL_SGIX_vertex_preclip;
+    public static int GL_NEGATIVE_ONE_TO_ONE() {
+        return GL_NEGATIVE_ONE_TO_ONE;
     }
-    private static final int GL_VERTEX_PRECLIP_SGIX = (int)33774L;
+    private static final int GL_ZERO_TO_ONE = (int)37727L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_PRECLIP_SGIX 33774
+     * #define GL_ZERO_TO_ONE 37727
      * }
      */
-    public static int GL_VERTEX_PRECLIP_SGIX() {
-        return GL_VERTEX_PRECLIP_SGIX;
+    public static int GL_ZERO_TO_ONE() {
+        return GL_ZERO_TO_ONE;
     }
-    private static final int GL_VERTEX_PRECLIP_HINT_SGIX = (int)33775L;
+    private static final int GL_CLIP_ORIGIN = (int)37724L;
     /**
      * {@snippet lang=c :
-     * #define GL_VERTEX_PRECLIP_HINT_SGIX 33775
+     * #define GL_CLIP_ORIGIN 37724
      * }
      */
-    public static int GL_VERTEX_PRECLIP_HINT_SGIX() {
-        return GL_VERTEX_PRECLIP_HINT_SGIX;
+    public static int GL_CLIP_ORIGIN() {
+        return GL_CLIP_ORIGIN;
     }
-    private static final int GL_SGIX_ycrcb = (int)1L;
+    private static final int GL_CLIP_DEPTH_MODE = (int)37725L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_ycrcb 1
+     * #define GL_CLIP_DEPTH_MODE 37725
      * }
      */
-    public static int GL_SGIX_ycrcb() {
-        return GL_SGIX_ycrcb;
+    public static int GL_CLIP_DEPTH_MODE() {
+        return GL_CLIP_DEPTH_MODE;
     }
-    private static final int GL_YCRCB_422_SGIX = (int)33211L;
+    private static final int GL_QUERY_WAIT_INVERTED = (int)36375L;
     /**
      * {@snippet lang=c :
-     * #define GL_YCRCB_422_SGIX 33211
+     * #define GL_QUERY_WAIT_INVERTED 36375
      * }
      */
-    public static int GL_YCRCB_422_SGIX() {
-        return GL_YCRCB_422_SGIX;
+    public static int GL_QUERY_WAIT_INVERTED() {
+        return GL_QUERY_WAIT_INVERTED;
     }
-    private static final int GL_YCRCB_444_SGIX = (int)33212L;
+    private static final int GL_QUERY_NO_WAIT_INVERTED = (int)36376L;
     /**
      * {@snippet lang=c :
-     * #define GL_YCRCB_444_SGIX 33212
+     * #define GL_QUERY_NO_WAIT_INVERTED 36376
      * }
      */
-    public static int GL_YCRCB_444_SGIX() {
-        return GL_YCRCB_444_SGIX;
+    public static int GL_QUERY_NO_WAIT_INVERTED() {
+        return GL_QUERY_NO_WAIT_INVERTED;
     }
-    private static final int GL_SGIX_ycrcb_subsample = (int)1L;
+    private static final int GL_QUERY_BY_REGION_WAIT_INVERTED = (int)36377L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_ycrcb_subsample 1
+     * #define GL_QUERY_BY_REGION_WAIT_INVERTED 36377
      * }
      */
-    public static int GL_SGIX_ycrcb_subsample() {
-        return GL_SGIX_ycrcb_subsample;
+    public static int GL_QUERY_BY_REGION_WAIT_INVERTED() {
+        return GL_QUERY_BY_REGION_WAIT_INVERTED;
     }
-    private static final int GL_SGIX_ycrcba = (int)1L;
+    private static final int GL_QUERY_BY_REGION_NO_WAIT_INVERTED = (int)36378L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGIX_ycrcba 1
+     * #define GL_QUERY_BY_REGION_NO_WAIT_INVERTED 36378
      * }
      */
-    public static int GL_SGIX_ycrcba() {
-        return GL_SGIX_ycrcba;
+    public static int GL_QUERY_BY_REGION_NO_WAIT_INVERTED() {
+        return GL_QUERY_BY_REGION_NO_WAIT_INVERTED;
     }
-    private static final int GL_YCRCB_SGIX = (int)33560L;
+    private static final int GL_MAX_CULL_DISTANCES = (int)33529L;
     /**
      * {@snippet lang=c :
-     * #define GL_YCRCB_SGIX 33560
+     * #define GL_MAX_CULL_DISTANCES 33529
      * }
      */
-    public static int GL_YCRCB_SGIX() {
-        return GL_YCRCB_SGIX;
+    public static int GL_MAX_CULL_DISTANCES() {
+        return GL_MAX_CULL_DISTANCES;
     }
-    private static final int GL_YCRCBA_SGIX = (int)33561L;
+    private static final int GL_MAX_COMBINED_CLIP_AND_CULL_DISTANCES = (int)33530L;
     /**
      * {@snippet lang=c :
-     * #define GL_YCRCBA_SGIX 33561
+     * #define GL_MAX_COMBINED_CLIP_AND_CULL_DISTANCES 33530
      * }
      */
-    public static int GL_YCRCBA_SGIX() {
-        return GL_YCRCBA_SGIX;
+    public static int GL_MAX_COMBINED_CLIP_AND_CULL_DISTANCES() {
+        return GL_MAX_COMBINED_CLIP_AND_CULL_DISTANCES;
     }
-    private static final int GL_SGI_color_matrix = (int)1L;
+    private static final int GL_TEXTURE_TARGET = (int)4102L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGI_color_matrix 1
+     * #define GL_TEXTURE_TARGET 4102
      * }
      */
-    public static int GL_SGI_color_matrix() {
-        return GL_SGI_color_matrix;
+    public static int GL_TEXTURE_TARGET() {
+        return GL_TEXTURE_TARGET;
     }
-    private static final int GL_COLOR_MATRIX_SGI = (int)32945L;
+    private static final int GL_QUERY_TARGET = (int)33514L;
     /**
      * {@snippet lang=c :
-     * #define GL_COLOR_MATRIX_SGI 32945
+     * #define GL_QUERY_TARGET 33514
      * }
      */
-    public static int GL_COLOR_MATRIX_SGI() {
-        return GL_COLOR_MATRIX_SGI;
+    public static int GL_QUERY_TARGET() {
+        return GL_QUERY_TARGET;
     }
-    private static final int GL_COLOR_MATRIX_STACK_DEPTH_SGI = (int)32946L;
+    private static final int GL_GUILTY_CONTEXT_RESET = (int)33363L;
     /**
      * {@snippet lang=c :
-     * #define GL_COLOR_MATRIX_STACK_DEPTH_SGI 32946
+     * #define GL_GUILTY_CONTEXT_RESET 33363
      * }
      */
-    public static int GL_COLOR_MATRIX_STACK_DEPTH_SGI() {
-        return GL_COLOR_MATRIX_STACK_DEPTH_SGI;
+    public static int GL_GUILTY_CONTEXT_RESET() {
+        return GL_GUILTY_CONTEXT_RESET;
     }
-    private static final int GL_MAX_COLOR_MATRIX_STACK_DEPTH_SGI = (int)32947L;
+    private static final int GL_INNOCENT_CONTEXT_RESET = (int)33364L;
     /**
      * {@snippet lang=c :
-     * #define GL_MAX_COLOR_MATRIX_STACK_DEPTH_SGI 32947
+     * #define GL_INNOCENT_CONTEXT_RESET 33364
      * }
      */
-    public static int GL_MAX_COLOR_MATRIX_STACK_DEPTH_SGI() {
-        return GL_MAX_COLOR_MATRIX_STACK_DEPTH_SGI;
+    public static int GL_INNOCENT_CONTEXT_RESET() {
+        return GL_INNOCENT_CONTEXT_RESET;
     }
-    private static final int GL_POST_COLOR_MATRIX_RED_SCALE_SGI = (int)32948L;
+    private static final int GL_UNKNOWN_CONTEXT_RESET = (int)33365L;
     /**
      * {@snippet lang=c :
-     * #define GL_POST_COLOR_MATRIX_RED_SCALE_SGI 32948
+     * #define GL_UNKNOWN_CONTEXT_RESET 33365
      * }
      */
-    public static int GL_POST_COLOR_MATRIX_RED_SCALE_SGI() {
-        return GL_POST_COLOR_MATRIX_RED_SCALE_SGI;
+    public static int GL_UNKNOWN_CONTEXT_RESET() {
+        return GL_UNKNOWN_CONTEXT_RESET;
     }
-    private static final int GL_POST_COLOR_MATRIX_GREEN_SCALE_SGI = (int)32949L;
+    private static final int GL_RESET_NOTIFICATION_STRATEGY = (int)33366L;
     /**
      * {@snippet lang=c :
-     * #define GL_POST_COLOR_MATRIX_GREEN_SCALE_SGI 32949
+     * #define GL_RESET_NOTIFICATION_STRATEGY 33366
      * }
      */
-    public static int GL_POST_COLOR_MATRIX_GREEN_SCALE_SGI() {
-        return GL_POST_COLOR_MATRIX_GREEN_SCALE_SGI;
+    public static int GL_RESET_NOTIFICATION_STRATEGY() {
+        return GL_RESET_NOTIFICATION_STRATEGY;
     }
-    private static final int GL_POST_COLOR_MATRIX_BLUE_SCALE_SGI = (int)32950L;
+    private static final int GL_LOSE_CONTEXT_ON_RESET = (int)33362L;
     /**
      * {@snippet lang=c :
-     * #define GL_POST_COLOR_MATRIX_BLUE_SCALE_SGI 32950
+     * #define GL_LOSE_CONTEXT_ON_RESET 33362
      * }
      */
-    public static int GL_POST_COLOR_MATRIX_BLUE_SCALE_SGI() {
-        return GL_POST_COLOR_MATRIX_BLUE_SCALE_SGI;
+    public static int GL_LOSE_CONTEXT_ON_RESET() {
+        return GL_LOSE_CONTEXT_ON_RESET;
     }
-    private static final int GL_POST_COLOR_MATRIX_ALPHA_SCALE_SGI = (int)32951L;
+    private static final int GL_NO_RESET_NOTIFICATION = (int)33377L;
     /**
      * {@snippet lang=c :
-     * #define GL_POST_COLOR_MATRIX_ALPHA_SCALE_SGI 32951
+     * #define GL_NO_RESET_NOTIFICATION 33377
      * }
      */
-    public static int GL_POST_COLOR_MATRIX_ALPHA_SCALE_SGI() {
-        return GL_POST_COLOR_MATRIX_ALPHA_SCALE_SGI;
+    public static int GL_NO_RESET_NOTIFICATION() {
+        return GL_NO_RESET_NOTIFICATION;
     }
-    private static final int GL_POST_COLOR_MATRIX_RED_BIAS_SGI = (int)32952L;
+    private static final int GL_CONTEXT_FLAG_ROBUST_ACCESS_BIT = (int)4L;
     /**
      * {@snippet lang=c :
-     * #define GL_POST_COLOR_MATRIX_RED_BIAS_SGI 32952
+     * #define GL_CONTEXT_FLAG_ROBUST_ACCESS_BIT 4
      * }
      */
-    public static int GL_POST_COLOR_MATRIX_RED_BIAS_SGI() {
-        return GL_POST_COLOR_MATRIX_RED_BIAS_SGI;
+    public static int GL_CONTEXT_FLAG_ROBUST_ACCESS_BIT() {
+        return GL_CONTEXT_FLAG_ROBUST_ACCESS_BIT;
     }
-    private static final int GL_POST_COLOR_MATRIX_GREEN_BIAS_SGI = (int)32953L;
+    private static final int GL_CONTEXT_RELEASE_BEHAVIOR = (int)33531L;
     /**
      * {@snippet lang=c :
-     * #define GL_POST_COLOR_MATRIX_GREEN_BIAS_SGI 32953
+     * #define GL_CONTEXT_RELEASE_BEHAVIOR 33531
      * }
      */
-    public static int GL_POST_COLOR_MATRIX_GREEN_BIAS_SGI() {
-        return GL_POST_COLOR_MATRIX_GREEN_BIAS_SGI;
+    public static int GL_CONTEXT_RELEASE_BEHAVIOR() {
+        return GL_CONTEXT_RELEASE_BEHAVIOR;
     }
-    private static final int GL_POST_COLOR_MATRIX_BLUE_BIAS_SGI = (int)32954L;
+    private static final int GL_CONTEXT_RELEASE_BEHAVIOR_FLUSH = (int)33532L;
     /**
      * {@snippet lang=c :
-     * #define GL_POST_COLOR_MATRIX_BLUE_BIAS_SGI 32954
+     * #define GL_CONTEXT_RELEASE_BEHAVIOR_FLUSH 33532
      * }
      */
-    public static int GL_POST_COLOR_MATRIX_BLUE_BIAS_SGI() {
-        return GL_POST_COLOR_MATRIX_BLUE_BIAS_SGI;
+    public static int GL_CONTEXT_RELEASE_BEHAVIOR_FLUSH() {
+        return GL_CONTEXT_RELEASE_BEHAVIOR_FLUSH;
     }
-    private static final int GL_POST_COLOR_MATRIX_ALPHA_BIAS_SGI = (int)32955L;
+    private static final int GL_VERSION_4_6 = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_POST_COLOR_MATRIX_ALPHA_BIAS_SGI 32955
+     * #define GL_VERSION_4_6 1
      * }
      */
-    public static int GL_POST_COLOR_MATRIX_ALPHA_BIAS_SGI() {
-        return GL_POST_COLOR_MATRIX_ALPHA_BIAS_SGI;
+    public static int GL_VERSION_4_6() {
+        return GL_VERSION_4_6;
     }
-    private static final int GL_SGI_color_table = (int)1L;
+    private static final int GL_SHADER_BINARY_FORMAT_SPIR_V = (int)38225L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGI_color_table 1
+     * #define GL_SHADER_BINARY_FORMAT_SPIR_V 38225
      * }
      */
-    public static int GL_SGI_color_table() {
-        return GL_SGI_color_table;
+    public static int GL_SHADER_BINARY_FORMAT_SPIR_V() {
+        return GL_SHADER_BINARY_FORMAT_SPIR_V;
     }
-    private static final int GL_COLOR_TABLE_SGI = (int)32976L;
+    private static final int GL_SPIR_V_BINARY = (int)38226L;
     /**
      * {@snippet lang=c :
-     * #define GL_COLOR_TABLE_SGI 32976
+     * #define GL_SPIR_V_BINARY 38226
      * }
      */
-    public static int GL_COLOR_TABLE_SGI() {
-        return GL_COLOR_TABLE_SGI;
+    public static int GL_SPIR_V_BINARY() {
+        return GL_SPIR_V_BINARY;
     }
-    private static final int GL_POST_CONVOLUTION_COLOR_TABLE_SGI = (int)32977L;
+    private static final int GL_PARAMETER_BUFFER = (int)33006L;
     /**
      * {@snippet lang=c :
-     * #define GL_POST_CONVOLUTION_COLOR_TABLE_SGI 32977
+     * #define GL_PARAMETER_BUFFER 33006
      * }
      */
-    public static int GL_POST_CONVOLUTION_COLOR_TABLE_SGI() {
-        return GL_POST_CONVOLUTION_COLOR_TABLE_SGI;
+    public static int GL_PARAMETER_BUFFER() {
+        return GL_PARAMETER_BUFFER;
     }
-    private static final int GL_POST_COLOR_MATRIX_COLOR_TABLE_SGI = (int)32978L;
+    private static final int GL_PARAMETER_BUFFER_BINDING = (int)33007L;
     /**
      * {@snippet lang=c :
-     * #define GL_POST_COLOR_MATRIX_COLOR_TABLE_SGI 32978
+     * #define GL_PARAMETER_BUFFER_BINDING 33007
      * }
      */
-    public static int GL_POST_COLOR_MATRIX_COLOR_TABLE_SGI() {
-        return GL_POST_COLOR_MATRIX_COLOR_TABLE_SGI;
+    public static int GL_PARAMETER_BUFFER_BINDING() {
+        return GL_PARAMETER_BUFFER_BINDING;
     }
-    private static final int GL_PROXY_COLOR_TABLE_SGI = (int)32979L;
+    private static final int GL_CONTEXT_FLAG_NO_ERROR_BIT = (int)8L;
     /**
      * {@snippet lang=c :
-     * #define GL_PROXY_COLOR_TABLE_SGI 32979
+     * #define GL_CONTEXT_FLAG_NO_ERROR_BIT 8
      * }
      */
-    public static int GL_PROXY_COLOR_TABLE_SGI() {
-        return GL_PROXY_COLOR_TABLE_SGI;
+    public static int GL_CONTEXT_FLAG_NO_ERROR_BIT() {
+        return GL_CONTEXT_FLAG_NO_ERROR_BIT;
     }
-    private static final int GL_PROXY_POST_CONVOLUTION_COLOR_TABLE_SGI = (int)32980L;
+    private static final int GL_VERTICES_SUBMITTED = (int)33518L;
     /**
      * {@snippet lang=c :
-     * #define GL_PROXY_POST_CONVOLUTION_COLOR_TABLE_SGI 32980
+     * #define GL_VERTICES_SUBMITTED 33518
      * }
      */
-    public static int GL_PROXY_POST_CONVOLUTION_COLOR_TABLE_SGI() {
-        return GL_PROXY_POST_CONVOLUTION_COLOR_TABLE_SGI;
+    public static int GL_VERTICES_SUBMITTED() {
+        return GL_VERTICES_SUBMITTED;
     }
-    private static final int GL_PROXY_POST_COLOR_MATRIX_COLOR_TABLE_SGI = (int)32981L;
+    private static final int GL_PRIMITIVES_SUBMITTED = (int)33519L;
     /**
      * {@snippet lang=c :
-     * #define GL_PROXY_POST_COLOR_MATRIX_COLOR_TABLE_SGI 32981
+     * #define GL_PRIMITIVES_SUBMITTED 33519
      * }
      */
-    public static int GL_PROXY_POST_COLOR_MATRIX_COLOR_TABLE_SGI() {
-        return GL_PROXY_POST_COLOR_MATRIX_COLOR_TABLE_SGI;
+    public static int GL_PRIMITIVES_SUBMITTED() {
+        return GL_PRIMITIVES_SUBMITTED;
     }
-    private static final int GL_COLOR_TABLE_SCALE_SGI = (int)32982L;
+    private static final int GL_VERTEX_SHADER_INVOCATIONS = (int)33520L;
     /**
      * {@snippet lang=c :
-     * #define GL_COLOR_TABLE_SCALE_SGI 32982
+     * #define GL_VERTEX_SHADER_INVOCATIONS 33520
      * }
      */
-    public static int GL_COLOR_TABLE_SCALE_SGI() {
-        return GL_COLOR_TABLE_SCALE_SGI;
+    public static int GL_VERTEX_SHADER_INVOCATIONS() {
+        return GL_VERTEX_SHADER_INVOCATIONS;
     }
-    private static final int GL_COLOR_TABLE_BIAS_SGI = (int)32983L;
+    private static final int GL_TESS_CONTROL_SHADER_PATCHES = (int)33521L;
     /**
      * {@snippet lang=c :
-     * #define GL_COLOR_TABLE_BIAS_SGI 32983
+     * #define GL_TESS_CONTROL_SHADER_PATCHES 33521
      * }
      */
-    public static int GL_COLOR_TABLE_BIAS_SGI() {
-        return GL_COLOR_TABLE_BIAS_SGI;
+    public static int GL_TESS_CONTROL_SHADER_PATCHES() {
+        return GL_TESS_CONTROL_SHADER_PATCHES;
     }
-    private static final int GL_COLOR_TABLE_FORMAT_SGI = (int)32984L;
+    private static final int GL_TESS_EVALUATION_SHADER_INVOCATIONS = (int)33522L;
     /**
      * {@snippet lang=c :
-     * #define GL_COLOR_TABLE_FORMAT_SGI 32984
+     * #define GL_TESS_EVALUATION_SHADER_INVOCATIONS 33522
      * }
      */
-    public static int GL_COLOR_TABLE_FORMAT_SGI() {
-        return GL_COLOR_TABLE_FORMAT_SGI;
+    public static int GL_TESS_EVALUATION_SHADER_INVOCATIONS() {
+        return GL_TESS_EVALUATION_SHADER_INVOCATIONS;
     }
-    private static final int GL_COLOR_TABLE_WIDTH_SGI = (int)32985L;
+    private static final int GL_GEOMETRY_SHADER_PRIMITIVES_EMITTED = (int)33523L;
     /**
      * {@snippet lang=c :
-     * #define GL_COLOR_TABLE_WIDTH_SGI 32985
+     * #define GL_GEOMETRY_SHADER_PRIMITIVES_EMITTED 33523
      * }
      */
-    public static int GL_COLOR_TABLE_WIDTH_SGI() {
-        return GL_COLOR_TABLE_WIDTH_SGI;
+    public static int GL_GEOMETRY_SHADER_PRIMITIVES_EMITTED() {
+        return GL_GEOMETRY_SHADER_PRIMITIVES_EMITTED;
     }
-    private static final int GL_COLOR_TABLE_RED_SIZE_SGI = (int)32986L;
+    private static final int GL_FRAGMENT_SHADER_INVOCATIONS = (int)33524L;
     /**
      * {@snippet lang=c :
-     * #define GL_COLOR_TABLE_RED_SIZE_SGI 32986
+     * #define GL_FRAGMENT_SHADER_INVOCATIONS 33524
      * }
      */
-    public static int GL_COLOR_TABLE_RED_SIZE_SGI() {
-        return GL_COLOR_TABLE_RED_SIZE_SGI;
+    public static int GL_FRAGMENT_SHADER_INVOCATIONS() {
+        return GL_FRAGMENT_SHADER_INVOCATIONS;
     }
-    private static final int GL_COLOR_TABLE_GREEN_SIZE_SGI = (int)32987L;
+    private static final int GL_COMPUTE_SHADER_INVOCATIONS = (int)33525L;
     /**
      * {@snippet lang=c :
-     * #define GL_COLOR_TABLE_GREEN_SIZE_SGI 32987
+     * #define GL_COMPUTE_SHADER_INVOCATIONS 33525
      * }
      */
-    public static int GL_COLOR_TABLE_GREEN_SIZE_SGI() {
-        return GL_COLOR_TABLE_GREEN_SIZE_SGI;
+    public static int GL_COMPUTE_SHADER_INVOCATIONS() {
+        return GL_COMPUTE_SHADER_INVOCATIONS;
     }
-    private static final int GL_COLOR_TABLE_BLUE_SIZE_SGI = (int)32988L;
+    private static final int GL_CLIPPING_INPUT_PRIMITIVES = (int)33526L;
     /**
      * {@snippet lang=c :
-     * #define GL_COLOR_TABLE_BLUE_SIZE_SGI 32988
+     * #define GL_CLIPPING_INPUT_PRIMITIVES 33526
      * }
      */
-    public static int GL_COLOR_TABLE_BLUE_SIZE_SGI() {
-        return GL_COLOR_TABLE_BLUE_SIZE_SGI;
+    public static int GL_CLIPPING_INPUT_PRIMITIVES() {
+        return GL_CLIPPING_INPUT_PRIMITIVES;
     }
-    private static final int GL_COLOR_TABLE_ALPHA_SIZE_SGI = (int)32989L;
+    private static final int GL_CLIPPING_OUTPUT_PRIMITIVES = (int)33527L;
     /**
      * {@snippet lang=c :
-     * #define GL_COLOR_TABLE_ALPHA_SIZE_SGI 32989
+     * #define GL_CLIPPING_OUTPUT_PRIMITIVES 33527
      * }
      */
-    public static int GL_COLOR_TABLE_ALPHA_SIZE_SGI() {
-        return GL_COLOR_TABLE_ALPHA_SIZE_SGI;
+    public static int GL_CLIPPING_OUTPUT_PRIMITIVES() {
+        return GL_CLIPPING_OUTPUT_PRIMITIVES;
     }
-    private static final int GL_COLOR_TABLE_LUMINANCE_SIZE_SGI = (int)32990L;
+    private static final int GL_POLYGON_OFFSET_CLAMP = (int)36379L;
     /**
      * {@snippet lang=c :
-     * #define GL_COLOR_TABLE_LUMINANCE_SIZE_SGI 32990
+     * #define GL_POLYGON_OFFSET_CLAMP 36379
      * }
      */
-    public static int GL_COLOR_TABLE_LUMINANCE_SIZE_SGI() {
-        return GL_COLOR_TABLE_LUMINANCE_SIZE_SGI;
+    public static int GL_POLYGON_OFFSET_CLAMP() {
+        return GL_POLYGON_OFFSET_CLAMP;
     }
-    private static final int GL_COLOR_TABLE_INTENSITY_SIZE_SGI = (int)32991L;
+    private static final int GL_SPIR_V_EXTENSIONS = (int)38227L;
     /**
      * {@snippet lang=c :
-     * #define GL_COLOR_TABLE_INTENSITY_SIZE_SGI 32991
+     * #define GL_SPIR_V_EXTENSIONS 38227
      * }
      */
-    public static int GL_COLOR_TABLE_INTENSITY_SIZE_SGI() {
-        return GL_COLOR_TABLE_INTENSITY_SIZE_SGI;
+    public static int GL_SPIR_V_EXTENSIONS() {
+        return GL_SPIR_V_EXTENSIONS;
     }
-    private static final int GL_SGI_texture_color_table = (int)1L;
+    private static final int GL_NUM_SPIR_V_EXTENSIONS = (int)38228L;
     /**
      * {@snippet lang=c :
-     * #define GL_SGI_texture_color_table 1
+     * #define GL_NUM_SPIR_V_EXTENSIONS 38228
      * }
      */
-    public static int GL_SGI_texture_color_table() {
-        return GL_SGI_texture_color_table;
+    public static int GL_NUM_SPIR_V_EXTENSIONS() {
+        return GL_NUM_SPIR_V_EXTENSIONS;
     }
-    private static final int GL_TEXTURE_COLOR_TABLE_SGI = (int)32956L;
+    private static final int GL_TEXTURE_MAX_ANISOTROPY = (int)34046L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_COLOR_TABLE_SGI 32956
+     * #define GL_TEXTURE_MAX_ANISOTROPY 34046
      * }
      */
-    public static int GL_TEXTURE_COLOR_TABLE_SGI() {
-        return GL_TEXTURE_COLOR_TABLE_SGI;
+    public static int GL_TEXTURE_MAX_ANISOTROPY() {
+        return GL_TEXTURE_MAX_ANISOTROPY;
     }
-    private static final int GL_PROXY_TEXTURE_COLOR_TABLE_SGI = (int)32957L;
+    private static final int GL_MAX_TEXTURE_MAX_ANISOTROPY = (int)34047L;
     /**
      * {@snippet lang=c :
-     * #define GL_PROXY_TEXTURE_COLOR_TABLE_SGI 32957
+     * #define GL_MAX_TEXTURE_MAX_ANISOTROPY 34047
      * }
      */
-    public static int GL_PROXY_TEXTURE_COLOR_TABLE_SGI() {
-        return GL_PROXY_TEXTURE_COLOR_TABLE_SGI;
+    public static int GL_MAX_TEXTURE_MAX_ANISOTROPY() {
+        return GL_MAX_TEXTURE_MAX_ANISOTROPY;
     }
-    private static final int GL_SUNX_constant_data = (int)1L;
+    private static final int GL_TRANSFORM_FEEDBACK_OVERFLOW = (int)33516L;
     /**
      * {@snippet lang=c :
-     * #define GL_SUNX_constant_data 1
+     * #define GL_TRANSFORM_FEEDBACK_OVERFLOW 33516
      * }
      */
-    public static int GL_SUNX_constant_data() {
-        return GL_SUNX_constant_data;
+    public static int GL_TRANSFORM_FEEDBACK_OVERFLOW() {
+        return GL_TRANSFORM_FEEDBACK_OVERFLOW;
     }
-    private static final int GL_UNPACK_CONSTANT_DATA_SUNX = (int)33237L;
+    private static final int GL_TRANSFORM_FEEDBACK_STREAM_OVERFLOW = (int)33517L;
     /**
      * {@snippet lang=c :
-     * #define GL_UNPACK_CONSTANT_DATA_SUNX 33237
+     * #define GL_TRANSFORM_FEEDBACK_STREAM_OVERFLOW 33517
      * }
      */
-    public static int GL_UNPACK_CONSTANT_DATA_SUNX() {
-        return GL_UNPACK_CONSTANT_DATA_SUNX;
+    public static int GL_TRANSFORM_FEEDBACK_STREAM_OVERFLOW() {
+        return GL_TRANSFORM_FEEDBACK_STREAM_OVERFLOW;
     }
-    private static final int GL_TEXTURE_CONSTANT_DATA_SUNX = (int)33238L;
+    private static final int GL_ARB_ES2_compatibility = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_TEXTURE_CONSTANT_DATA_SUNX 33238
+     * #define GL_ARB_ES2_compatibility 1
      * }
      */
-    public static int GL_TEXTURE_CONSTANT_DATA_SUNX() {
-        return GL_TEXTURE_CONSTANT_DATA_SUNX;
+    public static int GL_ARB_ES2_compatibility() {
+        return GL_ARB_ES2_compatibility;
     }
-    private static final int GL_SUN_convolution_border_modes = (int)1L;
+    private static final int GL_ARB_ES3_1_compatibility = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_SUN_convolution_border_modes 1
+     * #define GL_ARB_ES3_1_compatibility 1
      * }
      */
-    public static int GL_SUN_convolution_border_modes() {
-        return GL_SUN_convolution_border_modes;
+    public static int GL_ARB_ES3_1_compatibility() {
+        return GL_ARB_ES3_1_compatibility;
     }
-    private static final int GL_WRAP_BORDER_SUN = (int)33236L;
+    private static final int GL_ARB_ES3_2_compatibility = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_WRAP_BORDER_SUN 33236
+     * #define GL_ARB_ES3_2_compatibility 1
      * }
      */
-    public static int GL_WRAP_BORDER_SUN() {
-        return GL_WRAP_BORDER_SUN;
+    public static int GL_ARB_ES3_2_compatibility() {
+        return GL_ARB_ES3_2_compatibility;
     }
-    private static final int GL_SUN_global_alpha = (int)1L;
+    private static final int GL_PRIMITIVE_BOUNDING_BOX_ARB = (int)37566L;
     /**
      * {@snippet lang=c :
-     * #define GL_SUN_global_alpha 1
+     * #define GL_PRIMITIVE_BOUNDING_BOX_ARB 37566
      * }
      */
-    public static int GL_SUN_global_alpha() {
-        return GL_SUN_global_alpha;
+    public static int GL_PRIMITIVE_BOUNDING_BOX_ARB() {
+        return GL_PRIMITIVE_BOUNDING_BOX_ARB;
     }
-    private static final int GL_GLOBAL_ALPHA_SUN = (int)33241L;
+    private static final int GL_MULTISAMPLE_LINE_WIDTH_RANGE_ARB = (int)37761L;
     /**
      * {@snippet lang=c :
-     * #define GL_GLOBAL_ALPHA_SUN 33241
+     * #define GL_MULTISAMPLE_LINE_WIDTH_RANGE_ARB 37761
      * }
      */
-    public static int GL_GLOBAL_ALPHA_SUN() {
-        return GL_GLOBAL_ALPHA_SUN;
+    public static int GL_MULTISAMPLE_LINE_WIDTH_RANGE_ARB() {
+        return GL_MULTISAMPLE_LINE_WIDTH_RANGE_ARB;
     }
-    private static final int GL_GLOBAL_ALPHA_FACTOR_SUN = (int)33242L;
+    private static final int GL_MULTISAMPLE_LINE_WIDTH_GRANULARITY_ARB = (int)37762L;
     /**
      * {@snippet lang=c :
-     * #define GL_GLOBAL_ALPHA_FACTOR_SUN 33242
+     * #define GL_MULTISAMPLE_LINE_WIDTH_GRANULARITY_ARB 37762
      * }
      */
-    public static int GL_GLOBAL_ALPHA_FACTOR_SUN() {
-        return GL_GLOBAL_ALPHA_FACTOR_SUN;
+    public static int GL_MULTISAMPLE_LINE_WIDTH_GRANULARITY_ARB() {
+        return GL_MULTISAMPLE_LINE_WIDTH_GRANULARITY_ARB;
     }
-    private static final int GL_SUN_mesh_array = (int)1L;
+    private static final int GL_ARB_ES3_compatibility = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_SUN_mesh_array 1
+     * #define GL_ARB_ES3_compatibility 1
      * }
      */
-    public static int GL_SUN_mesh_array() {
-        return GL_SUN_mesh_array;
+    public static int GL_ARB_ES3_compatibility() {
+        return GL_ARB_ES3_compatibility;
     }
-    private static final int GL_QUAD_MESH_SUN = (int)34324L;
+    private static final int GL_ARB_arrays_of_arrays = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_QUAD_MESH_SUN 34324
+     * #define GL_ARB_arrays_of_arrays 1
      * }
      */
-    public static int GL_QUAD_MESH_SUN() {
-        return GL_QUAD_MESH_SUN;
+    public static int GL_ARB_arrays_of_arrays() {
+        return GL_ARB_arrays_of_arrays;
     }
-    private static final int GL_TRIANGLE_MESH_SUN = (int)34325L;
+    private static final int GL_ARB_base_instance = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_TRIANGLE_MESH_SUN 34325
+     * #define GL_ARB_base_instance 1
      * }
      */
-    public static int GL_TRIANGLE_MESH_SUN() {
-        return GL_TRIANGLE_MESH_SUN;
+    public static int GL_ARB_base_instance() {
+        return GL_ARB_base_instance;
     }
-    private static final int GL_SUN_slice_accum = (int)1L;
+    private static final int GL_ARB_bindless_texture = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_SUN_slice_accum 1
+     * #define GL_ARB_bindless_texture 1
      * }
      */
-    public static int GL_SUN_slice_accum() {
-        return GL_SUN_slice_accum;
+    public static int GL_ARB_bindless_texture() {
+        return GL_ARB_bindless_texture;
     }
-    private static final int GL_SLICE_ACCUM_SUN = (int)34252L;
+    private static final int GL_UNSIGNED_INT64_ARB = (int)5135L;
     /**
      * {@snippet lang=c :
-     * #define GL_SLICE_ACCUM_SUN 34252
+     * #define GL_UNSIGNED_INT64_ARB 5135
      * }
      */
-    public static int GL_SLICE_ACCUM_SUN() {
-        return GL_SLICE_ACCUM_SUN;
+    public static int GL_UNSIGNED_INT64_ARB() {
+        return GL_UNSIGNED_INT64_ARB;
     }
-    private static final int GL_SUN_triangle_list = (int)1L;
+    private static final int GL_ARB_blend_func_extended = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_SUN_triangle_list 1
+     * #define GL_ARB_blend_func_extended 1
      * }
      */
-    public static int GL_SUN_triangle_list() {
-        return GL_SUN_triangle_list;
+    public static int GL_ARB_blend_func_extended() {
+        return GL_ARB_blend_func_extended;
     }
-    private static final int GL_RESTART_SUN = (int)1L;
+    private static final int GL_ARB_buffer_storage = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_RESTART_SUN 1
+     * #define GL_ARB_buffer_storage 1
      * }
      */
-    public static int GL_RESTART_SUN() {
-        return GL_RESTART_SUN;
+    public static int GL_ARB_buffer_storage() {
+        return GL_ARB_buffer_storage;
     }
-    private static final int GL_REPLACE_MIDDLE_SUN = (int)2L;
+    private static final int GL_ARB_cl_event = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_REPLACE_MIDDLE_SUN 2
+     * #define GL_ARB_cl_event 1
      * }
      */
-    public static int GL_REPLACE_MIDDLE_SUN() {
-        return GL_REPLACE_MIDDLE_SUN;
+    public static int GL_ARB_cl_event() {
+        return GL_ARB_cl_event;
     }
-    private static final int GL_REPLACE_OLDEST_SUN = (int)3L;
+    private static final int GL_SYNC_CL_EVENT_ARB = (int)33344L;
     /**
      * {@snippet lang=c :
-     * #define GL_REPLACE_OLDEST_SUN 3
+     * #define GL_SYNC_CL_EVENT_ARB 33344
      * }
      */
-    public static int GL_REPLACE_OLDEST_SUN() {
-        return GL_REPLACE_OLDEST_SUN;
+    public static int GL_SYNC_CL_EVENT_ARB() {
+        return GL_SYNC_CL_EVENT_ARB;
     }
-    private static final int GL_TRIANGLE_LIST_SUN = (int)33239L;
+    private static final int GL_SYNC_CL_EVENT_COMPLETE_ARB = (int)33345L;
     /**
      * {@snippet lang=c :
-     * #define GL_TRIANGLE_LIST_SUN 33239
+     * #define GL_SYNC_CL_EVENT_COMPLETE_ARB 33345
      * }
      */
-    public static int GL_TRIANGLE_LIST_SUN() {
-        return GL_TRIANGLE_LIST_SUN;
+    public static int GL_SYNC_CL_EVENT_COMPLETE_ARB() {
+        return GL_SYNC_CL_EVENT_COMPLETE_ARB;
     }
-    private static final int GL_REPLACEMENT_CODE_SUN = (int)33240L;
+    private static final int GL_ARB_clear_buffer_object = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_REPLACEMENT_CODE_SUN 33240
+     * #define GL_ARB_clear_buffer_object 1
      * }
      */
-    public static int GL_REPLACEMENT_CODE_SUN() {
-        return GL_REPLACEMENT_CODE_SUN;
+    public static int GL_ARB_clear_buffer_object() {
+        return GL_ARB_clear_buffer_object;
     }
-    private static final int GL_REPLACEMENT_CODE_ARRAY_SUN = (int)34240L;
+    private static final int GL_ARB_clear_texture = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_REPLACEMENT_CODE_ARRAY_SUN 34240
+     * #define GL_ARB_clear_texture 1
      * }
      */
-    public static int GL_REPLACEMENT_CODE_ARRAY_SUN() {
-        return GL_REPLACEMENT_CODE_ARRAY_SUN;
+    public static int GL_ARB_clear_texture() {
+        return GL_ARB_clear_texture;
     }
-    private static final int GL_REPLACEMENT_CODE_ARRAY_TYPE_SUN = (int)34241L;
+    private static final int GL_ARB_clip_control = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_REPLACEMENT_CODE_ARRAY_TYPE_SUN 34241
+     * #define GL_ARB_clip_control 1
      * }
      */
-    public static int GL_REPLACEMENT_CODE_ARRAY_TYPE_SUN() {
-        return GL_REPLACEMENT_CODE_ARRAY_TYPE_SUN;
+    public static int GL_ARB_clip_control() {
+        return GL_ARB_clip_control;
     }
-    private static final int GL_REPLACEMENT_CODE_ARRAY_STRIDE_SUN = (int)34242L;
+    private static final int GL_ARB_color_buffer_float = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_REPLACEMENT_CODE_ARRAY_STRIDE_SUN 34242
+     * #define GL_ARB_color_buffer_float 1
      * }
      */
-    public static int GL_REPLACEMENT_CODE_ARRAY_STRIDE_SUN() {
-        return GL_REPLACEMENT_CODE_ARRAY_STRIDE_SUN;
+    public static int GL_ARB_color_buffer_float() {
+        return GL_ARB_color_buffer_float;
     }
-    private static final int GL_REPLACEMENT_CODE_ARRAY_POINTER_SUN = (int)34243L;
+    private static final int GL_RGBA_FLOAT_MODE_ARB = (int)34848L;
     /**
      * {@snippet lang=c :
-     * #define GL_REPLACEMENT_CODE_ARRAY_POINTER_SUN 34243
+     * #define GL_RGBA_FLOAT_MODE_ARB 34848
      * }
      */
-    public static int GL_REPLACEMENT_CODE_ARRAY_POINTER_SUN() {
-        return GL_REPLACEMENT_CODE_ARRAY_POINTER_SUN;
+    public static int GL_RGBA_FLOAT_MODE_ARB() {
+        return GL_RGBA_FLOAT_MODE_ARB;
     }
-    private static final int GL_R1UI_V3F_SUN = (int)34244L;
+    private static final int GL_CLAMP_VERTEX_COLOR_ARB = (int)35098L;
     /**
      * {@snippet lang=c :
-     * #define GL_R1UI_V3F_SUN 34244
+     * #define GL_CLAMP_VERTEX_COLOR_ARB 35098
      * }
      */
-    public static int GL_R1UI_V3F_SUN() {
-        return GL_R1UI_V3F_SUN;
+    public static int GL_CLAMP_VERTEX_COLOR_ARB() {
+        return GL_CLAMP_VERTEX_COLOR_ARB;
     }
-    private static final int GL_R1UI_C4UB_V3F_SUN = (int)34245L;
+    private static final int GL_CLAMP_FRAGMENT_COLOR_ARB = (int)35099L;
     /**
      * {@snippet lang=c :
-     * #define GL_R1UI_C4UB_V3F_SUN 34245
+     * #define GL_CLAMP_FRAGMENT_COLOR_ARB 35099
      * }
      */
-    public static int GL_R1UI_C4UB_V3F_SUN() {
-        return GL_R1UI_C4UB_V3F_SUN;
+    public static int GL_CLAMP_FRAGMENT_COLOR_ARB() {
+        return GL_CLAMP_FRAGMENT_COLOR_ARB;
     }
-    private static final int GL_R1UI_C3F_V3F_SUN = (int)34246L;
+    private static final int GL_CLAMP_READ_COLOR_ARB = (int)35100L;
     /**
      * {@snippet lang=c :
-     * #define GL_R1UI_C3F_V3F_SUN 34246
+     * #define GL_CLAMP_READ_COLOR_ARB 35100
      * }
      */
-    public static int GL_R1UI_C3F_V3F_SUN() {
-        return GL_R1UI_C3F_V3F_SUN;
+    public static int GL_CLAMP_READ_COLOR_ARB() {
+        return GL_CLAMP_READ_COLOR_ARB;
     }
-    private static final int GL_R1UI_N3F_V3F_SUN = (int)34247L;
+    private static final int GL_FIXED_ONLY_ARB = (int)35101L;
     /**
      * {@snippet lang=c :
-     * #define GL_R1UI_N3F_V3F_SUN 34247
+     * #define GL_FIXED_ONLY_ARB 35101
      * }
      */
-    public static int GL_R1UI_N3F_V3F_SUN() {
-        return GL_R1UI_N3F_V3F_SUN;
+    public static int GL_FIXED_ONLY_ARB() {
+        return GL_FIXED_ONLY_ARB;
     }
-    private static final int GL_R1UI_C4F_N3F_V3F_SUN = (int)34248L;
+    private static final int GL_ARB_compatibility = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_R1UI_C4F_N3F_V3F_SUN 34248
+     * #define GL_ARB_compatibility 1
      * }
      */
-    public static int GL_R1UI_C4F_N3F_V3F_SUN() {
-        return GL_R1UI_C4F_N3F_V3F_SUN;
+    public static int GL_ARB_compatibility() {
+        return GL_ARB_compatibility;
     }
-    private static final int GL_R1UI_T2F_V3F_SUN = (int)34249L;
+    private static final int GL_ARB_compressed_texture_pixel_storage = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_R1UI_T2F_V3F_SUN 34249
+     * #define GL_ARB_compressed_texture_pixel_storage 1
      * }
      */
-    public static int GL_R1UI_T2F_V3F_SUN() {
-        return GL_R1UI_T2F_V3F_SUN;
+    public static int GL_ARB_compressed_texture_pixel_storage() {
+        return GL_ARB_compressed_texture_pixel_storage;
     }
-    private static final int GL_R1UI_T2F_N3F_V3F_SUN = (int)34250L;
+    private static final int GL_ARB_compute_shader = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_R1UI_T2F_N3F_V3F_SUN 34250
+     * #define GL_ARB_compute_shader 1
      * }
      */
-    public static int GL_R1UI_T2F_N3F_V3F_SUN() {
-        return GL_R1UI_T2F_N3F_V3F_SUN;
+    public static int GL_ARB_compute_shader() {
+        return GL_ARB_compute_shader;
     }
-    private static final int GL_R1UI_T2F_C4F_N3F_V3F_SUN = (int)34251L;
+    private static final int GL_ARB_compute_variable_group_size = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_R1UI_T2F_C4F_N3F_V3F_SUN 34251
+     * #define GL_ARB_compute_variable_group_size 1
      * }
      */
-    public static int GL_R1UI_T2F_C4F_N3F_V3F_SUN() {
-        return GL_R1UI_T2F_C4F_N3F_V3F_SUN;
+    public static int GL_ARB_compute_variable_group_size() {
+        return GL_ARB_compute_variable_group_size;
     }
-    private static final int GL_SUN_vertex = (int)1L;
+    private static final int GL_MAX_COMPUTE_VARIABLE_GROUP_INVOCATIONS_ARB = (int)37700L;
     /**
      * {@snippet lang=c :
-     * #define GL_SUN_vertex 1
+     * #define GL_MAX_COMPUTE_VARIABLE_GROUP_INVOCATIONS_ARB 37700
      * }
      */
-    public static int GL_SUN_vertex() {
-        return GL_SUN_vertex;
+    public static int GL_MAX_COMPUTE_VARIABLE_GROUP_INVOCATIONS_ARB() {
+        return GL_MAX_COMPUTE_VARIABLE_GROUP_INVOCATIONS_ARB;
     }
-    private static final int GL_WIN_phong_shading = (int)1L;
+    private static final int GL_MAX_COMPUTE_FIXED_GROUP_INVOCATIONS_ARB = (int)37099L;
     /**
      * {@snippet lang=c :
-     * #define GL_WIN_phong_shading 1
+     * #define GL_MAX_COMPUTE_FIXED_GROUP_INVOCATIONS_ARB 37099
      * }
      */
-    public static int GL_WIN_phong_shading() {
-        return GL_WIN_phong_shading;
+    public static int GL_MAX_COMPUTE_FIXED_GROUP_INVOCATIONS_ARB() {
+        return GL_MAX_COMPUTE_FIXED_GROUP_INVOCATIONS_ARB;
     }
-    private static final int GL_PHONG_WIN = (int)33002L;
+    private static final int GL_MAX_COMPUTE_VARIABLE_GROUP_SIZE_ARB = (int)37701L;
     /**
      * {@snippet lang=c :
-     * #define GL_PHONG_WIN 33002
+     * #define GL_MAX_COMPUTE_VARIABLE_GROUP_SIZE_ARB 37701
      * }
      */
-    public static int GL_PHONG_WIN() {
-        return GL_PHONG_WIN;
+    public static int GL_MAX_COMPUTE_VARIABLE_GROUP_SIZE_ARB() {
+        return GL_MAX_COMPUTE_VARIABLE_GROUP_SIZE_ARB;
     }
-    private static final int GL_PHONG_HINT_WIN = (int)33003L;
+    private static final int GL_MAX_COMPUTE_FIXED_GROUP_SIZE_ARB = (int)37311L;
     /**
      * {@snippet lang=c :
-     * #define GL_PHONG_HINT_WIN 33003
+     * #define GL_MAX_COMPUTE_FIXED_GROUP_SIZE_ARB 37311
      * }
      */
-    public static int GL_PHONG_HINT_WIN() {
-        return GL_PHONG_HINT_WIN;
+    public static int GL_MAX_COMPUTE_FIXED_GROUP_SIZE_ARB() {
+        return GL_MAX_COMPUTE_FIXED_GROUP_SIZE_ARB;
     }
-    private static final int GL_WIN_specular_fog = (int)1L;
+    private static final int GL_ARB_conditional_render_inverted = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_WIN_specular_fog 1
+     * #define GL_ARB_conditional_render_inverted 1
      * }
      */
-    public static int GL_WIN_specular_fog() {
-        return GL_WIN_specular_fog;
+    public static int GL_ARB_conditional_render_inverted() {
+        return GL_ARB_conditional_render_inverted;
     }
-    private static final int GL_FOG_SPECULAR_TEXTURE_WIN = (int)33004L;
+    private static final int GL_ARB_conservative_depth = (int)1L;
     /**
      * {@snippet lang=c :
-     * #define GL_FOG_SPECULAR_TEXTURE_WIN 33004
+     * #define GL_ARB_conservative_depth 1
      * }
      */
-    public static int GL_FOG_SPECULAR_TEXTURE_WIN() {
-        return GL_FOG_SPECULAR_TEXTURE_WIN;
+    public static int GL_ARB_conservative_depth() {
+        return GL_ARB_conservative_depth;
     }
 }
 
