@@ -94,6 +94,7 @@ public class SystemCaller {
             method.invoke(systemGroup, args);
         } catch (Exception e) {
             // TODO Need to handle exceptions
+            e.printStackTrace();
         }
     }
 }
