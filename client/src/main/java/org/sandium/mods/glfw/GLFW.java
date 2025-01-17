@@ -11,7 +11,16 @@ import org.sandium.api.event.RenderFrame;
 import java.lang.foreign.Arena;
 import java.lang.foreign.MemorySegment;
 
-import static org.sandium.core.libs.glfw.glfw3_h.*;
+import static org.sandium.core.libs.glfw.glfw3_h.GLFW_CLIENT_API;
+import static org.sandium.core.libs.glfw.glfw3_h.GLFW_NO_API;
+import static org.sandium.core.libs.glfw.glfw3_h.glfwCreateWindow;
+import static org.sandium.core.libs.glfw.glfw3_h.glfwDestroyWindow;
+import static org.sandium.core.libs.glfw.glfw3_h.glfwInit;
+import static org.sandium.core.libs.glfw.glfw3_h.glfwMakeContextCurrent;
+import static org.sandium.core.libs.glfw.glfw3_h.glfwPollEvents;
+import static org.sandium.core.libs.glfw.glfw3_h.glfwTerminate;
+import static org.sandium.core.libs.glfw.glfw3_h.glfwWindowHint;
+import static org.sandium.core.libs.glfw.glfw3_h.glfwWindowShouldClose;
 
 @SystemGroup
 public class GLFW {

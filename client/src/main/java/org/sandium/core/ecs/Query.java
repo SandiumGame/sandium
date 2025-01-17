@@ -1,6 +1,11 @@
 package org.sandium.core.ecs;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 public class Query<T extends Component> {
     private final Class<T> componentType;

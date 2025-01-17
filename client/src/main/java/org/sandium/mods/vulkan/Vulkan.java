@@ -1,6 +1,7 @@
 package org.sandium.mods.vulkan;
 
 import org.sandium.api.annotation.PostConstruct;
+import org.sandium.api.annotation.PreDestroy;
 import org.sandium.api.annotation.SystemGroup;
 import org.sandium.api.annotation.Inject;
 import org.sandium.core.libs.vulkan.VkApplicationInfo;
@@ -10,11 +11,17 @@ import org.sandium.mods.glfw.GLFW;
 import java.lang.foreign.Arena;
 import java.lang.foreign.MemorySegment;
 
-import static org.sandium.core.libs.glfw.glfw3_h.*;
+import static org.sandium.core.libs.glfw.glfw3_h.GLFW_TRUE;
+import static org.sandium.core.libs.glfw.glfw3_h.glfwGetRequiredInstanceExtensions;
+import static org.sandium.core.libs.glfw.glfw3_h.glfwVulkanSupported;
 import static org.sandium.core.libs.vulkan.vulkan_h.VK_API_VERSION_1_0;
 import static org.sandium.core.libs.vulkan.vulkan_h_1.vkCreateInstance;
+import static org.sandium.core.libs.vulkan.vulkan_h_1.vkDestroyInstance;
+import static org.sandium.core.libs.vulkan.vulkan_h_3.C_INT;
+import static org.sandium.core.libs.vulkan.vulkan_h_3.C_POINTER;
 import static org.sandium.core.libs.vulkan.vulkan_h_3.VK_STRUCTURE_TYPE_APPLICATION_INFO;
 import static org.sandium.core.libs.vulkan.vulkan_h_3.VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO;
+import static org.sandium.core.libs.vulkan.vulkan_h_3.VK_SUCCESS;
 
 @SystemGroup
 public class Vulkan {
@@ -23,6 +30,13 @@ public class Vulkan {
     private GLFW glfw;
 
     // TODO Need to monitor for GLFW window
+
+    private final Arena globalArena;
+    private MemorySegment vulkanInstance;
+
+    public Vulkan() {
+        globalArena = Arena.global();
+    }
 
     @PostConstruct
     public void init() {
@@ -44,7 +58,7 @@ public class Vulkan {
 
     }
 
-    private static MemorySegment createVkInstance(Arena arena) {
+    private void createVkInstance(Arena arena) {
         MemorySegment appInfo = VkApplicationInfo.allocate(arena);
         VkApplicationInfo.sType(appInfo, VK_STRUCTURE_TYPE_APPLICATION_INFO());
         VkApplicationInfo.pApplicationName(appInfo, arena.allocateFrom("Sandium"));
@@ -63,8 +77,14 @@ public class Vulkan {
         VkInstanceCreateInfo.ppEnabledExtensionNames(createInfo, glfwExtensions);
         VkInstanceCreateInfo.enabledLayerCount(createInfo, 0);
 
-        MemorySegment instance = arena.allocate(C_POINTER, 1);
-        int result = vkCreateInstance(createInfo, MemorySegment.NULL, instance);
+        vulkanInstance = globalArena.allocate(C_POINTER, 1);
+        int result = vkCreateInstance(createInfo, MemorySegment.NULL, vulkanInstance);
+        if (result != VK_SUCCESS()) {
+            vulkanInstance = null;
+            // TODO Handle error
+            return;
+        }
+
 
         System.out.println(result);
 
@@ -107,8 +127,16 @@ public class Vulkan {
 //        }
 //
 //        return pVkInstance;
-
-        return null;
     }
+
+    @PreDestroy
+    public void terminate() {
+        if (vulkanInstance != null) {
+            vkDestroyInstance(vulkanInstance, MemorySegment.NULL);
+        }
+
+        globalArena.close();
+    }
+
 
 }
