@@ -6,6 +6,7 @@ import org.sandium.api.annotation.SystemGroup;
 import org.sandium.api.annotation.Inject;
 import org.sandium.core.libs.vulkan.VkApplicationInfo;
 import org.sandium.core.libs.vulkan.VkInstanceCreateInfo;
+import org.sandium.core.libs.vulkan.VkLayerProperties;
 import org.sandium.mods.glfw.GLFW;
 
 import java.lang.foreign.Arena;
@@ -17,6 +18,7 @@ import static org.sandium.core.libs.glfw.glfw3_h.glfwVulkanSupported;
 import static org.sandium.core.libs.vulkan.vulkan_h.VK_API_VERSION_1_0;
 import static org.sandium.core.libs.vulkan.vulkan_h_1.vkCreateInstance;
 import static org.sandium.core.libs.vulkan.vulkan_h_1.vkDestroyInstance;
+import static org.sandium.core.libs.vulkan.vulkan_h_1.vkEnumerateInstanceLayerProperties;
 import static org.sandium.core.libs.vulkan.vulkan_h_3.C_INT;
 import static org.sandium.core.libs.vulkan.vulkan_h_3.C_POINTER;
 import static org.sandium.core.libs.vulkan.vulkan_h_3.VK_STRUCTURE_TYPE_APPLICATION_INFO;
@@ -67,15 +69,35 @@ public class Vulkan {
         VkApplicationInfo.engineVersion(appInfo, 0x010000);
         VkApplicationInfo.apiVersion(appInfo, VK_API_VERSION_1_0());
 
+        MemorySegment glfwExtensionCount = arena.allocate(C_INT, 1);
+        MemorySegment glfwExtensions = glfwGetRequiredInstanceExtensions(glfwExtensionCount);
+
         MemorySegment createInfo = VkInstanceCreateInfo.allocate(arena);
         VkInstanceCreateInfo.sType(createInfo, VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO());
         VkInstanceCreateInfo.pApplicationInfo(createInfo, appInfo);
-
-        MemorySegment glfwExtensionCount = arena.allocate(C_INT, 1);
-        MemorySegment glfwExtensions = glfwGetRequiredInstanceExtensions(glfwExtensionCount);
         VkInstanceCreateInfo.enabledExtensionCount(createInfo, glfwExtensionCount.get(C_INT, 0));
         VkInstanceCreateInfo.ppEnabledExtensionNames(createInfo, glfwExtensions);
-        VkInstanceCreateInfo.enabledLayerCount(createInfo, 0);
+
+        // TODO
+        boolean enableValidationLayers = true;
+        if (enableValidationLayers) {
+            MemorySegment layerCountMS = arena.allocate(C_INT, 1);
+            vkEnumerateInstanceLayerProperties(layerCountMS, MemorySegment.NULL);
+            int layerCount = layerCountMS.get(C_INT, 0);
+            MemorySegment layerPropertiesArray = VkLayerProperties.allocateArray(layerCount, arena);
+            vkEnumerateInstanceLayerProperties(layerCountMS, layerPropertiesArray);
+
+            for (int i=0; i < layerCount; i++) {
+                MemorySegment layerProperties = VkLayerProperties.asSlice(layerPropertiesArray, i);
+                String layerName = VkLayerProperties.layerName(layerProperties).getString(0);
+                System.out.println(layerName);
+            }
+
+            VkInstanceCreateInfo.ppEnabledLayerNames(createInfo, MemorySegment.NULL);
+            VkInstanceCreateInfo.enabledLayerCount(createInfo, 0);
+        } else {
+            VkInstanceCreateInfo.enabledLayerCount(createInfo, 0);
+        }
 
         vulkanInstance = globalArena.allocate(C_POINTER, 1);
         int result = vkCreateInstance(createInfo, MemorySegment.NULL, vulkanInstance);
