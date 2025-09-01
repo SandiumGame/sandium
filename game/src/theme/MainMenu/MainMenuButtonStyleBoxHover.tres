@@ -1,0 +1,9 @@
+[gd_resource type="StyleBoxTexture" load_steps=2 format=3 uid="uid://bjowleuypdlij"]
+
+[ext_resource type="Texture2D" uid="uid://dqdthrhit7b7y" path="res://src/theme/HoverTexture.tres" id="1_witqi"]
+
+[resource]
+content_margin_left = 10.0
+content_margin_right = 40.0
+texture = ExtResource("1_witqi")
+region_rect = Rect2(0, 0, 64, 64)

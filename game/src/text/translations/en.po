@@ -1,0 +1,259 @@
+# LANGUAGE translation for Oasis for the following files:
+# res://src/Client/Gui/MainMenu.tscn
+# res://src/Client/Gui/Credits/CreditsDialog.tscn
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Sandium\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: text/text.gd
+msgid "CONSOLE_MULTIPLAYER_SET_PASSWORD"
+msgstr "Password updated"
+
+#: text/text.gd
+msgid "CONSOLE_MULTIPLAYER_SET_ADMIN_PASSWORD"
+msgstr "Admin password updated"
+
+#: text/text.gd
+msgid "CONSOLE_MULTIPLAYER_DEDICATED_SERVER_STARTED"
+msgstr "Dedicated server started"
+
+#: text/text.gd
+msgid "CONSOLE_MULTIPLAYER_FAILED_TO_CREATE_SERVER_PORT"
+msgstr "Unable to open server port"
+
+#: text/text.gd
+msgid "SERVERS_WORLD_TIME_HOURS"
+msgid_plural "SERVERS_WORLD_TIME_HOURS_PLURAL"
+msgstr[0] "%d Hour"
+msgstr[1] "%d Hours"
+
+#: text/text.gd
+msgid "SERVERS_WORLD_TIME_MINUTES"
+msgid_plural "SERVERS_WORLD_TIME_MINUTES_PLURAL"
+msgstr[0] "%d Minute"
+msgstr[1] "%d Minutes"
+
+#: text/text.gd
+msgid "ADD_SERVER_INVALID_HOST_NAME"
+msgstr "Enter a valid host name or IP address"
+
+#: text/text.gd
+msgid "ADD_SERVER_INVALID_PORT"
+msgstr "Must be between 1 and 65535"
+
+#: text/text.gd
+msgid "JOIN_GAME_INVALID_PASSWORD"
+msgstr "Incorrect password"
+
+#: text/text.gd
+msgid "JOIN_GAME_CONNECTING"
+msgstr "Connecting to server"
+
+#: text/text.gd
+msgid "JOIN_GAME_ERROR"
+msgstr "Unable to connect to server"
+
+#: text/text.gd
+msgid "JOIN_GAME_REFUSED"
+msgstr "Server fused the connection"
+
+#: text/text.gd
+msgid "JOIN_GAME_SERVER_FULL"
+msgstr "The server is full"
+
+#: text/text.gd
+msgid "JOIN_GAME_VERSION"
+msgstr "Your game must be the same version as the server"
+
+#: text/text.gd
+msgid "GAME_NAME_EMPTY"
+msgstr "You must enter a game name"
+
+#: text/text.gd
+msgid "GAME_NAME_TOO_SHORT"
+msgstr "The name is too short"
+
+#: text/text.gd
+msgid "GAME_NAME_RESERVED_NAME"
+msgstr "This name is reserved"
+
+#: text/text.gd
+msgid "GAME_NAME_INVALID_CHAR"
+msgstr "Invalid character in name"
+
+#: text/text.gd
+msgid "GAME_NAME_INVALID_START_CHAR"
+msgstr "Invalid starting character for name"
+
+#: text/text.gd
+msgid "GAME_NAME_INVALID_END_CHAR"
+msgstr "Invalid ending character for name"
+
+#: text/text.gd
+msgid "GAME_NAME_ALREADY_EXISTS"
+msgstr "A game with this name already exists"
+
+#: src/Client/Gui/MainMenu.tscn
+msgid "MAIN_MENU_CONTINUE"
+msgstr "Continue"
+
+#: src/Client/Gui/MainMenu.tscn
+msgid "MAIN_MENU_NEW"
+msgstr "New World"
+
+#: src/Client/Gui/MainMenu.tscn
+msgid "MAIN_MENU_LOAD"
+msgstr "Load World"
+
+#: src/Client/Gui/MainMenu.tscn
+msgid "MAIN_MENU_JOIN"
+msgstr "Join World"
+
+#: src/Client/Gui/MainMenu.tscn
+msgid "MAIN_MENU_SAVE"
+msgstr "Save World"
+
+#: src/Client/Gui/MainMenu.tscn
+msgid "MAIN_MENU_WORLD_SETTINGS"
+msgstr "World Settings"
+
+#: src/Client/Gui/MainMenu.tscn
+msgid "MAIN_MENU_GLOBAL_SETTINGS"
+msgstr "Global Settings"
+
+#: src/Client/Gui/MainMenu.tscn
+msgid "MAIN_MENU_CREDITS"
+msgstr "Credits"
+
+#: src/Client/Gui/MainMenu.tscn
+msgid "MAIN_MENU_EXIT_DISCONNECT"
+msgstr "Disconnect From Server"
+
+#: src/Client/Gui/MainMenu.tscn
+msgid "MAIN_MENU_EXIT_MENU"
+msgstr "Exit to Main Menu"
+
+#: src/Client/Gui/MainMenu.tscn
+msgid "MAIN_MENU_EXIT_DESKTOP"
+msgstr "Exit To Desktop"
+
+#: src/Client/Gui/Credits/CreditsDialog.tscn
+msgid "CREDITS_TAB"
+msgstr "Credits"
+
+#: src/Client/Gui/Credits/CreditsDialog.tscn
+msgid "THIRD_PARTY_CREDITS_TAB"
+msgstr "Third-party Licenses"
+
+#: src/Client/Gui/StartGame/NewGame.tscn
+msgid "NEW_GAME_TAB"
+msgstr "New Game"
+
+#: src/Client/Gui/StartGame/NewGame.tscn
+msgid "NEW_GAME_NAME"
+msgstr "World Name"
+
+#: src/Client/Gui/StartGame/NewGame.tscn
+msgid "NEW_GAME_START"
+msgstr "Start Game"
+
+#: src/Client/Gui/StartGame/AddServer.tscn
+msgid "ADD_SERVER_TAB"
+msgstr "Add Server"
+
+#: src/Client/Gui/StartGame/AddServer.tscn
+msgid "ADD_SERVER_ADDRESS"
+msgstr "Server Address"
+
+#: src/Client/Gui/StartGame/AddServer.tscn
+msgid "ADD_SERVER_PORT"
+msgstr "Port"
+
+#: src/Client/Gui/StartGame/AddServer.tscn
+msgid "ADD_SERVER_ADD"
+msgstr "Add"
+
+#: src/Client/Gui/StartGame/ServerList.tscn
+msgid "SERVERS_TAB"
+msgstr "Join Server"
+
+#: src/Client/Gui/StartGame/ServerList.tscn
+msgid "SERVERS_SERVER_LIST"
+msgstr "Servers"
+
+#: src/Client/Gui/StartGame/ServerList.tscn
+msgid "SERVERS_ADD"
+msgstr "Add Server"
+
+#: src/Client/Gui/StartGame/ServerList.tscn
+msgid "SERVERS_REMOVE"
+msgstr "Remove Server"
+
+#: src/Client/Gui/StartGame/ServerList.tscn
+msgid "SERVERS_SERVER_INFO"
+msgstr "Server Info"
+
+#: src/Client/Gui/StartGame/ServerList.tscn
+msgid "SERVER_OFFLINE"
+msgstr "Cannot connect to server"
+
+#: src/Client/Gui/StartGame/ServerList.tscn
+msgid "SERVERS_VERSION"
+msgstr "Server Version"
+
+#: src/Client/Gui/StartGame/ServerList.tscn
+msgid "SERVERS_WORLD_NAME"
+msgstr "World Name"
+
+#: src/Client/Gui/StartGame/ServerList.tscn
+msgid "SERVERS_CURRENT_PLAYERS"
+msgstr "Players Connected"
+
+#: src/Client/Gui/StartGame/ServerList.tscn
+msgid "SERVERS_MAX_PLAYERS"
+msgstr "Max Players"
+
+#: src/Client/Gui/StartGame/ServerList.tscn
+msgid "SERVERS_WORLD_TIME"
+msgstr "Time Played"
+
+#: src/Client/Gui/StartGame/ServerList.tscn
+msgid "SERVERS_JOIN"
+msgstr "Join"
+
+#: src/Client/Gui/StartGame/JoinGame.tscn
+msgid "JOIN_GAME_TAB"
+msgstr "Join Server"
+
+#: src/Client/Gui/StartGame/JoinGame.tscn
+msgid "JOIN_GAME_PASSWORD"
+msgstr "Password"
+
+#: src/Client/Gui/StartGame/JoinGame.tscn
+msgid "JOIN_GAME_SAVE_PASSWORD"
+msgstr "Remember password"
+
+#: src/Client/Gui/StartGame/JoinGame.tscn
+msgid "JOIN_GAME_JOIN"
+msgstr "Join"
+
+#: src/Client/Gui/StartGame/JoinGame.tscn
+msgid "JOIN_GAME_CANCEL"
+msgstr "Cancel"
+
+#: src/Client/Gui/StartGame/JoinGame.tscn
+msgid "JOIN_GAME_CLOSE"
+msgstr "Close"

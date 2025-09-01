@@ -1,0 +1,258 @@
+# LANGUAGE translation for Sandium for the following files:
+# res://text/text.gd
+# res://src/Client/Gui/MainMenu.tscn
+# res://src/Client/Gui/Credits/CreditsDialog.tscn
+# res://src/Client/Gui/StartGame/NewGame.tscn
+# res://src/Client/Gui/StartGame/AddServer.tscn
+# res://src/Client/Gui/StartGame/ServerList.tscn
+# res://src/Client/Gui/StartGame/JoinGame.tscn
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sandium\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: text/text.gd
+msgid "CONSOLE_MULTIPLAYER_SET_PASSWORD"
+msgstr ""
+
+#: text/text.gd
+msgid "CONSOLE_MULTIPLAYER_SET_ADMIN_PASSWORD"
+msgstr ""
+
+#: text/text.gd
+msgid "CONSOLE_MULTIPLAYER_DEDICATED_SERVER_STARTED"
+msgstr ""
+
+#: text/text.gd
+msgid "CONSOLE_MULTIPLAYER_FAILED_TO_CREATE_SERVER_PORT"
+msgstr ""
+
+#: text/text.gd
+msgid "SERVERS_WORLD_TIME_HOURS"
+msgid_plural "SERVERS_WORLD_TIME_HOURS_PLURAL"
+msgstr[0] ""
+msgstr[1] ""
+
+#: text/text.gd
+msgid "SERVERS_WORLD_TIME_MINUTES"
+msgid_plural "SERVERS_WORLD_TIME_MINUTES_PLURAL"
+msgstr[0] ""
+msgstr[1] ""
+
+#: text/text.gd
+msgid "ADD_SERVER_INVALID_HOST_NAME"
+msgstr ""
+
+#: text/text.gd
+msgid "ADD_SERVER_INVALID_PORT"
+msgstr ""
+
+#: text/text.gd
+msgid "JOIN_GAME_INVALID_PASSWORD"
+msgstr ""
+
+#: text/text.gd
+msgid "JOIN_GAME_CONNECTING"
+msgstr ""
+
+#: text/text.gd
+msgid "JOIN_GAME_ERROR"
+msgstr ""
+
+#: text/text.gd
+msgid "JOIN_GAME_REFUSED"
+msgstr ""
+
+#: text/text.gd
+msgid "JOIN_GAME_SERVER_FULL"
+msgstr ""
+
+#: text/text.gd
+msgid "JOIN_GAME_VERSION"
+msgstr ""
+
+#: text/text.gd
+msgid "GAME_NAME_EMPTY"
+msgstr ""
+
+#: text/text.gd
+msgid "GAME_NAME_TOO_SHORT"
+msgstr ""
+
+#: text/text.gd
+msgid "GAME_NAME_RESERVED_NAME"
+msgstr ""
+
+#: text/text.gd
+msgid "GAME_NAME_INVALID_CHAR"
+msgstr ""
+
+#: text/text.gd
+msgid "GAME_NAME_INVALID_START_CHAR"
+msgstr ""
+
+#: text/text.gd
+msgid "GAME_NAME_INVALID_END_CHAR"
+msgstr ""
+
+#: text/text.gd
+msgid "GAME_NAME_ALREADY_EXISTS"
+msgstr ""
+
+#: src/Client/Gui/MainMenu.tscn
+msgid "MAIN_MENU_CONTINUE"
+msgstr ""
+
+#: src/Client/Gui/MainMenu.tscn
+msgid "MAIN_MENU_NEW"
+msgstr ""
+
+#: src/Client/Gui/MainMenu.tscn
+msgid "MAIN_MENU_LOAD"
+msgstr ""
+
+#: src/Client/Gui/MainMenu.tscn
+msgid "MAIN_MENU_JOIN"
+msgstr ""
+
+#: src/Client/Gui/MainMenu.tscn
+msgid "MAIN_MENU_SAVE"
+msgstr ""
+
+#: src/Client/Gui/MainMenu.tscn
+msgid "MAIN_MENU_WORLD_SETTINGS"
+msgstr ""
+
+#: src/Client/Gui/MainMenu.tscn
+msgid "MAIN_MENU_GLOBAL_SETTINGS"
+msgstr ""
+
+#: src/Client/Gui/MainMenu.tscn
+msgid "MAIN_MENU_CREDITS"
+msgstr ""
+
+#: src/Client/Gui/MainMenu.tscn
+msgid "MAIN_MENU_EXIT_DISCONNECT"
+msgstr ""
+
+#: src/Client/Gui/MainMenu.tscn
+msgid "MAIN_MENU_EXIT_MENU"
+msgstr ""
+
+#: src/Client/Gui/MainMenu.tscn
+msgid "MAIN_MENU_EXIT_DESKTOP"
+msgstr ""
+
+#: src/Client/Gui/Credits/CreditsDialog.tscn
+msgid "CREDITS_TAB"
+msgstr ""
+
+#: src/Client/Gui/Credits/CreditsDialog.tscn
+msgid "THIRD_PARTY_CREDITS_TAB"
+msgstr ""
+
+#: src/Client/Gui/StartGame/NewGame.tscn
+msgid "NEW_GAME_TAB"
+msgstr ""
+
+#: src/Client/Gui/StartGame/NewGame.tscn
+msgid "NEW_GAME_NAME"
+msgstr ""
+
+#: src/Client/Gui/StartGame/NewGame.tscn
+msgid "NEW_GAME_START"
+msgstr ""
+
+#: src/Client/Gui/StartGame/AddServer.tscn
+msgid "ADD_SERVER_TAB"
+msgstr ""
+
+#: src/Client/Gui/StartGame/AddServer.tscn
+msgid "ADD_SERVER_ADDRESS"
+msgstr ""
+
+#: src/Client/Gui/StartGame/AddServer.tscn
+msgid "ADD_SERVER_PORT"
+msgstr ""
+
+#: src/Client/Gui/StartGame/AddServer.tscn
+msgid "ADD_SERVER_ADD"
+msgstr ""
+
+#: src/Client/Gui/StartGame/ServerList.tscn
+msgid "SERVERS_TAB"
+msgstr ""
+
+#: src/Client/Gui/StartGame/ServerList.tscn
+msgid "SERVERS_SERVER_LIST"
+msgstr ""
+
+#: src/Client/Gui/StartGame/ServerList.tscn
+msgid "SERVERS_ADD"
+msgstr ""
+
+#: src/Client/Gui/StartGame/ServerList.tscn
+msgid "SERVERS_REMOVE"
+msgstr ""
+
+#: src/Client/Gui/StartGame/ServerList.tscn
+msgid "SERVERS_SERVER_INFO"
+msgstr ""
+
+#: src/Client/Gui/StartGame/ServerList.tscn
+msgid "SERVER_OFFLINE"
+msgstr ""
+
+#: src/Client/Gui/StartGame/ServerList.tscn
+msgid "SERVERS_VERSION"
+msgstr ""
+
+#: src/Client/Gui/StartGame/ServerList.tscn
+msgid "SERVERS_WORLD_NAME"
+msgstr ""
+
+#: src/Client/Gui/StartGame/ServerList.tscn
+msgid "SERVERS_CURRENT_PLAYERS"
+msgstr ""
+
+#: src/Client/Gui/StartGame/ServerList.tscn
+msgid "SERVERS_MAX_PLAYERS"
+msgstr ""
+
+#: src/Client/Gui/StartGame/ServerList.tscn
+msgid "SERVERS_WORLD_TIME"
+msgstr ""
+
+#: src/Client/Gui/StartGame/ServerList.tscn
+msgid "SERVERS_JOIN"
+msgstr ""
+
+#: src/Client/Gui/StartGame/JoinGame.tscn
+msgid "JOIN_GAME_TAB"
+msgstr ""
+
+#: src/Client/Gui/StartGame/JoinGame.tscn
+msgid "JOIN_GAME_PASSWORD"
+msgstr ""
+
+#: src/Client/Gui/StartGame/JoinGame.tscn
+msgid "JOIN_GAME_SAVE_PASSWORD"
+msgstr ""
+
+#: src/Client/Gui/StartGame/JoinGame.tscn
+msgid "JOIN_GAME_JOIN"
+msgstr ""
+
+#: src/Client/Gui/StartGame/JoinGame.tscn
+msgid "JOIN_GAME_CANCEL"
+msgstr ""
+
+#: src/Client/Gui/StartGame/JoinGame.tscn
+msgid "JOIN_GAME_CLOSE"
+msgstr ""

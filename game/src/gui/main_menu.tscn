@@ -1,0 +1,117 @@
+[gd_scene load_steps=3 format=3 uid="uid://ckeqxt27x4470"]
+
+[ext_resource type="Theme" uid="uid://dxnp3ugv2nln6" path="res://src/theme/MainTheme.tres" id="1_v58ih"]
+[ext_resource type="Script" uid="uid://cxa2x6qgnh7jw" path="res://src/gui/main_menu.gd" id="2_c36ie"]
+
+[node name="MainMenu" type="MarginContainer"]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -380.0
+offset_right = 570.0
+grow_vertical = 0
+size_flags_horizontal = 0
+size_flags_vertical = 0
+size_flags_stretch_ratio = 0.0
+theme = ExtResource("1_v58ih")
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_bottom = 50
+script = ExtResource("2_c36ie")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+size_flags_horizontal = 0
+
+[node name="PaddingPanelContainer" type="PanelContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="ContinueButton" type="Button" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+theme_type_variation = &"MainMenuButton"
+text = "MAIN_MENU_CONTINUE"
+alignment = 0
+
+[node name="NewButton" type="Button" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+theme_type_variation = &"MainMenuButton"
+text = "MAIN_MENU_NEW"
+alignment = 0
+
+[node name="LoadButton" type="Button" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+theme_type_variation = &"MainMenuButton"
+text = "MAIN_MENU_LOAD"
+alignment = 0
+
+[node name="JoinButton" type="Button" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+theme_type_variation = &"MainMenuButton"
+text = "MAIN_MENU_JOIN"
+alignment = 0
+
+[node name="SaveButton" type="Button" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+theme_type_variation = &"MainMenuButton"
+text = "MAIN_MENU_SAVE"
+alignment = 0
+
+[node name="WorldSettingsButton" type="Button" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+theme_type_variation = &"MainMenuButton"
+text = "MAIN_MENU_WORLD_SETTINGS"
+alignment = 0
+
+[node name="GlobalSettingsButton" type="Button" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+theme_type_variation = &"MainMenuButton"
+text = "MAIN_MENU_GLOBAL_SETTINGS"
+alignment = 0
+
+[node name="CreditsButton" type="Button" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+theme_type_variation = &"MainMenuButton"
+text = "MAIN_MENU_CREDITS"
+alignment = 0
+
+[node name="DisconnectButton" type="Button" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+theme_type_variation = &"MainMenuButton"
+text = "MAIN_MENU_EXIT_DISCONNECT"
+alignment = 0
+
+[node name="ExitMenuButton" type="Button" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+theme_type_variation = &"MainMenuButton"
+text = "MAIN_MENU_EXIT_MENU"
+alignment = 0
+
+[node name="ExitDesktopButton" type="Button" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+theme_type_variation = &"MainMenuButton"
+text = "MAIN_MENU_EXIT_DESKTOP"
+alignment = 0
+
+[connection signal="pressed" from="VBoxContainer/ExitDesktopButton" to="." method="_on_exit_desktop_button_pressed"]
