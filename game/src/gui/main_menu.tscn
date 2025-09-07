@@ -114,4 +114,5 @@ theme_type_variation = &"MainMenuButton"
 text = "MAIN_MENU_EXIT_DESKTOP"
 alignment = 0
 
+[connection signal="pressed" from="VBoxContainer/CreditsButton" to="." method="_on_credits_button_pressed"]
 [connection signal="pressed" from="VBoxContainer/ExitDesktopButton" to="." method="_on_exit_desktop_button_pressed"]

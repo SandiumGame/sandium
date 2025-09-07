@@ -17,7 +17,7 @@ config/icon="uid://coileo2uxuqg2"
 
 [autoload]
 
-MainMenu="*res://src/gui/main_menu.tscn"
+GuiManager="*res://src/gui/gui_manager.tscn"
 
 [display]
 

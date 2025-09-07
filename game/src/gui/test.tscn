@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://byf7drclwwq30"]
+
+[ext_resource type="PackedScene" uid="uid://b1ba8hyme3iie" path="res://src/gui/base_dialog.tscn" id="1_43sri"]
+[ext_resource type="Script" uid="uid://bga5pur4hpfbb" path="res://src/gui/test.gd" id="2_2cvm0"]
+
+[node name="TitleBarWindow" instance=ExtResource("1_43sri")]
+script = ExtResource("2_2cvm0")

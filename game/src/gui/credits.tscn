@@ -1,0 +1,64 @@
+[gd_scene load_steps=3 format=3 uid="uid://df07ka4llu150"]
+
+[ext_resource type="PackedScene" uid="uid://b1ba8hyme3iie" path="res://src/gui/base_dialog.tscn" id="1_iix42"]
+[ext_resource type="Script" uid="uid://h730miau4qna" path="res://src/gui/credits.gd" id="2_gr1lc"]
+
+[node name="TitleBarWindow" instance=ExtResource("1_iix42")]
+offset_right = 1147.0
+offset_bottom = 646.0
+script = ExtResource("2_gr1lc")
+
+[node name="TabContainer" parent="." index="0"]
+current_tab = 0
+
+[node name="CREDITS_TAB" type="PanelContainer" parent="TabContainer" index="1"]
+layout_mode = 2
+theme_type_variation = &"ContentPanel"
+metadata/_tab_index = 0
+
+[node name="TabLocalizationLabel" type="Label" parent="TabContainer/CREDITS_TAB" index="0"]
+visible = false
+layout_mode = 2
+text = "CREDITS_TAB"
+
+[node name="Credits" type="RichTextLabel" parent="TabContainer/CREDITS_TAB" index="1"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 2
+shortcut_keys_enabled = false
+selection_enabled = true
+
+[node name="THIRD_PARTY_CREDITS_TAB" type="PanelContainer" parent="TabContainer" index="2"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 1
+
+[node name="TabLocalizationLabel2" type="Label" parent="TabContainer/THIRD_PARTY_CREDITS_TAB" index="0"]
+visible = false
+layout_mode = 2
+text = "THIRD_PARTY_CREDITS_TAB"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="TabContainer/THIRD_PARTY_CREDITS_TAB" index="1"]
+layout_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="TabContainer/THIRD_PARTY_CREDITS_TAB/HBoxContainer" index="0"]
+layout_mode = 2
+theme_type_variation = &"ContentPanel"
+
+[node name="ThirdPartyLicenses" type="ItemList" parent="TabContainer/THIRD_PARTY_CREDITS_TAB/HBoxContainer/PanelContainer" index="0"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+
+[node name="PanelContainer2" type="PanelContainer" parent="TabContainer/THIRD_PARTY_CREDITS_TAB/HBoxContainer" index="1"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"ContentPanel"
+
+[node name="ThirdPartyLicense" type="RichTextLabel" parent="TabContainer/THIRD_PARTY_CREDITS_TAB/HBoxContainer/PanelContainer2" index="0"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+focus_mode = 2
+shortcut_keys_enabled = false
+selection_enabled = true

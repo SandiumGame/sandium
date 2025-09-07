@@ -1,0 +1,35 @@
+[gd_scene load_steps=4 format=3 uid="uid://b1ba8hyme3iie"]
+
+[ext_resource type="Theme" uid="uid://dxnp3ugv2nln6" path="res://src/theme/MainTheme.tres" id="1_vs2vj"]
+[ext_resource type="FontFile" uid="uid://b8ckp3sqmaccf" path="res://src/theme/fonts/roboto/Roboto-Bold.ttf" id="2_6e076"]
+[ext_resource type="Script" uid="uid://b5ai3257p1gkb" path="res://src/gui/base_dialog.gd" id="2_sj3i1"]
+
+[node name="BaseDialog" type="PanelContainer"]
+offset_right = 671.0
+offset_bottom = 348.0
+theme = ExtResource("1_vs2vj")
+script = ExtResource("2_sj3i1")
+
+[node name="TabContainer" type="TabContainer" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"WindowTabs"
+
+[node name="CloseButtonMarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 1
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 2
+
+[node name="CloseButton" type="Button" parent="CloseButtonMarginContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+theme_type_variation = &"ButtonClose"
+theme_override_fonts/font = ExtResource("2_6e076")
+theme_override_font_sizes/font_size = 17
+text = "X"

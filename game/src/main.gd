@@ -28,4 +28,7 @@ func _ready():
 	else:
 		TranslationServer.set_locale(arguments["language"])
 	
+	GuiManager.show_main_menu.call_deferred()
 	
+	var world = ResourceLoader.load("res://src/world/world.tscn").instantiate()
+	get_tree().get_root().add_child.call_deferred(world)
