@@ -1,12 +1,12 @@
 .~lock.*
 
 ### IntelliJ IDEA ###
-.idea/*
+.idea/
 
-# Project specific files
-debug_settings.cfg
+### Rust ###
+target/
 
-# Godot 4+ specific ignores
+### Godot 4+ specific ignores ###
 .godot/
 exports/linux/data*
 exports/linux/Sandium*
