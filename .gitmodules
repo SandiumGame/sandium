@@ -1,0 +1,4 @@
+[submodule "game/gdextension_cpp/godot-cpp"]
+	path = third_party/godot-cpp
+	url = https://github.com/godotengine/godot-cpp
+	branch = 4.4
