@@ -3,8 +3,10 @@
 ### IntelliJ IDEA ###
 .idea/
 
-### Rust ###
-target/
+### C++ ###
+.sconsign.dblite
+*.so
+*.dll
 
 ### Godot 4+ specific ignores ###
 .godot/
@@ -14,3 +16,4 @@ exports/linux-server/data*
 exports/linux-server/Sandium*
 exports/windows/data*
 exports/windows/Sandium*
+

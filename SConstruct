@@ -13,12 +13,12 @@ env = SConscript("third_party/godot-cpp/SConstruct")
 # - LINKFLAGS are for linking flags
 
 # tweak this if you want to use different folders, or more folders, to store your source code in.
-env.Append(CPPPATH=["src/"])
+env.Append(CPPPATH=["gdextension/"])
 sources = Glob("src/*.cpp")
 
 if env["platform"] == "macos":
     library = env.SharedLibrary(
-        "../godot/bin/libgdexample.{}.{}.framework/libgdexample.{}.{}".format(
+        "godot/bin/libgdsandium.{}.{}.framework/libgdsandium.{}.{}".format(
             env["platform"], env["target"], env["platform"], env["target"]
         ),
         source=sources,
@@ -26,17 +26,17 @@ if env["platform"] == "macos":
 elif env["platform"] == "ios":
     if env["ios_simulator"]:
         library = env.StaticLibrary(
-            "../godot/bin/libgdexample.{}.{}.simulator.a".format(env["platform"], env["target"]),
+            "godot/bin/libgdsandium.{}.{}.simulator.a".format(env["platform"], env["target"]),
             source=sources,
         )
     else:
         library = env.StaticLibrary(
-            "../godot/bin/libgdexample.{}.{}.a".format(env["platform"], env["target"]),
+            "godot/bin/libgdsandium.{}.{}.a".format(env["platform"], env["target"]),
             source=sources,
         )
 else:
     library = env.SharedLibrary(
-        "../godot/bin/libgdexample{}{}".format(env["suffix"], env["SHLIBSUFFIX"]),
+        "godot/bin/libgdsandium{}{}".format(env["suffix"], env["SHLIBSUFFIX"]),
         source=sources,
     )
 
