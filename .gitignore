@@ -5,6 +5,8 @@
 
 ### C++ ###
 .sconsign.dblite
+compile_commands.json
+*.os
 *.so
 *.dll
 
