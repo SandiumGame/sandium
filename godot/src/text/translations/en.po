@@ -112,23 +112,23 @@ msgstr "Continue"
 
 #: src/Client/Gui/MainMenu.tscn
 msgid "MAIN_MENU_NEW"
-msgstr "New World"
+msgstr "New"
 
 #: src/Client/Gui/MainMenu.tscn
 msgid "MAIN_MENU_LOAD"
-msgstr "Load World"
+msgstr "Load"
 
 #: src/Client/Gui/MainMenu.tscn
 msgid "MAIN_MENU_JOIN"
-msgstr "Join World"
+msgstr "Join Server"
 
 #: src/Client/Gui/MainMenu.tscn
 msgid "MAIN_MENU_SAVE"
-msgstr "Save World"
+msgstr "Save"
 
 #: src/Client/Gui/MainMenu.tscn
 msgid "MAIN_MENU_WORLD_SETTINGS"
-msgstr "World Settings"
+msgstr "Game Settings"
 
 #: src/Client/Gui/MainMenu.tscn
 msgid "MAIN_MENU_GLOBAL_SETTINGS"

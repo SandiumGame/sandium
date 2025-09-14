@@ -17,7 +17,9 @@ config/icon="uid://coileo2uxuqg2"
 
 [autoload]
 
-GuiManager="*res://src/gui/gui_manager.tscn"
+GuiManager="*res://src/gui/gui_manager.gd"
+NetworkingManager="*res://src/networking/networking_manager.gd"
+GameManager="*res://src/game/game_manager.gd"
 
 [display]
 
