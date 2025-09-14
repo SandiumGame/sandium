@@ -1,13 +1,10 @@
-[gd_resource type="Theme" load_steps=23 format=3 uid="uid://dxnp3ugv2nln6"]
+[gd_resource type="Theme" load_steps=20 format=3 uid="uid://dxnp3ugv2nln6"]
 
 [ext_resource type="FontFile" uid="uid://c4qvidjvyitxo" path="res://src/theme/fonts/roboto/Roboto-Black.ttf" id="1_1le0a"]
 [ext_resource type="StyleBox" uid="uid://dh36k5fj88pbe" path="res://src/theme/ContentPanelBackground.tres" id="1_nbxwy"]
 [ext_resource type="StyleBox" uid="uid://mwh0d4psfeos" path="res://src/theme/ControlBoxFocus.tres" id="1_u8qhv"]
 [ext_resource type="StyleBox" uid="uid://df7ojlf3wkavx" path="res://src/theme/ControlBoxHover.tres" id="2_51j1u"]
 [ext_resource type="StyleBox" uid="uid://dolvknvbnhdh6" path="res://src/theme/ControlBox.tres" id="2_d28qt"]
-[ext_resource type="StyleBox" uid="uid://evbm4ovmb5a4" path="res://src/theme/MainMenu/MainMenuButtonStyleBox.tres" id="2_mbncr"]
-[ext_resource type="StyleBox" uid="uid://bjowleuypdlij" path="res://src/theme/MainMenu/MainMenuButtonStyleBoxHover.tres" id="3_l1lws"]
-[ext_resource type="StyleBox" uid="uid://bijfnsy0kp4vb" path="res://src/theme/MainMenu/MainMenuButtonStyleBoxPressed.tres" id="4_ekkj4"]
 [ext_resource type="StyleBox" uid="uid://cavpd66lsckdx" path="res://src/theme/ControlBoxPressed.tres" id="4_gpyxr"]
 [ext_resource type="StyleBox" uid="uid://cl7eppgk08prx" path="res://src/theme/Window/WindowBackground.tres" id="5_0otpm"]
 [ext_resource type="StyleBox" uid="uid://fjdd07a6ksjf" path="res://src/theme/Window/WindowTabSelected.tres" id="6_bp1vf"]
@@ -59,15 +56,6 @@ ItemList/styles/panel = ExtResource("6_pucev")
 LineEdit/styles/focus = ExtResource("1_u8qhv")
 LineEdit/styles/normal = ExtResource("2_d28qt")
 LineEdit/styles/read_only = ExtResource("2_d28qt")
-MainMenuButton/base_type = &"Button"
-MainMenuButton/colors/font_color = Color(0.875, 0.875, 0.875, 1)
-MainMenuButton/colors/font_pressed_color = Color(0.960784, 0.960784, 0.960784, 1)
-MainMenuButton/font_sizes/font_size = 50
-MainMenuButton/fonts/font = ExtResource("1_1le0a")
-MainMenuButton/styles/focus = ExtResource("2_mbncr")
-MainMenuButton/styles/hover = ExtResource("3_l1lws")
-MainMenuButton/styles/normal = ExtResource("2_mbncr")
-MainMenuButton/styles/pressed = ExtResource("4_ekkj4")
 PanelContainer/styles/panel = SubResource("StyleBoxEmpty_q0tsw")
 RichTextLabel/styles/focus = ExtResource("1_u8qhv")
 RichTextLabel/styles/normal = ExtResource("6_pucev")
