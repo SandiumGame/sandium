@@ -1,4 +1,4 @@
 extends Node
 
-func test() -> void:
+func test():
 	print("Hello Game")

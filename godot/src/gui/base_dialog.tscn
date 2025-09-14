@@ -33,3 +33,5 @@ theme_type_variation = &"ButtonClose"
 theme_override_fonts/font = ExtResource("2_6e076")
 theme_override_font_sizes/font_size = 17
 text = "X"
+
+[connection signal="pressed" from="CloseButtonMarginContainer/CloseButton" to="." method="_on_close_button_pressed"]

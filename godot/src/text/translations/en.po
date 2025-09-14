@@ -112,11 +112,11 @@ msgstr "Continue"
 
 #: src/Client/Gui/MainMenu.tscn
 msgid "MAIN_MENU_NEW"
-msgstr "New"
+msgstr "New Game"
 
 #: src/Client/Gui/MainMenu.tscn
 msgid "MAIN_MENU_LOAD"
-msgstr "Load"
+msgstr "Load Game"
 
 #: src/Client/Gui/MainMenu.tscn
 msgid "MAIN_MENU_JOIN"
