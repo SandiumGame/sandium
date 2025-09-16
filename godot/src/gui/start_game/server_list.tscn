@@ -1,0 +1,189 @@
+[gd_scene load_steps=2 format=3 uid="uid://dbrcl780tdjdk"]
+
+[ext_resource type="PackedScene" uid="uid://b1ba8hyme3iie" path="res://src/gui/base_dialog.tscn" id="1_yy8fd"]
+
+[node name="TitleBarWindow" instance=ExtResource("1_yy8fd")]
+offset_right = 992.0
+offset_bottom = 557.0
+
+[node name="TabContainer" parent="." index="0"]
+current_tab = 0
+
+[node name="SERVERS_TAB" type="HBoxContainer" parent="TabContainer" index="1"]
+layout_mode = 2
+metadata/_tab_index = 0
+
+[node name="TabLocalizationLabel" type="Label" parent="TabContainer/SERVERS_TAB" index="0"]
+visible = false
+layout_mode = 2
+text = "SERVERS_TAB"
+
+[node name="PanelContainer2" type="PanelContainer" parent="TabContainer/SERVERS_TAB" index="1"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"ContentPanel"
+
+[node name="ServerListVBox" type="VBoxContainer" parent="TabContainer/SERVERS_TAB/PanelContainer2" index="0"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Label" type="Label" parent="TabContainer/SERVERS_TAB/PanelContainer2/ServerListVBox" index="0"]
+layout_mode = 2
+text = "SERVERS_SERVER_LIST"
+horizontal_alignment = 1
+
+[node name="ServerList" type="ItemList" parent="TabContainer/SERVERS_TAB/PanelContainer2/ServerListVBox" index="1"]
+unique_name_in_owner = true
+auto_translate_mode = 2
+layout_mode = 2
+size_flags_vertical = 3
+item_count = 2
+item_0/text = "Server 1"
+item_1/text = "Server 2"
+
+[node name="ButtonBar" type="PanelContainer" parent="TabContainer/SERVERS_TAB/PanelContainer2/ServerListVBox" index="2"]
+layout_mode = 2
+theme_type_variation = &"ContentPanelNoBorder"
+
+[node name="HFlowContainer" type="HFlowContainer" parent="TabContainer/SERVERS_TAB/PanelContainer2/ServerListVBox/ButtonBar" index="0"]
+layout_mode = 2
+alignment = 2
+
+[node name="AddServer" type="Button" parent="TabContainer/SERVERS_TAB/PanelContainer2/ServerListVBox/ButtonBar/HFlowContainer" index="0"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "SERVERS_ADD"
+
+[node name="RemoveServer" type="Button" parent="TabContainer/SERVERS_TAB/PanelContainer2/ServerListVBox/ButtonBar/HFlowContainer" index="1"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "SERVERS_REMOVE"
+
+[node name="PanelContainer" type="PanelContainer" parent="TabContainer/SERVERS_TAB" index="2"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"ContentPanel"
+
+[node name="ServerInfoVBox" type="VBoxContainer" parent="TabContainer/SERVERS_TAB/PanelContainer" index="0"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Label" type="Label" parent="TabContainer/SERVERS_TAB/PanelContainer/ServerInfoVBox" index="0"]
+layout_mode = 2
+text = "SERVERS_SERVER_INFO"
+horizontal_alignment = 1
+
+[node name="ServerName" type="Label" parent="TabContainer/SERVERS_TAB/PanelContainer/ServerInfoVBox" index="1"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "SERVER_OFFLINE"
+horizontal_alignment = 1
+
+[node name="ServerInfoFormSection" type="GridContainer" parent="TabContainer/SERVERS_TAB/PanelContainer/ServerInfoVBox" index="2"]
+unique_name_in_owner = true
+layout_mode = 2
+columns = 2
+
+[node name="Label5" type="Label" parent="TabContainer/SERVERS_TAB/PanelContainer/ServerInfoVBox/ServerInfoFormSection" index="0"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 6
+text = "SERVERS_VERSION"
+
+[node name="ServerVersion" type="Label" parent="TabContainer/SERVERS_TAB/PanelContainer/ServerInfoVBox/ServerInfoFormSection" index="1"]
+unique_name_in_owner = true
+auto_translate_mode = 2
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 6
+text = "1.0"
+
+[node name="Label" type="Label" parent="TabContainer/SERVERS_TAB/PanelContainer/ServerInfoVBox/ServerInfoFormSection" index="2"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 6
+text = "SERVERS_WORLD_NAME"
+
+[node name="WorldName" type="Label" parent="TabContainer/SERVERS_TAB/PanelContainer/ServerInfoVBox/ServerInfoFormSection" index="3"]
+unique_name_in_owner = true
+auto_translate_mode = 2
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 6
+text = "My World
+"
+
+[node name="Label2" type="Label" parent="TabContainer/SERVERS_TAB/PanelContainer/ServerInfoVBox/ServerInfoFormSection" index="4"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 6
+text = "SERVERS_CURRENT_PLAYERS"
+
+[node name="CurrentPlayers" type="Label" parent="TabContainer/SERVERS_TAB/PanelContainer/ServerInfoVBox/ServerInfoFormSection" index="5"]
+unique_name_in_owner = true
+auto_translate_mode = 2
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 6
+text = "999"
+
+[node name="Label3" type="Label" parent="TabContainer/SERVERS_TAB/PanelContainer/ServerInfoVBox/ServerInfoFormSection" index="6"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 6
+text = "SERVERS_MAX_PLAYERS"
+
+[node name="MaxPlayers" type="Label" parent="TabContainer/SERVERS_TAB/PanelContainer/ServerInfoVBox/ServerInfoFormSection" index="7"]
+unique_name_in_owner = true
+auto_translate_mode = 2
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 6
+text = "999"
+
+[node name="Label4" type="Label" parent="TabContainer/SERVERS_TAB/PanelContainer/ServerInfoVBox/ServerInfoFormSection" index="8"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 6
+text = "SERVERS_WORLD_TIME"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="TabContainer/SERVERS_TAB/PanelContainer/ServerInfoVBox/ServerInfoFormSection" index="9"]
+layout_mode = 2
+
+[node name="WorldTimeHours" type="Label" parent="TabContainer/SERVERS_TAB/PanelContainer/ServerInfoVBox/ServerInfoFormSection/HBoxContainer" index="0"]
+unique_name_in_owner = true
+auto_translate_mode = 2
+layout_mode = 2
+size_flags_vertical = 6
+text = "9999 Hours"
+
+[node name="Space" type="Label" parent="TabContainer/SERVERS_TAB/PanelContainer/ServerInfoVBox/ServerInfoFormSection/HBoxContainer" index="1"]
+auto_translate_mode = 2
+layout_mode = 2
+text = " "
+
+[node name="WorldTimeMinutes" type="Label" parent="TabContainer/SERVERS_TAB/PanelContainer/ServerInfoVBox/ServerInfoFormSection/HBoxContainer" index="2"]
+unique_name_in_owner = true
+auto_translate_mode = 2
+layout_mode = 2
+size_flags_vertical = 6
+text = "31 Minutes"
+
+[node name="PaddingPanelContainer" type="PanelContainer" parent="TabContainer/SERVERS_TAB/PanelContainer/ServerInfoVBox" index="3"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="ButtonBar" type="PanelContainer" parent="TabContainer/SERVERS_TAB/PanelContainer/ServerInfoVBox" index="4"]
+layout_mode = 2
+theme_type_variation = &"ContentPanelNoBorder"
+
+[node name="HFlowContainer" type="HFlowContainer" parent="TabContainer/SERVERS_TAB/PanelContainer/ServerInfoVBox/ButtonBar" index="0"]
+layout_mode = 2
+alignment = 2
+
+[node name="JoinServer" type="Button" parent="TabContainer/SERVERS_TAB/PanelContainer/ServerInfoVBox/ButtonBar/HFlowContainer" index="0"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "SERVERS_JOIN"

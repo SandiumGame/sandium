@@ -29,4 +29,4 @@ window/size/viewport_height=1080
 [internationalization]
 
 locale/translations=PackedStringArray("res://src/text/translations/en.po")
-locale/translations_pot_files=PackedStringArray("res://src/gui/main_menu.tscn")
+locale/translations_pot_files=PackedStringArray("res://src/gui/main_menu.tscn", "res://src/gui/license.tscn", "res://src/gui/start_game/AddServer.tscn", "res://src/gui/start_game/JoinGame.tscn", "res://src/gui/start_game/load_game.tscn", "res://src/gui/start_game/load_game_save_row.tscn", "res://src/gui/start_game/load_game_world_row.tscn", "res://src/gui/start_game/NewGame.tscn", "res://src/gui/start_game/ServerList.tscn")

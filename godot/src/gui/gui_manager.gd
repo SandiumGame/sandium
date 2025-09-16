@@ -11,9 +11,9 @@ func show_main_menu():
 func hide_main_menu():
 	get_tree().get_root().remove_child(main_menu)
 
-func show_credits():
-	var credits = ResourceLoader.load("res://src/gui/credits.tscn").instantiate()
-	show_dialog(credits)
+func show_license():
+	var license = ResourceLoader.load("res://src/gui/license.tscn").instantiate()
+	show_dialog(license)
 
 func show_dialog(dialog: BaseDialog):
 	if dialog.window == null:

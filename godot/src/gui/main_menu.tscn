@@ -75,11 +75,11 @@ focus_mode = 0
 text = "MAIN_MENU_GLOBAL_SETTINGS"
 alignment = 0
 
-[node name="CreditsButton" type="Button" parent="VBoxContainer"]
+[node name="CreditsLicense" type="Button" parent="VBoxContainer"]
 unique_name_in_owner = true
 layout_mode = 2
 focus_mode = 0
-text = "MAIN_MENU_CREDITS"
+text = "MAIN_MENU_LICENSE"
 alignment = 0
 
 [node name="DisconnectButton" type="Button" parent="VBoxContainer"]
@@ -103,5 +103,5 @@ focus_mode = 0
 text = "MAIN_MENU_EXIT_DESKTOP"
 alignment = 0
 
-[connection signal="pressed" from="VBoxContainer/CreditsButton" to="." method="_on_credits_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/CreditsLicense" to="." method="_on_credits_license_pressed"]
 [connection signal="pressed" from="VBoxContainer/ExitDesktopButton" to="." method="_on_exit_desktop_button_pressed"]

@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://b2cko2mddu2g0"]
+
+[node name="PanelContainer" type="PanelContainer"]
+offset_left = 1.0
+offset_right = 1205.0
+offset_bottom = 40.0
+size_flags_horizontal = 3
+theme_type_variation = &"TableRowNormal"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="WorldRow" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="LastPlayed" type="Label" parent="VBoxContainer/WorldRow"]
+unique_name_in_owner = true
+auto_translate_mode = 2
+layout_mode = 2
+size_flags_horizontal = 3
+text = "April 14, 2023  22:44"
+
+[node name="TimePlayed" type="Label" parent="VBoxContainer/WorldRow"]
+unique_name_in_owner = true
+auto_translate_mode = 2
+layout_mode = 2
+size_flags_horizontal = 3
+text = "161 Hours"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Label2" type="Label" parent="VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(20, 0)
+layout_mode = 2
+
+[node name="Comment" type="Label" parent="VBoxContainer/HBoxContainer"]
+unique_name_in_owner = true
+auto_translate_mode = 2
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"LabelSubtext"
+text = "Finished stage 3"

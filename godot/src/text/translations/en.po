@@ -18,242 +18,259 @@ msgstr ""
 "X-Generator: Poedit 2.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: text/text.gd
-msgid "CONSOLE_MULTIPLAYER_SET_PASSWORD"
-msgstr "Password updated"
-
-#: text/text.gd
-msgid "CONSOLE_MULTIPLAYER_SET_ADMIN_PASSWORD"
-msgstr "Admin password updated"
-
-#: text/text.gd
-msgid "CONSOLE_MULTIPLAYER_DEDICATED_SERVER_STARTED"
-msgstr "Dedicated server started"
-
-#: text/text.gd
-msgid "CONSOLE_MULTIPLAYER_FAILED_TO_CREATE_SERVER_PORT"
-msgstr "Unable to open server port"
-
-#: text/text.gd
-msgid "SERVERS_WORLD_TIME_HOURS"
-msgid_plural "SERVERS_WORLD_TIME_HOURS_PLURAL"
-msgstr[0] "%d Hour"
-msgstr[1] "%d Hours"
-
-#: text/text.gd
-msgid "SERVERS_WORLD_TIME_MINUTES"
-msgid_plural "SERVERS_WORLD_TIME_MINUTES_PLURAL"
-msgstr[0] "%d Minute"
-msgstr[1] "%d Minutes"
-
-#: text/text.gd
-msgid "ADD_SERVER_INVALID_HOST_NAME"
-msgstr "Enter a valid host name or IP address"
-
-#: text/text.gd
-msgid "ADD_SERVER_INVALID_PORT"
-msgstr "Must be between 1 and 65535"
-
-#: text/text.gd
-msgid "JOIN_GAME_INVALID_PASSWORD"
-msgstr "Incorrect password"
-
-#: text/text.gd
-msgid "JOIN_GAME_CONNECTING"
-msgstr "Connecting to server"
-
-#: text/text.gd
-msgid "JOIN_GAME_ERROR"
-msgstr "Unable to connect to server"
-
-#: text/text.gd
-msgid "JOIN_GAME_REFUSED"
-msgstr "Server fused the connection"
-
-#: text/text.gd
-msgid "JOIN_GAME_SERVER_FULL"
-msgstr "The server is full"
-
-#: text/text.gd
-msgid "JOIN_GAME_VERSION"
-msgstr "Your game must be the same version as the server"
-
-#: text/text.gd
-msgid "GAME_NAME_EMPTY"
-msgstr "You must enter a game name"
-
-#: text/text.gd
-msgid "GAME_NAME_TOO_SHORT"
-msgstr "The name is too short"
-
-#: text/text.gd
-msgid "GAME_NAME_RESERVED_NAME"
-msgstr "This name is reserved"
-
-#: text/text.gd
-msgid "GAME_NAME_INVALID_CHAR"
-msgstr "Invalid character in name"
-
-#: text/text.gd
-msgid "GAME_NAME_INVALID_START_CHAR"
-msgstr "Invalid starting character for name"
-
-#: text/text.gd
-msgid "GAME_NAME_INVALID_END_CHAR"
-msgstr "Invalid ending character for name"
-
-#: text/text.gd
-msgid "GAME_NAME_ALREADY_EXISTS"
-msgstr "A game with this name already exists"
-
-#: src/Client/Gui/MainMenu.tscn
+#: src/gui/main_menu.tscn
 msgid "MAIN_MENU_CONTINUE"
-msgstr "Continue"
+msgstr "Continue Game"
 
-#: src/Client/Gui/MainMenu.tscn
+#: src/gui/main_menu.tscn
 msgid "MAIN_MENU_NEW"
 msgstr "New Game"
 
-#: src/Client/Gui/MainMenu.tscn
+#: src/gui/main_menu.tscn
 msgid "MAIN_MENU_LOAD"
 msgstr "Load Game"
 
-#: src/Client/Gui/MainMenu.tscn
+#: src/gui/main_menu.tscn
 msgid "MAIN_MENU_JOIN"
 msgstr "Join Server"
 
-#: src/Client/Gui/MainMenu.tscn
+#: src/gui/main_menu.tscn
 msgid "MAIN_MENU_SAVE"
 msgstr "Save"
 
-#: src/Client/Gui/MainMenu.tscn
+#: src/gui/main_menu.tscn
 msgid "MAIN_MENU_WORLD_SETTINGS"
 msgstr "Game Settings"
 
-#: src/Client/Gui/MainMenu.tscn
+#: src/gui/main_menu.tscn
 msgid "MAIN_MENU_GLOBAL_SETTINGS"
 msgstr "Global Settings"
 
-#: src/Client/Gui/MainMenu.tscn
-msgid "MAIN_MENU_CREDITS"
-msgstr "Credits"
+#: src/gui/main_menu.tscn
+msgid "MAIN_MENU_LICENSE"
+msgstr "License"
 
-#: src/Client/Gui/MainMenu.tscn
+#: src/gui/main_menu.tscn
 msgid "MAIN_MENU_EXIT_DISCONNECT"
 msgstr "Disconnect From Server"
 
-#: src/Client/Gui/MainMenu.tscn
+#: src/gui/main_menu.tscn
 msgid "MAIN_MENU_EXIT_MENU"
 msgstr "Exit to Main Menu"
 
-#: src/Client/Gui/MainMenu.tscn
+#: src/gui/main_menu.tscn
 msgid "MAIN_MENU_EXIT_DESKTOP"
 msgstr "Exit To Desktop"
 
-#: src/Client/Gui/Credits/CreditsDialog.tscn
-msgid "CREDITS_TAB"
-msgstr "Credits"
+#: src/gui/license.tscn
+msgid "LICENSE_TAB"
+msgstr "License"
 
-#: src/Client/Gui/Credits/CreditsDialog.tscn
-msgid "THIRD_PARTY_CREDITS_TAB"
+#: src/gui/license.tscn
+msgid "THIRD_PARTY_LICENSE_TAB"
 msgstr "Third-party Licenses"
 
-#: src/Client/Gui/StartGame/NewGame.tscn
-msgid "NEW_GAME_TAB"
-msgstr "New Game"
-
-#: src/Client/Gui/StartGame/NewGame.tscn
-msgid "NEW_GAME_NAME"
-msgstr "World Name"
-
-#: src/Client/Gui/StartGame/NewGame.tscn
-msgid "NEW_GAME_START"
-msgstr "Start Game"
-
-#: src/Client/Gui/StartGame/AddServer.tscn
+#: src/gui/start_game/AddServer.tscn
 msgid "ADD_SERVER_TAB"
 msgstr "Add Server"
 
-#: src/Client/Gui/StartGame/AddServer.tscn
+#: src/gui/start_game/AddServer.tscn
 msgid "ADD_SERVER_ADDRESS"
 msgstr "Server Address"
 
-#: src/Client/Gui/StartGame/AddServer.tscn
+#: src/gui/start_game/AddServer.tscn
 msgid "ADD_SERVER_PORT"
 msgstr "Port"
 
-#: src/Client/Gui/StartGame/AddServer.tscn
+#: src/gui/start_game/AddServer.tscn
 msgid "ADD_SERVER_ADD"
 msgstr "Add"
 
-#: src/Client/Gui/StartGame/ServerList.tscn
-msgid "SERVERS_TAB"
-msgstr "Join Server"
-
-#: src/Client/Gui/StartGame/ServerList.tscn
-msgid "SERVERS_SERVER_LIST"
-msgstr "Servers"
-
-#: src/Client/Gui/StartGame/ServerList.tscn
-msgid "SERVERS_ADD"
-msgstr "Add Server"
-
-#: src/Client/Gui/StartGame/ServerList.tscn
-msgid "SERVERS_REMOVE"
-msgstr "Remove Server"
-
-#: src/Client/Gui/StartGame/ServerList.tscn
-msgid "SERVERS_SERVER_INFO"
-msgstr "Server Info"
-
-#: src/Client/Gui/StartGame/ServerList.tscn
-msgid "SERVER_OFFLINE"
-msgstr "Cannot connect to server"
-
-#: src/Client/Gui/StartGame/ServerList.tscn
-msgid "SERVERS_VERSION"
-msgstr "Server Version"
-
-#: src/Client/Gui/StartGame/ServerList.tscn
-msgid "SERVERS_WORLD_NAME"
-msgstr "World Name"
-
-#: src/Client/Gui/StartGame/ServerList.tscn
-msgid "SERVERS_CURRENT_PLAYERS"
-msgstr "Players Connected"
-
-#: src/Client/Gui/StartGame/ServerList.tscn
-msgid "SERVERS_MAX_PLAYERS"
-msgstr "Max Players"
-
-#: src/Client/Gui/StartGame/ServerList.tscn
-msgid "SERVERS_WORLD_TIME"
-msgstr "Time Played"
-
-#: src/Client/Gui/StartGame/ServerList.tscn
-msgid "SERVERS_JOIN"
-msgstr "Join"
-
-#: src/Client/Gui/StartGame/JoinGame.tscn
+#: src/gui/start_game/JoinGame.tscn
 msgid "JOIN_GAME_TAB"
 msgstr "Join Server"
 
-#: src/Client/Gui/StartGame/JoinGame.tscn
+#: src/gui/start_game/JoinGame.tscn
 msgid "JOIN_GAME_PASSWORD"
 msgstr "Password"
 
-#: src/Client/Gui/StartGame/JoinGame.tscn
+#: src/gui/start_game/JoinGame.tscn
 msgid "JOIN_GAME_SAVE_PASSWORD"
 msgstr "Remember password"
 
-#: src/Client/Gui/StartGame/JoinGame.tscn
+#: src/gui/start_game/JoinGame.tscn
 msgid "JOIN_GAME_JOIN"
 msgstr "Join"
 
-#: src/Client/Gui/StartGame/JoinGame.tscn
+#: src/gui/start_game/JoinGame.tscn
 msgid "JOIN_GAME_CANCEL"
 msgstr "Cancel"
 
-#: src/Client/Gui/StartGame/JoinGame.tscn
+#: src/gui/start_game/JoinGame.tscn
 msgid "JOIN_GAME_CLOSE"
 msgstr "Close"
+
+#: src/gui/start_game/load_game.tscn
+msgid "GAME_TAB"
+msgstr "Games"
+
+#: src/gui/start_game/load_game.tscn
+msgid "LOAD_GAME_GAMES"
+msgstr "Games"
+
+#: src/gui/start_game/load_game.tscn
+msgid "LOAD_GAME_WORLD_NAME"
+msgstr "World Name"
+
+#: src/gui/start_game/load_game.tscn
+msgid "LOAD_GAME_LAST_PLAYED"
+msgstr "Last Played"
+
+#: src/gui/start_game/load_game.tscn
+msgid "LOAD_GAME_SAVES"
+msgstr "Saves"
+
+#: src/gui/start_game/load_game.tscn
+msgid "LOAD_GAME_TIME_PLAYED"
+msgstr "Time Played"
+
+#: src/gui/start_game/load_game.tscn
+msgid "LOAD_GAME_START"
+msgstr "Start Game"
+
+#: src/gui/start_game/NewGame.tscn
+msgid "NEW_GAME_TAB"
+msgstr "New Game"
+
+#: src/gui/start_game/NewGame.tscn
+msgid "NEW_GAME_NAME"
+msgstr "World Name"
+
+#: src/gui/start_game/NewGame.tscn
+msgid "NEW_GAME_START"
+msgstr "Start Game"
+
+#: src/gui/start_game/ServerList.tscn
+msgid "SERVERS_TAB"
+msgstr "Join Server"
+
+#: src/gui/start_game/ServerList.tscn
+msgid "SERVERS_SERVER_LIST"
+msgstr "Servers"
+
+#: src/gui/start_game/ServerList.tscn
+msgid "SERVERS_ADD"
+msgstr "Add Server"
+
+#: src/gui/start_game/ServerList.tscn
+msgid "SERVERS_REMOVE"
+msgstr "Remove Server"
+
+#: src/gui/start_game/ServerList.tscn
+msgid "SERVERS_SERVER_INFO"
+msgstr "Server Info"
+
+#: src/gui/start_game/ServerList.tscn
+msgid "SERVER_OFFLINE"
+msgstr "Cannot connect to server"
+
+#: src/gui/start_game/ServerList.tscn
+msgid "SERVERS_VERSION"
+msgstr "Server Version"
+
+#: src/gui/start_game/ServerList.tscn
+msgid "SERVERS_WORLD_NAME"
+msgstr "World Name"
+
+#: src/gui/start_game/ServerList.tscn
+msgid "SERVERS_CURRENT_PLAYERS"
+msgstr "Players Connected"
+
+#: src/gui/start_game/ServerList.tscn
+msgid "SERVERS_MAX_PLAYERS"
+msgstr "Max Players"
+
+#: src/gui/start_game/ServerList.tscn
+msgid "SERVERS_WORLD_TIME"
+msgstr "Time Played"
+
+#: src/gui/start_game/ServerList.tscn
+msgid "SERVERS_JOIN"
+msgstr "Join"
+
+#, fuzzy
+#~| msgid "MAIN_MENU_LICENSE"
+#~ msgid "MAIN_MENU_CREDITS"
+#~ msgstr "License"
+
+#, fuzzy
+#~| msgid "SERVERS_TAB"
+#~ msgid "CREDITS_TAB"
+#~ msgstr "Join Server"
+
+#~ msgid "CONSOLE_MULTIPLAYER_SET_PASSWORD"
+#~ msgstr "Password updated"
+
+#~ msgid "CONSOLE_MULTIPLAYER_SET_ADMIN_PASSWORD"
+#~ msgstr "Admin password updated"
+
+#~ msgid "CONSOLE_MULTIPLAYER_DEDICATED_SERVER_STARTED"
+#~ msgstr "Dedicated server started"
+
+#~ msgid "CONSOLE_MULTIPLAYER_FAILED_TO_CREATE_SERVER_PORT"
+#~ msgstr "Unable to open server port"
+
+#~ msgid "SERVERS_WORLD_TIME_HOURS"
+#~ msgid_plural "SERVERS_WORLD_TIME_HOURS_PLURAL"
+#~ msgstr[0] "%d Hour"
+#~ msgstr[1] "%d Hours"
+
+#~ msgid "SERVERS_WORLD_TIME_MINUTES"
+#~ msgid_plural "SERVERS_WORLD_TIME_MINUTES_PLURAL"
+#~ msgstr[0] "%d Minute"
+#~ msgstr[1] "%d Minutes"
+
+#~ msgid "ADD_SERVER_INVALID_HOST_NAME"
+#~ msgstr "Enter a valid host name or IP address"
+
+#~ msgid "ADD_SERVER_INVALID_PORT"
+#~ msgstr "Must be between 1 and 65535"
+
+#~ msgid "JOIN_GAME_INVALID_PASSWORD"
+#~ msgstr "Incorrect password"
+
+#~ msgid "JOIN_GAME_CONNECTING"
+#~ msgstr "Connecting to server"
+
+#~ msgid "JOIN_GAME_ERROR"
+#~ msgstr "Unable to connect to server"
+
+#~ msgid "JOIN_GAME_REFUSED"
+#~ msgstr "Server fused the connection"
+
+#~ msgid "JOIN_GAME_SERVER_FULL"
+#~ msgstr "The server is full"
+
+#~ msgid "JOIN_GAME_VERSION"
+#~ msgstr "Your game must be the same version as the server"
+
+#~ msgid "GAME_NAME_EMPTY"
+#~ msgstr "You must enter a game name"
+
+#~ msgid "GAME_NAME_TOO_SHORT"
+#~ msgstr "The name is too short"
+
+#~ msgid "GAME_NAME_RESERVED_NAME"
+#~ msgstr "This name is reserved"
+
+#~ msgid "GAME_NAME_INVALID_CHAR"
+#~ msgstr "Invalid character in name"
+
+#~ msgid "GAME_NAME_INVALID_START_CHAR"
+#~ msgstr "Invalid starting character for name"
+
+#~ msgid "GAME_NAME_INVALID_END_CHAR"
+#~ msgstr "Invalid ending character for name"
+
+#~ msgid "GAME_NAME_ALREADY_EXISTS"
+#~ msgstr "A game with this name already exists"

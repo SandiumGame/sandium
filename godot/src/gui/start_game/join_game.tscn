@@ -1,0 +1,90 @@
+[gd_scene load_steps=2 format=3 uid="uid://co7hbgsmpgk8x"]
+
+[ext_resource type="PackedScene" uid="uid://b1ba8hyme3iie" path="res://src/gui/base_dialog.tscn" id="1_fplyb"]
+
+[node name="TitleBarWindow" instance=ExtResource("1_fplyb")]
+offset_right = 656.0
+offset_bottom = 210.0
+
+[node name="TabContainer" parent="." index="0"]
+current_tab = 0
+
+[node name="JOIN_GAME_TAB" type="PanelContainer" parent="TabContainer" index="1"]
+layout_mode = 2
+theme_type_variation = &"ContentPanel"
+metadata/_tab_index = 0
+
+[node name="TabLocalizationLabel" type="Label" parent="TabContainer/JOIN_GAME_TAB" index="0"]
+visible = false
+layout_mode = 2
+text = "JOIN_GAME_TAB"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="TabContainer/JOIN_GAME_TAB" index="1"]
+layout_mode = 2
+
+[node name="FormSection" type="GridContainer" parent="TabContainer/JOIN_GAME_TAB/VBoxContainer" index="0"]
+unique_name_in_owner = true
+layout_mode = 2
+columns = 2
+
+[node name="Label" type="Label" parent="TabContainer/JOIN_GAME_TAB/VBoxContainer/FormSection" index="0"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 6
+text = "JOIN_GAME_PASSWORD"
+
+[node name="Password" type="LineEdit" parent="TabContainer/JOIN_GAME_TAB/VBoxContainer/FormSection" index="1"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+secret = true
+
+[node name="PanelContainer" type="PanelContainer" parent="TabContainer/JOIN_GAME_TAB/VBoxContainer/FormSection" index="2"]
+visible = false
+layout_mode = 2
+
+[node name="SavePassword" type="CheckBox" parent="TabContainer/JOIN_GAME_TAB/VBoxContainer/FormSection" index="3"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+text = "JOIN_GAME_SAVE_PASSWORD"
+
+[node name="StatusLabel" type="Label" parent="TabContainer/JOIN_GAME_TAB/VBoxContainer" index="1"]
+unique_name_in_owner = true
+auto_translate_mode = 2
+visible = false
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "JOIN_GAME_CONNECTING"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="PaddingPanelContainer" type="PanelContainer" parent="TabContainer/JOIN_GAME_TAB/VBoxContainer" index="2"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="ButtonBar" type="PanelContainer" parent="TabContainer/JOIN_GAME_TAB/VBoxContainer" index="3"]
+layout_mode = 2
+theme_type_variation = &"ContentPanelNoBorder"
+
+[node name="HFlowContainer" type="HFlowContainer" parent="TabContainer/JOIN_GAME_TAB/VBoxContainer/ButtonBar" index="0"]
+layout_mode = 2
+alignment = 2
+
+[node name="Join" type="Button" parent="TabContainer/JOIN_GAME_TAB/VBoxContainer/ButtonBar/HFlowContainer" index="0"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "JOIN_GAME_JOIN"
+
+[node name="Cancel" type="Button" parent="TabContainer/JOIN_GAME_TAB/VBoxContainer/ButtonBar/HFlowContainer" index="1"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+text = "JOIN_GAME_CANCEL"
+
+[node name="Close" type="Button" parent="TabContainer/JOIN_GAME_TAB/VBoxContainer/ButtonBar/HFlowContainer" index="2"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+text = "JOIN_GAME_CLOSE"
