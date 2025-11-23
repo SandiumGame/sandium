@@ -78,7 +78,7 @@ Sandium is in **early stages of development**. The project is actively seeking c
 
 ## Development Environment
 
-**Primary Setup**: Linux with OpenJDK 23 and IntelliJ IDEA Community Edition
+**Primary Setup**: Linux with OpenJDK 25 and IntelliJ IDEA Community Edition
 **Build System**: Gradle
 **Status**: Windows build setup still to be completed
 
