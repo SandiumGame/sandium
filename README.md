@@ -14,7 +14,7 @@ the [project's website](https://sandium.org/).
 
 # Linux Development Setup 
 ### Required
-- Download and install [OpenJDK 23](https://openjdk.org/projects/jdk/23/)
+- Download and install [OpenJDK 25](https://openjdk.org/projects/jdk/25/)
   - Add/change the `JAVA_HOME` environment variable to the JDK directory
   - Add `$JAVA_HOME/bin` directory to the default path
 - Download and install [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/). 
