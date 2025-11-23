@@ -2,6 +2,7 @@ package org.sandium.mods.util;
 
 import org.sandium.api.annotation.PostConstruct;
 import org.sandium.api.annotation.SystemGroup;
+import org.sandium.core.loader.SystemException;
 
 import java.util.HashMap;
 
@@ -13,7 +14,7 @@ public class CommandLineParams {
     private HashMap<String, String> args;
 
     @PostConstruct
-    private void init() {
+    private void init() throws SystemException {
         args = new HashMap<>();
 
         // -name or --name optional = then value
@@ -46,7 +47,7 @@ public class CommandLineParams {
         return args.containsKey(name.toLowerCase());
     }
 
-    public String getStringArg(String name) {
+    public String getStringArg(String name) throws SystemException {
         String value = args.get(name.toLowerCase());
         if (value == null) {
             throw new SystemException("Command line argument " + name + " should have a value. Example " + name + "=<value>");
@@ -55,7 +56,7 @@ public class CommandLineParams {
     }
 
     @SuppressWarnings("unused")
-    public int getIntArg(String name) {
+    public int getIntArg(String name) throws SystemException {
         try {
             return Integer.parseInt(getStringArg(name));
         } catch (NumberFormatException e) {
@@ -64,7 +65,7 @@ public class CommandLineParams {
     }
 
     @SuppressWarnings("unused")
-    public double getDoubleArg(String name) {
+    public double getDoubleArg(String name) throws SystemException {
         try {
             return Double.parseDouble(getStringArg(name));
         } catch (NumberFormatException e) {

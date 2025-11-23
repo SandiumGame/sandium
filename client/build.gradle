@@ -1,7 +1,17 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        gradlePluginPortal()
+    }
+    dependencies {
+        classpath 'com.gradleup.shadow:shadow-gradle-plugin:9.2.2'
+    }
+}
+
 plugins {
     id "application"
     id 'java'
-    id 'com.gradleup.shadow' version '8.3.1'
+    id 'com.gradleup.shadow' version '9.2.2'
 }
 
 repositories {
@@ -11,7 +21,7 @@ repositories {
 dependencies {
     implementation project(path: ':common')
 
-    implementation group: 'org.ow2.asm', name: 'asm', version: '9.7.1'
+    implementation 'org.ow2.asm:asm:9.9'
 
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'

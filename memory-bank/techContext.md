@@ -29,7 +29,7 @@
   - Generated bindings via jextract
 
 ### Build System
-- **Gradle 8.x**: Build automation and dependency management
+- **Gradle 9.x**: Build automation and dependency management
   - Multi-project build (client, server, common)
   - Dependency resolution
   - Task automation
