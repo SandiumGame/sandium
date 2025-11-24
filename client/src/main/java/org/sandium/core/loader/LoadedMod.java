@@ -11,7 +11,6 @@ import org.sandium.core.ecs.SystemCaller;
 import org.sandium.core.ecs.SystemScheduler;
 import org.sandium.core.ecs.World;
 
-import java.lang.annotation.Annotation;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
