@@ -14,9 +14,13 @@ public class ModManager implements ModResolver, AutoCloseable {
     }
 
     public void addModpack(boolean sandbox, Path[] classpath) throws IOException {
+        addModpack(sandbox, classpath, null);
+    }
+
+    public void addModpack(boolean sandbox, Path[] classpath, String[] packageFilter) throws IOException {
         // TODO Need to pass list of parents to search
         // TODO Check for overlapping package names
-        modpacks.add( new ModpackClassLoader(sandbox, classpath));
+        modpacks.add(new ModpackClassLoader(sandbox, classpath, packageFilter));
     }
 
     public LoadedMod findMod(String packageName) {

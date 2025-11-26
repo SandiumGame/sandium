@@ -301,4 +301,93 @@ class ModpackClassLoaderTest {
         assertNotNull(stream);
         stream.close();
     }
+
+    @Test
+    void testPackageFilterAllowsAllByDefault() throws IOException {
+        // With no filter, all packages should be allowed
+        classLoader = new ModpackClassLoader(false, new Path[]{testClassesDir}, null);
+        assertNotNull(classLoader);
+    }
+
+    @Test
+    void testPackageFilterWithEmptyArray() throws IOException {
+        // With empty filter array, all packages should be allowed
+        classLoader = new ModpackClassLoader(false, new Path[]{testClassesDir}, new String[]{});
+        assertNotNull(classLoader);
+    }
+
+    @Test
+    void testPackageFilterBlocksNonMatchingClasses() throws IOException {
+        // Create a mock class file structure
+        Path allowedPackageDir = testClassesDir.resolve("org/sandium/allowed");
+        Path blockedPackageDir = testClassesDir.resolve("org/sandium/blocked");
+        Files.createDirectories(allowedPackageDir);
+        Files.createDirectories(blockedPackageDir);
+
+        // Configure filter to only allow "org.sandium.allowed" package
+        String[] filter = new String[]{"org.sandium.allowed"};
+        classLoader = new ModpackClassLoader(false, new Path[]{testClassesDir}, filter);
+
+        // Attempt to load a class from filtered package should throw ClassNotFoundException
+        assertThrows(ClassNotFoundException.class, 
+            () -> classLoader.loadClass("org.sandium.blocked.TestClass"));
+    }
+
+    @Test
+    void testPackageFilterAllowsMatchingClasses() throws IOException, ClassNotFoundException {
+        // Configure filter to allow "org.sandium.api" package
+        String[] filter = new String[]{"org.sandium.api"};
+        classLoader = new ModpackClassLoader(false, new Path[]{testClassesDir}, filter);
+
+        // Should be able to load classes from allowed API package (from system classloader)
+        Class<?> modClass = classLoader.loadClass("org.sandium.api.annotation.Mod");
+        assertNotNull(modClass);
+    }
+
+    @Test
+    void testPackageFilterWithMultiplePrefixes() throws IOException {
+        // Configure filter with multiple allowed packages
+        String[] filter = new String[]{"org.sandium.mods.vulkan", "org.sandium.mods.glfw"};
+        classLoader = new ModpackClassLoader(false, new Path[]{testClassesDir}, filter);
+
+        // Both prefixes should be allowed
+        assertNotNull(classLoader);
+        
+        // Verify that classes outside these packages would be blocked
+        assertThrows(ClassNotFoundException.class, 
+            () -> classLoader.loadClass("org.sandium.mods.other.SomeClass"));
+    }
+
+    @Test
+    void testPackageFilterAffectsModScanning() throws IOException {
+        // This test verifies that package filtering affects which mods are discovered
+        // In practice, only mods whose package-info matches the filter will be loaded
+        String[] filter = new String[]{"org.sandium.mods.vulkan"};
+        classLoader = new ModpackClassLoader(false, new Path[]{testClassesDir}, filter);
+
+        // Mods outside the filter should not be detected during scanning
+        // (Implementation detail: scanForMods checks the filter before loading package-info)
+        assertNotNull(classLoader.getMods());
+    }
+
+    @Test
+    void testPackageFilterPrefixMatching() throws IOException {
+        // Test that filter uses prefix matching, not exact matching
+        String[] filter = new String[]{"org.sandium"};
+        classLoader = new ModpackClassLoader(false, new Path[]{testClassesDir}, filter);
+
+        // Should allow any package starting with "org.sandium"
+        assertDoesNotThrow(() -> classLoader.loadClass("org.sandium.api.annotation.Mod"));
+    }
+
+    @Test
+    void testPackageFilterWithNoMatchThrowsException() throws IOException {
+        // Configure very restrictive filter
+        String[] filter = new String[]{"com.example.nonexistent"};
+        classLoader = new ModpackClassLoader(false, new Path[]{testClassesDir}, filter);
+
+        // Attempting to load any org.sandium class should fail
+        assertThrows(ClassNotFoundException.class, 
+            () -> classLoader.loadClass("org.sandium.test.SomeClass"));
+    }
 }

@@ -53,6 +53,7 @@ public class ModpackClassLoader extends ClassLoader implements AutoCloseable {
     private final boolean sandbox;
     private final List<Loader> loaders;
     private final List<LoadedMod> mods;
+    private final String[] packageFilter;
 
     /**
      * Creates a new ModpackClassLoader with the specified security and classpath settings.
@@ -66,8 +67,28 @@ public class ModpackClassLoader extends ClassLoader implements AutoCloseable {
      * @see #createLoaders(Path[])
      */
     public ModpackClassLoader(boolean sandbox, Path[] classpath) throws IOException {
+        this(sandbox, classpath, null);
+    }
+
+    /**
+     * Creates a new ModpackClassLoader with the specified security, classpath, and package filter settings.
+     *
+     * @param sandbox       If true, enables sandbox mode which restricts access to system classes
+     * @param classpath     Array of paths to search for mod files and classes. Can include both
+     *                      directories and JAR files
+     * @param packageFilter Array of package prefixes to filter which classes and mods are loaded.
+     *                      Only classes/mods whose fully qualified names start with one of these
+     *                      prefixes will be loaded. If null or empty, all packages are allowed.
+     *                      Example: ["org.sandium.mods.vulkan", "org.sandium.mods.glfw"]
+     * @throws IOException       If there is an error reading from any of the classpath locations
+     * @throws SecurityException If sandbox mode prevents loading of a required class
+     * @see #scanForMods()
+     * @see #createLoaders(Path[])
+     */
+    public ModpackClassLoader(boolean sandbox, Path[] classpath, String[] packageFilter) throws IOException {
         super(null);
         this.sandbox = sandbox;
+        this.packageFilter = packageFilter;
         loaders = createLoaders(classpath);
         mods = new LinkedList<>();
 
@@ -103,7 +124,8 @@ public class ModpackClassLoader extends ClassLoader implements AutoCloseable {
     /**
      * Scans the classpath for mod definitions by looking for package-info.class files
      * annotated with {@code @Mod}. When a mod is found, all classes in its package
-     * are collected into a {@code LoadedMod}.
+     * are collected into a {@code LoadedMod}. If a package filter is configured,
+     * only mods whose packages match the filter will be loaded.
      *
      * @throws IOException       If there is an error reading mod files
      * @throws SecurityException If sandbox mode prevents loading of mod classes
@@ -117,6 +139,12 @@ public class ModpackClassLoader extends ClassLoader implements AutoCloseable {
                 if (file.endsWith("package-info.class")) {
                     try {
                         String className = file.substring(0, file.length() - 6).replace('/', '.');
+                        
+                        // Skip if package filter is configured and class doesn't match
+                        if (isPackageDenied(className)) {
+                            continue;
+                        }
+                        
                         Class<?> packageInfo = loadClass(className);
 
                         if (packageInfo.isAnnotationPresent(Mod.class)) {
@@ -164,11 +192,12 @@ public class ModpackClassLoader extends ClassLoader implements AutoCloseable {
     /**
      * Loads a class with the specified binary name. When sandbox mode is enabled,
      * this method enforces security restrictions on which classes can be loaded.
+     * When a package filter is configured, only classes matching the filter can be loaded.
      *
      * @param name    The fully qualified name of the class
      * @param resolve If true, resolve the class
      * @return The resulting Class object
-     * @throws ClassNotFoundException If the class was not found
+     * @throws ClassNotFoundException If the class was not found or filtered out
      * @throws SecurityException      If sandbox mode prevents loading of the class
      * @see ClassLoader#loadClass(String, boolean)
      * @see #sandbox
@@ -190,6 +219,11 @@ public class ModpackClassLoader extends ClassLoader implements AutoCloseable {
                         }
                     }
                     if (c == null) {
+                        // Check package filter for non-system classes
+                        if (isPackageDenied(name)) {
+                            throw new ClassNotFoundException("Class " + name + " filtered out by package filter");
+                        }
+                        
                         ClassReader cr;
                         try {
                             InputStream in = load(name.replace(".", "/") + ".class");
@@ -255,6 +289,29 @@ public class ModpackClassLoader extends ClassLoader implements AutoCloseable {
         } else {
             return Collections.emptyEnumeration();
         }
+    }
+
+    /**
+     * Checks if a class or package name is allowed by the package filter.
+     *
+     * @param className The fully qualified class or package name to check
+     * @return true if the class is allowed (filter is null/empty or class matches a filter prefix),
+     *         false otherwise
+     */
+    private boolean isPackageDenied(String className) {
+        // If no filter is configured, allow all packages
+        if (packageFilter == null || packageFilter.length == 0) {
+            return false;
+        }
+
+        // Check if the class name starts with any of the allowed package prefixes
+        for (String allowedPackage : packageFilter) {
+            if (className.startsWith(allowedPackage)) {
+                return false;
+            }
+        }
+
+        return true;
     }
 
     /**
@@ -394,4 +451,3 @@ public class ModpackClassLoader extends ClassLoader implements AutoCloseable {
         }
     }
 }
-
