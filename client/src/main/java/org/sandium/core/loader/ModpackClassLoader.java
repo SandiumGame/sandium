@@ -282,7 +282,7 @@ public class ModpackClassLoader extends ClassLoader implements AutoCloseable {
      * be empty.
      */
     @Override
-    public Enumeration<URL> getResources(String name) throws IOException {
+    public Enumeration<URL> getResources(String name) {
         URL resource = getResource(name);
         if (resource != null) {
             return Collections.enumeration(Collections.singletonList(resource));
@@ -430,7 +430,7 @@ public class ModpackClassLoader extends ClassLoader implements AutoCloseable {
      */
     private class ModpackURLStreamHandler extends URLStreamHandler {
         @Override
-        protected URLConnection openConnection(URL url) throws IOException {
+        protected URLConnection openConnection(URL url) {
             return new URLConnection(url) {
                 @Override
                 public void connect() {
