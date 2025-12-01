@@ -23,7 +23,6 @@ public final class ClassValidator {
     public byte[] validateAndTransform(String name, byte[] classBytes) throws ValidationException {
         if (classBytes.length > MAX_CLASS_FILE_SIZE) {
             throw new ValidationException("Class file %s is bigger then the allowed %d bytes".formatted(name, MAX_CLASS_FILE_SIZE));
-
         }
 
         // Parse the class file into the ClassModel (preview API)
@@ -37,9 +36,9 @@ public final class ClassValidator {
         return ClassFile.of().build(classDesc, classBuilder -> {
             classBuilder.withInterfaces(classModel.interfaces());
             classModel.methods().forEach(method -> handleMethod(className, classBuilder, method));
-
-            // TODO Fields
         });
+
+        // TODO Fields
 
         // TODO Method calls
         // TODO   Don't allow invokedynamic
@@ -48,48 +47,12 @@ public final class ClassValidator {
         // TODO new (monitor memory consumption), Object pooling?
         // TODO Backward branching
         // TODO synchronized?
-        // TODO Native methods
         // TODO Recursive method calls?
         // TODO Validate constant pool indices
         // TODO Validate stack map frames
         // TODO Validate attribute structures
         // TODO Validate that instructions have proper operand widths
-
-//        List<String> foundDisallowed = new ArrayList<>();
-//
-//        for (MethodModel method : classModel.methods()) {
-//            Optional<CodeModel> codeOpt = method.code();
-//            if (codeOpt.isEmpty()) continue;
-//            CodeModel code = codeOpt.get();
-//
-//            // iterate over code elements; invocation instructions are delivered as InvokeInstruction
-//            code.forEach(elem -> {
-//                if (elem instanceof InvokeInstruction inv) {
-//                    // extract owner, name and descriptor
-//                    ClassEntry ownerEntry = inv.owner();
-//                    String ownerInternal = ownerEntry.asInternalName(); // e.g. java/lang/System
-//
-//                    Utf8Entry nameUtf8 = inv.name();
-//                    String name = nameUtf8.toString();
-//
-//                    Utf8Entry typeUtf8 = inv.type();
-//                    String descriptor = typeUtf8.toString();
-//
-//                    String canonical = ownerInternal + "#" + name + ":" + descriptor;
-//
-//                    if (!whitelist.contains(canonical)) {
-//                        foundDisallowed.add(canonical + " (in method " + method.methodName() + ")");
-//                    }
-//                }
-//            });
-//        }
-//
-//        if (!foundDisallowed.isEmpty()) {
-//            throw new ValidationException(foundDisallowed);
-//        }
-//
-//        // no changes for now; simply return the original bytes
-//        return classBytes;
+        // TODO Scan package classes
     }
 
     private void handleMethod(String className, ClassBuilder classbuilder, MethodModel method) throws ValidationException {
