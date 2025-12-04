@@ -1,0 +1,65 @@
+databaseChangeLog:
+  - changeSet:
+      id: 003-create-mod-versions-table
+      author: cline
+      changes:
+        - createTable:
+            tableName: mod_versions
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: mod_id
+                  type: bigint
+                  constraints:
+                    nullable: false
+                    foreignKeyName: fk_mod_versions_mod
+                    references: mods(id)
+                    deleteCascade: true
+              - column:
+                  name: version
+                  type: varchar(50)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: s3_key
+                  type: varchar(500)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: file_size
+                  type: bigint
+                  constraints:
+                    nullable: false
+              - column:
+                  name: checksum
+                  type: varchar(64)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: uploaded_at
+                  type: timestamp
+                  defaultValueComputed: CURRENT_TIMESTAMP
+                  constraints:
+                    nullable: false
+        - addUniqueConstraint:
+            tableName: mod_versions
+            columnNames: mod_id, version
+            constraintName: uk_mod_versions_mod_version
+        - createIndex:
+            indexName: idx_mod_versions_mod_id
+            tableName: mod_versions
+            columns:
+              - column:
+                  name: mod_id
+        - createIndex:
+            indexName: idx_mod_versions_checksum
+            tableName: mod_versions
+            columns:
+              - column:
+                  name: checksum

@@ -1,0 +1,74 @@
+databaseChangeLog:
+  - changeSet:
+      id: 001-create-users-table
+      author: cline
+      changes:
+        - createTable:
+            tableName: users
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: username
+                  type: varchar(50)
+                  constraints:
+                    nullable: false
+                    unique: true
+              - column:
+                  name: email
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+                    unique: true
+              - column:
+                  name: password_hash
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: api_key
+                  type: varchar(64)
+                  constraints:
+                    nullable: false
+                    unique: true
+              - column:
+                  name: storage_used
+                  type: bigint
+                  defaultValue: 0
+                  constraints:
+                    nullable: false
+              - column:
+                  name: storage_quota
+                  type: bigint
+                  defaultValue: 1073741824
+                  constraints:
+                    nullable: false
+              - column:
+                  name: created_at
+                  type: timestamp
+                  defaultValueComputed: CURRENT_TIMESTAMP
+                  constraints:
+                    nullable: false
+              - column:
+                  name: updated_at
+                  type: timestamp
+                  defaultValueComputed: CURRENT_TIMESTAMP
+                  constraints:
+                    nullable: false
+        - createIndex:
+            indexName: idx_users_username
+            tableName: users
+            columns:
+              - column:
+                  name: username
+        - createIndex:
+            indexName: idx_users_api_key
+            tableName: users
+            columns:
+              - column:
+                  name: api_key

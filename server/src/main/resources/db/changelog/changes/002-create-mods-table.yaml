@@ -1,0 +1,66 @@
+databaseChangeLog:
+  - changeSet:
+      id: 002-create-mods-table
+      author: cline
+      changes:
+        - createTable:
+            tableName: mods
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: user_id
+                  type: bigint
+                  constraints:
+                    nullable: false
+                    foreignKeyName: fk_mods_user
+                    references: users(id)
+                    deleteCascade: true
+              - column:
+                  name: group_id
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: artifact_id
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: description
+                  type: text
+              - column:
+                  name: created_at
+                  type: timestamp
+                  defaultValueComputed: CURRENT_TIMESTAMP
+                  constraints:
+                    nullable: false
+              - column:
+                  name: updated_at
+                  type: timestamp
+                  defaultValueComputed: CURRENT_TIMESTAMP
+                  constraints:
+                    nullable: false
+        - addUniqueConstraint:
+            tableName: mods
+            columnNames: group_id, artifact_id
+            constraintName: uk_mods_group_artifact
+        - createIndex:
+            indexName: idx_mods_user_id
+            tableName: mods
+            columns:
+              - column:
+                  name: user_id
+        - createIndex:
+            indexName: idx_mods_group_artifact
+            tableName: mods
+            columns:
+              - column:
+                  name: group_id
+              - column:
+                  name: artifact_id
