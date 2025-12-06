@@ -7,7 +7,6 @@ import org.sandium.server.entity.ModVersion;
 import org.sandium.server.entity.User;
 import org.sandium.server.security.UserPrincipal;
 import org.sandium.server.service.*;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.InputStreamResource;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -15,9 +14,7 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.multipart.MultipartFile;
 
-import java.io.IOException;
 import java.io.InputStream;
 import java.util.Optional;
 
@@ -29,9 +26,6 @@ public class MavenRepositoryController {
     private final ModService modService;
     private final ModVersionService modVersionService;
     private final MavenMetadataService mavenMetadataService;
-    
-    @Value("${security.api-key-header}")
-    private String apiKeyHeader;
     
     /**
      * Download artifact file (JAR, POM, etc.)

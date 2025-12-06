@@ -1,425 +1,165 @@
-# Sandium Server - Maven Repository Implementation
+# Sandium Server
 
-This server provides a Maven-compatible repository for storing and distributing Sandium mods, backed by S3-compatible storage (Linode Object Storage).
+The Sandium server provides a Maven repository for hosting and distributing mods, along with REST APIs for mod management.
 
 ## Features
 
-✅ **User Management**
-- User registration with username, email, and password
-- Simple API key authentication
-- 1GB storage quota per user (configurable)
+- **Maven Repository**: Host and distribute mods using standard Maven/Gradle tooling
+- **User Authentication**: Secure access using HTTP Basic Authentication
+- **Storage Management**: 1GB free storage per user
+- **S3 Integration**: Scalable artifact storage using S3-compatible object storage
 
-✅ **Mod Management**
-- Create mods with groupId = username
-- Upload multiple versions per mod
-- Delete mods and versions
-- Track storage usage
+## Authentication
 
-✅ **Maven Repository**
-- Maven-compatible download endpoints
-- Generated maven-metadata.xml files
-- SHA-256 checksums for integrity
-- Public downloads, authenticated uploads
+The server uses HTTP Basic Authentication for Maven repository access. Users authenticate using:
+- **Username**: Your Sandium username
+- **Password**: Your API key (not your account password)
 
-✅ **S3 Storage**
-- S3-compatible object storage (Linode)
-- Organized by Maven structure: `{username}/{artifactId}/{version}/{filename}`
-- Automatic file management on deletions
+### Getting Your API Key
 
-## Architecture
+When you register an account, an API key is automatically generated. You can view your API key by:
+1. Logging in via the REST API (`POST /api/users/login`)
+2. The response includes your API key
 
-### Database Schema
+You can also regenerate your API key at any time using the API.
 
-**Users Table**
-- id (PK)
-- username (unique)
-- email (unique)
-- password_hash
-- api_key (unique, auto-generated)
-- storage_used (bytes)
-- storage_quota (bytes, default 1GB)
-- created_at, updated_at
+## Configuring Build Tools
 
-**Mods Table**
-- id (PK)
-- user_id (FK)
-- group_id (Maven groupId, equals username)
-- artifact_id (Maven artifactId)
-- description
-- created_at, updated_at
-- UNIQUE(group_id, artifact_id)
-
-**ModVersions Table**
-- id (PK)
-- mod_id (FK)
-- version
-- s3_key (path in S3)
-- file_size (bytes)
-- checksum (SHA-256)
-- uploaded_at
-- UNIQUE(mod_id, version)
-
-### Technology Stack
-
-- **Spring Boot 4.0.0** - Web framework
-- **Spring Security** - Authentication/authorization
-- **Spring Data JPA** - Database access
-- **PostgreSQL** - Database
-- **Liquibase** - Database migrations
-- **AWS S3 SDK** - S3 storage access
-- **Lombok** - Reduce boilerplate
-
-## Setup
-
-### Prerequisites
-
-1. **PostgreSQL Database**
-   ```bash
-   # Create database and user
-   createdb sandium
-   createuser sandium -P
-   # Enter password: P@ssw0rd (or change in application.properties)
-   ```
-
-2. **Linode Object Storage** (or S3-compatible)
-   - Create a bucket (e.g., `sandium-mods`)
-   - Generate access credentials
-   - Note the endpoint URL
-
-### Configuration
-
-Set environment variables or update `application.properties`:
-
-```bash
-# Database
-export SPRING_DATASOURCE_URL=jdbc:postgresql://localhost:5432/sandium
-export SPRING_DATASOURCE_USERNAME=sandium
-export SPRING_DATASOURCE_PASSWORD=P@ssw0rd
-
-# S3/Linode Object Storage
-export S3_ENDPOINT=https://us-east-1.linodeobjects.com
-export S3_REGION=us-east-1
-export S3_BUCKET=sandium-mods
-export S3_ACCESS_KEY=your-access-key
-export S3_SECRET_KEY=your-secret-key
-```
-
-### Running
-
-```bash
-# From project root
-./gradlew :server:bootRun
-
-# Or build and run JAR
-./gradlew :server:build
-java -jar server/build/libs/server-*.jar
-```
-
-Server runs on `http://localhost:8080`
-
-## API Endpoints
-
-### User Management
-
-#### Register User
-```http
-POST /api/users/register
-Content-Type: application/json
-
-{
-  "username": "johndoe",
-  "email": "john@example.com",
-  "password": "securepassword123"
-}
-
-Response: 201 Created
-{
-  "id": 1,
-  "username": "johndoe",
-  "email": "john@example.com",
-  "apiKey": "generated-api-key",
-  "storageUsed": 0,
-  "storageQuota": 1073741824
-}
-```
-
-#### Login
-```http
-POST /api/users/login
-Content-Type: application/json
-
-{
-  "usernameOrEmail": "johndoe",
-  "password": "securepassword123"
-}
-
-Response: 200 OK
-{
-  "id": 1,
-  "username": "johndoe",
-  "email": "john@example.com",
-  "apiKey": "your-api-key",
-  "storageUsed": 0,
-  "storageQuota": 1073741824
-}
-```
-
-#### Get Current User
-```http
-GET /api/users/me
-X-API-Key: your-api-key
-
-Response: 200 OK
-{
-  "id": 1,
-  "username": "johndoe",
-  "email": "john@example.com",
-  "apiKey": "your-api-key",
-  "storageUsed": 52428800,
-  "storageQuota": 1073741824
-}
-```
-
-#### Regenerate API Key
-```http
-POST /api/users/regenerate-api-key
-X-API-Key: your-current-api-key
-
-Response: 200 OK
-{
-  "apiKey": "new-generated-api-key"
-}
-```
-
-### Mod Management
-
-#### List User's Mods
-```http
-GET /api/mods
-X-API-Key: your-api-key
-
-Response: 200 OK
-[
-  {
-    "id": 1,
-    "groupId": "johndoe",
-    "artifactId": "my-awesome-mod",
-    "description": "An awesome mod for Sandium",
-    "createdAt": "2025-12-03T19:00:00Z",
-    "updatedAt": "2025-12-03T19:00:00Z"
-  }
-]
-```
-
-#### Create Mod
-```http
-POST /api/mods?artifactId=my-awesome-mod&description=An awesome mod
-X-API-Key: your-api-key
-
-Response: 201 Created
-{
-  "id": 1,
-  "groupId": "johndoe",
-  "artifactId": "my-awesome-mod",
-  "description": "An awesome mod",
-  "createdAt": "2025-12-03T19:00:00Z",
-  "updatedAt": "2025-12-03T19:00:00Z"
-}
-```
-
-#### Upload Mod Version
-```http
-POST /api/mods/1/versions
-X-API-Key: your-api-key
-Content-Type: multipart/form-data
-
-version=1.0.0
-file=@my-mod-1.0.0.jar
-
-Response: 201 Created
-{
-  "id": 1,
-  "version": "1.0.0",
-  "fileSize": 52428800,
-  "checksum": "sha256-hash",
-  "uploadedAt": "2025-12-03T19:00:00Z"
-}
-```
-
-#### List Mod Versions
-```http
-GET /api/mods/1/versions
-
-Response: 200 OK
-[
-  {
-    "id": 1,
-    "version": "1.0.0",
-    "fileSize": 52428800,
-    "checksum": "sha256-hash",
-    "uploadedAt": "2025-12-03T19:00:00Z"
-  }
-]
-```
-
-#### Delete Mod
-```http
-DELETE /api/mods/1
-X-API-Key: your-api-key
-
-Response: 204 No Content
-```
-
-#### Delete Version
-```http
-DELETE /api/mods/versions/1
-X-API-Key: your-api-key
-
-Response: 204 No Content
-```
-
-### Maven Repository (Public Downloads)
-
-#### Download Artifact
-```http
-GET /johndoe/my-awesome-mod/1.0.0/my-awesome-mod-1.0.0.jar
-
-Response: 200 OK
-Content-Type: application/java-archive
-[binary content]
-```
-
-#### Download Checksum
-```http
-GET /johndoe/my-awesome-mod/1.0.0/my-awesome-mod-1.0.0.jar.sha256
-
-Response: 200 OK
-Content-Type: text/plain
-abc123def456...
-```
-
-#### Get Maven Metadata
-```http
-GET /johndoe/my-awesome-mod/maven-metadata.xml
-
-Response: 200 OK
-Content-Type: application/xml
-
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata>
-  <groupId>johndoe</groupId>
-  <artifactId>my-awesome-mod</artifactId>
-  <versioning>
-    <latest>1.0.0</latest>
-    <release>1.0.0</release>
-    <versions>
-      <version>1.0.0</version>
-    </versions>
-    <lastUpdated>20251203190000</lastUpdated>
-  </versioning>
-</metadata>
-```
-
-## Using in Gradle
+### Gradle Configuration
 
 Add the Sandium repository to your `build.gradle`:
 
-```gradle
+```groovy
 repositories {
     maven {
-        url = "https://your-sandium-server.com"
+        url 'https://sandium.example.com'  // Replace with actual server URL
+        credentials {
+            username = project.findProperty('sandiumUsername') ?: System.getenv('SANDIUM_USERNAME')
+            password = project.findProperty('sandiumApiKey') ?: System.getenv('SANDIUM_API_KEY')
+        }
     }
 }
+```
 
-dependencies {
-    implementation 'johndoe:my-awesome-mod:1.0.0'
+Then create a `~/.gradle/gradle.properties` file with your credentials:
+
+```properties
+sandiumUsername=your-username
+sandiumApiKey=your-api-key-here
+```
+
+Or set environment variables:
+```bash
+export SANDIUM_USERNAME=your-username
+export SANDIUM_API_KEY=your-api-key-here
+```
+
+### Maven Configuration
+
+Add the repository to your `pom.xml`:
+
+```xml
+<repositories>
+    <repository>
+        <id>sandium</id>
+        <url>https://sandium.example.com</url>
+    </repository>
+</repositories>
+```
+
+Add credentials to `~/.m2/settings.xml`:
+
+```xml
+<settings>
+    <servers>
+        <server>
+            <id>sandium</id>
+            <username>your-username</username>
+            <password>your-api-key-here</password>
+        </server>
+    </servers>
+</settings>
+```
+
+## Publishing Mods
+
+To publish a mod to the repository, configure your build tool to publish to Sandium:
+
+### Gradle Publishing
+
+```groovy
+plugins {
+    id 'maven-publish'
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'your-username'  // Must match your Sandium username
+            artifactId = 'your-mod'
+            version = '1.0.0'
+            
+            from components.java
+        }
+    }
+    
+    repositories {
+        maven {
+            url 'https://sandium.example.com'
+            credentials {
+                username = project.findProperty('sandiumUsername')
+                password = project.findProperty('sandiumApiKey')
+            }
+        }
+    }
 }
 ```
 
-## Security
-
-### API Key Authentication
-
-- API keys are generated automatically on user registration
-- Include API key in `X-API-Key` header for authenticated requests
-- API keys can be regenerated if compromised
-
-### Authorization Rules
-
-- **Public**: Maven artifact downloads, maven-metadata.xml
-- **Authenticated**: All /api/* endpoints (except /register and /login)
-- **Owner-only**: Users can only modify their own mods
-
-### Storage Quota
-
-- Each user has a 1GB storage quota (configurable)
-- Uploads are rejected if quota exceeded
-- Deleting mods/versions frees up quota
-
-## File Validation
-
-Current validation includes:
-- File size limit (100MB per file, configurable)
-- SHA-256 checksum generation for integrity
-- Basic file type checking (JAR/POM)
-
-## Database Migrations
-
-Migrations are managed by Liquibase in `src/main/resources/db/changelog/`.
-
-To create a new migration:
-1. Add a new changeset file in `db/changelog/changes/`
-2. Include it in `db.changelog-master.yaml`
-
-## Development
-
-### Running Tests
+Then publish with:
 ```bash
-./gradlew :server:test
+./gradlew publish
 ```
 
-### Building
-```bash
-./gradlew :server:build
-```
+## REST API Endpoints
 
-### Database Reset
-```bash
-# Drop and recreate database
-dropdb sandium
-createdb sandium
-./gradlew :server:bootRun  # Liquibase will run migrations
-```
+### User Management
 
-## Troubleshooting
+- `POST /api/users/register` - Register a new account
+- `POST /api/users/login` - Login and get user details including API key
+- `GET /api/users/me` - Get current user information (requires authentication)
 
-### Database Connection Issues
-- Ensure PostgreSQL is running
-- Check credentials in application.properties
-- Verify database exists
+### Mod Management
 
-### S3 Connection Issues
-- Verify endpoint URL is correct
-- Check access credentials
-- Ensure bucket exists and is accessible
+- `GET /api/mods` - List all mods
+- `POST /api/mods` - Create a new mod
+- `GET /api/mods/{id}` - Get mod details
+- `POST /api/mods/{id}/versions` - Upload a new mod version
 
-### Upload Failures
-- Check storage quota hasn't been exceeded
-- Verify file size is under limit (100MB)
-- Ensure API key is valid
+### Maven Repository
 
-## Future Enhancements
+- `GET /{groupId}/{artifactId}/{version}/{filename}` - Download artifact
+- `GET /{groupId}/{artifactId}/maven-metadata.xml` - Get Maven metadata
+- `PUT /{groupId}/{artifactId}/{version}/{filename}` - Upload artifact (requires authentication)
 
-- [ ] SNAPSHOT version support
-- [ ] POM file upload and validation
-- [ ] Maven signatures (GPG)
-- [ ] Search functionality
-- [ ] Web UI for browsing mods
-- [ ] Usage statistics
-- [ ] Rate limiting
-- [ ] Mod categories/tags
-- [ ] Version compatibility tracking
+## Development Setup
 
-## License
+1. Install PostgreSQL
+2. Create database: `createdb sandium`
+3. Configure `application.properties` with database credentials
+4. Set up S3-compatible object storage (e.g., Linode Object Storage)
+5. Run the server: `./gradlew bootRun`
 
-See root LICENSE file.
+## Security Notes
+
+- **Never share your API key**: Treat it like a password
+- **Use HTTPS in production**: HTTP Basic Auth sends credentials with each request
+- **API keys are stored securely**: They are randomly generated and unique per user
+- **Downloads are public**: Anyone can download mods, authentication only required for uploads
+- **Group ID enforcement**: You can only publish mods under your own username as the group ID
+
+## Storage Limits
+
+- Default quota: 1GB per user
+- Maximum file size: 100MB per artifact
+- Storage usage is tracked automatically
+- Contact administrators for quota increases
