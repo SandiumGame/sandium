@@ -137,9 +137,9 @@ Then publish with:
 
 ### Maven Repository
 
-- `GET /{groupId}/{artifactId}/{version}/{filename}` - Download artifact
-- `GET /{groupId}/{artifactId}/maven-metadata.xml` - Get Maven metadata
-- `PUT /{groupId}/{artifactId}/{version}/{filename}` - Upload artifact (requires authentication)
+- `GET /repo/{groupId}/{artifactId}/{version}/{filename}` - Download artifact
+- `GET /repo/{groupId}/{artifactId}/maven-metadata.xml` - Get Maven metadata
+- `PUT /repo/{groupId}/{artifactId}/{version}/{filename}` - Upload artifact (requires authentication)
 
 ## Development Setup
 

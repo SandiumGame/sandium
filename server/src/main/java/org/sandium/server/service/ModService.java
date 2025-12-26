@@ -10,6 +10,7 @@ import org.sandium.server.repository.ModVersionRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.io.FileNotFoundException;
 import java.util.List;
 import java.util.Optional;
 
@@ -20,7 +21,7 @@ public class ModService {
     
     private final ModRepository modRepository;
     private final ModVersionRepository modVersionRepository;
-    private final S3Service s3Service;
+    private final FileService fileService;
     private final UserService userService;
     
     /**
@@ -64,11 +65,11 @@ public class ModService {
     /**
      * Get all mods for a username
      */
-    public List<Mod> getUserModsByUsername(String username) {
-        User user = userService.findByUsername(username)
-                .orElseThrow(() -> new IllegalArgumentException("User not found: " + username));
-        return modRepository.findByUser(user);
-    }
+//    public List<Mod> getUserModsByUsername(String username) {
+//        User user = userService.findByUsername(username)
+//                .orElseThrow(() -> new IllegalArgumentException("User not found: " + username));
+//        return modRepository.findByUser(user);
+//    }
     
     /**
      * Update mod description
@@ -99,7 +100,11 @@ public class ModService {
         List<ModVersion> versions = modVersionRepository.findByModIdOrderByUploadedAtDesc(modId);
         long totalSize = 0;
         for (ModVersion version : versions) {
-            s3Service.deleteFile(version.getS3Key());
+            try {
+                fileService.deleteFile(version.getS3Key());
+            } catch (FileNotFoundException e) {
+                throw new RuntimeException(e);
+            }
             totalSize += version.getFileSize();
         }
         

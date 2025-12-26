@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.security.MessageDigest;
@@ -24,7 +25,7 @@ import java.util.Optional;
 public class ModVersionService {
     
     private final ModVersionRepository modVersionRepository;
-    private final S3Service s3Service;
+    private final FileService fileService;
     private final UserService userService;
     
     @Value("${storage.max-file-size}")
@@ -57,7 +58,7 @@ public class ModVersionService {
         String s3Key = buildS3Key(mod.getGroupId(), mod.getArtifactId(), version, file.getOriginalFilename());
         
         // Upload to S3
-        s3Service.uploadFile(s3Key, file.getInputStream(), file.getSize(), file.getContentType());
+        fileService.uploadFile(s3Key, file.getInputStream(), file.getSize(), file.getContentType());
         
         // Create version record
         ModVersion modVersion = ModVersion.builder()
@@ -105,8 +106,12 @@ public class ModVersionService {
         }
         
         // Delete from S3
-        s3Service.deleteFile(version.getS3Key());
-        
+        try {
+            fileService.deleteFile(version.getS3Key());
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+
         // Update user storage
         userService.updateStorageUsage(user.getId(), -version.getFileSize());
         
@@ -123,7 +128,11 @@ public class ModVersionService {
      * Download a version file
      */
     public InputStream downloadVersion(ModVersion version) {
-        return s3Service.downloadFile(version.getS3Key());
+        try {
+            return fileService.downloadFile(version.getS3Key());
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
     }
     
     /**

@@ -1,60 +1,72 @@
 package org.sandium.server.config;
 
 import lombok.RequiredArgsConstructor;
-import org.sandium.server.security.ApiKeyUserDetailsService;
+import org.sandium.server.security.Authorities;
+import org.sandium.server.security.SandiumUserPrincipal;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.security.authentication.AuthenticationManager;
-import org.springframework.security.authentication.ProviderManager;
-import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
+import org.springframework.core.annotation.Order;
+import org.springframework.security.authentication.BadCredentialsException;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
-import org.springframework.security.config.http.SessionCreationPolicy;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
 @EnableWebSecurity
 @RequiredArgsConstructor
 public class SecurityConfig {
-    
-    private final ApiKeyUserDetailsService apiKeyUserDetailsService;
-    
+
+    private final UserDetailsService userDetailsService;
+
     @Bean
-    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-        http
-            .csrf(AbstractHttpConfigurer::disable)
-            .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
-            .authorizeHttpRequests(auth -> auth
-                // Public endpoints - User registration and login
-                .requestMatchers("/api/users/register", "/api/users/login").permitAll()
-                // Maven repository downloads are public
-                .requestMatchers("/*/*/*/*").permitAll() // Maven path pattern
-                .requestMatchers("/*/*/maven-metadata.xml").permitAll()
-                // Maven repository uploads require authentication
-                .requestMatchers("/*/*/*/*").authenticated()
-                // All other API endpoints require authentication
-                .requestMatchers("/api/**").authenticated()
-                .anyRequest().permitAll()
-            )
-            .httpBasic(basic -> {
-                // Enable HTTP Basic Authentication for Maven repository access
-                // Users authenticate with: username + API key
-            });
-        
+    @Order(1)
+    public SecurityFilterChain securityFilterChain(HttpSecurity http)  {
+        http.securityMatcher("/repo/**")
+                .csrf(AbstractHttpConfigurer::disable)
+                .authorizeHttpRequests((authorizeHttpRequests) ->
+                        authorizeHttpRequests.requestMatchers("/repo/**").hasAuthority(Authorities.REPO.getAuthority().getAuthority())
+                )
+                .httpBasic(httpSecurityHttpBasicConfigurer -> {
+                    httpSecurityHttpBasicConfigurer.realmName("Repo");
+                })
+                .authenticationManager(authentication -> {
+                    Object principal = authentication.getPrincipal();
+                    if (principal == null) {
+                        throw new BadCredentialsException("Username not specified");
+                    }
+
+                    SandiumUserPrincipal user = (SandiumUserPrincipal) userDetailsService.loadUserByUsername(principal.toString());
+
+                    Object credentials = authentication.getCredentials();
+                    if (credentials == null) {
+                        throw new BadCredentialsException("Credentials not specified");
+                    }
+                    user.authenticateApiKey(credentials.toString());
+
+                    return new UsernamePasswordAuthenticationToken(user, null, user.getAuthorities());
+                });
         return http.build();
     }
-    
+
     @Bean
-    public AuthenticationManager authenticationManager() {
-        DaoAuthenticationProvider provider = new DaoAuthenticationProvider(apiKeyUserDetailsService);
-        return new ProviderManager(provider);
+    @Order(2)
+    public SecurityFilterChain securityFilterChain2(HttpSecurity http)  {
+        http.securityMatcher("/account/**")
+                .authorizeHttpRequests((authorizeHttpRequests) ->
+                        authorizeHttpRequests
+                                .requestMatchers("/account/**").hasRole("USER")
+                )
+                .httpBasic(httpSecurityHttpBasicConfigurer -> {
+                    httpSecurityHttpBasicConfigurer.realmName("Account");
+                })
+                .authenticationManager(authentication -> {
+                    System.out.println(authentication.getPrincipal());
+                    throw new BadCredentialsException("Invalid user/password");
+                });
+        return http.build();
     }
-    
-    @Bean
-    public PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder();
-    }
+
 }

@@ -5,7 +5,7 @@ import org.sandium.server.dto.ModResponse;
 import org.sandium.server.dto.ModVersionResponse;
 import org.sandium.server.entity.Mod;
 import org.sandium.server.entity.ModVersion;
-import org.sandium.server.security.UserPrincipal;
+import org.sandium.server.security.SandiumUserPrincipal;
 import org.sandium.server.service.ModService;
 import org.sandium.server.service.ModVersionService;
 import org.springframework.http.HttpStatus;
@@ -28,12 +28,12 @@ public class ModController {
     
     @GetMapping
     public ResponseEntity<?> getUserMods(Authentication authentication) {
-        if (authentication == null || !(authentication.getPrincipal() instanceof UserPrincipal)) {
+        if (authentication == null || !(authentication.getPrincipal() instanceof SandiumUserPrincipal)) {
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Unauthorized");
         }
         
-        UserPrincipal principal = (UserPrincipal) authentication.getPrincipal();
-        List<Mod> mods = modService.getUserMods(principal.getUser());
+        SandiumUserPrincipal principal = (SandiumUserPrincipal) authentication.getPrincipal();
+        List<Mod> mods = null; // TODO modService.getUserMods(principal.getUser());
         List<ModResponse> response = mods.stream()
                 .map(ModResponse::fromMod)
                 .collect(Collectors.toList());
@@ -47,14 +47,14 @@ public class ModController {
             @RequestParam(required = false) String description,
             Authentication authentication) {
         
-        if (authentication == null || !(authentication.getPrincipal() instanceof UserPrincipal)) {
+        if (authentication == null || !(authentication.getPrincipal() instanceof SandiumUserPrincipal)) {
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Unauthorized");
         }
         
-        UserPrincipal principal = (UserPrincipal) authentication.getPrincipal();
+        SandiumUserPrincipal principal = (SandiumUserPrincipal) authentication.getPrincipal();
         
         try {
-            Mod mod = modService.createMod(principal.getUser(), artifactId, description);
+            Mod mod = modService.createMod(null /* TODO principal.getUser() */, artifactId, description);
             return ResponseEntity.status(HttpStatus.CREATED).body(ModResponse.fromMod(mod));
         } catch (IllegalArgumentException e) {
             return ResponseEntity.badRequest().body(e.getMessage());
@@ -63,14 +63,14 @@ public class ModController {
     
     @DeleteMapping("/{modId}")
     public ResponseEntity<?> deleteMod(@PathVariable Long modId, Authentication authentication) {
-        if (authentication == null || !(authentication.getPrincipal() instanceof UserPrincipal)) {
+        if (authentication == null || !(authentication.getPrincipal() instanceof SandiumUserPrincipal)) {
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Unauthorized");
         }
         
-        UserPrincipal principal = (UserPrincipal) authentication.getPrincipal();
+        SandiumUserPrincipal principal = (SandiumUserPrincipal) authentication.getPrincipal();
         
         try {
-            modService.deleteMod(modId, principal.getUser());
+            modService.deleteMod(modId, null /* TODO principal.getUser() */);
             return ResponseEntity.noContent().build();
         } catch (IllegalArgumentException e) {
             return ResponseEntity.notFound().build();
@@ -102,11 +102,11 @@ public class ModController {
             @RequestParam("file") MultipartFile file,
             Authentication authentication) {
         
-        if (authentication == null || !(authentication.getPrincipal() instanceof UserPrincipal)) {
+        if (authentication == null || !(authentication.getPrincipal() instanceof SandiumUserPrincipal)) {
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Unauthorized");
         }
         
-        UserPrincipal principal = (UserPrincipal) authentication.getPrincipal();
+        SandiumUserPrincipal principal = (SandiumUserPrincipal) authentication.getPrincipal();
         
         try {
             // Get mod and verify ownership
@@ -115,11 +115,11 @@ public class ModController {
                 return ResponseEntity.notFound().build();
             }
             
-            if (!modService.isModOwner(mod, principal.getUser())) {
+            if (!modService.isModOwner(mod, null /* TODO principal.getUser() */)) {
                 return ResponseEntity.status(HttpStatus.FORBIDDEN).body("Not authorized");
             }
-            
-            ModVersion modVersion = modVersionService.uploadVersion(mod, version, file, principal.getUser());
+
+            ModVersion modVersion = modVersionService.uploadVersion(mod, version, file, null /* TODO principal.getUser() */);
             return ResponseEntity.status(HttpStatus.CREATED).body(ModVersionResponse.fromModVersion(modVersion));
             
         } catch (IllegalArgumentException e) {
@@ -131,14 +131,14 @@ public class ModController {
     
     @DeleteMapping("/versions/{versionId}")
     public ResponseEntity<?> deleteVersion(@PathVariable Long versionId, Authentication authentication) {
-        if (authentication == null || !(authentication.getPrincipal() instanceof UserPrincipal)) {
+        if (authentication == null || !(authentication.getPrincipal() instanceof SandiumUserPrincipal)) {
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Unauthorized");
         }
         
-        UserPrincipal principal = (UserPrincipal) authentication.getPrincipal();
+        SandiumUserPrincipal principal = (SandiumUserPrincipal) authentication.getPrincipal();
         
         try {
-            modVersionService.deleteVersion(versionId, principal.getUser());
+            modVersionService.deleteVersion(versionId, null /* TODO principal.getUser() */);
             return ResponseEntity.noContent().build();
         } catch (IllegalArgumentException e) {
             return ResponseEntity.notFound().build();

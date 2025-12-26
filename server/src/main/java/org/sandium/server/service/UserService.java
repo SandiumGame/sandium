@@ -4,6 +4,8 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.sandium.server.entity.User;
 import org.sandium.server.repository.UserRepository;
+import org.springframework.security.authentication.BadCredentialsException;
+import org.springframework.security.crypto.bcrypt.BCrypt;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -18,7 +20,6 @@ import java.util.Optional;
 public class UserService {
     
     private final UserRepository userRepository;
-    private final PasswordEncoder passwordEncoder;
     private static final SecureRandom secureRandom = new SecureRandom();
     
     /**
@@ -38,7 +39,7 @@ public class UserService {
         User user = User.builder()
                 .username(username)
                 .email(email)
-                .passwordHash(passwordEncoder.encode(password))
+//                .passwordHash(passwordEncoder.encode(password))
                 .apiKey(generateApiKey())
                 .storageUsed(0L)
                 .storageQuota(1073741824L) // 1GB default
@@ -48,37 +49,11 @@ public class UserService {
         log.info("Registered new user: {}", username);
         return savedUser;
     }
-    
-    /**
-     * Authenticate a user with username/email and password
-     */
-    public Optional<User> authenticate(String usernameOrEmail, String password) {
-        Optional<User> userOpt = userRepository.findByUsername(usernameOrEmail);
-        if (userOpt.isEmpty()) {
-            userOpt = userRepository.findByEmail(usernameOrEmail);
-        }
-        
-        if (userOpt.isPresent()) {
-            User user = userOpt.get();
-            if (passwordEncoder.matches(password, user.getPasswordHash())) {
-                return Optional.of(user);
-            }
-        }
-        
-        return Optional.empty();
-    }
-    
-    /**
-     * Find user by API key
-     */
-    public Optional<User> findByApiKey(String apiKey) {
-        return userRepository.findByApiKey(apiKey);
-    }
-    
+
     /**
      * Find user by username
      */
-    public Optional<User> findByUsername(String username) {
+    public User findByUsername(String username) {
         return userRepository.findByUsername(username);
     }
     

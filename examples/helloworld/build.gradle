@@ -1,0 +1,63 @@
+plugins {
+    id 'java'
+    id 'maven-publish'
+}
+
+group = 'sandium'
+version = '1.0.0'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_25
+    targetCompatibility = JavaVersion.VERSION_25
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Dependency on the Sandium client API
+    compileOnly project(':client')
+}
+
+jar {
+    manifest {
+        attributes(
+            'Implementation-Title': 'Hello World Mod',
+            'Implementation-Version': version,
+            'Mod-Class': 'org.sandium.examples.helloworld.HelloWorldMod'
+        )
+    }
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = project.group
+            artifactId = 'hello-world'
+            version = project.version
+            
+            from components.java
+        }
+    }
+    
+    repositories {
+        maven {
+            name = 'sandium'
+            url = project.findProperty('sandiumRepoUrl') ?: 'https://repo.sandium.org/repo'
+            allowInsecureProtocol = true
+
+            credentials {
+                username = project.findProperty('sandiumUsername') ?: ''
+                password = project.findProperty('sandiumApiKey') ?: ''
+            }
+        }
+    }
+}
+
+// Task to publish to Sandium repository
+tasks.register('publishToSandium') {
+    dependsOn 'publishMavenPublicationToSandiumRepository'
+    group = 'publishing'
+    description = 'Publishes the mod to the Sandium Maven repository'
+}
