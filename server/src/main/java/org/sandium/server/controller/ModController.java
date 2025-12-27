@@ -94,56 +94,5 @@ public class ModController {
             return ResponseEntity.notFound().build();
         }
     }
-    
-    @PostMapping("/{modId}/versions")
-    public ResponseEntity<?> uploadVersion(
-            @PathVariable Long modId,
-            @RequestParam String version,
-            @RequestParam("file") MultipartFile file,
-            Authentication authentication) {
-        
-        if (authentication == null || !(authentication.getPrincipal() instanceof SandiumUserPrincipal)) {
-            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Unauthorized");
-        }
-        
-        SandiumUserPrincipal principal = (SandiumUserPrincipal) authentication.getPrincipal();
-        
-        try {
-            // Get mod and verify ownership
-            Mod mod = modService.findMod(null, null).orElse(null); // Simplified - would need proper lookup
-            if (mod == null) {
-                return ResponseEntity.notFound().build();
-            }
-            
-            if (!modService.isModOwner(mod, null /* TODO principal.getUser() */)) {
-                return ResponseEntity.status(HttpStatus.FORBIDDEN).body("Not authorized");
-            }
 
-            ModVersion modVersion = modVersionService.uploadVersion(mod, version, file, null /* TODO principal.getUser() */);
-            return ResponseEntity.status(HttpStatus.CREATED).body(ModVersionResponse.fromModVersion(modVersion));
-            
-        } catch (IllegalArgumentException e) {
-            return ResponseEntity.badRequest().body(e.getMessage());
-        } catch (IOException e) {
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Failed to upload file");
-        }
-    }
-    
-    @DeleteMapping("/versions/{versionId}")
-    public ResponseEntity<?> deleteVersion(@PathVariable Long versionId, Authentication authentication) {
-        if (authentication == null || !(authentication.getPrincipal() instanceof SandiumUserPrincipal)) {
-            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Unauthorized");
-        }
-        
-        SandiumUserPrincipal principal = (SandiumUserPrincipal) authentication.getPrincipal();
-        
-        try {
-            modVersionService.deleteVersion(versionId, null /* TODO principal.getUser() */);
-            return ResponseEntity.noContent().build();
-        } catch (IllegalArgumentException e) {
-            return ResponseEntity.notFound().build();
-        } catch (SecurityException e) {
-            return ResponseEntity.status(HttpStatus.FORBIDDEN).body(e.getMessage());
-        }
-    }
 }

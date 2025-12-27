@@ -57,7 +57,7 @@ public class SecurityConfig {
         http.securityMatcher("/account/**")
                 .authorizeHttpRequests((authorizeHttpRequests) ->
                         authorizeHttpRequests
-                                .requestMatchers("/account/**").hasRole("USER")
+                                .requestMatchers("/account/**").hasAuthority(Authorities.USER.getAuthority().getAuthority())
                 )
                 .httpBasic(httpSecurityHttpBasicConfigurer -> {
                     httpSecurityHttpBasicConfigurer.realmName("Account");
